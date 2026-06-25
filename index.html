@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Christ-centred stories of Christians throughout history — for worship, teaching, and family devotion.">
+  <title>Lives of Faith — Christians Throughout History</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a href="index.html" class="site-title" aria-label="Lives of Faith — Home">
+          <span class="site-title__main">Lives of Faith</span>
+          <span class="site-title__sub">Christians Throughout History</span>
+        </a>
+        <nav class="site-nav" aria-label="Site navigation">
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <section class="intro" aria-label="Site description">
+        <p>Stories of men and women whose lives were shaped by the grace of Jesus Christ — drawn from every era and region of the church, offered for worship, devotion, and teaching.</p>
+      </section>
+
+      <section class="search-filter" aria-label="Search and filter">
+        <div class="search-row">
+          <label for="search-input" class="sr-only">Search by name</label>
+          <input
+            type="search"
+            id="search-input"
+            class="search-input"
+            placeholder="Search by name…"
+            autocomplete="off"
+            aria-label="Search by name"
+          >
+        </div>
+        <div class="filter-row">
+          <label for="filter-region" class="sr-only">Filter by region</label>
+          <select id="filter-region" class="filter-select" aria-label="Filter by region">
+            <option value="">All Regions</option>
+            <option value="UK/Ireland">UK / Ireland</option>
+            <option value="North America">North America</option>
+            <option value="Africa">Africa</option>
+            <option value="Asia">Asia</option>
+            <option value="Latin America">Latin America</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+
+          <label for="filter-era" class="sr-only">Filter by era</label>
+          <select id="filter-era" class="filter-select" aria-label="Filter by era">
+            <option value="">All Eras</option>
+            <option value="Early Church">Early Church</option>
+            <option value="Medieval">Medieval</option>
+            <option value="Reformation">Reformation</option>
+            <option value="17th Century">17th Century</option>
+            <option value="18th Century">18th Century</option>
+            <option value="19th Century">19th Century</option>
+            <option value="20th Century">20th Century</option>
+            <option value="21st Century">21st Century</option>
+          </select>
+
+          <label for="filter-topic" class="sr-only">Filter by topic</label>
+          <select id="filter-topic" class="filter-select" aria-label="Filter by topic">
+            <option value="">All Topics</option>
+            <option value="grace">Grace</option>
+            <option value="suffering">Suffering</option>
+            <option value="perseverance">Perseverance</option>
+            <option value="faithfulness">Faithfulness</option>
+            <option value="prayer">Prayer</option>
+            <option value="cross">Cross</option>
+            <option value="resurrection">Resurrection</option>
+            <option value="missions">Missions</option>
+            <option value="martyrdom">Martyrdom</option>
+            <option value="persecution">Persecution</option>
+            <option value="redemption">Redemption</option>
+            <option value="conversion">Conversion</option>
+            <option value="praise">Praise</option>
+            <option value="worship">Worship</option>
+            <option value="gospel">Gospel</option>
+          </select>
+
+          <label for="filter-hymn" class="sr-only">Search by hymn title</label>
+          <input
+            type="search"
+            id="filter-hymn"
+            class="filter-input"
+            placeholder="Hymn title…"
+            autocomplete="off"
+            aria-label="Search by hymn title"
+          >
+
+          <label for="filter-reviewed" class="sr-only">Filter by review status</label>
+          <select id="filter-reviewed" class="filter-select" aria-label="Filter by review status">
+            <option value="">All Content</option>
+            <option value="reviewed">Reviewed Only</option>
+            <option value="unreviewed">Unreviewed Only</option>
+          </select>
+
+          <button id="clear-filters" class="btn btn-secondary" type="button">Clear Filters</button>
+        </div>
+      </section>
+
+      <div class="results-summary" aria-live="polite">
+        <p id="results-count"></p>
+      </div>
+
+      <div id="person-grid" class="person-grid" role="list" aria-label="People profiles">
+        <div class="loading">Loading…</div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Lives of Faith — Christ-centred biographies for worship and teaching.</p>
+      <p>All biographical content and images are AI-generated. <a href="about.html">Read about our methodology</a> and human review process.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
