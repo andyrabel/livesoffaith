@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Christ-centred stories of Christians throughout history — for worship, teaching, and family devotion.">
   <title>Lives of Faith — Christians Throughout History</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -103,6 +104,15 @@
             <option value="">All Content</option>
             <option value="reviewed">Reviewed Only</option>
             <option value="unreviewed">Unreviewed Only</option>
+          </select>
+
+          <label for="sort-order" class="sr-only">Sort order</label>
+          <select id="sort-order" class="filter-select" aria-label="Sort order">
+            <option value="random">Random order</option>
+            <option value="name-az">Name A–Z</option>
+            <option value="name-za">Name Z–A</option>
+            <option value="born-asc">Born (oldest first)</option>
+            <option value="born-desc">Born (newest first)</option>
           </select>
 
           <button id="clear-filters" class="btn btn-secondary" type="button">Clear Filters</button>

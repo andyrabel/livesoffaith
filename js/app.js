@@ -8,6 +8,7 @@ const DATA_URL = 'data/people.json';
 const STORY_PREF_KEY = 'preferred-story-version';
 
 let allPeople = [];
+let randomOrder = [];
 
 const filterState = {
   search: '',
@@ -16,6 +17,7 @@ const filterState = {
   region: '',
   era: '',
   reviewed: '',
+  sort: 'random',
 };
 
 // ============================================================
@@ -110,11 +112,34 @@ function sourceLinksHtml(person) {
 // Data loading
 // ============================================================
 
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function applySortOrder(people) {
+  const { sort } = filterState;
+  if (sort === 'random') {
+    const idxMap = new Map(randomOrder.map((p, i) => [p.id, i]));
+    return people.slice().sort((a, b) => (idxMap.get(a.id) ?? 9999) - (idxMap.get(b.id) ?? 9999));
+  }
+  if (sort === 'name-az') return people.slice().sort((a, b) => a.name.localeCompare(b.name));
+  if (sort === 'name-za') return people.slice().sort((a, b) => b.name.localeCompare(a.name));
+  if (sort === 'born-asc') return people.slice().sort((a, b) => (a.born || 0) - (b.born || 0));
+  if (sort === 'born-desc') return people.slice().sort((a, b) => (b.born || 0) - (a.born || 0));
+  return people;
+}
+
 async function loadPeople() {
   try {
     const res = await fetch(DATA_URL);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     allPeople = await res.json();
+    randomOrder = shuffleArray(allPeople);
   } catch (err) {
     console.error('Failed to load people.json:', err);
     allPeople = [];
@@ -236,11 +261,11 @@ function applyFilters() {
     return true;
   });
 
-  renderCards(filtered);
+  renderCards(applySortOrder(filtered));
 }
 
 function initIndexPage() {
-  renderCards(allPeople);
+  renderCards(applySortOrder(allPeople));
 
   const searchInput  = document.getElementById('search-input');
   const regionSel    = document.getElementById('filter-region');
@@ -248,6 +273,7 @@ function initIndexPage() {
   const topicSel     = document.getElementById('filter-topic');
   const hymnInput    = document.getElementById('filter-hymn');
   const reviewedSel  = document.getElementById('filter-reviewed');
+  const sortSel      = document.getElementById('sort-order');
   const clearBtn     = document.getElementById('clear-filters');
 
   let searchTimer;
@@ -300,6 +326,13 @@ function initIndexPage() {
     });
   }
 
+  if (sortSel) {
+    sortSel.addEventListener('change', () => {
+      filterState.sort = sortSel.value;
+      applyFilters();
+    });
+  }
+
   if (clearBtn) {
     clearBtn.addEventListener('click', () => {
       filterState.search = '';
@@ -308,12 +341,14 @@ function initIndexPage() {
       filterState.region = '';
       filterState.era = '';
       filterState.reviewed = '';
+      filterState.sort = 'random';
       if (searchInput)  searchInput.value  = '';
       if (hymnInput)    hymnInput.value    = '';
       if (regionSel)    regionSel.value    = '';
       if (eraSel)       eraSel.value       = '';
       if (topicSel)     topicSel.value     = '';
       if (reviewedSel)  reviewedSel.value  = '';
+      if (sortSel)      sortSel.value      = 'random';
       applyFilters();
     });
   }
