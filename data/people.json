@@ -11,7 +11,12 @@
     "tradition": "Independent evangelical",
     "flagged": false,
     "footnote": "",
-    "topics": ["perseverance", "suffering", "faithfulness", "persecution"],
+    "topics": [
+      "perseverance",
+      "suffering",
+      "faithfulness",
+      "persecution"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Wang_Mingdao",
     "source_summary": "Wang Ming Dao (1900–1991) was a Chinese independent evangelical pastor who led a house church in Beijing for thirty years. He refused to join the Communist government's Three-Self Patriotic Movement on theological grounds. Arrested in 1955, he initially signed a recantation under sustained psychological pressure, then recanted the recantation and was re-arrested in 1958. He served 23 years in prison before his release in 1980, and continued to encourage the underground church until his death in 1991.",
@@ -36,8 +41,17 @@
     "tradition": "Anglican evangelical",
     "flagged": false,
     "footnote": "",
-    "topics": ["grace", "conversion", "redemption", "missions"],
-    "hymns": ["Amazing Grace", "Glorious Things of Thee Are Spoken", "How Sweet the Name of Jesus Sounds"],
+    "topics": [
+      "grace",
+      "conversion",
+      "redemption",
+      "missions"
+    ],
+    "hymns": [
+      "Amazing Grace",
+      "Glorious Things of Thee Are Spoken",
+      "How Sweet the Name of Jesus Sounds"
+    ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/John_Newton",
     "hymnary_url": "https://hymnary.org/person/Newton_John",
     "source_summary": "John Newton (1725–1807) was an English Anglican minister and hymn writer. A former slave trader, he experienced a spiritual awakening during a violent storm at sea in 1748 and was gradually converted to evangelical Christianity. He was ordained in 1764, served the parish of Olney in Buckinghamshire, and co-produced the Olney Hymns (1779) with poet William Cowper, including Amazing Grace. In his later years he became an outspoken opponent of the slave trade and gave evidence to Parliament during William Wilberforce's abolitionist campaign.",
@@ -45,10 +59,7 @@
     "family_story": "John Newton grew up in England. His mother died when he was six, and as a young man he drifted far from God. He worked as part of the cruel slave trade.\n\nOne night, a violent storm nearly sank his ship. Terrified, John cried out to God. Slowly, over months and years, God changed him completely.\n\nJohn became a minister and helped fight to end the slave trade. He wrote a hymn still sung all over the world: Amazing Grace. When he wrote \"a wretch like me,\" he meant it — he knew what he had been, and what grace had done for him.",
     "image": {
       "file": "john-newton.jpg",
-      "author": "Unknown artist",
-      "year": "c. 1780",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:JohnNewtonColour.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -68,8 +79,20 @@
     "tradition": "Methodist evangelical",
     "flagged": false,
     "footnote": "",
-    "topics": ["praise", "worship", "perseverance", "grace", "prayer"],
-    "hymns": ["Blessed Assurance", "To God Be the Glory", "Safe in the Arms of Jesus", "Near the Cross", "Rescue the Perishing"],
+    "topics": [
+      "praise",
+      "worship",
+      "perseverance",
+      "grace",
+      "prayer"
+    ],
+    "hymns": [
+      "Blessed Assurance",
+      "To God Be the Glory",
+      "Safe in the Arms of Jesus",
+      "Near the Cross",
+      "Rescue the Perishing"
+    ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Fanny_Crosby",
     "hymnary_url": "https://hymnary.org/person/Crosby_Fanny",
     "source_summary": "Fanny Crosby (1820–1915) was an American hymn writer and rescue mission worker. Blinded in infancy due to a medical error, she came to an evangelical conversion experience in 1850 and subsequently wrote an estimated 8,000–9,000 hymn texts, including Blessed Assurance, To God Be the Glory, and Safe in the Arms of Jesus.",
@@ -77,36 +100,8 @@
     "family_story": "When Fanny Crosby was a tiny baby, a doctor made a mistake that left her unable to see for her whole long life.\n\nBut Fanny was not sad about this. She believed God had a plan for her. When she was thirty, she gave her heart to Jesus. After that she started writing hymns — thousands of them! Because she couldn't see, she kept every song in her head and spoke them aloud for someone else to write down.\n\nChurches still sing her hymns today: Blessed Assurance, To God Be the Glory, Safe in the Arms of Jesus. They remind us that we can trust Jesus completely.",
     "image": {
       "file": "fanny-crosby.jpg",
-      "author": "Unknown photographer",
-      "year": "before 1915",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Fanny_Crosby.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
-    "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
-    }
-  },
-  {
-    "id": "samuel-ajayi-crowther",
-    "name": "Samuel Ajayi Crowther",
-    "born": 1809,
-    "born_approximate": true,
-    "died": 1891,
-    "nationality": "Nigerian",
-    "era": "19th Century",
-    "region": "Africa",
-    "tradition": "Anglican",
-    "flagged": false,
-    "footnote": "",
-    "topics": ["missions", "faithfulness", "gospel", "perseverance"],
-    "hymns": [],
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Samuel_Ajayi_Crowther",
-    "source_summary": "Samuel Ajayi Crowther (c.1809–1891) was a Yoruba man captured as a slave aged approximately twelve, rescued by the British Royal Navy, educated by the Church Missionary Society, and ordained a minister. In 1864 he became the first African Anglican bishop, consecrated as Bishop of the Niger Territories.",
-    "adult_story": "Samuel Ajayi Crowther was born around 1809 in Osogun in the Yoruba kingdom of what is now Nigeria. In 1821, aged approximately twelve, a slave raid destroyed his village. He was separated from his family and sold multiple times before a British naval vessel intercepted the slave ship and liberated the enslaved people on board.\n\nHe was taken to Sierra Leone, where he was educated by the Church Missionary Society and came to Christian faith. He was baptised in 1825, ordained in 1843, and in 1864 consecrated as the first African Anglican bishop — Bishop of the Niger Territories.\n\nHis life traced the catastrophe of slavery and the power of Christ to bring redemption from it: the boy separated from his family at twelve emerged as a bishop, a linguist who translated Scripture into Yoruba and other languages, and an evangelist who spent his life bringing the gospel to his own people.\n\nHe died in Lagos in 1891. The translation work and the indigenous churches he established continued long after him.",
-    "family_story": "Samuel Ajayi Crowther was born in Nigeria around 1809. When he was about twelve, slave traders attacked his village, and he was captured and separated from his family.\n\nSamuel was sold and moved from place to place. Then a British ship freed the enslaved people and brought Samuel to Sierra Leone. There he was educated and heard the gospel. Samuel became a Christian.\n\nHe studied hard, became a minister, and then a bishop — the first African Anglican bishop. He translated the Bible into his own language, Yoruba.\n\nGod took a terrible thing — slavery — and through the gospel turned it into something extraordinary: a man who spent his life bringing Jesus to his own people.",
-    "image": null,
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -125,7 +120,13 @@
     "tradition": "Nonconformist / Baptist",
     "flagged": false,
     "footnote": "",
-    "topics": ["perseverance", "suffering", "faithfulness", "grace", "gospel"],
+    "topics": [
+      "perseverance",
+      "suffering",
+      "faithfulness",
+      "grace",
+      "gospel"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/John_Bunyan",
     "source_summary": "John Bunyan (1628–1688) was an English Nonconformist preacher and author born in Elstow, Bedfordshire, to a tinker's family. He came to faith through prolonged spiritual struggle and became a lay preacher with the Bedford Nonconformist congregation. He was imprisoned twice for preaching without a licence, the first imprisonment lasting twelve years. During a second, shorter imprisonment (1676–77) he wrote The Pilgrim's Progress (1678), the second most widely translated book in history after the Bible.",
@@ -133,10 +134,7 @@
     "family_story": "John Bunyan grew up in England. His family was poor — his father mended pots and pans. After years of spiritual struggle, John understood that Jesus had died for his sins, and everything changed. He became a preacher.\n\nBut the King's law said only official ministers were allowed to preach. John refused to stop. So he was put in prison for twelve years.\n\nIn prison, John wrote The Pilgrim's Progress — a story about a man named Christian who travels from a dangerous city toward a heavenly home. He faces dark valleys and many temptations. But he keeps going, because Jesus has promised him a place at the end.\n\nPeople have been reading it for three hundred and fifty years.",
     "image": {
       "file": "john-bunyan.jpg",
-      "author": "Thomas Sadler",
-      "year": "1684",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:John_Bunyan_by_Thomas_Sadler_1684.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -156,8 +154,18 @@
     "tradition": "Nonconformist / Independent",
     "flagged": false,
     "footnote": "",
-    "topics": ["praise", "worship", "grace", "gospel"],
-    "hymns": ["When I Survey the Wondrous Cross", "Joy to the World", "O God Our Help in Ages Past", "Jesus Shall Reign"],
+    "topics": [
+      "praise",
+      "worship",
+      "grace",
+      "gospel"
+    ],
+    "hymns": [
+      "When I Survey the Wondrous Cross",
+      "Joy to the World",
+      "O God Our Help in Ages Past",
+      "Jesus Shall Reign"
+    ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Isaac_Watts",
     "hymnary_url": "https://hymnary.org/person/Watts_Isaac",
     "source_summary": "Isaac Watts (1674–1748) was an English Nonconformist minister and hymn writer, widely regarded as the 'Father of English Hymnody.' Born in Southampton to a deacon who had been imprisoned for Nonconformity, Watts pioneered congregational hymn-singing as an expression of Christian experience, rather than restricting singing to metrical Psalms. He wrote over 750 hymns, including When I Survey the Wondrous Cross, Joy to the World, and O God Our Help in Ages Past.",
@@ -165,10 +173,7 @@
     "family_story": "Isaac Watts was born in England in 1674. His father had been imprisoned for being a Christian outside the official church.\n\nIsaac noticed that church songs often only used old Psalms, awkwardly translated. He thought: shouldn't we also sing about Jesus — about the cross and the resurrection?\n\nSo Isaac started writing hymns. He wrote over 750! Churches still sing them today: When I Survey the Wondrous Cross, Joy to the World, O God Our Help in Ages Past.\n\nWhen I Survey the Wondrous Cross ends with a beautiful surrender: \"Love so amazing, so divine, demands my soul, my life, my all.\" Isaac gave the church words to express what believers feel about Jesus.",
     "image": {
       "file": "isaac-watts.jpg",
-      "author": "Unknown artist",
-      "year": "18th century",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Isaac_Watts_from_NPG.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -188,8 +193,21 @@
     "tradition": "Methodist",
     "flagged": false,
     "footnote": "",
-    "topics": ["grace", "conversion", "praise", "worship", "gospel"],
-    "hymns": ["O for a Thousand Tongues to Sing", "Hark the Herald Angels Sing", "Love Divine All Loves Excelling", "And Can It Be", "Christ the Lord Is Risen Today", "Rejoice the Lord Is King"],
+    "topics": [
+      "grace",
+      "conversion",
+      "praise",
+      "worship",
+      "gospel"
+    ],
+    "hymns": [
+      "O for a Thousand Tongues to Sing",
+      "Hark the Herald Angels Sing",
+      "Love Divine All Loves Excelling",
+      "And Can It Be",
+      "Christ the Lord Is Risen Today",
+      "Rejoice the Lord Is King"
+    ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Wesley",
     "hymnary_url": "https://hymnary.org/person/Wesley_Charles",
     "source_summary": "Charles Wesley (1707–1788) was an English minister, co-founder of Methodism, and the most prolific hymn writer in Christian history, having composed over 6,000 hymns. He experienced evangelical conversion in May 1738, three days before his brother John's Aldersgate experience, and immediately wrote 'And Can It Be?'",
@@ -197,10 +215,7 @@
     "family_story": "Charles Wesley grew up in England, one of nineteen children. His mother Susanna taught all of them carefully about God.\n\nAt university, Charles and his brother John started a group to study the Bible seriously. But Charles didn't yet truly know Jesus.\n\nThen in 1738, something changed. Charles understood — really understood — that Jesus had died for him personally, and that he was forgiven. He wrote a hymn about it the very next morning.\n\nAfter that, Charles could not stop writing hymns. He wrote more than 6,000! Hark the Herald Angels Sing, O for a Thousand Tongues to Sing, Love Divine All Loves Excelling — churches all over the world still sing them today.",
     "image": {
       "file": "charles-wesley.jpg",
-      "author": "Unknown artist",
-      "year": "18th century",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Charles_Wesley.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -220,8 +235,17 @@
     "tradition": "Anglican evangelical",
     "flagged": false,
     "footnote": "",
-    "topics": ["grace", "suffering", "perseverance", "prayer"],
-    "hymns": ["God Moves in a Mysterious Way", "There Is a Fountain Filled with Blood", "O for a Closer Walk with God"],
+    "topics": [
+      "grace",
+      "suffering",
+      "perseverance",
+      "prayer"
+    ],
+    "hymns": [
+      "God Moves in a Mysterious Way",
+      "There Is a Fountain Filled with Blood",
+      "O for a Closer Walk with God"
+    ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/William_Cowper",
     "hymnary_url": "https://hymnary.org/person/Cowper_William",
     "source_summary": "William Cowper (1731–1800) was an English poet and hymn writer who co-produced the Olney Hymns (1779) with John Newton. He suffered severe and recurring mental illness throughout his life, including the conviction that he was eternally damned. He came to evangelical faith during a period of recovery in 1764 and contributed sixty-seven hymns to the Olney Hymns collection.",
@@ -229,10 +253,7 @@
     "family_story": "William Cowper grew up in England, and when he was only six his mother died. That sadness stayed with him his whole life. When he was a young man he became very sad inside — so sad he nearly ended his life.\n\nA kind doctor helped him, and William read the Bible and found hope in Jesus.\n\nWilliam moved to a town called Olney, where his friend John Newton was the minister. Together they wrote hymns. William's most famous is God Moves in a Mysterious Way — a song for frightened people, saying: God is doing things we cannot understand, and they will end in blessing.\n\nGod can use even a broken life to bring comfort to others.",
     "image": {
       "file": "william-cowper.jpg",
-      "author": "Lemuel Francis Abbott",
-      "year": "1792",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:William_Cowper_by_Lemuel_Francis_Abbott.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -252,8 +273,15 @@
     "tradition": "Anglican evangelical (Calvinist)",
     "flagged": false,
     "footnote": "",
-    "topics": ["grace", "redemption", "gospel", "cross"],
-    "hymns": ["Rock of Ages"],
+    "topics": [
+      "grace",
+      "redemption",
+      "gospel",
+      "cross"
+    ],
+    "hymns": [
+      "Rock of Ages"
+    ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Augustus_Toplady",
     "hymnary_url": "https://hymnary.org/person/Toplady_Augustus",
     "source_summary": "Augustus Toplady (1740–1778) was an English Anglican minister and hymn writer. Born in Farnham, Surrey, he was converted as a teenager while hearing an itinerant Irish lay preacher in a barn in County Wexford. A convinced Calvinist, he is remembered chiefly for the hymn Rock of Ages (1776). He died of tuberculosis aged thirty-seven.",
@@ -261,10 +289,7 @@
     "family_story": "Augustus Toplady was born in England in 1740. As a teenager in Ireland, he heard a preacher in a barn speak about Jesus — and understood that God saves us by grace, as a free gift, not because of anything we do.\n\nAugustus became a minister and preached with great passion.\n\nHe wrote a hymn called Rock of Ages. A rock is something solid we shelter in during a storm. The most important words: \"Nothing in my hand I bring, simply to Thy cross I cling.\"\n\nAugustus died young at thirty-seven. But his hymn has helped Christians for over 200 years understand that Jesus saves us completely.",
     "image": {
       "file": "augustus-toplady.jpg",
-      "author": "Unknown artist",
-      "year": "1783",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Augustus_Toplady.png"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -284,8 +309,19 @@
     "tradition": "Baptist / evangelical",
     "flagged": false,
     "footnote": "",
-    "topics": ["gospel", "grace", "perseverance", "suffering"],
-    "hymns": ["Almost Persuaded", "Wonderful Words of Life", "Hallelujah What a Saviour", "Man of Sorrows What a Name", "Let the Lower Lights Be Burning"],
+    "topics": [
+      "gospel",
+      "grace",
+      "perseverance",
+      "suffering"
+    ],
+    "hymns": [
+      "Almost Persuaded",
+      "Wonderful Words of Life",
+      "Hallelujah What a Saviour",
+      "Man of Sorrows What a Name",
+      "Let the Lower Lights Be Burning"
+    ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Philip_Bliss",
     "hymnary_url": "https://hymnary.org/person/Bliss_PPhilip",
     "source_summary": "Philip Paul Bliss (1838–1876) was an American musician, hymn writer, and evangelist who worked closely with D.L. Moody. He composed the music for It Is Well With My Soul, for which the words were written by Horatio Spafford. Bliss and his wife died in the Ashtabula River rail disaster on 29 December 1876, aged thirty-eight.",
@@ -293,10 +329,7 @@
     "family_story": "Philip Bliss grew up very poor in Pennsylvania. He had a wonderful gift: he could make music. He became a music teacher and later led singing at evangelistic meetings across America.\n\nHe wrote the tune for words a man named Horatio Spafford had written after losing all four of his daughters in a terrible shipwreck: \"It is well, it is well with my soul.\" Together those words and that tune became one of the most loved hymns in history — saying that even in the worst suffering, we can trust Jesus.\n\nPhilip died in a train accident at just thirty-eight. But the songs he wrote still help people trust Jesus in the hardest times.",
     "image": {
       "file": "philip-bliss.jpg",
-      "author": "Unknown photographer",
-      "year": "c. 1870",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Ppblisscdv.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -316,8 +349,18 @@
     "tradition": "Free Church of Scotland",
     "flagged": false,
     "footnote": "",
-    "topics": ["grace", "worship", "praise", "gospel", "prayer"],
-    "hymns": ["I Heard the Voice of Jesus Say", "Here O My Lord I See Thee Face to Face", "I Was a Wandering Sheep"],
+    "topics": [
+      "grace",
+      "worship",
+      "praise",
+      "gospel",
+      "prayer"
+    ],
+    "hymns": [
+      "I Heard the Voice of Jesus Say",
+      "Here O My Lord I See Thee Face to Face",
+      "I Was a Wandering Sheep"
+    ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Horatius_Bonar",
     "hymnary_url": "https://hymnary.org/person/Bonar_Horatius",
     "source_summary": "Horatius Bonar (1808–1889) was a Scottish Free Church of Scotland minister and prolific hymn writer. Born in Edinburgh, he was ordained in 1838 and walked out in the 1843 Disruption to join the Free Church of Scotland. He wrote over 600 hymns including I Heard the Voice of Jesus Say.",
@@ -325,10 +368,7 @@
     "family_story": "Horatius Bonar grew up in Edinburgh, Scotland, in a family that loved God. He became a minister. When some ministers had to leave the official church to stay true to the gospel, Horatius went with them.\n\nHoratius wrote many hymns — over 600 of them — to help people love Jesus through song.\n\nOne of the most beautiful is I Heard the Voice of Jesus Say. It imagines Jesus giving three invitations: come and rest, come and drink, come into the light. Each time, the person comes to Jesus and finds exactly what was promised.\n\nHoratius spent his whole long life serving his congregation and writing to help people love Jesus more.",
     "image": {
       "file": "horatius-bonar.jpg",
-      "author": "Unknown photographer",
-      "year": "1881",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Horatius_Bonar_from_Disruption_Worthies.png"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -348,7 +388,11 @@
     "tradition": "Anglican",
     "flagged": false,
     "footnote": "",
-    "topics": ["faithfulness", "prayer", "perseverance"],
+    "topics": [
+      "faithfulness",
+      "prayer",
+      "perseverance"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Susanna_Wesley",
     "source_summary": "Susanna Wesley (1669–1742) was an English Anglican laywoman, the mother of John Wesley and Charles Wesley. She ran a disciplined Christian household at Epworth rectory in Lincolnshire, devoting one hour per week of individual spiritual instruction to each child. John Wesley explicitly credited her as the primary influence on his faith and ministry.",
@@ -356,10 +400,7 @@
     "family_story": "Susanna Wesley was born in England in 1669. She married a minister and they had nineteen children — a very large family! Life was often hard. They were poor, and their house burned down once.\n\nBut Susanna was determined to raise each child to know and love Jesus. She spent one whole hour every week with each child individually — just the two of them — teaching them the Bible and talking about God.\n\nTwo of her sons became very famous: John Wesley, who started the Methodist movement, and Charles Wesley, who wrote over 6,000 hymns. Both said their mother was the greatest influence on their faith.\n\nSusanna never preached to thousands. She just taught her children faithfully.",
     "image": {
       "file": "susanna-wesley.jpg",
-      "author": "Unknown artist",
-      "year": "18th century",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Susanna_Wesley.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -379,7 +420,12 @@
     "tradition": "Anglican evangelical (Calvinist Methodist)",
     "flagged": false,
     "footnote": "",
-    "topics": ["conversion", "gospel", "grace", "missions"],
+    "topics": [
+      "conversion",
+      "gospel",
+      "grace",
+      "missions"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/George_Whitefield",
     "source_summary": "George Whitefield (1714–1770) was an English Anglican minister and evangelist, a central figure in both the British and American Great Awakenings. He was renowned for preaching outdoors to crowds of tens of thousands, making thirteen voyages across the Atlantic. A convinced Calvinist, he died in Newburyport, Massachusetts in 1770.",
@@ -387,10 +433,7 @@
     "family_story": "George Whitefield was born in England in 1714. At university he met the Wesley brothers, and through reading the Bible seriously, George came to understand that Jesus had saved him by grace.\n\nAfter that, George became a preacher. He had a powerful voice and could speak to enormous crowds outdoors — sometimes 20,000 people or more, with no microphone. He travelled back and forth across the Atlantic thirteen times, preaching in England and throughout America. When he preached, people turned to Jesus.\n\nGeorge died in 1770, still preaching right up to the end.",
     "image": {
       "file": "george-whitefield.jpg",
-      "author": "Robert Hunter",
-      "year": "c. 1760",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Robert_Hunter_(c.1715-1720-c.1803)_(possibly)_-_Reverend_George_Whitefield_(1714%E2%80%931770),_MA_-_72_-_Mansfield_College.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -410,7 +453,12 @@
     "tradition": "Anglican evangelical",
     "flagged": false,
     "footnote": "",
-    "topics": ["faithfulness", "perseverance", "grace", "gospel"],
+    "topics": [
+      "faithfulness",
+      "perseverance",
+      "grace",
+      "gospel"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/William_Wilberforce",
     "source_summary": "William Wilberforce (1759–1833) was an English politician and evangelical Anglican who led the parliamentary campaign to abolish the British slave trade. He underwent evangelical conversion in 1785, brought his first abolition bill in 1788, and faced repeated defeat for twenty years before the Slave Trade Act was passed in 1807. The Slavery Abolition Act was passed three days before his death in 1833.",
@@ -418,10 +466,7 @@
     "family_story": "William Wilberforce was born in England in 1759. He was clever and charming, and became a Member of Parliament when he was very young.\n\nThen William became a Christian. He began to ask: what does God want me to do with this position?\n\nHe decided he had to fight to end the slave trade — ships that carried enslaved African people across the ocean to be sold. Year after year — for twenty years — he argued in Parliament for abolition. Year after year he was defeated. But he did not give up.\n\nIn 1807 the slave trade was abolished. Then in 1833, just before he died, slavery itself was abolished throughout the British Empire.\n\nNever give up doing what is right.",
     "image": {
       "file": "william-wilberforce.jpg",
-      "author": "Anton Hickel",
-      "year": "1794",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:William_wilberforce.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -441,7 +486,12 @@
     "tradition": "Plymouth Brethren",
     "flagged": false,
     "footnote": "",
-    "topics": ["prayer", "faithfulness", "grace", "missions"],
+    "topics": [
+      "prayer",
+      "faithfulness",
+      "grace",
+      "missions"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/George_M%C3%BCller",
     "source_summary": "George Müller (1805–1898) was a German-born British evangelist and philanthropist who operated the Ashley Down orphanage in Bristol, England, without making public appeals for funds, relying entirely on prayer. His orphanage cared for more than 10,000 children during his lifetime.",
@@ -449,10 +499,7 @@
     "family_story": "George Müller grew up in Germany and as a young man was dishonest and selfish. But when he was about twenty, he went to a prayer meeting and his life changed. He understood that Jesus had died for his sins, and he trusted in Him.\n\nGeorge started an orphanage in Bristol, England, and decided he would never ask anyone for money — only ask God.\n\nAgain and again — just when food or money was needed — it arrived. Over sixty years, more than 10,000 children were cared for.\n\nGeorge kept careful records of every prayer and every answer, so others could read them and believe that God is real. His life shows not how great George was — but how great God is.",
     "image": {
       "file": "george-muller.jpg",
-      "author": "Unknown photographer",
-      "year": "19th century",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:George_Muller.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -472,7 +519,12 @@
     "tradition": "Anglican",
     "flagged": true,
     "footnote": "Lewis held some Anglo-Catholic views including belief in purgatory, not shared by all evangelical believers. His writings should be read with discernment on these points, though his core apologetic and gospel witness is broadly orthodox.",
-    "topics": ["gospel", "grace", "conversion", "faithfulness"],
+    "topics": [
+      "gospel",
+      "grace",
+      "conversion",
+      "faithfulness"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/C._S._Lewis",
     "source_summary": "C.S. Lewis (1898–1963) was an Irish-born British author, literary scholar, and Christian apologist. Born in Belfast, he became an atheist in his teens and was gradually converted to theism in 1929 and to Christianity in 1931 through sustained argument and the influence of friends including J.R.R. Tolkien. His works include Mere Christianity, The Screwtape Letters, Surprised by Joy, and The Chronicles of Narnia.",
@@ -497,7 +549,13 @@
     "tradition": "Plymouth Brethren",
     "flagged": false,
     "footnote": "",
-    "topics": ["martyrdom", "missions", "gospel", "faithfulness", "sacrifice"],
+    "topics": [
+      "martyrdom",
+      "missions",
+      "gospel",
+      "faithfulness",
+      "sacrifice"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_Elliot",
     "source_summary": "Jim Elliot (1927–1956) was an American missionary to Ecuador, killed alongside four fellow missionaries by Waodani warriors on 8 January 1956. His journal entry 'He is no fool who gives what he cannot keep to gain what he cannot lose' became widely known. Subsequent missionary work among the Waodani resulted in widespread conversion.",
@@ -522,7 +580,12 @@
     "tradition": "Nondenominational evangelical",
     "flagged": false,
     "footnote": "",
-    "topics": ["missions", "faithfulness", "prayer", "perseverance"],
+    "topics": [
+      "missions",
+      "faithfulness",
+      "prayer",
+      "perseverance"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/James_Hudson_Taylor",
     "source_summary": "James Hudson Taylor (1832–1905) was an English missionary to China and founder of the China Inland Mission (CIM). Born in Barnsley, Yorkshire, he came to faith at seventeen and sailed to China in 1854. He founded the CIM in 1865 on principles of interdenominational recruitment, no public appeals for funds, and the adoption of Chinese dress and customs. The CIM grew to become the largest Protestant missionary organisation in China.",
@@ -547,19 +610,18 @@
     "tradition": "Congregationalist / London Missionary Society",
     "flagged": false,
     "footnote": "",
-    "topics": ["missions", "faithfulness", "perseverance", "suffering"],
+    "topics": [
+      "missions",
+      "faithfulness",
+      "perseverance",
+      "suffering"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/David_Livingstone",
     "source_summary": "David Livingstone (1813–1873) was a Scottish missionary and explorer who spent thirty years in Africa under the London Missionary Society. A fierce opponent of the Arab slave trade in East Africa, he died kneeling in prayer at Chitambo's village in what is now Zambia on 1 May 1873. His servants carried his body over a thousand miles to the coast.",
     "adult_story": "David Livingstone was born in Blantyre, Lanarkshire in 1813. He worked in a cotton mill from the age of ten and educated himself by propping books against the machinery. He qualified as a physician and sailed for southern Africa with the London Missionary Society in 1840.\n\nHis explorations — across the Kalahari Desert, along the Zambezi River — made him the most celebrated explorer of the Victorian era. But exploration was never his primary purpose: he was a missionary who explored, driven by the conviction that the interior of Africa could be opened to legitimate trade and the gospel as alternatives to the slave trade.\n\nHe died on 1 May 1873 at Chitambo's village in what is now Zambia, found kneeling by his bedside — he had died in the night, apparently in prayer. His servants carried his embalmed body over a thousand miles to the coast.",
     "family_story": "David Livingstone was born in Scotland in 1813 to a poor family. As a boy he worked in a cotton mill — and he propped a book on his machine so he could read while he worked.\n\nDavid became a Christian, a doctor, and a missionary to Africa. He spent many years exploring — crossing deserts, following great rivers, discovering a waterfall he named the Victoria Falls. But David was not only exploring. He wanted to bring the gospel to people who had never heard it, and to fight the terrible slave trade.\n\nHe died in 1873, found kneeling by his bed — he had died while praying. His servants loved him so much they carried his body over a thousand miles to the coast so it could be sent home.",
-    "image": {
-      "file": "david-livingstone.jpg",
-      "author": "Thomas Annan",
-      "year": "1864",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:David_Livingstone_by_Thomas_Annan.jpg"
-    },
+    "image": null,
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -578,7 +640,12 @@
     "tradition": "Protestant evangelical",
     "flagged": false,
     "footnote": "",
-    "topics": ["missions", "suffering", "faithfulness", "perseverance"],
+    "topics": [
+      "missions",
+      "suffering",
+      "faithfulness",
+      "perseverance"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Amy_Carmichael",
     "source_summary": "Amy Carmichael (1867–1951) was an Irish Protestant missionary to India who founded the Dohnavur Fellowship in Tamil Nadu. She arrived in India in 1895 and never returned to Britain, spending fifty-five years in Dohnavur. She rescued children who had been dedicated to Hindu temples for religious prostitution, establishing a community that grew to care for hundreds of children.",
@@ -586,10 +653,7 @@
     "family_story": "Amy Carmichael was born in Ireland in 1867. She wanted to spend her whole life serving Jesus.\n\nAmy became a missionary to India. There she discovered that some young children were being forced into terrible suffering. Amy decided she would rescue as many as she could.\n\nShe started a community called the Dohnavur Fellowship — a family home for children who had nowhere safe to go. Hundreds of children found safety there.\n\nAmy had a serious fall that left her unable to walk well. But she kept writing and leading from her bed. When she died in 1951, the children placed a birdbath on her grave. She had given her life to them, because Jesus had given His life for her.",
     "image": {
       "file": "amy-carmichael.jpg",
-      "author": "Unknown photographer",
-      "year": "early 20th century",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Amy_Carmichael_with_children2.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -609,19 +673,18 @@
     "tradition": "Methodist / independent evangelical",
     "flagged": false,
     "footnote": "",
-    "topics": ["conversion", "gospel", "missions", "faithfulness"],
+    "topics": [
+      "conversion",
+      "gospel",
+      "missions",
+      "faithfulness"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/John_Sung",
     "source_summary": "John Sung (1901–1944) was a Chinese evangelist whose revival campaigns across China and Southeast Asia in the 1930s and early 1940s resulted in an estimated 100,000 conversions. Born in Hinghwa, Fujian province, the son of a Methodist pastor, he earned a PhD in chemistry from Ohio State University before a dramatic reconversion in New York in 1927.",
     "adult_story": "John Sung was born in 1901 in Hinghwa, Fujian province, China. He earned a PhD in chemistry from Ohio State University in 1926. The years in America saw him drift from faith, engaging seriously with liberal theology.\n\nHis reconversion came in 1927 at a revival meeting in New York. Overwhelmed by a sense of sin and of Christ's forgiveness, he later burned his doctoral diploma as an enacted renunciation of worldly achievement — a testimony to 1 Corinthians 1:21.\n\nHe returned to China and conducted revival campaigns across China, Singapore, Indonesia, Malaya, the Philippines, and Taiwan, preaching with passionate urgency and calling people to genuine repentance and personal faith in Christ. Estimates suggest over 100,000 came to faith. He died in 1944, aged forty-two, exhausted by years of intensive ministry.",
     "family_story": "John Sung was born in 1901 in China, the son of a Methodist pastor. He was very clever and went to America to study, earning the highest university degree — a PhD. But during those years he drifted away from faith.\n\nThen John went to a church meeting in New York, and everything changed. He truly understood that Jesus had died for him. He burned his PhD certificate as a way of saying: the gospel is worth more than any worldly achievement.\n\nJohn went back and preached across China and Southeast Asia. Tens of thousands of people came to faith. He worked so hard he became very ill, and died when he was only forty-two. But the churches he left behind are still following Jesus today.",
-    "image": {
-      "file": "john-sung.jpg",
-      "author": "Unknown photographer",
-      "year": "1935",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:John_Sung.jpg"
-    },
+    "image": null,
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -640,7 +703,12 @@
     "tradition": "Independent evangelical (Little Flock)",
     "flagged": true,
     "footnote": "Nee's later ecclesiology and some teachings on church authority are not universally accepted among evangelical believers. His insistence on a strict 'one church per city' principle and related authority structures have been viewed with concern by many in the broader evangelical tradition. His gospel teaching and core devotional writings are widely valued.",
-    "topics": ["suffering", "persecution", "faithfulness", "gospel"],
+    "topics": [
+      "suffering",
+      "persecution",
+      "faithfulness",
+      "gospel"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Watchman_Nee",
     "source_summary": "Watchman Nee (1903–1972), born Henry Nee Shu-Tsu, was a Chinese Christian teacher and founder of the Little Flock movement. He came to faith aged seventeen and developed a network of independent house churches in China. His writings, including The Normal Christian Life, have been widely read in evangelical circles. Arrested by the Communist government in 1952, he spent the last twenty years of his life in prison, dying there in 1972.",
@@ -666,19 +734,18 @@
     "tradition": "Independent evangelical",
     "flagged": true,
     "footnote": "Singh's mystical experiences and some unverifiable accounts are viewed with caution by some evangelical believers. Not all reported events in his life can be corroborated, and some should be received with appropriate critical discernment. His gospel preaching was clearly Christ-centred.",
-    "topics": ["conversion", "missions", "gospel", "suffering"],
+    "topics": [
+      "conversion",
+      "missions",
+      "gospel",
+      "suffering"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sadhu_Sundar_Singh",
     "source_summary": "Sadhu Sundar Singh (1889–c.1929) was an Indian Christian evangelist who converted from Sikhism. He had a vision of Christ on 18 December 1904 at the age of fifteen. He adopted the lifestyle of a sadhu (wandering holy man) and preached the gospel across India, Southeast Asia, Tibet, and Europe. He disappeared in 1929 while attempting to enter Tibet.",
     "adult_story": "Sundar Singh was born in 1889 in Rampur, in the Himalayan foothills. His mother died when he was approximately fourteen, precipitating a spiritual crisis. He became hostile to Christianity, burning pages from a New Testament.\n\nOn 18 December 1904, he arose before dawn intending to throw himself under a train. He prayed. A figure appeared — radiant, speaking in Hindustani: \"How long will you persecute me? I have come to save you.\" He identified the figure as Jesus, and his life was transformed.\n\nHe became a sadhu — wearing the saffron robe, living on hospitality — and preached the gospel across India, Tibet, and Southeast Asia.\n\nNote: Some accounts associated with Singh cannot be independently verified and should be received with critical discernment.\n\nHe disappeared in 1929 while attempting to cross the Himalayas into Tibet, aged approximately forty.",
     "family_story": "Sundar Singh grew up in India in a Sikh family. He was angry at Christians. When he was about fifteen, he even burned pages from a New Testament.\n\nThen something happened that changed everything. One night, in deep despair, Sundar prayed and asked God to show Himself. He saw a vision of Jesus, who asked: \"Why do you persecute me?\" Sundar became a Christian.\n\nHe decided to travel as a sadhu — an Indian holy man in a simple robe — telling people about Jesus. He walked across India and tried to reach Tibet.\n\nIn 1929 he disappeared in the mountains. He was never found.\n\nNote: Some stories told about Sundar Singh cannot be confirmed. But his gospel message was clear: Jesus Christ saves sinners by grace.",
-    "image": {
-      "file": "sadhu-sundar-singh.jpg",
-      "author": "Unknown photographer",
-      "year": "c. 1920",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:SadhuSundarSingh.jpg"
-    },
+    "image": null,
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -697,7 +764,13 @@
     "tradition": "Protestant Reformer",
     "flagged": false,
     "footnote": "",
-    "topics": ["martyrdom", "faithfulness", "gospel", "suffering", "persecution"],
+    "topics": [
+      "martyrdom",
+      "faithfulness",
+      "gospel",
+      "suffering",
+      "persecution"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/William_Tyndale",
     "source_summary": "William Tyndale (c.1494–1536) was an English scholar and Bible translator who produced the first printed English New Testament translated from the original Greek. Refused official support in England, he fled to continental Europe in 1524 and completed his New Testament translation in Worms in 1526. He was betrayed, arrested in Antwerp in 1535, tried for heresy, and executed at Vilvoorde, Belgium, on 6 October 1536. His translation formed the basis of the King James Bible of 1611.",
@@ -722,7 +795,13 @@
     "tradition": "Pre-Reformation reformer",
     "flagged": false,
     "footnote": "",
-    "topics": ["martyrdom", "faithfulness", "gospel", "suffering", "persecution"],
+    "topics": [
+      "martyrdom",
+      "faithfulness",
+      "gospel",
+      "suffering",
+      "persecution"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jan_Hus",
     "source_summary": "John Hus (Jan Hus, c.1369–1415) was a Bohemian priest and church reformer who was burned at the stake by the Council of Constance on 6 July 1415. Educated at and later rector of the University of Prague, he preached in Czech vernacular against clerical corruption and for the authority of Scripture. He is considered a precursor of the Protestant Reformation.",
@@ -730,10 +809,7 @@
     "family_story": "John Hus lived in Bohemia — in what is now the Czech Republic — about 600 years ago. He was a priest and a preacher who cared deeply about truth.\n\nJohn began to preach in Czech so that ordinary people could understand. He believed the Bible — not the Pope — should be the highest authority in the church. This got him into serious trouble. He was put on trial and asked to take back what he had said. He refused, because he believed he was teaching what the Bible taught.\n\nOn 6 July 1415, John Hus was burned at the stake for his faith.\n\nHe died about 100 years before the Reformation — one of those who first carried the torch that others would pick up after him.",
     "image": {
       "file": "john-hus.jpg",
-      "author": "Christoph Murer",
-      "year": "1587",
-      "license": "Public domain",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Stimmer_Jan_Hus.jpg"
+      "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
       "human_reviewed": false,
@@ -753,7 +829,13 @@
     "tradition": "Lutheran evangelical",
     "flagged": false,
     "footnote": "",
-    "topics": ["persecution", "suffering", "faithfulness", "perseverance", "martyrdom"],
+    "topics": [
+      "persecution",
+      "suffering",
+      "faithfulness",
+      "perseverance",
+      "martyrdom"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Wurmbrand",
     "source_summary": "Richard Wurmbrand (1909–2001) was a Romanian Lutheran pastor of Jewish background who was imprisoned and tortured by the Communist regime in Romania for fourteen years, including three years in solitary confinement. He founded Voice of the Martyrs in 1967 and wrote Tortured for Christ (1967).",

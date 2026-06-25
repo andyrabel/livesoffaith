@@ -85,11 +85,13 @@ function buildAttributionHtml(image) {
   if (image.year) parts.push(escapeHtml(image.year));
   if (image.license) parts.push(escapeHtml(image.license));
   const text = parts.join(', ');
-  if (!text) return '';
-  if (image.source_url) {
-    return `<a href="${escapeHtml(image.source_url)}" target="_blank" rel="noopener noreferrer">${text}</a>`;
+  if (text) {
+    if (image.source_url) {
+      return `<a href="${escapeHtml(image.source_url)}" target="_blank" rel="noopener noreferrer">${text}</a>`;
+    }
+    return text;
   }
-  return text;
+  return image.caption ? escapeHtml(image.caption) : '';
 }
 
 // ============================================================

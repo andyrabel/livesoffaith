@@ -49,8 +49,14 @@
         <p>Every person page includes three copy buttons — Copy Adult Story, Copy Family Story, and Copy Image — so that worship leaders can quickly copy content into presentations or documents. These are intended for direct practical use in the local church.</p>
 
         <h2>Images</h2>
-        <p>All portrait images on this site are AI-generated. We do not use Wikipedia portraits, Wikimedia Commons images, or any third-party images under any circumstances — regardless of their apparent copyright or public domain status.</p>
-        <p>Each AI-generated portrait carries the caption: <em>AI-generated image — no copyright claimed.</em> The prompt used to generate each image is stored in our data file for reproducibility and transparency.</p>
+        <p>All portrait images on this site are <strong>AI-generated</strong>. No third-party photographs, paintings, or Wikimedia Commons images appear on the site.</p>
+        <p>Each portrait is generated using a two-step AI process:</p>
+        <ol>
+          <li><strong>Structural reference</strong> — a historical source image (such as a public-domain engraving or photograph) is passed to a ControlNet model. The model extracts only the structural geometry: the pose, framing, and rough composition of the face. No pixel data, texture, or likeness from the source image carries through to the output.</li>
+          <li><strong>AI generation</strong> — Stable Diffusion generates an entirely new image from a text prompt describing the person, conditioned on that structural skeleton. The result is a wholly original AI artwork in a consistent historical steel-engraving style.</li>
+        </ol>
+        <p>The source images used for structural reference are never published and are kept only in our private build pipeline. The images you see are the AI-generated outputs — new works with no copyright claimed.</p>
+        <p>Every portrait carries the caption: <em>AI-generated image — no copyright claimed.</em></p>
 
         <h2>Human Review Badges</h2>
         <p>Every person page displays one of two badges:</p>
@@ -65,16 +71,18 @@
         <p>We include men and women who held to Trinitarian orthodox Christian faith and who understood salvation as coming by God's grace through faith in the atoning work of Jesus Christ. We draw from many Protestant and evangelical traditions across many centuries and regions.</p>
 
         <h2>Who We Do Not Include</h2>
-        <p>To avoid confusion, we do not include figures from traditions we consider to fall outside historic orthodox Christianity. This includes:</p>
+        <p>This site focuses specifically on those who held to <strong>salvation by grace alone, through faith alone, in Christ alone</strong> — the historic evangelical understanding of the gospel. We therefore do not include figures from traditions where salvation is understood to come through sacraments, priestly mediation, meritorious works, or ongoing church authority over Scripture. This includes:</p>
         <ul>
-          <li>Roman Catholics</li>
-          <li>Mormons / LDS</li>
-          <li>Jehovah's Witnesses</li>
-          <li>Christian Scientists</li>
-          <li>Word of Faith / prosperity gospel figures</li>
-          <li>Oneness Pentecostals</li>
+          <li><strong>Roman Catholics</strong> — salvation through sacraments and the Church</li>
+          <li><strong>Eastern Orthodox</strong> — theosis and sacramental salvation through the Church</li>
+          <li><strong>Oriental Orthodox</strong> (Coptic, Ethiopian, Armenian, Syriac, etc.) — same sacramental framework</li>
+          <li><strong>Mormons / LDS</strong> — non-Trinitarian, works-based salvation</li>
+          <li><strong>Jehovah's Witnesses</strong> — non-Trinitarian, deny Christ's deity</li>
+          <li><strong>Christian Scientists</strong> — deny physical reality of sin, death, and atonement</li>
+          <li><strong>Word of Faith / prosperity gospel figures</strong> — distort grace into a formula for wealth and health</li>
+          <li><strong>Oneness Pentecostals</strong> — non-Trinitarian</li>
         </ul>
-        <p>This is a statement of scope, not of condemnation. It reflects our commitment to profiling those who shared the historic evangelical understanding of the gospel.</p>
+        <p>This is a statement of scope, not of condemnation. Many devout and sincere believers belong to these traditions. We simply cannot represent their theological framework as equivalent to the evangelical doctrine of grace that this site is built around.</p>
 
         <h2>Flagged Figures</h2>
         <p>Some figures are theologically orthodox but have specific areas of concern — for example, views on secondary doctrines or mystical claims not universally shared across evangelical traditions. These figures are included but carry a visible note at the bottom of their page explaining the specific concern. They are also subject to mandatory human review before publishing.</p>
