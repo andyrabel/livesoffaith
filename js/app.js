@@ -5,6 +5,7 @@
    ============================================================ */
 
 const DATA_URL = 'data/people.json';
+const STORY_PREF_KEY = 'preferred-story-version';
 
 let allPeople = [];
 
@@ -31,7 +32,7 @@ function getInitials(name) {
 }
 
 function formatYears(person) {
-  const born = person.born_approximate ? `c. ${person.born}` : String(person.born);
+  const born = person.born_approximate ? `c. ${person.born}` : String(person.born);
   const died = person.died ? String(person.died) : 'present';
   return `${born}–${died}`;
 }
@@ -60,6 +61,52 @@ function reviewBadgeHtml(person) {
 }
 
 // ============================================================
+// Story version preference (localStorage)
+// ============================================================
+
+function getStoryVersion() {
+  return localStorage.getItem(STORY_PREF_KEY) || 'adult';
+}
+
+function setStoryVersion(v) {
+  localStorage.setItem(STORY_PREF_KEY, v);
+}
+
+// ============================================================
+// Image attribution
+// ============================================================
+
+function buildAttributionHtml(image) {
+  if (!image) return '';
+  const parts = [];
+  if (image.author) parts.push(escapeHtml(image.author));
+  if (image.year) parts.push(escapeHtml(image.year));
+  if (image.license) parts.push(escapeHtml(image.license));
+  const text = parts.join(', ');
+  if (!text) return '';
+  if (image.source_url) {
+    return `<a href="${escapeHtml(image.source_url)}" target="_blank" rel="noopener noreferrer">${text}</a>`;
+  }
+  return text;
+}
+
+// ============================================================
+// Source links (Learn more)
+// ============================================================
+
+function sourceLinksHtml(person) {
+  const links = [];
+  if (person.wikipedia_url) {
+    links.push(`<a href="${escapeHtml(person.wikipedia_url)}" target="_blank" rel="noopener noreferrer">Wikipedia</a>`);
+  }
+  if (person.hymnary_url) {
+    links.push(`<a href="${escapeHtml(person.hymnary_url)}" target="_blank" rel="noopener noreferrer">Hymnary.org</a>`);
+  }
+  if (!links.length) return '';
+  return `<div class="story-sources">Read more: ${links.join(' &middot; ')}</div>`;
+}
+
+// ============================================================
 // Data loading
 // ============================================================
 
@@ -83,23 +130,14 @@ async function loadPeople() {
 }
 
 // ============================================================
-// Portrait image helpers
+// Index page — card portrait helper
 // ============================================================
 
-function portraitImgHtml(person, cssClass) {
-  const src = `images/portraits/${escapeHtml(person.image.file)}`;
-  const initials = escapeHtml(getInitials(person.name));
-  const alt = `Portrait of ${escapeHtml(person.name)}`;
-  return `<img
-    class="${cssClass}"
-    src="${src}"
-    alt="${alt}"
-    loading="lazy"
-    onerror="this.outerHTML='<div class=&quot;person-portrait-placeholder&quot;>${initials}</div>'"
-  >`;
-}
-
 function cardPortraitHtml(person) {
+  if (!person.image) {
+    const initials = escapeHtml(getInitials(person.name));
+    return `<div class="portrait-placeholder">${initials}</div>`;
+  }
   const src = `images/portraits/${escapeHtml(person.image.file)}`;
   const initials = escapeHtml(getInitials(person.name));
   const alt = `Portrait of ${escapeHtml(person.name)}`;
@@ -317,20 +355,18 @@ function initPersonPage() {
 
   const flaggedHtml = person.flagged && person.footnote
     ? `<div class="flagged-notice">
-        <div class="flagged-notice__label">&#9888; Note for reviewers</div>
+        <div class="flagged-notice__label">&#9888; Note</div>
         <div>${escapeHtml(person.footnote)}</div>
        </div>`
     : '';
 
-  const wikiHtml = person.wikipedia_url
-    ? `<div class="source-link">Source: <a href="${escapeHtml(person.wikipedia_url)}" target="_blank" rel="noopener noreferrer">Wikipedia</a></div>`
-    : '';
-
-  const imgSrc = `images/portraits/${escapeHtml(person.image.file)}`;
-  const initials = escapeHtml(getInitials(person.name));
-
-  content.innerHTML = `
-    <div class="person-header">
+  // Portrait
+  let portraitHtml;
+  if (person.image) {
+    const imgSrc = `images/portraits/${escapeHtml(person.image.file)}`;
+    const initials = escapeHtml(getInitials(person.name));
+    const attribution = buildAttributionHtml(person.image);
+    portraitHtml = `
       <div class="person-portrait-wrap">
         <img
           class="person-portrait"
@@ -338,8 +374,23 @@ function initPersonPage() {
           alt="Portrait of ${escapeHtml(person.name)}"
           onerror="this.outerHTML='<div class=&quot;person-portrait-placeholder&quot;>${initials}</div>'"
         >
-        <p class="person-portrait-caption">${escapeHtml(person.image.caption)}</p>
-      </div>
+        ${attribution ? `<p class="person-portrait-caption">${attribution}</p>` : ''}
+      </div>`;
+  } else {
+    const initials = escapeHtml(getInitials(person.name));
+    portraitHtml = `<div class="person-portrait-wrap"><div class="person-portrait-placeholder">${initials}</div></div>`;
+  }
+
+  const copyImageBtnHtml = person.image
+    ? `<button class="btn btn-copy" id="copy-image-btn">Copy Image</button>`
+    : '';
+
+  const version = getStoryVersion();
+  const sourcesHtml = sourceLinksHtml(person);
+
+  content.innerHTML = `
+    <div class="person-header">
+      ${portraitHtml}
       <div class="person-info">
         <h1 class="person-name">${escapeHtml(person.name)}</h1>
         <p class="person-dates">${years}</p>
@@ -355,67 +406,72 @@ function initPersonPage() {
         </div>
         ${hymnsHtml}
         <div class="person-topics">${topics}</div>
-        <div class="person-badge">${badge}</div>
       </div>
     </div>
 
     ${flaggedHtml}
 
-    <div class="copy-section">
-      <div class="copy-section__label">Copy for use in worship &amp; teaching</div>
-      <div class="copy-buttons">
-        <button class="btn btn-copy" id="copy-adult-btn">Copy Adult Story</button>
-        <button class="btn btn-copy" id="copy-family-btn">Copy Family Story</button>
-        <button class="btn btn-copy" id="copy-image-btn">Copy Image</button>
+    <div class="story-tabs-wrapper">
+      <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+        <button class="story-tab${version === 'adult' ? ' active' : ''}"
+                role="tab" aria-selected="${version === 'adult'}"
+                aria-controls="panel-adult" id="tab-adult" data-version="adult">
+          For Worship &amp; Teaching
+        </button>
+        <button class="story-tab${version === 'family' ? ' active' : ''}"
+                role="tab" aria-selected="${version === 'family'}"
+                aria-controls="panel-family" id="tab-family" data-version="family">
+          Family Version
+        </button>
+      </div>
+
+      <div class="story-panel${version === 'adult' ? '' : ' hidden'}"
+           role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+        <div class="story-text">${storyToHtml(person.adult_story)}</div>
+        ${sourcesHtml}
+        <div class="story-panel-footer">
+          ${badge}
+          <button class="btn btn-copy" data-copy-version="adult">Copy</button>
+        </div>
+      </div>
+
+      <div class="story-panel${version === 'family' ? '' : ' hidden'}"
+           role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+        <div class="story-text">${storyToHtml(person.family_story)}</div>
+        ${sourcesHtml}
+        <div class="story-panel-footer">
+          ${badge}
+          <button class="btn btn-copy" data-copy-version="family">Copy</button>
+        </div>
       </div>
     </div>
-
-    <section class="story-section" id="adult-story">
-      <div class="story-section__header">
-        <h2 class="story-section__title">Adult Story</h2>
-        <span class="story-section__subtitle">300–500 words &middot; for worship &amp; Bible study</span>
-      </div>
-      <div class="story-text">
-        ${storyToHtml(person.adult_story)}
-      </div>
-    </section>
-
-    <section class="story-section" id="family-story">
-      <div class="story-section__header">
-        <h2 class="story-section__title">Family Story</h2>
-        <span class="story-section__subtitle">150–250 words &middot; for children aged 8–14</span>
-      </div>
-      <div class="story-text">
-        ${storyToHtml(person.family_story)}
-      </div>
-    </section>
-
-    ${wikiHtml}
   `;
 
-  const adultBtn  = document.getElementById('copy-adult-btn');
-  const familyBtn = document.getElementById('copy-family-btn');
-  const imageBtn  = document.getElementById('copy-image-btn');
-
-  if (adultBtn) {
-    adultBtn.addEventListener('click', () => {
-      const text = `${person.name} (${formatYears(person)})\n\n${person.adult_story}`;
-      copyText(text, adultBtn, 'Adult story copied!');
+  // Tab switching
+  content.querySelectorAll('.story-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const v = btn.dataset.version;
+      setStoryVersion(v);
+      content.querySelectorAll('.story-tab').forEach(b => {
+        b.classList.toggle('active', b.dataset.version === v);
+        b.setAttribute('aria-selected', String(b.dataset.version === v));
+      });
+      content.querySelectorAll('.story-panel').forEach(p => {
+        p.classList.toggle('hidden', p.id !== `panel-${v}`);
+      });
     });
-  }
+  });
 
-  if (familyBtn) {
-    familyBtn.addEventListener('click', () => {
-      const text = `${person.name} (${formatYears(person)})\n\n${person.family_story}`;
-      copyText(text, familyBtn, 'Family story copied!');
+  // Copy story buttons
+  content.querySelectorAll('[data-copy-version]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const v = btn.dataset.copyVersion;
+      const story = v === 'adult' ? person.adult_story : person.family_story;
+      const text = `${person.name} (${formatYears(person)})\n\n${story}`;
+      copyText(text, btn, 'Copied!');
     });
-  }
+  });
 
-  if (imageBtn) {
-    imageBtn.addEventListener('click', () => {
-      copyImage(imgSrc, imageBtn);
-    });
-  }
 }
 
 // ============================================================

@@ -83,7 +83,7 @@ p:last-child {
 
 main {
   flex: 1;
-  padding: 2rem 0 4rem;
+  padding: 1rem 0 2.5rem;
 }
 
 /* --- Site Header ------------------------------------------- */
@@ -317,7 +317,7 @@ main {
 
 .card-image {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 3 / 2;
   overflow: hidden;
   background: #e8e2d8;
   display: flex;
@@ -445,7 +445,7 @@ main {
   font-size: 0.875rem;
   color: var(--text-muted);
   text-decoration: none;
-  margin-bottom: 1.75rem;
+  margin-bottom: 0.75rem;
   padding: 0.3rem 0;
   border-bottom: 1px solid transparent;
   transition: color 0.15s, border-color 0.15s;
@@ -463,9 +463,9 @@ main {
 
 .person-header {
   display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 2.5rem;
-  margin-bottom: 2rem;
+  grid-template-columns: 110px 1fr;
+  gap: 1.25rem;
+  margin-bottom: 0.75rem;
   align-items: start;
 }
 
@@ -498,7 +498,7 @@ main {
   justify-content: center;
   color: rgba(255,255,255,0.80);
   font-family: Georgia, serif;
-  font-size: 4rem;
+  font-size: 2rem;
   letter-spacing: 0.04em;
   user-select: none;
 }
@@ -515,13 +515,13 @@ main {
 .person-info {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.3rem;
 }
 
 .person-name {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: var(--accent);
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.1rem;
 }
 
 .person-dates {
@@ -533,10 +533,10 @@ main {
 .person-meta-grid {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 0.25rem 0.75rem;
+  gap: 0.15rem 0.75rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-size: 0.875rem;
-  margin: 0.5rem 0;
+  margin: 0.2rem 0;
 }
 
 .person-meta-label {
@@ -551,8 +551,8 @@ main {
 .person-topics {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: 0.25rem;
+  gap: 0.35rem;
+  margin-top: 0.1rem;
 }
 
 .person-hymns {
@@ -566,55 +566,66 @@ main {
   margin-top: 0.5rem;
 }
 
-/* --- Copy Buttons Section ---------------------------------- */
-.copy-section {
-  background: var(--gold-light);
-  border: 1px solid #d4b565;
+/* --- Story Tabs ------------------------------------------- */
+.story-tabs-wrapper {
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.copy-section__label {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 0.8rem;
-  color: var(--gold);
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  margin-bottom: 0.75rem;
-  font-weight: 600;
-}
-
-.copy-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-}
-
-/* --- Story Sections ---------------------------------------- */
-.story-section {
-  margin-bottom: 3rem;
-}
-
-.story-section__header {
-  display: flex;
-  align-items: baseline;
-  gap: 1rem;
-  border-bottom: 2px solid var(--gold-light);
-  padding-bottom: 0.6rem;
+  overflow: hidden;
   margin-bottom: 1.5rem;
+  box-shadow: var(--shadow);
 }
 
-.story-section__title {
-  font-size: 1.4rem;
-  color: var(--accent);
+.story-tabs-nav {
+  display: flex;
+  background: var(--bg);
+  border-bottom: 2px solid var(--border);
 }
 
-.story-section__subtitle {
+.story-tab {
+  flex: 1;
+  padding: 0.8rem 1.25rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 500;
   color: var(--text-muted);
-  font-style: italic;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  text-align: center;
+}
+
+.story-tab:hover {
+  color: var(--accent);
+  background: rgba(28, 61, 90, 0.04);
+}
+
+.story-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  background: var(--surface);
+}
+
+.story-panel {
+  padding: 1rem 1.25rem;
+}
+
+.story-panel.hidden {
+  display: none;
+}
+
+.story-panel-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-light);
 }
 
 .story-text {
@@ -624,7 +635,21 @@ main {
 }
 
 .story-text p {
-  margin-bottom: 1.15em;
+  margin-bottom: 1.1em;
+}
+
+.story-sources {
+  margin-top: 0.85rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-light);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/* --- Portrait Copy Button ---------------------------------- */
+.portrait-copy-wrap {
+  margin-top: 0.75rem;
 }
 
 /* --- Flagged Footnote -------------------------------------- */
@@ -645,7 +670,7 @@ main {
   margin-bottom: 0.3rem;
 }
 
-/* --- Source Link ------------------------------------------- */
+/* --- Source Link (legacy, kept for about page etc.) --------- */
 .source-link {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-size: 0.82rem;
