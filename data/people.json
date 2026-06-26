@@ -22,7 +22,12 @@
     "source_summary": "Wang Ming Dao (1900–1991) was a Chinese independent evangelical pastor who led a house church in Beijing for thirty years. He refused to join the Communist government's Three-Self Patriotic Movement on theological grounds. Arrested in 1955, he initially signed a recantation under sustained psychological pressure, then recanted the recantation and was re-arrested in 1958. He served 23 years in prison before his release in 1980, and continued to encourage the underground church until his death in 1991.",
     "adult_story": "Wang Ming Dao was born in Beijing in 1900 and founded an independent house church there in 1925. He led it for thirty years on a single conviction: the church belongs to Christ and Scripture alone. When China's Communist government demanded all Protestant churches join the state-controlled Three-Self Patriotic Movement, Wang refused — he argued it had admitted those who denied the gospel.\n\nHe was arrested in 1955. Under sustained pressure he signed a recantation — and could not live with it. He described himself as a Peter who had denied his Lord, withdrew the confession in 1958, and returned to prison rather than live a lie. He spent twenty-three years imprisoned in total.\n\nHe emerged in 1980 elderly and nearly blind, yet unbroken in faith. He continued to encourage the underground church until his death in 1991.\n\nHis story is not one of seamless heroism but of grace: a man who fell, was restored, and held to the end — not by his own strength, but by the mercy of a Lord who does not abandon those who stumble back to Him.",
     "family_story": "Wang Ming Dao grew up in Beijing, China, in a poor family. As a young man he gave his life to Jesus and started a church.\n\nWhen the Communist government tried to take control of all China's churches, Wang believed the church belonged to Jesus — not to any government. He said no, and was arrested.\n\nIn prison, under terrible pressure, Wang said things he later regretted. But he took them back and returned to prison rather than live a lie. He spent twenty-three years there. When he came out, old and nearly blind, his faith was still strong.\n\nJesus never let him go — even when he stumbled.",
-    "image": null,
+    "image": {
+      "file": "wang-ming-dao.jpg",
+      "prompt_used": "Photorealistic portrait of Wang Ming Dao, Chinese independent evangelical pastor, circa 1950s, wearing a plain dark Chinese zhongshan suit, dignified and resolute expression, serious gaze, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:WangMingdao.jpg — circa 1950, sourced from Lian Xi 'Redeemed by Fire' (Yale UP, 2010); public domain in China (URAA may apply in USA — use as reference only)",
+      "caption": "AI-generated image — no copyright claimed"
+    },
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -530,7 +535,12 @@
     "source_summary": "C.S. Lewis (1898–1963) was an Irish-born British author, literary scholar, and Christian apologist. Born in Belfast, he became an atheist in his teens and was gradually converted to theism in 1929 and to Christianity in 1931 through sustained argument and the influence of friends including J.R.R. Tolkien. His works include Mere Christianity, The Screwtape Letters, Surprised by Joy, and The Chronicles of Narnia.",
     "adult_story": "Clive Staples Lewis was born in Belfast in 1898. His mother died when he was nine. He became a committed atheist — committed enough to argue seriously against belief and to regard Christianity as wishful thinking dressed up as logic.\n\nHis conversion was gradual and intellectual. He found the atheist position required too much explaining away — particularly the persistent human longing for something beyond the material world. He became a theist in 1929, and a Christian in 1931, in part through sustained conversation with J.R.R. Tolkien.\n\nMere Christianity presented a reasoned case for belief to educated sceptics. The Screwtape Letters explored the Christian life through satirical inversion. The Chronicles of Narnia communicated the shape of the gospel through fiction. Millions have found their way to faith through his work.\n\nNote: Lewis held some Anglo-Catholic views, including belief in purgatory, not shared by most Protestants.",
     "family_story": "C.S. Lewis was born in Belfast in 1898. When he was nine, his mother died. As he grew up, Lewis decided he did not believe in God.\n\nBut as he read books and talked with friends — including J.R.R. Tolkien, who wrote The Lord of the Rings — Lewis slowly changed his mind. He came to see that the Christian story made more sense than any other account of the world. And that Jesus was not just a good teacher but who He claimed to be: the Son of God.\n\nLewis became a Christian in his thirties. He spent his life writing about why he believed — and millions of people have found faith through his books.\n\nNote: Lewis believed in purgatory, which most Protestant Christians do not share. His books are very helpful, but worth reading with that in mind.",
-    "image": null,
+    "image": {
+      "file": "cs-lewis.jpg",
+      "prompt_used": "Photorealistic portrait of C.S. Lewis, Irish-British Christian author and Oxford don, circa 1940s, wearing a dark tweed jacket, thoughtful and intellectually engaged expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:CS_Lewis_(1917).jpg — public domain, published 1917, before January 1 1931",
+      "caption": "AI-generated image — no copyright claimed"
+    },
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -591,7 +601,12 @@
     "source_summary": "James Hudson Taylor (1832–1905) was an English missionary to China and founder of the China Inland Mission (CIM). Born in Barnsley, Yorkshire, he came to faith at seventeen and sailed to China in 1854. He founded the CIM in 1865 on principles of interdenominational recruitment, no public appeals for funds, and the adoption of Chinese dress and customs. The CIM grew to become the largest Protestant missionary organisation in China.",
     "adult_story": "James Hudson Taylor was born in Barnsley, Yorkshire in 1832. He came to faith at seventeen, reading a gospel tract alone at home, and felt immediately drawn toward China. He arrived in Shanghai in 1854 and worked under existing mission societies, but grew convinced they were not reaching inland China.\n\nIn 1865, during a personal crisis on a beach in Brighton, he committed to founding the China Inland Mission. Its principles were distinctive: recruit from any Protestant denomination; make no public appeals for funds; adopt Chinese dress and customs. The CIM became the largest Protestant missionary organisation in China. The cost was enormous — Taylor lost his first wife and several children in China, and suffered recurring illness.\n\nHe died in Changsha, Hunan in 1905. His conviction throughout: God's commands are sufficient reason to obey them regardless of the cost.",
     "family_story": "Hudson Taylor was born in Yorkshire, England in 1832. When he was seventeen, he read a Christian booklet at home and the gospel became real to him. Almost immediately he felt God calling him to China.\n\nHe sailed to China and began to learn the language. He even wore Chinese clothes — very unusual for an English person then — because he believed the best way to share Jesus was to come close to people.\n\nHudson started an organisation called the China Inland Mission. Life was often hard and costly. But Hudson trusted: \"God's work done in God's way will never lack God's supply.\" He spent his whole life finding that this was true.",
-    "image": null,
+    "image": {
+      "file": "hudson-taylor.jpg",
+      "prompt_used": "Photorealistic portrait of Hudson Taylor, English missionary to China, late 19th century, wearing Chinese-style dark changshan robe, earnest and determined expression, historically accurate to 1880s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:James_Hudson_Taylor.jpg — public domain, from 'A Retrospect' by James Hudson Taylor, 1893, Morgan & Scott",
+      "caption": "AI-generated image — no copyright claimed"
+    },
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -621,7 +636,12 @@
     "source_summary": "David Livingstone (1813–1873) was a Scottish missionary and explorer who spent thirty years in Africa under the London Missionary Society. A fierce opponent of the Arab slave trade in East Africa, he died kneeling in prayer at Chitambo's village in what is now Zambia on 1 May 1873. His servants carried his body over a thousand miles to the coast.",
     "adult_story": "David Livingstone was born in Blantyre, Lanarkshire in 1813. He worked in a cotton mill from the age of ten and educated himself by propping books against the machinery. He qualified as a physician and sailed for southern Africa with the London Missionary Society in 1840.\n\nHis explorations — across the Kalahari Desert, along the Zambezi River — made him the most celebrated explorer of the Victorian era. But exploration was never his primary purpose: he was a missionary who explored, driven by the conviction that the interior of Africa could be opened to legitimate trade and the gospel as alternatives to the slave trade.\n\nHe died on 1 May 1873 at Chitambo's village in what is now Zambia, found kneeling by his bedside — he had died in the night, apparently in prayer. His servants carried his embalmed body over a thousand miles to the coast.",
     "family_story": "David Livingstone was born in Scotland in 1813 to a poor family. As a boy he worked in a cotton mill — and he propped a book on his machine so he could read while he worked.\n\nDavid became a Christian, a doctor, and a missionary to Africa. He spent many years exploring — crossing deserts, following great rivers, discovering a waterfall he named the Victoria Falls. But David was not only exploring. He wanted to bring the gospel to people who had never heard it, and to fight the terrible slave trade.\n\nHe died in 1873, found kneeling by his bed — he had died while praying. His servants loved him so much they carried his body over a thousand miles to the coast so it could be sent home.",
-    "image": null,
+    "image": {
+      "file": "david-livingstone.jpg",
+      "prompt_used": "Photorealistic portrait of David Livingstone, Scottish missionary and explorer in Africa, circa 1864, wearing a plain dark Victorian frock coat, determined and weathered expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:David_Livingstone_by_Thomas_Annan.jpg — public domain, 1864 carbon print by Thomas Annan, National Galleries of Scotland",
+      "caption": "AI-generated image — no copyright claimed"
+    },
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -684,7 +704,12 @@
     "source_summary": "John Sung (1901–1944) was a Chinese evangelist whose revival campaigns across China and Southeast Asia in the 1930s and early 1940s resulted in an estimated 100,000 conversions. Born in Hinghwa, Fujian province, the son of a Methodist pastor, he earned a PhD in chemistry from Ohio State University before a dramatic reconversion in New York in 1927.",
     "adult_story": "John Sung was born in 1901 in Hinghwa, Fujian province, China. He earned a PhD in chemistry from Ohio State University in 1926. The years in America saw him drift from faith, engaging seriously with liberal theology.\n\nHis reconversion came in 1927 at a revival meeting in New York. Overwhelmed by a sense of sin and of Christ's forgiveness, he later burned his doctoral diploma as an enacted renunciation of worldly achievement — a testimony to 1 Corinthians 1:21.\n\nHe returned to China and conducted revival campaigns across China, Singapore, Indonesia, Malaya, the Philippines, and Taiwan, preaching with passionate urgency and calling people to genuine repentance and personal faith in Christ. Estimates suggest over 100,000 came to faith. He died in 1944, aged forty-two, exhausted by years of intensive ministry.",
     "family_story": "John Sung was born in 1901 in China, the son of a Methodist pastor. He was very clever and went to America to study, earning the highest university degree — a PhD. But during those years he drifted away from faith.\n\nThen John went to a church meeting in New York, and everything changed. He truly understood that Jesus had died for him. He burned his PhD certificate as a way of saying: the gospel is worth more than any worldly achievement.\n\nJohn went back and preached across China and Southeast Asia. Tens of thousands of people came to faith. He worked so hard he became very ill, and died when he was only forty-two. But the churches he left behind are still following Jesus today.",
-    "image": null,
+    "image": {
+      "file": "john-sung.jpg",
+      "prompt_used": "Photorealistic portrait of John Sung, Chinese Christian evangelist, 1935 Singapore, wearing a plain dark Western suit, fervent and earnest evangelical expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:John_Sung.jpg — public domain, 1935 photograph published before 1952, public domain in Republic of China and United States",
+      "caption": "AI-generated image — no copyright claimed"
+    },
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -714,7 +739,12 @@
     "source_summary": "Watchman Nee (1903–1972), born Henry Nee Shu-Tsu, was a Chinese Christian teacher and founder of the Little Flock movement. He came to faith aged seventeen and developed a network of independent house churches in China. His writings, including The Normal Christian Life, have been widely read in evangelical circles. Arrested by the Communist government in 1952, he spent the last twenty years of his life in prison, dying there in 1972.",
     "adult_story": "Henry Nee Shu-Tsu, known as Watchman Nee, was born in Shantou, Guangdong, China in 1903. He came to faith at seventeen and devoted himself to intensive study of Scripture across Reformed, Keswick, and Brethren traditions.\n\nIn the 1920s and 1930s he developed the Little Flock movement — house church assemblies seeking to recover the New Testament pattern of church life. His writings, particularly The Normal Christian Life and Sit Walk Stand, have been widely valued for their exposition of the believer's union with Christ.\n\nNote: Nee's ecclesiology — particularly his insistence on one church per city — is viewed with concern by many evangelical believers.\n\nIn 1952 he was arrested by the Communist authorities and spent the last twenty years of his life in prison. A note found by his pillow read: \"Christ is the Son of God who died for the redemption of sinners and resurrected after three days. This is the greatest truth in the universe. I die because of my belief in Christ.\"",
     "family_story": "Watchman Nee was born in China in 1903. When he was seventeen, he heard a Christian preacher and gave his life to Jesus.\n\nWatchman became a teacher and writer. He wrote books to help Christians understand what it means to live for Jesus, including The Normal Christian Life.\n\nBecause of his faith and his work, Watchman was arrested by the Communist government in 1952. He spent twenty years in prison until he died in 1972.\n\nHe left a short note beside his bed: \"Christ is the Son of God who died for the redemption of sinners and resurrected after three days. This is the greatest truth in the universe. I die because of my belief in Christ.\"\n\nThose words tell us everything that mattered most to him.",
-    "image": null,
+    "image": {
+      "file": "watchman-nee.jpg",
+      "prompt_used": "Photorealistic portrait of Watchman Nee, Chinese Christian teacher and writer, circa 1930s-1940s, wearing a plain dark suit, thoughtful and earnest expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Watchman_Nee.jpg — public domain in China; URAA restoration may apply in USA — use as reference only",
+      "caption": "AI-generated image — no copyright claimed"
+    },
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -745,7 +775,12 @@
     "source_summary": "Sadhu Sundar Singh (1889–c.1929) was an Indian Christian evangelist who converted from Sikhism. He had a vision of Christ on 18 December 1904 at the age of fifteen. He adopted the lifestyle of a sadhu (wandering holy man) and preached the gospel across India, Southeast Asia, Tibet, and Europe. He disappeared in 1929 while attempting to enter Tibet.",
     "adult_story": "Sundar Singh was born in 1889 in Rampur, in the Himalayan foothills. His mother died when he was approximately fourteen, precipitating a spiritual crisis. He became hostile to Christianity, burning pages from a New Testament.\n\nOn 18 December 1904, he arose before dawn intending to throw himself under a train. He prayed. A figure appeared — radiant, speaking in Hindustani: \"How long will you persecute me? I have come to save you.\" He identified the figure as Jesus, and his life was transformed.\n\nHe became a sadhu — wearing the saffron robe, living on hospitality — and preached the gospel across India, Tibet, and Southeast Asia.\n\nNote: Some accounts associated with Singh cannot be independently verified and should be received with critical discernment.\n\nHe disappeared in 1929 while attempting to cross the Himalayas into Tibet, aged approximately forty.",
     "family_story": "Sundar Singh grew up in India in a Sikh family. He was angry at Christians. When he was about fifteen, he even burned pages from a New Testament.\n\nThen something happened that changed everything. One night, in deep despair, Sundar prayed and asked God to show Himself. He saw a vision of Jesus, who asked: \"Why do you persecute me?\" Sundar became a Christian.\n\nHe decided to travel as a sadhu — an Indian holy man in a simple robe — telling people about Jesus. He walked across India and tried to reach Tibet.\n\nIn 1929 he disappeared in the mountains. He was never found.\n\nNote: Some stories told about Sundar Singh cannot be confirmed. But his gospel message was clear: Jesus Christ saves sinners by grace.",
-    "image": null,
+    "image": {
+      "file": "sadhu-sundar-singh.jpg",
+      "prompt_used": "Photorealistic portrait of Sadhu Sundar Singh, Indian Christian evangelist and sadhu from Punjab, circa 1920s, wearing a saffron robe in traditional sadhu style, serene and devout expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:SadhuSundarSingh.jpg — public domain, published before January 1 1931, Creative Commons Public Domain Mark 1.0",
+      "caption": "AI-generated image — no copyright claimed"
+    },
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -776,7 +811,12 @@
     "source_summary": "William Tyndale (c.1494–1536) was an English scholar and Bible translator who produced the first printed English New Testament translated from the original Greek. Refused official support in England, he fled to continental Europe in 1524 and completed his New Testament translation in Worms in 1526. He was betrayed, arrested in Antwerp in 1535, tried for heresy, and executed at Vilvoorde, Belgium, on 6 October 1536. His translation formed the basis of the King James Bible of 1611.",
     "adult_story": "William Tyndale was born around 1494. He became convinced that the reformation of the English church required one thing above all: that ordinary English people should be able to read the Scriptures in their own language.\n\nHe sought ecclesiastical sponsorship in London and was refused. He left England in 1524, never to return, translated the New Testament from the original Greek, and arranged for printed copies to be smuggled back into England. The language he produced — direct, rhythmic, of extraordinary literary quality — formed the foundation of the King James Version of 1611.\n\nIn 1535 he was betrayed, arrested, and imprisoned in Vilvoorde Castle near Brussels. He was strangled and burned on 6 October 1536. His last recorded words: \"Lord, open the King of England's eyes.\" Three years later, Henry VIII authorised Tyndale's Bible in every parish church in England.",
     "family_story": "William Tyndale lived in England about 500 years ago. He could read the Bible in its original languages — Greek and Hebrew.\n\nIn those days, the Bible was only available in Latin, which ordinary people could not read. Tyndale believed that was wrong — every person should be able to read God's Word.\n\nSo he translated the New Testament into English. This was against the law. He had to flee England and work in secret in other countries. Eventually he was betrayed, arrested, and killed in 1536. His last prayer was: \"Lord, open the King of England's eyes.\" Just three years later, the King made Tyndale's Bible legal in every church in England.\n\nWilliam Tyndale gave his life so that we could read God's Word.",
-    "image": null,
+    "image": {
+      "file": "william-tyndale.jpg",
+      "prompt_used": "Photorealistic portrait of William Tyndale, English Bible translator and Protestant martyr, circa 1530s, wearing dark Tudor-era clerical scholar's robes, determined and earnest expression, historically accurate to early 16th century",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Tyndale.jpg — public domain, 1836 engraving reprinted in Offor's edition of Tyndale's 1526 New Testament, held by Pitts Theology Library, Emory University",
+      "caption": "AI-generated image — no copyright claimed"
+    },
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -841,7 +881,12 @@
     "source_summary": "Richard Wurmbrand (1909–2001) was a Romanian Lutheran pastor of Jewish background who was imprisoned and tortured by the Communist regime in Romania for fourteen years, including three years in solitary confinement. He founded Voice of the Martyrs in 1967 and wrote Tortured for Christ (1967).",
     "adult_story": "Richard Wurmbrand was born in Bucharest, Romania in 1909 to a Jewish family. In his early adult years he was a Communist and an atheist. His conversion came in the 1930s through the witness of a Romanian peasant carpenter and an Anglican missionary.\n\nDuring the Nazi occupation he worked clandestinely to shelter Jewish people and minister to German soldiers. When the Communists took power, he continued underground church work. On 29 February 1948 he was arrested and held for fourteen years — three in complete solitary confinement underground, subjected to systematic torture designed to break the human person entirely.\n\nReleased in 1964 and ransomed to the West, he founded Voice of the Martyrs in 1967 and wrote Tortured for Christ. He died in 2001 at ninety-one, saying that in the worst of what he had endured, Christ was present.",
     "family_story": "Richard Wurmbrand was born in Romania in 1909 to a Jewish family. For a time he did not believe in God at all. But he heard about Jesus and became a Christian — and so did his wife Sabina. Richard became a pastor.\n\nWhen the Communist government took over Romania, Richard kept meeting with Christians in secret — even though it was very dangerous. In 1948, he was arrested. He was kept completely alone underground for three of his fourteen years in prison, treated very harshly to try to break his faith. But he held on to Jesus.\n\nAfter his release, Richard wrote Tortured for Christ and started Voice of the Martyrs to help persecuted Christians everywhere.\n\nHe said that even in the darkest cell, Christ was with him. Jesus does not abandon His people, no matter what they face.",
-    "image": null,
+    "image": {
+      "file": "richard-wurmbrand.jpg",
+      "prompt_used": "Photorealistic portrait of Richard Wurmbrand, Romanian Lutheran pastor of Jewish background, circa 1940s, wearing a plain dark suit, dignified and resilient expression, historically accurate to wartime Romania",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Richard_Wurmbrand_mugshot.jpg — public domain under Romanian law, non-artistic photograph published before 1991, circa 1948",
+      "caption": "AI-generated image — no copyright claimed"
+    },
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
