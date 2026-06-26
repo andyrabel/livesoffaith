@@ -49,13 +49,13 @@
         <p>Every person page includes three copy buttons — Copy Adult Story, Copy Family Story, and Copy Image — so that worship leaders can quickly copy content into presentations or documents. These are intended for direct practical use in the local church.</p>
 
         <h2>Images</h2>
-        <p>All portrait images on this site are <strong>AI-generated</strong>. No third-party photographs, paintings, or Wikimedia Commons images appear on the site.</p>
-        <p>Each portrait is generated using a two-step AI process:</p>
+        <p>All portrait images on this site are <strong>AI-generated</strong>. No third-party photographs, paintings, or Wikimedia Commons images are ever published on this site.</p>
+        <p>Each portrait is generated using a two-step process:</p>
         <ol>
-          <li><strong>Structural reference</strong> — a historical source image (such as a public-domain engraving or photograph) is passed to a ControlNet model. The model extracts only the structural geometry: the pose, framing, and rough composition of the face. No pixel data, texture, or likeness from the source image carries through to the output.</li>
-          <li><strong>AI generation</strong> — Stable Diffusion generates an entirely new image from a text prompt describing the person, conditioned on that structural skeleton. The result is a wholly original AI artwork in a consistent historical steel-engraving style.</li>
+          <li><strong>Approved reference image</strong> — before generating any portrait, we source an approved reference image. This must be either a verified <strong>public domain</strong> image (typically from Wikimedia Commons, clearly licensed as such) or an image personally selected and approved by the site owner. This step grounds the AI portrait in documented historical appearance rather than plausible fiction.</li>
+          <li><strong>AI generation</strong> — the approved reference image is passed to an AI image model alongside a text prompt describing the person, era, dress, and setting. The result is a wholly new AI artwork. No pixel data from the reference image appears in the output — the reference shapes the composition and pose, not the final artwork.</li>
         </ol>
-        <p>The source images used for structural reference are never published and are kept only in our private build pipeline. The images you see are the AI-generated outputs — new works with no copyright claimed.</p>
+        <p>The reference images used in this process are never published on the site and are held only in our private image pipeline. Each entry in our data records the reference image source for traceability.</p>
         <p>Every portrait carries the caption: <em>AI-generated image — no copyright claimed.</em></p>
 
         <h2>Human Review Badges</h2>
@@ -95,6 +95,7 @@
           <li><strong>Dictionary of National Biography</strong> — via Wikisource, for UK figures</li>
         </ul>
         <p>AI is used to write and shape the biographical text, drawing on sourced facts. It elaborates style — it does not invent substance.</p>
+        <p>All story text is periodically checked for originality using <a href="https://www.copyscape.com" target="_blank" rel="noopener">Copyscape</a> to confirm that AI-generated passages have not reproduced source text verbatim.</p>
 
         <h2>Corrections &amp; Suggestions</h2>
         <p>This site is a work in progress. If you notice a factual error, a problematic theological framing, or would like to suggest a figure for inclusion, we welcome your input. Our aim is accuracy and faithfulness to Christ above all else.</p>
