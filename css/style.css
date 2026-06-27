@@ -320,6 +320,7 @@ main {
 }
 
 .card-image {
+  position: relative;
   width: 100%;
   aspect-ratio: 4 / 3;
   overflow: hidden;
@@ -467,7 +468,7 @@ main {
 
 .person-header {
   display: grid;
-  grid-template-columns: 110px 1fr;
+  grid-template-columns: 160px 1fr;
   gap: 1.25rem;
   margin-bottom: 0.75rem;
   align-items: start;
@@ -478,6 +479,34 @@ main {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
+  .person-portrait-wrap {
+    max-width: 200px;
+  }
+}
+
+/* Wraps the img + AI label; keeps the caption outside for layout */
+.portrait-image-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+}
+
+.portrait-ai-label {
+  position: absolute;
+  bottom: 4px;
+  right: 5px;
+  background: rgba(0, 0, 0, 0.22);
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 0.42rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  padding: 1px 3px;
+  border-radius: 2px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
 }
 
 .person-portrait {
@@ -485,8 +514,6 @@ main {
   aspect-ratio: 3 / 4;
   object-fit: cover;
   border-radius: var(--radius-lg);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow-md);
   display: block;
 }
 

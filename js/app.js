@@ -205,6 +205,7 @@ function createCardHtml(person) {
     <article class="person-card" role="listitem" onclick="window.location='person.html?id=${escapeHtml(person.id)}'">
       <div class="card-image">
         ${cardPortraitHtml(person)}
+        ${person.image ? '<div class="portrait-ai-label">AI-gen from public domain orig, © none</div>' : ''}
       </div>
       <div class="card-body">
         <h2 class="card-name">
@@ -405,13 +406,15 @@ function initPersonPage() {
     const attribution = buildAttributionHtml(person.image);
     portraitHtml = `
       <div class="person-portrait-wrap">
-        <img
-          class="person-portrait"
-          src="${imgSrc}"
-          alt="Portrait of ${escapeHtml(person.name)}"
-          onerror="this.outerHTML='<div class=&quot;person-portrait-placeholder&quot;>${initials}</div>'"
-        >
-        ${attribution ? `<p class="person-portrait-caption">${attribution}</p>` : ''}
+        <div class="portrait-image-frame">
+          <img
+            class="person-portrait"
+            src="${imgSrc}"
+            alt="Portrait of ${escapeHtml(person.name)}"
+            onerror="this.parentElement.outerHTML='<div class=&quot;person-portrait-placeholder&quot;>${initials}</div>'"
+          >
+          <div class="portrait-ai-label">AI-gen from public domain orig, &copy; none</div>
+        </div>
       </div>`;
   } else {
     const initials = escapeHtml(getInitials(person.name));
