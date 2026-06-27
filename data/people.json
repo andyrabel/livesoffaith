@@ -55,7 +55,9 @@
     "hymns": [
       "Amazing Grace",
       "Glorious Things of Thee Are Spoken",
-      "How Sweet the Name of Jesus Sounds"
+      "How Sweet the Name of Jesus Sounds",
+      "Amazing Grace (My Chains Are Gone)",
+      "Great God of Wonders"
     ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/John_Newton",
     "hymnary_url": "https://hymnary.org/person/Newton_John",
@@ -96,7 +98,15 @@
       "To God Be the Glory",
       "Safe in the Arms of Jesus",
       "Near the Cross",
-      "Rescue the Perishing"
+      "Rescue the Perishing",
+      "All the Way My Savior Leads Me",
+      "Draw Me Nearer",
+      "Give Me Jesus",
+      "He Hideth My Soul",
+      "My Savior First of All",
+      "Praise Him! Praise Him!",
+      "Redeemed",
+      "Tell Me the Story of Jesus"
     ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Fanny_Crosby",
     "hymnary_url": "https://hymnary.org/person/Crosby_Fanny",
@@ -168,8 +178,12 @@
     "hymns": [
       "When I Survey the Wondrous Cross",
       "Joy to the World",
-      "O God Our Help in Ages Past",
-      "Jesus Shall Reign"
+      "Jesus Shall Reign",
+      "Alas! and Did My Savior Bleed",
+      "At the Cross",
+      "I Sing the Mighty Power of God",
+      "Not All the Blood of Beasts",
+      "O God, Our Help in Ages Past"
     ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Isaac_Watts",
     "hymnary_url": "https://hymnary.org/person/Watts_Isaac",
@@ -206,12 +220,14 @@
       "gospel"
     ],
     "hymns": [
-      "O for a Thousand Tongues to Sing",
-      "Hark the Herald Angels Sing",
       "Love Divine All Loves Excelling",
-      "And Can It Be",
       "Christ the Lord Is Risen Today",
-      "Rejoice the Lord Is King"
+      "Amazing Love",
+      "Come, Thou Long-Expected Jesus",
+      "God, Our Father, We Adore You",
+      "Hark, the Herald Angels Sing",
+      "Oh, for a Thousand Tongues to Sing",
+      "Rejoice, the Lord Is King"
     ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Wesley",
     "hymnary_url": "https://hymnary.org/person/Wesley_Charles",
@@ -323,9 +339,11 @@
     "hymns": [
       "Almost Persuaded",
       "Wonderful Words of Life",
-      "Hallelujah What a Saviour",
       "Man of Sorrows What a Name",
-      "Let the Lower Lights Be Burning"
+      "Let the Lower Lights Be Burning",
+      "Hallelujah, What a Savior!",
+      "I Will Sing of My Redeemer",
+      "Jesus Loves Even Me"
     ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Philip_Bliss",
     "hymnary_url": "https://hymnary.org/person/Bliss_PPhilip",
@@ -363,8 +381,13 @@
     ],
     "hymns": [
       "I Heard the Voice of Jesus Say",
-      "Here O My Lord I See Thee Face to Face",
-      "I Was a Wandering Sheep"
+      "I Was a Wandering Sheep",
+      "A Mind at Perfect Peace",
+      "Blessed Be God, Our God",
+      "Done Is the Work That Saves",
+      "Here, O Our Lord",
+      "I Hear the Words of Love",
+      "No Blood, No Altar Now"
     ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Horatius_Bonar",
     "hymnary_url": "https://hymnary.org/person/Bonar_Horatius",
@@ -1068,6 +1091,222 @@
       "file": "robert-boyle.jpg",
       "prompt_used": "Portrait of Robert Boyle (1627–1691), Anglo-Irish natural philosopher and chemist, wearing a long dark curled periwig and 17th-century gentleman's gown, scholarly and devout expression",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg — public domain, painted 1689 by Johann Kerseboom",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "james-g-deck",
+    "name": "James G. Deck",
+    "born": 1807,
+    "born_approximate": false,
+    "died": 1884,
+    "nationality": "English",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Plymouth Brethren",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "gospel",
+      "worship",
+      "grace",
+      "cross",
+      "redemption"
+    ],
+    "hymns": [
+      "'Twas on That Night of Deepest Woe",
+      "Abba, Father, We Approach You",
+      "In Hope We Lift Our Eyes",
+      "Jesus, My Savior, Thou Art Mine",
+      "Jesus, That Name Is Love",
+      "Lamb of God, Our Souls Adore You",
+      "Lord Jesus, We Remember",
+      "Lord, We Would Not Forget Your Love",
+      "O Lord, When We the Path Retrace",
+      "O Lord, Your Love's Unbounded",
+      "O Solemn Hour, O Hour Alone",
+      "The Veil Is Rent"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/James_George_Deck",
+    "hymnary_url": "https://hymnary.org/person/Deck_JG",
+    "source_summary": "James George Deck (1807–1884) was an English-born Plymouth Brethren hymnwriter and evangelist who emigrated to New Zealand in 1853. Born in Bury St Edmunds, Suffolk, he served in the British East India Company before his evangelical conversion and involvement with the early Plymouth Brethren movement. He was internationally known for his hymns, which focus on the person and work of Christ and are closely associated with the Lord's Supper. He established the first formal Brethren assembly in New Zealand at Ngātīmoti in 1863, and by 1900 his influence had spread across the Nelson and Wellington regions, with nearly 2% of New Zealand's population identifying as Brethren.",
+    "adult_story": "James George Deck was born in Bury St Edmunds, Suffolk in 1807 and entered military service with the British East India Company at seventeen. His conversion came in the 1830s through contact with early Plymouth Brethren figures, and he became associated with that movement's conviction that the church should gather simply around Scripture, the Lord's Table, and the presence of Christ among his people.\n\nHe wrote his hymns in that context, and they bear its mark. They are not primarily confessional hymns about the self and its condition, but meditations on the person and work of Christ — often addressed directly to the Lord himself. Many gather around the broken bread and poured-out cup:\n\n\"O Lord, when we the path retrace / Which Thou on earth hast trod / To man Thy grace, to God Thy face / Holy, undefiled Son of God.\"\n\n\"O solemn hour! O hour alone! / When, on the cross, the Son / Atoned for all that man has done / And cried, 'Tis now all done.\"\n\nIn 1853 Deck emigrated to New Zealand with his family. He settled in the Nelson region, establishing the first formal Brethren assembly at Ngātīmoti in 1863. By his death in 1884 his influence had spread through Nelson and Wellington provinces; by 1900, nearly two per cent of New Zealand's population were Brethren.\n\nHe ceased writing after the 1875 schism between Exclusive and Open Brethren divided the movement he had helped build. But the hymns survived — still sung in Brethren assemblies and beyond, among the clearest examples of devotional verse that keeps its gaze on Christ and its address in the second person: \"Lord Jesus, we remember / The travail of Thy soul / That we in love might gather / And praise Thy Name again.\"\n\nWhat is remarkable about Deck's hymns is the absence of self. They are not about what the believer feels, but about what Christ has done. The worshipper is drawn out of her own interior and invited to contemplate the cross, the resurrection, the return. Deck understood that true worship rises not from looking inward but from looking at Him.",
+    "family_story": "James George Deck was born in England in 1807. As a young man he served in the army. Later he became a Christian and joined a group of believers called the Plymouth Brethren, who wanted to gather simply around Jesus and the Bible.\n\nJames wrote hymns especially for the Lord's Supper — the special meal when Christians remember Jesus's death with bread and wine. His hymns keep their eyes on Jesus: what He suffered, what He did for us, how much He loves us.\n\n\"Lord Jesus, we remember\nThe travail of Thy soul\nThat we in love might gather\nAnd praise Thy Name again.\"\n\nIn 1853, James sailed to New Zealand with his family and helped plant churches there.\n\nHe stopped writing hymns in his later years after a sad disagreement divided his church. But his hymns stayed. They are still sung today because they do something simple and rare: they keep looking at Jesus, not at us.",
+    "image": {
+      "file": "james-g-deck.jpg",
+      "prompt_used": "Portrait of James G. Deck, English Plymouth Brethren hymnwriter and evangelist, late 19th century, wearing a plain dark Victorian coat and cravat, dignified and earnest evangelical expression",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:James_George_Deck_late_in_life.jpg — public domain, 1860s–1884, anonymous photograph published before January 1 1931",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "samuel-medley",
+    "name": "Samuel Medley",
+    "born": 1738,
+    "born_approximate": false,
+    "died": 1799,
+    "nationality": "English",
+    "era": "18th Century",
+    "region": "UK/Ireland",
+    "tradition": "Baptist evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "grace",
+      "redemption",
+      "gospel",
+      "worship",
+      "perseverance"
+    ],
+    "hymns": [
+      "Awake, My Soul",
+      "Christ Jesus Has Done All Things Well",
+      "The Living Stone",
+      "The Matchless Worth"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Samuel_Medley_(minister)",
+    "hymnary_url": "https://hymnary.org/person/Medley_Samuel",
+    "source_summary": "Samuel Medley (1738–1799) was an English Baptist minister and hymn writer. He served in the Royal Navy and was severely wounded at the Battle of Lagos in 1759, during which his evangelical conversion began through the influence of his Baptist grandfather. Ordained in 1768, he served at Watford before moving to Liverpool in 1772, where he worked especially among seamen for the rest of his life. He composed approximately 230 hymns.",
+    "adult_story": "Samuel Medley was born in Cheshunt, Hertfordshire in 1738, the grandson of a Baptist minister. He served in the Royal Navy and was severely wounded at the Battle of Lagos in 1759 — one of the naval engagements that prevented French invasion of England. During his recovery he came under the influence of his grandfather's faith, and the evangelical gospel took hold of him.\n\nHe set up a school in London, was ordained a Baptist minister in 1768, and served at Watford before moving to Liverpool in 1772. Liverpool was then a great seaport, and Medley worked particularly among sailors — men whose lives were shaped by departure, distance, and danger at sea. He remained in Liverpool until his death in 1799.\n\nHe composed approximately 230 hymns, many bearing the marks of the man who wrote them: a soldier and sailor who had faced death, been brought back by grace, and found in Christ a Saviour whose worth exceeded everything the world could offer.\n\n\"Oh, could I speak the matchless worth / Of Jesus, my divine Lord? / My music should the air employ, / Announcing his triumphal joy / And spread his praises all abroad.\"\n\nThe hymn does not claim to have succeeded. It acknowledges that no language is adequate to honour Christ — but insists on trying anyway, because He is worth every attempt.\n\nIn an era when evangelical Christians were rediscovering the gospel of grace after the long twilight of national Anglicanism, Medley was among those who found in Christ not merely a teacher or example but a Redeemer — one whose name alone was worth a life of proclamation.\n\nHe died in Liverpool in 1799, having spent his ministry among working people in a port city. The hymns he left behind gave those ordinary people — and ordinary believers in every generation since — words for the grace that had found them and the Christ who would carry them through.",
+    "family_story": "Samuel Medley was born in England in 1738. When he was young he joined the Royal Navy. In a battle at sea he was badly wounded, and while he recovered, his grandfather — a Baptist minister — talked to him about Jesus.\n\nSamuel came to faith in Christ during those quiet, painful weeks of recovery. It changed everything.\n\nHe became a minister himself, and he went to live in Liverpool — a great busy port city full of sailors. He spent his life there, preaching the gospel to working men and people who understood danger and loss.\n\nSamuel wrote about 230 hymns. One of his most loved is a question that none of us can fully answer:\n\n\"Oh, could I speak the matchless worth\nOf Jesus, my divine Lord?\"\n\nHe knew that Jesus is worth more than any words we have. He spent his whole life trying to say it anyway.",
+    "image": {
+      "file": "samuel-medley.jpg",
+      "prompt_used": "Portrait of Samuel Medley, English Baptist minister and hymn writer, circa 1790s, wearing a plain dark 18th-century clerical coat and white stock, earnest and dignified expression",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Samuel_Medley_1800.jpg — public domain, engraving by Isaac Taylor c.1800, Creative Commons Public Domain Mark 1.0",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "daniel-w-whittle",
+    "name": "Daniel W. Whittle",
+    "born": 1840,
+    "born_approximate": false,
+    "died": 1901,
+    "nationality": "American",
+    "era": "19th Century",
+    "region": "North America",
+    "tradition": "Evangelical (Moody circle)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "gospel",
+      "grace",
+      "perseverance",
+      "faithfulness",
+      "assurance"
+    ],
+    "hymns": [
+      "Christ Liveth in Me",
+      "Have You Any Room for Jesus?",
+      "I Know Whom I Have Believed",
+      "Moment by Moment"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_W._Whittle",
+    "hymnary_url": "https://hymnary.org/person/Whittle_DW",
+    "source_summary": "Daniel Webster Whittle (1840–1901) was an American evangelist and gospel hymn writer associated with D.L. Moody's revival campaigns. Born in Chicopee Falls, Massachusetts, he was wounded and converted during the Civil War, subsequently working at the Elgin Watch Company before entering full-time evangelism in 1873. He partnered with Philip P. Bliss and later James McGranahan for revival campaigns across the United States and Great Britain, writing the texts for hymns set to music by his collaborators.",
+    "adult_story": "Daniel Webster Whittle was born in Chicopee Falls, Massachusetts in 1840. He served in the Union Army during the Civil War, was wounded and taken prisoner, and during his recovery he read a New Testament his mother had placed in his kit. He came to faith in Christ in those weeks — a soldier's conversion, in pain, in a prison, with no certainty about what came next.\n\nHe returned to civilian life, working at the Elgin Watch Company. In 1873, under the influence of D.L. Moody, he entered full-time evangelistic work. He partnered with Philip P. Bliss — who set his texts to music — and later with James McGranahan, conducting revival campaigns across the United States and Great Britain for the rest of his life.\n\nHis hymn \"I Know Whom I Have Believed\" is built on 2 Timothy 1:12. It does not claim to understand everything — \"I know not why God's wondrous grace / To me He hath made known\" — but it asserts a knowledge that counts for everything: I know Christ. I have committed myself to Him. He will keep what I have entrusted to Him until the last day.\n\nThe hymn was written in a century that celebrated certainty and doubted it in equal measure. Whittle's answer was not intellectual certainty but personal trust: not a solved argument but a known Person, and a persuasion that He is able.\n\n\"Moment by Moment\" — written with May Whittle Moody — sets out a theology of union with Christ made into something a congregation can carry through an ordinary day: \"Dying with Jesus, His death reckoned mine / Living with Jesus, a new life divine / Looking to Jesus till glory doth shine / Moment by moment, O Lord, I am Thine.\"\n\nWhittle died in 1901. A converted soldier who became an evangelist, he spent his ministry helping people understand that faith is not a feeling but a trust in a Person — one whose faithfulness makes our stumbling commitment secure.",
+    "family_story": "Daniel Whittle was born in America in 1840. When he was a young soldier in the Civil War, he was wounded and taken prisoner. While he was recovering, he read a New Testament his mother had given him — and he gave his life to Jesus.\n\nAfter the war, Daniel worked at a watch company. Then in 1873 he began to travel across America and Britain, telling people about Jesus.\n\nHe wrote a hymn called \"I Know Whom I Have Believed.\" It says that there is much we don't understand about God's ways — but there is one thing we can be sure of: we know Jesus, and He is able to keep us.\n\n\"I know not why God's wondrous grace\nTo me He hath made known,\nNor why, unworthy, Christ in love\nRedeemed me for His own.\nBut I know Whom I have believed.\"\n\nDaniel died in 1901. A soldier who became a preacher — showing that Jesus can meet us in the hardest and strangest places.",
+    "image": {
+      "file": "daniel-w-whittle.jpg",
+      "prompt_used": "Portrait of Daniel W. Whittle, American Civil War veteran and evangelical hymn writer, circa 1877, wearing a dark Victorian frock coat, bearded, serious and earnest expression",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Daniel_Webster_Whittle_(from_LCCN2005678064).jpg — public domain, 1877, Library of Congress Prints and Photographs Division",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "elisha-a-hoffman",
+    "name": "Elisha A. Hoffman",
+    "born": 1839,
+    "born_approximate": false,
+    "died": 1929,
+    "nationality": "American",
+    "era": "19th Century",
+    "region": "North America",
+    "tradition": "Presbyterian evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "redemption",
+      "grace",
+      "gospel",
+      "perseverance",
+      "prayer"
+    ],
+    "hymns": [
+      "Are You Washed in the Blood?",
+      "Glory to His Name",
+      "Leaning on the Everlasting Arms"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Elisha_Hoffman",
+    "hymnary_url": "https://hymnary.org/person/Hoffman_Elisha",
+    "source_summary": "Elisha Albright Hoffman (1839–1929) was an American Presbyterian minister and prolific gospel hymn writer. Born in Orwigsburg, Pennsylvania, to an Evangelical Association minister, he was ordained a Presbyterian minister in 1873 after eleven years with the Evangelical Association's publishing house in Cleveland. He served his longest pastorate of thirty-three years at the First Presbyterian Church in Benton Harbor, Michigan. He composed over 2,000 hymns and edited more than fifty songbooks.",
+    "adult_story": "Elisha Albright Hoffman was born on 7 May 1839 in Orwigsburg, Pennsylvania. His father was an Evangelical Association minister, and the rhythm of ministry and Scripture shaped his childhood. He studied at Union Seminary, worked eleven years with the Evangelical Association's publishing house in Cleveland, and was ordained as a Presbyterian minister in 1873.\n\nHe pastored churches across the Midwest, his longest tenure — thirty-three years — at the First Presbyterian Church in Benton Harbor, Michigan. He composed over 2,000 hymns and edited more than fifty songbooks. He died in Chicago in 1929, having spent ninety years living through everything from the Civil War to the gramophone age.\n\nHis most well-known hymns survive because they do something direct and simple. \"Are You Washed in the Blood?\" is an invitation to examine one's standing before Christ: \"Have you been to Jesus for the cleansing power? / Are you washed in the blood of the Lamb?\" It is blunt in the way revival preaching was blunt — it assumes that no one present may have a settled understanding of their own position before God, and it calls them to the cross.\n\n\"Leaning on the Everlasting Arms\" arose from a collaboration with Anthony J. Showalter. Showalter had written to Hoffman after receiving letters from two bereaved men in his congregation, quoting Deuteronomy 33:27 — \"The eternal God is thy refuge, and underneath are the everlasting arms.\" Together they produced a hymn whose chorus is among the most widely sung expressions of Christian confidence: \"Leaning, leaning, safe and secure from all alarms / Leaning on the everlasting arms.\"\n\n\"I Must Tell Jesus\" arose from a pastoral conversation. A woman in Hoffman's congregation told him of her troubles, asking what she should do. Hoffman replied simply: \"You must tell Jesus.\" He went home and wrote the hymn. The most ordinary pastoral exchange became the premise of a song still sung by congregations who need permission to bring their actual circumstances to Christ.\n\nHoffman's hymns are not theological treatises. They are entry points — direct, clear invitations to come to Christ, to lean on Him, to bring Him what we carry.",
+    "family_story": "Elisha Hoffman was born in Pennsylvania in 1839, in a family where church and the Bible were the centre of everything. He grew up to become a minister, and then spent most of his life preaching and writing hymns — more than 2,000 of them.\n\nOne day a woman in his congregation was very sad and asked him what she should do. Elisha's answer was simple: \"You must tell Jesus.\" Then he went home and wrote a hymn about it.\n\nThat is what many of his hymns do: they give us the simplest, most important instruction. Tell Jesus. Lean on Jesus. Ask whether your sins are washed in the blood of Jesus.\n\n\"Leaning on the Everlasting Arms\" is one of his best loved:\n\n\"What a fellowship, what a joy divine,\nLeaning on the everlasting arms.\"\n\nUnderneath us, like arms that never tire, is God himself holding us up.\n\nElisha spent his whole long life — he died at ninety — telling people to come to Jesus. Sometimes the most important thing is the simplest thing.",
+    "image": {
+      "file": "elisha-a-hoffman.jpg",
+      "prompt_used": "Portrait of Elisha A. Hoffman, American Presbyterian minister and gospel hymn writer, circa 1914, wearing a plain dark Victorian suit, bearded, earnest pastoral expression",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Elisha_Hoffman.jpg — public domain, from 'Biography of Gospel Song and Hymn Writers' by J. H. Hall, Fleming H. Revell, New York, 1914",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "frances-ridley-havergal",
+    "name": "Frances Ridley Havergal",
+    "born": 1836,
+    "born_approximate": false,
+    "died": 1879,
+    "nationality": "English",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Anglican evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "surrender",
+      "faithfulness",
+      "grace",
+      "worship",
+      "consecration"
+    ],
+    "hymns": [
+      "Like a River Glorious",
+      "Take My Life, and Let It Be",
+      "Who Is on the Lord's Side?"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Frances_Ridley_Havergal",
+    "hymnary_url": "https://hymnary.org/person/Havergal_Frances",
+    "source_summary": "Frances Ridley Havergal (1836–1879) was an English Anglican hymn writer and poet. Born in Astley, Worcestershire, the daughter of clergyman and hymn writer William Henry Havergal, she was highly educated and had memorised the New Testament, the Psalms, and much of the Old Testament prophets. She experienced evangelical conversion around 1851 and a deeper consecration in 1873 that produced her most celebrated hymns. She died of peritonitis aged forty-two.",
+    "adult_story": "Frances Ridley Havergal was born in Astley, Worcestershire in 1836, the youngest child of William Henry Havergal — a clergyman, composer, and hymn writer. From childhood she was drawn to Scripture and language: she had memorised the New Testament, the Psalms, and much of the prophets before she was an adult, and she read Greek and Hebrew.\n\nShe came to evangelical faith around 1851 — what she described as a deliberate, decisive trust: \"I did trust the Lord Jesus.\" In 1873, reading a booklet called *All For Jesus* deepened this into what she called full consecration — a total self-offering that became the wellspring of her most distinctive hymns.\n\n\"Take My Life, and Let It Be\" is the outworking of that 1873 crisis. Verse by verse it moves through every faculty and possession — voice, hands, feet, intellect, will, heart, love, time, money: \"Take my will, and make it Thine / It shall be no longer mine / Take my heart, it is Thine own / It shall be Thy royal throne.\" It does not leave the singer anywhere safe. Everything must be submitted. The hymn is a petition precisely because the submission is not natural to us.\n\n\"Like a River Glorious\" gives the counterpoint — the peace that follows trust: \"Stayed upon Jehovah, hearts are fully blest / Finding, as He promised, perfect peace and rest.\" The peace described is not an absence of difficulty but a settled trust in a God whose purposes are certain, whose love is unfailing.\n\n\"Who Is on the Lord's Side?\" is a call to allegiance — but allegiance that rests not in human resolve but in what Christ has done: \"Jesus, Thou hast bought us / Not with gold or gem / But with Thine own lifeblood / For Thy diadem.\"\n\nHavergal died of peritonitis at forty-two in June 1879. Her final recorded words, on the last day of her life: \"If I am going, it is too good to be true. Come, Lord Jesus, come quickly! Splendid to be so near the gates of heaven. So beautiful to go.\"\n\nShe had spent her life writing of consecration and trust. She died as she had written.",
+    "family_story": "Frances Ridley Havergal was born in England in 1836. Her father was a minister and hymn writer, and from a very young age she loved books, languages, and poetry. She had memorised much of the Bible before she was grown up.\n\nWhen she was a teenager she gave her heart to Jesus — not just learning about Him, but truly trusting Him.\n\nWhen she was in her thirties she felt God asking for her whole life — not just part of it. She said yes. Then she sat down and wrote one of the most loved hymns in the church:\n\n\"Take my life, and let it be\nConsecrated, Lord, to Thee...\nTake my will, and make it Thine,\nIt shall be no longer mine.\"\n\nShe wrote about trusting God through everything, even when life is hard. \"Like a River Glorious\" says that those who stay close to God find peace that goes deeper than feelings or circumstances.\n\nFrances died very young — just forty-two years old. But as she was dying, she said: \"So beautiful to go.\" She was not afraid. She was going to the One she had sung about all her life.",
+    "image": {
+      "file": "frances-ridley-havergal.jpg",
+      "prompt_used": "Portrait of Frances Ridley Havergal, English Anglican hymn writer and poet, circa 1870s Victorian era, wearing a high-collared dark dress, gentle and serene expression",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Frances_Ridley_Havergal.jpg — public domain, from 'Christmas Sunshine with Love and Light for the New Year' 1886, published before January 1 1931",
       "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
