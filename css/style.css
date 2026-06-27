@@ -493,21 +493,6 @@ main {
   box-shadow: var(--shadow-md);
 }
 
-.portrait-ai-label {
-  position: absolute;
-  bottom: 4px;
-  right: 5px;
-  background: rgba(0, 0, 0, 0.22);
-  color: rgba(255, 255, 255, 0.50);
-  font-size: 0.42rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  padding: 1px 3px;
-  border-radius: 2px;
-  letter-spacing: 0.02em;
-  white-space: nowrap;
-  pointer-events: none;
-  user-select: none;
-}
 
 .person-portrait {
   width: 100%;
