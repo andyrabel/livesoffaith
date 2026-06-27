@@ -1679,5 +1679,77 @@
       "reviewed_by": "",
       "reviewed_date": ""
     }
+  },
+  {
+    "id": "john-wesley",
+    "name": "John Wesley",
+    "born": 1703,
+    "born_approximate": false,
+    "died": 1791,
+    "nationality": "English",
+    "era": "18th Century",
+    "region": "UK/Ireland",
+    "tradition": "Methodist/Anglican evangelical",
+    "flagged": true,
+    "footnote": "Wesley taught the doctrine of 'entire sanctification' or 'Christian perfection' — the belief that a second work of grace can enable believers to love God and neighbour as their governing motive. This is distinct from sinless perfection and does not contradict salvation by grace through faith, but it is a significant Arminian distinctive that Reformed and Calvinist evangelicals would question. His Aldersgate conversion and the thrust of his preaching were firmly evangelical.",
+    "topics": [
+      "grace",
+      "conversion",
+      "revival",
+      "preaching",
+      "perseverance"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Wesley",
+    "source_summary": "John Wesley (1703–1791) was an English Anglican clergyman, theologian, and evangelist who founded the Methodist movement. Born the fifteenth child of Samuel and Susanna Wesley in Epworth, Lincolnshire, he studied at Oxford, was ordained an Anglican priest, and sailed to Georgia in 1735 as a missionary. He experienced evangelical conversion at a Moravian meeting in Aldersgate Street on 24 May 1738 — writing 'I felt my heart strangely warmed' and 'I felt I did trust in Christ, Christ alone for salvation.' He subsequently preached more than 40,000 sermons, travelled approximately 250,000 miles on horseback across Britain and Ireland, and founded Methodist societies that became a global movement. He wrote his final letter to William Wilberforce — urging him not to abandon the fight against slavery — a week before his death at age 87.",
+    "adult_story": "John Wesley was born in Epworth, Lincolnshire in 1703, the fifteenth child of Samuel and Susanna Wesley. He studied at Oxford, was ordained an Anglican priest, and sailed to Georgia in 1735 as a missionary — a venture that ended in failure and his return to England deeply uncertain about his own standing before God.\n\nThe turning point came on 24 May 1738. At a Moravian meeting in Aldersgate Street, London, Wesley heard Luther's preface to Romans read aloud. He wrote afterwards: “I felt my heart strangely warmed. I felt I did trust in Christ, Christ alone for salvation.” From that evening he preached the grace he had previously only theorised. With the open fields as his pulpit — following George Whitefield’s example — he preached more than 40,000 sermons over fifty years, travelling 250,000 miles on horseback throughout Britain and Ireland. His Methodist societies became the seed of a global movement.\n\nA week before his death in 1791 he wrote his final letter to William Wilberforce, urging him not to abandon the fight against slavery. He died at eighty-seven, still trusting the Christ whose grace had warmed his heart fifty-three years before. For all his formidable organisation and energy, the thing that drove him was a single conviction: that a grace sufficient for John Wesley was sufficient for anyone.",
+    "family_story": "John Wesley was born in England in 1703, one of nineteen children. He became a minister and even sailed to America as a missionary — but he came home unsure he truly trusted God.\n\nOne evening in London in 1738, he heard someone read from the Bible about trusting Jesus alone. Something changed inside him. He wrote that his heart felt “strangely warmed” — and he knew Jesus had saved him.\n\nAfter that, John spent fifty years on horseback all across Britain, preaching wherever people would listen. He gave more than 40,000 sermons. He never stopped pointing people to the grace that had changed him.",
+    "image": {
+      "file": "john-wesley.jpg",
+      "prompt_used": "Photorealistic portrait of John Wesley, English Methodist evangelist, late 18th century, wearing a black Anglican clerical coat with white collar bands, short greying wig, warm and earnest expression, aged in his seventies, historically accurate to 1780s clerical dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:John_Wesley_by_William_Hamilton.jpg — public domain painting by William Hamilton, 1788, artist died 1801",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "george-verwer",
+    "name": "George Verwer",
+    "born": 1938,
+    "born_approximate": false,
+    "died": 2023,
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Interdenominational evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "evangelism",
+      "grace",
+      "perseverance",
+      "gospel"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/George_Verwer",
+    "source_summary": "George Verwer (1938–2023) was an American evangelical missionary and founder of Operation Mobilisation (OM). Born in New Jersey, he converted to faith in Christ at sixteen at a Billy Graham meeting in Madison Square Garden in 1955. He began distributing Gospel literature in Mexico in 1957 and formally founded OM in 1962. Under his leadership OM grew to thousands of workers in over a hundred countries. He launched OM's ship ministry — MV Logos (1970) and MV Doulos (1977) — using vessels as floating bookshops to distribute Christian literature at ports worldwide. He coined the term 'messiology' to describe his conviction that God works through imperfect people. He handed leadership to Peter Maiden in 2003 and died in London on 14 April 2023, aged 84.",
+    "adult_story": "George Verwer was born in New Jersey in 1938 and converted to faith in Christ at sixteen at a Billy Graham meeting in Madison Square Garden. The following year he began distributing Gospel literature in Mexico with a handful of friends; by 1962 he had formally founded Operation Mobilisation, which would grow to thousands of workers in more than a hundred countries.\n\nVerwer’s two great convictions shaped everything OM became. The first was that the gospel was owed to the whole world, not a comfortable few. The second was what he called “messiology” — his term for the biblical truth that God works through fallible, stumbling people, not around them. He launched ship ministries to take the gospel to ports inaccessible to conventional mission teams: the MV Logos in 1970, the Doulos in 1977. He called himself “God’s Bungler” — not in false modesty but as theology.\n\nHe handed OM’s leadership over in 2003 but continued preaching, writing, and encouraging missionaries until shortly before his death in London on 14 April 2023, aged eighty-four. His legacy is hundreds of thousands of lives reached and a generation of workers from every continent who took seriously the same passage that had once gripped a sixteen-year-old in Madison Square Garden: Christ died for sins, once for all, the righteous for the unrighteous, to bring us to God.",
+    "family_story": "George Verwer was born in New Jersey in 1938. At sixteen, he went to a Billy Graham meeting and gave his life to Jesus. After that, one thing burned in him: the whole world needed to hear the gospel.\n\nHe started handing out Bibles in Mexico with a few friends. That small team grew into Operation Mobilisation — thousands of workers in over a hundred countries. He even bought ships to take the gospel to ports around the world.\n\nGeorge called himself “God’s Bungler” — because God uses imperfect people. He kept serving until he died in London in 2023, aged eighty-four.",
+    "image": {
+      "file": "george-verwer.jpg",
+      "prompt_used": "Photorealistic portrait of George Verwer, American evangelical missionary and founder of Operation Mobilisation, late 20th century, wearing casual modern clothing, enthusiastic and warm expression, middle-aged, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:GeorgeVerwer1.jpg — public domain, released by photographer Eva Rindfuss with no conditions",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]

@@ -97,9 +97,14 @@ Both versions must:
 ### Publication Rule
 - **All published portrait images are AI-generated — no third-party image is ever
   published on the site under any circumstances**
-- Every published image carries the caption exactly as follows:
+- Every published image has the caption text **burned directly into the image file**
+  as a visible strip at the bottom, exactly:
 
   > AI-generated image — no copyright claimed
+
+  This is done automatically by `_build/lineart.py` immediately after generation
+  using PIL (`stamp_caption()`). The text is embedded in the JPEG itself — it is
+  not only an HTML caption.
 
 ### Image Generation Process
 AI portraits must be generated using a **reference image** to ensure visual and
