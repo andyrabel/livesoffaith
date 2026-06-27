@@ -66,17 +66,24 @@ Before generating content for any person, confirm all of the following:
 
 ## Two Story Versions Per Person
 
+Both versions follow a **three-paragraph structure**:
+1. Who they are (background, calling, key facts)
+2. What they're known for — for hymn writers, name their most famous hymns
+3. A short story or moment that illustrates their faith
+
+The Wikipedia link on each page provides further context — the story itself need not be exhaustive.
+
 ### Adult Version
 - Richer theological and historical context
 - May reference doctrine, historical setting, church history
 - Suitable for use in adult Bible study or worship service
-- Approximately 300–500 words
+- **Maximum 235 words**
 
 ### Family Version
 - Simpler vocabulary, narrative-focused
 - Engaging for children aged 8–14
 - Avoids complex theology but retains the gospel thread clearly
-- Approximately 150–250 words
+- **Maximum 112 words**
 
 Both versions must:
 - Be factually accurate to the sourced material
