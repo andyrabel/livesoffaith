@@ -1314,5 +1314,88 @@
       "reviewed_by": "",
       "reviewed_date": ""
     }
+  },
+  {
+    "id": "keith-green",
+    "name": "Keith Green",
+    "born": 1953,
+    "born_approximate": false,
+    "died": 1982,
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Evangelical (Jesus Movement)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "gospel",
+      "grace",
+      "worship",
+      "repentance",
+      "discipleship",
+      "surrender"
+    ],
+    "hymns": [
+      "Asleep in the Light",
+      "Create in Me a Clean Heart",
+      "Grace by Which I Stand",
+      "I Make My Life a Prayer to You",
+      "Oh Lord, You're Beautiful",
+      "So You Wanna Go Back to Egypt",
+      "There Is a Redeemer",
+      "Your Love Broke Through"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Keith_Green",
+    "source_summary": "Keith Gordon Green (1953–1982) was an American Christian singer-songwriter and evangelist associated with the Jesus Movement. Born in Brooklyn to a Jewish family, he converted to evangelical faith in May 1975 after years of spiritual searching. He and his wife Melody founded Last Days Ministries (1977) in Lindale, Texas, a communal outreach housing recovering addicts, homeless youth, and others in need. He recorded six studio albums for Sparrow Records and pioneered the practice of distributing his music free of charge, distributing over 200,000 units by 1982 with 61,000 given away. He died aged twenty-eight in a plane crash in Garden Valley, Texas, along with two of his young children, Josiah and Bethany.",
+    "adult_story": "Keith Gordon Green was born in Brooklyn, New York on 21 October 1953, to a Jewish family that practised Christian Science. He showed extraordinary musical gifts from childhood — piano by seven, signed to ASCAP at eleven, contracted to Decca Records before his teens. But the teen-idol career never materialised, and Green spent his adolescence in a different kind of search: running away from home, using drugs, exploring Eastern mysticism. In December 1972 he wrote in his journal: \"Jesus, you are hereby officially welcomed into me.\" The welcome was tentative.\n\nThe real turning point came in May 1975, when he and his wife Melody attended a home Bible study in Beverly Hills led by Kenn Gulliksen of Vineyard Christian Fellowship. They heard the gospel — that Jesus was the Jewish Messiah who had died for their sins — and believed it. Green was twenty-one. He would have seven years.\n\nWhat followed was one of the most concentrated outpourings of Christian music in the modern church. Signed to Sparrow Records, he released six studio albums. Influenced by the revivalist preachers Leonard Ravenhill and Charles Finney, his early work is marked by urgency, almost by alarm. \"Asleep in the Light\" confronts the church with its indifference to a world without Christ: \"The world is sleeping in the dark / That the church just can't fight / 'Cause it's asleep in the light.\"\n\nBut he could also pray with great tenderness: \"Oh Lord, You're beautiful / Your face is all I seek / For when Your eyes are on this child / Your grace abounds to me.\"\n\nHe and Melody had opened their home to those in need from the very beginning of their Christian life — recovering addicts, pregnant women, people with nowhere to go. In 1977 this became Last Days Ministries, a communal outreach in Lindale, Texas. In 1979 he decided he could not charge for his albums when the gospel itself was free. He mortgaged his home to finance the policy and by 1982 had distributed over 200,000 copies, 61,000 of them without charge.\n\nHe was honest in public about the ways his early ministry had been too harsh. His understanding of God's unconditional love deepened visibly through his recordings. \"There Is a Redeemer\" — written by Melody, carried by both — became the confession of what sustained him: \"There is a redeemer, Jesus, God's own Son, / Precious Lamb of God, Messiah, Holy One.\"\n\nOn 28 July 1982, he died in a plane crash near Garden Valley, Texas. Two of his children, Josiah (3) and Bethany (2), died with him. He was twenty-eight. In seven years of Christian faith he had written songs still sung by congregations who have never heard his story — calling the church that was sleeping to wake up, and pointing it always to a Redeemer.",
+    "family_story": "Keith Green was born in New York in 1953, to a Jewish family. He was an incredible musician from a very young age — playing piano at seven, and already signing contracts to make records by the time he was eleven.\n\nBut for years Keith was searching. He tried all kinds of things to find out what life was really about. Then in 1975, when he was twenty-one, Keith and his wife Melody heard the gospel — the good news about Jesus, the Jewish Messiah who died for our sins. They believed it. Everything changed.\n\nKeith started writing songs full of fire and love for God. He challenged Christians not to just go through the motions, but to really follow Jesus. But he could also pray with great tenderness:\n\n\"Oh Lord, You're beautiful,\nYour face is all I seek,\nFor when Your eyes are on this child,\nYour grace abounds to me.\"\n\nHe gave away his records for free to people who couldn't afford them, because he said you can't charge money for something when the gospel itself is free.\n\nKeith died in a plane crash in 1982, aged just twenty-eight. Two of his little children died with him. He had been a Christian for only seven years — but in those seven years he wrote songs that Christians around the world still sing today.",
+    "image": {
+      "file": "keith-green.jpg",
+      "prompt_used": "Portrait of Keith Green, American Christian singer-songwriter and evangelist, circa 1978, earnest and passionate expression, young man in his mid-twenties, 1970s era",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Keithgreen.jpg — CC BY-SA 3.0, Last Days Ministries granted permission via email; not public domain but freely licensed by the rights holder",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "thomas-watson",
+    "name": "Thomas Watson",
+    "born": 1620,
+    "born_approximate": true,
+    "died": 1686,
+    "nationality": "English",
+    "era": "17th Century",
+    "region": "UK/Ireland",
+    "tradition": "Puritan (Reformed / Nonconformist)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "grace",
+      "repentance",
+      "sovereignty",
+      "sanctification",
+      "gospel",
+      "perseverance"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Watson_(Puritan)",
+    "source_summary": "Thomas Watson (c. 1620–1686) was an English Puritan minister and theologian. Educated at Emmanuel College, Cambridge, he served as rector of St Stephen Walbrook in the City of London from 1646 until the Great Ejection of 1662, when he was expelled along with nearly two thousand other nonconformist ministers for refusing to conform to the Act of Uniformity. He continued to preach covertly and publicly when permitted. His major works include A Body of Divinity (sermons on the Westminster Shorter Catechism), All Things for Good (on Romans 8:28), and The Doctrine of Repentance. He died suddenly while in prayer at Barnston, Essex in 1686.",
+    "adult_story": "Thomas Watson was born around 1620 and educated at Emmanuel College, Cambridge — which was at that time the nursery of Puritan theology in England. He was ordained and became rector of St Stephen Walbrook in the City of London in 1646, where he ministered with remarkable effectiveness for sixteen years.\n\nIn 1651 he was briefly imprisoned for his involvement in a Presbyterian plot to restore Charles II. After the Restoration he found himself on the other side of political fortune: in 1662 the Act of Uniformity required all clergy to accept episcopal ordination and subscribe to the Book of Common Prayer. Watson refused. Along with nearly two thousand other Puritan ministers — in what became known as the Great Ejection — he was turned out of his living on a single day, 24 August 1662, St Bartholomew's Day.\n\nHe continued to preach wherever he legally could. When the Declaration of Indulgence (1672) briefly lifted restrictions, he ministered at Crosby House in Bishopsgate. He eventually retired to Barnston in Essex, where he died while at prayer in 1686.\n\nHis books have never gone out of print. *A Body of Divinity* — sermons on the Westminster Shorter Catechism — is as clear and accessible an introduction to Reformed theology as the English language possesses. It opens with the first question of the Catechism: \"What is the chief end of man?\" Watson spent four sermons on those seventeen words, and every line proves his conviction that doctrine is not abstract but immediately and practically connected to worship.\n\n*All Things for Good* meditates on Romans 8:28, arguing from Scripture that God works even affliction toward the believer's ultimate good. Watson was not writing from ease; he had lost his living and his church. The book is the more persuasive for it.\n\n*The Doctrine of Repentance* distinguishes carefully between genuine and counterfeit repentance — between the grief that leads to life and the grief that does not. Watson was a pastor's pastor: he wanted his people to understand not just the doctrine but how to tell whether they had the real thing.\n\nHis prose is aphoristic and built for memory: \"The soul cannot be kept from Christ by the chain of sin any longer than the soul wills it.\" He was Reformed in his theology, Puritan in his devotion, and pastoral in his care for ordinary believers. He spent his life helping them understand what they believed and how to live it.",
+    "family_story": "Thomas Watson was a Puritan minister in England, born around 1620. He went to Cambridge University and became the rector of a church in London.\n\nIn 1662, the king made a new law that all ministers had to use the official Church of England prayer book and accept a bishop over them. Thomas Watson thought this was wrong — and so did nearly two thousand other ministers. They all walked out of their churches on the same day. This is called the Great Ejection.\n\nWatson lost his church. But he kept on preaching and writing.\n\nHe wrote books that are still read today, hundreds of years later. One of his most famous is called *All Things for Good*, based on Romans 8:28 — the verse that says God works everything together for good for those who love him. Watson wrote it while he was going through a very hard time himself. He knew it was true because he had lived it.\n\nHe died in 1686 while he was praying. He never stopped trusting God, and he never stopped helping other people understand the gospel clearly.\n\nPeople are still reading Thomas Watson more than three hundred years after his death.",
+    "image": {
+      "file": "thomas-watson.jpg",
+      "prompt_used": "Portrait of Thomas Watson, English Puritan minister and theologian, mid-17th century, wearing typical Puritan dark coat with plain white collar bands, serious and devout expression, historically accurate to 1660s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Thomas_Watson_(Puritan).jpg — public domain, traditional print after engraving by James Hopwood the Elder (c.1750–1819)",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]
