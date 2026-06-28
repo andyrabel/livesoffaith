@@ -1751,5 +1751,337 @@
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
     }
+  },
+  {
+    "id": "matthew-henry",
+    "name": "Matthew Henry",
+    "born": 1662,
+    "born_approximate": false,
+    "died": 1714,
+    "nationality": "British",
+    "era": "17th Century",
+    "region": "UK/Ireland",
+    "tradition": "Presbyterian/Nonconformist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "Scripture",
+      "exposition",
+      "prayer",
+      "devotion",
+      "grace"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matthew_Henry",
+    "source_summary": "Matthew Henry (1662–1714) was a Welsh-born Nonconformist minister and biblical expositor, son of Philip Henry, who was ejected from the Church of England under the Act of Uniformity in 1662. Educated under Nonconformist tutors, Henry was ordained in 1687 as minister at Chester, where he served for twenty-five years, then moved to Mare Street Chapel, Hackney, London in 1712. He is best known for his six-volume Exposition of the Old and New Testaments, begun around 1704, the most widely read English Bible commentary ever written. He died in 1714 after falling from his horse near Nantwich, aged 51; the final volumes were completed by colleagues from his notes.",
+    "adult_story": "Matthew Henry was born in 1662 at Broad Oak Farm, Flintshire, Wales, the son of Philip Henry — a Nonconformist minister ejected from his parish that very year under the Act of Uniformity. From childhood he was formed by Scripture and by the cost of holding convictions under pressure.\n\nOrdained in 1687, he ministered at Chester for twenty-five years, then moved to Hackney, London in 1712. He was known as a pastor who preached the whole counsel of God with warmth and loved his people faithfully.\n\nHis great work was his Exposition of the Old and New Testaments — a commentary on the entire Bible begun around 1704 and left unfinished at his death in 1714 when he fell from his horse near Nantwich. Colleagues completed the final volumes from his notes. It became the most widely read English Bible commentary ever written — not because of academic learning, but because of its devotional warmth and its consistent habit of pointing every passage to Christ.\n\nHis approach has endured for three centuries: Scripture speaks to the heart, not merely the intellect; every part of the Bible speaks of Christ; and the aim of Bible study is not to master the text but to be mastered by it. He wrote as a pastor who loved the souls before him.\n\nThe discovery that drove his life was simple: the grace of God in Christ is the beginning and end of all Scripture.",
+    "family_story": "Matthew Henry grew up in Wales in the 1660s, the son of a minister who lost his church for refusing to obey the king’s commands. From a boy, Matthew loved the Bible and learned what it cost to stand firm.\n\nHe became a minister himself and spent his life explaining God’s word to ordinary people. His greatest work was a huge commentary on the whole Bible — written clearly and warmly, always pointing the reader to Jesus. People have been reading it ever since, three hundred years later.\n\nWhen Matthew opened any page of Scripture, he asked: where is Christ here? That question made his writing last.",
+    "image": {
+      "file": "matthew-henry.jpg",
+      "prompt_used": "Portrait of Matthew Henry, Welsh Nonconformist minister and Bible commentator, early 18th century, wearing a dark clerical coat with white collar, serious and studious expression, historically accurate to 1700s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Matthew_Henry_Portrait_1707.png — portrait painting c.1707, artist unknown, public domain (over 300 years old)",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "charles-spurgeon",
+    "name": "Charles Haddon Spurgeon",
+    "born": 1834,
+    "born_approximate": false,
+    "died": 1892,
+    "nationality": "British",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Particular Baptist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "preaching",
+      "grace",
+      "evangelism",
+      "suffering",
+      "cross",
+      "faith"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Spurgeon",
+    "source_summary": "Charles Haddon Spurgeon (1834–1892) was an English Particular Baptist preacher, known as the ‘Prince of Preachers.’ Converted at fifteen in a Primitive Methodist chapel in Colchester, he was called to New Park Street Chapel, London at nineteen, and in 1861 moved to the newly built Metropolitan Tabernacle, seating six thousand. He preached to an estimated ten million people in person over his lifetime. He founded a Pastors’ College and an orphanage, and his sermons fill sixty-three volumes of the Metropolitan Tabernacle Pulpit. He battled depression and gout for much of his life. In 1887 he withdrew from the Baptist Union over its theological drift, an episode known as the Downgrade Controversy. He died in Menton, France, in January 1892, aged 57.",
+    "adult_story": "Charles Haddon Spurgeon was born in Kelvedon, Essex in 1834 and converted to faith in Christ at fifteen. During a snowstorm he ducked into a Primitive Methodist chapel in Colchester, where a stand-in preacher addressed the congregation on Isaiah 45:22 — “Look unto me, and be ye saved.” The words struck Spurgeon like a lance, and he looked, and he was saved.\n\nBy nineteen he was called to New Park Street Chapel, London. The congregation outgrew every building they could find; by 1861 the Metropolitan Tabernacle had been built, seating six thousand. He preached to an estimated ten million people in person over his lifetime. He founded a Pastors’ College, an orphanage, and wrote prolifically — his sermons filling sixty-three volumes.\n\nHe battled depression and gout for much of his life and was candid about it, writing that he had learned more of God’s grace through suffering than through any other school. In 1887 he withdrew from the Baptist Union over its drift toward theological liberalism, at considerable personal cost.\n\nHe died in Menton, France in January 1892. His message over forty years never changed: all are lost, Christ alone saves, and the grace that saves a sinner is the grace that keeps him to the end. He was not the message’s author — only its most tireless herald.",
+    "family_story": "Charles Spurgeon grew up in Essex, England. At fifteen, caught in a snowstorm, he ducked into a tiny chapel where a plain preacher pointed to Isaiah 45:22: “Look unto me, and be ye saved.” Charles looked — and was saved.\n\nBy nineteen he was preaching to huge crowds in London. A church was built that held six thousand people, and it was always full. He preached to more than ten million people in his lifetime.\n\nSpurgeon sometimes battled deep sadness, but he said suffering taught him more about God’s grace than anything else. His whole life long, his message was the same: everyone is lost, and Christ alone saves.",
+    "image": {
+      "file": "charles-spurgeon.jpg",
+      "prompt_used": "Portrait of Charles Haddon Spurgeon, Victorian Baptist preacher known as the Prince of Preachers, 19th century, wearing a dark frock coat with white cravat, confident and earnest expression, mid-Victorian era clerical dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Charles_Haddon_Spurgeon_by_Alexander_Melville.jpg — photograph by Alexander Melville, published before 1928, public domain",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "david-brainerd",
+    "name": "David Brainerd",
+    "born": 1718,
+    "born_approximate": false,
+    "died": 1747,
+    "nationality": "American",
+    "era": "18th Century",
+    "region": "North America",
+    "tradition": "Presbyterian",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "prayer",
+      "perseverance",
+      "suffering",
+      "faithfulness"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/David_Brainerd",
+    "source_summary": "David Brainerd (1718–1747) was an American Presbyterian minister and missionary to the Native Americans of New York, Pennsylvania and New Jersey. Orphaned at thirteen, he entered Yale College in 1739 during the First Great Awakening but was expelled in 1742 for a remark about a tutor, which barred him from licensed ministry. He was appointed by the Society in Scotland for Propagating Christian Knowledge and worked among the Delaware and Mahican peoples. In 1745 a remarkable revival broke out at Crossweeksung, New Jersey. Suffering from tuberculosis throughout his ministry, he died in October 1747, aged 29, at Jonathan Edwards’ home in Northampton, Massachusetts. Edwards edited and published Brainerd’s diary the following year; it has inspired generations of missionaries including William Carey and Jim Elliot.",
+    "adult_story": "David Brainerd was born in 1718 in Haddam, Connecticut, orphaned at thirteen, and entered Yale College in 1739 during the First Great Awakening. He was expelled in 1742 for a remark made in frustration about a tutor — a wound that barred him from licensed ministry and that he carried for the rest of his short life.\n\nHe became instead a missionary to the Delaware and Mahican peoples, appointed by the Society in Scotland for Propagating Christian Knowledge. He laboured in New York, Pennsylvania, and New Jersey — often in poverty, always ill with tuberculosis. He spent long nights in prayer in the forests, sometimes in such spiritual anguish that the snow around him melted.\n\nIn 1745 a remarkable revival broke out at Crossweeksung, New Jersey. Within months nearly a hundred Native Americans had come to faith. Brainerd preached through an interpreter but believed it was prayer, not his words, that opened hearts.\n\nHe died in October 1747, aged twenty-nine, at the home of Jonathan Edwards in Northampton, Massachusetts. Edwards edited his diary and published it the following year. That diary has moved readers ever since — most significantly [[William Carey|william-carey]] and [[Jim Elliot|jim-elliot]], who both counted Brainerd’s example among their chief reasons for going to the mission field.\n\nHe accomplished little the world counts great. He was spent for Christ, and that proved enough.",
+    "family_story": "David Brainerd was born in Connecticut in 1718 and lost both parents as a young child. For years he searched desperately for peace with God.\n\nHe eventually gave his life to Jesus and became a missionary to Native American peoples in New Jersey and Pennsylvania. He was often ill, cold, and alone — but he kept praying and preaching.\n\nIn 1745 many Native Americans came to faith through his ministry. He died in 1747, aged twenty-nine, worn out from tuberculosis.\n\nHis diary, written in his loneliest moments, has inspired hundreds of missionaries since — people like [[William Carey|william-carey]] and [[Jim Elliot|jim-elliot]] who read it and gave their own lives to reach the world with the gospel.",
+    "image": {
+      "file": "david-brainerd.jpg",
+      "prompt_used": "Portrait of David Brainerd, American Presbyterian missionary to Native Americans, early 18th century, wearing a plain dark coat with white collar, serious and intense expression, young man aged about twenty-five, historically accurate to 1740s colonial American dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:DavidBrainerd.jpg — engraving, artist and date unknown, public domain",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "gladys-aylward",
+    "name": "Gladys Aylward",
+    "born": 1902,
+    "born_approximate": false,
+    "died": 1970,
+    "nationality": "British",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Independent evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "faith",
+      "courage",
+      "service",
+      "trust",
+      "perseverance"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gladys_Aylward",
+    "source_summary": "Gladys May Aylward (1902–1970) was a British evangelical missionary to China. Born in Edmonton, London, she worked as a parlour maid and felt called to China, but was rejected by the China Inland Mission training college. She saved her wages, purchased a train ticket via the Trans-Siberian Railway, and arrived in Yangcheng, Shanxi Province in 1930. She worked with veteran missionary Mrs Jeannie Lawson running an inn for muleteers, using the opportunity to share the gospel. She became a Chinese citizen in 1936 and served as a foot inspector for the local Mandarin. During the Japanese invasion she led a hundred orphan children over mountain passes to safety in Sian (Xi’an) in 1940, while herself seriously ill. She returned to Britain, then moved permanently to Taiwan, where she continued caring for orphans until her death on 3 January 1970.",
+    "adult_story": "Gladys Aylward was born in Edmonton, London in 1902 and worked as a parlour maid. She felt called to China but was rejected by the China Inland Mission training college on the grounds that her academic abilities were insufficient. She did not accept the rejection as final.\n\nSaving every penny of her wages, she purchased a train ticket via the Trans-Siberian Railway and arrived in Yangcheng, Shanxi Province in 1930. She joined veteran missionary Jeannie Lawson, running an inn for muleteers — standing in the street to pull mule trains in by the bridle and, once the men were eating, telling them stories from the Bible. She eventually became a Chinese citizen, commissioned by the local Mandarin as a foot inspector, and built deep roots in the community.\n\nWhen Japanese forces invaded and bombed Yangcheng in 1940, Gladys led one hundred orphan children on a two-week journey over mountain passes to safety in Sian (Xi’an). She was seriously ill throughout the crossing, but got every child there.\n\nShe later settled permanently in Taiwan, caring for orphaned children until her death in January 1970.\n\nRejected by the missions board, she went anyway. Dismissed as too ordinary, God used her extraordinarily. Her life is a testimony that calling comes from God — and God does not consult admissions panels.",
+    "family_story": "Gladys Aylward worked as a maid in London. She felt God was calling her to China, but when the mission board said she wasn’t clever enough, she didn’t give up. She saved her wages, bought a train ticket, and travelled to China alone.\n\nIn Yangcheng, Shanxi Province, she ran an inn and told Bible stories to travellers who stopped there. The local people loved her. She became a Chinese citizen.\n\nWhen Japanese forces invaded, Gladys led one hundred orphan children on a two-week trek over mountains to safety. She was very ill — but she got every child there.\n\nGod called an ordinary maid to do extraordinary things — and she said yes.",
+    "image": {
+      "file": "gladys-aylward.jpg",
+      "prompt_used": "Portrait of Gladys Aylward, British missionary to China, early 20th century, wearing simple practical clothing, determined and warm expression, small and slight figure, historically accurate to 1930s missionary in China",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Gladys_Aylward.jpg — photograph c.1930s, public domain",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "ct-studd",
+    "name": "C. T. Studd",
+    "born": 1860,
+    "born_approximate": false,
+    "died": 1931,
+    "nationality": "British",
+    "era": "19th Century",
+    "region": "Africa",
+    "tradition": "Interdenominational evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "sacrifice",
+      "missions",
+      "faith",
+      "commitment",
+      "perseverance"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/C._T._Studd",
+    "source_summary": "Charles Thomas Studd (1860–1931) was a British cricketer and missionary. The son of a wealthy Huntingdonshire landowner who converted to evangelical faith, Studd became a Cambridge cricket blue and England international. Converted at D. L. Moody’s Cambridge mission in 1882, he donated his entire inheritance of £29,000 to Christian causes and sailed for China with the ‘Cambridge Seven’ alongside Hudson Taylor’s China Inland Mission in 1885. He later served in India (1900–1906) and, aged fifty-two, founded the Heart of Africa Mission in 1913 (later WEC International), spending his final sixteen years in the Belgian Congo. He died at Ibambi in July 1931. His famous statement was: ‘If Jesus Christ be God and died for me, then no sacrifice can be too great for me to make for Him.’",
+    "adult_story": "Charles Thomas Studd was born in 1860, the son of a wealthy Huntingdonshire landowner recently converted to evangelical faith. Studd became one of England’s finest cricketers — a Cambridge blue and England international — and at twenty-one, entirely unconcerned about God.\n\nThe turning point came through D. L. Moody’s Cambridge mission in 1882. Studd was converted, and within three years had given his entire inheritance — £29,000 — to various Christian causes and sailed for China with the “Cambridge Seven” alongside [[Hudson Taylor|hudson-taylor]]’s China Inland Mission in 1885.\n\nAfter six years in China he served in India (1900–1906) and then, at age fifty-two and already suffering from asthma, went to Africa. In 1913 he founded the Heart of Africa Mission — later WEC International — and spent his final sixteen years in the Belgian Congo. He died at Ibambi in July 1931.\n\nHe was not a simple man. He drove himself and others hard. But the conviction that drove him was theological, not temperamental: “If Jesus Christ be God and died for me, then no sacrifice can be too great for me to make for Him.”\n\nThree continents. Total obedience. Everything poured out. He did not consider it heroism — he considered it the only logical response to a Saviour who had given everything.",
+    "family_story": "C. T. Studd was one of England’s best cricketers in the 1880s — famous, wealthy, and not thinking much about God.\n\nThen he heard the preacher D. L. Moody speak — and was converted. He gave away his entire fortune, and sailed to China with a group of Cambridge students to serve as missionaries alongside [[Hudson Taylor|hudson-taylor]]. Later he went to India, and then, aged fifty-two and unwell, he went to Africa.\n\nHe died there in 1931.\n\nHis famous words were: “If Jesus Christ be God and died for me, then no sacrifice can be too great for me to make for Him.” He meant every word.",
+    "image": {
+      "file": "ct-studd.jpg",
+      "prompt_used": "Portrait of C. T. Studd, British cricketer turned missionary, late 19th century, wearing dark Victorian gentleman’s clothing, earnest and resolute expression, young man in his twenties, historically accurate to 1880s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Charles_Studd_c1882.jpg — photograph c.1882, public domain",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "thomas-barnardo",
+    "name": "Thomas Barnardo",
+    "born": 1845,
+    "born_approximate": false,
+    "died": 1905,
+    "nationality": "Irish/British",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "mercy",
+      "service",
+      "children",
+      "faith",
+      "compassion",
+      "missions"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Barnardo",
+    "source_summary": "Thomas John Barnardo (1845–1905) was an Irish-born Christian philanthropist and founder of homes for destitute children. Born in Dublin and converted through the Plymouth Brethren at seventeen, he came to London in 1866 to train as a doctor with the intention of going to China as a missionary. Encountering vast numbers of homeless children in the East End, he opened his first home for destitute boys in Stepney in 1870, with the notice ‘No destitute child ever refused admission.’ He founded a village home for girls at Barkingside in 1876 and eventually ran over ninety homes across Britain. From the founding of his first home in 1867 to his death in 1905, nearly 60,000 children had been cared for. His organisation continues to this day.",
+    "adult_story": "Thomas John Barnardo was born in Dublin in 1845 and converted to evangelical faith through the Plymouth Brethren at seventeen. Moved by news of the Taiping Rebellion, he came to London in 1866 intending to train as a doctor before sailing to China as a missionary. The children of the East End changed his plans.\n\nOn a winter evening, a boy called Jim Jarvis showed Barnardo a rooftop in Stepney where eleven homeless children slept on bare tiles in the cold. Barnardo could not look away. He began holding ragged school classes, then opened a mission room, and in 1870 opened his first home for destitute boys with the now-famous notice above the door: “No destitute child ever refused admission.”\n\nHe founded a village home for girls at Barkingside in 1876 and eventually ran more than ninety homes across Britain. By his death in September 1905, nearly 60,000 children had been cared for. The organisation bearing his name continues to this day.\n\nHe never reached China. But he understood his life’s work as no less a mission: the destitute children of Britain’s cities were as much a calling from God as any foreign field.\n\nThe gospel drove his philanthropy. Grace received expressed itself in mercy given — and the door was never closed.",
+    "family_story": "Thomas Barnardo grew up in Dublin and came to London as a young man planning to train as a doctor and go to China as a missionary.\n\nOne night a boy took him to a rooftop where eleven homeless children were sleeping in the cold. Barnardo couldn’t walk away. He opened a home for destitute children in the East End of London instead.\n\nBy the time he died in 1905, his homes had cared for more than 60,000 children. The famous notice above his door said: “No destitute child ever refused admission.”\n\nHe never reached China — but caring for London’s forgotten children was just as much a calling from God.",
+    "image": {
+      "file": "thomas-barnardo.jpg",
+      "prompt_used": "Portrait of Thomas Barnardo, Victorian Irish-born Christian philanthropist and founder of children’s homes, late 19th century, wearing a dark Victorian frock coat, compassionate and determined expression, historically accurate to 1880s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Thomas_John_Barnardo.jpg — Victorian photograph, public domain",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "william-booth",
+    "name": "William Booth",
+    "born": 1829,
+    "born_approximate": false,
+    "died": 1912,
+    "nationality": "British",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Methodist/Salvation Army",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "mercy",
+      "service",
+      "evangelism",
+      "mission",
+      "compassion",
+      "suffering"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/William_Booth",
+    "source_summary": "William Booth (1829–1912) was an English Methodist preacher who, along with his wife Catherine, founded the Salvation Army in 1865 (originally the East London Christian Mission, renamed 1878) and became its first General. Born in Sneinton, Nottingham, and converted to Methodism in his early teens, he became an independent evangelist after breaking with the denomination. He began preaching in the East End of London in 1865 to the poor and destitute. His 1890 book In Darkest England and the Way Out proposed a systematic plan to address poverty. By his death in 1912, the Salvation Army was operating in fifty-eight countries.",
+    "adult_story": "William Booth was born in 1829 in Sneinton, Nottingham, into poverty, and converted to Methodist faith in his early teens. Apprenticed to a pawnbroker, he could not escape the sight of what grinding poverty did to people. He became a Methodist minister, then broke with the denomination to become an independent evangelist.\n\nIn 1865 he began preaching in the East End of London — in tents, pubs, and the street — to people no respectable church would have sought. He called his mission the East London Christian Mission; in 1878 it was renamed the Salvation Army, with Booth as General and a military structure that gave formerly aimless men and women rank, discipline, and purpose.\n\nHis method was simple and radical: reach the person where they are, in their language, and meet their physical need alongside their spiritual one. His 1890 book In Darkest England and the Way Out proposed a systematic plan to address poverty through hostels, labour colonies, and skills training — not as a substitute for the gospel but as its immediate expression.\n\nBy his death in 1912, the Salvation Army was operating in fifty-eight countries. Booth never lost the conviction that drove him from the start: Christ died for every human being without exception, including those every other institution had written off.\n\nHe once told his son: “While women weep as they do now, I’ll fight. While men go to prison, in and out, in and out, I’ll fight. I’ll fight to the very end.”",
+    "family_story": "William Booth grew up poor in Nottingham in the 1830s and became a Christian in his teens. He could not stop thinking about the people no one else seemed to care about — the poor, the drunk, the forgotten.\n\nHe started preaching in the East End of London, where people were struggling terribly, and opened a mission to help them. In 1878 he named it the Salvation Army, giving it a military structure so that working people could serve God with discipline and purpose.\n\nBy the time he died in 1912, the Salvation Army was in fifty-eight countries. His message was always the same: Jesus died for every person without exception — including the ones everyone else had given up on.",
+    "image": {
+      "file": "william-booth.jpg",
+      "prompt_used": "Portrait of William Booth, Victorian founder of the Salvation Army, late 19th century, wearing a dark Salvation Army general’s uniform with distinctive peaked cap, long white beard, commanding and compassionate expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:William_Booth.jpg — Victorian photograph, public domain",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "martin-luther",
+    "name": "Martin Luther",
+    "born": 1483,
+    "born_approximate": false,
+    "died": 1546,
+    "nationality": "German",
+    "era": "Reformation",
+    "region": "Europe",
+    "tradition": "Lutheran",
+    "flagged": true,
+    "footnote": "Luther’s later writings, especially On the Jews and Their Lies (1543), contain virulent antisemitic rhetoric that has no biblical warrant and has caused immense historical harm. These writings stand in stark contradiction to his theology of grace and represent a serious moral failure. They are condemned by Lutheran churches worldwide. His central theological contributions — sola fide, sola gratia, sola scriptura — remain foundational to Protestant Christianity.",
+    "topics": [
+      "Reformation",
+      "grace",
+      "Scripture",
+      "faith",
+      "suffering",
+      "gospel"
+    ],
+    "hymns": [
+      "A Mighty Fortress Is Our God"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Luther",
+    "source_summary": "Martin Luther (1483–1546) was a German Augustinian friar, priest, theologian, and professor who became the seminal figure of the Protestant Reformation. Born in Eisleben, Saxony, he entered an Augustinian monastery in 1505 after vowing during a thunderstorm to become a monk. Studying Paul’s letter to the Romans, he came to understand the righteousness of God as a gift given through faith in Christ rather than a standard to be achieved by human effort. On 31 October 1517 he posted ninety-five theses against the sale of indulgences; summoned before the Diet of Worms in 1521, he refused to recant unless shown by Scripture and reason that he was wrong. He translated the New Testament into German in eleven weeks (1522), married Katharina von Bora in 1525, and died in Eisleben in February 1546.",
+    "adult_story": "Martin Luther was born in 1483 in Eisleben, Saxony, the son of a copper miner who sent him to study law. During a violent thunderstorm in 1505, fearing sudden death, Luther vowed to become a monk. He entered an Augustinian monastery and pursued holiness with terrifying intensity — yet found only despair. However exhaustive his penance, he could not silence the voice that told him God was against him.\n\nThe breakthrough came through Scripture. Studying Paul’s letter to the Romans, he wrestled with the phrase the righteousness of God — and finally understood it not as the righteousness that condemns, but as the righteousness given freely to the sinner through faith in Christ. “I felt myself to be reborn and to have gone through open doors into paradise,” he wrote.\n\nOn 31 October 1517 he posted ninety-five theses against the sale of indulgences — the spark that became the Protestant Reformation. Summoned before the Diet of Worms in 1521, he refused to recant unless shown by Scripture and plain reason that he was wrong: “Here I stand; I can do no other.”\n\nHe translated the New Testament into German in eleven weeks (1522), giving ordinary people direct access to Scripture. He married Katharina von Bora in 1525 and modelled a new pattern of Christian domestic life.\n\nHe died in Eisleben in February 1546 — in the town where he was born. He left behind a Reformation built on a single rediscovery: by faith alone.",
+    "family_story": "Martin Luther was born in Germany in 1483. As a young man he became a monk, trying very hard to be good enough for God — but he never felt at peace.\n\nThen, reading the Bible, he discovered the truth that changed everything: people are not made right with God by trying harder. God gives his righteousness as a free gift, through faith in Jesus Christ.\n\nLuther told the world about this. He was put on trial and told to take it all back. He refused. He even translated the Bible into German so ordinary people could read it themselves.\n\nHis great discovery — that we are saved by faith alone, not by works — is still the foundation of the gospel today.",
+    "image": {
+      "file": "martin-luther.jpg",
+      "prompt_used": "Portrait of Martin Luther, German Protestant Reformer, early 16th century, wearing a plain dark clerical robe, strong and resolute expression, broad-faced and determined, historically accurate to 1520s Reformation era Germany",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Martin_Luther.jpg — after Lucas Cranach the Elder, c.1528, public domain (painting over 400 years old)",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "john-calvin",
+    "name": "John Calvin",
+    "born": 1509,
+    "born_approximate": false,
+    "died": 1564,
+    "nationality": "French",
+    "era": "Reformation",
+    "region": "Europe",
+    "tradition": "Reformed/Presbyterian",
+    "flagged": true,
+    "footnote": "Calvin was directly involved in the trial and execution of Michael Servetus, who was burned at the stake in Geneva in 1553 for denying the Trinity. Calvin supported the execution and has been widely criticised for it. Capital punishment for heresy was widely accepted in that era and endorsed by other Reformers, but this does not diminish the gravity of the act. Calvin’s own writings on the episode reflect the moral blind spots of his time rather than his theology of grace.",
+    "topics": [
+      "Reformed theology",
+      "Scripture",
+      "sovereignty of God",
+      "grace",
+      "predestination",
+      "gospel"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Calvin",
+    "source_summary": "John Calvin (1509–1564) was a French theologian, pastor, and reformer who worked in Geneva during the Protestant Reformation. Born in Noyon, Picardy, he studied law before his conversion to Protestant faith around 1533. Forced to flee France, he settled in Geneva in 1536, where his Institutes of the Christian Religion — first published that year and expanded through several editions — became the most influential work of Protestant systematic theology after Luther. His theology centred on the absolute sovereignty of God and salvation entirely by grace through faith in Christ. He preached through entire books of the Bible systematically, founded the Geneva Academy in 1559, and corresponded extensively with Reformed churches across Europe. He died in Geneva in May 1564, aged 54.",
+    "adult_story": "John Calvin was born in Noyon, Picardy, France in 1509, and trained in law before what he called a “sudden conversion to teachableness” — a phrase that captures both his intellectual character and his sense that God had broken in unexpectedly. Forced to flee France after Protestant sympathies were linked to a controversial university address, he was persuaded to settle in Geneva in 1536.\n\nHis Institutes of the Christian Religion, first published that same year and expanded through several editions, became the most influential work of Protestant systematic theology. At its heart was the sovereign grace of God — that salvation is entirely God’s work, given freely through faith in Christ’s atoning death, received by none who deserve it, and secured by God’s own faithfulness to his own purposes.\n\nIn Geneva, Calvin preached through entire books of the Bible systematically, trained ministers for the French Reformed churches, corresponded with Reformers across Europe, and in 1559 founded the Geneva Academy — a seminary that shaped Reformed theology for generations.\n\nHe died in May 1564, aged fifty-four, worn out by relentless labour. His final instructions were that he be buried in an unmarked grave — a deliberate choice that God alone must be glorified.\n\nHis Institutes remain a theological landmark. His influence on Reformed and Presbyterian Christianity worldwide cannot be overstated.",
+    "family_story": "John Calvin was born in France in 1509 and trained to be a lawyer. Then God changed his heart, and he devoted his whole life to teaching what the Bible says about salvation.\n\nCalvin believed that God saves people entirely by his grace — not because of anything people do, but because of what Christ has done. He preached through the whole Bible, trained ministers for churches across France and Europe, and wrote the Institutes of the Christian Religion, a famous book explaining Reformed theology.\n\nHe worked in Geneva, Switzerland, until he died in 1564, aged fifty-four. He spent himself completely in God’s service, believing that the goal of everything is for God alone to be glorified.",
+    "image": {
+      "file": "john-calvin.jpg",
+      "prompt_used": "Portrait of John Calvin, French Protestant Reformer, 16th century, wearing a plain dark clerical coat with small white collar, thin and intense face, serious scholarly expression, historically accurate to 1550s Reformation Geneva",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Jean_Calvin.jpg — portrait painting, artist unknown, 16th century, public domain (painting over 400 years old)",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]
