@@ -50,8 +50,22 @@ function escapeHtml(str) {
 function storyToHtml(text) {
   return text
     .split(/\n\n+/)
-    .map(para => `<p>${escapeHtml(para.trim())}</p>`)
+    .map(para => {
+      const parts = para.trim().split(/(\[\[[^\]]+\|[^\]]+\]\])/g);
+      const html = parts.map(part => {
+        const m = part.match(/^\[\[([^\]]+)\|([^\]]+)\]\]$/);
+        if (m) {
+          return `<a href="person.html?id=${escapeHtml(m[2])}" class="person-link">${escapeHtml(m[1])}</a>`;
+        }
+        return escapeHtml(part);
+      }).join('');
+      return `<p>${html}</p>`;
+    })
     .join('\n');
+}
+
+function stripLinks(text) {
+  return text.replace(/\[\[([^\]]+)\|[^\]]+\]\]/g, '$1');
 }
 
 function reviewBadgeHtml(person) {
@@ -627,7 +641,7 @@ function initPersonPage() {
     btn.addEventListener('click', () => {
       const v = btn.dataset.copyVersion;
       const story = v === 'adult' ? person.adult_story : person.family_story;
-      const text = `${person.name} (${formatYears(person)})\n\n${story}`;
+      const text = `${person.name} (${formatYears(person)})\n\n${stripLinks(story)}`;
       copyText(text, btn, 'Copied!');
     });
   });
