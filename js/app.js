@@ -357,6 +357,74 @@ function initIndexPage() {
 }
 
 // ============================================================
+// SEO helpers for person page
+// ============================================================
+
+const SITE_URL = 'https://andyrabel.github.io/livesoffaith';
+
+function setMeta(selector, attr, value) {
+  const el = document.querySelector(selector);
+  if (el) el.setAttribute(attr, value);
+}
+
+function injectPersonSeo(person) {
+  const pageUrl = `${SITE_URL}/person.html?id=${encodeURIComponent(person.id)}`;
+  const born = person.born_approximate ? `c. ${person.born}` : String(person.born);
+  const died = person.died ? String(person.died) : undefined;
+  const description = `${person.name} (${born}${died ? '–' + died : ''}) — ${person.nationality} ${person.tradition}. Christ-centred biography from Lives of Faith.`;
+
+  // Basic meta
+  document.title = `${person.name} — Lives of Faith`;
+  setMeta('meta[name="description"]', 'content', description);
+
+  // Canonical
+  const canonical = document.getElementById('canonical-link');
+  if (canonical) canonical.setAttribute('href', pageUrl);
+
+  // Open Graph
+  const ogUrl = document.getElementById('og-url');
+  if (ogUrl) ogUrl.setAttribute('content', pageUrl);
+  const ogTitle = document.getElementById('og-title');
+  if (ogTitle) ogTitle.setAttribute('content', `${person.name} — Lives of Faith`);
+  const ogDesc = document.getElementById('og-description');
+  if (ogDesc) ogDesc.setAttribute('content', description);
+  if (person.image) {
+    const imgUrl = `${SITE_URL}/images/portraits/${encodeURIComponent(person.image.file)}`;
+    setMeta('meta[property="og:image"]', 'content', imgUrl) ||
+      (() => {
+        const m = document.createElement('meta');
+        m.setAttribute('property', 'og:image');
+        m.setAttribute('content', imgUrl);
+        document.head.appendChild(m);
+      })();
+  }
+
+  // Twitter Card
+  const twTitle = document.getElementById('twitter-title');
+  if (twTitle) twTitle.setAttribute('content', `${person.name} — Lives of Faith`);
+  const twDesc = document.getElementById('twitter-description');
+  if (twDesc) twDesc.setAttribute('content', description);
+
+  // JSON-LD Person schema
+  const ld = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    'name': person.name,
+    'url': pageUrl,
+    'description': description,
+    'nationality': person.nationality,
+  };
+  if (person.born) ld['birthDate'] = String(person.born);
+  if (person.died) ld['deathDate'] = String(person.died);
+  if (person.wikipedia_url) ld['sameAs'] = person.wikipedia_url;
+
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify(ld);
+  document.head.appendChild(script);
+}
+
+// ============================================================
 // Person page
 // ============================================================
 
@@ -377,7 +445,7 @@ function initPersonPage() {
     return;
   }
 
-  document.title = `${person.name} — Lives of Faith`;
+  injectPersonSeo(person);
 
   const years = escapeHtml(formatYears(person));
   const badge = reviewBadgeHtml(person);
