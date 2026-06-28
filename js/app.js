@@ -184,6 +184,10 @@ function renderCards(people) {
   const grid = document.getElementById('person-grid');
   if (!grid) return;
 
+  try {
+    sessionStorage.setItem('lof-nav-order', JSON.stringify(people.map(p => p.id)));
+  } catch (e) { /* quota or private-mode — navigation falls back to alpha */ }
+
   if (people.length === 0) {
     grid.innerHTML = '<div class="no-results">No people match your current filters.</div>';
     updateResultsCount(0);
@@ -354,6 +358,56 @@ function initIndexPage() {
       applyFilters();
     });
   }
+}
+
+// ============================================================
+// Person page — Prev / Next navigation
+// ============================================================
+
+function getPersonNav(currentId) {
+  let orderedIds = null;
+  try {
+    const stored = sessionStorage.getItem('lof-nav-order');
+    if (stored) orderedIds = JSON.parse(stored);
+  } catch (e) { /* ignore */ }
+
+  if (!orderedIds || orderedIds.length === 0) {
+    orderedIds = allPeople.slice().sort((a, b) => a.name.localeCompare(b.name)).map(p => p.id);
+  }
+
+  const idx = orderedIds.indexOf(currentId);
+  if (idx === -1) return { prev: null, next: null, total: orderedIds.length, position: null };
+
+  const prevId = idx > 0 ? orderedIds[idx - 1] : null;
+  const nextId = idx < orderedIds.length - 1 ? orderedIds[idx + 1] : null;
+
+  return {
+    prev: prevId ? allPeople.find(p => p.id === prevId) || null : null,
+    next: nextId ? allPeople.find(p => p.id === nextId) || null : null,
+    total: orderedIds.length,
+    position: idx + 1,
+  };
+}
+
+function renderPersonNav(person) {
+  const navEls = document.querySelectorAll('.person-nav');
+  if (!navEls.length) return;
+
+  const { prev, next } = getPersonNav(person.id);
+
+  navEls.forEach(nav => {
+    if (!prev && !next) { nav.hidden = true; return; }
+
+    const prevHtml = prev
+      ? `<a class="person-nav__link person-nav__prev" href="person.html?id=${escapeHtml(prev.id)}" aria-label="Previous: ${escapeHtml(prev.name)}">&#8592; ${escapeHtml(prev.name)}</a>`
+      : `<span class="person-nav__spacer"></span>`;
+
+    const nextHtml = next
+      ? `<a class="person-nav__link person-nav__next" href="person.html?id=${escapeHtml(next.id)}" aria-label="Next: ${escapeHtml(next.name)}">${escapeHtml(next.name)} &#8594;</a>`
+      : `<span class="person-nav__spacer"></span>`;
+
+    nav.innerHTML = prevHtml + nextHtml;
+  });
 }
 
 // ============================================================
@@ -578,6 +632,7 @@ function initPersonPage() {
     });
   });
 
+  renderPersonNav(person);
 }
 
 // ============================================================
