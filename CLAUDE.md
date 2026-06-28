@@ -77,13 +77,13 @@ The Wikipedia link on each page provides further context — the story itself ne
 - Richer theological and historical context
 - May reference doctrine, historical setting, church history
 - Suitable for use in adult Bible study or worship service
-- **Maximum 235 words**
+- **Maximum 250 words**
 
 ### Family Version
 - Simpler vocabulary, narrative-focused
 - Engaging for children aged 8–14
 - Avoids complex theology but retains the gospel thread clearly
-- **Maximum 112 words**
+- **Maximum 125 words**
 
 Both versions must:
 - Be factually accurate to the sourced material
@@ -389,7 +389,7 @@ Ask Claude Code:
 Claude will:
 - Fetch biographical facts from Wikipedia
 - Run the vetting checklist
-- Write the adult story (≤235 words) and family story (≤112 words)
+- Write the adult story (≤250 words) and family story (≤125 words)
 - Write the image generation prompt
 - Add the full JSON entry with `"image": null` and all fields populated
 - Flag the entry if needed and explain why
