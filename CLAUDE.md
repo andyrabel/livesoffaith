@@ -389,7 +389,7 @@ Ask Claude Code:
 Claude will:
 - Fetch biographical facts from Wikipedia
 - Run the vetting checklist
-- Write the adult story (300–500 words) and family story (150–250 words)
+- Write the adult story (≤235 words) and family story (≤112 words)
 - Write the image generation prompt
 - Add the full JSON entry with `"image": null` and all fields populated
 - Flag the entry if needed and explain why
@@ -408,11 +408,17 @@ Claude will:
 6. Request any changes from Claude Code before proceeding
 
 ### Step 5 — Generate the AI Portrait
-1. Use your AI image generation tool (e.g. Midjourney, DALL-E, Firefly)
-2. Upload the approved reference image as the visual reference / img2img source
-3. Use the `prompt_used` text from the JSON entry as the text prompt
-4. Generate and review — regenerate if the result is historically inaccurate
-5. Save the final image as `images/portraits/[person-id].jpg`
+1. Place the approved reference image in `_build/sources/[person-id].jpg`
+2. Run the generation script:
+   ```bash
+   python3 _build/lineart.py --id [person-id]
+   ```
+   The script calls Replicate (ControlNet SDXL), saves the result to
+   `images/portraits/[person-id].jpg`, then **automatically burns the caption
+   "AI-generated image — no copyright claimed" into the bottom of the image file**
+   via `stamp_caption()`. The caption strip is part of the image itself — it
+   travels with the file if copied or downloaded.
+3. Review the result in a browser — regenerate with `--force` if historically inaccurate
 
 ### Step 6 — Update the JSON
 Ask Claude Code to update the entry:
