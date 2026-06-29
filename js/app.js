@@ -285,7 +285,7 @@ function applyFilters() {
 }
 
 function initIndexPage() {
-  renderCards(applySortOrder(allPeople));
+  injectIndexSeo(allPeople);
 
   const searchInput  = document.getElementById('search-input');
   const regionSel    = document.getElementById('filter-region');
@@ -295,6 +295,21 @@ function initIndexPage() {
   const reviewedSel  = document.getElementById('filter-reviewed');
   const sortSel      = document.getElementById('sort-order');
   const clearBtn     = document.getElementById('clear-filters');
+
+  // Pre-populate filters from URL params (enables SearchAction schema and shareable filter URLs)
+  const urlParams = new URLSearchParams(window.location.search);
+  const paramQ = urlParams.get('q') || urlParams.get('search') || '';
+  if (paramQ && searchInput) { filterState.search = paramQ; searchInput.value = paramQ; }
+  const paramRegion = urlParams.get('region') || '';
+  if (paramRegion && regionSel) { filterState.region = paramRegion; regionSel.value = paramRegion; }
+  const paramEra = urlParams.get('era') || '';
+  if (paramEra && eraSel) { filterState.era = paramEra; eraSel.value = paramEra; }
+  const paramTopic = urlParams.get('topic') || '';
+  if (paramTopic && topicSel) { filterState.topic = paramTopic; topicSel.value = paramTopic; }
+  const paramHymn = urlParams.get('hymn') || '';
+  if (paramHymn && hymnInput) { filterState.hymn = paramHymn; hymnInput.value = paramHymn; }
+
+  applyFilters();
 
   let searchTimer;
 
@@ -432,7 +447,8 @@ const SITE_URL = 'https://andyrabel.github.io/livesoffaith';
 
 function setMeta(selector, attr, value) {
   const el = document.querySelector(selector);
-  if (el) el.setAttribute(attr, value);
+  if (el) { el.setAttribute(attr, value); return true; }
+  return false;
 }
 
 function injectPersonSeo(person) {
@@ -458,13 +474,10 @@ function injectPersonSeo(person) {
   if (ogDesc) ogDesc.setAttribute('content', description);
   if (person.image) {
     const imgUrl = `${SITE_URL}/images/portraits/${encodeURIComponent(person.image.file)}`;
-    setMeta('meta[property="og:image"]', 'content', imgUrl) ||
-      (() => {
-        const m = document.createElement('meta');
-        m.setAttribute('property', 'og:image');
-        m.setAttribute('content', imgUrl);
-        document.head.appendChild(m);
-      })();
+    const ogImg = document.getElementById('og-image');
+    if (ogImg) ogImg.setAttribute('content', imgUrl);
+    const twImg = document.getElementById('twitter-image');
+    if (twImg) twImg.setAttribute('content', imgUrl);
   }
 
   // Twitter Card
@@ -473,8 +486,8 @@ function injectPersonSeo(person) {
   const twDesc = document.getElementById('twitter-description');
   if (twDesc) twDesc.setAttribute('content', description);
 
-  // JSON-LD Person schema
-  const ld = {
+  // JSON-LD: Person + BreadcrumbList
+  const personLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
     'name': person.name,
@@ -482,13 +495,45 @@ function injectPersonSeo(person) {
     'description': description,
     'nationality': person.nationality,
   };
-  if (person.born) ld['birthDate'] = String(person.born);
-  if (person.died) ld['deathDate'] = String(person.died);
-  if (person.wikipedia_url) ld['sameAs'] = person.wikipedia_url;
+  if (person.born) personLd['birthDate'] = String(person.born);
+  if (person.died) personLd['deathDate'] = String(person.died);
+  if (person.wikipedia_url) personLd['sameAs'] = person.wikipedia_url;
 
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'name': 'Lives of Faith', 'item': `${SITE_URL}/` },
+      { '@type': 'ListItem', 'position': 2, 'name': person.name, 'item': pageUrl },
+    ],
+  };
+
+  [personLd, breadcrumbLd].forEach(ld => {
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(ld);
+    document.head.appendChild(script);
+  });
+}
+
+function injectIndexSeo(people) {
+  const itemList = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    'name': 'Notable Christians Throughout History',
+    'description': 'Christ-centred biographies of Christians from every era and region — for worship, teaching, and family devotion.',
+    'url': `${SITE_URL}/`,
+    'numberOfItems': people.length,
+    'itemListElement': people.map((p, i) => ({
+      '@type': 'ListItem',
+      'position': i + 1,
+      'url': `${SITE_URL}/person.html?id=${encodeURIComponent(p.id)}`,
+      'name': p.name,
+    })),
+  };
   const script = document.createElement('script');
   script.type = 'application/ld+json';
-  script.textContent = JSON.stringify(ld);
+  script.textContent = JSON.stringify(itemList);
   document.head.appendChild(script);
 }
 

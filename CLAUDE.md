@@ -240,6 +240,7 @@ _build/
 ├── fetch_wikipedia.py     ← fetches and caches Wikipedia summaries
 ├── generate_stories.py    ← calls Claude API to generate adult + family stories
 ├── generate_prompts.py    ← builds image generation prompts per person
+├── generate_sitemap.py    ← regenerates sitemap.xml from data/people.json (run after adding any person)
 ├── vetting.py             ← runs exclusion checklist before content generation
 └── prompts/
     ├── adult_story.txt    ← master prompt template for adult stories
@@ -393,6 +394,7 @@ Claude will:
 - Write the image generation prompt
 - Add the full JSON entry with `"image": null` and all fields populated
 - Flag the entry if needed and explain why
+- **Update `sitemap.xml`** to include the new person's URL (run `python3 _build/generate_sitemap.py`)
 
 ### Step 4 — Review Content
 1. Read both stories carefully
@@ -445,9 +447,16 @@ Once you are satisfied with the content and image, set:
 ```
 The ✅ badge will then appear on the published page.
 
-### Step 8 — Commit and Push
+### Step 8 — Update Sitemap
+Run the sitemap generator to add the new person and update `<lastmod>` dates:
 ```bash
-git add data/people.json images/portraits/[person-id].jpg
+python3 _build/generate_sitemap.py
+```
+This regenerates `sitemap.xml` from `data/people.json` automatically.
+
+### Step 9 — Commit and Push
+```bash
+git add data/people.json sitemap.xml images/portraits/[person-id].jpg
 git commit -m "Add [Name]"
 git push
 ```
