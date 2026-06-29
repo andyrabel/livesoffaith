@@ -24,25 +24,25 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="css/style.css">
   <style>
-    .free-use-notice {
-      text-align: center;
-      margin: 0 auto 1rem;
-    }
+    .site-nav { flex-direction: column; align-items: flex-end; gap: 0.2rem; }
+    .free-use-notice { text-align: right; }
     .free-use-notice summary {
       display: inline;
       cursor: pointer;
-      font-size: 0.78rem;
-      color: var(--text-muted);
+      font-size: 0.65rem;
+      color: rgba(255,255,255,0.45);
       list-style: none;
+      letter-spacing: 0.01em;
     }
     .free-use-notice summary::-webkit-details-marker { display: none; }
     .free-use-notice summary::marker { display: none; }
-    .free-use-notice[open] summary { text-decoration: underline; }
     .free-use-notice p {
-      font-size: 0.78rem;
-      color: var(--text-muted);
-      margin: 0.4rem auto 0;
-      max-width: 480px;
+      font-size: 0.65rem;
+      color: rgba(255,255,255,0.45);
+      margin: 0.2rem 0 0;
+      max-width: 260px;
+      text-align: right;
+      line-height: 1.4;
     }
   </style>
 
@@ -76,6 +76,10 @@
         </a>
         <nav class="site-nav" aria-label="Site navigation">
           <a href="about.html">About</a>
+          <details class="free-use-notice">
+            <summary>All content is free to use — no attribution required.</summary>
+            <p>All biographical text is AI-generated and released for free use (CC0). Portrait images are AI-generated with no copyright claimed. No permission or attribution required for any use.</p>
+          </details>
         </nav>
       </div>
     </div>
@@ -86,10 +90,6 @@
 
       <section class="intro" aria-label="Site description">
         <p>Stories of men and women whose lives were shaped by the grace of Jesus Christ — offered for worship, devotion, and teaching.</p>
-        <details class="free-use-notice">
-          <summary>All content is free to use — no permission or attribution required.</summary>
-          <p>All biographical text is AI-generated and released for free use (CC0). Portrait images are AI-generated with no copyright claimed. No permission or attribution required for any use.</p>
-        </details>
       </section>
 
       <section class="search-filter" aria-label="Search and filter">
