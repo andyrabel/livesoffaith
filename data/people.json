@@ -204,6 +204,13 @@
         "address": "St Peter's Green, Bedford, Bedfordshire, MK40 1SQ, England",
         "lat": 52.1388,
         "lng": -0.4667
+      },
+      {
+        "type": "plaque",
+        "name": "John Bunyan blue plaque — birthplace area, Bedford",
+        "address": "17 St Cuthberts Street, Bedford, Bedfordshire MK40 3JE, England",
+        "lat": 52.138,
+        "lng": -0.4628
       }
     ]
   },
@@ -344,6 +351,13 @@
         "address": "New Inn Hall Street, Oxford OX1 2DH, England",
         "lat": 51.7524,
         "lng": -1.2601
+      },
+      {
+        "type": "plaque",
+        "name": "Charles Wesley English Heritage blue plaque — London residence",
+        "address": "1 Wheatley Street, Marylebone, London W1G 8PS, England",
+        "lat": 51.5196,
+        "lng": -0.1503
       }
     ]
   },
@@ -700,6 +714,13 @@
         "address": "Wilberforce House Museum, 25 High Street, Hull, HU1 1NQ, England",
         "lat": 53.7443,
         "lng": -0.3282
+      },
+      {
+        "type": "plaque",
+        "name": "William Wilberforce English Heritage blue plaque — Broomwood Road",
+        "address": "111 Broomwood Road, Battersea, London SW11 6JT, England",
+        "lat": 51.4543,
+        "lng": -0.1601
       }
     ]
   },
@@ -786,6 +807,13 @@
         "address": "Holy Trinity Church, 46 Quarry Road, Headington, Oxford, OX3 8NU, England",
         "lat": 51.7579,
         "lng": -1.2197
+      },
+      {
+        "type": "plaque",
+        "name": "C.S. Lewis blue plaque — The Kilns, Oxford (Oxfordshire Blue Plaques Board)",
+        "address": "The Kilns, Lewis Close, Headington Quarry, Oxford OX3 8HN, England",
+        "lat": 51.7598,
+        "lng": -1.1981
       }
     ]
   },
@@ -877,6 +905,13 @@
         "address": "Hudson Taylor Memorial Building, Zhenjiang, Jiangsu Province, China",
         "lat": 32.2115,
         "lng": 119.4551
+      },
+      {
+        "type": "plaque",
+        "name": "Hudson Taylor blue plaque — birthplace, Barnsley",
+        "address": "21 Cheapside, Barnsley, South Yorkshire, England",
+        "lat": 53.5541,
+        "lng": -1.4828
       }
     ]
   },
@@ -970,6 +1005,13 @@
         "address": "Dohnavur Fellowship, Mavadi Donavoor Road, Tirunelveli Kattabo, Tamil Nadu 627102, India",
         "lat": 8.6513,
         "lng": 77.5295
+      },
+      {
+        "type": "plaque",
+        "name": "Amy Carmichael commemorative plaque — Millisle Baptist Church",
+        "address": "Baptist Church, High Street, Millisle, County Down BT22 2HZ, Northern Ireland",
+        "lat": 54.6071,
+        "lng": -5.5291
       }
     ]
   },
@@ -2286,7 +2328,7 @@
         "name": "Metropolitan Tabernacle — Spurgeon's church 1861–1892",
         "address": "Elephant and Castle, London SE1 6SD, England",
         "lat": 51.4966,
-        "lng": -0.1010
+        "lng": -0.101
       },
       {
         "type": "other",
@@ -2294,6 +2336,13 @@
         "address": "189 South Norwood Hill, London SE25 6DJ, England",
         "lat": 51.3958,
         "lng": -0.0729
+      },
+      {
+        "type": "plaque",
+        "name": "C. H. Spurgeon English Heritage blue plaque — Nightingale Lane",
+        "address": "99 Nightingale Lane, Balham, London SW12 8LZ, England",
+        "lat": 51.4499,
+        "lng": -0.1582
       }
     ]
   },
@@ -2483,6 +2532,20 @@
         "address": "Barnardo's, Tanners Lane, Barkingside, Ilford IG6 1QG, England",
         "lat": 51.5876,
         "lng": 0.0828
+      },
+      {
+        "type": "plaque",
+        "name": "Thomas Barnardo English Heritage blue plaque — Bow Road",
+        "address": "32 Bow Road, Bow, London E3 4LN, England",
+        "lat": 51.5267,
+        "lng": -0.026
+      },
+      {
+        "type": "plaque",
+        "name": "Thomas Barnardo English Heritage blue plaque — Ben Jonson Road",
+        "address": "Ben Jonson Road, Stepney, London E1 3NN, England",
+        "lat": 51.5182,
+        "lng": -0.0372
       }
     ]
   },
