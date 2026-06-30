@@ -150,6 +150,38 @@ function directionsUrl(memorial) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(memorial.address)}`;
 }
 
+function relatedPeopleSectionHtml(person) {
+  const ids = person.related_people || [];
+  if (!ids.length) return '';
+
+  const people = ids
+    .map(id => allPeople.find(p => p.id === id))
+    .filter(Boolean);
+  if (!people.length) return '';
+
+  const items = people.map(p => {
+    const years = formatYears(p);
+    const portrait = p.image
+      ? `<img class="related-portrait" src="images/portraits/${escapeHtml(p.image.file)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;related-portrait-placeholder&quot;>${escapeHtml(getInitials(p.name))}</div>'">`
+      : `<div class="related-portrait-placeholder">${escapeHtml(getInitials(p.name))}</div>`;
+    return `
+      <li>
+        <a class="related-person-card" href="person.html?id=${escapeHtml(p.id)}">
+          ${portrait}
+          <span class="related-person-name">${escapeHtml(p.name)}</span>
+          <span class="related-person-dates">${escapeHtml(years)}</span>
+        </a>
+      </li>`;
+  }).join('');
+
+  return `
+    <div class="person-related">
+      <h2 class="person-related-title">&#128279; Related People</h2>
+      <ul class="related-list">${items}</ul>
+    </div>
+  `;
+}
+
 function memorialsSectionHtml(person) {
   const memorials = person.memorials || [];
   if (!memorials.length) return '';
@@ -722,6 +754,7 @@ function initPersonPage() {
   const version = getStoryVersion();
   const sourcesHtml = sourceLinksHtml(person);
   const memorialsHtml = memorialsSectionHtml(person);
+  const relatedHtml = relatedPeopleSectionHtml(person);
 
   content.innerHTML = `
     <div class="person-header">
@@ -782,6 +815,7 @@ function initPersonPage() {
     </div>
 
     ${memorialsHtml}
+    ${relatedHtml}
   `;
 
   // Tab switching
