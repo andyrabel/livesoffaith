@@ -1132,6 +1132,13 @@
         "address": "Westminster Abbey, 20 Deans Yard, Westminster, London SW1P 3PA, England",
         "lat": 51.4994,
         "lng": -0.1273
+      },
+      {
+        "type": "monument",
+        "name": "William Tyndale execution memorial — Vilvoorde",
+        "address": "Mechelsesteenweg, 1800 Vilvoorde, Belgium",
+        "lat": 50.9323,
+        "lng": 4.424
       }
     ]
   },
@@ -1175,6 +1182,13 @@
         "address": "Staroměstské náměstí, 110 00 Praha 1, Czech Republic",
         "lat": 50.0872,
         "lng": 14.4213
+      },
+      {
+        "type": "monument",
+        "name": "Jan Hus execution site monument (Husstein) — Konstanz",
+        "address": "Lutherplatz, 78462 Konstanz, Baden-Württemberg, Germany",
+        "lat": 47.6614,
+        "lng": 9.172
       }
     ]
   },
@@ -1403,6 +1417,13 @@
         "address": "Piccadilly Circus, London W1J 9HP, England",
         "lat": 51.5101,
         "lng": -0.1339
+      },
+      {
+        "type": "statue",
+        "name": "Lord Shaftesbury marble statue — Westminster Abbey",
+        "address": "Westminster Abbey, 20 Deans Yard, London SW1P 3PA, England",
+        "lat": 51.4994,
+        "lng": -0.1273
       }
     ]
   },

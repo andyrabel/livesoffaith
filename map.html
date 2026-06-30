@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An interactive map of physical memorials — gravestones, statues, plaques, and monuments — for Christians profiled on Lives of Faith. Plan a heritage visit or tour.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Lives of Faith">
+  <title>Memorial Map — Lives of Faith</title>
+  <link rel="canonical" href="https://andyrabel.github.io/livesoffaith/map.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://andyrabel.github.io/livesoffaith/map.html">
+  <meta property="og:title" content="Memorial Map — Lives of Faith">
+  <meta property="og:description" content="An interactive map of gravestones, statues, plaques, and monuments for Christians profiled on Lives of Faith.">
+  <meta property="og:site_name" content="Lives of Faith">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Memorial Map — Lives of Faith">
+  <meta name="twitter:description" content="Plan a visit — gravestones, statues, and plaques for Christians profiled on Lives of Faith.">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Leaflet (map page only) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7V501G4W2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X7V501G4W2');
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a href="index.html" class="site-title" aria-label="Lives of Faith — Home">
+          <span class="site-title__main">Lives of Faith</span>
+          <span class="site-title__sub">Christians Throughout History</span>
+        </a>
+        <nav class="site-nav" aria-label="Site navigation">
+          <a href="map.html" aria-current="page">Memorial Map</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <a href="index.html" class="back-link">&#8592; Back to all people</a>
+
+      <section class="intro" aria-label="Map description">
+        <p>Physical memorials — gravestones, statues, plaques, and monuments — for the people profiled on this site. Use this to plan a heritage visit or a walking tour.</p>
+      </section>
+
+      <section class="search-filter" aria-label="Search and filter memorials">
+        <div class="search-row">
+          <label for="map-search-input" class="sr-only">Search by name</label>
+          <input
+            type="search"
+            id="map-search-input"
+            class="search-input"
+            placeholder="Search by name…"
+            autocomplete="off"
+            aria-label="Search by name"
+          >
+        </div>
+        <div class="filter-row">
+          <label for="map-filter-region" class="sr-only">Filter by region</label>
+          <select id="map-filter-region" class="filter-select" aria-label="Filter by region">
+            <option value="">All Regions</option>
+            <option value="UK/Ireland">UK / Ireland</option>
+            <option value="North America">North America</option>
+            <option value="Africa">Africa</option>
+            <option value="Asia">Asia</option>
+            <option value="Latin America">Latin America</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+
+          <label for="map-filter-type" class="sr-only">Filter by memorial type</label>
+          <select id="map-filter-type" class="filter-select" aria-label="Filter by memorial type">
+            <option value="">All Memorial Types</option>
+            <option value="gravestone">Gravestone</option>
+            <option value="statue">Statue</option>
+            <option value="plaque">Plaque</option>
+            <option value="monument">Monument</option>
+            <option value="window">Memorial Window</option>
+            <option value="church">Church</option>
+            <option value="museum">Museum</option>
+            <option value="other">Other</option>
+          </select>
+
+          <button id="map-clear-filters" class="btn btn-secondary" type="button">Clear Filters</button>
+        </div>
+      </section>
+
+      <div class="results-summary" aria-live="polite">
+        <p id="map-results-count"></p>
+      </div>
+
+      <div id="memorial-map" class="memorial-map" aria-label="Map of physical memorials"></div>
+
+      <div id="memorial-list-page" class="memorial-list-page" aria-label="List of physical memorials">
+        <div class="loading">Loading…</div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Lives of Faith — Christ-centred biographies for worship and teaching.</p>
+      <p>Memorial locations are researched from public sources and may be approximate. <a href="about.html">Read about our methodology</a>.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

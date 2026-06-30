@@ -408,6 +408,17 @@ main {
 
 .card-badge {
   margin-top: 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.card-memorial-count {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  white-space: nowrap;
 }
 
 /* --- Review Badges ----------------------------------------- */
@@ -714,6 +725,101 @@ main {
   margin-top: 0.75rem;
 }
 
+/* --- Person Memorials --------------------------------------- */
+.person-memorials {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.person-memorials-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.memorial-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.memorial-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "type name name"
+    "address address link";
+  column-gap: 0.5rem;
+  row-gap: 0.1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-light);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.85rem;
+}
+
+.memorial-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.memorial-item-type {
+  grid-area: type;
+  display: inline-block;
+  align-self: start;
+  padding: 0.1rem 0.5rem;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  margin-top: 0.1rem;
+}
+
+.memorial-item-name {
+  grid-area: name;
+  color: var(--text);
+  font-weight: 600;
+  align-self: start;
+}
+
+.memorial-item-address {
+  grid-area: address;
+  color: var(--text-muted);
+}
+
+.memorial-item-link {
+  grid-area: link;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 0.82rem;
+  align-self: start;
+}
+
+.memorial-map-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .memorial-item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "type"
+      "name"
+      "address"
+      "link";
+  }
+}
+
 /* --- Flagged Footnote -------------------------------------- */
 .flagged-notice {
   background: var(--warning-bg);
@@ -802,6 +908,184 @@ main {
 
 .site-footer a:hover {
   color: #fff;
+}
+
+/* --- Memorial Map Page --------------------------------------- */
+.memorial-map {
+  width: 100%;
+  height: 520px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  margin-bottom: 1.25rem;
+  background: var(--border-light);
+}
+
+.memorial-map .leaflet-popup-content-wrapper {
+  border-radius: var(--radius);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.map-popup {
+  display: flex;
+  gap: 0.6rem;
+  min-width: 200px;
+}
+
+.map-popup-portrait {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  object-fit: cover;
+  object-position: top center;
+  flex-shrink: 0;
+  background: var(--accent);
+}
+
+.map-popup-body {
+  min-width: 0;
+}
+
+.map-popup-name {
+  font-family: Georgia, serif;
+  font-size: 0.95rem;
+  margin-bottom: 0.15rem;
+}
+
+.map-popup-name a {
+  color: var(--accent);
+}
+
+.map-popup-type {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  border-radius: 999px;
+  padding: 0.06rem 0.45rem;
+  margin-bottom: 0.2rem;
+}
+
+.map-popup-memorial-name {
+  font-size: 0.78rem;
+  color: var(--text);
+  margin-bottom: 0.1rem;
+}
+
+.map-popup-address {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  margin-bottom: 0.3rem;
+}
+
+.map-popup-links {
+  display: flex;
+  gap: 0.6rem;
+  font-size: 0.74rem;
+}
+
+/* --- Memorial List (map page) ------------------------------- */
+.memorial-list-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.memorial-region-group h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.map-list-item {
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border-light);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.85rem;
+}
+
+.map-list-item:last-child {
+  border-bottom: none;
+}
+
+.map-list-portrait {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  object-fit: cover;
+  object-position: top center;
+  background: var(--accent);
+}
+
+.map-list-portrait-placeholder {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  background: linear-gradient(145deg, #2a4a6a, #1c3d5a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.85);
+  font-family: Georgia, serif;
+  font-size: 0.8rem;
+}
+
+.map-list-name {
+  font-weight: 600;
+}
+
+.map-list-name a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.map-list-name a:hover {
+  text-decoration: underline;
+}
+
+.map-list-meta {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.map-list-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  align-items: flex-end;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.map-list-actions button {
+  background: none;
+  border: none;
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-family: inherit;
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .memorial-map { height: 360px; }
+  .map-list-item {
+    grid-template-columns: 40px 1fr;
+    grid-template-areas: "img name" "img meta" ". actions";
+  }
+  .map-list-portrait, .map-list-portrait-placeholder { grid-area: img; }
+  .map-list-name { grid-area: name; }
+  .map-list-meta { grid-area: meta; }
+  .map-list-actions { grid-area: actions; align-items: flex-start; flex-direction: row; gap: 0.75rem; }
 }
 
 /* --- Loading ----------------------------------------------- */

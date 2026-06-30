@@ -125,6 +125,54 @@ function sourceLinksHtml(person) {
 }
 
 // ============================================================
+// Memorials
+// ============================================================
+
+const MEMORIAL_TYPE_LABELS = {
+  gravestone: 'Gravestone',
+  statue: 'Statue',
+  plaque: 'Plaque',
+  monument: 'Monument',
+  window: 'Memorial Window',
+  church: 'Church',
+  museum: 'Museum',
+  other: 'Memorial',
+};
+
+function memorialTypeLabel(type) {
+  return MEMORIAL_TYPE_LABELS[type] || 'Memorial';
+}
+
+function directionsUrl(memorial) {
+  if (typeof memorial.lat === 'number' && typeof memorial.lng === 'number') {
+    return `https://www.google.com/maps/search/?api=1&query=${memorial.lat},${memorial.lng}`;
+  }
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(memorial.address)}`;
+}
+
+function memorialsSectionHtml(person) {
+  const memorials = person.memorials || [];
+  if (!memorials.length) return '';
+
+  const items = memorials.map(m => `
+    <li class="memorial-item">
+      <span class="memorial-item-type">${escapeHtml(memorialTypeLabel(m.type))}</span>
+      <span class="memorial-item-name">${escapeHtml(m.name)}</span>
+      <span class="memorial-item-address">${escapeHtml(m.address)}</span>
+      <a class="memorial-item-link" href="${directionsUrl(m)}" target="_blank" rel="noopener noreferrer">Get directions &#8594;</a>
+    </li>
+  `).join('');
+
+  return `
+    <div class="person-memorials">
+      <h2 class="person-memorials-title">&#128205; Physical Memorials</h2>
+      <ul class="memorial-list">${items}</ul>
+      <a class="memorial-map-link" href="map.html?person=${escapeHtml(person.id)}">View on the memorial map &#8594;</a>
+    </div>
+  `;
+}
+
+// ============================================================
 // Data loading
 // ============================================================
 
@@ -218,6 +266,10 @@ function createCardHtml(person) {
   const tags = person.topics
     .map(t => `<span class="topic-tag">${escapeHtml(t)}</span>`)
     .join('');
+  const memorialCount = (person.memorials || []).length;
+  const memorialHtml = memorialCount
+    ? `<span class="card-memorial-count" title="${memorialCount} ${memorialCount === 1 ? 'memorial' : 'memorials'} recorded">&#128205; ${memorialCount} ${memorialCount === 1 ? 'memorial' : 'memorials'}</span>`
+    : '';
 
   return `
     <article class="person-card" role="listitem" onclick="window.location='person.html?id=${escapeHtml(person.id)}'">
@@ -234,7 +286,7 @@ function createCardHtml(person) {
         <p class="card-meta">${escapeHtml(person.nationality)} &middot; ${escapeHtml(person.tradition)}</p>
         <p class="card-meta">${escapeHtml(person.region)} &middot; ${escapeHtml(person.era)}</p>
         <div class="card-topics">${tags}</div>
-        <div class="card-badge">${badge}</div>
+        <div class="card-badge">${badge}${memorialHtml}</div>
       </div>
     </article>
   `;
@@ -669,6 +721,7 @@ function initPersonPage() {
 
   const version = getStoryVersion();
   const sourcesHtml = sourceLinksHtml(person);
+  const memorialsHtml = memorialsSectionHtml(person);
 
   content.innerHTML = `
     <div class="person-header">
@@ -727,6 +780,8 @@ function initPersonPage() {
         </div>
       </div>
     </div>
+
+    ${memorialsHtml}
   `;
 
   // Tab switching
@@ -800,6 +855,231 @@ function flashButton(button, msg, isError) {
 }
 
 // ============================================================
+// Map page
+// ============================================================
+
+const mapState = {
+  search: '',
+  region: '',
+  type: '',
+};
+
+let leafletMap = null;
+let markerClusterGroup = null;
+const markersByKey = new Map();
+
+function memorialKey(person, memorial, idx) {
+  return `${person.id}__${idx}`;
+}
+
+function getAllMemorialEntries() {
+  const entries = [];
+  allPeople.forEach(person => {
+    (person.memorials || []).forEach((memorial, idx) => {
+      entries.push({ person, memorial, key: memorialKey(person, memorial, idx) });
+    });
+  });
+  return entries;
+}
+
+function filterMemorialEntries(entries) {
+  const { search, region, type } = mapState;
+  return entries.filter(({ person, memorial }) => {
+    if (search && !person.name.toLowerCase().includes(search.toLowerCase())) return false;
+    if (region && person.region !== region) return false;
+    if (type && memorial.type !== type) return false;
+    return true;
+  });
+}
+
+function mapPopupHtml(person, memorial) {
+  const imgSrc = person.image ? `images/portraits/${escapeHtml(person.image.file)}` : '';
+  const initials = escapeHtml(getInitials(person.name));
+  const portrait = person.image
+    ? `<img class="map-popup-portrait" src="${imgSrc}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;map-list-portrait-placeholder&quot;>${initials}</div>'">`
+    : `<div class="map-list-portrait-placeholder">${initials}</div>`;
+
+  return `
+    <div class="map-popup">
+      ${portrait}
+      <div class="map-popup-body">
+        <div class="map-popup-type">${escapeHtml(memorialTypeLabel(memorial.type))}</div>
+        <h3 class="map-popup-name"><a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a></h3>
+        <div class="map-popup-memorial-name">${escapeHtml(memorial.name)}</div>
+        <div class="map-popup-address">${escapeHtml(memorial.address)}</div>
+        <div class="map-popup-links">
+          <a href="${directionsUrl(memorial)}" target="_blank" rel="noopener noreferrer">Directions</a>
+          <a href="person.html?id=${escapeHtml(person.id)}">Profile</a>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderMapMarkers(entries) {
+  markerClusterGroup.clearLayers();
+  markersByKey.clear();
+
+  entries.forEach(({ person, memorial, key }) => {
+    const marker = L.marker([memorial.lat, memorial.lng]);
+    marker.bindPopup(mapPopupHtml(person, memorial));
+    markerClusterGroup.addLayer(marker);
+    markersByKey.set(key, marker);
+  });
+}
+
+function renderMemorialListPage(entries) {
+  const container = document.getElementById('memorial-list-page');
+  if (!container) return;
+
+  if (!entries.length) {
+    container.innerHTML = '<div class="no-results">No memorials match your current filters.</div>';
+    return;
+  }
+
+  const byRegion = new Map();
+  entries
+    .slice()
+    .sort((a, b) => a.person.name.localeCompare(b.person.name))
+    .forEach(entry => {
+      const region = entry.person.region;
+      if (!byRegion.has(region)) byRegion.set(region, []);
+      byRegion.get(region).push(entry);
+    });
+
+  const regions = Array.from(byRegion.keys()).sort();
+
+  container.innerHTML = regions.map(region => {
+    const items = byRegion.get(region).map(({ person, memorial, key }) => {
+      const imgSrc = person.image ? `images/portraits/${escapeHtml(person.image.file)}` : '';
+      const initials = escapeHtml(getInitials(person.name));
+      const portrait = person.image
+        ? `<img class="map-list-portrait" src="${imgSrc}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;map-list-portrait-placeholder&quot;>${initials}</div>'">`
+        : `<div class="map-list-portrait-placeholder">${initials}</div>`;
+
+      return `
+        <li class="map-list-item">
+          ${portrait}
+          <div>
+            <div class="map-list-name"><a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a></div>
+            <div class="map-list-meta">${escapeHtml(memorialTypeLabel(memorial.type))} &middot; ${escapeHtml(memorial.name)}</div>
+            <div class="map-list-meta">${escapeHtml(memorial.address)}</div>
+          </div>
+          <div class="map-list-actions">
+            <button type="button" data-locate-key="${escapeHtml(key)}">View on map &#8593;</button>
+            <a href="${directionsUrl(memorial)}" target="_blank" rel="noopener noreferrer">Directions</a>
+          </div>
+        </li>
+      `;
+    }).join('');
+
+    return `
+      <div class="memorial-region-group">
+        <h2>${escapeHtml(region)}</h2>
+        <ul class="memorial-list">${items}</ul>
+      </div>
+    `;
+  }).join('');
+
+  container.querySelectorAll('[data-locate-key]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const marker = markersByKey.get(btn.dataset.locateKey);
+      if (!marker) return;
+      document.getElementById('memorial-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      leafletMap.setView(marker.getLatLng(), 12);
+      markerClusterGroup.zoomToShowLayer(marker, () => marker.openPopup());
+    });
+  });
+}
+
+function updateMapResultsCount(count, total) {
+  const el = document.getElementById('map-results-count');
+  if (!el) return;
+  el.textContent = count === total
+    ? `Showing all ${total} ${total === 1 ? 'memorial' : 'memorials'}`
+    : `Showing ${count} of ${total} ${total === 1 ? 'memorial' : 'memorials'}`;
+}
+
+function applyMapFilters() {
+  const all = getAllMemorialEntries();
+  const filtered = filterMemorialEntries(all);
+  renderMapMarkers(filtered);
+  renderMemorialListPage(filtered);
+  updateMapResultsCount(filtered.length, all.length);
+}
+
+function initMapPage() {
+  const mapEl = document.getElementById('memorial-map');
+  if (!mapEl || typeof L === 'undefined') return;
+
+  leafletMap = L.map(mapEl).setView([25, 10], 2);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 18,
+  }).addTo(leafletMap);
+
+  markerClusterGroup = L.markerClusterGroup();
+  leafletMap.addLayer(markerClusterGroup);
+
+  const params = new URLSearchParams(window.location.search);
+  const personId = params.get('person');
+  if (personId) {
+    const person = allPeople.find(p => p.id === personId);
+    if (person) mapState.search = person.name;
+  }
+
+  const searchInput = document.getElementById('map-search-input');
+  const regionSelect = document.getElementById('map-filter-region');
+  const typeSelect = document.getElementById('map-filter-type');
+  const clearBtn = document.getElementById('map-clear-filters');
+
+  if (searchInput) {
+    searchInput.value = mapState.search;
+    searchInput.addEventListener('input', () => {
+      mapState.search = searchInput.value;
+      applyMapFilters();
+    });
+  }
+  if (regionSelect) {
+    regionSelect.addEventListener('change', () => {
+      mapState.region = regionSelect.value;
+      applyMapFilters();
+    });
+  }
+  if (typeSelect) {
+    typeSelect.addEventListener('change', () => {
+      mapState.type = typeSelect.value;
+      applyMapFilters();
+    });
+  }
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      mapState.search = '';
+      mapState.region = '';
+      mapState.type = '';
+      if (searchInput) searchInput.value = '';
+      if (regionSelect) regionSelect.value = '';
+      if (typeSelect) typeSelect.value = '';
+      applyMapFilters();
+      leafletMap.setView([25, 10], 2);
+    });
+  }
+
+  applyMapFilters();
+
+  if (personId && markerClusterGroup.getLayers().length) {
+    const layers = markerClusterGroup.getLayers();
+    if (layers.length === 1) {
+      leafletMap.setView(layers[0].getLatLng(), 10);
+      markerClusterGroup.zoomToShowLayer(layers[0], () => layers[0].openPopup());
+    } else if (layers.length > 1) {
+      const group = L.featureGroup(layers);
+      leafletMap.fitBounds(group.getBounds().pad(0.3));
+    }
+  }
+}
+
+// ============================================================
 // Boot
 // ============================================================
 
@@ -810,5 +1090,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initIndexPage();
   } else if (document.getElementById('person-content')) {
     initPersonPage();
+  } else if (document.getElementById('memorial-map')) {
+    initMapPage();
   }
 });

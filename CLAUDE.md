@@ -389,6 +389,13 @@ HTML, CSS, or JS are visible immediately on page refresh.
 This is the process the site owner follows to add a new person to the site.
 Claude Code assists at each step when asked.
 
+**Default behaviour:** when asked to "add [Name]", Claude Code does the full
+pipeline without being asked separately for each step — source and download a
+reference image, generate the AI portrait (Step 5), and research and populate
+`memorials` — not just write the JSON skeleton with `"image": null` and
+`"memorials": []`. Only skip a step and leave it for later if no suitable
+reference image or memorial data can be found.
+
 ### Step 1 — Decide and Vet
 1. Choose a person to add
 2. Ask Claude Code to run the **Exclusion Vetting Checklist** on them
