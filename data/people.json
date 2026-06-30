@@ -323,6 +323,27 @@
         "address": "The New Room, 36 The Horsefair, Bristol, BS1 3JE, England",
         "lat": 51.4568,
         "lng": -2.5933
+      },
+      {
+        "type": "museum",
+        "name": "Epworth Old Rectory — Wesley birthplace and museum",
+        "address": "Rectory Street, Epworth, Doncaster DN9 1HX, England",
+        "lat": 53.5225,
+        "lng": -0.8177
+      },
+      {
+        "type": "church",
+        "name": "The New Room, Bristol — world's oldest Methodist chapel (1739)",
+        "address": "36 The Horsefair, Bristol BS1 3JE, England",
+        "lat": 51.4568,
+        "lng": -2.5933
+      },
+      {
+        "type": "church",
+        "name": "Wesley Memorial Church, Oxford",
+        "address": "New Inn Hall Street, Oxford OX1 2DH, England",
+        "lat": 51.7524,
+        "lng": -1.2601
       }
     ]
   },
@@ -2084,11 +2105,53 @@
         "lng": -0.0863
       },
       {
+        "type": "museum",
+        "name": "John Wesley's House & Museum of Methodism",
+        "address": "49 City Road, London EC1Y 1AU, England",
+        "lat": 51.5237,
+        "lng": -0.0863
+      },
+      {
         "type": "statue",
         "name": "Bronze statue of John Wesley — St Paul's Cathedral churchyard",
         "address": "St Paul's Churchyard, London EC4M 8AD, England",
         "lat": 51.5138,
         "lng": -0.0984
+      },
+      {
+        "type": "museum",
+        "name": "Epworth Old Rectory — Wesley birthplace and museum",
+        "address": "Rectory Street, Epworth, Doncaster DN9 1HX, England",
+        "lat": 53.5225,
+        "lng": -0.8177
+      },
+      {
+        "type": "monument",
+        "name": "Aldersgate Street Flame — memorial to Wesley's conversion",
+        "address": "Aldersgate Street, London EC1A 4HT, England",
+        "lat": 51.5183,
+        "lng": -0.0973
+      },
+      {
+        "type": "church",
+        "name": "The New Room, Bristol — world's oldest Methodist chapel (1739)",
+        "address": "36 The Horsefair, Bristol BS1 3JE, England",
+        "lat": 51.4568,
+        "lng": -2.5933
+      },
+      {
+        "type": "church",
+        "name": "Wesley Memorial Church, Oxford",
+        "address": "New Inn Hall Street, Oxford OX1 2DH, England",
+        "lat": 51.7524,
+        "lng": -1.2601
+      },
+      {
+        "type": "other",
+        "name": "Gwennap Pit — open-air amphitheatre where Wesley preached 18 times",
+        "address": "Busveal, Redruth, Cornwall TR16 5HQ, England",
+        "lat": 50.2193,
+        "lng": -5.1769
       }
     ]
   },
@@ -2217,6 +2280,20 @@
         "address": "West Norwood Cemetery, Norwood Road, West Norwood, London SE27 9JU, England",
         "lat": 51.4329,
         "lng": -0.0968
+      },
+      {
+        "type": "church",
+        "name": "Metropolitan Tabernacle — Spurgeon's church 1861–1892",
+        "address": "Elephant and Castle, London SE1 6SD, England",
+        "lat": 51.4966,
+        "lng": -0.1010
+      },
+      {
+        "type": "other",
+        "name": "Spurgeon's College — founded as the Pastors' College, 1856",
+        "address": "189 South Norwood Hill, London SE25 6DJ, England",
+        "lat": 51.3958,
+        "lng": -0.0729
       }
     ]
   },
