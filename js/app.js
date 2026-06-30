@@ -451,15 +451,45 @@ function setMeta(selector, attr, value) {
   return false;
 }
 
+function truncateSummary(text, maxLen) {
+  if (!text || text.length <= maxLen) return text || '';
+  const cut = text.lastIndexOf(' ', maxLen);
+  return (cut > 0 ? text.slice(0, cut) : text.slice(0, maxLen)) + '…';
+}
+
 function injectPersonSeo(person) {
   const pageUrl = `${SITE_URL}/person.html?id=${encodeURIComponent(person.id)}`;
   const born = person.born_approximate ? `c. ${person.born}` : String(person.born);
   const died = person.died ? String(person.died) : undefined;
-  const description = `${person.name} (${born}${died ? '–' + died : ''}) — ${person.nationality} ${person.tradition}. Christ-centred biography from Lives of Faith.`;
+  const dates = died ? `${born}–${died}` : `b. ${born}`;
+
+  // Description: use source_summary snippet if available, else generic fallback
+  const summarySnippet = person.source_summary
+    ? truncateSummary(person.source_summary, 150)
+    : `${person.nationality} ${person.tradition}.`;
+  const description = `${person.name} (${dates}) — ${summarySnippet} Lives of Faith.`;
+
+  // Title includes dates for richer search snippets
+  const fullTitle = `${person.name} (${dates}) — Lives of Faith`;
+
+  // Keywords: name + topics + hymns + nationality + era
+  const keywordParts = [
+    person.name,
+    ...(person.topics || []),
+    ...(person.hymns || []),
+    person.nationality,
+    person.era,
+    person.tradition,
+    'Christian biography',
+    'Lives of Faith',
+  ].filter(Boolean);
+  const keywords = [...new Set(keywordParts)].join(', ');
 
   // Basic meta
-  document.title = `${person.name} — Lives of Faith`;
+  document.title = fullTitle;
   setMeta('meta[name="description"]', 'content', description);
+  const kwEl = document.getElementById('meta-keywords');
+  if (kwEl) kwEl.setAttribute('content', keywords);
 
   // Canonical
   const canonical = document.getElementById('canonical-link');
@@ -469,20 +499,27 @@ function injectPersonSeo(person) {
   const ogUrl = document.getElementById('og-url');
   if (ogUrl) ogUrl.setAttribute('content', pageUrl);
   const ogTitle = document.getElementById('og-title');
-  if (ogTitle) ogTitle.setAttribute('content', `${person.name} — Lives of Faith`);
+  if (ogTitle) ogTitle.setAttribute('content', fullTitle);
   const ogDesc = document.getElementById('og-description');
   if (ogDesc) ogDesc.setAttribute('content', description);
+  const sectionEl = document.getElementById('article-section');
+  if (sectionEl) sectionEl.setAttribute('content', person.era || '');
   if (person.image) {
     const imgUrl = `${SITE_URL}/images/portraits/${encodeURIComponent(person.image.file)}`;
+    const imgAlt = `Portrait of ${person.name}, ${person.nationality} ${person.tradition}`;
     const ogImg = document.getElementById('og-image');
     if (ogImg) ogImg.setAttribute('content', imgUrl);
+    const ogImgAlt = document.getElementById('og-image-alt');
+    if (ogImgAlt) ogImgAlt.setAttribute('content', imgAlt);
     const twImg = document.getElementById('twitter-image');
     if (twImg) twImg.setAttribute('content', imgUrl);
+    const twImgAlt = document.getElementById('twitter-image-alt');
+    if (twImgAlt) twImgAlt.setAttribute('content', imgAlt);
   }
 
   // Twitter Card
   const twTitle = document.getElementById('twitter-title');
-  if (twTitle) twTitle.setAttribute('content', `${person.name} — Lives of Faith`);
+  if (twTitle) twTitle.setAttribute('content', fullTitle);
   const twDesc = document.getElementById('twitter-description');
   if (twDesc) twDesc.setAttribute('content', description);
 
@@ -494,10 +531,17 @@ function injectPersonSeo(person) {
     'url': pageUrl,
     'description': description,
     'nationality': person.nationality,
+    'affiliation': person.tradition,
   };
   if (person.born) personLd['birthDate'] = String(person.born);
   if (person.died) personLd['deathDate'] = String(person.died);
   if (person.wikipedia_url) personLd['sameAs'] = person.wikipedia_url;
+  if (person.image) {
+    personLd['image'] = `${SITE_URL}/images/portraits/${encodeURIComponent(person.image.file)}`;
+  }
+  if (person.topics && person.topics.length) {
+    personLd['knowsAbout'] = person.topics;
+  }
 
   const breadcrumbLd = {
     '@context': 'https://schema.org',
@@ -531,10 +575,29 @@ function injectIndexSeo(people) {
       'name': p.name,
     })),
   };
-  const script = document.createElement('script');
-  script.type = 'application/ld+json';
-  script.textContent = JSON.stringify(itemList);
-  document.head.appendChild(script);
+
+  const websiteLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    'name': 'Lives of Faith',
+    'url': `${SITE_URL}/`,
+    'description': 'Christ-centred biographies of Christians throughout history — for worship leaders, Bible teachers, and families.',
+    'potentialAction': {
+      '@type': 'SearchAction',
+      'target': {
+        '@type': 'EntryPoint',
+        'urlTemplate': `${SITE_URL}/?search={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
+  [itemList, websiteLd].forEach(ld => {
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(ld);
+    document.head.appendChild(script);
+  });
 }
 
 // ============================================================

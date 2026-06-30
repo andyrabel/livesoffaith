@@ -29,9 +29,9 @@
       "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-06-29"
     }
   },
   {
@@ -631,9 +631,9 @@
       "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-06-29"
     }
   },
   {
@@ -666,9 +666,9 @@
       "caption": "AI-generated image — no copyright claimed"
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-06-29"
     }
   },
   {
@@ -1496,9 +1496,9 @@
     "family_story": "Elisabeth Elliot grew up in an American missionary family and went to Ecuador with her husband [[Jim Elliot|jim-elliot]]. [[Jim Elliot|jim-elliot]] is also on this site.\n\nWhen Jim and four friends were killed by the Waodani people in 1956, Elisabeth was left alone with a tiny baby. She could have gone home. Instead, two years later, she went to live with the Waodani — the very people who had killed her husband.\n\nShe learned their language. The Waodani came to faith in Jesus, including some of the men who had done the killing.\n\nElisabeth spent the rest of her life writing and speaking about trusting God even through the worst suffering.",
     "image": null,
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-06-29"
     }
   },
   {
@@ -2117,6 +2117,380 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-29"
+    }
+  },
+  {
+    "id": "robert-cleaver-chapman",
+    "name": "Robert Cleaver Chapman",
+    "born": 1803,
+    "born_approximate": false,
+    "died": 1902,
+    "nationality": "British",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Open Brethren",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "love",
+      "holiness",
+      "prayer",
+      "generosity",
+      "missions"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Cleaver_Chapman",
+    "source_summary": "Robert Cleaver Chapman (1803–1902) was a British Open Brethren minister who served in Barnstaple, Devon for seventy years. Born in Elsinore, Denmark, to an English family, he gave up a legal career to enter ministry. A close associate of George Müller and Anthony Norris Groves, he was celebrated for extraordinary love, open-handed hospitality, and global missionary correspondence. Müller described him as the saintliest man he ever knew. Chapman lived to the age of 99.",
+    "adult_story": "Robert Cleaver Chapman was born in 1803 in Elsinore, Denmark, to an English merchant family. Converted in his early twenties, he trained as a solicitor, gave up a promising legal career, and in 1832 settled in Barnstaple, Devon, where he would minister for the next seventy years.\n\nHe became associated with the Open Brethren and was known across the evangelical world for a rare combination of doctrinal solidity and extraordinary love. George Müller, who knew him well, called him \"the saintliest man I ever knew.\" Men travelled to Barnstaple simply to observe how he lived. His home was open to all — he fed the hungry, housed the homeless, and corresponded with missionaries across the globe.\n\nChapman lived to 99 and never retired from ministry. He was a poet, an evangelist, and a letter-writer whose counsel was sought by leaders across denominations. His maxim was that love is the greatest apologetic: \"Let your life preach, then let your lips, if necessary, also speak.\"\n\nHis life pointed to the grace that produces unhurried, unboastful, enduring love — not a love manufactured by duty, but one rooted in a sight of Christ he had been cultivating for eight decades.",
+    "family_story": "Robert Chapman gave up being a lawyer to serve God in a small town in Devon, England. For seventy years he preached, prayed, fed the hungry, and helped the poor. George Müller — who himself trusted God to feed thousands of orphans — said Robert was the most Christ-like man he had ever met.\n\nRobert lived to be 99, always learning, always loving. He believed the best way to tell people about Jesus was simply to live like Jesus — and so he did, one quiet day at a time.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "john-nelson-darby",
+    "name": "John Nelson Darby",
+    "born": 1800,
+    "born_approximate": false,
+    "died": 1882,
+    "nationality": "Irish",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Plymouth Brethren",
+    "flagged": true,
+    "footnote": "Darby's doctrine that all Christendom was in a state of irreparable 'ruin' — requiring total separation from denominations — has been rejected by most evangelical traditions. His ecclesiology caused significant divisions, including the permanent rupture between the Open and Exclusive Brethren in 1848. These views should be assessed carefully.",
+    "topics": [
+      "Scripture",
+      "prophecy",
+      "church",
+      "discipleship"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Nelson_Darby",
+    "source_summary": "John Nelson Darby (1800–1882) was an Irish-born Christian leader who became a principal founder of the Plymouth Brethren movement and the originator of dispensationalism. Trained as a lawyer and briefly ordained in the Church of Ireland, he resigned his orders in 1828 and gathered believers around Scripture and the Lord's Table without clergy. He travelled ceaselessly through Britain, Europe, North America, and New Zealand, planting assemblies and translating the Bible into English, French, and German. His separatist ecclesiology caused a permanent split between the Open and Exclusive Brethren in 1848.",
+    "adult_story": "John Nelson Darby was born in London in 1800 and raised in Ireland. Trained as a lawyer, he was ordained in the Church of Ireland, then resigned his orders in 1828 — convinced that the institutional church had departed from New Testament patterns.\n\nHe became a key figure in the early Plymouth Brethren, gathering believers around Scripture and the Lord's Table without clergy or fixed liturgy. He travelled ceaselessly — Britain, France, Germany, North America, New Zealand — preaching and planting assemblies. His translations of the Bible into English, French, and German remain in use today.\n\nDarby developed what became known as dispensationalist theology — a structured reading of biblical history that shaped much of later evangelical eschatology, particularly in North America. He believed Scripture was the church's only authority and that Christ's return was imminent.\n\nHis conviction that all denominations were irreparably corrupted led to painful divisions, including a rupture with George Müller and the Open Brethren in 1848. His legacy is contested, but his devotion to Scripture and his missionary energy were genuine. He died in 1882 having translated the Bible into three languages and planted churches across the world.",
+    "family_story": "John Darby was an Irish lawyer who gave up his career to preach the Bible. He believed churches should be simple — no special clergy, just believers gathered around Scripture and the Lord's Supper, just as in the New Testament.\n\nHe spent his whole life travelling — to England, France, Germany, and across the Atlantic — starting small churches and teaching the Bible. He even translated the Bible into three different languages.\n\nJohn had strong views that sometimes caused disagreements, but his love for the Bible and his belief that Jesus was coming soon drove him to work tirelessly for the gospel until he died at 82.",
+    "image": {
+      "file": "john-nelson-darby.jpg",
+      "prompt_used": "Photorealistic portrait of John Nelson Darby, Irish Plymouth Brethren leader and Bible translator, circa 1840, wearing dark Victorian coat, serious and intense expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:John_Nelson_Darby_%C3%A0_Gen%C3%A8ve_1840.jpg — portrait dated 1840, public domain",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "robert-murray-mcheyne",
+    "name": "Robert Murray M'Cheyne",
+    "born": 1813,
+    "born_approximate": false,
+    "died": 1843,
+    "nationality": "Scottish",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Presbyterian",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "holiness",
+      "prayer",
+      "revival",
+      "missions",
+      "sanctification"
+    ],
+    "hymns": [
+      "When This Passing World Is Done"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Murray_M%27Cheyne",
+    "source_summary": "Robert Murray M'Cheyne (1813–1843) was a Scottish Presbyterian minister ordained as pastor of St. Peter's Church, Dundee, at the age of 23. He was known for his intense prayer life, personal holiness, and powerful preaching. In 1839 he joined a delegation to Palestine to survey Jewish mission prospects; during his absence revival broke out in his congregation. He died of typhus aged 29 while visiting sick parishioners. Andrew Bonar's Memoir and Remains became one of the most influential evangelical books of the 19th century.",
+    "adult_story": "Robert Murray M'Cheyne was born in Edinburgh in 1813 and converted in his late teens following the death of his older brother. He studied at Edinburgh University under Thomas Chalmers, was licensed to preach in 1835, and ordained as minister of St. Peter's, Dundee, in 1836 at the age of 23.\n\nIn the seven years of his ministry he became one of the most remarkable preachers Scotland had known. His power in the pulpit was widely attributed to his extraordinary prayer life and rigorous personal holiness — he is said to have risen at five each morning to pray before studying and preaching. In 1839 he joined a delegation to Palestine to survey the prospects for Jewish mission, and on his return found that revival had broken out among his congregation in his absence.\n\nHe died in 1843, aged 29, from typhus contracted while visiting sick parishioners during an epidemic. His friend Andrew Bonar's Memoir and Remains, published shortly after, became one of the most influential books in Scottish evangelical history.\n\nM'Cheyne's life is a rebuke and a comfort — a rebuke to the idea that long years are needed for God's purposes, and a comfort that fruitfulness flows from proximity to Christ. \"Lord, make me as holy as a pardoned sinner can be\" was his prayer.",
+    "family_story": "Robert Murray M'Cheyne became a minister in Dundee, Scotland, when he was just 23 years old. He got up every morning at five o'clock to pray before doing anything else.\n\nPeople came from far away to hear him preach — not because he was showy, but because they could tell he had been with God.\n\nHe died of typhus at the age of 29, having caught the illness while visiting sick people in his parish. He had only been a minister for seven years — but his life showed that what God does through us has nothing to do with how long we live, and everything to do with how close we walk with Christ.",
+    "image": {
+      "file": "robert-murray-mcheyne.jpg",
+      "prompt_used": "Photorealistic portrait of Robert Murray M'Cheyne, Scottish Presbyterian minister, 1840s, young man in his late twenties, wearing dark clerical coat, earnest and devout expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Robert_Murray_McCheyne.jpg — from Memoir and Remains of the Rev. Robert Murray McCheyne (Philadelphia, 1844), public domain",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "henry-martyn",
+    "name": "Henry Martyn",
+    "born": 1781,
+    "born_approximate": false,
+    "died": 1812,
+    "nationality": "British",
+    "era": "19th Century",
+    "region": "Asia",
+    "tradition": "Anglican",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "sacrifice",
+      "Scripture",
+      "prayer"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Martyn",
+    "source_summary": "Henry Martyn (1781–1812) was a British Anglican missionary and Bible translator. Senior Wrangler at Cambridge in 1801, he sailed to India as a chaplain of the East India Company in 1805. He translated the New Testament into Urdu, supervised translations into Persian and Arabic, and travelled to Persia to revise the Persian text. He died of tuberculosis in Tocat, Turkey, in 1812, aged 31, while attempting to return home. He had given the New Testament to three language groups.",
+    "adult_story": "Henry Martyn was born in Truro, Cornwall, in 1781. He was a brilliant scholar — Senior Wrangler at Cambridge in 1801, the highest mathematical distinction of his generation — whose ambitions for academic fame were overturned by conversion and the example of William Carey.\n\nOrdained and appointed as a chaplain of the East India Company, he sailed for India in 1805. He learned Urdu, Persian, and Arabic and threw himself into Bible translation. He completed a New Testament in Urdu (1809), supervised Persian and Arabic translations, and travelled to Persia for the sake of a revised Persian text — debating Islamic scholars in Shiraz on the claims of Christ.\n\nHis journals record a relentless conflict between spiritual longing and physical collapse. He suffered from tuberculosis throughout his missionary years and died in Tocat, Turkey, in 1812, aged 31, while attempting to return home.\n\n\"I cannot find it in my heart to grieve,\" he wrote, \"for what Christ thinks worth dying for.\" He had given the New Testament to three language groups. His life was brief; his fruit enduring.",
+    "family_story": "Henry Martyn was one of the cleverest young men in all of England — a top student at Cambridge University. But after he became a Christian, he decided to use that mind for God, not for a comfortable career.\n\nHe sailed to India and then Persia, learning difficult languages so he could translate the Bible into Urdu, Persian, and Arabic — languages that millions of people spoke.\n\nHenry was often very ill, but he kept working. He died at just 31, far from home, still trying to bring God's word to people who had never heard it. He had given three whole peoples the New Testament in their own language.",
+    "image": {
+      "file": "henry-martyn.jpg",
+      "prompt_used": "Photorealistic portrait of Henry Martyn, English Anglican missionary and Bible translator, early 19th century, wearing dark coat, thoughtful and determined expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Henry_Martyn_(missionary).jpg — 19th-century portrait, public domain",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "pandita-ramabai",
+    "name": "Pandita Ramabai",
+    "born": 1858,
+    "born_approximate": false,
+    "died": 1922,
+    "nationality": "Indian",
+    "era": "19th Century",
+    "region": "Asia",
+    "tradition": "Independent evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "grace",
+      "Scripture",
+      "social reform",
+      "women"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pandita_Ramabai",
+    "source_summary": "Pandita Ramabai Sarasvati (1858–1922) was an Indian Christian scholar, social reformer, and Bible translator. Born into a high-caste Brahmin family, she became a celebrated Sanskrit scholar before converting to Christianity in 1883 in England. She founded the Mukti Mission near Pune as a refuge for child widows, famine victims, and women in poverty; the Mission became a centre of evangelical revival in 1905. She produced a Marathi translation of the Bible from the original Hebrew and Greek, completing it shortly before her death.",
+    "adult_story": "Pandita Ramabai was born in 1858 into a high-caste Brahmin family in India. Her father, a Sanskrit scholar, unusually taught her to read the sacred texts — a radical act in a culture that barred women from learning. Both parents died in famine, and she became celebrated as a Sanskrit scholar in Calcutta.\n\nAfter years of searching in Hinduism for relief from its oppression of women, she encountered the Gospels. She was baptised as a Christian in 1883 in England, having come to believe that Christ alone offered dignity to the low-caste, the widow, and the outcast — a conviction tested and deepened throughout her life.\n\nShe founded the Mukti (\"Salvation\") Mission near Pune as a refuge for child widows, famine victims, and women in poverty. In 1905 Mukti became a centre of revival — prayer and conversion spreading through hundreds of women and girls.\n\nShe also produced a Marathi translation of the Bible from the original Hebrew and Greek, completing it shortly before her death in 1922.\n\nHer life proclaimed what the gospel insists: that in Christ there is no Brahmin and no outcaste — only the redeemed.",
+    "family_story": "Pandita Ramabai was a famous Hindu scholar in India who could read Sanskrit, one of the hardest ancient languages. But when she read the Gospels, everything changed.\n\nShe learned that Jesus treated women with dignity, helped the poor, and welcomed outcasts — the very people her religion looked down on. She became a Christian and decided to spend her life doing the same.\n\nShe started a place called the Mukti Mission — \"Mukti\" means salvation — where hundreds of women and girls who had nowhere else to go could find safety, education, and the love of Christ. She even translated the whole Bible into the Marathi language.\n\nShe showed that Jesus truly is Lord over every culture and every caste.",
+    "image": {
+      "file": "pandita-ramabai.jpg",
+      "prompt_used": "Photorealistic portrait of Pandita Ramabai, Indian Christian scholar and social reformer, late 19th century, wearing traditional Indian sari, intelligent and compassionate expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Pandita_Ramabai_Sarasvati_1858-1922_front-page-portrait.jpg — frontispiece from 'The High-Caste Hindu Woman' (Philadelphia, 1887), published before 1931, public domain in USA",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "bakht-singh",
+    "name": "Bakht Singh",
+    "born": 1903,
+    "born_approximate": false,
+    "died": 2000,
+    "nationality": "Indian",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Independent evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "revival",
+      "church planting",
+      "prayer",
+      "discipleship"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bakht_Singh",
+    "source_summary": "Bakht Singh Chabra (1903–2000) was an Indian Christian leader who founded more than two hundred assemblies across India, Sri Lanka, and beyond. Born into a Sikh family in Punjab, he converted to Christianity in Winnipeg, Canada, in 1929 after receiving a New Testament. He returned to India and planted churches on New Testament principles without Western denominational structures. His conventions drew tens of thousands across south India. He died in 2000 at the age of 96.",
+    "adult_story": "Bakht Singh was born in 1903 into a Sikh family in Punjab, India. He left for England to study engineering, then moved to Canada. Bitter, restless, and far from home, he was given a New Testament by a stranger in Winnipeg in 1929 and was converted after reading it through the night.\n\nHe returned to India and began preaching in a country resistant to Christianity as a colonial religion. He founded assemblies on simple New Testament principles — no Western denominational structures, no paid clergy, daily prayer, breaking of bread, and Scripture. He is estimated to have planted more than two hundred churches across India, Sri Lanka, and beyond.\n\nHis preaching drew vast crowds — thousands gathering across south India for conventions at which he would preach for hours. He was known for fasting, long night-watches of prayer, and direct, uncompromising proclamation of the cross.\n\nHe died in 2000, aged 96, still active in ministry. He had sought to show that Christianity was not the white man's religion imported from the West, but the faith of a risen Lord who belonged to every nation — including India.",
+    "family_story": "Bakht Singh was a Sikh boy from Punjab, India, who went to England and then Canada to study engineering. In Canada, someone gave him a New Testament. He read it all night — and by morning he had given his life to Jesus.\n\nHe went back to India and spent the rest of his long life planting churches — more than two hundred of them. He wanted to show that following Jesus wasn't a Western thing. Jesus belonged to India too.\n\nBakht Singh prayed for hours every day, fasted often, and preached to huge crowds. He lived to 96, still serving God right to the end.",
+    "image": {
+      "file": "bakht-singh.jpg",
+      "prompt_used": "Photorealistic portrait of Bakht Singh, Indian Christian evangelist and church planter, mid-20th century, wearing simple Indian clothing, strong and dignified expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Bakht-singh.jpg — CC0 public domain dedication",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "john-stam",
+    "name": "John Stam",
+    "born": 1907,
+    "born_approximate": false,
+    "died": 1934,
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "missions",
+      "sacrifice",
+      "courage",
+      "faithfulness"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_and_Betty_Stam",
+    "source_summary": "John Stam (1907–1934) was an American missionary with the China Inland Mission who was martyred alongside his wife Betty by Communist soldiers in Anhui province, China, in December 1934. Born in Paterson, New Jersey, he sailed for China in 1932 and married Betty Scott in 1933. Their two-month-old daughter Helen Priscilla survived. His calm letter to CIM headquarters before his execution, expressing trust in God's sovereignty, became widely known. He was 27 years old.",
+    "adult_story": "John Stam was born in Paterson, New Jersey, in 1907, one of eleven children of a Dutch immigrant family. He came to faith through the Student Foreign Missions Fellowship and sailed for China in 1932 with the China Inland Mission. In 1933 he married Betty Scott, a fellow CIM missionary.\n\nIn December 1934 Communist soldiers captured John, Betty, and their two-month-old daughter Helen Priscilla in Jingde, Anhui province. John wrote a letter to CIM headquarters asking them not to spend effort or money on his ransom, trusting that God was in control. The following day he and Betty were marched through the streets and beheaded.\n\nHelen was found alive two days later in their abandoned house, wrapped in blankets, left in the care of a local Christian. She survived.\n\nJohn's life was brief but his testimony reached millions. His and Betty's letters and the account of their death were published immediately and circulated across the world, inspiring a generation of young missionaries. \"Make me willing to be offered,\" he had prayed before sailing for China.\n\nHe was 27.",
+    "family_story": "John Stam went to China as a missionary with his wife Betty. They had a baby daughter named Helen who was only two months old.\n\nWhen soldiers arrested them, John wrote a calm letter to his mission saying he trusted God whatever happened. The next day, John and Betty were killed for their faith.\n\nBaby Helen was found safe, wrapped in blankets in their house. A local Chinese Christian family looked after her until she was rescued.\n\nJohn was only 27. His life was short, but the story of his faith and courage inspired thousands of young people to become missionaries themselves.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "betty-stam",
+    "name": "Betty Stam",
+    "born": 1906,
+    "born_approximate": false,
+    "died": 1934,
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "missions",
+      "sacrifice",
+      "courage",
+      "faithfulness"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_and_Betty_Stam",
+    "source_summary": "Betty Scott Stam (1906–1934) was an American missionary with the China Inland Mission, born in Tsingtao (Qingdao), China, to missionary parents. She married John Stam in 1933. Captured by Communist soldiers in Anhui province in December 1934, she and John were beheaded on 8 December 1934; their infant daughter Helen Priscilla survived. Her pre-field prayer of total surrender to God's will became one of the most quoted missionary testimonies of the twentieth century. She was 28 years old.",
+    "adult_story": "Betty Scott Stam was born in 1906 in Tsingtao (Qingdao), China, where her parents served as missionaries. She grew up bilingual in English and Chinese, graduated from Wilson College in Pennsylvania, and sailed back to China with the China Inland Mission in 1931. She married John Stam in 1933.\n\nShe had made her commitment clear before she went. As a student she had written: \"Lord, I give up all my own plans and purposes, all my own desires and hopes, and accept Thy will for my life.\" Her letters from China showed a woman of steady faith, warm humour, and clear theological depth.\n\nIn December 1934 she and John were captured by Communist soldiers in Anhui province with their two-month-old daughter Helen Priscilla. On 8 December they were beheaded. Their baby was found alive.\n\nBetty was 28. She and John had served in China for little more than a year as a married couple. Yet the account of their death, published immediately and distributed worldwide, became one of the most powerful missionary testimonies of the twentieth century — not because it ended in victory by human measure, but because it showed two young lives held loosely, offered freely, and not found wanting when the moment came.",
+    "family_story": "Betty Stam grew up in China, the daughter of missionaries, and went back as a missionary herself. She married John Stam, and they had a baby girl named Helen.\n\nWhen soldiers arrested them, Betty was not surprised. She had written years before: \"Lord, I give up all my own plans and accept Thy will for my life.\"\n\nBetty and John were killed for their faith. Their baby daughter was found safe. Betty was only 28.\n\nHer story showed that real faith is not just words we say, but a life we hand over to Jesus — and she had handed hers over long before the soldiers came.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "dietrich-bonhoeffer",
+    "name": "Dietrich Bonhoeffer",
+    "born": 1906,
+    "born_approximate": false,
+    "died": 1945,
+    "nationality": "German",
+    "era": "20th Century",
+    "region": "Europe",
+    "tradition": "Lutheran",
+    "flagged": true,
+    "footnote": "Bonhoeffer's later prison writings (Letters and Papers from Prison) use language — 'religionless Christianity,' 'the world come of age' — that liberal theologians have interpreted in ways departing from orthodox Christianity. Most evangelical scholars regard his core convictions, especially as expressed in The Cost of Discipleship and Life Together, as soundly orthodox. Readers should approach his later writings with discernment.",
+    "topics": [
+      "suffering",
+      "martyrdom",
+      "discipleship",
+      "courage",
+      "persecution"
+    ],
+    "hymns": [
+      "By Gracious Powers"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dietrich_Bonhoeffer",
+    "source_summary": "Dietrich Bonhoeffer (1906–1945) was a German Lutheran pastor and theologian who actively resisted the Nazi regime. A founding member of the Confessing Church, he directed the illegal Finkenwalde seminary from 1935 until the Gestapo closed it in 1937. He authored The Cost of Discipleship and Life Together during this period. Arrested in April 1943 for his involvement in resistance activities, he was executed at Flossenbürg concentration camp on 9 April 1945, three weeks before Germany's surrender. His later prison writings remain theologically contested among evangelical scholars.",
+    "adult_story": "Dietrich Bonhoeffer was born in Breslau in 1906, the son of a psychiatrist. He studied theology in Berlin and at Union Theological Seminary in New York, and was ordained as a Lutheran pastor. When Hitler came to power in 1933, Bonhoeffer immediately recognised the threat and joined the Confessing Church — the movement within German Protestantism that resisted the Nazi-aligned \"German Christians.\"\n\nHe directed an illegal seminary at Finkenwalde from 1935 until the Gestapo closed it in 1937. His books The Cost of Discipleship and Life Together were written in this period. In them he argued that \"cheap grace\" — forgiveness without repentance, faith without obedience — was a corruption of the gospel; true discipleship meant taking up the cross in the concrete circumstances of one's life.\n\nHe was arrested in April 1943 and executed at Flossenbürg concentration camp on 9 April 1945, three weeks before Germany's surrender. The camp doctor who witnessed his death wrote that he had never seen anyone die so entirely submissive to the will of God.\n\n\"When Christ calls a man,\" he wrote, \"he bids him come and die.\"",
+    "family_story": "Dietrich Bonhoeffer was a German pastor who refused to go along with Adolf Hitler's evil government. When Hitler tried to take over the church, Bonhoeffer stood against him and helped run an underground school to train pastors who were loyal to Christ, not to the Nazis.\n\nHe was arrested and put in prison. On 9 April 1945 — just three weeks before the war ended — he was executed.\n\nA doctor who watched him die said he had never seen anyone face death with such calm and trust in God.\n\nDietrich believed that following Jesus isn't cheap or easy — it costs everything. And he gave everything.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "joni-eareckson-tada",
+    "name": "Joni Eareckson Tada",
+    "born": 1949,
+    "born_approximate": false,
+    "died": null,
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Reformed evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "suffering",
+      "providence",
+      "disability",
+      "grace",
+      "perseverance"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Joni_Eareckson_Tada",
+    "source_summary": "Joni Eareckson Tada (born 1949) is an American Christian author, artist, and disability advocate. At age 17 she became a quadriplegic following a diving accident in the Chesapeake Bay in July 1967. After a period of intense struggle with depression and despair, she emerged with a deepened Christian faith. She founded Joni and Friends in 1979, a ministry serving people with disabilities and their families worldwide. She has authored over fifty books and paints holding a brush in her mouth. She has also survived breast cancer and continues in ministry.",
+    "adult_story": "Joni Eareckson Tada was born in 1949 in Baltimore, Maryland. In July 1967, at the age of 17, she dived into the Chesapeake Bay and struck the bottom — breaking her neck and leaving her a quadriplegic.\n\nThe years that followed were among the darkest of her life. She wrestled with depression, rage, and a desire to die. She was sustained by friends who refused to leave, by Scripture, and by a slow, painful re-engagement with a God whose purposes she could not yet see. She emerged not with easy answers, but with a conviction — deepened across six decades — that suffering is not evidence of God's absence but the terrain on which he is most clearly known.\n\nShe founded Joni and Friends in 1979, a ministry now active worldwide serving people with disabilities and their families. She has authored over fifty books, recorded music, and painted with a brush held in her mouth. She has also endured breast cancer and chronic pain.\n\nShe has said publicly that heaven is more real to her than her wheelchair — not as an escape from suffering, but as the resolution of a story she believes God is still writing.",
+    "family_story": "When Joni Eareckson Tada was 17 years old, she dived into a lake, hit the bottom, and broke her neck. She has been in a wheelchair ever since, unable to use her hands.\n\nAt first she was angry and heartbroken. But slowly, through reading the Bible and praying, she came to trust that God had not abandoned her — and that her life still had meaning.\n\nShe started Joni and Friends, a ministry helping people with disabilities worldwide. She paints pictures holding a brush in her mouth, and has written over fifty books.\n\nJoni says heaven feels more real than her wheelchair — not because she wants to escape, but because she believes God is writing a story that will one day make sense of everything.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "dwight-l-moody",
+    "name": "Dwight L. Moody",
+    "born": 1837,
+    "born_approximate": false,
+    "died": 1899,
+    "nationality": "American",
+    "era": "19th Century",
+    "region": "North America",
+    "tradition": "Non-denominational evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "evangelism",
+      "revival",
+      "grace",
+      "conversion",
+      "prayer",
+      "missions"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dwight_L._Moody",
+    "source_summary": "Dwight L. Moody (1837–1899) was an American non-denominational evangelist and educator. Born in poverty in Northfield, Massachusetts, his father died when he was four. He converted at eighteen in Boston through the witness of his Sunday school teacher Edward Kimball. Moving to Chicago, he founded what became Moody Church and, with singer Ira Sankey, conducted mass evangelistic campaigns across Britain and North America in the 1870s and 1880s. He founded Northfield Schools and in 1886 established what became Moody Bible Institute. It is estimated he preached to more than one hundred million people in his lifetime.",
+    "adult_story": "Dwight Lyman Moody was born in 1837 in Northfield, Massachusetts, the sixth of nine children. His father died when Dwight was four, leaving the family in poverty. He had little formal education and moved to Boston at seventeen to work in a shoe store.\n\nHis employer's condition was that he attend Sunday school. It was there that his teacher Edward Kimball sought him out in the back room of the shop in 1855 and asked if he was willing to give his life to Christ. Moody was. It was, as he later described it, the day everything changed.\n\nHe moved to Chicago, prospered in business, and might have remained prosperous — but in 1860 he gave it up for full-time ministry among the poor of the city. He built a Sunday school in the slums that grew into what became Moody Church. He partnered with singer Ira Sankey, and together they conducted evangelistic campaigns across Britain and North America through the 1870s and 1880s that drew hundreds of thousands.\n\nHe founded Northfield schools in Massachusetts, and in 1886 established the school that became Moody Bible Institute — training ordinary men and women for ministry without requiring the formal education he himself had never received.\n\nHe died in 1899. It is estimated he preached to more than one hundred million people — each one brought face to face with a God who, as Moody put it, is not angry but loves them.",
+    "family_story": "Dwight L. Moody grew up very poor in Massachusetts after his father died when he was just four years old. At seventeen he moved to Boston to work in a shoe shop.\n\nHis boss made him go to Sunday school. One day his teacher came to the shop and asked Dwight in the back room if he was ready to give his life to Jesus. He said yes — and nothing was ever the same.\n\nMoody moved to Chicago, gave up a good business career, and spent the rest of his life telling people that God loved them. He preached to huge crowds across America and Britain, and started a school to train preachers who couldn't afford a university education.\n\nHe showed that God uses ordinary people to do extraordinary things.",
+    "image": {
+      "file": "dwight-l-moody.jpg",
+      "prompt_used": "Photorealistic portrait of Dwight L. Moody, American evangelical preacher, circa 1880s-1890s, wearing a dark Victorian suit, stocky build with full beard, warm and earnest expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Dwight_Lyman_Moody_c.1900.jpg — Library of Congress (digital ID cph.3c22752), published before 1931, public domain",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
     }
   }
 ]
