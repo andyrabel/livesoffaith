@@ -198,6 +198,15 @@ Each person is stored as a JSON object. The full schema is:
     "prompt_used": "Photorealistic portrait of Wang Ming Dao, Chinese Christian pastor, early 20th century, wearing simple Chinese clothing, serious and dignified expression, historically accurate",
     "caption": "AI-generated image — no copyright claimed"
   },
+  "memorials": [
+    {
+      "type": "gravestone",
+      "name": "Grave of Wang Ming Dao",
+      "address": "Shanghai, China",
+      "lat": 31.2304,
+      "lng": 121.4737
+    }
+  ],
   "review": {
     "human_reviewed": false,
     "reviewed_by": "",
@@ -205,6 +214,18 @@ Each person is stored as a JSON object. The full schema is:
   }
 }
 ```
+
+### Memorials Schema
+
+Each memorial in the `memorials` array has:
+- `type` — one of: `"gravestone"`, `"statue"`, `"plaque"`, `"monument"`, `"window"`, `"church"`, `"museum"`, `"other"`
+- `name` — short label for the memorial
+- `address` — street address or descriptive location
+- `lat` — decimal latitude
+- `lng` — decimal longitude
+
+Use `"memorials": []` when no confirmed physical memorials are known.
+When adding a new person, research and populate memorials as part of the standard workflow.
 
 ---
 

@@ -32,7 +32,16 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-29"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Wang Ming Dao burial — Dongshan Cemetery, Suzhou",
+        "address": "Dongshan Cemetery, Wuzhong District, Suzhou, Jiangsu Province, China",
+        "lat": 31.07,
+        "lng": 120.43
+      }
+    ]
   },
   {
     "id": "john-newton",
@@ -72,7 +81,23 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Tomb of John and Mary Newton — St Peter and St Paul, Olney",
+        "address": "Church of Saints Peter and Paul, Market Place, Olney, Buckinghamshire, MK46 4EA, England",
+        "lat": 52.1497,
+        "lng": -0.7009
+      },
+      {
+        "type": "plaque",
+        "name": "John Newton memorial wall tablet — St Mary Woolnoth",
+        "address": "St Mary Woolnoth, Lombard Street, City of London, EC3V 9AN, England",
+        "lat": 51.5126,
+        "lng": -0.0878
+      }
+    ]
   },
   {
     "id": "fanny-crosby",
@@ -121,7 +146,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Fanny Crosby — Mountain Grove Cemetery",
+        "address": "Mountain Grove Cemetery, 2675 North Avenue, Bridgeport, CT 06604, USA",
+        "lat": 41.1851,
+        "lng": -73.1706
+      }
+    ]
   },
   {
     "id": "john-bunyan",
@@ -155,7 +189,23 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "John Bunyan tomb — Bunhill Fields Burial Ground",
+        "address": "Bunhill Fields Burial Ground, 38 City Road, London, EC1Y 2BG, England",
+        "lat": 51.5237,
+        "lng": -0.0888
+      },
+      {
+        "type": "statue",
+        "name": "Bronze statue of John Bunyan — St Peter's Green, Bedford",
+        "address": "St Peter's Green, Bedford, Bedfordshire, MK40 1SQ, England",
+        "lat": 52.1388,
+        "lng": -0.4667
+      }
+    ]
   },
   {
     "id": "isaac-watts",
@@ -198,7 +248,23 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Isaac Watts chest tomb — Bunhill Fields Burial Ground",
+        "address": "Bunhill Fields Burial Ground, 38 City Road, London, EC1Y 2BG, England",
+        "lat": 51.5237,
+        "lng": -0.0888
+      },
+      {
+        "type": "statue",
+        "name": "Isaac Watts memorial statue — Watts Park, Southampton",
+        "address": "Watts Park (West Park), Cumberland Place, Southampton, SO15 2YT, England",
+        "lat": 50.9058,
+        "lng": -1.4076
+      }
+    ]
   },
   {
     "id": "charles-wesley",
@@ -242,7 +308,23 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Charles Wesley grave — St Marylebone Parish Church garden",
+        "address": "St Marylebone Parish Church, Marylebone High Street, London, W1U 5BA, England",
+        "lat": 51.5216,
+        "lng": -0.1495
+      },
+      {
+        "type": "statue",
+        "name": "Charles Wesley statue — The New Room, Bristol",
+        "address": "The New Room, 36 The Horsefair, Bristol, BS1 3JE, England",
+        "lat": 51.4568,
+        "lng": -2.5933
+      }
+    ]
   },
   {
     "id": "william-cowper",
@@ -280,7 +362,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "William Cowper grave and Flaxman monument — St Nicholas Church, East Dereham",
+        "address": "St Nicholas Church, Church Street, East Dereham, Norfolk, NR19 1DN, England",
+        "lat": 52.6811,
+        "lng": 0.9393
+      }
+    ]
   },
   {
     "id": "augustus-toplady",
@@ -316,7 +407,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Augustus Toplady burial site — former Whitefield's Tabernacle (now American International Church)",
+        "address": "79a Tottenham Court Road, London, W1T 4TD, England",
+        "lat": 51.5192,
+        "lng": -0.1347
+      }
+    ]
   },
   {
     "id": "philip-bliss",
@@ -358,7 +458,30 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Philip and Lucy Bliss mass grave — Chestnut Grove Cemetery, Ashtabula",
+        "address": "Chestnut Grove Cemetery, 79 Grove Drive, Ashtabula, OH 44004, USA",
+        "lat": 41.8654,
+        "lng": -80.7865
+      },
+      {
+        "type": "monument",
+        "name": "Philip P. Bliss cenotaph — Rome Cemetery, Pennsylvania",
+        "address": "Rome Cemetery, Rome, Bradford County, PA 16864, USA",
+        "lat": 41.8494,
+        "lng": -76.7869
+      },
+      {
+        "type": "museum",
+        "name": "Philip Paul Bliss Gospel Songwriter's Museum",
+        "address": "Rome, Bradford County, PA 16864, USA",
+        "lat": 41.8494,
+        "lng": -76.7869
+      }
+    ]
   },
   {
     "id": "horatius-bonar",
@@ -402,7 +525,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Horatius Bonar grave — Canongate Kirkyard, Edinburgh",
+        "address": "Canongate Kirkyard, 153 Canongate, Edinburgh, EH8 8BN, Scotland",
+        "lat": 55.9518,
+        "lng": -3.1796
+      }
+    ]
   },
   {
     "id": "susanna-wesley",
@@ -434,7 +566,16 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Susanna Wesley grave — Bunhill Fields Burial Ground",
+        "address": "Bunhill Fields Burial Ground, 38 City Road, London, EC1Y 2BG, England",
+        "lat": 51.5237,
+        "lng": -0.0888
+      }
+    ]
   },
   {
     "id": "george-whitefield",
@@ -467,7 +608,23 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "George Whitefield tomb — Old South Presbyterian Church crypt, Newburyport",
+        "address": "Old South Presbyterian Church, 29 Federal Street, Newburyport, MA 01950, USA",
+        "lat": 42.8128,
+        "lng": -70.8773
+      },
+      {
+        "type": "plaque",
+        "name": "George Whitefield blue plaque — birthplace, Gloucester",
+        "address": "De Crypt School, off Southgate Street, Gloucester, GL1 1TP, England",
+        "lat": 51.8659,
+        "lng": -2.2441
+      }
+    ]
   },
   {
     "id": "william-wilberforce",
@@ -500,7 +657,30 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "William Wilberforce grave — Westminster Abbey, north transept",
+        "address": "Westminster Abbey, 20 Deans Yard, London, SW1P 3PA, England",
+        "lat": 51.4993,
+        "lng": -0.1273
+      },
+      {
+        "type": "monument",
+        "name": "Wilberforce Monument — Queen's Gardens, Hull",
+        "address": "Queen's Gardens, Hull, East Riding of Yorkshire, HU1 3DQ, England",
+        "lat": 53.7434,
+        "lng": -0.3359
+      },
+      {
+        "type": "museum",
+        "name": "Wilberforce House Museum",
+        "address": "Wilberforce House Museum, 25 High Street, Hull, HU1 1NQ, England",
+        "lat": 53.7443,
+        "lng": -0.3282
+      }
+    ]
   },
   {
     "id": "george-muller",
@@ -533,7 +713,16 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "George Müller grave — Arnos Vale Cemetery, Bristol",
+        "address": "Arnos Vale Cemetery, Bath Road, Bristol, BS4 3EW, England",
+        "lat": 51.4424,
+        "lng": -2.5649
+      }
+    ]
   },
   {
     "id": "cs-lewis",
@@ -568,7 +757,16 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "C.S. Lewis grave — Holy Trinity Church, Headington Quarry",
+        "address": "Holy Trinity Church, 46 Quarry Road, Headington, Oxford, OX3 8NU, England",
+        "lat": 51.7579,
+        "lng": -1.2197
+      }
+    ]
   },
   {
     "id": "jim-elliot",
@@ -599,7 +797,16 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Jim Elliot and companions — burial site, Palm Beach, Curaray River",
+        "address": "Palm Beach sandbar, Curaray River, Cantón Arajuno, Pastaza Province, Ecuador",
+        "lat": -1.6333,
+        "lng": -77.0833
+      }
+    ]
   },
   {
     "id": "hudson-taylor",
@@ -634,7 +841,23 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-29"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Hudson Taylor grave — Xuande Church, Zhenjiang",
+        "address": "Xuande Church, Zhenjiang, Jiangsu Province, China",
+        "lat": 32.2115,
+        "lng": 119.4551
+      },
+      {
+        "type": "museum",
+        "name": "Hudson Taylor Memorial Building — Zhenjiang",
+        "address": "Hudson Taylor Memorial Building, Zhenjiang, Jiangsu Province, China",
+        "lat": 32.2115,
+        "lng": 119.4551
+      }
+    ]
   },
   {
     "id": "david-livingstone",
@@ -669,7 +892,23 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-29"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "David Livingstone grave — Westminster Abbey, centre of Nave",
+        "address": "Westminster Abbey, 20 Deans Yard, London, SW1P 3PA, England",
+        "lat": 51.4993,
+        "lng": -0.1273
+      },
+      {
+        "type": "statue",
+        "name": "David Livingstone statue — David Livingstone Birthplace Museum, Blantyre",
+        "address": "David Livingstone Birthplace Museum, 165 Station Road, Blantyre, South Lanarkshire, G72 9BY, Scotland",
+        "lat": 55.7907,
+        "lng": -4.0851
+      }
+    ]
   },
   {
     "id": "amy-carmichael",
@@ -702,7 +941,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Amy Carmichael grave (bird bath marker inscribed 'Amma') — Dohnavur Fellowship",
+        "address": "Dohnavur Fellowship, Mavadi Donavoor Road, Tirunelveli Kattabo, Tamil Nadu 627102, India",
+        "lat": 8.6513,
+        "lng": 77.5295
+      }
+    ]
   },
   {
     "id": "john-sung",
@@ -737,7 +985,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "John Sung reburial — near Liucuo Village, Putian",
+        "address": "Near Liucuo Village, Xiuyu District, Putian, Fujian Province, China",
+        "lat": 25.1833,
+        "lng": 119.0833
+      }
+    ]
   },
   {
     "id": "watchman-nee",
@@ -772,7 +1029,8 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": []
   },
   {
     "id": "sadhu-sundar-singh",
@@ -808,7 +1066,8 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": []
   },
   {
     "id": "william-tyndale",
@@ -844,7 +1103,37 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "statue",
+        "name": "Statue of William Tyndale — Victoria Embankment Gardens",
+        "address": "Whitehall Gardens, Horse Guards Avenue, Westminster, London SW1A 2HU, England",
+        "lat": 51.5025,
+        "lng": -0.1246
+      },
+      {
+        "type": "monument",
+        "name": "Tyndale Monument — North Nibley, Gloucestershire",
+        "address": "Wood Lane, Forthay, North Nibley, Gloucestershire GL11 6DX, England",
+        "lat": 51.6594,
+        "lng": -2.3767
+      },
+      {
+        "type": "statue",
+        "name": "Statue of William Tyndale — Millennium Square, Bristol",
+        "address": "Millennium Square, Bristol BS1 5DB, England",
+        "lat": 51.4498,
+        "lng": -2.6004
+      },
+      {
+        "type": "plaque",
+        "name": "William Tyndale memorial tablet — Westminster Abbey",
+        "address": "Westminster Abbey, 20 Deans Yard, Westminster, London SW1P 3PA, England",
+        "lat": 51.4994,
+        "lng": -0.1273
+      }
+    ]
   },
   {
     "id": "john-hus",
@@ -878,7 +1167,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "monument",
+        "name": "Jan Hus Memorial — Old Town Square, Prague",
+        "address": "Staroměstské náměstí, 110 00 Praha 1, Czech Republic",
+        "lat": 50.0872,
+        "lng": 14.4213
+      }
+    ]
   },
   {
     "id": "richard-wurmbrand",
@@ -914,7 +1212,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Richard Wurmbrand — Rose Hills Memorial Park, Whittier",
+        "address": "Rose Hills Memorial Park, 3888 Workman Mill Road, Whittier, CA 90601, USA",
+        "lat": 34.0156,
+        "lng": -118.0379
+      }
+    ]
   },
   {
     "id": "william-carey",
@@ -951,7 +1258,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of William Carey — Serampore Mission Cemetery",
+        "address": "Khash Bagan, Brojo Dutta Lane, Serampore 712201, West Bengal, India",
+        "lat": 22.7474,
+        "lng": 88.3441
+      }
+    ]
   },
   {
     "id": "lilias-trotter",
@@ -988,7 +1304,16 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Lilias Trotter — Algiers European Cemetery",
+        "address": "Chemin Mohamed Gacem, Sidi M'Hamed, Algiers 16000, Algeria",
+        "lat": 36.7483,
+        "lng": 3.0594
+      }
+    ]
   },
   {
     "id": "anthony-norris-groves",
@@ -1024,7 +1349,16 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Anthony Norris Groves — Arnos Vale Cemetery, Bristol",
+        "address": "Arnos Vale Cemetery, Bath Road, Bristol BS4 3EW, England",
+        "lat": 51.4424,
+        "lng": -2.5649
+      }
+    ]
   },
   {
     "id": "lord-shaftesbury",
@@ -1061,7 +1395,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "monument",
+        "name": "Shaftesbury Memorial Fountain (Eros/Anteros) — Piccadilly Circus",
+        "address": "Piccadilly Circus, London W1J 9HP, England",
+        "lat": 51.5101,
+        "lng": -0.1339
+      }
+    ]
   },
   {
     "id": "robert-boyle",
@@ -1097,7 +1440,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "plaque",
+        "name": "Robert Boyle birthplace plaque — Lismore Castle",
+        "address": "Lismore Castle, Lismore, County Waterford, Ireland",
+        "lat": 52.139,
+        "lng": -7.933
+      }
+    ]
   },
   {
     "id": "james-g-deck",
@@ -1147,7 +1499,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of James G. Deck — Motueka Cemetery",
+        "address": "Cemetery Road, Motueka, Tasman 7120, New Zealand",
+        "lat": -41.1281,
+        "lng": 173.0197
+      }
+    ]
   },
   {
     "id": "samuel-medley",
@@ -1189,7 +1550,8 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": []
   },
   {
     "id": "daniel-w-whittle",
@@ -1231,7 +1593,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Daniel W. Whittle — Center Cemetery, Northfield",
+        "address": "Parker Avenue, Northfield, Franklin County, MA 01360, USA",
+        "lat": 42.6947,
+        "lng": -72.4611
+      }
+    ]
   },
   {
     "id": "elisha-a-hoffman",
@@ -1272,7 +1643,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Elisha A. Hoffman — Oak Woods Cemetery, Chicago",
+        "address": "1035 E. 67th Street, Chicago, IL 60637, USA",
+        "lat": 41.7698,
+        "lng": -87.5999
+      }
+    ]
   },
   {
     "id": "frances-ridley-havergal",
@@ -1313,7 +1693,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Frances Ridley Havergal — St Peter's Church, Astley",
+        "address": "St Peter's Church, Astley, Malvern Hills District, Worcestershire WR6 6DP, England",
+        "lat": 52.3056,
+        "lng": -2.3145
+      }
+    ]
   },
   {
     "id": "keith-green",
@@ -1359,7 +1748,16 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Keith Green — Garden Valley Cemetery",
+        "address": "Garden Valley Cemetery, Garden Valley, Smith County, TX 75771, USA",
+        "lat": 32.2655,
+        "lng": -95.5392
+      }
+    ]
   },
   {
     "id": "thomas-watson",
@@ -1396,7 +1794,8 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": []
   },
   {
     "id": "corrie-ten-boom",
@@ -1432,7 +1831,23 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Corrie ten Boom — Fairhaven Memorial Park, Santa Ana",
+        "address": "1702 E. Fairhaven Avenue, Santa Ana, CA 92705, USA",
+        "lat": 33.7722,
+        "lng": -117.8417
+      },
+      {
+        "type": "museum",
+        "name": "Corrie ten Boom House Museum (The Hiding Place)",
+        "address": "Barteljorisstraat 19, 2011 RD Haarlem, Netherlands",
+        "lat": 52.3804,
+        "lng": 4.6346
+      }
+    ]
   },
   {
     "id": "eric-liddell",
@@ -1468,7 +1883,23 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Eric Liddell memorial headstone — former Weihsien Camp site, Weifang",
+        "address": "Weifang Guangwen Middle School, Weifang, Shandong Province, China",
+        "lat": 36.7008,
+        "lng": 119.1323
+      },
+      {
+        "type": "statue",
+        "name": "Eric Liddell statue — Old College, University of Edinburgh",
+        "address": "Old College, South Bridge, Edinburgh EH8 9YL, Scotland",
+        "lat": 55.9418,
+        "lng": -3.1856
+      }
+    ]
   },
   {
     "id": "elisabeth-elliot",
@@ -1499,7 +1930,16 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-29"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Elisabeth Elliot — Hamilton Cemetery",
+        "address": "623 Bay Road, Hamilton, MA 01936, USA",
+        "lat": 42.6199,
+        "lng": -70.8471
+      }
+    ]
   },
   {
     "id": "brother-andrew",
@@ -1530,7 +1970,8 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": []
   },
   {
     "id": "william-borden",
@@ -1566,7 +2007,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "William Whiting Borden grave — American Cemetery, Old Cairo",
+        "address": "American Cemetery, Old Cairo, Cairo Governorate, Egypt",
+        "lat": 30.0167,
+        "lng": 31.2333
+      }
+    ]
   },
   {
     "id": "mary-slessor",
@@ -1602,7 +2052,30 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Mary Slessor tomb — European Cemetery, Duke Town, Calabar",
+        "address": "Andersen Street, Duke Town, Calabar, Cross River State, Nigeria",
+        "lat": 4.9574,
+        "lng": 8.322
+      },
+      {
+        "type": "statue",
+        "name": "Mary Slessor statue holding twins — Calabar",
+        "address": "Efut Ekondo area, Calabar, Cross River State, Nigeria",
+        "lat": 4.95,
+        "lng": 8.3217
+      },
+      {
+        "type": "plaque",
+        "name": "Mary Slessor bronze portrait relief — Steeple Church, Dundee",
+        "address": "Steeple Church, Nethergate, Dundee DD1 4DG, Scotland",
+        "lat": 56.4594,
+        "lng": -2.973
+      }
+    ]
   },
   {
     "id": "adoniram-judson",
@@ -1639,7 +2112,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "monument",
+        "name": "Adoniram Judson cenotaph — Burial Hill Cemetery, Plymouth",
+        "address": "Burial Hill Cemetery, School Street, Plymouth, MA 02360, USA",
+        "lat": 41.956,
+        "lng": -70.6661
+      }
+    ]
   },
   {
     "id": "horatio-spafford",
@@ -1678,7 +2160,16 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Horatio Spafford grave — Mount Zion Protestant Cemetery, Jerusalem",
+        "address": "Mount Zion Cemetery, Maale HaShalom, Mount Zion, Jerusalem 9108402, Israel",
+        "lat": 31.7704,
+        "lng": 35.2281
+      }
+    ]
   },
   {
     "id": "john-wesley",
@@ -1714,7 +2205,23 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "John Wesley tomb — Wesley's Chapel burial ground",
+        "address": "Wesley's Chapel, 49 City Road, London EC1Y 1AU, England",
+        "lat": 51.5237,
+        "lng": -0.0863
+      },
+      {
+        "type": "statue",
+        "name": "Bronze statue of John Wesley — St Paul's Cathedral churchyard",
+        "address": "St Paul's Churchyard, London EC4M 8AD, England",
+        "lat": 51.5138,
+        "lng": -0.0984
+      }
+    ]
   },
   {
     "id": "george-verwer",
@@ -1750,7 +2257,8 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-27"
-    }
+    },
+    "memorials": []
   },
   {
     "id": "matthew-henry",
@@ -1786,7 +2294,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "monument",
+        "name": "Matthew Henry cenotaph (granite obelisk) — Chester",
+        "address": "Grosvenor Street, Chester, CH1 2NX, England",
+        "lat": 53.1868,
+        "lng": -2.8934
+      }
+    ]
   },
   {
     "id": "charles-spurgeon",
@@ -1823,7 +2340,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Charles Spurgeon tomb — West Norwood Cemetery",
+        "address": "West Norwood Cemetery, Norwood Road, West Norwood, London SE27 9JU, England",
+        "lat": 51.4329,
+        "lng": -0.0968
+      }
+    ]
   },
   {
     "id": "david-brainerd",
@@ -1859,7 +2385,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "David Brainerd grave — Bridge Street Cemetery, Northampton",
+        "address": "Bridge Street Cemetery, 156 Bridge Street, Northampton, MA 01060, USA",
+        "lat": 42.3249,
+        "lng": -72.6267
+      }
+    ]
   },
   {
     "id": "gladys-aylward",
@@ -1896,7 +2431,23 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Gladys Aylward grave — Christ's College campus, Tamsui",
+        "address": "Christ's College, 51 Ziqiang Road, Tamsui District, New Taipei City 25162, Taiwan",
+        "lat": 25.1833,
+        "lng": 121.4167
+      },
+      {
+        "type": "plaque",
+        "name": "Gladys Aylward blue commemorative plaque — Edmonton, London",
+        "address": "67 Cheddington Road, Edmonton, London N18 2EA, England",
+        "lat": 51.6168,
+        "lng": -0.083
+      }
+    ]
   },
   {
     "id": "ct-studd",
@@ -1932,7 +2483,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "C.T. Studd grave — Ibambi mission station",
+        "address": "Ibambi, Upper Uele Province, Democratic Republic of the Congo",
+        "lat": 2.3667,
+        "lng": 27.6167
+      }
+    ]
   },
   {
     "id": "thomas-barnardo",
@@ -1969,7 +2529,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "monument",
+        "name": "Dr Barnardo's Memorial (bronze Charity figure by George Frampton) — Barkingside",
+        "address": "Barnardo's, Tanners Lane, Barkingside, Ilford IG6 1QG, England",
+        "lat": 51.5876,
+        "lng": 0.0828
+      }
+    ]
   },
   {
     "id": "william-booth",
@@ -2006,7 +2575,30 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "William Booth grave — Abney Park Cemetery",
+        "address": "Abney Park Cemetery, Stoke Newington High Street, London N16 0LH, England",
+        "lat": 51.5626,
+        "lng": -0.0778
+      },
+      {
+        "type": "statue",
+        "name": "William Booth statue — Mile End Road",
+        "address": "Mile End Road, Stepney, London E1 4UJ, England",
+        "lat": 51.52,
+        "lng": -0.0557
+      },
+      {
+        "type": "statue",
+        "name": "William Booth statue — William Booth Memorial Training College",
+        "address": "Champion Park, Denmark Hill, London SE5 8BQ, England",
+        "lat": 51.466,
+        "lng": -0.092
+      }
+    ]
   },
   {
     "id": "martin-luther",
@@ -2045,7 +2637,23 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Martin Luther grave — All Saints' Church (Schlosskirche), Wittenberg",
+        "address": "Schlossplatz 1, 06886 Lutherstadt Wittenberg, Germany",
+        "lat": 51.8664,
+        "lng": 12.6373
+      },
+      {
+        "type": "statue",
+        "name": "Luther Monument — Marktplatz, Wittenberg",
+        "address": "Marktplatz, 06886 Lutherstadt Wittenberg, Germany",
+        "lat": 51.866,
+        "lng": 12.643
+      }
+    ]
   },
   {
     "id": "john-calvin",
@@ -2082,7 +2690,23 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "John Calvin conventional grave marker — Cimetière des Rois, Geneva",
+        "address": "Cimetière de Plainpalais (Cimetière des Rois), Rue des Rois, 1205 Geneva, Switzerland",
+        "lat": 46.2027,
+        "lng": 6.1373
+      },
+      {
+        "type": "statue",
+        "name": "John Calvin statue — International Monument to the Reformation, Geneva",
+        "address": "Parc des Bastions, Promenade des Bastions, 1204 Geneva, Switzerland",
+        "lat": 46.2003,
+        "lng": 6.1458
+      }
+    ]
   },
   {
     "id": "joseph-scriven",
@@ -2117,7 +2741,23 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-06-29"
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Joseph Scriven grave with obelisk monument — Pengelley Family Cemetery",
+        "address": "Pengelley Drive, Otonabee–South Monaghan, Peterborough County, Ontario K0L 1E0, Canada",
+        "lat": 44.1351,
+        "lng": -78.3076
+      },
+      {
+        "type": "monument",
+        "name": "Joseph Scriven memorial — Memorial Park, Port Hope",
+        "address": "Memorial Park, 24–36 Queen Street, Port Hope, Ontario L1A 2Y7, Canada",
+        "lat": 43.953,
+        "lng": -78.298
+      }
+    ]
   },
   {
     "id": "robert-cleaver-chapman",
@@ -2148,7 +2788,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Robert Cleaver Chapman — Barnstaple Cemetery",
+        "address": "Derby Road, Barnstaple, Devon EX32 7DQ, England",
+        "lat": 51.08385,
+        "lng": -4.04895
+      }
+    ]
   },
   {
     "id": "john-nelson-darby",
@@ -2183,7 +2832,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of John Nelson Darby — Wimborne Road Cemetery, Bournemouth",
+        "address": "Wimborne Road, Bournemouth, Dorset BH3 7AB, England",
+        "lat": 50.73229,
+        "lng": -1.87403
+      }
+    ]
   },
   {
     "id": "robert-murray-mcheyne",
@@ -2221,7 +2879,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Robert Murray McCheyne — St Peter's Free Church graveyard, Dundee",
+        "address": "4 St Peter Street, Dundee DD1 4JJ, Scotland",
+        "lat": 56.4562,
+        "lng": -2.9904
+      }
+    ]
   },
   {
     "id": "henry-martyn",
@@ -2256,7 +2923,30 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "other",
+        "name": "Henry Martyn Memorial Hall — Cambridge",
+        "address": "Market Street, Cambridge CB2 3NZ, England",
+        "lat": 52.2054,
+        "lng": 0.1214
+      },
+      {
+        "type": "window",
+        "name": "Henry Martyn Baptistry memorial windows — Truro Cathedral",
+        "address": "14 St Mary's Street, Truro, Cornwall TR1 2AF, England",
+        "lat": 50.2641,
+        "lng": -5.0512
+      },
+      {
+        "type": "gravestone",
+        "name": "Henry Martyn tombstone — Tokat Museum (formerly Armenian cemetery)",
+        "address": "Tokat Museum, Tokat Merkez, Tokat, Turkey",
+        "lat": 40.314,
+        "lng": 36.554
+      }
+    ]
   },
   {
     "id": "pandita-ramabai",
@@ -2292,7 +2982,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Pandita Ramabai — Mukti Mission Cemetery, Kedgaon",
+        "address": "Pandita Ramabai Mukti Mission, Kedgaon, Daund, Pune District, Maharashtra 412203, India",
+        "lat": 18.4786,
+        "lng": 74.3775
+      }
+    ]
   },
   {
     "id": "bakht-singh",
@@ -2328,7 +3027,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Bakht Singh — Christian Cemetery, Narayanguda, Hyderabad",
+        "address": "Vittalwadi, Narayanguda, Hyderabad, Telangana 500029, India",
+        "lat": 17.3963,
+        "lng": 78.4855
+      }
+    ]
   },
   {
     "id": "john-stam",
@@ -2359,7 +3067,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of John and Betty Stam — Wuhu Foreign Cemetery",
+        "address": "Jinghu District, Wuhu City, Anhui Province, China",
+        "lat": 31.3373,
+        "lng": 118.3735
+      }
+    ]
   },
   {
     "id": "betty-stam",
@@ -2390,7 +3107,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of John and Betty Stam — Wuhu Foreign Cemetery",
+        "address": "Jinghu District, Wuhu City, Anhui Province, China",
+        "lat": 31.3373,
+        "lng": 118.3735
+      }
+    ]
   },
   {
     "id": "dietrich-bonhoeffer",
@@ -2423,7 +3149,30 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "plaque",
+        "name": "Bonhoeffer memorial plaque — Flossenbürg Concentration Camp Memorial",
+        "address": "Gedächtnisallee 5, 92696 Flossenbürg, Bavaria, Germany",
+        "lat": 49.7347,
+        "lng": 12.3535
+      },
+      {
+        "type": "monument",
+        "name": "Dietrich Bonhoeffer cenotaph — Dorotheenstadt Cemetery, Berlin",
+        "address": "Chausseestraße 126, 10115 Berlin, Germany",
+        "lat": 52.5313,
+        "lng": 13.384
+      },
+      {
+        "type": "statue",
+        "name": "Bronze statue of Dietrich Bonhoeffer — Zionskirche, Berlin",
+        "address": "Zionskirchplatz, 10119 Berlin, Germany",
+        "lat": 52.5346,
+        "lng": 13.4038
+      }
+    ]
   },
   {
     "id": "joni-eareckson-tada",
@@ -2454,7 +3203,8 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": []
   },
   {
     "id": "dwight-l-moody",
@@ -2491,7 +3241,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Dwight L. Moody — Round Top, Northfield",
+        "address": "Round Top Cemetery, Northfield Campus, Northfield, Massachusetts 01360, USA",
+        "lat": 42.689,
+        "lng": -72.453
+      }
+    ]
   },
   {
     "id": "william-edwy-vine",
@@ -2522,7 +3281,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of W.E. Vine — Bath Abbey Cemetery, Perrymead",
+        "address": "Perrymead, Bath, Somerset BA2 5AZ, England",
+        "lat": 51.3724,
+        "lng": -2.3491
+      }
+    ]
   },
   {
     "id": "james-strong",
@@ -2555,7 +3323,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of James Strong — Flushing Cemetery, Queens",
+        "address": "163-06 46th Avenue, Flushing, Queens, New York 11358, USA",
+        "lat": 40.7522,
+        "lng": -73.7994
+      }
+    ]
   },
   {
     "id": "alexander-cruden",
@@ -2590,7 +3367,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "plaque",
+        "name": "Alexander Cruden memorial plaque — Camden Passage, Islington",
+        "address": "Camden Passage, Islington, London N1, England",
+        "lat": 51.5352,
+        "lng": -0.1039
+      }
+    ]
   },
   {
     "id": "robert-young",
@@ -2624,7 +3410,16 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Robert Young — Grange Cemetery, Edinburgh",
+        "address": "60A Grange Road, Edinburgh EH9 1TT, Scotland",
+        "lat": 55.9354,
+        "lng": -3.1899
+      }
+    ]
   },
   {
     "id": "joseph-henry-thayer",
@@ -2657,6 +3452,15 @@
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Joseph Henry Thayer — Mount Auburn Cemetery, Cambridge",
+        "address": "580 Mount Auburn Street, Cambridge, Massachusetts 02138, USA",
+        "lat": 42.3752,
+        "lng": -71.1449
+      }
+    ]
   }
 ]
