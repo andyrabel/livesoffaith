@@ -2492,5 +2492,171 @@
       "reviewed_by": "",
       "reviewed_date": ""
     }
+  },
+  {
+    "id": "william-edwy-vine",
+    "name": "W. E. Vine",
+    "born": 1873,
+    "born_approximate": false,
+    "died": 1949,
+    "nationality": "British",
+    "era": "20th Century",
+    "region": "UK/Ireland",
+    "tradition": "Open Brethren",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "Scripture",
+      "doctrine",
+      "grace",
+      "discipleship",
+      "biblical scholarship"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/W._E._Vine",
+    "source_summary": "William Edwy Vine (1873–1949) was a British Open Brethren Bible teacher and author based in Bath, Somerset. He studied at University College, Bristol, and devoted his career to teaching, preaching, and writing in Brethren assemblies. His principal work, Vine's Expository Dictionary of New Testament Words, published in four volumes between 1939 and 1941, traces the Greek roots of New Testament vocabulary in plain English, making original-language scholarship accessible to preachers and lay readers without formal Greek training.",
+    "adult_story": "William Edwy Vine was born in 1873 in Somerset and educated at University College, Bristol. He spent his entire adult life in Open Brethren assemblies — teaching, preaching, and writing in the conviction that Scripture, rightly understood, was the church's sufficient guide.\n\nHe is best known for Vine's Expository Dictionary of New Testament Words, published in four volumes between 1939 and 1941. The Dictionary traces every significant word in the Greek New Testament back to its root, explaining its range of meaning in careful, plain English. For the first time, preachers and teachers without formal Greek training could access the depth of the original text — the difference between agapē and philia, between justification and righteousness, between knowledge that merely informs and wisdom that transforms.\n\nVine wrote it in the conviction that the words of Scripture were God-breathed in every detail, and that careful attention to them was an act of worship as much as an act of study. He completed the work in his late sixties, seeing it through to publication near the end of his life.\n\nHis name is not widely celebrated. But Vine's Dictionary sits on the shelves of preachers, teachers, and careful Bible readers around the world — a quiet instrument, still doing what he intended: placing the wealth of the New Testament's words within reach of those who love them.",
+    "family_story": "W.E. Vine was an English Bible teacher who spent his life helping ordinary Christians understand the New Testament more clearly.\n\nHis most famous book is Vine's Expository Dictionary of New Testament Words. It explains what the important Greek words in the New Testament really mean — because the New Testament was written in Greek, and sometimes a translation can't capture the full depth of the original.\n\nHe believed every Christian, not just scholars, deserved to understand what God's word actually said. Thousands of pastors and teachers all over the world still use his Dictionary today.\n\nHe showed that careful attention to Scripture is one of the most important ways we can serve the church — and that you don't have to be famous to leave something lasting.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "james-strong",
+    "name": "James Strong",
+    "born": 1822,
+    "born_approximate": false,
+    "died": 1894,
+    "nationality": "American",
+    "era": "19th Century",
+    "region": "North America",
+    "tradition": "Methodist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "Scripture",
+      "biblical scholarship"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/James_Strong_(biblical_scholar)",
+    "source_summary": "James Strong (1822–1894) was an American Methodist biblical scholar and professor of exegetical theology at Drew Theological Seminary, New Jersey. After more than thirty years of work with a team of scholars, he published Strong's Exhaustive Concordance of the Bible in 1890 — the most comprehensive concordance of the King James Bible ever compiled. The concordance cross-references every word with a Hebrew and Greek lexicon using a numbering system ('Strong's numbers') that remains the standard reference in biblical word study more than 130 years later.",
+    "adult_story": "James Strong was born in New York City in 1822. After studies in classics and theology he served for many years as professor of exegetical theology at Drew Theological Seminary in New Jersey, and as a Methodist churchman devoted to the careful study of Scripture.\n\nIn 1890, after more than thirty years of labour, he published his Exhaustive Concordance of the Bible. Every word in the King James Bible is indexed, and each entry is linked by number to its original Hebrew or Greek term in a companion lexicon. The work was compiled by hand, before computers — a feat of sustained scholarly patience by Strong and his team that took decades to complete.\n\nStrong's numbers, as they came to be known, became a standard reference tool that remains in daily use more than 130 years later. A preacher with no knowledge of biblical languages can look up any English word, find its number, and trace it back to its root in the original text — a doorway Strong spent his life building and leaving open.\n\nHe died in 1894. The Concordance outlasted him and is still published today, probably the most widely used Bible study reference in the English-speaking world.",
+    "family_story": "James Strong was an American professor who spent over thirty years building one of the most useful Bible study tools ever made.\n\nHis book — Strong's Exhaustive Concordance — lists every single word in the King James Bible, tells you exactly where to find it, and links it to the original Hebrew or Greek word it was translated from. He did it all by hand, with a team of helpers, with no computers.\n\nHis numbering system — Strong's numbers — is still used in Bible study apps and books today, more than 130 years later.\n\nHe showed that loving the Bible means being willing to work hard to understand it — and that careful, patient scholarship is its own kind of service to the church.",
+    "image": {
+      "file": "james-strong.jpg",
+      "prompt_used": "Photorealistic portrait of James Strong, American Methodist biblical scholar, circa 1870s-1880s, wearing dark Victorian suit, full beard, distinguished scholarly expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:James_Strong_theologian_-_Brady-Handy.jpg — Brady-Handy photograph, Library of Congress Prints and Photographs Division, public domain",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "alexander-cruden",
+    "name": "Alexander Cruden",
+    "born": 1699,
+    "born_approximate": false,
+    "died": 1770,
+    "nationality": "Scottish",
+    "era": "18th Century",
+    "region": "UK/Ireland",
+    "tradition": "Presbyterian",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "Scripture",
+      "prayer",
+      "faithfulness",
+      "biblical scholarship"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Cruden",
+    "source_summary": "Alexander Cruden (1699–1770) was a Scottish Presbyterian bookseller, proofreader, and biblical scholar who lived and worked in London. He compiled his Complete Concordance to the Holy Scriptures largely alone, publishing the first edition in 1737 — the first major concordance of the entire English Bible. He revised it twice more; the 1769 edition remains in print. Cruden experienced significant personal instability, including three commitments to private asylums, but was earnest in his Calvinist Presbyterian faith and devoted to making Scripture accessible to ordinary readers.",
+    "adult_story": "Alexander Cruden was born in Aberdeen in 1699, educated at Marischal College, and came to London in his twenties where he worked as a bookseller and proofreader. He was a committed Calvinist Presbyterian whose personal life was marked by grief, loneliness, and several breakdowns — episodes that led to his brief commitments to private asylums, events his enemies mocked and his friends mourned.\n\nIn 1737 he published the first edition of his Complete Concordance to the Holy Scriptures, having compiled it largely alone over years of painstaking work. It was the first major concordance of the entire English Bible: every significant word indexed by chapter and verse, so that any reader could locate any passage by a word they remembered. He dedicated it to Queen Caroline. He revised and expanded it in 1761 and 1769; the final edition remains in print.\n\nIn his later years he styled himself \"Alexander the Corrector\" and mounted a self-appointed campaign for national moral reform. He was eccentric, sometimes erratic — but he was earnest. He prayed over every page of his Concordance and regarded his life's work as a gift to the church.\n\nHis Concordance outlasted his eccentricities. For nearly three centuries it has been placing the words of Scripture within reach of those who need to find them.",
+    "family_story": "Alexander Cruden was a Scottish bookseller in London who spent years doing one of the most useful things anyone has ever done for Bible readers.\n\nHe compiled the first big concordance of the whole English Bible — a book that lists every important word in Scripture and tells you exactly where to find it. He did most of the work himself, alone, over many years.\n\nHis life had some very hard times — he struggled with his health and with loneliness, and people sometimes mocked him. But he kept working, because he believed God's word deserved to be findable by anyone.\n\nThe concordance he made — Cruden's Concordance — has been in print for nearly 300 years. Millions of people have used it to find the passages they needed.",
+    "image": {
+      "file": "alexander-cruden.jpg",
+      "prompt_used": "Photorealistic portrait of Alexander Cruden, Scottish Presbyterian biblical scholar and bookseller, circa 1740s, wearing 18th-century dark coat with white cravat, serious and earnest expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Page_14_illustration_(A_biographical_dictionary_of_eminent_Scotsmen,_vol_2).jpg — from A Biographical Dictionary of Eminent Scotsmen vol. 2, published before 1931, public domain in USA",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "robert-young",
+    "name": "Robert Young",
+    "born": 1822,
+    "born_approximate": false,
+    "died": 1888,
+    "nationality": "Scottish",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Free Church of Scotland",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "Scripture",
+      "missions",
+      "biblical scholarship"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Young_(biblical_scholar)",
+    "source_summary": "Robert Young (1822–1888) was a Scottish biblical scholar, printer, and missionary agent for the British and Foreign Bible Society who made repeated journeys to India to promote Scripture distribution. He is best known for Young's Analytical Concordance to the Bible (1879) and Young's Literal Translation of the Bible (1862). The Analytical Concordance distinguishes the specific Hebrew or Greek word underlying each English rendering; the Literal Translation preserves the grammatical structure of the originals as closely as English allows.",
+    "adult_story": "Robert Young was born in Edinburgh in 1822 and trained in oriental languages, becoming one of the most accomplished linguistic scholars of his generation. He worked as a printer and served as a missionary agent for the British and Foreign Bible Society, making repeated journeys to India to promote the distribution of Scripture.\n\nIn 1862 he published his Literal Translation of the Bible, in which he aimed to reproduce the grammatical structure of the original Hebrew and Greek as faithfully as English would allow. The result is a translation prized for word-study precision, used by those who want to look beneath the surface of more idiomatic versions.\n\nIn 1879 he published his Analytical Concordance to the Bible — a concordance that goes further than listing where a word appears. It identifies the specific Hebrew or Greek term underlying each English rendering, so a reader who finds the word \"love\" can discover whether the original is ahabah, agapē, philia, or chesed — four words with four distinct shades of meaning.\n\nYoung died in Edinburgh in 1888, having given the church two tools rooted in his conviction that God's inspired word rewards every careful effort of attention.",
+    "family_story": "Robert Young was a Scottish scholar who loved the Bible so much that he spent his life making it easier for others to understand.\n\nHe produced two important tools. The first was his Literal Translation of the Bible — an English translation that stays as close as possible to the original Hebrew and Greek, word by word. The second was his Analytical Concordance — a reference book that lists every word in the Bible and shows exactly which Hebrew or Greek word lies behind each English translation.\n\nHe also travelled to India many times to help get the Bible to people there.\n\nHe showed that you can serve the church by spending years quietly working with languages so that others can read God's word more clearly.",
+    "image": {
+      "file": "robert-young.jpg",
+      "prompt_used": "Photorealistic portrait of Robert Young, Scottish Free Church of Scotland biblical scholar and missionary agent, 19th century, wearing dark Victorian coat, earnest and scholarly expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Robert_Young_(Biblical_Scholar).png — from 7th edition of Young's Analytical Concordance to the Bible (1913), published before 1931, public domain in USA",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "joseph-henry-thayer",
+    "name": "Joseph Henry Thayer",
+    "born": 1828,
+    "born_approximate": false,
+    "died": 1901,
+    "nationality": "American",
+    "era": "19th Century",
+    "region": "North America",
+    "tradition": "Congregationalist",
+    "flagged": true,
+    "footnote": "Thayer began his career at Andover Theological Seminary, an evangelical institution, but in 1884 moved to Harvard Divinity School — by then a Unitarian institution. His later theology moved in a liberal progressive direction that departed from evangelical orthodoxy on key doctrines. His Greek-English Lexicon is widely consulted by evangelical scholars as a scholarly reference, but readers should be aware of his theological trajectory. This entry requires careful human review before publication.",
+    "topics": [
+      "Scripture",
+      "biblical scholarship"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Henry_Thayer",
+    "source_summary": "Joseph Henry Thayer (1828–1901) was an American New Testament scholar. A graduate of Harvard College and Andover Theological Seminary, he taught at Andover from 1864 until 1884, when he moved to Harvard Divinity School as Bussey Professor of New Testament Greek. In 1886 he published his Greek-English Lexicon of the New Testament — an English adaptation and expansion of Grimm's revision of Wilke's Clavis Novi Testamenti — which became the standard English-language lexicon for New Testament Greek study. His later associations with Harvard Divinity School and liberal theology represent a significant departure from his evangelical origins.",
+    "adult_story": "Joseph Henry Thayer was born in Boston in 1828 and studied at Harvard College and Andover Theological Seminary, where he was trained in New Testament Greek under conservative evangelical scholars. He was ordained as a Congregationalist minister and taught New Testament at Andover from 1864 until 1884.\n\nIn 1886 he published his Greek-English Lexicon of the New Testament — an English revision and expansion of Grimm's scholarly lexicon of the Greek New Testament. Thayer's Lexicon provides concise definitions and grammatical notes for every word in the New Testament, making the depth of continental European scholarship accessible in English for the first time at this level. For a generation it was the standard reference for English-speaking students of New Testament Greek.\n\nIn 1884 Thayer moved to Harvard Divinity School — by then a centre of Unitarian and liberal theology — where he served as Bussey Professor of New Testament Greek until his death in 1901. His theological associations in his later years departed significantly from the evangelical orthodoxy of his Andover years.\n\nHis Lexicon continues to be consulted by evangelical scholars as a philological reference. It is a tool whose scholarly value outlasted its author's theological drift — a reminder that good scholarship can serve the church even when the scholar himself moved away from its foundations.",
+    "family_story": "Joseph Henry Thayer was an American scholar who made a very useful book for Bible students — a Greek dictionary of the New Testament.\n\nThe New Testament was written in ancient Greek. Thayer's book explains what every Greek word means, so pastors and students can look up the exact meaning of the words Jesus and Paul used.\n\nFor many years it was the most important Greek dictionary for English-speaking Christians, and many still use it today.\n\nThayer started his career at a good evangelical seminary, but later moved to a more liberal university, and his theology drifted from the faith he was trained in.\n\nHis dictionary is a tool that has helped thousands study God's word — and good tools can serve the church even when the person who made them later lost their way.",
+    "image": {
+      "file": "joseph-henry-thayer.jpg",
+      "prompt_used": "Photorealistic portrait of Joseph Henry Thayer, American Congregationalist New Testament Greek scholar, circa 1890s, wearing dark academic suit, scholarly and dignified expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Joseph_Henry_Thayer.png — from Universities and their sons (1899), published before 1931, public domain in USA",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]
