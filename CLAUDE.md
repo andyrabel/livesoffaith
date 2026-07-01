@@ -391,10 +391,13 @@ Claude Code assists at each step when asked.
 
 **Default behaviour:** when asked to "add [Name]", Claude Code does the full
 pipeline without being asked separately for each step — source and download a
-reference image, generate the AI portrait (Step 5), and research and populate
-`memorials` — not just write the JSON skeleton with `"image": null` and
-`"memorials": []`. Only skip a step and leave it for later if no suitable
-reference image or memorial data can be found.
+reference image, generate the AI portrait (Step 6), research and populate
+`memorials`, and update cross-references (Step 4) — not just write the JSON
+skeleton with `"image": null` and `"memorials": []`. If no suitable public
+domain reference image can be found, do not stop the pipeline — leave
+`"image": null` and complete every other step (content, memorials,
+cross-references, sitemap) anyway. Image sourcing and portrait generation
+(Steps 2 and 6) can be revisited later once a reference image turns up.
 
 ### Step 1 — Decide and Vet
 1. Choose a person to add
@@ -424,7 +427,22 @@ Claude will:
 - Flag the entry if needed and explain why
 - **Update `sitemap.xml`** to include the new person's URL (run `python3 _build/generate_sitemap.py`)
 
-### Step 4 — Review Content
+### Step 4 — Update Cross-References
+Stories link to each other with the `[[Display Name|person-id]]` syntax (rendered
+by `storyToHtml()` in `js/app.js`), so a new person's arrival can affect existing
+pages as well as their own:
+1. Search the new person's `adult_story` and `family_story` for names of other
+   people who already exist in `people.json` (e.g. a mentor, convert, or
+   collaborator) and wrap those mentions in `[[Name|id]]` links
+2. Search existing people's `adult_story` and `family_story` text for plain-text
+   mentions of the new person's name and convert them to `[[Name|new-person-id]]`
+   links so older pages now point to the new one
+3. Only link a name the first time it's mentioned in a given story paragraph —
+   don't over-link
+4. Confirm existing `topics` shared with the new person still make sense (no
+   JSON change needed here, just a sanity check)
+
+### Step 5 — Review Content
 1. Read both stories carefully
 2. Check theological accuracy: does it point to Christ? Is the gospel thread clear?
 3. Check factual accuracy against the Wikipedia source
@@ -437,7 +455,7 @@ Claude will:
    - Rewrite any flagged passages, then re-check
 6. Request any changes from Claude Code before proceeding
 
-### Step 5 — Generate the AI Portrait
+### Step 6 — Generate the AI Portrait
 1. Place the approved reference image in `_build/sources/[person-id].jpg`
 2. Run the generation script:
    ```bash
@@ -449,8 +467,14 @@ Claude will:
    via `stamp_caption()`. The caption strip is part of the image itself — it
    travels with the file if copied or downloaded.
 3. Review the result in a browser — regenerate with `--force` if historically inaccurate
+4. If this step is being run in a later session to backfill a portrait for a
+   person originally added with `"image": null` (Steps 1–5, 7–10 already
+   committed and pushed), remember that `images/portraits/[person-id].jpg` is
+   a new untracked file — it must be `git add`ed alongside the updated
+   `data/people.json` when you commit this portrait, the same as Step 10 does
+   for a brand-new person
 
-### Step 6 — Update the JSON
+### Step 7 — Update the JSON
 Ask Claude Code to update the entry:
 > "Update [person-id] image: file=[person-id].jpg, prompt_image_source=[url]"
 
@@ -464,7 +488,7 @@ Or edit `data/people.json` directly:
 }
 ```
 
-### Step 7 — Mark as Reviewed
+### Step 8 — Mark as Reviewed
 Once you are satisfied with the content and image, set:
 ```json
 "review": {
@@ -475,14 +499,14 @@ Once you are satisfied with the content and image, set:
 ```
 The ✅ badge will then appear on the published page.
 
-### Step 8 — Update Sitemap
+### Step 9 — Update Sitemap
 Run the sitemap generator to add the new person and update `<lastmod>` dates:
 ```bash
 python3 _build/generate_sitemap.py
 ```
 This regenerates `sitemap.xml` from `data/people.json` automatically.
 
-### Step 9 — Commit and Push
+### Step 10 — Commit and Push
 ```bash
 git add data/people.json sitemap.xml images/portraits/[person-id].jpg
 git commit -m "Add [Name]"
