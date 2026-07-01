@@ -65,6 +65,65 @@
         <p>Physical memorials — gravestones, statues, plaques, and monuments — for the people profiled on this site. Use this to plan a heritage visit or a walking tour.</p>
       </section>
 
+      <section class="tour-planner" id="tour-planner" aria-label="Plan a memorial tour">
+        <h2 class="tour-planner__title">&#129517; Plan a Tour</h2>
+        <p class="tour-planner__intro">Pick a starting point, how you're getting around, and how much time you have. We'll suggest a route through nearby memorials — or build a prompt you can paste into your favourite AI chat for a richer itinerary.</p>
+
+        <div class="tour-planner__row">
+          <label for="tour-location" class="sr-only">Starting location</label>
+          <input type="text" id="tour-location" class="filter-input tour-location-input" placeholder="City or address, e.g. London, UK" autocomplete="off">
+          <button type="button" id="tour-locate-btn" class="btn btn-secondary">Find</button>
+          <button type="button" id="tour-geolocate-btn" class="btn btn-secondary">Use my location</button>
+        </div>
+
+        <div class="tour-planner__row">
+          <label for="tour-radius">Radius</label>
+          <select id="tour-radius" class="filter-select">
+            <option value="1">1 km</option>
+            <option value="2">2 km</option>
+            <option value="5" selected>5 km</option>
+            <option value="10">10 km</option>
+            <option value="25">25 km</option>
+            <option value="50">50 km</option>
+          </select>
+
+          <label for="tour-transport">Getting around</label>
+          <select id="tour-transport" class="filter-select">
+            <option value="walk" selected>Walking</option>
+            <option value="transit">Public transport</option>
+            <option value="drive">Driving</option>
+          </select>
+
+          <label for="tour-start">Start time</label>
+          <input type="time" id="tour-start" class="filter-input tour-time-input" value="09:00">
+
+          <label for="tour-duration">Duration</label>
+          <select id="tour-duration" class="filter-select">
+            <option value="1">1 hour</option>
+            <option value="2">2 hours</option>
+            <option value="3" selected>3 hours</option>
+            <option value="4">4 hours</option>
+            <option value="6">6 hours</option>
+            <option value="8">8 hours (full day)</option>
+          </select>
+        </div>
+
+        <div class="tour-planner__row">
+          <button type="button" id="tour-generate-btn" class="btn btn-primary">Generate Tour</button>
+          <button type="button" id="tour-clear-btn" class="btn btn-secondary" hidden>Clear Tour</button>
+        </div>
+
+        <p id="tour-status" class="tour-planner__status" aria-live="polite"></p>
+
+        <div id="tour-results" class="tour-results" hidden>
+          <div id="tour-summary" class="tour-summary"></div>
+          <ol id="tour-stop-list" class="tour-stop-list"></ol>
+          <div class="tour-results__actions">
+            <button type="button" id="tour-copy-prompt-btn" class="btn btn-copy">Copy AI Prompt</button>
+          </div>
+        </div>
+      </section>
+
       <section class="search-filter" aria-label="Search and filter memorials">
         <div class="search-row">
           <label for="map-search-input" class="sr-only">Search by name</label>

@@ -1100,6 +1100,7 @@ function initMapPage() {
   }
 
   applyMapFilters();
+  initTourPlanner();
 
   if (personId && markerClusterGroup.getLayers().length) {
     const layers = markerClusterGroup.getLayers();
@@ -1110,6 +1111,340 @@ function initMapPage() {
       const group = L.featureGroup(layers);
       leafletMap.fitBounds(group.getBounds().pad(0.3));
     }
+  }
+}
+
+// ============================================================
+// Tour Planner (map page)
+// ============================================================
+
+const TRANSPORT_SPEED_KMH = { walk: 4.5, transit: 16, drive: 28 };
+const TRANSPORT_DWELL_MIN = { walk: 12, transit: 12, drive: 10 };
+const TRANSPORT_STOP_OVERHEAD_MIN = { walk: 0, transit: 4, drive: 5 };
+const TRANSPORT_LABELS = { walk: 'on foot', transit: 'by public transport', drive: 'by car' };
+
+const tourState = {
+  center: null,
+  centerLabel: '',
+  route: null,
+  radiusKm: 5,
+  transport: 'walk',
+  startMinutes: 9 * 60,
+  durationHours: 3,
+};
+
+let tourLayerGroup = null;
+const tourMarkersByKey = new Map();
+
+function haversineKm(lat1, lng1, lat2, lng2) {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a = Math.sin(dLat / 2) ** 2 +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLng / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function formatClock(minutesOfDay) {
+  const total = ((Math.round(minutesOfDay) % 1440) + 1440) % 1440;
+  const h = Math.floor(total / 60);
+  const m = total % 60;
+  return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
+}
+
+function parseClockToMinutes(value, fallback) {
+  const m = /^(\d{1,2}):(\d{2})$/.exec(value || '');
+  if (!m) return fallback;
+  return parseInt(m[1], 10) * 60 + parseInt(m[2], 10);
+}
+
+async function geocodeLocation(query) {
+  const url = `https://nominatim.openstreetmap.org/search?format=json&limit=1&q=${encodeURIComponent(query)}`;
+  const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+  if (!res.ok) throw new Error('Geocoding service unavailable');
+  const results = await res.json();
+  if (!results.length) throw new Error(`Couldn't find "${query}"`);
+  return {
+    lat: parseFloat(results[0].lat),
+    lng: parseFloat(results[0].lon),
+    displayName: results[0].display_name,
+  };
+}
+
+function buildTourRoute({ center, radiusKm, transport, budgetMinutes }) {
+  const speed = TRANSPORT_SPEED_KMH[transport];
+  const dwell = TRANSPORT_DWELL_MIN[transport];
+  const overhead = TRANSPORT_STOP_OVERHEAD_MIN[transport];
+
+  const candidates = getAllMemorialEntries()
+    .filter(({ memorial }) => typeof memorial.lat === 'number' && typeof memorial.lng === 'number')
+    .map(entry => ({ ...entry, distFromCenter: haversineKm(center.lat, center.lng, entry.memorial.lat, entry.memorial.lng) }))
+    .filter(entry => entry.distFromCenter <= radiusKm);
+
+  const remaining = candidates.slice();
+  const stops = [];
+  let currentLat = center.lat;
+  let currentLng = center.lng;
+  let elapsedMinutes = 0;
+  let totalKm = 0;
+
+  while (remaining.length) {
+    let bestIdx = 0;
+    let bestDist = Infinity;
+    remaining.forEach((entry, i) => {
+      const d = haversineKm(currentLat, currentLng, entry.memorial.lat, entry.memorial.lng);
+      if (d < bestDist) { bestDist = d; bestIdx = i; }
+    });
+    const next = remaining[bestIdx];
+    const legMinutes = (bestDist / speed) * 60 + overhead;
+    const arrivalMinutes = elapsedMinutes + legMinutes;
+    const departureMinutes = arrivalMinutes + dwell;
+
+    if (stops.length > 0 && departureMinutes > budgetMinutes) break;
+
+    stops.push({ ...next, legKm: bestDist, legMinutes, arrivalMinutes, departureMinutes });
+    elapsedMinutes = departureMinutes;
+    totalKm += bestDist;
+    remaining.splice(bestIdx, 1);
+    currentLat = next.memorial.lat;
+    currentLng = next.memorial.lng;
+  }
+
+  return { stops, totalKm, totalMinutes: elapsedMinutes };
+}
+
+function setTourStatus(msg, isError) {
+  const el = document.getElementById('tour-status');
+  if (!el) return;
+  el.textContent = msg || '';
+  el.classList.toggle('tour-planner__status--error', Boolean(isError));
+}
+
+function numberedTourIcon(n) {
+  return L.divIcon({
+    className: 'tour-stop-icon',
+    html: `<span>${n}</span>`,
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+  });
+}
+
+function drawTourOnMap() {
+  if (!tourLayerGroup) return;
+  tourLayerGroup.clearLayers();
+  tourMarkersByKey.clear();
+
+  const { center, route } = tourState;
+  if (!center || !route || !route.stops.length) return;
+
+  const centerMarker = L.marker([center.lat, center.lng], {
+    icon: L.divIcon({ className: 'tour-center-icon', html: '<span>S</span>', iconSize: [26, 26], iconAnchor: [13, 13] }),
+  }).bindPopup(`<strong>Starting point</strong><br>${escapeHtml(tourState.centerLabel)}`);
+  tourLayerGroup.addLayer(centerMarker);
+
+  const latlngs = [[center.lat, center.lng]];
+  route.stops.forEach((stop, i) => {
+    const { person, memorial } = stop;
+    latlngs.push([memorial.lat, memorial.lng]);
+    const marker = L.marker([memorial.lat, memorial.lng], { icon: numberedTourIcon(i + 1) });
+    marker.bindPopup(`
+      <div class="map-popup">
+        <div class="map-popup-body">
+          <div class="map-popup-type">Stop ${i + 1} &middot; arrive ~${formatClock(tourState.startMinutes + stop.arrivalMinutes)}</div>
+          <h3 class="map-popup-name"><a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a></h3>
+          <div class="map-popup-memorial-name">${escapeHtml(memorial.name)}</div>
+          <div class="map-popup-address">${escapeHtml(memorial.address)}</div>
+        </div>
+      </div>
+    `);
+    tourLayerGroup.addLayer(marker);
+    tourMarkersByKey.set(`tour-${i}`, marker);
+  });
+
+  const polyline = L.polyline(latlngs, { color: '#a8832a', weight: 3, dashArray: '6,8' });
+  tourLayerGroup.addLayer(polyline);
+
+  leafletMap.fitBounds(polyline.getBounds().pad(0.2));
+}
+
+function renderTourResults() {
+  const resultsEl = document.getElementById('tour-results');
+  const summaryEl = document.getElementById('tour-summary');
+  const listEl = document.getElementById('tour-stop-list');
+  const clearBtn = document.getElementById('tour-clear-btn');
+  if (!resultsEl || !summaryEl || !listEl) return;
+
+  const { route, startMinutes } = tourState;
+
+  if (!route || !route.stops.length) {
+    resultsEl.hidden = true;
+    if (clearBtn) clearBtn.hidden = true;
+    return;
+  }
+
+  const finishClock = formatClock(startMinutes + route.totalMinutes);
+  const startClock = formatClock(startMinutes);
+  summaryEl.innerHTML = `<strong>${route.stops.length}</strong> ${route.stops.length === 1 ? 'stop' : 'stops'} &middot; ` +
+    `~${route.totalKm.toFixed(1)} km &middot; ${startClock} &rarr; ~${finishClock}`;
+
+  listEl.innerHTML = route.stops.map((stop, i) => {
+    const { person, memorial } = stop;
+    const imgSrc = person.image ? `images/portraits/${escapeHtml(person.image.file)}` : '';
+    const initials = escapeHtml(getInitials(person.name));
+    const portrait = person.image
+      ? `<img class="map-list-portrait" src="${imgSrc}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;map-list-portrait-placeholder&quot;>${initials}</div>'">`
+      : `<div class="map-list-portrait-placeholder">${initials}</div>`;
+    const arrival = formatClock(startMinutes + stop.arrivalMinutes);
+
+    return `
+      <li class="tour-stop-item">
+        <span class="tour-stop-number">${i + 1}</span>
+        ${portrait}
+        <div>
+          <div class="map-list-name"><a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a></div>
+          <div class="map-list-meta">${escapeHtml(memorialTypeLabel(memorial.type))} &middot; ${escapeHtml(memorial.name)}</div>
+          <div class="map-list-meta">${escapeHtml(memorial.address)}</div>
+          <div class="tour-stop-timing">Arrive ~${arrival} &middot; ${stop.legKm.toFixed(1)} km from previous stop</div>
+        </div>
+      </li>
+    `;
+  }).join('');
+
+  resultsEl.hidden = false;
+  if (clearBtn) clearBtn.hidden = false;
+}
+
+function buildTourPromptText() {
+  const { center, centerLabel, route, radiusKm, transport, startMinutes, durationHours } = tourState;
+  if (!center || !route || !route.stops.length) return '';
+
+  const transportLabel = TRANSPORT_LABELS[transport];
+  const lines = [];
+  lines.push(`I'm planning a Christian heritage tour ${transportLabel} near ${centerLabel}, starting at ${formatClock(startMinutes)} for about ${durationHours} hour${durationHours === 1 ? '' : 's'}, within roughly ${radiusKm} km.`);
+  lines.push('');
+  lines.push('Here are the memorials, in a suggested visiting order (nearest-neighbour route). Please suggest a refined order if there is a better one, a short narrative connecting each stop to their faith and legacy, and any practical notes (opening hours to check, etc.):');
+  lines.push('');
+  route.stops.forEach((stop, i) => {
+    const { person, memorial } = stop;
+    lines.push(`${i + 1}. ${memorial.name} (${memorialTypeLabel(memorial.type)}) — ${person.name} (${formatYears(person)}) — ${memorial.address}`);
+    const bio = person.source_summary ? truncateSummary(person.source_summary, 140) : `${person.nationality} ${person.tradition}.`;
+    lines.push(`   ${bio}`);
+  });
+  lines.push('');
+  lines.push(`Starting point: ${centerLabel}`);
+  lines.push(`Transport: ${transportLabel}. Time budget: ${durationHours} hour(s) from ${formatClock(startMinutes)}.`);
+
+  return lines.join('\n');
+}
+
+function generateTour() {
+  if (!tourState.center) {
+    setTourStatus('Please set a starting location first — search for one or use your location.', true);
+    return;
+  }
+
+  const radiusSel = document.getElementById('tour-radius');
+  const transportSel = document.getElementById('tour-transport');
+  const startInput = document.getElementById('tour-start');
+  const durationSel = document.getElementById('tour-duration');
+
+  tourState.radiusKm = radiusSel ? parseFloat(radiusSel.value) : 5;
+  tourState.transport = transportSel ? transportSel.value : 'walk';
+  tourState.startMinutes = parseClockToMinutes(startInput ? startInput.value : '', 9 * 60);
+  tourState.durationHours = durationSel ? parseFloat(durationSel.value) : 3;
+
+  const route = buildTourRoute({
+    center: tourState.center,
+    radiusKm: tourState.radiusKm,
+    transport: tourState.transport,
+    budgetMinutes: tourState.durationHours * 60,
+  });
+
+  tourState.route = route;
+
+  if (!route.stops.length) {
+    setTourStatus(`No memorials found within ${tourState.radiusKm} km of ${tourState.centerLabel}. Try a larger radius.`, true);
+    renderTourResults();
+    drawTourOnMap();
+    return;
+  }
+
+  setTourStatus(`Found ${route.stops.length} ${route.stops.length === 1 ? 'memorial' : 'memorials'} near ${tourState.centerLabel}.`);
+  renderTourResults();
+  drawTourOnMap();
+}
+
+function clearTour() {
+  tourState.route = null;
+  setTourStatus('');
+  renderTourResults();
+  drawTourOnMap();
+}
+
+function initTourPlanner() {
+  if (!document.getElementById('tour-planner')) return;
+
+  tourLayerGroup = L.layerGroup().addTo(leafletMap);
+
+  const locationInput = document.getElementById('tour-location');
+  const locateBtn = document.getElementById('tour-locate-btn');
+  const geolocateBtn = document.getElementById('tour-geolocate-btn');
+  const generateBtn = document.getElementById('tour-generate-btn');
+  const clearBtn = document.getElementById('tour-clear-btn');
+  const copyPromptBtn = document.getElementById('tour-copy-prompt-btn');
+
+  async function doLocate() {
+    const query = locationInput ? locationInput.value.trim() : '';
+    if (!query) {
+      setTourStatus('Type a city or address to search for.', true);
+      return;
+    }
+    setTourStatus('Searching…');
+    try {
+      const result = await geocodeLocation(query);
+      tourState.center = { lat: result.lat, lng: result.lng };
+      tourState.centerLabel = result.displayName.split(',').slice(0, 3).join(',');
+      setTourStatus(`Starting point set: ${tourState.centerLabel}`);
+    } catch (err) {
+      setTourStatus(err.message || 'Could not find that location.', true);
+    }
+  }
+
+  if (locateBtn) locateBtn.addEventListener('click', doLocate);
+  if (locationInput) {
+    locationInput.addEventListener('keydown', e => {
+      if (e.key === 'Enter') { e.preventDefault(); doLocate(); }
+    });
+  }
+
+  if (geolocateBtn) {
+    geolocateBtn.addEventListener('click', () => {
+      if (!navigator.geolocation) {
+        setTourStatus('Geolocation is not available in this browser.', true);
+        return;
+      }
+      setTourStatus('Getting your location…');
+      navigator.geolocation.getCurrentPosition(
+        pos => {
+          tourState.center = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+          tourState.centerLabel = 'your current location';
+          if (locationInput) locationInput.value = '';
+          setTourStatus('Starting point set to your current location.');
+        },
+        err => setTourStatus(`Could not get your location: ${err.message}`, true)
+      );
+    });
+  }
+
+  if (generateBtn) generateBtn.addEventListener('click', generateTour);
+  if (clearBtn) clearBtn.addEventListener('click', clearTour);
+
+  if (copyPromptBtn) {
+    copyPromptBtn.addEventListener('click', () => {
+      const text = buildTourPromptText();
+      if (!text) return;
+      copyText(text, copyPromptBtn, 'Prompt copied!');
+    });
   }
 }
 
