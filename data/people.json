@@ -3548,5 +3548,44 @@
       "reviewed_by": "",
       "reviewed_date": ""
     }
+  },
+  {
+    "id": "charlotte-elliott",
+    "name": "Charlotte Elliott",
+    "born": 1789,
+    "born_approximate": false,
+    "died": 1871,
+    "nationality": "English",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Anglican evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": ["hymns", "grace", "suffering", "perseverance", "faith"],
+    "hymns": ["Just As I Am, Without One Plea", "My God and Father While I Stray"],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Charlotte_Elliott",
+    "source_summary": "Charlotte Elliott (1789–1871) was an English evangelical Anglican hymn writer born in Brighton, granddaughter of Henry Venn of the Clapham Sect. After a spiritually empty early life she came to faith in 1822 through Swiss evangelist César Malan, who told her to 'come just as you are.' From 1829 she suffered chronic illness and spent most of her life confined to her room, yet edited The Invalid's Hymn Book and wrote approximately 150 hymns. Her most famous, 'Just As I Am, Without One Plea' (1836), became the defining invitation hymn of evangelical crusades and was used by Billy Graham at virtually every meeting he ever led.",
+    "adult_story": "Charlotte Elliott was born in Brighton in 1789, granddaughter of Henry Venn of the Clapham Sect and raised among evangelical believers. For her first thirty years she lived a cultured but spiritually empty life. A serious illness in 1821 unsettled her, and in May 1822 a Swiss evangelist named César Malan visited her father's home and asked whether she had made her peace with God. Elliott resented the question — but it would not leave her. Days later she sought Malan out. When she asked how to come to Christ, he said simply: “Come just as you are.” She trusted Christ that day, marking 9 May 1822 as the birthday of her soul.\n\nFrom 1829 Charlotte suffered chronic illness that largely confined her to her room for decades. She might have become bitter; instead she edited The Invalid's Hymn Book and wrote some 150 hymns — most anonymously — convinced that a bedridden saint could still serve Christ through words. In 1836 she wrote ‘Just As I Am, Without One Plea.’ Its stanzas strip away every human condition for approaching God and rest the soul entirely on the blood of Christ. Hymnologist Kenneth Osbeck called it the hymn that had “touched more hearts and influenced more people for Christ than any other song.” Billy Graham used it at virtually every evangelistic crusade he ever led.\n\nCharlotte Elliott brought nothing to God but her need. That was exactly what the gospel had always asked.",
+    "family_story": "Charlotte Elliott grew up in Brighton, England, but didn't trust Jesus herself. When she was thirty-two, a pastor named César Malan asked her: “Have you made your peace with God?” Charlotte was upset at first — but the question wouldn't leave her. When she went back and asked how to come to God, he said: “Just come as you are.” She believed in Jesus that day.\n\nLater, Charlotte became very ill and spent most of her life in bed. Instead of giving up, she wrote hymns. Her most famous is ‘Just As I Am’ — a song about coming to Jesus with nothing to offer but your need. Billy Graham used it to invite people to trust Christ at every meeting he ever led.",
+    "image": {
+      "file": "charlotte-elliott.jpg",
+      "prompt_used": "Photorealistic portrait of Charlotte Elliott, English evangelical Anglican hymn writer, mid-19th century, wearing simple Victorian dark dress with white lace collar, gentle and thoughtful expression, soft indoor lighting, historically accurate to 1840s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Charlotte_Elliott,_portrait.jpg — public domain, Baylor University Digital Collections; unknown date portrait photograph",
+      "caption": "AI-generated image — no copyright claimed"
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Charlotte Elliott — St Andrew's Church, Hove",
+        "address": "St Andrew's Church, Church Road, Hove, East Sussex BN3 2AG, England",
+        "lat": 50.8286,
+        "lng": -0.1750
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]
