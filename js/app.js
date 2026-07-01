@@ -1286,7 +1286,7 @@ function focusMapOnTourCenter(zoom = 13) {
   }
 
   leafletMap.setView([tourState.center.lat, tourState.center.lng], zoom);
-  document.getElementById('memorial-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  document.getElementById('tour-planner').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function drawTourOnMap() {
