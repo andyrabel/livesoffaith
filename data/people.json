@@ -96,6 +96,20 @@
         "address": "St Mary Woolnoth, Lombard Street, City of London, EC3V 9AN, England",
         "lat": 51.5126,
         "lng": -0.0878
+      },
+      {
+        "type": "church",
+        "name": "Church of Saints Peter and Paul, Olney — Newton's curacy 1764–1780",
+        "address": "Market Place, Olney, Buckinghamshire, MK46 4EA, England",
+        "lat": 52.1497,
+        "lng": -0.7009
+      },
+      {
+        "type": "church",
+        "name": "St Mary Woolnoth — Newton's rectory 1780–1807",
+        "address": "Lombard Street, City of London, EC3V 9AN, England",
+        "lat": 51.5126,
+        "lng": -0.0878
       }
     ]
   },
@@ -450,6 +464,13 @@
         "address": "79a Tottenham Court Road, London, W1T 4TD, England",
         "lat": 51.5192,
         "lng": -0.1347
+      },
+      {
+        "type": "church",
+        "name": "St Andrew's Church, Broadhembury — Toplady's vicarage 1768–1778",
+        "address": "Broadhembury, Devon, EX14 3NG, England",
+        "lat": 50.8348,
+        "lng": -3.2769
       }
     ]
   },
@@ -568,6 +589,13 @@
         "address": "Canongate Kirkyard, 153 Canongate, Edinburgh, EH8 8BN, Scotland",
         "lat": 55.9518,
         "lng": -3.1796
+      },
+      {
+        "type": "church",
+        "name": "Chalmers Memorial Free Church (now St Catherine's Argyle) — Bonar's founding pastorate from 1866",
+        "address": "61-63 Grange Road, Edinburgh, EH9 1TY, Scotland",
+        "lat": 55.9296,
+        "lng": -3.1874
       }
     ]
   },
@@ -1343,6 +1371,13 @@
         "address": "Khash Bagan, Brojo Dutta Lane, Serampore 712201, West Bengal, India",
         "lat": 22.7474,
         "lng": 88.3441
+      },
+      {
+        "type": "church",
+        "name": "Carey Baptist Church, Moulton — Carey's pastorate 1785–1789",
+        "address": "34 West Street, Moulton, Northampton, NN3 7SB, England",
+        "lat": 52.283,
+        "lng": -0.8393
       }
     ]
   },
@@ -2664,6 +2699,13 @@
         "address": "Marktplatz, 06886 Lutherstadt Wittenberg, Germany",
         "lat": 51.866,
         "lng": 12.643
+      },
+      {
+        "type": "church",
+        "name": "Stadtkirche St. Marien, Wittenberg — Luther's preaching church from 1512",
+        "address": "Kirchplatz 20, 06886 Lutherstadt Wittenberg, Germany",
+        "lat": 51.8663,
+        "lng": 12.6465
       }
     ]
   },
@@ -2717,6 +2759,13 @@
         "address": "Parc des Bastions, Promenade des Bastions, 1204 Geneva, Switzerland",
         "lat": 46.2003,
         "lng": 6.1458
+      },
+      {
+        "type": "church",
+        "name": "Cathédrale Saint-Pierre, Geneva — Calvin's pulpit 1541–1564",
+        "address": "Cour de Saint-Pierre 8, 1204 Geneva, Switzerland",
+        "lat": 46.2011,
+        "lng": 6.1486
       }
     ]
   },
@@ -2905,6 +2954,13 @@
         "address": "4 St Peter Street, Dundee DD1 4JJ, Scotland",
         "lat": 56.4562,
         "lng": -2.9904
+      },
+      {
+        "type": "church",
+        "name": "St Peter's Free Church, Dundee — M'Cheyne's pastorate from 1836",
+        "address": "4 St Peter Street, Dundee, DD1 4JJ, Scotland",
+        "lat": 56.4562,
+        "lng": -2.9904
       }
     ]
   },
@@ -2963,6 +3019,13 @@
         "address": "Tokat Museum, Tokat Merkez, Tokat, Turkey",
         "lat": 40.314,
         "lng": 36.554
+      },
+      {
+        "type": "church",
+        "name": "Holy Trinity Church, Cambridge — Martyn's curacy under Charles Simeon",
+        "address": "Market Street, Cambridge, CB2 3NZ, England",
+        "lat": 52.2062,
+        "lng": 0.1198
       }
     ],
     "related_people": [
