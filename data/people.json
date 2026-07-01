@@ -1414,7 +1414,7 @@
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_Norris_Groves",
     "source_summary": "Anthony Norris Groves (1795–1853) was an English Protestant missionary, dentist, and a founding figure of the Plymouth Brethren movement, called the father of faith missions for pioneering independent, non-denominational missionary work. In 1825 he wrote Christian Devotedness, arguing for radical Christian stewardship. He went to Baghdad as an independent faith missionary in 1829, where his wife and children died of illness. He later worked in India until his death in 1853. His brother-in-law George Müller was deeply influenced by his example.",
-    "adult_story": "Anthony Norris Groves (1795–1853) was an English dentist with a thriving practice who, in his late twenties, began to ask what total surrender to Christ meant in practice. In 1825 he wrote Christian Devotedness, arguing from the Sermon on the Mount that Christians should hold wealth loosely and trust God for provision. His brother-in-law [[George Müller|george-muller]] read it, and it reshaped the direction of his life.\n\nGroves gave up his dental practice and offered himself to the Church Missionary Society for Baghdad, but concluded he could not in good conscience be ordained under any denomination's authority. He went anyway — one of the first independent faith missionaries in Protestant history. In Baghdad from 1829, he faced catastrophe: plague, war, and famine. His wife Mary died in 1831; two of his children died. He then worked in India for a further seventeen years until his death in 1853.\n\nGroves is called the father of faith missions — not for the scale of his results, but for what he demonstrated: that it was possible to go without institutional salary, trusting God for daily provision. Hudson Taylor, a generation later, shaped the China Inland Mission on this principle. Groves's life was shadowed by loss. He did not interpret that as God's desertion. He had cast himself entirely on God — and the casting did not make suffering lighter, but it made it bearable.",
+    "adult_story": "Anthony Norris Groves (1795–1853) was an English dentist with a thriving practice who, in his late twenties, began to ask what total surrender to Christ meant in practice. In 1825 he wrote Christian Devotedness, arguing from the Sermon on the Mount that Christians should hold wealth loosely and trust God for provision. His brother-in-law [[George Müller|george-muller]] read it, and it reshaped the direction of his life.\n\nGroves gave up his dental practice and offered himself to the Church Missionary Society for Baghdad, but concluded he could not in good conscience be ordained under any denomination's authority. He went anyway — one of the first independent faith missionaries in Protestant history. In Baghdad from 1829, he faced catastrophe: plague, war, and famine. His wife Mary died in 1831; two of his children died. He then worked in India for a further seventeen years until his death in 1853.\n\nGroves is called the father of faith missions — not for the scale of his results, but for what he demonstrated: that it was possible to go without institutional salary, trusting God for daily provision. [[Hudson Taylor|hudson-taylor]], a generation later, shaped the China Inland Mission on this principle. Groves's life was shadowed by loss. He did not interpret that as God's desertion. He had cast himself entirely on God — and the casting did not make suffering lighter, but it made it bearable.",
     "family_story": "Anthony Norris Groves was a dentist in England who decided to give everything to God.\n\nHe gave up his well-paid job and sailed to Baghdad — a dangerous city — to tell people about Jesus, with no organisation to support him and no guaranteed income.\n\nWhen he got there, terrible things happened. His wife died. Two of his children died. Everything seemed to go wrong. But Anthony did not give up. He later went to India and served there for many more years.\n\n[[George Müller|george-muller]] — who trusted God to feed thousands of orphans — was inspired by Anthony's example. Sometimes faithfulness means staying when everything is falling apart.",
     "image": {
       "file": "anthony-norris-groves.jpg",
@@ -1435,6 +1435,9 @@
         "lat": 51.4424,
         "lng": -2.5649
       }
+    ],
+    "related_people": [
+      "hudson-taylor"
     ]
   },
   {
@@ -2790,8 +2793,8 @@
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Cleaver_Chapman",
     "source_summary": "Robert Cleaver Chapman (1803–1902) was a British Open Brethren minister who served in Barnstaple, Devon for seventy years. Born in Elsinore, Denmark, to an English family, he gave up a legal career to enter ministry. A close associate of George Müller and Anthony Norris Groves, he was celebrated for extraordinary love, open-handed hospitality, and global missionary correspondence. Müller described him as the saintliest man he ever knew. Chapman lived to the age of 99.",
-    "adult_story": "Robert Cleaver Chapman was born in 1803 in Elsinore, Denmark, to an English merchant family. Converted in his early twenties, he trained as a solicitor, gave up a promising legal career, and in 1832 settled in Barnstaple, Devon, where he would minister for the next seventy years.\n\nHe became associated with the Open Brethren and was known across the evangelical world for a rare combination of doctrinal solidity and extraordinary love. George Müller, who knew him well, called him \"the saintliest man I ever knew.\" Men travelled to Barnstaple simply to observe how he lived. His home was open to all — he fed the hungry, housed the homeless, and corresponded with missionaries across the globe.\n\nChapman lived to 99 and never retired from ministry. He was a poet, an evangelist, and a letter-writer whose counsel was sought by leaders across denominations. His maxim was that love is the greatest apologetic: \"Let your life preach, then let your lips, if necessary, also speak.\"\n\nHis life pointed to the grace that produces unhurried, unboastful, enduring love — not a love manufactured by duty, but one rooted in a sight of Christ he had been cultivating for eight decades.",
-    "family_story": "Robert Chapman gave up being a lawyer to serve God in a small town in Devon, England. For seventy years he preached, prayed, fed the hungry, and helped the poor. George Müller — who himself trusted God to feed thousands of orphans — said Robert was the most Christ-like man he had ever met.\n\nRobert lived to be 99, always learning, always loving. He believed the best way to tell people about Jesus was simply to live like Jesus — and so he did, one quiet day at a time.",
+    "adult_story": "Robert Cleaver Chapman was born in 1803 in Elsinore, Denmark, to an English merchant family. Converted in his early twenties, he trained as a solicitor, gave up a promising legal career, and in 1832 settled in Barnstaple, Devon, where he would minister for the next seventy years.\n\nHe became associated with the Open Brethren and was known across the evangelical world for a rare combination of doctrinal solidity and extraordinary love. [[George Müller|george-muller]], who knew him well, called him \"the saintliest man I ever knew.\" Men travelled to Barnstaple simply to observe how he lived. His home was open to all — he fed the hungry, housed the homeless, and corresponded with missionaries across the globe.\n\nChapman lived to 99 and never retired from ministry. He was a poet, an evangelist, and a letter-writer whose counsel was sought by leaders across denominations. His maxim was that love is the greatest apologetic: \"Let your life preach, then let your lips, if necessary, also speak.\"\n\nHis life pointed to the grace that produces unhurried, unboastful, enduring love — not a love manufactured by duty, but one rooted in a sight of Christ he had been cultivating for eight decades.",
+    "family_story": "Robert Chapman gave up being a lawyer to serve God in a small town in Devon, England. For seventy years he preached, prayed, fed the hungry, and helped the poor. [[George Müller|george-muller]] — who himself trusted God to feed thousands of orphans — said Robert was the most Christ-like man he had ever met.\n\nRobert lived to be 99, always learning, always loving. He believed the best way to tell people about Jesus was simply to live like Jesus — and so he did, one quiet day at a time.",
     "image": null,
     "review": {
       "human_reviewed": false,
@@ -2806,6 +2809,9 @@
         "lat": 51.08385,
         "lng": -4.04895
       }
+    ],
+    "related_people": [
+      "george-muller"
     ]
   },
   {
@@ -2829,7 +2835,7 @@
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/John_Nelson_Darby",
     "source_summary": "John Nelson Darby (1800–1882) was an Irish-born Christian leader who became a principal founder of the Plymouth Brethren movement and the originator of dispensationalism. Trained as a lawyer and briefly ordained in the Church of Ireland, he resigned his orders in 1828 and gathered believers around Scripture and the Lord's Table without clergy. He travelled ceaselessly through Britain, Europe, North America, and New Zealand, planting assemblies and translating the Bible into English, French, and German. His separatist ecclesiology caused a permanent split between the Open and Exclusive Brethren in 1848.",
-    "adult_story": "John Nelson Darby was born in London in 1800 and raised in Ireland. Trained as a lawyer, he was ordained in the Church of Ireland, then resigned his orders in 1828 — convinced that the institutional church had departed from New Testament patterns.\n\nHe became a key figure in the early Plymouth Brethren, gathering believers around Scripture and the Lord's Table without clergy or fixed liturgy. He travelled ceaselessly — Britain, France, Germany, North America, New Zealand — preaching and planting assemblies. His translations of the Bible into English, French, and German remain in use today.\n\nDarby developed what became known as dispensationalist theology — a structured reading of biblical history that shaped much of later evangelical eschatology, particularly in North America. He believed Scripture was the church's only authority and that Christ's return was imminent.\n\nHis conviction that all denominations were irreparably corrupted led to painful divisions, including a rupture with George Müller and the Open Brethren in 1848. His legacy is contested, but his devotion to Scripture and his missionary energy were genuine. He died in 1882 having translated the Bible into three languages and planted churches across the world.",
+    "adult_story": "John Nelson Darby was born in London in 1800 and raised in Ireland. Trained as a lawyer, he was ordained in the Church of Ireland, then resigned his orders in 1828 — convinced that the institutional church had departed from New Testament patterns.\n\nHe became a key figure in the early Plymouth Brethren, gathering believers around Scripture and the Lord's Table without clergy or fixed liturgy. He travelled ceaselessly — Britain, France, Germany, North America, New Zealand — preaching and planting assemblies. His translations of the Bible into English, French, and German remain in use today.\n\nDarby developed what became known as dispensationalist theology — a structured reading of biblical history that shaped much of later evangelical eschatology, particularly in North America. He believed Scripture was the church's only authority and that Christ's return was imminent.\n\nHis conviction that all denominations were irreparably corrupted led to painful divisions, including a rupture with [[George Müller|george-muller]] and the Open Brethren in 1848. His legacy is contested, but his devotion to Scripture and his missionary energy were genuine. He died in 1882 having translated the Bible into three languages and planted churches across the world.",
     "family_story": "John Darby was an Irish lawyer who gave up his career to preach the Bible. He believed churches should be simple — no special clergy, just believers gathered around Scripture and the Lord's Supper, just as in the New Testament.\n\nHe spent his whole life travelling — to England, France, Germany, and across the Atlantic — starting small churches and teaching the Bible. He even translated the Bible into three different languages.\n\nJohn had strong views that sometimes caused disagreements, but his love for the Bible and his belief that Jesus was coming soon drove him to work tirelessly for the gospel until he died at 82.",
     "image": {
       "file": "john-nelson-darby.jpg",
@@ -2850,6 +2856,9 @@
         "lat": 50.73229,
         "lng": -1.87403
       }
+    ],
+    "related_people": [
+      "george-muller"
     ]
   },
   {
@@ -2920,7 +2929,7 @@
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Martyn",
     "source_summary": "Henry Martyn (1781–1812) was a British Anglican missionary and Bible translator. Senior Wrangler at Cambridge in 1801, he sailed to India as a chaplain of the East India Company in 1805. He translated the New Testament into Urdu, supervised translations into Persian and Arabic, and travelled to Persia to revise the Persian text. He died of tuberculosis in Tocat, Turkey, in 1812, aged 31, while attempting to return home. He had given the New Testament to three language groups.",
-    "adult_story": "Henry Martyn was born in Truro, Cornwall, in 1781. He was a brilliant scholar — Senior Wrangler at Cambridge in 1801, the highest mathematical distinction of his generation — whose ambitions for academic fame were overturned by conversion and the example of William Carey.\n\nOrdained and appointed as a chaplain of the East India Company, he sailed for India in 1805. He learned Urdu, Persian, and Arabic and threw himself into Bible translation. He completed a New Testament in Urdu (1809), supervised Persian and Arabic translations, and travelled to Persia for the sake of a revised Persian text — debating Islamic scholars in Shiraz on the claims of Christ.\n\nHis journals record a relentless conflict between spiritual longing and physical collapse. He suffered from tuberculosis throughout his missionary years and died in Tocat, Turkey, in 1812, aged 31, while attempting to return home.\n\n\"I cannot find it in my heart to grieve,\" he wrote, \"for what Christ thinks worth dying for.\" He had given the New Testament to three language groups. His life was brief; his fruit enduring.",
+    "adult_story": "Henry Martyn was born in Truro, Cornwall, in 1781. He was a brilliant scholar — Senior Wrangler at Cambridge in 1801, the highest mathematical distinction of his generation — whose ambitions for academic fame were overturned by conversion and the example of [[William Carey|william-carey]].\n\nOrdained and appointed as a chaplain of the East India Company, he sailed for India in 1805. He learned Urdu, Persian, and Arabic and threw himself into Bible translation. He completed a New Testament in Urdu (1809), supervised Persian and Arabic translations, and travelled to Persia for the sake of a revised Persian text — debating Islamic scholars in Shiraz on the claims of Christ.\n\nHis journals record a relentless conflict between spiritual longing and physical collapse. He suffered from tuberculosis throughout his missionary years and died in Tocat, Turkey, in 1812, aged 31, while attempting to return home.\n\n\"I cannot find it in my heart to grieve,\" he wrote, \"for what Christ thinks worth dying for.\" He had given the New Testament to three language groups. His life was brief; his fruit enduring.",
     "family_story": "Henry Martyn was one of the cleverest young men in all of England — a top student at Cambridge University. But after he became a Christian, he decided to use that mind for God, not for a comfortable career.\n\nHe sailed to India and then Persia, learning difficult languages so he could translate the Bible into Urdu, Persian, and Arabic — languages that millions of people spoke.\n\nHenry was often very ill, but he kept working. He died at just 31, far from home, still trying to bring God's word to people who had never heard it. He had given three whole peoples the New Testament in their own language.",
     "image": {
       "file": "henry-martyn.jpg",
@@ -2955,6 +2964,9 @@
         "lat": 40.314,
         "lng": 36.554
       }
+    ],
+    "related_people": [
+      "william-carey"
     ]
   },
   {
@@ -3085,6 +3097,9 @@
         "lat": 31.3373,
         "lng": 118.3735
       }
+    ],
+    "related_people": [
+      "betty-stam"
     ]
   },
   {
@@ -3109,8 +3124,8 @@
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/John_and_Betty_Stam",
     "source_summary": "Betty Scott Stam (1906–1934) was an American missionary with the China Inland Mission, born in Tsingtao (Qingdao), China, to missionary parents. She married John Stam in 1933. Captured by Communist soldiers in Anhui province in December 1934, she and John were beheaded on 8 December 1934; their infant daughter Helen Priscilla survived. Her pre-field prayer of total surrender to God's will became one of the most quoted missionary testimonies of the twentieth century. She was 28 years old.",
-    "adult_story": "Betty Scott Stam was born in 1906 in Tsingtao (Qingdao), China, where her parents served as missionaries. She grew up bilingual in English and Chinese, graduated from Wilson College in Pennsylvania, and sailed back to China with the China Inland Mission in 1931. She married John Stam in 1933.\n\nShe had made her commitment clear before she went. As a student she had written: \"Lord, I give up all my own plans and purposes, all my own desires and hopes, and accept Thy will for my life.\" Her letters from China showed a woman of steady faith, warm humour, and clear theological depth.\n\nIn December 1934 she and John were captured by Communist soldiers in Anhui province with their two-month-old daughter Helen Priscilla. On 8 December they were beheaded. Their baby was found alive.\n\nBetty was 28. She and John had served in China for little more than a year as a married couple. Yet the account of their death, published immediately and distributed worldwide, became one of the most powerful missionary testimonies of the twentieth century — not because it ended in victory by human measure, but because it showed two young lives held loosely, offered freely, and not found wanting when the moment came.",
-    "family_story": "Betty Stam grew up in China, the daughter of missionaries, and went back as a missionary herself. She married John Stam, and they had a baby girl named Helen.\n\nWhen soldiers arrested them, Betty was not surprised. She had written years before: \"Lord, I give up all my own plans and accept Thy will for my life.\"\n\nBetty and John were killed for their faith. Their baby daughter was found safe. Betty was only 28.\n\nHer story showed that real faith is not just words we say, but a life we hand over to Jesus — and she had handed hers over long before the soldiers came.",
+    "adult_story": "Betty Scott Stam was born in 1906 in Tsingtao (Qingdao), China, where her parents served as missionaries. She grew up bilingual in English and Chinese, graduated from Wilson College in Pennsylvania, and sailed back to China with the China Inland Mission in 1931. She married [[John Stam|john-stam]] in 1933.\n\nShe had made her commitment clear before she went. As a student she had written: \"Lord, I give up all my own plans and purposes, all my own desires and hopes, and accept Thy will for my life.\" Her letters from China showed a woman of steady faith, warm humour, and clear theological depth.\n\nIn December 1934 she and John were captured by Communist soldiers in Anhui province with their two-month-old daughter Helen Priscilla. On 8 December they were beheaded. Their baby was found alive.\n\nBetty was 28. She and John had served in China for little more than a year as a married couple. Yet the account of their death, published immediately and distributed worldwide, became one of the most powerful missionary testimonies of the twentieth century — not because it ended in victory by human measure, but because it showed two young lives held loosely, offered freely, and not found wanting when the moment came.",
+    "family_story": "Betty Stam grew up in China, the daughter of missionaries, and went back as a missionary herself. She married [[John Stam|john-stam]], and they had a baby girl named Helen.\n\nWhen soldiers arrested them, Betty was not surprised. She had written years before: \"Lord, I give up all my own plans and accept Thy will for my life.\"\n\nBetty and John were killed for their faith. Their baby daughter was found safe. Betty was only 28.\n\nHer story showed that real faith is not just words we say, but a life we hand over to Jesus — and she had handed hers over long before the soldiers came.",
     "image": null,
     "review": {
       "human_reviewed": false,
@@ -3125,6 +3140,9 @@
         "lat": 31.3373,
         "lng": 118.3735
       }
+    ],
+    "related_people": [
+      "john-stam"
     ]
   },
   {
@@ -3561,12 +3579,21 @@
     "tradition": "Anglican evangelical",
     "flagged": false,
     "footnote": "",
-    "topics": ["hymns", "grace", "suffering", "perseverance", "faith"],
-    "hymns": ["Just As I Am, Without One Plea", "My God and Father While I Stray"],
+    "topics": [
+      "hymns",
+      "grace",
+      "suffering",
+      "perseverance",
+      "faith"
+    ],
+    "hymns": [
+      "Just As I Am, Without One Plea",
+      "My God and Father While I Stray"
+    ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Charlotte_Elliott",
     "source_summary": "Charlotte Elliott (1789–1871) was an English evangelical Anglican hymn writer born in Brighton, granddaughter of Henry Venn of the Clapham Sect. After a spiritually empty early life she came to faith in 1822 through Swiss evangelist César Malan, who told her to 'come just as you are.' From 1829 she suffered chronic illness and spent most of her life confined to her room, yet edited The Invalid's Hymn Book and wrote approximately 150 hymns. Her most famous, 'Just As I Am, Without One Plea' (1836), became the defining invitation hymn of evangelical crusades and was used by Billy Graham at virtually every meeting he ever led.",
-    "adult_story": "Charlotte Elliott was born in Brighton in 1789, granddaughter of Henry Venn of the Clapham Sect and raised among evangelical believers. For her first thirty years she lived a cultured but spiritually empty life. A serious illness in 1821 unsettled her, and in May 1822 a Swiss evangelist named César Malan visited her father's home and asked whether she had made her peace with God. Elliott resented the question — but it would not leave her. Days later she sought Malan out. When she asked how to come to Christ, he said simply: “Come just as you are.” She trusted Christ that day, marking 9 May 1822 as the birthday of her soul.\n\nFrom 1829 Charlotte suffered chronic illness that largely confined her to her room for decades. She might have become bitter; instead she edited The Invalid's Hymn Book and wrote some 150 hymns — most anonymously — convinced that a bedridden saint could still serve Christ through words. In 1836 she wrote ‘Just As I Am, Without One Plea.’ Its stanzas strip away every human condition for approaching God and rest the soul entirely on the blood of Christ. Hymnologist Kenneth Osbeck called it the hymn that had “touched more hearts and influenced more people for Christ than any other song.” Billy Graham used it at virtually every evangelistic crusade he ever led.\n\nCharlotte Elliott brought nothing to God but her need. That was exactly what the gospel had always asked.",
-    "family_story": "Charlotte Elliott grew up in Brighton, England, but didn't trust Jesus herself. When she was thirty-two, a pastor named César Malan asked her: “Have you made your peace with God?” Charlotte was upset at first — but the question wouldn't leave her. When she went back and asked how to come to God, he said: “Just come as you are.” She believed in Jesus that day.\n\nLater, Charlotte became very ill and spent most of her life in bed. Instead of giving up, she wrote hymns. Her most famous is ‘Just As I Am’ — a song about coming to Jesus with nothing to offer but your need. Billy Graham used it to invite people to trust Christ at every meeting he ever led.",
+    "adult_story": "Charlotte Elliott was born in Brighton in 1789, granddaughter of Henry Venn of the Clapham Sect and raised among evangelical believers. For her first thirty years she lived a cultured but spiritually empty life. A serious illness in 1821 unsettled her, and in May 1822 a Swiss evangelist named [[César Malan|cesar-malan]] visited her father's home and asked whether she had made her peace with God. Elliott resented the question — but it would not leave her. Days later she sought Malan out. When she asked how to come to Christ, he said simply: “Come just as you are.” She trusted Christ that day, marking 9 May 1822 as the birthday of her soul.\n\nFrom 1829 Charlotte suffered chronic illness that largely confined her to her room for decades. She might have become bitter; instead she edited The Invalid's Hymn Book and wrote some 150 hymns — most anonymously — convinced that a bedridden saint could still serve Christ through words. In 1836 she wrote ‘Just As I Am, Without One Plea.’ Its stanzas strip away every human condition for approaching God and rest the soul entirely on the blood of Christ. Hymnologist Kenneth Osbeck called it the hymn that had “touched more hearts and influenced more people for Christ than any other song.” Billy Graham used it at virtually every evangelistic crusade he ever led.\n\nCharlotte Elliott brought nothing to God but her need. That was exactly what the gospel had always asked.",
+    "family_story": "Charlotte Elliott grew up in Brighton, England, but didn't trust Jesus herself. When she was thirty-two, a pastor named [[César Malan|cesar-malan]] asked her: “Have you made your peace with God?” Charlotte was upset at first — but the question wouldn't leave her. When she went back and asked how to come to God, he said: “Just come as you are.” She believed in Jesus that day.\n\nLater, Charlotte became very ill and spent most of her life in bed. Instead of giving up, she wrote hymns. Her most famous is ‘Just As I Am’ — a song about coming to Jesus with nothing to offer but your need. Billy Graham used it to invite people to trust Christ at every meeting he ever led.",
     "image": {
       "file": "charlotte-elliott.jpg",
       "prompt_used": "Photorealistic portrait of Charlotte Elliott, English evangelical Anglican hymn writer, mid-19th century, wearing simple Victorian dark dress with white lace collar, gentle and thoughtful expression, soft indoor lighting, historically accurate to 1840s dress",
@@ -3579,14 +3606,17 @@
         "name": "Grave of Charlotte Elliott — St Andrew's Church, Hove",
         "address": "St Andrew's Church, Church Road, Hove, East Sussex BN3 2AG, England",
         "lat": 50.8286,
-        "lng": -0.1750
+        "lng": -0.175
       }
     ],
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
       "reviewed_date": ""
-    }
+    },
+    "related_people": [
+      "cesar-malan"
+    ]
   },
   {
     "id": "cesar-malan",
@@ -3600,13 +3630,21 @@
     "tradition": "Reformed (Calvinist)",
     "flagged": false,
     "footnote": "",
-    "topics": ["grace", "gospel", "perseverance", "faithfulness", "suffering"],
+    "topics": [
+      "grace",
+      "gospel",
+      "perseverance",
+      "faithfulness",
+      "suffering"
+    ],
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/César_Malan",
     "source_summary": "Henri Abraham César Malan (1787–1864) was a Swiss Reformed minister and hymn writer, born in Geneva. Ordained in 1810, he was transformed by Robert Haldane's 1816–1817 teaching on Romans in Geneva, which sparked the Réveil revival movement. Suspended in 1818 and formally defrocked in 1823 for preaching justification by faith alone, he founded an independent chapel, l'Église du témoignage, in his own garden and preached there for forty years. He made nine journeys to Britain and was known for personal evangelistic conversations. In May 1822 he spoke with Charlotte Elliott in Brighton and told her to 'come just as you are' — words she later transformed into the hymn 'Just As I Am, Without One Plea.'",
-    "adult_story": "César Malan was born in Geneva in 1787 and ordained as a Reformed minister in 1810. His early preaching was conventional, but in 1816 Scottish evangelist Robert Haldane came to Geneva and taught a group of young ministers through the letter to the Romans. Malan emerged from those studies gripped by justification by faith alone — and could not stop preaching it.\n\nIn 1817 a sermon on the new birth brought his first suspension. Restored, he preached the same again and was formally defrocked in 1823. He responded by founding l'Église du témoignage — the Church of Testimony — in his own garden, where he preached for forty years. He made nine journeys to Britain and was known for personal conversations about the soul's need of Christ.\n\nOne such conversation, in May 1822, changed English hymnody. At a dinner in Brighton, Malan spoke of being useful to God to a young woman named Charlotte Elliott. She resented the remark. Days later she sought him out and asked how she might come to Christ. He told her simply: “Come just as you are.” She trusted Christ that day. Fourteen years later she turned those words into the hymn ‘Just As I Am, Without One Plea.’\n\nMalan was defrocked for preaching that salvation is by faith alone. The words he spoke to Charlotte Elliott proved him right.",
-    "family_story": "César Malan was a pastor in Geneva, Switzerland, who got into serious trouble for telling the truth. He believed people are saved not by being good, but by trusting in Jesus alone — and he preached this so boldly that church leaders fired him.\n\nInstead of giving up, Malan built a little chapel in his garden and kept preaching for the rest of his life.\n\nOne day in England in 1822, he met a young woman named Charlotte Elliott. She asked how she could come to God. He said: “Just come as you are.” She trusted Jesus that day — and fourteen years later she wrote the hymn ‘Just As I Am,’ sung by millions ever since.",
-    "related_people": ["charlotte-elliott"],
+    "adult_story": "César Malan was born in Geneva in 1787 and ordained as a Reformed minister in 1810. His early preaching was conventional, but in 1816 Scottish evangelist Robert Haldane came to Geneva and taught a group of young ministers through the letter to the Romans. Malan emerged from those studies gripped by justification by faith alone — and could not stop preaching it.\n\nIn 1817 a sermon on the new birth brought his first suspension. Restored, he preached the same again and was formally defrocked in 1823. He responded by founding l'Église du témoignage — the Church of Testimony — in his own garden, where he preached for forty years. He made nine journeys to Britain and was known for personal conversations about the soul's need of Christ.\n\nOne such conversation, in May 1822, changed English hymnody. At a dinner in Brighton, Malan spoke of being useful to God to a young woman named [[Charlotte Elliott|charlotte-elliott]]. She resented the remark. Days later she sought him out and asked how she might come to Christ. He told her simply: “Come just as you are.” She trusted Christ that day. Fourteen years later she turned those words into the hymn ‘Just As I Am, Without One Plea.’\n\nMalan was defrocked for preaching that salvation is by faith alone. The words he spoke to Charlotte Elliott proved him right.",
+    "family_story": "César Malan was a pastor in Geneva, Switzerland, who got into serious trouble for telling the truth. He believed people are saved not by being good, but by trusting in Jesus alone — and he preached this so boldly that church leaders fired him.\n\nInstead of giving up, Malan built a little chapel in his garden and kept preaching for the rest of his life.\n\nOne day in England in 1822, he met a young woman named [[Charlotte Elliott|charlotte-elliott]]. She asked how she could come to God. He said: “Just come as you are.” She trusted Jesus that day — and fourteen years later she wrote the hymn ‘Just As I Am,’ sung by millions ever since.",
+    "related_people": [
+      "charlotte-elliott"
+    ],
     "image": {
       "file": "cesar-malan.jpg",
       "prompt_used": "Photorealistic portrait of César Malan, Swiss Reformed Protestant minister, mid-19th century, wearing dark clerical coat with white collar, earnest and resolute expression, three-quarter view, historically accurate to 1850s dress",
@@ -3619,7 +3657,7 @@
         "name": "Grave of César Malan — Cimetière de Vandoeuvres",
         "address": "Cimetière de Vandoeuvres, Vandoeuvres, Canton of Geneva, Switzerland",
         "lat": 46.2058,
-        "lng": 6.2150
+        "lng": 6.215
       }
     ],
     "review": {
