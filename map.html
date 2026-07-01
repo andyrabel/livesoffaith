@@ -50,6 +50,7 @@
         </a>
         <nav class="site-nav" aria-label="Site navigation">
           <a href="map.html" aria-current="page">Memorial Map</a>
+          <a href="map.html#tour-planner">Tour Planner</a>
           <a href="about.html">About</a>
         </nav>
       </div>
@@ -64,6 +65,8 @@
       <section class="intro" aria-label="Map description">
         <p>Physical memorials — gravestones, statues, plaques, and monuments — for the people profiled on this site. Use this to plan a heritage visit or a walking tour.</p>
       </section>
+
+      <div id="memorial-map" class="memorial-map" aria-label="Map of physical memorials"></div>
 
       <section class="tour-planner" id="tour-planner" aria-label="Plan a memorial tour">
         <h2 class="tour-planner__title">&#129517; Plan a Tour</h2>
@@ -124,57 +127,63 @@
         </div>
       </section>
 
-      <section class="search-filter" aria-label="Search and filter memorials">
-        <div class="search-row">
-          <label for="map-search-input" class="sr-only">Search by name</label>
-          <input
-            type="search"
-            id="map-search-input"
-            class="search-input"
-            placeholder="Search by name…"
-            autocomplete="off"
-            aria-label="Search by name"
-          >
-        </div>
-        <div class="filter-row">
-          <label for="map-filter-region" class="sr-only">Filter by region</label>
-          <select id="map-filter-region" class="filter-select" aria-label="Filter by region">
-            <option value="">All Regions</option>
-            <option value="UK/Ireland">UK / Ireland</option>
-            <option value="North America">North America</option>
-            <option value="Africa">Africa</option>
-            <option value="Asia">Asia</option>
-            <option value="Latin America">Latin America</option>
-            <option value="Europe">Europe</option>
-            <option value="Oceania">Oceania</option>
-          </select>
+      <hr class="section-divider">
 
-          <label for="map-filter-type" class="sr-only">Filter by memorial type</label>
-          <select id="map-filter-type" class="filter-select" aria-label="Filter by memorial type">
-            <option value="">All Memorial Types</option>
-            <option value="gravestone">Gravestone</option>
-            <option value="statue">Statue</option>
-            <option value="plaque">Plaque</option>
-            <option value="monument">Monument</option>
-            <option value="window">Memorial Window</option>
-            <option value="church">Church</option>
-            <option value="museum">Museum</option>
-            <option value="other">Other</option>
-          </select>
+      <section class="memorial-list-section" id="memorial-list-section" aria-label="Browse all memorials">
+        <h2 class="memorial-list-section__title">Browse All Memorials</h2>
 
-          <button id="map-clear-filters" class="btn btn-secondary" type="button">Clear Filters</button>
+        <section class="search-filter" aria-label="Search and filter memorials">
+          <div class="search-row">
+            <label for="map-search-input" class="sr-only">Search by name</label>
+            <input
+              type="search"
+              id="map-search-input"
+              class="search-input"
+              placeholder="Search by name…"
+              autocomplete="off"
+              aria-label="Search by name"
+            >
+          </div>
+          <div class="filter-row">
+            <label for="map-filter-region" class="sr-only">Filter by region</label>
+            <select id="map-filter-region" class="filter-select" aria-label="Filter by region">
+              <option value="">All Regions</option>
+              <option value="UK/Ireland">UK / Ireland</option>
+              <option value="North America">North America</option>
+              <option value="Africa">Africa</option>
+              <option value="Asia">Asia</option>
+              <option value="Latin America">Latin America</option>
+              <option value="Europe">Europe</option>
+              <option value="Oceania">Oceania</option>
+            </select>
+
+            <label for="map-filter-type" class="sr-only">Filter by memorial type</label>
+            <select id="map-filter-type" class="filter-select" aria-label="Filter by memorial type">
+              <option value="">All Memorial Types</option>
+              <option value="gravestone">Gravestone</option>
+              <option value="statue">Statue</option>
+              <option value="plaque">Plaque</option>
+              <option value="monument">Monument</option>
+              <option value="window">Memorial Window</option>
+              <option value="church">Church</option>
+              <option value="museum">Museum</option>
+              <option value="other">Other</option>
+            </select>
+
+            <button id="map-clear-filters" class="btn btn-secondary" type="button">Clear Filters</button>
+          </div>
+        </section>
+
+        <div class="results-summary" aria-live="polite">
+          <p id="map-results-count"></p>
         </div>
+
+        <div id="memorial-list-page" class="memorial-list-page" aria-label="List of physical memorials">
+          <div class="loading">Loading…</div>
+        </div>
+
+        <nav id="memorial-pagination" class="pagination" aria-label="Memorial list pages"></nav>
       </section>
-
-      <div class="results-summary" aria-live="polite">
-        <p id="map-results-count"></p>
-      </div>
-
-      <div id="memorial-map" class="memorial-map" aria-label="Map of physical memorials"></div>
-
-      <div id="memorial-list-page" class="memorial-list-page" aria-label="List of physical memorials">
-        <div class="loading">Loading…</div>
-      </div>
 
     </div>
   </main>

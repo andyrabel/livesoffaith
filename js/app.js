@@ -896,7 +896,10 @@ const mapState = {
   search: '',
   region: '',
   type: '',
+  page: 1,
 };
+
+const MEMORIALS_PER_PAGE = 15;
 
 let leafletMap = null;
 let markerClusterGroup = null;
@@ -1034,11 +1037,49 @@ function updateMapResultsCount(count, total) {
     : `Showing ${count} of ${total} ${total === 1 ? 'memorial' : 'memorials'}`;
 }
 
+function paginateEntries(entries, page, perPage) {
+  const totalPages = Math.max(1, Math.ceil(entries.length / perPage));
+  const clampedPage = Math.min(Math.max(1, page), totalPages);
+  const start = (clampedPage - 1) * perPage;
+  return { pageItems: entries.slice(start, start + perPage), totalPages, page: clampedPage };
+}
+
+function renderMemorialPagination(page, totalPages) {
+  const nav = document.getElementById('memorial-pagination');
+  if (!nav) return;
+
+  if (totalPages <= 1) {
+    nav.innerHTML = '';
+    return;
+  }
+
+  nav.innerHTML = `
+    <button type="button" class="btn btn-secondary" id="memorial-page-prev" ${page <= 1 ? 'disabled' : ''}>&#8592; Prev</button>
+    <span class="pagination__status">Page ${page} of ${totalPages}</span>
+    <button type="button" class="btn btn-secondary" id="memorial-page-next" ${page >= totalPages ? 'disabled' : ''}>Next &#8594;</button>
+  `;
+
+  const prevBtn = document.getElementById('memorial-page-prev');
+  const nextBtn = document.getElementById('memorial-page-next');
+  const goToPage = delta => {
+    mapState.page += delta;
+    applyMapFilters();
+    const section = document.getElementById('memorial-list-section');
+    if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+  if (prevBtn) prevBtn.addEventListener('click', () => goToPage(-1));
+  if (nextBtn) nextBtn.addEventListener('click', () => goToPage(1));
+}
+
 function applyMapFilters() {
   const all = getAllMemorialEntries();
   const filtered = filterMemorialEntries(all);
   renderMapMarkers(filtered);
-  renderMemorialListPage(filtered);
+
+  const { pageItems, totalPages, page } = paginateEntries(filtered, mapState.page, MEMORIALS_PER_PAGE);
+  mapState.page = page;
+  renderMemorialListPage(pageItems);
+  renderMemorialPagination(page, totalPages);
   updateMapResultsCount(filtered.length, all.length);
 }
 
@@ -1071,18 +1112,21 @@ function initMapPage() {
     searchInput.value = mapState.search;
     searchInput.addEventListener('input', () => {
       mapState.search = searchInput.value;
+      mapState.page = 1;
       applyMapFilters();
     });
   }
   if (regionSelect) {
     regionSelect.addEventListener('change', () => {
       mapState.region = regionSelect.value;
+      mapState.page = 1;
       applyMapFilters();
     });
   }
   if (typeSelect) {
     typeSelect.addEventListener('change', () => {
       mapState.type = typeSelect.value;
+      mapState.page = 1;
       applyMapFilters();
     });
   }
@@ -1091,6 +1135,7 @@ function initMapPage() {
       mapState.search = '';
       mapState.region = '';
       mapState.type = '';
+      mapState.page = 1;
       if (searchInput) searchInput.value = '';
       if (regionSelect) regionSelect.value = '';
       if (typeSelect) typeSelect.value = '';
@@ -1227,6 +1272,21 @@ function numberedTourIcon(n) {
     iconSize: [26, 26],
     iconAnchor: [13, 13],
   });
+}
+
+function focusMapOnTourCenter(zoom = 13) {
+  if (!leafletMap || !tourState.center) return;
+
+  if (tourLayerGroup) {
+    tourLayerGroup.clearLayers();
+    const centerMarker = L.marker([tourState.center.lat, tourState.center.lng], {
+      icon: L.divIcon({ className: 'tour-center-icon', html: '<span>S</span>', iconSize: [26, 26], iconAnchor: [13, 13] }),
+    }).bindPopup(`<strong>Starting point</strong><br>${escapeHtml(tourState.centerLabel)}`);
+    tourLayerGroup.addLayer(centerMarker);
+  }
+
+  leafletMap.setView([tourState.center.lat, tourState.center.lng], zoom);
+  document.getElementById('memorial-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
 function drawTourOnMap() {
@@ -1405,6 +1465,7 @@ function initTourPlanner() {
       tourState.center = { lat: result.lat, lng: result.lng };
       tourState.centerLabel = result.displayName.split(',').slice(0, 3).join(',');
       setTourStatus(`Starting point set: ${tourState.centerLabel}`);
+      focusMapOnTourCenter();
     } catch (err) {
       setTourStatus(err.message || 'Could not find that location.', true);
     }
@@ -1430,6 +1491,7 @@ function initTourPlanner() {
           tourState.centerLabel = 'your current location';
           if (locationInput) locationInput.value = '';
           setTourStatus('Starting point set to your current location.');
+          focusMapOnTourCenter(14);
         },
         err => setTourStatus(`Could not get your location: ${err.message}`, true)
       );

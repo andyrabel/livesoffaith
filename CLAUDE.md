@@ -226,6 +226,9 @@ Each memorial in the `memorials` array has:
 
 Use `"memorials": []` when no confirmed physical memorials are known.
 When adding a new person, research and populate memorials as part of the standard workflow.
+For anyone who served as a pastor, vicar, minister, or similar church leadership role,
+check whether the church building they served in is still standing — if so, include it
+as a memorial with `"type": "church"`.
 
 ---
 
