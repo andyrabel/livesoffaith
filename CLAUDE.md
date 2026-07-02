@@ -139,12 +139,24 @@ back to a specific, approved source.
   "file": "william-carey.jpg",
   "prompt_used": "Photorealistic portrait of William Carey, English Baptist missionary, late 18th century, wearing dark clerical coat, serious and determined expression, historically accurate to 1790s dress",
   "prompt_image_source": "https://commons.wikimedia.org/wiki/File:William_Carey.jpg — public domain, published before 1931",
-  "caption": "AI-generated image — no copyright claimed"
+  "caption": "AI-generated image — no copyright claimed",
+  "redistribution_safe": true,
+  "redistribution_note": "Published before 1931 — clear public-domain claim, no caveat."
 }
 ```
 
 - Store `prompt_used` and `prompt_image_source` in the JSON for every entry
 - If no approved reference image exists yet, set `"image": null` until one is sourced
+- `redistribution_safe` / `redistribution_note` — this is a **separate** question from
+  "is this good enough to use as an AI-generation reference." It asks: is the actual
+  source photo (not the AI portrait) confirmed safe to republish as-is somewhere off
+  the site (e.g. a scheduled Facebook post)? Set `true` only when the source note is
+  an unambiguous public-domain claim with no caveat, resolvable to a direct file (a
+  `commons.wikimedia.org` URL). Default `false` whenever the note hedges ("reference
+  only", "URAA may apply", "no known copyright restrictions", a CC-licensed personal
+  permission grant, etc.) or the source isn't a Commons URL. This field is never used
+  by the website itself — only by the private Facebook scheduler in `_build/fb/`,
+  which must not consider a person for a real-photo post unless this is `true`.
 
 ---
 

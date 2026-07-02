@@ -53,7 +53,9 @@
       "file": "wang-ming-dao.jpg",
       "prompt_used": "Photorealistic portrait of Wang Ming Dao, Chinese independent evangelical pastor, circa 1950s, wearing a plain dark Chinese zhongshan suit, dignified and resolute expression, serious gaze, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:WangMingdao.jpg — circa 1950, sourced from Lian Xi 'Redeemed by Fire' (Yale UP, 2010); public domain in China (URAA may apply in USA — use as reference only)",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "Source note: public domain in China, but URAA may apply in USA — explicitly 'reference only'."
     },
     "review": {
       "human_reviewed": true,
@@ -134,7 +136,9 @@
     "family_story": "John Newton grew up in England. His mother died when he was six, and as a young man he drifted far from God. He worked as part of the cruel slave trade.\n\nOne night, a violent storm nearly sank his ship. Terrified, John cried out to God. Slowly, over months and years, God changed him completely.\n\nJohn became a minister and helped fight to end the slave trade. He wrote a hymn still sung all over the world: Amazing Grace. When he wrote \"a wretch like me,\" he meant it — he knew what he had been, and what grace had done for him.",
     "image": {
       "file": "john-newton.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": true,
@@ -240,7 +244,9 @@
     "family_story": "When Fanny Crosby was a tiny baby, a doctor made a mistake that left her unable to see for her whole long life.\n\nBut Fanny was not sad about this. She believed God had a plan for her. When she was thirty, she gave her heart to Jesus. After that she started writing hymns — thousands of them! Because she couldn't see, she kept every song in her head and spoke them aloud for someone else to write down.\n\nChurches still sing her hymns today: Blessed Assurance, To God Be the Glory, Safe in the Arms of Jesus. They remind us that we can trust Jesus completely.",
     "image": {
       "file": "fanny-crosby.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": false,
@@ -310,7 +316,9 @@
     "family_story": "John Bunyan grew up poor in England. His father mended pots and pans. After years of spiritual struggle, John understood that Jesus had died for his sins, and became a preacher.\n\nBut the King's law said only official ministers were allowed to preach. John refused to stop — and was put in prison for twelve years.\n\nIn prison he wrote The Pilgrim's Progress — a story about a man named Christian who travels from a dangerous city toward a heavenly home. He faces dark valleys and many temptations, but keeps going because Jesus has promised him a place at the end.\n\nPeople have been reading it for three hundred and fifty years.",
     "image": {
       "file": "john-bunyan.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": false,
@@ -403,7 +411,9 @@
     "family_story": "Isaac Watts was born in England in 1674. His father had been imprisoned for being a Christian outside the official church.\n\nIsaac noticed that church songs were mostly old Psalms in awkward translations. He thought: shouldn't we also sing about Jesus — the cross, the resurrection?\n\nSo Isaac wrote hymns — over 750 of them. Churches still sing them today: When I Survey the Wondrous Cross, Joy to the World, O God Our Help in Ages Past. His most famous ends with a beautiful surrender: \"Love so amazing, so divine, demands my soul, my life, my all.\"",
     "image": {
       "file": "isaac-watts.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": false,
@@ -490,7 +500,9 @@
     "family_story": "Charles Wesley grew up in England, one of nineteen children. His mother [[Susanna|susanna-wesley]] taught all of them carefully about God.\n\nAt university, Charles and his brother [[John|john-wesley]] started a group to study the Bible seriously. But Charles didn't yet truly know Jesus.\n\nThen in 1738, something changed. Charles understood that Jesus had died for him personally, and that he was forgiven. He wrote a hymn about it the very next morning. After that, Charles could not stop — he wrote more than 6,000 hymns! Hark the Herald Angels Sing, O for a Thousand Tongues to Sing, Love Divine All Loves Excelling — still sung today.",
     "image": {
       "file": "charles-wesley.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": true,
@@ -599,7 +611,9 @@
     "family_story": "William Cowper's mother died when he was six, and that sadness stayed with him all his life. As a young man he became deeply ill inside — so ill he nearly ended his life. A kind doctor helped him recover, and reading the Bible brought him to hope in Jesus.\n\nHe moved to Olney, where his friend [[John Newton|john-newton]] was the minister. Together they wrote hymns. William's most famous is God Moves in a Mysterious Way — a song for frightened people, saying: God is doing things we cannot understand, and they will end in blessing.\n\nGod can use even a broken life to bring comfort to others.",
     "image": {
       "file": "william-cowper.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": false,
@@ -676,7 +690,9 @@
     "family_story": "Augustus Toplady was born in England in 1740. As a teenager in Ireland, he heard a preacher in a barn speak about Jesus — and understood that God saves us by grace, as a free gift, not because of anything we do.\n\nAugustus became a minister and preached with great passion.\n\nHe wrote a hymn called Rock of Ages. A rock is something solid we shelter in during a storm. The most important words: \"Nothing in my hand I bring, simply to Thy cross I cling.\"\n\nAugustus died young at thirty-seven. But his hymn has helped Christians for over 200 years understand that Jesus saves us completely.",
     "image": {
       "file": "augustus-toplady.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": false,
@@ -761,7 +777,9 @@
     "family_story": "Philip Bliss grew up poor in Pennsylvania. He became a music teacher and later led singing at evangelistic meetings across America.\n\nHe wrote the tune for words a man named [[Horatio Spafford|horatio-spafford]] had written after losing all four of his daughters in a terrible shipwreck: \"It is well, it is well with my soul.\" Those words and that tune became one of the most loved hymns in history — saying that even in the worst suffering, we can trust Jesus.\n\nPhilip died in a train accident at just thirty-eight. But his songs still help people trust Jesus in the hardest times.",
     "image": {
       "file": "philip-bliss.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": false,
@@ -855,7 +873,9 @@
     "family_story": "Horatius Bonar grew up in Edinburgh, Scotland, in a family that loved God. He became a minister. When some ministers had to leave the official church to stay true to the gospel, Horatius went with them.\n\nHoratius wrote many hymns — over 600 of them — to help people love Jesus through song.\n\nOne of the most beautiful is I Heard the Voice of Jesus Say. It imagines Jesus giving three invitations: come and rest, come and drink, come into the light. Each time, the person comes to Jesus and finds exactly what was promised.\n\nHoratius spent his whole long life serving his congregation and writing to help people love Jesus more.",
     "image": {
       "file": "horatius-bonar.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": false,
@@ -920,7 +940,9 @@
     "family_story": "Susanna Wesley married a minister and they had nineteen children. Life was often hard — they were poor, and their house burned down once.\n\nBut Susanna was determined to raise each child to know and love Jesus. She spent one hour every week with each child individually — just the two of them — teaching them the Bible and talking about God.\n\nTwo of her sons became very famous: [[John Wesley|john-wesley]], who started the Methodist movement, and [[Charles Wesley|charles-wesley]], who wrote over 6,000 hymns. Both said their mother was the greatest influence on their faith.\n\nSusanna never preached to thousands. She just taught her children faithfully.",
     "image": {
       "file": "susanna-wesley.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": true,
@@ -984,7 +1006,9 @@
     "family_story": "George Whitefield was born in England in 1714. At university he met the Wesley brothers, and through reading the Bible seriously, George came to understand that Jesus had saved him by grace.\n\nAfter that, George became a preacher. He had a powerful voice and could speak to enormous crowds outdoors — sometimes 20,000 people or more, with no microphone. He travelled back and forth across the Atlantic thirteen times, preaching in England and throughout America. When he preached, people turned to Jesus.\n\nGeorge died in 1770, still preaching right up to the end.",
     "image": {
       "file": "george-whitefield.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": false,
@@ -1065,7 +1089,9 @@
     "family_story": "William Wilberforce was born in England in 1759 and became a Member of Parliament when he was very young. Then he became a Christian and asked: what does God want me to do with this position?\n\nHe decided he had to fight to end the slave trade. Year after year — for twenty years — he argued in Parliament for abolition. Year after year he was defeated. But he did not give up.\n\nIn 1807 the slave trade was abolished. Then in 1833, just before he died, slavery itself was abolished throughout the British Empire.\n\nNever give up doing what is right.",
     "image": {
       "file": "william-wilberforce.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": true,
@@ -1160,7 +1186,9 @@
     "family_story": "George Müller grew up in Germany as a dishonest and selfish young man. But when he was about twenty, he went to a prayer meeting and his life changed. He understood that Jesus had died for his sins and trusted in Him.\n\nGeorge started an orphanage in Bristol, England, and decided he would never ask anyone for money — only ask God.\n\nAgain and again — just when food or money was needed — it arrived. Over sixty years, more than 10,000 children were cared for.\n\nGeorge kept careful records of every prayer and every answer. His life shows not how great George was — but how great God is.",
     "image": {
       "file": "george-muller.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": true,
@@ -1243,7 +1271,9 @@
       "file": "cs-lewis.jpg",
       "prompt_used": "Photorealistic portrait of C.S. Lewis, Irish-British Christian author and Oxford don, circa 1940s, wearing a dark tweed jacket, thoughtful and intellectually engaged expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:CS_Lewis_(1917).jpg — public domain, published 1917, before January 1 1931",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Published 1917, before Jan 1 1931 — clear US public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -1393,7 +1423,9 @@
       "file": "hudson-taylor.jpg",
       "prompt_used": "Photorealistic portrait of Hudson Taylor, English missionary to China, late 19th century, wearing Chinese-style dark changshan robe, earnest and determined expression, historically accurate to 1880s",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:James_Hudson_Taylor.jpg — public domain, from 'A Retrospect' by James Hudson Taylor, 1893, Morgan & Scott",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "From 'A Retrospect', 1893 — clear US public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -1478,7 +1510,9 @@
       "file": "david-livingstone.jpg",
       "prompt_used": "Photorealistic portrait of David Livingstone, Scottish missionary and explorer in Africa, circa 1864, wearing a plain dark Victorian frock coat, determined and weathered expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:David_Livingstone_by_Thomas_Annan.jpg — public domain, 1864 carbon print by Thomas Annan, National Galleries of Scotland",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "1864 carbon print, National Galleries of Scotland — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -1554,7 +1588,9 @@
     "family_story": "Amy Carmichael was born in Ireland in 1867 and went as a missionary to India. There she discovered that some young children were being forced into terrible suffering. Amy decided she would rescue as many as she could.\n\nShe founded the Dohnavur Fellowship — a family home for children who had nowhere safe to go. Hundreds found safety there.\n\nAmy had a serious fall that left her unable to walk well. But she kept writing and leading from her bed. When she died in 1951, the children placed a birdbath on her grave. She had given her life to them, because Jesus had given His life for her.",
     "image": {
       "file": "amy-carmichael.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": false,
@@ -1637,7 +1673,9 @@
       "file": "john-sung.jpg",
       "prompt_used": "Photorealistic portrait of John Sung, Chinese Christian evangelist, 1935 Singapore, wearing a plain dark Western suit, fervent and earnest evangelical expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:John_Sung.jpg — public domain, 1935 photograph published before 1952, public domain in Republic of China and United States",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "1935 photograph, published before 1952 — explicitly 'public domain in Republic of China and United States'."
     },
     "review": {
       "human_reviewed": false,
@@ -1713,7 +1751,9 @@
       "file": "watchman-nee.jpg",
       "prompt_used": "Photorealistic portrait of Watchman Nee, Chinese Christian teacher and writer, circa 1930s-1940s, wearing a plain dark suit, thoughtful and earnest expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Watchman_Nee.jpg — public domain in China; URAA restoration may apply in USA — use as reference only",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "Source note: public domain in China, but URAA restoration may apply in USA — explicitly 'reference only'."
     },
     "review": {
       "human_reviewed": false,
@@ -1782,7 +1822,9 @@
       "file": "sadhu-sundar-singh.jpg",
       "prompt_used": "Photorealistic portrait of Sadhu Sundar Singh, Indian Christian evangelist and sadhu from Punjab, circa 1920s, wearing a saffron robe in traditional sadhu style, serene and devout expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:SadhuSundarSingh.jpg — public domain, published before January 1 1931, Creative Commons Public Domain Mark 1.0",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Published before Jan 1 1931, Creative Commons Public Domain Mark 1.0 — clear claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -1846,7 +1888,9 @@
       "file": "william-tyndale.jpg",
       "prompt_used": "Photorealistic portrait of William Tyndale, English Bible translator and Protestant martyr, circa 1530s, wearing dark Tudor-era clerical scholar's robes, determined and earnest expression, historically accurate to early 16th century",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Tyndale.jpg — public domain, 1836 engraving reprinted in Offor's edition of Tyndale's 1526 New Testament, held by Pitts Theology Library, Emory University",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "1836 engraving, Pitts Theology Library — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -1944,7 +1988,9 @@
     "family_story": "John Hus lived in Bohemia — in what is now the Czech Republic — about 600 years ago. He was a priest who cared deeply about truth.\n\nJohn preached in Czech so ordinary people could understand. He believed the Bible — not the Pope — should be the highest authority in the church. He was put on trial and asked to take back what he had said. He refused, because he believed he was teaching what the Bible taught.\n\nOn 6 July 1415, John Hus was burned at the stake for his faith — a hundred years before the Reformation, one who first carried the torch that others would pick up.",
     "image": {
       "file": "john-hus.jpg",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "No reference image source recorded yet."
     },
     "review": {
       "human_reviewed": false,
@@ -2028,7 +2074,9 @@
       "file": "richard-wurmbrand.jpg",
       "prompt_used": "Single front-facing portrait of Richard Wurmbrand, Romanian Lutheran pastor of Jewish background, circa 1940s, wearing a plain dark suit, dignified and resilient expression, historically accurate to wartime Romania, one person only, head and shoulders, no side view",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Richard_Wurmbrand_mugshot.jpg — public domain under Romanian law, non-artistic photograph published before 1991, circa 1948",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "PD claim is only 'under Romanian law' — no confirmation of US public-domain status under URAA for a 1948 photo; needs manual review."
     },
     "review": {
       "human_reviewed": false,
@@ -2101,7 +2149,9 @@
       "file": "william-carey.jpg",
       "prompt_used": "Portrait of William Carey (1761–1834), English Baptist missionary, wearing a dark 18th-century clerical frock coat, earnest and resolute expression",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:William_Carey.jpg — public domain, published before 1931",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Published before 1931 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -2181,7 +2231,9 @@
       "file": "lilias-trotter.jpg",
       "prompt_used": "Portrait of Lilias Trotter (1853–1928), British Victorian missionary and artist, wearing a modest late Victorian high-collar dress, gentle and determined expression",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:LiliasTrotter35.jpg — public domain, published before 1931",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Published before 1931 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -2253,7 +2305,9 @@
       "file": "anthony-norris-groves.jpg",
       "prompt_used": "Portrait of Anthony Norris Groves (1795–1853), English Protestant missionary, wearing a plain early 19th-century dark coat and cravat, earnest evangelical expression",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:ANGroves1.jpg — public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Bare 'public domain' claim with no supporting detail — thin evidence, flag for spot-check."
     },
     "review": {
       "human_reviewed": true,
@@ -2329,7 +2383,9 @@
       "file": "lord-shaftesbury.jpg",
       "prompt_used": "Portrait of Anthony Ashley Cooper, 7th Earl of Shaftesbury (1801–1885), English Victorian statesman and evangelical philanthropist, wearing a formal Victorian frock coat and cravat, dignified and earnest expression",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Anthony_Ashley-Cooper,_7th_Earl_of_Shaftesbury_by_John_Collier.jpg — public domain, painted 1877 by John Collier (d. 1934)",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Painted 1877 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -2408,7 +2464,9 @@
       "file": "robert-boyle.jpg",
       "prompt_used": "Portrait of Robert Boyle (1627–1691), Anglo-Irish natural philosopher and chemist, wearing a long dark curled periwig and 17th-century gentleman's gown, scholarly and devout expression",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg — public domain, painted 1689 by Johann Kerseboom",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Painted 1689 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -2486,7 +2544,9 @@
       "file": "daniel-w-whittle.jpg",
       "prompt_used": "Portrait of Daniel W. Whittle, American Civil War veteran and evangelical hymn writer, circa 1877, wearing a dark Victorian frock coat, bearded, serious and earnest expression",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Daniel_Webster_Whittle_(from_LCCN2005678064).jpg — public domain, 1877, Library of Congress Prints and Photographs Division",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "1877, Library of Congress — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -2563,7 +2623,9 @@
       "file": "frances-ridley-havergal.jpg",
       "prompt_used": "Portrait of Frances Ridley Havergal, English Anglican hymn writer and poet, circa 1870s Victorian era, wearing a high-collared dark dress, gentle and serene expression",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Frances_Ridley_Havergal.jpg — public domain, from 'Christmas Sunshine with Love and Light for the New Year' 1886, published before January 1 1931",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Published before Jan 1 1931 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -2650,7 +2712,9 @@
       "file": "keith-green.jpg",
       "prompt_used": "Portrait of Keith Green, American Christian singer-songwriter and evangelist, circa 1978, earnest and passionate expression, young man in his mid-twenties, 1970s era",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Keithgreen.jpg — CC BY-SA 3.0, Last Days Ministries granted permission via email; not public domain but freely licensed by the rights holder",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA + personal email permission grant — explicitly 'not public domain'; attribution requirements not handled by MVP."
     },
     "review": {
       "human_reviewed": true,
@@ -2723,7 +2787,9 @@
       "file": "thomas-watson.jpg",
       "prompt_used": "Portrait of Thomas Watson, English Puritan minister and theologian, mid-17th century, wearing typical Puritan dark coat with plain white collar bands, serious and devout expression, historically accurate to 1660s",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Thomas_Watson_(Puritan).jpg — public domain, traditional print after engraving by James Hopwood the Elder (c.1750–1819)",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Engraving c.1750-1819 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -2787,7 +2853,9 @@
       "file": "corrie-ten-boom.jpg",
       "prompt_used": "Photorealistic portrait of Corrie ten Boom, Dutch evangelical Christian and Holocaust rescuer, circa 1940s, wearing a plain dark dress, with spectacles, warm and resolute expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:CorrieTenBoom.jpg — public domain, 1921 photograph, anonymous photographer",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "1921 photograph, anonymous photographer — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -2866,7 +2934,9 @@
       "file": "eric-liddell.jpg",
       "prompt_used": "Photorealistic portrait of Eric Liddell, Scottish Christian Olympic champion and missionary to China, circa 1924, wearing a plain dark suit with white collar, athletic build, strong jaw, determined and peaceful expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Eric_Liddell.jpg — public domain, 19 July 1924, anonymous sports event photograph, Creative Commons Public Domain Mark 1.0",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "19 July 1924, Creative Commons Public Domain Mark 1.0 — clear claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -3071,7 +3141,9 @@
       "file": "william-borden.jpg",
       "prompt_used": "Photorealistic portrait of William Borden, young American missionary candidate, Yale class of 1909, circa 1910, wearing a dark suit with white collar, earnest and devoted expression, young man in his early twenties, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:WilliamBorden.jpg — public domain, from Borden of Yale '09 by Mrs Howard Taylor, China Inland Mission, 1913",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "From 'Borden of Yale '09', 1913 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -3143,7 +3215,9 @@
       "file": "mary-slessor.jpg",
       "prompt_used": "Photorealistic portrait of Mary Slessor, Scottish missionary to Nigeria, late Victorian era, circa 1890s, wearing a plain dark Victorian high-collar dress, determined and compassionate expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Mary_Slessor.jpg — public domain in the United States, published before January 1 1931, photographer unknown",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Explicitly 'public domain in the United States', published before Jan 1 1931."
     },
     "review": {
       "human_reviewed": false,
@@ -3235,7 +3309,9 @@
       "file": "adoniram-judson.jpg",
       "prompt_used": "Photorealistic portrait of Adoniram Judson, American Baptist missionary to Burma, circa 1846, wearing a dark 19th-century coat with white collar, serious and resolute expression, slightly gaunt from years of hardship in the field, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Adoniram_Judson_1846.jpg — public domain, 1846 portrait by George Peter Alexander Healy, Brown University Library collection, Creative Commons Public Domain Mark 1.0",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "1846 portrait, Creative Commons Public Domain Mark 1.0 — clear claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -3310,7 +3386,9 @@
       "file": "horatio-spafford.jpg",
       "prompt_used": "Photorealistic portrait of Horatio Spafford, American Presbyterian lawyer and hymn lyricist, late 19th century, wearing a dark Victorian frock coat, bearded, dignified and sorrowful yet peaceful expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Horatio_Spafford.jpg — public domain, before November 1888, photographer unknown, over 120 years old, Creative Commons Public Domain Mark 1.0",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Before November 1888, Creative Commons Public Domain Mark 1.0 — clear claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -3387,7 +3465,9 @@
       "file": "john-wesley.jpg",
       "prompt_used": "Photorealistic portrait of John Wesley, English Methodist evangelist, late 18th century, wearing a black Anglican clerical coat with white collar bands, short greying wig, warm and earnest expression, aged in his seventies, historically accurate to 1780s clerical dress",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:John_Wesley_by_William_Hamilton.jpg — public domain painting by William Hamilton, 1788, artist died 1801",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "1788 painting, artist died 1801 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -3513,7 +3593,9 @@
       "file": "george-verwer.jpg",
       "prompt_used": "Photorealistic portrait of George Verwer, American evangelical missionary and founder of Operation Mobilisation, late 20th century, wearing casual modern clothing, enthusiastic and warm expression, middle-aged, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:GeorgeVerwer1.jpg — public domain, released by photographer Eva Rindfuss with no conditions",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Photographer explicitly released image 'with no conditions' — modern subject, flag for spot-check."
     },
     "review": {
       "human_reviewed": true,
@@ -3577,7 +3659,9 @@
       "file": "matthew-henry.jpg",
       "prompt_used": "Portrait of Matthew Henry, Welsh Nonconformist minister and Bible commentator, early 18th century, wearing a dark clerical coat with white collar, serious and studious expression, historically accurate to 1700s dress",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Matthew_Henry_Portrait_1707.png — portrait painting c.1707, artist unknown, public domain (over 300 years old)",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Portrait c.1707, over 300 years old — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -3655,7 +3739,9 @@
       "file": "charles-spurgeon.jpg",
       "prompt_used": "Portrait of Charles Haddon Spurgeon, Victorian Baptist preacher known as the Prince of Preachers, 19th century, wearing a dark frock coat with white cravat, confident and earnest expression, mid-Victorian era clerical dress",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Charles_Haddon_Spurgeon_by_Alexander_Melville.jpg — photograph by Alexander Melville, published before 1928, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Photograph published before 1928 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -3753,7 +3839,9 @@
       "file": "david-brainerd.jpg",
       "prompt_used": "Portrait of David Brainerd, American Presbyterian missionary to Native Americans, early 18th century, wearing a plain dark coat with white collar, serious and intense expression, young man aged about twenty-five, historically accurate to 1740s colonial American dress",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:DavidBrainerd.jpg — engraving, artist and date unknown, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Engraving, date unknown but explicit public-domain claim — thin evidence, flag for spot-check."
     },
     "review": {
       "human_reviewed": false,
@@ -3829,7 +3917,9 @@
       "file": "gladys-aylward.jpg",
       "prompt_used": "Portrait of Gladys Aylward, British missionary to China, early 20th century, wearing simple practical clothing, determined and warm expression, small and slight figure, historically accurate to 1930s missionary in China",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Gladys_Aylward.jpg — photograph c.1930s, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Photograph c.1930s — right at the PD cutoff, explicit claim but flag for spot-check."
     },
     "review": {
       "human_reviewed": false,
@@ -3908,7 +3998,9 @@
       "file": "ct-studd.jpg",
       "prompt_used": "Portrait of C. T. Studd, British cricketer turned missionary, late 19th century, wearing dark Victorian gentleman’s clothing, earnest and resolute expression, young man in his twenties, historically accurate to 1880s",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Charles_Studd_c1882.jpg — photograph c.1882, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Photograph c.1882 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -3981,7 +4073,9 @@
       "file": "thomas-barnardo.jpg",
       "prompt_used": "Portrait of Thomas Barnardo, Victorian Irish-born Christian philanthropist and founder of children’s homes, late 19th century, wearing a dark Victorian frock coat, compassionate and determined expression, historically accurate to 1880s",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Thomas_John_Barnardo.jpg — Victorian photograph, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Victorian photograph — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -4073,7 +4167,9 @@
       "file": "william-booth.jpg",
       "prompt_used": "Portrait of William Booth, Victorian founder of the Salvation Army, late 19th century, wearing a dark Salvation Army general’s uniform with distinctive peaked cap, long white beard, commanding and compassionate expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:William_Booth.jpg — Victorian photograph, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Victorian photograph — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -4162,7 +4258,9 @@
       "file": "martin-luther.jpg",
       "prompt_used": "Portrait of Martin Luther, German Protestant Reformer, early 16th century, wearing a plain dark clerical robe, strong and resolute expression, broad-faced and determined, historically accurate to 1520s Reformation era Germany",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Martin_Luther.jpg — after Lucas Cranach the Elder, c.1528, public domain (painting over 400 years old)",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Painting c.1528, over 400 years old — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -4254,7 +4352,9 @@
       "file": "john-calvin.jpg",
       "prompt_used": "Portrait of John Calvin, French Protestant Reformer, 16th century, wearing a plain dark clerical coat with small white collar, thin and intense face, serious scholarly expression, historically accurate to 1550s Reformation Geneva",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Jean_Calvin.jpg — portrait painting, artist unknown, 16th century, public domain (painting over 400 years old)",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "16th century painting, over 400 years old — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -4492,7 +4592,9 @@
       "file": "john-nelson-darby.jpg",
       "prompt_used": "Photorealistic portrait of John Nelson Darby, Irish Plymouth Brethren leader and Bible translator, circa 1840, wearing dark Victorian coat, serious and intense expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:John_Nelson_Darby_%C3%A0_Gen%C3%A8ve_1840.jpg — portrait dated 1840, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Portrait dated 1840 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -4569,7 +4671,9 @@
       "file": "robert-murray-mcheyne.jpg",
       "prompt_used": "Photorealistic portrait of Robert Murray M'Cheyne, Scottish Presbyterian minister, 1840s, young man in his late twenties, wearing dark clerical coat, earnest and devout expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Robert_Murray_McCheyne.jpg — from Memoir and Remains of the Rev. Robert Murray McCheyne (Philadelphia, 1844), public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "From an 1844 memoir — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -4647,7 +4751,9 @@
       "file": "henry-martyn.jpg",
       "prompt_used": "Photorealistic portrait of Henry Martyn, English Anglican missionary and Bible translator, early 19th century, wearing dark coat, thoughtful and determined expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Henry_Martyn_(missionary).jpg — 19th-century portrait, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "19th-century portrait — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -4743,7 +4849,9 @@
       "file": "pandita-ramabai.jpg",
       "prompt_used": "Photorealistic portrait of Pandita Ramabai, Indian Christian scholar and social reformer, late 19th century, wearing traditional Indian sari, intelligent and compassionate expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Pandita_Ramabai_Sarasvati_1858-1922_front-page-portrait.jpg — frontispiece from 'The High-Caste Hindu Woman' (Philadelphia, 1887), published before 1931, public domain in USA",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Explicitly 'public domain in USA', published 1887, before 1931."
     },
     "review": {
       "human_reviewed": false,
@@ -4820,7 +4928,9 @@
       "file": "bakht-singh.jpg",
       "prompt_used": "Photorealistic portrait of Bakht Singh, Indian Christian evangelist and church planter, mid-20th century, wearing western suit and tie, holding a book, serious and dignified expression, historically accurate to 1959",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Bakht_Singh_1959.JPG — CC-BY-SA 4.0, approved for use as private AI generation reference",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "Source note says CC-BY-SA 4.0 'approved for use as private AI generation reference' — explicitly not cleared for redistribution, and CC BY-SA attribution isn't handled by MVP."
     },
     "review": {
       "human_reviewed": false,
@@ -4892,7 +5002,9 @@
       "file": "john-stam.jpg",
       "prompt_used": "Portrait of John Stam, American CIM missionary in China, early 1930s, wearing dark suit and tie, round wire-rimmed spectacles, serious composed expression, historically accurate to 1930s dress",
       "prompt_image_source": "Scott Family Collection, Princeton Theological Seminary Library, archive.org identifier scottfamilycorre112unse — public domain (1930s photograph, no copyright renewal)",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "Source is an archive.org/Princeton library collection citation, not a Wikimedia Commons URL — no automated fetch path for MVP."
     },
     "review": {
       "human_reviewed": false,
@@ -4967,7 +5079,9 @@
       "file": "betty-stam.jpg",
       "prompt_used": "Portrait of Betty Stam, American CIM missionary in China, early 1930s, wearing patterned blouse with brooch, round wire-rimmed spectacles, short dark hair, gentle composed expression, historically accurate to 1930s dress",
       "prompt_image_source": "Scott Family Collection, Princeton Theological Seminary Library, archive.org identifier scottfamilycorre112unse — public domain (1930s photograph, no copyright renewal)",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "Source is an archive.org/Princeton library collection citation, not a Wikimedia Commons URL — no automated fetch path for MVP."
     },
     "review": {
       "human_reviewed": false,
@@ -5044,7 +5158,9 @@
       "file": "dietrich-bonhoeffer.jpg",
       "prompt_used": "Portrait of Dietrich Bonhoeffer, German Lutheran pastor and theologian, 1930s, wearing dark suit and clerical collar, round wire-rimmed spectacles, serious and composed expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Dietrich_Bonhoeffer_(um_1938).jpg — CC BY-SA 3.0, circa 1938, approved by site owner as reference image",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 3.0, 'approved by site owner as reference image' — not public domain and not confirmed for redistribution; attribution not handled by MVP."
     },
     "review": {
       "human_reviewed": false,
@@ -5190,7 +5306,9 @@
       "file": "dwight-l-moody.jpg",
       "prompt_used": "Photorealistic portrait of Dwight L. Moody, American evangelical preacher, circa 1880s-1890s, wearing a dark Victorian suit, stocky build with full beard, warm and earnest expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Dwight_Lyman_Moody_c.1900.jpg — Library of Congress (digital ID cph.3c22752), published before 1931, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Library of Congress, published before 1931 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -5326,7 +5444,9 @@
       "file": "james-strong.jpg",
       "prompt_used": "Photorealistic portrait of James Strong, American Methodist biblical scholar, circa 1870s-1880s, wearing dark Victorian suit, full beard, distinguished scholarly expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:James_Strong_theologian_-_Brady-Handy.jpg — Brady-Handy photograph, Library of Congress Prints and Photographs Division, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Brady-Handy photograph, Library of Congress — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -5397,7 +5517,9 @@
       "file": "alexander-cruden.jpg",
       "prompt_used": "Photorealistic portrait of Alexander Cruden, Scottish Presbyterian biblical scholar and bookseller, circa 1740s, wearing 18th-century dark coat with white cravat, serious and earnest expression, historically accurate",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Page_14_illustration_(A_biographical_dictionary_of_eminent_Scotsmen,_vol_2).jpg — from A Biographical Dictionary of Eminent Scotsmen vol. 2, published before 1931, public domain in USA",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Explicitly 'public domain in USA', published before 1931."
     },
     "review": {
       "human_reviewed": false,
@@ -5643,7 +5765,9 @@
       "file": "john-wycliffe.jpg",
       "prompt_used": "Photorealistic portrait of John Wycliffe, English theologian and Bible reformer, 14th century, wearing dark medieval clerical robes, scholarly and determined expression, aged face with deep conviction, historically accurate to 1370s Oxford scholar dress",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Wycliffe_by_Kirby.jpg — public domain, portrait by Thomas Kirkby (1775–1847)",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Portrait by an artist who died 1847 — clear public-domain claim, no caveat."
     },
     "memorials": [
       {
@@ -5720,7 +5844,9 @@
       "file": "charlotte-elliott.jpg",
       "prompt_used": "Photorealistic portrait of Charlotte Elliott, English evangelical Anglican hymn writer, mid-19th century, wearing simple Victorian dark dress with white lace collar, gentle and thoughtful expression, soft indoor lighting, historically accurate to 1840s dress",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Charlotte_Elliott,_portrait.jpg — public domain, Baylor University Digital Collections; unknown date portrait photograph",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Baylor University Digital Collections, date unknown but explicit public-domain claim — flag for spot-check."
     },
     "memorials": [
       {
@@ -5798,7 +5924,9 @@
       "file": "cesar-malan.jpg",
       "prompt_used": "Photorealistic portrait of César Malan, Swiss Reformed Protestant minister, mid-19th century, wearing dark clerical coat with white collar, earnest and resolute expression, three-quarter view, historically accurate to 1850s dress",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:César_Malan,_ca_1863.jpg — public domain, photograph by Vuagnat, Genève, circa 1863, published before 1931",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Photograph circa 1863, published before 1931 — clear claim, no caveat."
     },
     "memorials": [
       {
@@ -5876,7 +6004,9 @@
       "file": "billy-graham.jpg",
       "prompt_used": "Photorealistic portrait of Billy Graham, American Southern Baptist evangelist, mid-1960s, wearing a dark suit and tie, angular face, swept-back hair, earnest and direct expression, historically accurate to the era",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Billy_Graham_bw_photo,_April_11,_1966.jpg — Library of Congress, U.S. News & World Report collection, photographer Warren K. Leffler, public domain (no known copyright restrictions)",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "Library of Congress rights statement is 'no known copyright restrictions', which is weaker than a certified public-domain claim; 1966 photo, copyright term uncertain — needs manual review."
     },
     "review": {
       "human_reviewed": false,
@@ -5963,7 +6093,9 @@
       "file": "harriet-tubman.jpg",
       "prompt_used": "Photorealistic portrait of Harriet Tubman, American abolitionist, mid-19th century, wearing a plain dark high-collared dress and shawl, dignified and resolute expression, historically accurate to 1860s dress",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Carte-de-visite_portrait_of_Harriet_Tubman_(cropped).jpg — Library of Congress, photograph c. 1868–1869, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Library of Congress, photograph c.1868-1869 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -6055,7 +6187,9 @@
       "file": "jonathan-edwards.jpg",
       "prompt_used": "Photorealistic portrait of Jonathan Edwards, American Puritan theologian and preacher, mid-18th century, wearing a dark clerical coat and white clerical bands with a wig, serious and thoughtful expression, historically accurate to 1740s-1750s colonial New England dress",
       "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Jonathan_Edwards_(Princeton_Portrait).jpg — painted portrait, mid-18th century, public domain",
-      "caption": "AI-generated image — no copyright claimed"
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Mid-18th-century painted portrait — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
