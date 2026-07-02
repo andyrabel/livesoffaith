@@ -44,11 +44,21 @@ without exception.
 - Any other cult, sect, or heterodox movement
 
 ### Flagged Figures
-Some figures are theologically orthodox but have specific areas of concern
-(e.g. C.S. Lewis — purgatory views; Watchman Nee — ecclesiology; Sadhu Sundar Singh —
-mystical claims). These may be included but must:
+Some figures are theologically orthodox but have specific areas of concern. These
+fall into two categories, and either is sufficient grounds to flag:
+- **Theological** — a doctrinal position not shared across evangelical traditions
+  (e.g. C.S. Lewis — purgatory views; Watchman Nee — ecclesiology; Sadhu Sundar
+  Singh — mystical claims)
+- **Moral/historical** — a documented act or position, judged by the ethical
+  standard of Scripture rather than by modern sensibility, that a reader would
+  reasonably want disclosed alongside the person's story (e.g. Martin Luther —
+  antisemitic writings; John Calvin — involvement in the execution of Michael
+  Servetus; a slaveholder or someone who defended slavery)
+
+Flagged figures may be included but must:
 - Have `"flagged": true` in their JSON entry
-- Have a `"footnote"` field with a specific, factual, charitable note
+- Have a `"footnote"` field with a specific, factual, charitable note — naming
+  the concern plainly without excusing it or dwelling on it
 - Be marked for mandatory human review before publishing
 - Display the footnote visibly at the bottom of their page
 
