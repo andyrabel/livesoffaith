@@ -5,6 +5,33 @@
     "born": 1900,
     "born_approximate": false,
     "died": 1991,
+    "significant_dates": [
+      {
+        "date": "Jul 25, 1900",
+        "event": "birth",
+        "details": "Born in Beijing, China."
+      },
+      {
+        "date": "Feb 1925",
+        "event": "other",
+        "details": "Began holding independent religious meetings in his home in Beijing."
+      },
+      {
+        "date": "Aug 1955",
+        "event": "other",
+        "details": "Arrested for refusing to join the state-sponsored Three-Self Patriotic Movement."
+      },
+      {
+        "date": "1980",
+        "event": "other",
+        "details": "Released from prison after more than two decades of imprisonment."
+      },
+      {
+        "date": "Jul 28, 1991",
+        "event": "death",
+        "details": "Died in Shanghai, China, aged 91."
+      }
+    ],
     "nationality": "Chinese",
     "era": "20th Century",
     "region": "Asia",
@@ -49,6 +76,38 @@
     "born": 1725,
     "born_approximate": false,
     "died": 1807,
+    "significant_dates": [
+      {
+        "date": "Aug 4, 1725",
+        "event": "birth",
+        "details": "Born in Wapping, London, England."
+      },
+      {
+        "date": "Mar 21, 1748",
+        "event": "saved",
+        "details": "Professed conversion after his ship survived a violent storm off County Donegal, Ireland."
+      },
+      {
+        "date": "Feb 12, 1750",
+        "event": "other",
+        "details": "Married his childhood sweetheart, Mary Catlett."
+      },
+      {
+        "date": "Jun 17, 1764",
+        "event": "other",
+        "details": "Ordained as a priest and became curate of Olney."
+      },
+      {
+        "date": "1779",
+        "event": "other",
+        "details": "Olney Hymns published, including \"Amazing Grace.\""
+      },
+      {
+        "date": "Dec 21, 1807",
+        "event": "death",
+        "details": "Died in London, England, aged 82."
+      }
+    ],
     "nationality": "English",
     "era": "18th Century",
     "region": "UK/Ireland",
@@ -119,6 +178,33 @@
     "born": 1820,
     "born_approximate": false,
     "died": 1915,
+    "significant_dates": [
+      {
+        "date": "Mar 24, 1820",
+        "event": "birth",
+        "details": "Born in Brewster, New York."
+      },
+      {
+        "date": "Nov 30, 1850",
+        "event": "saved",
+        "details": "Experienced conversion during a congregational hymn of consecration."
+      },
+      {
+        "date": "Apr 1844",
+        "event": "other",
+        "details": "Published her first book, A Blind Girl and Other Poems."
+      },
+      {
+        "date": "Mar 5, 1858",
+        "event": "other",
+        "details": "Married her husband, known as \"Van,\" in Maspeth, New York."
+      },
+      {
+        "date": "Feb 12, 1915",
+        "event": "death",
+        "details": "Died in Bridgeport, Connecticut, aged 94."
+      }
+    ],
     "nationality": "American",
     "era": "19th Century",
     "region": "North America",
@@ -177,6 +263,33 @@
     "born": 1628,
     "born_approximate": false,
     "died": 1688,
+    "significant_dates": [
+      {
+        "date": "Nov 30, 1628",
+        "event": "birth",
+        "details": "Baptized; exact birth date not recorded."
+      },
+      {
+        "date": "Nov 1660",
+        "event": "other",
+        "details": "Arrested for preaching without a license at Lower Samsell farm."
+      },
+      {
+        "date": "May 1672",
+        "event": "other",
+        "details": "Released from Bedford prison under the Declaration of Indulgence."
+      },
+      {
+        "date": "1678",
+        "event": "other",
+        "details": "Published The Pilgrim's Progress."
+      },
+      {
+        "date": "Aug 31, 1688",
+        "event": "death",
+        "details": "Died aged 59, at Strudwick's house."
+      }
+    ],
     "nationality": "English",
     "era": "17th Century",
     "region": "UK/Ireland",
@@ -234,6 +347,33 @@
     "born": 1674,
     "born_approximate": false,
     "died": 1748,
+    "significant_dates": [
+      {
+        "date": "Jul 17, 1674",
+        "event": "birth",
+        "details": "Born in Southampton, Hampshire, England."
+      },
+      {
+        "date": "1707",
+        "event": "other",
+        "details": "Published Hymns and Spiritual Songs, credited with introducing hymns to English churches."
+      },
+      {
+        "date": "1715",
+        "event": "other",
+        "details": "Published Divine Songs Attempted in Easy Language for the Use of Children."
+      },
+      {
+        "date": "1719",
+        "event": "other",
+        "details": "Published a metrical Psalter with Christian reinterpretation of the Psalms."
+      },
+      {
+        "date": "Nov 25, 1748",
+        "event": "death",
+        "details": "Died in Stoke Newington, Middlesex, England, aged 74."
+      }
+    ],
     "nationality": "English",
     "era": "18th Century",
     "region": "UK/Ireland",
@@ -293,6 +433,33 @@
     "born": 1707,
     "born_approximate": false,
     "died": 1788,
+    "significant_dates": [
+      {
+        "date": "Dec 18, 1707",
+        "event": "birth",
+        "details": "Born in Epworth, Lincolnshire, England."
+      },
+      {
+        "date": "Sep 1735",
+        "event": "other",
+        "details": "Ordained as a priest before sailing to the American colonies."
+      },
+      {
+        "date": "May 21, 1738",
+        "event": "saved",
+        "details": "Experienced an evangelical conversion."
+      },
+      {
+        "date": "Apr 1749",
+        "event": "other",
+        "details": "Married Sarah Gwynne."
+      },
+      {
+        "date": "Mar 29, 1788",
+        "event": "death",
+        "details": "Died in London, England, aged 80."
+      }
+    ],
     "nationality": "English",
     "era": "18th Century",
     "region": "UK/Ireland",
@@ -381,6 +548,33 @@
     "born": 1731,
     "born_approximate": false,
     "died": 1800,
+    "significant_dates": [
+      {
+        "date": "Nov 26, 1731",
+        "event": "birth",
+        "details": "Born in Berkhamsted, Hertfordshire, England."
+      },
+      {
+        "date": "1763",
+        "event": "other",
+        "details": "Suffered a breakdown after being offered a Clerkship of Journals in the House of Lords."
+      },
+      {
+        "date": "1773",
+        "event": "other",
+        "details": "Experienced a further attack of insanity while living in Olney."
+      },
+      {
+        "date": "1779",
+        "event": "other",
+        "details": "Olney Hymns published, resulting from his collaboration with John Newton."
+      },
+      {
+        "date": "Apr 25, 1800",
+        "event": "death",
+        "details": "Died in East Dereham, Norfolk, England, aged 68."
+      }
+    ],
     "nationality": "English",
     "era": "18th Century",
     "region": "UK/Ireland",
@@ -428,6 +622,38 @@
     "born": 1740,
     "born_approximate": false,
     "died": 1778,
+    "significant_dates": [
+      {
+        "date": "Nov 4, 1740",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "Aug 1755",
+        "event": "saved",
+        "details": "Converted at age 15 after hearing a sermon preached by James Morris in a barn."
+      },
+      {
+        "date": "1759",
+        "event": "other",
+        "details": "Published his first book, Poems on Sacred Subjects."
+      },
+      {
+        "date": "1762",
+        "event": "other",
+        "details": "Ordained as an Anglican deacon."
+      },
+      {
+        "date": "1763",
+        "event": "other",
+        "details": "Wrote his famous hymn \"Rock of Ages.\""
+      },
+      {
+        "date": "Aug 11, 1778",
+        "event": "death",
+        "details": "Died of tuberculosis, aged 37."
+      }
+    ],
     "nationality": "English",
     "era": "18th Century",
     "region": "UK/Ireland",
@@ -480,6 +706,33 @@
     "born": 1838,
     "born_approximate": false,
     "died": 1876,
+    "significant_dates": [
+      {
+        "date": "Jul 9, 1838",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "Jun 1, 1859",
+        "event": "other",
+        "details": "Married Lucy J. Young."
+      },
+      {
+        "date": "1869",
+        "event": "other",
+        "details": "Formed an association with evangelist Dwight L. Moody."
+      },
+      {
+        "date": "1874",
+        "event": "other",
+        "details": "Committed to full-time Christian evangelism."
+      },
+      {
+        "date": "Dec 29, 1876",
+        "event": "death",
+        "details": "Died in the Ashtabula River Railroad Disaster in Ohio."
+      }
+    ],
     "nationality": "American",
     "era": "19th Century",
     "region": "North America",
@@ -545,6 +798,33 @@
     "born": 1808,
     "born_approximate": false,
     "died": 1889,
+    "significant_dates": [
+      {
+        "date": "Dec 19, 1808",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "1838",
+        "event": "other",
+        "details": "Ordained as a minister of the Church of Scotland at North Church, Kelso."
+      },
+      {
+        "date": "1843",
+        "event": "other",
+        "details": "Left the established church for the Free Church of Scotland during the Disruption of 1843."
+      },
+      {
+        "date": "1883",
+        "event": "other",
+        "details": "Elected Moderator of the General Assembly of the Free Church."
+      },
+      {
+        "date": "Jul 31, 1889",
+        "event": "death",
+        "details": "Died in Edinburgh, Scotland."
+      }
+    ],
     "nationality": "Scottish",
     "era": "19th Century",
     "region": "UK/Ireland",
@@ -605,6 +885,23 @@
     "born": 1669,
     "born_approximate": false,
     "died": 1742,
+    "significant_dates": [
+      {
+        "date": "Jan 20, 1669",
+        "event": "birth",
+        "details": "Born in London, England"
+      },
+      {
+        "date": "Nov 11, 1688",
+        "event": "other",
+        "details": "Married Samuel Wesley"
+      },
+      {
+        "date": "Jul 23, 1742",
+        "event": "death",
+        "details": "Died in London, England"
+      }
+    ],
     "nationality": "English",
     "era": "18th Century",
     "region": "UK/Ireland",
@@ -646,6 +943,28 @@
     "born": 1714,
     "born_approximate": false,
     "died": 1770,
+    "significant_dates": [
+      {
+        "date": "Dec 27, 1714",
+        "event": "birth",
+        "details": "Born in Gloucester, England (New Style calendar)"
+      },
+      {
+        "date": "1736",
+        "event": "other",
+        "details": "Ordained deacon in the Church of England, after conversion"
+      },
+      {
+        "date": "Mar 25, 1740",
+        "event": "other",
+        "details": "Construction began on Bethesda Orphanage, Georgia"
+      },
+      {
+        "date": "Sep 30, 1770",
+        "event": "death",
+        "details": "Died in Newburyport, Massachusetts"
+      }
+    ],
     "nationality": "English",
     "era": "18th Century",
     "region": "UK/Ireland",
@@ -695,6 +1014,38 @@
     "born": 1759,
     "born_approximate": false,
     "died": 1833,
+    "significant_dates": [
+      {
+        "date": "Aug 24, 1759",
+        "event": "birth",
+        "details": "Born in Hull, England"
+      },
+      {
+        "date": "Sep 1780",
+        "event": "other",
+        "details": "Elected Member of Parliament for Kingston upon Hull"
+      },
+      {
+        "date": "1785",
+        "event": "saved",
+        "details": "Underwent an evangelical conversion experience"
+      },
+      {
+        "date": "Feb 23, 1807",
+        "event": "other",
+        "details": "Slave Trade Act passed by Parliament, 283 votes to 16"
+      },
+      {
+        "date": "Jul 26, 1833",
+        "event": "other",
+        "details": "Heard news guaranteeing passage of the Slavery Abolition Act"
+      },
+      {
+        "date": "Jul 29, 1833",
+        "event": "death",
+        "details": "Died in London, days after abolition secured"
+      }
+    ],
     "nationality": "English",
     "era": "18th Century",
     "region": "UK/Ireland",
@@ -758,6 +1109,38 @@
     "born": 1805,
     "born_approximate": false,
     "died": 1898,
+    "significant_dates": [
+      {
+        "date": "Sep 27, 1805",
+        "event": "birth",
+        "details": "Born in Kroppenstaedt, Prussia"
+      },
+      {
+        "date": "1825",
+        "event": "saved",
+        "details": "Experienced a conversion described as the turning point of his life"
+      },
+      {
+        "date": "Oct 7, 1830",
+        "event": "other",
+        "details": "Married Mary Groves"
+      },
+      {
+        "date": "1834",
+        "event": "other",
+        "details": "Founded the Scriptural Knowledge Institution for Home and Abroad"
+      },
+      {
+        "date": "1849",
+        "event": "other",
+        "details": "Opened new orphanage housing 300 children at Ashley Down, Bristol"
+      },
+      {
+        "date": "Mar 10, 1898",
+        "event": "death",
+        "details": "Died in Bristol, England"
+      }
+    ],
     "nationality": "German / British",
     "era": "19th Century",
     "region": "UK/Ireland",
@@ -800,6 +1183,38 @@
     "born": 1898,
     "born_approximate": false,
     "died": 1963,
+    "significant_dates": [
+      {
+        "date": "Nov 29, 1898",
+        "event": "birth",
+        "details": "Born in Belfast, Ireland"
+      },
+      {
+        "date": "1925",
+        "event": "other",
+        "details": "Elected Fellow and Tutor in English Literature at Magdalen College, Oxford"
+      },
+      {
+        "date": "1931",
+        "event": "saved",
+        "details": "Converted to Christianity after a discussion with Tolkien and Hugo Dyson"
+      },
+      {
+        "date": "1941",
+        "event": "other",
+        "details": "Began religious broadcasts for the BBC during the war, continuing to 1943"
+      },
+      {
+        "date": "1954",
+        "event": "other",
+        "details": "Appointed to chair in Medieval and Renaissance Literature at Cambridge"
+      },
+      {
+        "date": "Nov 22, 1963",
+        "event": "death",
+        "details": "Died in Oxford, England"
+      }
+    ],
     "nationality": "Irish / British",
     "era": "20th Century",
     "region": "UK/Ireland",
@@ -851,6 +1266,33 @@
     "born": 1927,
     "born_approximate": false,
     "died": 1956,
+    "significant_dates": [
+      {
+        "date": "Oct 8, 1927",
+        "event": "birth",
+        "details": "Born in Portland, Oregon"
+      },
+      {
+        "date": "1941",
+        "event": "other",
+        "details": "Entered Benson Polytechnic High School"
+      },
+      {
+        "date": "Feb 21, 1952",
+        "event": "other",
+        "details": "Arrived in Ecuador to evangelize the Quechua people"
+      },
+      {
+        "date": "Oct 8, 1953",
+        "event": "other",
+        "details": "Married fellow Wheaton missionary Elisabeth Howard"
+      },
+      {
+        "date": "Jan 8, 1956",
+        "event": "martyred",
+        "details": "Killed with four companions by Huaorani warriors in Ecuador"
+      }
+    ],
     "nationality": "American",
     "era": "20th Century",
     "region": "Latin America",
@@ -891,6 +1333,38 @@
     "born": 1832,
     "born_approximate": false,
     "died": 1905,
+    "significant_dates": [
+      {
+        "date": "May 21, 1832",
+        "event": "birth",
+        "details": "Born in Barnsley, Yorkshire, England"
+      },
+      {
+        "date": "Jun 1849",
+        "event": "saved",
+        "details": "Experienced religious conversion at age 17"
+      },
+      {
+        "date": "Mar 1, 1854",
+        "event": "other",
+        "details": "Arrived in Shanghai, China as a missionary"
+      },
+      {
+        "date": "Jan 20, 1858",
+        "event": "other",
+        "details": "Married Maria Dyer"
+      },
+      {
+        "date": "Jun 25, 1865",
+        "event": "other",
+        "details": "Founded the China Inland Mission after a 'heavenly vision' on Brighton beach"
+      },
+      {
+        "date": "Jun 3, 1905",
+        "event": "death",
+        "details": "Died in Changsha, Hunan, China"
+      }
+    ],
     "nationality": "English",
     "era": "19th Century",
     "region": "Asia",
@@ -949,6 +1423,33 @@
     "born": 1813,
     "born_approximate": false,
     "died": 1873,
+    "significant_dates": [
+      {
+        "date": "Mar 19, 1813",
+        "event": "birth",
+        "details": "Born in Blantyre, Scotland"
+      },
+      {
+        "date": "Mar 15, 1841",
+        "event": "other",
+        "details": "Arrived at Simon's Bay, the Cape, beginning missionary work in Africa"
+      },
+      {
+        "date": "1855",
+        "event": "other",
+        "details": "Became the first European to see Mosi-oa-Tunya, which he named Victoria Falls"
+      },
+      {
+        "date": "Nov 10, 1871",
+        "event": "other",
+        "details": "Found by Henry Morton Stanley at Ujiji"
+      },
+      {
+        "date": "May 1, 1873",
+        "event": "death",
+        "details": "Died in present-day Zambia"
+      }
+    ],
     "nationality": "Scottish",
     "era": "19th Century",
     "region": "Africa",
@@ -1000,6 +1501,33 @@
     "born": 1867,
     "born_approximate": false,
     "died": 1951,
+    "significant_dates": [
+      {
+        "date": "Dec 16, 1867",
+        "event": "birth",
+        "details": "Born in Millisle, County Down, Ireland"
+      },
+      {
+        "date": "1887",
+        "event": "other",
+        "details": "Heard Hudson Taylor speak at the Keswick Convention and felt called to missions"
+      },
+      {
+        "date": "1901",
+        "event": "other",
+        "details": "Founded the Dohnavur Fellowship in South India"
+      },
+      {
+        "date": "1912",
+        "event": "other",
+        "details": "Funding secured to establish a hospital at Dohnavur"
+      },
+      {
+        "date": "Jan 18, 1951",
+        "event": "death",
+        "details": "Died at Dohnavur, India"
+      }
+    ],
     "nationality": "Irish",
     "era": "20th Century",
     "region": "Asia",
@@ -1049,6 +1577,38 @@
     "born": 1901,
     "born_approximate": false,
     "died": 1944,
+    "significant_dates": [
+      {
+        "date": "Sep 27, 1901",
+        "event": "birth",
+        "details": "Born in Hinghwa, Fujian, China"
+      },
+      {
+        "date": "1920",
+        "event": "other",
+        "details": "Sent to the United States for higher education; earned a doctorate in chemistry"
+      },
+      {
+        "date": "Feb 10, 1927",
+        "event": "saved",
+        "details": "Baptized in the Holy Spirit during a time of prayer"
+      },
+      {
+        "date": "Nov 1927",
+        "event": "other",
+        "details": "Returned to China after his release arranged by the Chinese Consulate"
+      },
+      {
+        "date": "1931",
+        "event": "other",
+        "details": "Formed the Bethel Worldwide Evangelistic Band with Andrew Gih"
+      },
+      {
+        "date": "Aug 18, 1944",
+        "event": "death",
+        "details": "Died in Beijing, China"
+      }
+    ],
     "nationality": "Chinese",
     "era": "20th Century",
     "region": "Asia",
@@ -1093,6 +1653,38 @@
     "born": 1903,
     "born_approximate": false,
     "died": 1972,
+    "significant_dates": [
+      {
+        "date": "Nov 4, 1903",
+        "event": "birth",
+        "details": "Born in Shantou, Qing dynasty China"
+      },
+      {
+        "date": "Apr 28, 1920",
+        "event": "saved",
+        "details": "Committed his life to Christ alone in his room, age 17"
+      },
+      {
+        "date": "1921",
+        "event": "other",
+        "details": "Established first 'local church' in Sitiawan, Malaysia, age 21"
+      },
+      {
+        "date": "Apr 10, 1952",
+        "event": "other",
+        "details": "Arrested in Shanghai by Public Security officers"
+      },
+      {
+        "date": "Jun 21, 1956",
+        "event": "other",
+        "details": "Sentenced by Shanghai High Court to fifteen years imprisonment"
+      },
+      {
+        "date": "May 30, 1972",
+        "event": "death",
+        "details": "Died in detention after decades of imprisonment"
+      }
+    ],
     "nationality": "Chinese",
     "era": "20th Century",
     "region": "Asia",
@@ -1130,6 +1722,38 @@
     "born_approximate": false,
     "died": 1929,
     "died_approximate": true,
+    "significant_dates": [
+      {
+        "date": "Sep 3, 1889",
+        "event": "birth",
+        "details": "Born in Ludhiana, Punjab, British India"
+      },
+      {
+        "date": "1903",
+        "event": "saved",
+        "details": "Converted to Christianity as a teenager"
+      },
+      {
+        "date": "1905",
+        "event": "other",
+        "details": "Publicly baptised as a Christian at the parish church in Simla"
+      },
+      {
+        "date": "1908",
+        "event": "other",
+        "details": "Crossed the frontier into Tibet as an itinerant missionary"
+      },
+      {
+        "date": "Apr 18, 1929",
+        "event": "other",
+        "details": "Last seen setting off on a final journey into the Himalayas"
+      },
+      {
+        "date": "c. 1929",
+        "event": "death",
+        "details": "Disappeared in the Himalayas; fate unconfirmed"
+      }
+    ],
     "nationality": "Indian",
     "era": "20th Century",
     "region": "Asia",
@@ -1166,6 +1790,33 @@
     "born": 1494,
     "born_approximate": true,
     "died": 1536,
+    "significant_dates": [
+      {
+        "date": "c. 1494",
+        "event": "birth",
+        "details": "Born in Gloucestershire, England"
+      },
+      {
+        "date": "1525",
+        "event": "other",
+        "details": "Completed his English translation of the New Testament"
+      },
+      {
+        "date": "1526",
+        "event": "other",
+        "details": "Full edition of his New Testament printed at Worms"
+      },
+      {
+        "date": "1535",
+        "event": "other",
+        "details": "Arrested at the English House in Antwerp"
+      },
+      {
+        "date": "Oct 1536",
+        "event": "martyred",
+        "details": "Strangled and then burned at the stake for heresy"
+      }
+    ],
     "nationality": "English",
     "era": "Reformation",
     "region": "UK/Ireland",
@@ -1239,6 +1890,33 @@
     "born": 1369,
     "born_approximate": true,
     "died": 1415,
+    "significant_dates": [
+      {
+        "date": "c. 1369",
+        "event": "birth",
+        "details": "Born in Husinec, Bohemia; exact date disputed"
+      },
+      {
+        "date": "1400",
+        "event": "other",
+        "details": "Ordained as a Catholic priest"
+      },
+      {
+        "date": "1410",
+        "event": "other",
+        "details": "Excommunicated following a papal bull of Antipope Alexander V"
+      },
+      {
+        "date": "Oct 18, 1412",
+        "event": "other",
+        "details": "Appealed to Jesus Christ as supreme judge over the Church"
+      },
+      {
+        "date": "Jul 6, 1415",
+        "event": "martyred",
+        "details": "Burned at the stake for heresy at the Council of Constance"
+      }
+    ],
     "nationality": "Bohemian",
     "era": "Reformation",
     "region": "Europe",
@@ -1289,6 +1967,38 @@
     "born": 1909,
     "born_approximate": false,
     "died": 2001,
+    "significant_dates": [
+      {
+        "date": "Mar 24, 1909",
+        "event": "birth",
+        "details": "Born in Bucharest, Romania"
+      },
+      {
+        "date": "1938",
+        "event": "saved",
+        "details": "Converted to Christianity through the witness of Christian Wolfkes"
+      },
+      {
+        "date": "Feb 29, 1948",
+        "event": "other",
+        "details": "Arrested by Romanian communist authorities en route to a service"
+      },
+      {
+        "date": "1959",
+        "event": "other",
+        "details": "Arrested a second time and sentenced to 25 years"
+      },
+      {
+        "date": "Apr 1967",
+        "event": "other",
+        "details": "Founded Jesus to the Communist World, later Voice of the Martyrs"
+      },
+      {
+        "date": "Feb 17, 2001",
+        "event": "death",
+        "details": "Died in hospital in Torrance, California, aged 91"
+      }
+    ],
     "nationality": "Romanian",
     "era": "20th Century",
     "region": "Europe",
@@ -1334,6 +2044,33 @@
     "born": 1761,
     "born_approximate": false,
     "died": 1834,
+    "significant_dates": [
+      {
+        "date": "Aug 17, 1761",
+        "event": "birth",
+        "details": "Born in Paulerspury, England"
+      },
+      {
+        "date": "Nov 1793",
+        "event": "other",
+        "details": "Landed at Calcutta to begin missionary work in India"
+      },
+      {
+        "date": "Jan 10, 1800",
+        "event": "other",
+        "details": "Settled at the Danish colony of Serampore"
+      },
+      {
+        "date": "1818",
+        "event": "other",
+        "details": "Founded Serampore College to train indigenous ministers"
+      },
+      {
+        "date": "Jun 9, 1834",
+        "event": "death",
+        "details": "Died at Serampore, Bengal Presidency, aged 72"
+      }
+    ],
     "nationality": "English",
     "era": "18th Century",
     "region": "Asia",
@@ -1387,6 +2124,33 @@
     "born": 1853,
     "born_approximate": false,
     "died": 1928,
+    "significant_dates": [
+      {
+        "date": "Jul 14, 1853",
+        "event": "birth",
+        "details": "Born in London, England"
+      },
+      {
+        "date": "May 1887",
+        "event": "other",
+        "details": "Declared herself called to mission work in North Africa"
+      },
+      {
+        "date": "Mar 1888",
+        "event": "other",
+        "details": "Arrived in Algiers with two other missionaries"
+      },
+      {
+        "date": "1907",
+        "event": "other",
+        "details": "Her mission work was named the Algiers Mission Band"
+      },
+      {
+        "date": "Aug 27, 1928",
+        "event": "death",
+        "details": "Died at El Biar, Algiers, Algeria, aged 75"
+      }
+    ],
     "nationality": "British",
     "era": "19th Century",
     "region": "Africa",
@@ -1433,6 +2197,33 @@
     "born": 1795,
     "born_approximate": false,
     "died": 1853,
+    "significant_dates": [
+      {
+        "date": "Feb 1, 1795",
+        "event": "birth",
+        "details": "Born in Newton Valence, Hampshire, England"
+      },
+      {
+        "date": "1829",
+        "event": "other",
+        "details": "Set out for Baghdad as a missionary with his wife and sons"
+      },
+      {
+        "date": "May 14, 1831",
+        "event": "other",
+        "details": "His wife Mary died in Baghdad during plague and famine"
+      },
+      {
+        "date": "Mar 10, 1836",
+        "event": "other",
+        "details": "Wrote 'Prophetical' letter to J.N. Darby on unity and communion"
+      },
+      {
+        "date": "May 20, 1853",
+        "event": "death",
+        "details": "Died in Bristol, England, aged 58"
+      }
+    ],
     "nationality": "English",
     "era": "19th Century",
     "region": "Asia",
@@ -1481,6 +2272,33 @@
     "born": 1801,
     "born_approximate": false,
     "died": 1885,
+    "significant_dates": [
+      {
+        "date": "Apr 28, 1801",
+        "event": "birth",
+        "details": "Born at 24 Grosvenor Square, Mayfair, London"
+      },
+      {
+        "date": "Jun 1826",
+        "event": "other",
+        "details": "Elected Tory Member of Parliament for Woodstock"
+      },
+      {
+        "date": "1844",
+        "event": "other",
+        "details": "Became president of the Ragged School Union"
+      },
+      {
+        "date": "Jul 1845",
+        "event": "other",
+        "details": "Sponsored two Lunacy Acts reforming care of the mentally ill"
+      },
+      {
+        "date": "Oct 1, 1885",
+        "event": "death",
+        "details": "Died at Folkestone, Kent, England, aged 84"
+      }
+    ],
     "nationality": "English",
     "era": "19th Century",
     "region": "UK/Ireland",
@@ -1534,6 +2352,33 @@
     "born": 1627,
     "born_approximate": false,
     "died": 1691,
+    "significant_dates": [
+      {
+        "date": "Jan 25, 1627",
+        "event": "birth",
+        "details": "Born at Lismore Castle, County Waterford, Ireland"
+      },
+      {
+        "date": "1660",
+        "event": "other",
+        "details": "Published New Experiments Physico-Mechanical, Touching the Spring of the Air"
+      },
+      {
+        "date": "1661",
+        "event": "other",
+        "details": "Published The Sceptical Chymist"
+      },
+      {
+        "date": "1663",
+        "event": "other",
+        "details": "Elected a founding Fellow of the Royal Society"
+      },
+      {
+        "date": "Dec 31, 1691",
+        "event": "death",
+        "details": "Died in London, England, aged 64"
+      }
+    ],
     "nationality": "Irish",
     "era": "17th Century",
     "region": "UK/Ireland",
@@ -1579,6 +2424,33 @@
     "born": 1840,
     "born_approximate": false,
     "died": 1901,
+    "significant_dates": [
+      {
+        "date": "Nov 22, 1840",
+        "event": "birth",
+        "details": "Born in Chicopee Falls, Massachusetts"
+      },
+      {
+        "date": "1861",
+        "event": "other",
+        "details": "Enlisted as second lieutenant, 72nd Illinois Infantry"
+      },
+      {
+        "date": "1873",
+        "event": "other",
+        "details": "Began full-time evangelism alongside hymn writer Philip P. Bliss"
+      },
+      {
+        "date": "Dec 29, 1876",
+        "event": "other",
+        "details": "Evangelistic partner Philip P. Bliss died in the Ashtabula train disaster"
+      },
+      {
+        "date": "Mar 4, 1901",
+        "event": "death",
+        "details": "Died at his daughter's home in Northfield, Massachusetts"
+      }
+    ],
     "nationality": "American",
     "era": "19th Century",
     "region": "North America",
@@ -1630,6 +2502,33 @@
     "born": 1836,
     "born_approximate": false,
     "died": 1879,
+    "significant_dates": [
+      {
+        "date": "Dec 14, 1836",
+        "event": "birth",
+        "details": "Born at Astley, Worcestershire, England"
+      },
+      {
+        "date": "1851",
+        "event": "saved",
+        "details": "Wrote that she had committed her soul to the Saviour"
+      },
+      {
+        "date": "Jul 17, 1853",
+        "event": "other",
+        "details": "Confirmed at Worcester Cathedral"
+      },
+      {
+        "date": "1873",
+        "event": "other",
+        "details": "Read All for Jesus, an experience she called transformative"
+      },
+      {
+        "date": "Jun 3, 1879",
+        "event": "death",
+        "details": "Died near Caswell Bay, Wales, aged 42"
+      }
+    ],
     "nationality": "English",
     "era": "19th Century",
     "region": "UK/Ireland",
@@ -1680,6 +2579,38 @@
     "born": 1953,
     "born_approximate": false,
     "died": 1982,
+    "significant_dates": [
+      {
+        "date": "Oct 21, 1953",
+        "event": "birth",
+        "details": "Born in Sheepshead Bay, Brooklyn, New York"
+      },
+      {
+        "date": "Dec 1972",
+        "event": "saved",
+        "details": "Committed his life to Jesus Christ"
+      },
+      {
+        "date": "Dec 25, 1973",
+        "event": "other",
+        "details": "Married Melody Steiner at the Little Brown Church, Studio City"
+      },
+      {
+        "date": "May 20, 1977",
+        "event": "other",
+        "details": "Released debut album For Him Who Has Ears to Hear"
+      },
+      {
+        "date": "1977",
+        "event": "other",
+        "details": "Founded Last Days Ministries with his wife"
+      },
+      {
+        "date": "Jul 28, 1982",
+        "event": "death",
+        "details": "Died in a plane crash in Garden Valley, Texas"
+      }
+    ],
     "nationality": "American",
     "era": "20th Century",
     "region": "North America",
@@ -1735,6 +2666,33 @@
     "born": 1620,
     "born_approximate": true,
     "died": 1686,
+    "significant_dates": [
+      {
+        "date": "c. 1620",
+        "event": "birth",
+        "details": "English Puritan preacher, exact birth year unrecorded"
+      },
+      {
+        "date": "1646",
+        "event": "other",
+        "details": "Began a 16-year pastorate at St Stephen Walbrook, London"
+      },
+      {
+        "date": "Jun 30, 1652",
+        "event": "other",
+        "details": "Released from imprisonment over involvement in Christopher Love's plot"
+      },
+      {
+        "date": "1672",
+        "event": "other",
+        "details": "Obtained a license to preach under the Declaration of Indulgence"
+      },
+      {
+        "date": "Jul 28, 1686",
+        "event": "death",
+        "details": "Recorded burial date; died at Barnston, Essex"
+      }
+    ],
     "nationality": "English",
     "era": "17th Century",
     "region": "UK/Ireland",
@@ -1773,6 +2731,33 @@
     "born": 1892,
     "born_approximate": false,
     "died": 1983,
+    "significant_dates": [
+      {
+        "date": "Apr 15, 1892",
+        "event": "birth",
+        "details": "Born in Haarlem, Netherlands"
+      },
+      {
+        "date": "Feb 28, 1944",
+        "event": "other",
+        "details": "Ten Boom family arrested by the Nazis for hiding Jews"
+      },
+      {
+        "date": "Dec 1944",
+        "event": "other",
+        "details": "Released from custody following sister Betsie's death in Ravensbruck"
+      },
+      {
+        "date": "1946",
+        "event": "other",
+        "details": "Returned to Germany, beginning a ministry of forgiveness and reconciliation"
+      },
+      {
+        "date": "Apr 15, 1983",
+        "event": "death",
+        "details": "Died in Placentia, California, on her 91st birthday"
+      }
+    ],
     "nationality": "Dutch",
     "era": "20th Century",
     "region": "Europe",
@@ -1825,6 +2810,33 @@
     "born": 1902,
     "born_approximate": false,
     "died": 1945,
+    "significant_dates": [
+      {
+        "date": "Jan 16, 1902",
+        "event": "birth",
+        "details": "Born in Tianjin, China, to Scottish missionary parents"
+      },
+      {
+        "date": "Jul 11, 1924",
+        "event": "other",
+        "details": "Won Olympic gold in the 400 metres at the Paris Olympics"
+      },
+      {
+        "date": "1925",
+        "event": "other",
+        "details": "Returned to China to serve as a missionary"
+      },
+      {
+        "date": "1943",
+        "event": "other",
+        "details": "Interned by Japanese forces at Weihsien Internment Camp"
+      },
+      {
+        "date": "Feb 21, 1945",
+        "event": "death",
+        "details": "Died in Weihsien Internment Camp of a brain tumour"
+      }
+    ],
     "nationality": "Scottish",
     "era": "20th Century",
     "region": "Asia",
@@ -1877,6 +2889,33 @@
     "born": 1926,
     "born_approximate": false,
     "died": 2015,
+    "significant_dates": [
+      {
+        "date": "Dec 21, 1926",
+        "event": "birth",
+        "details": "Born in Brussels, Belgium"
+      },
+      {
+        "date": "1953",
+        "event": "other",
+        "details": "Married Jim Elliot in Quito, Ecuador"
+      },
+      {
+        "date": "Jan 1956",
+        "event": "other",
+        "details": "Husband Jim Elliot killed by Huaorani tribesmen during Operation Auca"
+      },
+      {
+        "date": "Oct 1958",
+        "event": "other",
+        "details": "Went to live among the Huaorani people in Ecuador"
+      },
+      {
+        "date": "Jun 15, 2015",
+        "event": "death",
+        "details": "Died in Magnolia, Massachusetts"
+      }
+    ],
     "nationality": "American",
     "era": "20th Century",
     "region": "Latin America",
@@ -1917,6 +2956,33 @@
     "born": 1928,
     "born_approximate": false,
     "died": 2022,
+    "significant_dates": [
+      {
+        "date": "May 11, 1928",
+        "event": "birth",
+        "details": "Born Andrew van der Bijl in the Netherlands"
+      },
+      {
+        "date": "Jul 1955",
+        "event": "other",
+        "details": "Traveled to Communist Poland for the World Festival of Youth and Students"
+      },
+      {
+        "date": "1955",
+        "event": "other",
+        "details": "Founded Open Doors to smuggle Bibles behind the Iron Curtain"
+      },
+      {
+        "date": "1957",
+        "event": "other",
+        "details": "Traveled to Moscow in the Soviet Union"
+      },
+      {
+        "date": "Sep 27, 2022",
+        "event": "death",
+        "details": "Died aged 94"
+      }
+    ],
     "nationality": "Dutch",
     "era": "20th Century",
     "region": "Europe",
@@ -1949,6 +3015,33 @@
     "born": 1887,
     "born_approximate": false,
     "died": 1913,
+    "significant_dates": [
+      {
+        "date": "Nov 1, 1887",
+        "event": "birth",
+        "details": "Born in Chicago, Illinois"
+      },
+      {
+        "date": "1906",
+        "event": "other",
+        "details": "Missionary calling crystallized at Student Volunteer Movement convention in Nashville"
+      },
+      {
+        "date": "1909",
+        "event": "other",
+        "details": "Graduated from Yale University"
+      },
+      {
+        "date": "1912",
+        "event": "other",
+        "details": "Graduated from Princeton Theological Seminary"
+      },
+      {
+        "date": "Apr 9, 1913",
+        "event": "death",
+        "details": "Died in Egypt of cerebral meningitis before reaching China"
+      }
+    ],
     "nationality": "American",
     "era": "20th Century",
     "region": "North America",
@@ -1994,6 +3087,33 @@
     "born": 1848,
     "born_approximate": false,
     "died": 1915,
+    "significant_dates": [
+      {
+        "date": "Dec 2, 1848",
+        "event": "birth",
+        "details": "Born in Aberdeen, Scotland"
+      },
+      {
+        "date": "c. 1875",
+        "event": "other",
+        "details": "Resolved to become a missionary after hearing of David Livingstone's death"
+      },
+      {
+        "date": "Aug 5, 1876",
+        "event": "other",
+        "details": "Sailed for West Africa aboard the SS Ethiopia"
+      },
+      {
+        "date": "Aug 1888",
+        "event": "other",
+        "details": "Moved to Okoyong to pioneer mission work"
+      },
+      {
+        "date": "Jan 13, 1915",
+        "event": "death",
+        "details": "Died at Use Ikot Oku, Calabar, Nigeria"
+      }
+    ],
     "nationality": "Scottish",
     "era": "19th Century",
     "region": "Africa",
@@ -2053,6 +3173,38 @@
     "born": 1788,
     "born_approximate": false,
     "died": 1850,
+    "significant_dates": [
+      {
+        "date": "Aug 9, 1788",
+        "event": "birth",
+        "details": "Born in Malden, Massachusetts"
+      },
+      {
+        "date": "1808",
+        "event": "saved",
+        "details": "Made a solemn dedication of himself to God, marking his conversion"
+      },
+      {
+        "date": "Feb 19, 1812",
+        "event": "other",
+        "details": "Sailed from Salem as one of America's first overseas missionaries"
+      },
+      {
+        "date": "1824",
+        "event": "other",
+        "details": "Imprisoned roughly 17-20 months during the Anglo-Burmese War"
+      },
+      {
+        "date": "1834",
+        "event": "other",
+        "details": "Completed full Burmese Bible translation after 24 years' labor"
+      },
+      {
+        "date": "Apr 12, 1850",
+        "event": "death",
+        "details": "Died at sea in the Bay of Bengal, aged 61"
+      }
+    ],
     "nationality": "American",
     "era": "19th Century",
     "region": "Asia",
@@ -2099,6 +3251,33 @@
     "born": 1828,
     "born_approximate": false,
     "died": 1888,
+    "significant_dates": [
+      {
+        "date": "Oct 20, 1828",
+        "event": "birth",
+        "details": "Born in Troy, New York"
+      },
+      {
+        "date": "1871",
+        "event": "other",
+        "details": "Great Chicago Fire destroyed his real estate investments"
+      },
+      {
+        "date": "Nov 22, 1873",
+        "event": "other",
+        "details": "SS Ville du Havre sank; his four daughters died, inspiring 'It Is Well with My Soul'"
+      },
+      {
+        "date": "Aug 1881",
+        "event": "other",
+        "details": "Settled in Jerusalem, helping found the American Colony"
+      },
+      {
+        "date": "Sep 25, 1888",
+        "event": "death",
+        "details": "Died in Jerusalem, Ottoman Empire, from malaria, aged 59"
+      }
+    ],
     "nationality": "American",
     "era": "19th Century",
     "region": "North America",
@@ -2147,6 +3326,38 @@
     "born": 1703,
     "born_approximate": false,
     "died": 1791,
+    "significant_dates": [
+      {
+        "date": "Jun 28, 1703",
+        "event": "birth",
+        "details": "Born in Epworth, Lincolnshire, England"
+      },
+      {
+        "date": "Oct 14, 1735",
+        "event": "other",
+        "details": "Sailed for Georgia mission in the American colonies"
+      },
+      {
+        "date": "May 24, 1738",
+        "event": "saved",
+        "details": "Aldersgate experience; felt his heart 'strangely warmed', trusted Christ alone for salvation"
+      },
+      {
+        "date": "Apr 2, 1739",
+        "event": "other",
+        "details": "Began open-air preaching at a Bristol brickyard, launching mass revival"
+      },
+      {
+        "date": "1739",
+        "event": "other",
+        "details": "Formed the first Methodist society in London"
+      },
+      {
+        "date": "Mar 2, 1791",
+        "event": "death",
+        "details": "Died in London, aged 87"
+      }
+    ],
     "nationality": "English",
     "era": "18th Century",
     "region": "UK/Ireland",
@@ -2241,6 +3452,38 @@
     "born": 1938,
     "born_approximate": false,
     "died": 2023,
+    "significant_dates": [
+      {
+        "date": "Jul 3, 1938",
+        "event": "birth",
+        "details": "Born in New Jersey, USA"
+      },
+      {
+        "date": "1955",
+        "event": "saved",
+        "details": "Converted at age 16 at a Billy Graham event in Madison Square Garden"
+      },
+      {
+        "date": "1962",
+        "event": "other",
+        "details": "Operation Mobilisation officially launched"
+      },
+      {
+        "date": "1970",
+        "event": "other",
+        "details": "OM purchased its first ship, the MV Logos"
+      },
+      {
+        "date": "Aug 2003",
+        "event": "other",
+        "details": "Handed over international leadership of OM to Peter Maiden"
+      },
+      {
+        "date": "Apr 14, 2023",
+        "event": "death",
+        "details": "Died in London, aged 84"
+      }
+    ],
     "nationality": "American",
     "era": "20th Century",
     "region": "North America",
@@ -2278,6 +3521,33 @@
     "born": 1662,
     "born_approximate": false,
     "died": 1714,
+    "significant_dates": [
+      {
+        "date": "Oct 18, 1662",
+        "event": "birth",
+        "details": "Born prematurely at Broad Oak farmhouse, Flintshire-Shropshire border"
+      },
+      {
+        "date": "May 9, 1687",
+        "event": "other",
+        "details": "Ordained by six Nonconformist ministers"
+      },
+      {
+        "date": "1708",
+        "event": "other",
+        "details": "Began publishing his renowned multi-volume Bible commentary, completed 1710"
+      },
+      {
+        "date": "May 18, 1712",
+        "event": "other",
+        "details": "Moved to Hackney to begin a new pastoral ministry"
+      },
+      {
+        "date": "Jun 22, 1714",
+        "event": "death",
+        "details": "Died at Nantwich, aged 51, from apoplexy"
+      }
+    ],
     "nationality": "British",
     "era": "17th Century",
     "region": "UK/Ireland",
@@ -2323,6 +3593,38 @@
     "born": 1834,
     "born_approximate": false,
     "died": 1892,
+    "significant_dates": [
+      {
+        "date": "Jun 19, 1834",
+        "event": "birth",
+        "details": "Born in Kelvedon, England"
+      },
+      {
+        "date": "Jan 6, 1850",
+        "event": "saved",
+        "details": "Converted at age 15 in a snowstorm at a Primitive Methodist chapel, Colchester, through Isaiah 45:22"
+      },
+      {
+        "date": "Apr 1854",
+        "event": "other",
+        "details": "Called to pastor New Park Street Chapel, London, aged 19"
+      },
+      {
+        "date": "Mar 18, 1861",
+        "event": "other",
+        "details": "Metropolitan Tabernacle opened as his new church building"
+      },
+      {
+        "date": "1887",
+        "event": "other",
+        "details": "Began the Downgrade Controversy defending biblical orthodoxy"
+      },
+      {
+        "date": "Jan 31, 1892",
+        "event": "death",
+        "details": "Died in Menton, France, aged 57"
+      }
+    ],
     "nationality": "British",
     "era": "19th Century",
     "region": "UK/Ireland",
@@ -2390,6 +3692,38 @@
     "born": 1718,
     "born_approximate": false,
     "died": 1747,
+    "significant_dates": [
+      {
+        "date": "Apr 20, 1718",
+        "event": "birth",
+        "details": "Born in Haddam, Connecticut Colony"
+      },
+      {
+        "date": "Jul 12, 1739",
+        "event": "saved",
+        "details": "Conversion experience of 'unspeakable glory', desiring to exalt God"
+      },
+      {
+        "date": "1740",
+        "event": "other",
+        "details": "Expelled from Yale over comments about impious staff"
+      },
+      {
+        "date": "Apr 1, 1743",
+        "event": "other",
+        "details": "Began missionary work among Native Americans"
+      },
+      {
+        "date": "1744",
+        "event": "other",
+        "details": "Ordained by Newark Presbytery while working among the Delaware"
+      },
+      {
+        "date": "Oct 9, 1747",
+        "event": "death",
+        "details": "Died of tuberculosis in Northampton, Massachusetts, aged 29"
+      }
+    ],
     "nationality": "American",
     "era": "18th Century",
     "region": "North America",
@@ -2435,6 +3769,33 @@
     "born": 1902,
     "born_approximate": false,
     "died": 1970,
+    "significant_dates": [
+      {
+        "date": "Feb 24, 1902",
+        "event": "birth",
+        "details": "Born in Edmonton, London, England"
+      },
+      {
+        "date": "Oct 15, 1930",
+        "event": "other",
+        "details": "Spent her life savings on train passage to Yangcheng, China, to begin missionary work"
+      },
+      {
+        "date": "1938",
+        "event": "other",
+        "details": "Led over 100 orphans to safety over the mountains during the Japanese invasion"
+      },
+      {
+        "date": "1958",
+        "event": "other",
+        "details": "Settled in Taiwan and founded an orphanage"
+      },
+      {
+        "date": "Jan 3, 1970",
+        "event": "death",
+        "details": "Died in Taiwan, aged 67"
+      }
+    ],
     "nationality": "British",
     "era": "20th Century",
     "region": "Asia",
@@ -2488,6 +3849,33 @@
     "born": 1860,
     "born_approximate": false,
     "died": 1931,
+    "significant_dates": [
+      {
+        "date": "Dec 2, 1860",
+        "event": "birth",
+        "details": "Born in Spratton, Northamptonshire, England"
+      },
+      {
+        "date": "1884",
+        "event": "other",
+        "details": "Spiritual rededication after his brother's serious illness"
+      },
+      {
+        "date": "Feb 1885",
+        "event": "other",
+        "details": "Joined the Cambridge Seven, departing for China with Hudson Taylor's mission"
+      },
+      {
+        "date": "1910",
+        "event": "other",
+        "details": "Founded the Heart of Africa Mission, later WEC International"
+      },
+      {
+        "date": "Jul 16, 1931",
+        "event": "death",
+        "details": "Died at Ibambi, Belgian Congo, aged 70"
+      }
+    ],
     "nationality": "British",
     "era": "19th Century",
     "region": "Africa",
@@ -2533,6 +3921,33 @@
     "born": 1845,
     "born_approximate": false,
     "died": 1905,
+    "significant_dates": [
+      {
+        "date": "Jul 4, 1845",
+        "event": "birth",
+        "details": "Born in Dublin, Ireland"
+      },
+      {
+        "date": "1868",
+        "event": "other",
+        "details": "Established the Hope Place ragged school in London's East End"
+      },
+      {
+        "date": "1870",
+        "event": "other",
+        "details": "Formed a boys' orphanage at 18 Stepney Causeway"
+      },
+      {
+        "date": "1876",
+        "event": "other",
+        "details": "Established the Girls' Village Home in Barkingside"
+      },
+      {
+        "date": "Sep 19, 1905",
+        "event": "death",
+        "details": "Died of angina pectoris in London"
+      }
+    ],
     "nationality": "Irish/British",
     "era": "19th Century",
     "region": "UK/Ireland",
@@ -2593,6 +4008,38 @@
     "born": 1829,
     "born_approximate": false,
     "died": 1912,
+    "significant_dates": [
+      {
+        "date": "Apr 10, 1829",
+        "event": "birth",
+        "details": "Born in Sneinton, Nottingham, England"
+      },
+      {
+        "date": "c. 1844",
+        "event": "saved",
+        "details": "Religious conversion two years into his pawnbroker apprenticeship"
+      },
+      {
+        "date": "Apr 10, 1852",
+        "event": "other",
+        "details": "Left pawnbroking to become a full-time preacher"
+      },
+      {
+        "date": "Jun 17, 1855",
+        "event": "other",
+        "details": "Married Catherine Mumford at Stockwell Green Congregational Church, London"
+      },
+      {
+        "date": "May 1878",
+        "event": "other",
+        "details": "The Christian Mission was renamed The Salvation Army"
+      },
+      {
+        "date": "Aug 20, 1912",
+        "event": "death",
+        "details": "Died at Hadley Wood, London"
+      }
+    ],
     "nationality": "British",
     "era": "19th Century",
     "region": "UK/Ireland",
@@ -2653,6 +4100,33 @@
     "born": 1483,
     "born_approximate": false,
     "died": 1546,
+    "significant_dates": [
+      {
+        "date": "Nov 10, 1483",
+        "event": "birth",
+        "details": "Born in Eisleben, County of Mansfeld, Holy Roman Empire"
+      },
+      {
+        "date": "Oct 31, 1517",
+        "event": "other",
+        "details": "Wrote to Archbishop Albert protesting the sale of indulgences (95 Theses)"
+      },
+      {
+        "date": "Jan 3, 1521",
+        "event": "other",
+        "details": "Excommunicated by Pope Leo X"
+      },
+      {
+        "date": "1525",
+        "event": "other",
+        "details": "Married Katharina von Bora, a former nun"
+      },
+      {
+        "date": "Feb 18, 1546",
+        "event": "death",
+        "details": "Died in Eisleben, aged 62"
+      }
+    ],
     "nationality": "German",
     "era": "Reformation",
     "region": "Europe",
@@ -2715,6 +4189,38 @@
     "born": 1509,
     "born_approximate": false,
     "died": 1564,
+    "significant_dates": [
+      {
+        "date": "Jul 10, 1509",
+        "event": "birth",
+        "details": "Born Jehan Cauvin in Noyon, Picardy"
+      },
+      {
+        "date": "c. 1530",
+        "event": "saved",
+        "details": "Sudden conversion to the Protestant faith, per scholarly dating of late 1529/early 1530"
+      },
+      {
+        "date": "Mar 1536",
+        "event": "other",
+        "details": "Published first edition of Institutes of the Christian Religion"
+      },
+      {
+        "date": "Sep 13, 1541",
+        "event": "other",
+        "details": "Returned to Geneva with official escort to resume reform ministry"
+      },
+      {
+        "date": "Oct 27, 1553",
+        "event": "other",
+        "details": "Michael Servetus executed for heresy in Geneva"
+      },
+      {
+        "date": "May 27, 1564",
+        "event": "death",
+        "details": "Died in Geneva, aged 54"
+      }
+    ],
     "nationality": "French",
     "era": "Reformation",
     "region": "Europe",
@@ -2775,6 +4281,33 @@
     "born": 1819,
     "born_approximate": false,
     "died": 1886,
+    "significant_dates": [
+      {
+        "date": "Sep 10, 1819",
+        "event": "birth",
+        "details": "Born in Banbridge, County Down, Ireland"
+      },
+      {
+        "date": "1843",
+        "event": "other",
+        "details": "Fiancée drowned the night before their planned wedding"
+      },
+      {
+        "date": "1844",
+        "event": "other",
+        "details": "Emigrated from Ireland to Canada, settling in Woodstock, Ontario"
+      },
+      {
+        "date": "1855",
+        "event": "other",
+        "details": "Wrote the poem that became the hymn 'What a Friend We Have in Jesus'"
+      },
+      {
+        "date": "Aug 10, 1886",
+        "event": "death",
+        "details": "Drowned in a river while recovering from fever"
+      }
+    ],
     "nationality": "Irish-Canadian",
     "era": "19th Century",
     "region": "North America",
@@ -2826,6 +4359,38 @@
     "born": 1803,
     "born_approximate": false,
     "died": 1902,
+    "significant_dates": [
+      {
+        "date": "Jan 4, 1803",
+        "event": "birth",
+        "details": "Born in Helsingør, Denmark"
+      },
+      {
+        "date": "1823",
+        "event": "saved",
+        "details": "Became a Christian after hearing James Harington Evans preach in London"
+      },
+      {
+        "date": "1831",
+        "event": "other",
+        "details": "Visited Barnstaple and assisted with local preaching and Christian work"
+      },
+      {
+        "date": "Apr 1832",
+        "event": "other",
+        "details": "Left the legal profession to become pastor of Ebenezer Chapel, Barnstaple"
+      },
+      {
+        "date": "1848",
+        "event": "other",
+        "details": "Sided with George Müller in a Plymouth Brethren dispute over assembly independency"
+      },
+      {
+        "date": "Jun 12, 1902",
+        "event": "death",
+        "details": "Died in Barnstaple, England, aged 99"
+      }
+    ],
     "nationality": "British",
     "era": "19th Century",
     "region": "UK/Ireland",
@@ -2869,6 +4434,33 @@
     "born": 1800,
     "born_approximate": false,
     "died": 1882,
+    "significant_dates": [
+      {
+        "date": "Nov 18, 1800",
+        "event": "birth",
+        "details": "Born in Westminster, Middlesex, England"
+      },
+      {
+        "date": "1825",
+        "event": "other",
+        "details": "Ordained deacon in the Church of Ireland"
+      },
+      {
+        "date": "Oct 1827",
+        "event": "other",
+        "details": "Injured in a fall from a horse, prompting reflection on the nature of the church"
+      },
+      {
+        "date": "1831",
+        "event": "other",
+        "details": "Participated in the Powerscourt Conference on prophecy and ecclesiology"
+      },
+      {
+        "date": "Apr 29, 1882",
+        "event": "death",
+        "details": "Died at Sundridge House, Bournemouth, England"
+      }
+    ],
     "nationality": "Irish",
     "era": "19th Century",
     "region": "UK/Ireland",
@@ -2916,6 +4508,33 @@
     "born": 1813,
     "born_approximate": false,
     "died": 1843,
+    "significant_dates": [
+      {
+        "date": "May 21, 1813",
+        "event": "birth",
+        "details": "Born in Edinburgh, Scotland"
+      },
+      {
+        "date": "Jul 1, 1835",
+        "event": "other",
+        "details": "Licensed as a preacher by the Presbytery of Annan"
+      },
+      {
+        "date": "Nov 24, 1836",
+        "event": "other",
+        "details": "Ordained to the pastorate of St Peter's Church, Dundee"
+      },
+      {
+        "date": "Apr 12, 1839",
+        "event": "other",
+        "details": "Departed on a mission of inquiry to the Jews of Europe and Palestine"
+      },
+      {
+        "date": "Mar 25, 1843",
+        "event": "death",
+        "details": "Died in Dundee, Scotland, of typhus fever"
+      }
+    ],
     "nationality": "Scottish",
     "era": "19th Century",
     "region": "UK/Ireland",
@@ -2970,6 +4589,33 @@
     "born": 1781,
     "born_approximate": false,
     "died": 1812,
+    "significant_dates": [
+      {
+        "date": "Feb 18, 1781",
+        "event": "birth",
+        "details": "Born in Truro, Cornwall, England"
+      },
+      {
+        "date": "Oct 1802",
+        "event": "other",
+        "details": "Heard Charles Simeon speak of William Carey's mission work in India, prompting his call to missions"
+      },
+      {
+        "date": "Oct 22, 1803",
+        "event": "other",
+        "details": "Ordained deacon at Ely"
+      },
+      {
+        "date": "Jul 5, 1805",
+        "event": "other",
+        "details": "Departed for India as an East India Company chaplain"
+      },
+      {
+        "date": "Oct 16, 1812",
+        "event": "death",
+        "details": "Died of fever at Tokat, Ottoman Empire, en route to Constantinople"
+      }
+    ],
     "nationality": "British",
     "era": "19th Century",
     "region": "Asia",
@@ -3038,6 +4684,33 @@
     "born": 1858,
     "born_approximate": false,
     "died": 1922,
+    "significant_dates": [
+      {
+        "date": "Apr 23, 1858",
+        "event": "birth",
+        "details": "Born in Mangalore, India"
+      },
+      {
+        "date": "1878",
+        "event": "other",
+        "details": "Calcutta University conferred on her the titles Pandita and Sarasvati for Sanskrit scholarship"
+      },
+      {
+        "date": "Nov 13, 1880",
+        "event": "other",
+        "details": "Married Bipin Behari Medhvi in a civil ceremony"
+      },
+      {
+        "date": "1896",
+        "event": "other",
+        "details": "Rescued thousands of famine-orphaned children in Maharashtra, leading to the founding of Mukti Mission"
+      },
+      {
+        "date": "Apr 5, 1922",
+        "event": "death",
+        "details": "Died in Kedgaon, India, of septic bronchitis"
+      }
+    ],
     "nationality": "Indian",
     "era": "19th Century",
     "region": "Asia",
@@ -3083,6 +4756,38 @@
     "born": 1903,
     "born_approximate": false,
     "died": 2000,
+    "significant_dates": [
+      {
+        "date": "Jun 6, 1903",
+        "event": "birth",
+        "details": "Born in Sargodha District, Punjab, British India"
+      },
+      {
+        "date": "1929",
+        "event": "saved",
+        "details": "Became a Christian while an engineering student in Canada, per his autobiography"
+      },
+      {
+        "date": "Feb 4, 1932",
+        "event": "other",
+        "details": "Baptized in Vancouver, British Columbia"
+      },
+      {
+        "date": "1933",
+        "event": "other",
+        "details": "Returned to India and began street preaching in Bombay"
+      },
+      {
+        "date": "1941",
+        "event": "other",
+        "details": "Held his first 'Holy Convocation' in Madras, beginning his indigenous assemblies movement"
+      },
+      {
+        "date": "Sep 17, 2000",
+        "event": "death",
+        "details": "Died in Hyderabad, India"
+      }
+    ],
     "nationality": "Indian",
     "era": "20th Century",
     "region": "Asia",
@@ -3128,6 +4833,33 @@
     "born": 1907,
     "born_approximate": false,
     "died": 1934,
+    "significant_dates": [
+      {
+        "date": "Jan 18, 1907",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "1933",
+        "event": "other",
+        "details": "Married Betty Scott, fellow China Inland Mission missionary"
+      },
+      {
+        "date": "Sep 11, 1934",
+        "event": "other",
+        "details": "Daughter Helen Priscilla Stam born in Wuhu, China"
+      },
+      {
+        "date": "Dec 6, 1934",
+        "event": "other",
+        "details": "Captured with wife by Communist soldiers at Tsingteh"
+      },
+      {
+        "date": "Dec 8, 1934",
+        "event": "martyred",
+        "details": "Beheaded by Chinese Communist forces at Miaoshou, Anhui"
+      }
+    ],
     "nationality": "American",
     "era": "20th Century",
     "region": "Asia",
@@ -3176,6 +4908,33 @@
     "born": 1906,
     "born_approximate": false,
     "died": 1934,
+    "significant_dates": [
+      {
+        "date": "Feb 22, 1906",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "1933",
+        "event": "other",
+        "details": "Married John Stam, fellow China Inland Mission missionary"
+      },
+      {
+        "date": "Sep 11, 1934",
+        "event": "other",
+        "details": "Daughter Helen Priscilla Stam born in Wuhu, China"
+      },
+      {
+        "date": "Dec 6, 1934",
+        "event": "other",
+        "details": "Captured with husband by Communist soldiers at Tsingteh"
+      },
+      {
+        "date": "Dec 8, 1934",
+        "event": "martyred",
+        "details": "Beheaded by Chinese Communist forces at Miaoshou, Anhui"
+      }
+    ],
     "nationality": "American",
     "era": "20th Century",
     "region": "Asia",
@@ -3224,6 +4983,33 @@
     "born": 1906,
     "born_approximate": false,
     "died": 1945,
+    "significant_dates": [
+      {
+        "date": "Feb 4, 1906",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "Nov 15, 1931",
+        "event": "other",
+        "details": "Ordained as Lutheran pastor at St. Matthew's Church, Berlin"
+      },
+      {
+        "date": "1935",
+        "event": "other",
+        "details": "Led underground Confessing Church seminary at Finkenwalde"
+      },
+      {
+        "date": "Apr 5, 1943",
+        "event": "other",
+        "details": "Arrested by the Gestapo for resistance activity"
+      },
+      {
+        "date": "Apr 9, 1945",
+        "event": "martyred",
+        "details": "Hanged at Flossenbürg concentration camp for resistance to the Nazi regime"
+      }
+    ],
     "nationality": "German",
     "era": "20th Century",
     "region": "Europe",
@@ -3285,6 +5071,28 @@
     "born": 1949,
     "born_approximate": false,
     "died": null,
+    "significant_dates": [
+      {
+        "date": "Oct 15, 1949",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "Jul 30, 1967",
+        "event": "other",
+        "details": "Diving accident in Chesapeake Bay caused permanent quadriplegia"
+      },
+      {
+        "date": "1979",
+        "event": "other",
+        "details": "Founded Joni and Friends disability ministry"
+      },
+      {
+        "date": "1982",
+        "event": "other",
+        "details": "Married Ken Tada"
+      }
+    ],
     "nationality": "American",
     "era": "20th Century",
     "region": "North America",
@@ -3317,6 +5125,38 @@
     "born": 1837,
     "born_approximate": false,
     "died": 1899,
+    "significant_dates": [
+      {
+        "date": "Feb 5, 1837",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "Apr 1855",
+        "event": "saved",
+        "details": "Converted to Christianity in Boston after Edward Kimball spoke with him of faith"
+      },
+      {
+        "date": "Aug 28, 1862",
+        "event": "other",
+        "details": "Married Emma C. Revell"
+      },
+      {
+        "date": "1864",
+        "event": "other",
+        "details": "Founded the Illinois Street Church in Chicago"
+      },
+      {
+        "date": "1872",
+        "event": "other",
+        "details": "Trip to United Kingdom launched his international evangelistic fame"
+      },
+      {
+        "date": "Dec 22, 1899",
+        "event": "death",
+        "details": "Died in Northfield, Massachusetts"
+      }
+    ],
     "nationality": "American",
     "era": "19th Century",
     "region": "North America",
@@ -3363,6 +5203,33 @@
     "born": 1873,
     "born_approximate": false,
     "died": 1949,
+    "significant_dates": [
+      {
+        "date": "1873",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "1899",
+        "event": "other",
+        "details": "Married Phoebe Baxendale"
+      },
+      {
+        "date": "1906",
+        "event": "other",
+        "details": "Received BA and MA in Ancient Classics from University of London"
+      },
+      {
+        "date": "1940",
+        "event": "other",
+        "details": "Published Expository Dictionary of New Testament Words"
+      },
+      {
+        "date": "1949",
+        "event": "death",
+        "details": ""
+      }
+    ],
     "nationality": "British",
     "era": "20th Century",
     "region": "UK/Ireland",
@@ -3403,6 +5270,33 @@
     "born": 1822,
     "born_approximate": false,
     "died": 1894,
+    "significant_dates": [
+      {
+        "date": "Aug 14, 1822",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "1844",
+        "event": "other",
+        "details": "Graduated valedictorian from Wesleyan University"
+      },
+      {
+        "date": "1868",
+        "event": "other",
+        "details": "Became Professor of Exegetical Theology at Drew Theological Seminary"
+      },
+      {
+        "date": "1890",
+        "event": "other",
+        "details": "Published Strong's Exhaustive Concordance of the Bible"
+      },
+      {
+        "date": "Aug 7, 1894",
+        "event": "death",
+        "details": "Died in Round Lake, New York"
+      }
+    ],
     "nationality": "American",
     "era": "19th Century",
     "region": "North America",
@@ -3445,6 +5339,33 @@
     "born": 1699,
     "born_approximate": false,
     "died": 1770,
+    "significant_dates": [
+      {
+        "date": "May 31, 1699",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "Nov 3, 1737",
+        "event": "other",
+        "details": "Presented first edition of his Bible Concordance to Queen Caroline"
+      },
+      {
+        "date": "Dec 21, 1761",
+        "event": "other",
+        "details": "Presented second edition of Concordance to King George III"
+      },
+      {
+        "date": "1769",
+        "event": "other",
+        "details": "Published third edition of the Concordance"
+      },
+      {
+        "date": "Nov 1, 1770",
+        "event": "death",
+        "details": "Died while praying in his lodgings, Islington"
+      }
+    ],
     "nationality": "Scottish",
     "era": "18th Century",
     "region": "UK/Ireland",
@@ -3489,6 +5410,33 @@
     "born": 1917,
     "born_approximate": false,
     "died": 2007,
+    "significant_dates": [
+      {
+        "date": "Jan 7, 1917",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "1959",
+        "event": "other",
+        "details": "Became President of Emmaus Bible College"
+      },
+      {
+        "date": "1965",
+        "event": "other",
+        "details": "Left presidency to begin international Bible-teaching ministry"
+      },
+      {
+        "date": "1989",
+        "event": "other",
+        "details": "Published Believer's Bible Commentary"
+      },
+      {
+        "date": "Dec 25, 2007",
+        "event": "death",
+        "details": ""
+      }
+    ],
     "nationality": "American",
     "era": "20th Century",
     "region": "North America",
@@ -3536,6 +5484,38 @@
     "born": 1876,
     "born_approximate": false,
     "died": 1951,
+    "significant_dates": [
+      {
+        "date": "Oct 14, 1876",
+        "event": "birth",
+        "details": ""
+      },
+      {
+        "date": "Feb 1890",
+        "event": "saved",
+        "details": "Converted at age 13, professing faith in Christ"
+      },
+      {
+        "date": "1914",
+        "event": "other",
+        "details": "Established Western Book and Tract Company"
+      },
+      {
+        "date": "1929",
+        "event": "other",
+        "details": "Began pastorate at Moody Church, Chicago"
+      },
+      {
+        "date": "May 30, 1948",
+        "event": "other",
+        "details": "Resigned from Moody Church pastorate"
+      },
+      {
+        "date": "Jan 15, 1951",
+        "event": "death",
+        "details": "Died in Cambridge, New Zealand"
+      }
+    ],
     "nationality": "Canadian-American",
     "era": "20th Century",
     "region": "North America",
@@ -3599,6 +5579,38 @@
     "born": 1328,
     "born_approximate": true,
     "died": 1384,
+    "significant_dates": [
+      {
+        "date": "c. 1328",
+        "event": "birth",
+        "details": "Birth year disputed; sources suggest mid-1320s"
+      },
+      {
+        "date": "Sep 1351",
+        "event": "other",
+        "details": "Became a priest"
+      },
+      {
+        "date": "1372",
+        "event": "other",
+        "details": "Completed his doctorate in theology at Oxford"
+      },
+      {
+        "date": "May 21, 1382",
+        "event": "other",
+        "details": "The 'Earthquake Synod' condemned 24 of his propositions"
+      },
+      {
+        "date": "Dec 31, 1384",
+        "event": "death",
+        "details": "Died at Lutterworth after a stroke"
+      },
+      {
+        "date": "1428",
+        "event": "other",
+        "details": "Council of Constance's order to exhume and burn his remains was carried out (posthumous)"
+      }
+    ],
     "nationality": "English",
     "era": "Reformation",
     "region": "UK/Ireland",
@@ -3651,6 +5663,28 @@
     "born": 1789,
     "born_approximate": false,
     "died": 1871,
+    "significant_dates": [
+      {
+        "date": "Mar 18, 1789",
+        "event": "birth",
+        "details": "Born at Westfield Lodge, Brighton, England"
+      },
+      {
+        "date": "May 9, 1822",
+        "event": "saved",
+        "details": "Found peace with God after counsel from Rev. César Malan, who told her to come 'just as she was'"
+      },
+      {
+        "date": "1836",
+        "event": "other",
+        "details": "Wrote the hymn 'Just As I Am, Without One Plea'"
+      },
+      {
+        "date": "Sep 22, 1871",
+        "event": "death",
+        "details": "Died in Brighton, England"
+      }
+    ],
     "nationality": "English",
     "era": "19th Century",
     "region": "UK/Ireland",
@@ -3702,6 +5736,33 @@
     "born": 1787,
     "born_approximate": false,
     "died": 1864,
+    "significant_dates": [
+      {
+        "date": "Jul 7, 1787",
+        "event": "birth",
+        "details": "Born in Geneva"
+      },
+      {
+        "date": "1816",
+        "event": "saved",
+        "details": "Awakened to justification by faith alone through Robert Haldane's Bible studies in Geneva, sparking the Réveil revival"
+      },
+      {
+        "date": "1820",
+        "event": "other",
+        "details": "Founded his own independent church, l'Église du témoignage, in Geneva"
+      },
+      {
+        "date": "1823",
+        "event": "other",
+        "details": "Formally defrocked by the Geneva Company of Pastors for preaching justification by faith alone"
+      },
+      {
+        "date": "May 8, 1864",
+        "event": "death",
+        "details": "Died in Geneva"
+      }
+    ],
     "nationality": "Swiss",
     "era": "19th Century",
     "region": "Europe",

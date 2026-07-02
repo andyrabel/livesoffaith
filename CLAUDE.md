@@ -181,6 +181,18 @@ Each person is stored as a JSON object. The full schema is:
   "name": "Wang Ming Dao",
   "born": 1900,
   "died": 1991,
+  "significant_dates": [
+    {
+      "date": "Jul 25, 1900",
+      "event": "birth",
+      "details": "Born in Beijing, China."
+    },
+    {
+      "date": "Jul 28, 1991",
+      "event": "death",
+      "details": "Died in Shanghai, China, aged 91."
+    }
+  ],
   "nationality": "Chinese",
   "era": "20th Century",
   "region": "Asia",
@@ -214,6 +226,24 @@ Each person is stored as a JSON object. The full schema is:
   }
 }
 ```
+
+### Significant Dates Schema
+
+Each entry in the `significant_dates` array has:
+- `date` — a string, formatted per precision available from the source:
+  - Full date known: `"Jan 15, 1976"` (3-letter month, no leading zero on day)
+  - Only month + year known: `"Jan 1976"`
+  - Only year known: `"1976"`
+  - Approximate/disputed per the source: prefix with `"c. "`, e.g. `"c. 1725"`
+- `event` — one of: `"birth"`, `"death"`, `"martyred"`, `"saved"` (conversion/salvation experience), `"other"`
+- `details` — short (under 20 words) factual phrase, neutral tone, no invented dialogue. Can be `""` if nothing more needs to be said.
+
+Rules:
+- Every entry gets a `birth` event and either a `death` event **or** a `martyred` event — never both. Use `martyred` only for a violent death suffered specifically for the faith (executed, burned, beheaded, hanged for resistance to persecution, etc.) — imprisonment, torture, or persecution survived to a natural death (e.g. Richard Wurmbrand, Corrie ten Boom) still gets a normal `death` event.
+- Include a `saved` event only if the source gives a reasonably specific date (at least a year) for the conversion/salvation experience — omit if the source is vague ("as a young man") with no date.
+- Include up to 3 `other` events, only for clearly-dated, well-documented events central to why the person matters (e.g. a famous hymn's composition date, ordination, founding of a ministry, a famous incident). Zero `other` events is fine if nothing solid exists — don't pad.
+- Ground every date in Wikipedia (or another approved source) — never invent or guess a date. If uncertain, omit the event.
+- Order the array chronologically.
 
 ### Memorials Schema
 
@@ -395,12 +425,14 @@ Claude Code assists at each step when asked.
 **Default behaviour:** when asked to "add [Name]", Claude Code does the full
 pipeline without being asked separately for each step — source and download a
 reference image, generate the AI portrait (Step 6), research and populate
-`memorials`, and update cross-references (Step 4) — not just write the JSON
+`memorials`, research and populate `significant_dates` (see Significant Dates
+Schema above), and update cross-references (Step 4) — not just write the JSON
 skeleton with `"image": null` and `"memorials": []`. If no suitable public
 domain reference image can be found, do not stop the pipeline — leave
 `"image": null` and complete every other step (content, memorials,
-cross-references, sitemap) anyway. Image sourcing and portrait generation
-(Steps 2 and 6) can be revisited later once a reference image turns up.
+significant_dates, cross-references, sitemap) anyway. Image sourcing and
+portrait generation (Steps 2 and 6) can be revisited later once a reference
+image turns up.
 
 ### Step 1 — Decide and Vet
 1. Choose a person to add
@@ -426,6 +458,9 @@ Claude will:
 - Run the vetting checklist
 - Write the adult story (≤250 words) and family story (≤125 words)
 - Write the image generation prompt
+- Research and populate `significant_dates` (birth, death or martyred, saved
+  if dated, up to 3 other well-documented dated events — see Significant
+  Dates Schema above)
 - Add the full JSON entry with `"image": null` and all fields populated
 - Flag the entry if needed and explain why
 - **Update `sitemap.xml`** to include the new person's URL (run `python3 _build/generate_sitemap.py`)
