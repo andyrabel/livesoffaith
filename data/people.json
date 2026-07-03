@@ -3744,9 +3744,9 @@
       "redistribution_note": "Photograph published before 1928 — clear public-domain claim, no caveat."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-03"
     },
     "memorials": [
       {
