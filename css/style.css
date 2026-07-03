@@ -873,6 +873,54 @@ main {
   margin-top: 0.75rem;
 }
 
+/* --- Person Timeline ------------------------------------------ */
+.person-timeline {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.person-timeline-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.timeline-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.timeline-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.timeline-date {
+  flex: 0 0 auto;
+  min-width: 5.5rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.timeline-text {
+  color: var(--text-muted);
+}
+
+.timeline-text strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
 /* --- Person Memorials --------------------------------------- */
 .person-memorials {
   background: var(--surface);

@@ -182,6 +182,37 @@ function relatedPeopleSectionHtml(person) {
   `;
 }
 
+const SIGNIFICANT_DATE_LABELS = {
+  birth: 'Born',
+  death: 'Died',
+  martyred: 'Martyred',
+  saved: 'Saved',
+  other: ''
+};
+
+function significantDatesSectionHtml(person) {
+  const dates = person.significant_dates || [];
+  if (!dates.length) return '';
+
+  const items = dates.map(d => {
+    const label = SIGNIFICANT_DATE_LABELS[d.event] || '';
+    const details = d.details ? escapeHtml(d.details) : '';
+    return `
+      <li class="timeline-item">
+        <span class="timeline-date">${escapeHtml(d.date)}</span>
+        <span class="timeline-text">${label ? `<strong>${label}.</strong> ` : ''}${details}</span>
+      </li>
+    `;
+  }).join('');
+
+  return `
+    <div class="person-timeline">
+      <h2 class="person-timeline-title">&#128197; Timeline</h2>
+      <ul class="timeline-list">${items}</ul>
+    </div>
+  `;
+}
+
 function memorialsSectionHtml(person) {
   const memorials = person.memorials || [];
   if (!memorials.length) return '';
@@ -753,6 +784,7 @@ function initPersonPage() {
 
   const version = getStoryVersion();
   const sourcesHtml = sourceLinksHtml(person);
+  const timelineHtml = significantDatesSectionHtml(person);
   const memorialsHtml = memorialsSectionHtml(person);
   const relatedHtml = relatedPeopleSectionHtml(person);
 
@@ -814,6 +846,7 @@ function initPersonPage() {
       </div>
     </div>
 
+    ${timelineHtml}
     ${memorialsHtml}
     ${relatedHtml}
   `;
