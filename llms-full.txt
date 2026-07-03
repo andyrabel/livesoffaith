@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-03. 97 people.
+Generated 2026-07-03. 102 people.
 
 ---
 
@@ -200,6 +200,22 @@ From the 1950s Graham insisted his crusades be racially integrated at a time whe
 
 ---
 
+## Bilquis Sheikh (c. 1919–1997)
+
+URL: https://livesoffaith.org/person.html?id=bilquis-sheikh
+Wikipedia: https://en.wikipedia.org/wiki/Bilquis_Sheikh
+Nationality: Pakistani · Tradition: Independent evangelical · Region: Asia · Era: 20th Century
+Topics: grace, conversion, persecution, faithfulness, gospel
+Note: Sheikh's account of her conversion includes a series of dreams and visions that she took as confirmation from God, alongside her reading of Scripture. As with other reported mystical experiences on this site, these are recounted as she described them but are unverifiable, and readers are invited to weigh them with appropriate discernment.
+
+Bilquis Sheikh was born into a prominent Muslim family near Rawalpindi in Punjab, in what is now Pakistan; her husband, General Khalid Masud Sheikh, later served as the country's Interior Minister. Comfortable and well-connected, she nonetheless found herself searching for God beyond the religious duties she had always kept. She asked her Christian chauffeur to bring her a Bible, and reading it privately, she was struck by its picture of God as a Father who could be known personally rather than only obeyed at a distance.
+
+Through contact with missionaries David and Synnøve Mitchell, and after a period of prayer, searching, and dreams she took as confirmation from God, Sheikh committed her life to Christ on 24 December 1966. In the culture she belonged to, the baptism of a Muslim convert was treated as a decisive and public act, and when news of her conversion spread, her own family shunned her as a traitor. She received threats, and her home was eventually burned.
+
+Sheikh fled Pakistan for the United States in 1972, where she spent years speaking in churches and at Billy Graham Crusades about what she had found. Her 1978 memoir, I Dared to Call Him Father, told the story of a woman who had kept every religious rule she knew and still felt distant from God — until she discovered she could simply call him Father, not because she had earned it, but because Christ had made a way for her to be received as a daughter.
+
+---
+
 ## Brother Andrew (1928–2022)
 
 URL: https://livesoffaith.org/person.html?id=brother-andrew
@@ -330,6 +346,22 @@ Christmas Evans was born on Christmas Day, 1766, near Llandysul in Cardiganshire
 At seventeen he went to work for a Presbyterian minister, David Davies, and during a season of religious revival there learned to read, in both Welsh and English, for the first time. He joined the Baptists around 1789 and became an itinerant preacher across Wales, eventually settling for years on Anglesey before later ministries in Caerphilly, Cardiff, and Caernarfon. His preaching became legendary for its imaginative power and physical intensity — contemporaries described sermons that held vast open-air crowds motionless for hours, delivered by a large, one-eyed man who had once had nothing, not even the ability to read the Bible he came to preach.
 
 Evans never let his own transformation — from illiterate, disfigured farmhand to Wales's most famous preacher — become the substance of his message. What he preached, sermon after sermon for nearly fifty years, was simpler and not about himself: that Christ receives sinners exactly as ruined as he had once been, and asks nothing from them but faith. He died in 1838, still on the road, still preaching.
+
+---
+
+## Chuck Colson (1931–2012)
+
+URL: https://livesoffaith.org/person.html?id=chuck-colson
+Wikipedia: https://en.wikipedia.org/wiki/Charles_Colson
+Nationality: American · Tradition: Nondenominational evangelical · Region: North America · Era: 20th Century
+Topics: grace, conversion, forgiveness, redemption, prison ministry
+Note: In 1994 Colson co-authored 'Evangelicals and Catholics Together' with Richard John Neuhaus, an ecumenical statement affirming shared mission with Roman Catholic leaders. The document drew significant criticism from Reformed and other evangelicals for understating the doctrinal differences — particularly over justification by faith alone — that divide evangelical and Catholic teaching. Colson personally continued to affirm salvation by grace through faith alone throughout his life; this is noted so readers can weigh the ecumenical judgment call alongside his testimony.
+
+Charles 'Chuck' Colson was born in 1931 in Boston, Massachusetts, and rose to become Special Counsel to President Richard Nixon from 1969 to 1973, earning a reputation as Nixon's toughest and most ruthless aide — his self-described 'hatchet man.'
+
+When the Watergate scandal broke, Colson was named among the 'Watergate Seven' and faced prosecution. Shortly before he was due to appear in court, a friend gave him a copy of C. S. Lewis's Mere Christianity. Reading it, Colson broke down and gave his life to Christ. In June 1974 he pleaded guilty to obstruction of justice and served seven months in federal prison. His conversion was so unexpected that commentators later remarked it was proof Watergate had really happened — no one, they said, could have invented a story in which even Colson turned to Christ.
+
+After his release, Colson founded Prison Fellowship in 1976, and it grew into the world's largest ministry to prisoners and their families. He spent the rest of his life writing, broadcasting, and advocating for those the world had written off — the same grace that had reached him in disgrace, offered freely to men and women in cells much like the one he had occupied. Colson was always careful to say that nothing he built afterward had earned his forgiveness; it had only followed it.
 
 ---
 
@@ -777,6 +809,21 @@ Three years later, hearing missionary J. O. Fraser describe the Lisu people of Y
 
 ---
 
+## Jacob DeShazer (1912–2008)
+
+URL: https://livesoffaith.org/person.html?id=jacob-deshazer
+Wikipedia: https://en.wikipedia.org/wiki/Jacob_DeShazer
+Nationality: American · Tradition: Free Methodist · Region: North America · Era: 20th Century
+Topics: grace, conversion, forgiveness, suffering, missions
+
+Jacob DeShazer was born in 1912 in West Stayton, Oregon, and joined the US Army Air Forces before America entered the Second World War. On 18 April 1942 he served as bombardier on one of the sixteen B-25s of the Doolittle Raid, bombing Nagoya in the first American air strike on Japan. Shot down over China, he was captured by Japanese forces and endured forty months in captivity, thirty-four of them in solitary confinement, beaten and starved. Three of his fellow captured airmen were executed and a fourth died of starvation; DeShazer's own death sentence was commuted to life imprisonment.
+
+In 1944 he persuaded a guard to lend him a Bible for three weeks. He read it over and over, and in his cell he came to trust in Christ. Released in August 1945, DeShazer trained at Seattle Pacific College and Asbury Theological Seminary, then returned to Japan in December 1948 as a Free Methodist missionary — to the same nation that had held and tortured him. He served there for thirty years. His testimony pamphlet, 'I Was a Prisoner of Japan,' was read by former Pearl Harbor commander Mitsuo Fuchida, and became part of what led Fuchida to Christ; the two former enemies later preached together.
+
+DeShazer never described his transformation as something he achieved through willpower or resolve. It was grace received in a prison cell — undeserved, unearned, and strong enough to turn hatred for his captors into thirty years spent loving their countrymen in Christ's name.
+
+---
+
 ## James Strong (1822–1894)
 
 URL: https://livesoffaith.org/person.html?id=james-strong
@@ -1136,6 +1183,21 @@ As a child, Shaftesbury was largely unloved by his parents. His warmest memory w
 
 ---
 
+## Louis Zamperini (1917–2014)
+
+URL: https://livesoffaith.org/person.html?id=louis-zamperini
+Wikipedia: https://en.wikipedia.org/wiki/Louis_Zamperini
+Nationality: American · Tradition: Presbyterian / evangelical · Region: North America · Era: 20th Century
+Topics: grace, conversion, forgiveness, suffering, perseverance
+
+Louis Zamperini was born in 1917 in Olean, New York, and grew up to become a champion distance runner, competing in the 5,000 metres at the 1936 Berlin Olympics. During the Second World War he served as a bombardier in the US Army Air Forces. In May 1943 his B-24 crashed into the Pacific; he survived forty-seven days adrift on a life raft before being captured by Japanese forces. For nearly two years he was held as a prisoner of war, enduring brutal treatment, particularly under a guard named Mutsuhiro Watanabe.
+
+Zamperini returned home from the war outwardly a hero but inwardly consumed by nightmares, rage, and alcoholism. In October 1949 he attended Billy Graham's Los Angeles crusade. Graham's preaching on the cross moved him to surrender his life to Christ, and that night his nightmares stopped for good. In 1952 he founded Victory Boys Camp to mentor troubled youth, and spent the rest of his life speaking about the faith and forgiveness that had remade him.
+
+In 1998, at eighty years old, Zamperini returned to Japan hoping to personally forgive his former captors, including Watanabe, who refused to meet him. He forgave him anyway. Zamperini was clear that this forgiveness was not something he had willed into being through sheer determination — it was the same grace he had received at the foot of the cross, now flowing outward to men who had shown him none.
+
+---
+
 ## Martin Luther (1483–1546)
 
 URL: https://livesoffaith.org/person.html?id=martin-luther
@@ -1220,9 +1282,25 @@ Note: Fuchida commanded the first wave of the December 7, 1941 attack on Pearl H
 
 Mitsuo Fuchida was born in 1902 in Nara Prefecture, Japan, and rose through the Imperial Japanese Navy Air Service to become one of its most skilled pilots. On 7 December 1941 he commanded the first wave of aircraft against Pearl Harbor, radioing back the signal confirming surprise had been achieved. He later flew at the Battle of Midway, where he was severely wounded, and served out the war as a staff officer.
 
-Demobilized after Japan's surrender, Fuchida carried the weight of a war that had cost so many lives. In the late 1940s he learned of Peggy Covell, an American whose missionary parents had been killed by Japanese soldiers, yet who chose to care for Japanese prisoners of war out of love for Christ. Soon after, he read the testimony of Jacob DeShazer, an American airman brutally treated as a Japanese prisoner, who had come to faith in Christ in captivity and forgiven his captors. Fuchida began reading the Bible himself — and in September 1949, he became a Christian. He spent his life as an evangelist, touring under the title 'From Pearl Harbor to Calvary,' and became a close friend of DeShazer, at times preaching alongside people his nation had once fought.
+Demobilized after Japan's surrender, Fuchida carried the weight of a war that had cost so many lives. In the late 1940s he learned of Peggy Covell, an American whose missionary parents had been killed by Japanese soldiers, yet who chose to care for Japanese prisoners of war out of love for Christ. Soon after, he read the testimony of Jacob DeShazer, an American airman brutally treated as a Japanese prisoner, who had come to faith in Christ in captivity and forgiven his captors. Fuchida began reading the Bible himself — and in September 1949, he became a Christian. He spent his life as an evangelist, touring under the title 'From Pearl Harbor to Calvary,' and became a close friend of Jacob DeShazer, at times preaching alongside people his nation had once fought.
 
 Fuchida never claimed his past could be undone by anything he did. What changed him was not remorse turned into good works, but grace — the same grace he had first seen lived out by people he had every reason to expect would hate him.
+
+---
+
+## Nicky Cruz (b. 1938)
+
+URL: https://livesoffaith.org/person.html?id=nicky-cruz
+Wikipedia: https://en.wikipedia.org/wiki/Nicky_Cruz
+Nationality: Puerto Rican · Tradition: Assemblies of God / Pentecostal · Region: Latin America · Era: 20th Century
+Topics: grace, conversion, forgiveness, redemption, evangelism
+Note: Cruz has ministered within the Assemblies of God and the broader Pentecostal tradition, which holds that believers may receive a subsequent 'baptism in the Holy Spirit,' evidenced by speaking in tongues, distinct from conversion. This is a doctrinal position not shared across all evangelical traditions and is noted here for readers to weigh alongside his testimony.
+
+Nicky Cruz was born on 6 December 1938 in Las Piedras, Puerto Rico, into a family involved in spiritism; his mother once told him he was destined to serve Satan. At fifteen he was sent to live with a brother in New York City, but he ran away and fell in with street gangs, rising within months to become warlord and later president of the Mau Maus, one of Brooklyn's most feared gangs.
+
+In 1958, Cruz went to a rally held by a young Pentecostal preacher named David Wilkerson, who had come to the city specifically to reach gang members like him. Cruz had mocked and threatened Wilkerson before, but that night he broke down and gave his life to Christ. He trained at Bible college, served alongside Wilkerson in Teen Challenge — a ministry to addicts and gang members — and later founded his own evangelistic ministry, Nicky Cruz Outreach. He told his story in the bestselling autobiography Run Baby Run (1968), later adapted into the film The Cross and the Switchblade.
+
+Cruz has spent more than six decades preaching in dozens of countries, always returning to the same point: that the change in his life was not something he worked up in himself. A boy raised to believe he belonged to darkness was met, instead, by a grace he had done nothing to deserve — and it was that grace, not his own resolve, that set him free.
 
 ---
 

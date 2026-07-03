@@ -932,4 +932,46 @@
       <image:caption>Portrait of Christmas Evans</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=jacob-deshazer</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/jacob-deshazer.jpg</image:loc>
+      <image:caption>Portrait of Jacob DeShazer</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=louis-zamperini</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/louis-zamperini.jpg</image:loc>
+      <image:caption>Portrait of Louis Zamperini</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=chuck-colson</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/chuck-colson.jpg</image:loc>
+      <image:caption>Portrait of Chuck Colson</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=nicky-cruz</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=bilquis-sheikh</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

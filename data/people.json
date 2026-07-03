@@ -7017,7 +7017,7 @@
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mitsuo_Fuchida",
     "source_summary": "Mitsuo Fuchida (1902-1976) was a Japanese Imperial Navy pilot who commanded the first wave of the Pearl Harbor attack on December 7, 1941, and was wounded at the Battle of Midway in 1942. After the war he learned of the forgiveness shown by missionary's daughter Peggy Covell toward Japanese POWs and read the testimony of former Doolittle Raider Jacob DeShazer, a converted POW. Fuchida became a Christian in September 1949 and spent the rest of his life as an evangelist, touring under the title 'From Pearl Harbor to Calvary' and later befriending DeShazer.",
-    "adult_story": "Mitsuo Fuchida was born in 1902 in Nara Prefecture, Japan, and rose through the Imperial Japanese Navy Air Service to become one of its most skilled pilots. On 7 December 1941 he commanded the first wave of aircraft against Pearl Harbor, radioing back the signal confirming surprise had been achieved. He later flew at the Battle of Midway, where he was severely wounded, and served out the war as a staff officer.\n\nDemobilized after Japan's surrender, Fuchida carried the weight of a war that had cost so many lives. In the late 1940s he learned of Peggy Covell, an American whose missionary parents had been killed by Japanese soldiers, yet who chose to care for Japanese prisoners of war out of love for Christ. Soon after, he read the testimony of Jacob DeShazer, an American airman brutally treated as a Japanese prisoner, who had come to faith in Christ in captivity and forgiven his captors. Fuchida began reading the Bible himself — and in September 1949, he became a Christian. He spent his life as an evangelist, touring under the title 'From Pearl Harbor to Calvary,' and became a close friend of DeShazer, at times preaching alongside people his nation had once fought.\n\nFuchida never claimed his past could be undone by anything he did. What changed him was not remorse turned into good works, but grace — the same grace he had first seen lived out by people he had every reason to expect would hate him.",
+    "adult_story": "Mitsuo Fuchida was born in 1902 in Nara Prefecture, Japan, and rose through the Imperial Japanese Navy Air Service to become one of its most skilled pilots. On 7 December 1941 he commanded the first wave of aircraft against Pearl Harbor, radioing back the signal confirming surprise had been achieved. He later flew at the Battle of Midway, where he was severely wounded, and served out the war as a staff officer.\n\nDemobilized after Japan's surrender, Fuchida carried the weight of a war that had cost so many lives. In the late 1940s he learned of Peggy Covell, an American whose missionary parents had been killed by Japanese soldiers, yet who chose to care for Japanese prisoners of war out of love for Christ. Soon after, he read the testimony of [[Jacob DeShazer|jacob-deshazer]], an American airman brutally treated as a Japanese prisoner, who had come to faith in Christ in captivity and forgiven his captors. Fuchida began reading the Bible himself — and in September 1949, he became a Christian. He spent his life as an evangelist, touring under the title 'From Pearl Harbor to Calvary,' and became a close friend of [[Jacob DeShazer|jacob-deshazer]], at times preaching alongside people his nation had once fought.\n\nFuchida never claimed his past could be undone by anything he did. What changed him was not remorse turned into good works, but grace — the same grace he had first seen lived out by people he had every reason to expect would hate him.",
     "family_story": "Mitsuo Fuchida was a pilot in Japan's navy during World War Two. In 1941, he led the surprise attack on Pearl Harbor, where many American ships were destroyed and many people died. After the war ended, Fuchida heard about an American woman named Peggy, whose missionary parents had been killed by Japanese soldiers — yet she chose to care for Japanese prisoners instead of hating them. He also read the story of an American pilot who forgave the Japanese soldiers who had hurt him badly. Amazed by this forgiveness, Fuchida began reading the Bible himself, and in 1949 he became a Christian. He spent the rest of his life telling others about the same forgiveness he had received through Jesus.",
     "image": {
       "file": "mitsuo-fuchida.jpg",
@@ -7856,5 +7856,363 @@
       }
     ],
     "related_people": []
+  },
+  {
+    "id": "jacob-deshazer",
+    "name": "Jacob DeShazer",
+    "born": 1912,
+    "born_approximate": false,
+    "died": 2008,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Nov 15, 1912",
+        "event": "birth",
+        "details": "Born in West Stayton, Oregon."
+      },
+      {
+        "date": "Apr 18, 1942",
+        "event": "other",
+        "details": "Served as bombardier on the Doolittle Raid, bombing Nagoya, Japan."
+      },
+      {
+        "date": "May 1944",
+        "event": "saved",
+        "details": "Read a borrowed Bible during captivity and came to faith in Christ."
+      },
+      {
+        "date": "Aug 20, 1945",
+        "event": "other",
+        "details": "Released when American paratroopers liberated his POW camp near Beijing."
+      },
+      {
+        "date": "Dec 1948",
+        "event": "other",
+        "details": "Returned to Japan as a Free Methodist missionary with his wife Florence."
+      },
+      {
+        "date": "Mar 15, 2008",
+        "event": "death",
+        "details": "Died in Salem, Oregon, aged 95."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Free Methodist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "grace",
+      "conversion",
+      "forgiveness",
+      "suffering",
+      "missions"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jacob_DeShazer",
+    "source_summary": "Jacob DeShazer (1912-2008) was an American bombardier on the Doolittle Raid of April 18, 1942, one of sixteen B-25 crews that bombed Japan following Pearl Harbor. Captured by Japanese forces in China, he endured 40 months of captivity, including 34 months in solitary confinement, severe beatings, and starvation; three of his crewmates were executed and another starved to death. In captivity he obtained a Bible for three weeks in 1944, read it repeatedly, and converted to Christianity. Released in August 1945, he trained at Seattle Pacific College and Asbury Theological Seminary, then returned to Japan in December 1948 as a Free Methodist missionary, serving 30 years until retiring in 1977. His testimony pamphlet, 'I Was a Prisoner of Japan,' was read by former Pearl Harbor attack leader Mitsuo Fuchida and contributed to Fuchida's own 1949 conversion to Christianity.",
+    "adult_story": "Jacob DeShazer was born in 1912 in West Stayton, Oregon, and joined the US Army Air Forces before America entered the Second World War. On 18 April 1942 he served as bombardier on one of the sixteen B-25s of the Doolittle Raid, bombing Nagoya in the first American air strike on Japan. Shot down over China, he was captured by Japanese forces and endured forty months in captivity, thirty-four of them in solitary confinement, beaten and starved. Three of his fellow captured airmen were executed and a fourth died of starvation; DeShazer's own death sentence was commuted to life imprisonment.\n\nIn 1944 he persuaded a guard to lend him a Bible for three weeks. He read it over and over, and in his cell he came to trust in Christ. Released in August 1945, DeShazer trained at Seattle Pacific College and Asbury Theological Seminary, then returned to Japan in December 1948 as a Free Methodist missionary — to the same nation that had held and tortured him. He served there for thirty years. His testimony pamphlet, 'I Was a Prisoner of Japan,' was read by former Pearl Harbor commander [[Mitsuo Fuchida|mitsuo-fuchida]], and became part of what led Fuchida to Christ; the two former enemies later preached together.\n\nDeShazer never described his transformation as something he achieved through willpower or resolve. It was grace received in a prison cell — undeserved, unearned, and strong enough to turn hatred for his captors into thirty years spent loving their countrymen in Christ's name.",
+    "family_story": "Jacob DeShazer was an American airman during World War Two. In 1942 he took part in a daring bombing raid over Japan, but his plane crashed and he was captured. For over three years, Japanese soldiers kept him prisoner and treated him very cruelly. One day, a guard let him borrow a Bible for three weeks. Jacob read it again and again, and he decided to trust in Jesus. After the war ended, he went back to Japan — not as a soldier, but as a missionary, to tell the people who had hurt him about God's love. He lived there for thirty years. A man named [[Mitsuo Fuchida|mitsuo-fuchida]], who had led the attack on Pearl Harbor, read Jacob's story and became a Christian too.",
+    "image": {
+      "file": "jacob-deshazer.jpg",
+      "prompt_used": "Photorealistic portrait of Jacob DeShazer, American airman turned missionary, mid-1940s, wearing US Army Air Forces uniform, serious and resolute expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:DeShazer.jpg — official US military portrait, c. 1945, public domain work of a US government employee",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Official US military portrait, clear PD-USGov claim, resolves to a direct Commons file URL."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Jacob DeShazer",
+        "address": "Restlawn Memory Gardens, West Salem, Polk County, Oregon",
+        "lat": 44.9481,
+        "lng": -123.0873
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "louis-zamperini",
+    "name": "Louis Zamperini",
+    "born": 1917,
+    "born_approximate": false,
+    "died": 2014,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Jan 26, 1917",
+        "event": "birth",
+        "details": "Born in Olean, New York."
+      },
+      {
+        "date": "May 27, 1943",
+        "event": "other",
+        "details": "B-24 bomber crashed into the Pacific; survived 47 days adrift on a life raft."
+      },
+      {
+        "date": "c. Oct 23, 1949",
+        "event": "saved",
+        "details": "Converted to Christianity at Billy Graham's Los Angeles crusade."
+      },
+      {
+        "date": "1952",
+        "event": "other",
+        "details": "Founded Victory Boys Camp to mentor at-risk youth."
+      },
+      {
+        "date": "Jul 2, 2014",
+        "event": "death",
+        "details": "Died in Los Angeles, California, of pneumonia, aged 97."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Presbyterian / evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "grace",
+      "conversion",
+      "forgiveness",
+      "suffering",
+      "perseverance"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Louis_Zamperini",
+    "source_summary": "Louis Zamperini (1917-2014) was an American distance runner who competed in the 5,000 metres at the 1936 Berlin Olympics. During World War II he served as a bombardier in the US Army Air Forces; his B-24 crashed into the Pacific in May 1943, after which he survived 47 days adrift on a life raft before being captured by Japanese forces. He endured nearly two years as a prisoner of war, suffering severe abuse, notably under camp guard Mutsuhiro Watanabe. After the war he struggled with post-traumatic stress and alcoholism. In 1949 he attended Billy Graham's Los Angeles crusade and converted to Christianity, after which he forgave his former captors. He founded Victory Boys Camp in 1952 to mentor at-risk youth. His story was told in the bestselling biography Unbroken. He died in Los Angeles in 2014, aged 97.",
+    "adult_story": "Louis Zamperini was born in 1917 in Olean, New York, and grew up to become a champion distance runner, competing in the 5,000 metres at the 1936 Berlin Olympics. During the Second World War he served as a bombardier in the US Army Air Forces. In May 1943 his B-24 crashed into the Pacific; he survived forty-seven days adrift on a life raft before being captured by Japanese forces. For nearly two years he was held as a prisoner of war, enduring brutal treatment, particularly under a guard named Mutsuhiro Watanabe.\n\nZamperini returned home from the war outwardly a hero but inwardly consumed by nightmares, rage, and alcoholism. In October 1949 he attended [[Billy Graham|billy-graham]]'s Los Angeles crusade. Graham's preaching on the cross moved him to surrender his life to Christ, and that night his nightmares stopped for good. In 1952 he founded Victory Boys Camp to mentor troubled youth, and spent the rest of his life speaking about the faith and forgiveness that had remade him.\n\nIn 1998, at eighty years old, Zamperini returned to Japan hoping to personally forgive his former captors, including Watanabe, who refused to meet him. He forgave him anyway. Zamperini was clear that this forgiveness was not something he had willed into being through sheer determination — it was the same grace he had received at the foot of the cross, now flowing outward to men who had shown him none.",
+    "family_story": "Louis Zamperini was an Olympic runner who became a soldier in World War Two. When his plane crashed in the ocean, he survived forty-seven days on a life raft before being captured by Japanese soldiers. For nearly two years, he was treated very cruelly as a prisoner. After the war, Louis came home a hero, but inside he was angry and afraid, and he began drinking too much. Then in 1949 he heard a preacher named [[Billy Graham|billy-graham]] talk about Jesus, and Louis gave his life to Christ that night. His nightmares stopped, and he found the strength to forgive the men who had hurt him — even traveling back to Japan years later to tell them so.",
+    "image": {
+      "file": "louis-zamperini.jpg",
+      "prompt_used": "Photorealistic portrait of Louis Zamperini, American Olympic runner and airman, early 1940s, wearing US Army Air Forces uniform, determined and youthful expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Louis_Zamperini_(U.S._Army_Air_Forces).jpg — official US Army photograph, c. 1943, public domain work of a US government employee",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Official US Army photograph, clear PD-USGov claim, resolves to a direct Commons file URL."
+    },
+    "memorials": [
+      {
+        "type": "monument",
+        "name": "Zamperini Stadium",
+        "address": "Torrance High School, Torrance, California",
+        "lat": 33.8358,
+        "lng": -118.3406
+      },
+      {
+        "type": "plaque",
+        "name": "Louis Zamperini Memorial Plaque, Mt. Soledad Veterans Memorial",
+        "address": "6905 La Jolla Scenic Drive S., La Jolla, California 92037",
+        "lat": 32.8422,
+        "lng": -117.2531
+      },
+      {
+        "type": "monument",
+        "name": "Zamperini Field (Torrance Municipal Airport)",
+        "address": "Torrance, California",
+        "lat": 33.8034,
+        "lng": -118.3396
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "chuck-colson",
+    "name": "Chuck Colson",
+    "born": 1931,
+    "born_approximate": false,
+    "died": 2012,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Oct 16, 1931",
+        "event": "birth",
+        "details": "Born in Boston, Massachusetts."
+      },
+      {
+        "date": "1973",
+        "event": "saved",
+        "details": "Converted to Christianity after reading C. S. Lewis's Mere Christianity."
+      },
+      {
+        "date": "Jun 21, 1974",
+        "event": "other",
+        "details": "Pleaded guilty to obstruction of justice in connection with the Watergate scandal."
+      },
+      {
+        "date": "1976",
+        "event": "other",
+        "details": "Founded Prison Fellowship, which grew into the world's largest prison ministry."
+      },
+      {
+        "date": "Apr 21, 2012",
+        "event": "death",
+        "details": "Died in Falls Church, Virginia, from complications of a brain hemorrhage."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Nondenominational evangelical",
+    "flagged": true,
+    "footnote": "In 1994 Colson co-authored 'Evangelicals and Catholics Together' with Richard John Neuhaus, an ecumenical statement affirming shared mission with Roman Catholic leaders. The document drew significant criticism from Reformed and other evangelicals for understating the doctrinal differences — particularly over justification by faith alone — that divide evangelical and Catholic teaching. Colson personally continued to affirm salvation by grace through faith alone throughout his life; this is noted so readers can weigh the ecumenical judgment call alongside his testimony.",
+    "topics": [
+      "grace",
+      "conversion",
+      "forgiveness",
+      "redemption",
+      "prison ministry"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Colson",
+    "source_summary": "Charles 'Chuck' Colson (1931-2012) served as Special Counsel to President Richard Nixon from 1969 to 1973, earning a reputation as Nixon's tough 'hatchet man.' Implicated in the Watergate scandal as one of the 'Watergate Seven,' he pleaded guilty in 1974 to obstruction of justice and served seven months in federal prison. Shortly before facing prosecution, a friend gave Colson a copy of C. S. Lewis's Mere Christianity; reading it led to his conversion to evangelical Christianity. After his release, Colson founded Prison Fellowship in 1976, which grew into the world's largest prison ministry, and later Prison Fellowship International. He received the Templeton Prize in 1993 and spent his remaining decades as an evangelical writer, broadcaster, and advocate for prisoners until his death in 2012.",
+    "adult_story": "Charles 'Chuck' Colson was born in 1931 in Boston, Massachusetts, and rose to become Special Counsel to President Richard Nixon from 1969 to 1973, earning a reputation as Nixon's toughest and most ruthless aide — his self-described 'hatchet man.'\n\nWhen the Watergate scandal broke, Colson was named among the 'Watergate Seven' and faced prosecution. Shortly before he was due to appear in court, a friend gave him a copy of C. S. Lewis's Mere Christianity. Reading it, Colson broke down and gave his life to Christ. In June 1974 he pleaded guilty to obstruction of justice and served seven months in federal prison. His conversion was so unexpected that commentators later remarked it was proof Watergate had really happened — no one, they said, could have invented a story in which even Colson turned to Christ.\n\nAfter his release, Colson founded Prison Fellowship in 1976, and it grew into the world's largest ministry to prisoners and their families. He spent the rest of his life writing, broadcasting, and advocating for those the world had written off — the same grace that had reached him in disgrace, offered freely to men and women in cells much like the one he had occupied. Colson was always careful to say that nothing he built afterward had earned his forgiveness; it had only followed it.",
+    "family_story": "Chuck Colson worked for the President of the United States, and he was known for being tough and ruthless. But when a big political scandal called Watergate happened, Chuck was caught breaking the law, and he knew he was going to prison. Just before that happened, a friend gave him a book by C. S. Lewis about Jesus. Reading it, Chuck realized he needed to be forgiven, and he gave his life to Christ. He went to prison for seven months. When he came out, instead of going back to his old life, he started a ministry to help prisoners, called Prison Fellowship. It became the largest prison ministry in the world, all because grace found him at his lowest point.",
+    "image": {
+      "file": "chuck-colson.jpg",
+      "prompt_used": "Photorealistic portrait of Chuck Colson, American presidential aide turned prison ministry founder, early 1970s, wearing dark suit, serious and thoughtful expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Chuck_Colson.jpg — Nixon Presidential Library White House photo, c. 1969, public domain work of a US government employee",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Official White House photograph, clear PD-USGov-POTUS claim, resolves to a direct Commons file URL."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Chuck Colson",
+        "address": "National Memorial Cemetery of the Pacific-style veterans cemetery: National Memorial Cemetery at Quantico, 18424 Joplin Rd, Triangle, Virginia 22172",
+        "lat": 38.5495,
+        "lng": -77.3336
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "nicky-cruz",
+    "name": "Nicky Cruz",
+    "born": 1938,
+    "born_approximate": false,
+    "died": null,
+    "significant_dates": [
+      {
+        "date": "Dec 6, 1938",
+        "event": "birth",
+        "details": "Born in Las Piedras, Puerto Rico."
+      },
+      {
+        "date": "1958",
+        "event": "saved",
+        "details": "Converted to Christianity at a David Wilkerson evangelistic meeting in New York City."
+      },
+      {
+        "date": "1968",
+        "event": "other",
+        "details": "Published his autobiography, Run Baby Run, with Jamie Buckingham."
+      },
+      {
+        "date": "1970",
+        "event": "other",
+        "details": "The Cross and the Switchblade, a film dramatizing his conversion, was released."
+      }
+    ],
+    "nationality": "Puerto Rican",
+    "era": "20th Century",
+    "region": "Latin America",
+    "tradition": "Assemblies of God / Pentecostal",
+    "flagged": true,
+    "footnote": "Cruz has ministered within the Assemblies of God and the broader Pentecostal tradition, which holds that believers may receive a subsequent 'baptism in the Holy Spirit,' evidenced by speaking in tongues, distinct from conversion. This is a doctrinal position not shared across all evangelical traditions and is noted here for readers to weigh alongside his testimony.",
+    "topics": [
+      "grace",
+      "conversion",
+      "forgiveness",
+      "redemption",
+      "evangelism"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nicky_Cruz",
+    "source_summary": "Nicky Cruz was born December 6, 1938, in Las Piedras, Puerto Rico, to a family involved in spiritism. Sent at age 15 to live with a brother in New York City, he ran away and joined the Mau Maus street gang, becoming its warlord and later its president. In 1958 he attended an evangelistic meeting held by Pentecostal preacher David Wilkerson and was converted to Christianity, an event later recounted in Wilkerson's book The Cross and the Switchblade. Cruz went on to attend Bible college, became a preacher, and served under Wilkerson with Teen Challenge, a ministry to addicts and gang members. He wrote his own autobiography, Run Baby Run (1968), and founded an evangelistic ministry now known as Nicky Cruz Outreach. He has since traveled internationally as an evangelist for decades and remains active in ministry.",
+    "adult_story": "Nicky Cruz was born on 6 December 1938 in Las Piedras, Puerto Rico, into a family involved in spiritism; his mother once told him he was destined to serve Satan. At fifteen he was sent to live with a brother in New York City, but he ran away and fell in with street gangs, rising within months to become warlord and later president of the Mau Maus, one of Brooklyn's most feared gangs.\n\nIn 1958, Cruz went to a rally held by a young Pentecostal preacher named David Wilkerson, who had come to the city specifically to reach gang members like him. Cruz had mocked and threatened Wilkerson before, but that night he broke down and gave his life to Christ. He trained at Bible college, served alongside Wilkerson in Teen Challenge — a ministry to addicts and gang members — and later founded his own evangelistic ministry, Nicky Cruz Outreach. He told his story in the bestselling autobiography Run Baby Run (1968), later adapted into the film The Cross and the Switchblade.\n\nCruz has spent more than six decades preaching in dozens of countries, always returning to the same point: that the change in his life was not something he worked up in himself. A boy raised to believe he belonged to darkness was met, instead, by a grace he had done nothing to deserve — and it was that grace, not his own resolve, that set him free.",
+    "family_story": "Nicky Cruz grew up in Puerto Rico in a family that did not know God, and his mother once told him he belonged to the devil. As a teenager in New York City, he joined a dangerous gang and became one of its leaders. Then a young preacher named David Wilkerson came looking for gang members like Nicky, wanting to tell them about Jesus. Nicky threatened him at first, but one night at a meeting, he broke down and asked Jesus to change his life — and Jesus did. Nicky left the gang, went to Bible college, and has spent his life since then traveling the world telling others that no one is too far gone for God's grace to reach them.",
+    "image": null,
+    "memorials": [],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "bilquis-sheikh",
+    "name": "Bilquis Sheikh",
+    "born": 1919,
+    "born_approximate": true,
+    "died": 1997,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "c. Dec 12, 1919",
+        "event": "birth",
+        "details": "Born near Rawalpindi, Punjab, in what is now Pakistan; some records give 1912."
+      },
+      {
+        "date": "Dec 24, 1966",
+        "event": "saved",
+        "details": "Converted to Christianity after reading the Bible and searching for God."
+      },
+      {
+        "date": "1972",
+        "event": "other",
+        "details": "Fled Pakistan for the United States after persecution and the burning of her home."
+      },
+      {
+        "date": "1978",
+        "event": "other",
+        "details": "Published her memoir, I Dared to Call Him Father."
+      },
+      {
+        "date": "Apr 9, 1997",
+        "event": "death",
+        "details": "Died after a stroke; buried in a Christian graveyard in Murree, Pakistan."
+      }
+    ],
+    "nationality": "Pakistani",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Independent evangelical",
+    "flagged": true,
+    "footnote": "Sheikh's account of her conversion includes a series of dreams and visions that she took as confirmation from God, alongside her reading of Scripture. As with other reported mystical experiences on this site, these are recounted as she described them but are unverifiable, and readers are invited to weigh them with appropriate discernment.",
+    "topics": [
+      "grace",
+      "conversion",
+      "persecution",
+      "faithfulness",
+      "gospel"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bilquis_Sheikh",
+    "source_summary": "Bilquis Sheikh (Wikipedia gives 1919, though the article's own category tag lists 1912-1997) was a wealthy, prominent Pakistani Muslim noblewoman from Rawalpindi/Wah, Punjab, whose husband served as Pakistan's Interior Minister (1962-1965). After asking her chauffeur for a Bible, she began reading it privately, and following contact with missionaries David and Synnove Mitchell, reported a series of dreams and visions that led to her conversion to Christianity on 24 December 1966. After her baptism, her family shunned her, she received threats, and her home was torched. She fled to the United States in 1972, later speaking at churches and Billy Graham Crusades. Her 1978 memoir, I Dared to Call Him Father, sold over 300,000 copies. She died 9 April 1997.",
+    "adult_story": "Bilquis Sheikh was born into a prominent Muslim family near Rawalpindi in Punjab, in what is now Pakistan; her husband, General Khalid Masud Sheikh, later served as the country's Interior Minister. Comfortable and well-connected, she nonetheless found herself searching for God beyond the religious duties she had always kept. She asked her Christian chauffeur to bring her a Bible, and reading it privately, she was struck by its picture of God as a Father who could be known personally rather than only obeyed at a distance.\n\nThrough contact with missionaries David and Synnøve Mitchell, and after a period of prayer, searching, and dreams she took as confirmation from God, Sheikh committed her life to Christ on 24 December 1966. In the culture she belonged to, the baptism of a Muslim convert was treated as a decisive and public act, and when news of her conversion spread, her own family shunned her as a traitor. She received threats, and her home was eventually burned.\n\nSheikh fled Pakistan for the United States in 1972, where she spent years speaking in churches and at Billy Graham Crusades about what she had found. Her 1978 memoir, I Dared to Call Him Father, told the story of a woman who had kept every religious rule she knew and still felt distant from God — until she discovered she could simply call him Father, not because she had earned it, but because Christ had made a way for her to be received as a daughter.",
+    "family_story": "Bilquis Sheikh grew up in a wealthy Muslim family in Pakistan. She followed all her religion's rules, but she still felt far from God. One day she asked her driver to bring her a Bible, and as she read it, she began to believe that Jesus was who he said he was. She prayed and searched for a long time, and on 24 December 1966, she decided to follow Christ. When her family found out, they were furious — they even burned her house down. Bilquis had to leave Pakistan and move to the United States, where she spent the rest of her life telling people that God did not want her to earn his love. He simply wanted her to call him Father.",
+    "image": null,
+    "memorials": [],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]
