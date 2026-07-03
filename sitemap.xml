@@ -974,4 +974,114 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=john-knox</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-knox.jpg</image:loc>
+      <image:caption>Portrait of John Knox</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=nate-saint</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=ed-mccully</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=roger-youderian</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=peter-fleming</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=andrew-fuller</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/andrew-fuller.jpg</image:loc>
+      <image:caption>Portrait of Andrew Fuller</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=ira-sankey</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/ira-sankey.jpg</image:loc>
+      <image:caption>Portrait of Ira Sankey</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=robert-lowry</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/robert-lowry.jpg</image:loc>
+      <image:caption>Portrait of Robert Lowry</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=rc-sproul</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=billy-sunday</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/billy-sunday.jpg</image:loc>
+      <image:caption>Portrait of Billy Sunday</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=j-gresham-machen</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/j-gresham-machen.jpg</image:loc>
+      <image:caption>Portrait of J. Gresham Machen</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=george-williams</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/george-williams.jpg</image:loc>
+      <image:caption>Portrait of George Williams</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=jeremiah-lanphier</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/jeremiah-lanphier.jpg</image:loc>
+      <image:caption>Portrait of Jeremiah Lanphier</image:caption>
+    </image:image>
+  </url>
 </urlset>

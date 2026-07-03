@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-03. 102 people.
+Generated 2026-07-03. 115 people.
 
 ---
 
@@ -117,6 +117,23 @@ She died in Dohnavur in 1951. Her grave has no headstone — only a birdbath pla
 
 ---
 
+## Andrew Fuller (1754–1815)
+
+URL: https://livesoffaith.org/person.html?id=andrew-fuller
+Wikipedia: https://en.wikipedia.org/wiki/Andrew_Fuller
+Nationality: English · Tradition: Particular Baptist · Region: UK/Ireland · Era: 18th Century
+Topics: grace, missions, gospel, faith, perseverance
+
+Andrew Fuller was born in 1754 in Wicken, Cambridgeshire, England, into a farming family within the Particular Baptist tradition. Converted and called to preach as a young man, he was ordained pastor of Soham Baptist Church in 1775, and from 1782 served the church at Kettering, Northamptonshire, until his death.
+
+Fuller grew up under the shadow of 'hyper-Calvinism' — a teaching, common among Particular Baptists of his day, that reasoned no one should be urged to believe the gospel unless they first showed signs of being among God's elect. Fuller found this crippling, both in his own soul and in his preaching, and in 1785 published The Gospel Worthy of All Acceptation, arguing from Scripture that every sinner, without exception, is commanded and welcome to believe — because salvation is offered by grace, through faith, and not earned by any prior qualification.
+
+That conviction bore fruit directly: in 1792, Fuller helped found the Baptist Missionary Society at Kettering, and became its first secretary, tirelessly raising support so that his friend William Carey could sail for India as its first missionary.
+
+Fuller buried eight of his eleven children and his first wife, and was worn down by decades of unpaid, exhausting labour for the Society. He died in 1815, having spent his life insisting that the gospel is genuinely good news — for everyone who will simply believe it.
+
+---
+
 ## Anthony Norris Groves (1795–1853)
 
 URL: https://livesoffaith.org/person.html?id=anthony-norris-groves
@@ -197,6 +214,22 @@ William Franklin Graham Jr. was born in 1918 on a dairy farm near Charlotte, Nor
 In 1948 Graham and his team drew up the Modesto Manifesto, a code of financial and personal integrity that became a model across evangelistic ministry. His 1949 Los Angeles tent crusade made him a national figure, and in 1950 he founded the Billy Graham Evangelistic Association, through which he pioneered evangelism by radio, television, and film, and helped launch Christianity Today magazine. Over six decades of crusades he preached the gospel face to face to more people than anyone before him, continuing the altar call practice begun by Dwight L. Moody, and always closing with Charlotte Elliott's hymn "Just As I Am."
 
 From the 1950s Graham insisted his crusades be racially integrated at a time when much of America was not. At a 1953 rally in Chattanooga, Tennessee, he tore down the ropes organizers had strung to separate the races, telling ushers to leave them down "or you can go on and have the revival without me." For Graham it was simply the gospel worked out: salvation is a gift held out to anyone who will receive it by faith, without regard to race or merit, because Christ's death paid a debt none of us could pay ourselves.
+
+---
+
+## Billy Sunday (1862–1935)
+
+URL: https://livesoffaith.org/person.html?id=billy-sunday
+Wikipedia: https://en.wikipedia.org/wiki/Billy_Sunday
+Nationality: American · Tradition: Presbyterian evangelical · Region: North America · Era: 20th Century
+Topics: evangelism, conversion, revival, gospel, grace
+Note: At several campaign meetings in the 1920s, Sunday accepted public support and financial gifts from Ku Klux Klan members, and his ministry associate publicly praised the Klan on at least one occasion; Sunday is also on record using dehumanizing language toward striking coal miners. These stand in real tension with the gospel he preached and are recorded here plainly, alongside his evangelistic legacy, not to condemn the man but to give a full and honest picture.
+
+Billy Sunday was born in 1862 near Ames, Iowa, and grew up to become a fast, popular outfielder in Major League Baseball during the 1880s. Around 1886–87, invited into Chicago's Pacific Garden Mission by hymns he remembered from childhood, Sunday committed his life to Christ. In 1891 he turned down a lucrative baseball contract to take a modest job with the YMCA instead.
+
+After several years learning the evangelist's trade as an advance man for preacher J. Wilbur Chapman, Sunday began holding his own campaigns in 1896. His preaching was unlike anything American congregations had seen — athletic, plain-spoken, delivered at a run, often ending with Sunday sliding across the stage as if stealing a base. Over the following decades he preached an estimated twenty thousand sermons to more than one hundred million people, with vast crowds coming forward across the sawdust-covered floors of his temporary wooden tabernacles — an experience that gave rise to the phrase 'hitting the sawdust trail.'
+
+Sunday's central message never changed, however plain its delivery: that no one, however respectable or however far gone, is saved by their own effort, but only by turning from sin to trust in Christ. Days before his death in 1935, his final sermon still asked the same question he had spent his life answering: 'What must I do to be saved?' His answer, then as always, was simply — believe.
 
 ---
 
@@ -485,6 +518,23 @@ He died in 1899. It is estimated he preached to more than one hundred million pe
 
 ---
 
+## Ed McCully (1927–1956)
+
+URL: https://livesoffaith.org/person.html?id=ed-mccully
+Wikipedia: https://en.wikipedia.org/wiki/Ed_McCully
+Nationality: American · Tradition: Plymouth Brethren · Region: Latin America · Era: 20th Century
+Topics: missions, sacrifice, martyrdom, faithfulness, obedience
+
+Ed McCully was born in 1927 in Iowa. At Wheaton College he became close friends with Jim Elliot, bound by a shared restlessness for missions. McCully went on to law school at Marquette University — but after reading the Old Testament book of Nehemiah and corresponding with Elliot about the claims of Christ on a life, he withdrew the day before his second year was to begin, choosing missionary training instead of a legal career.
+
+He married Marilou Hobolth in 1951, and the couple sailed for Ecuador the following year, serving among the Quichua people at the Arajuno mission station. There McCully joined Elliot, Nate Saint, Roger Youderian, and Peter Fleming in the slow, careful work of trying to reach the Huaorani — a tribe that had killed every outsider who had come near them.
+
+On 8 January 1956, the five men were speared to death on a Curaray River sandbar. McCully's body was recovered downriver by local Quichua Indians but was swept away again before it could be brought back for burial; he alone of the five has no grave.
+
+McCully had given up a promising career for something the world could not see the value of — trusting, as Scripture teaches, that a life is not saved by what it accumulates, but is redeemed only through faith in Christ, who gave His own life first.
+
+---
+
 ## Elisabeth Elliot (1926–2015)
 
 URL: https://livesoffaith.org/person.html?id=elisabeth-elliot
@@ -647,6 +697,23 @@ Note: Whitefield owned enslaved people at his Georgia orphanage — a serious mo
 
 ---
 
+## George Williams (1821–1905)
+
+URL: https://livesoffaith.org/person.html?id=george-williams
+Wikipedia: https://en.wikipedia.org/wiki/George_Williams_(philanthropist)
+Nationality: English · Tradition: Congregationalist evangelical · Region: UK/Ireland · Era: 19th Century
+Topics: discipleship, service, faithfulness, gospel, compassion
+
+George Williams was born in 1821 in Dulverton, Somerset, England, the youngest of seven sons in a farming family. Converted from Anglicanism to a more evangelical Congregationalist faith as a teenager, he moved to London in 1841 to work as a draper's apprentice — a trade that kept young men working long hours and living together above city shops, often far from any church or family influence.
+
+Concerned for the spiritual welfare of his fellow drapery workers, Williams gathered eleven of them above a shop in St Paul's Churchyard on 6 June 1844 to pray and study Scripture together. That small meeting became the Young Men's Christian Association — the YMCA — an organization built on the conviction that young men adrift in an indifferent city needed, above all else, to know Christ.
+
+Williams went on to become sole owner of his drapery firm and was knighted by Queen Victoria in 1894 for a lifetime of Christian philanthropy, including work with the London City Mission and the Railway Mission. Yet the YMCA always remained his central legacy — a movement that spread worldwide, all traceable back to a handful of young men praying above a shop.
+
+Williams died in 1905, having spent sixty years insisting that the answer to a young man's spiritual danger was never self-improvement, but the grace of Christ, offered freely and received by faith.
+
+---
+
 ## Gladys Aylward (1902–1970)
 
 URL: https://livesoffaith.org/person.html?id=gladys-aylward
@@ -780,6 +847,22 @@ He died in Changsha, Hunan in 1905. His conviction throughout: God's commands ar
 
 ---
 
+## Ira Sankey (1840–1908)
+
+URL: https://livesoffaith.org/person.html?id=ira-sankey
+Wikipedia: https://en.wikipedia.org/wiki/Ira_Sankey
+Nationality: American · Tradition: Methodist evangelical · Region: North America · Era: 19th Century
+Topics: worship, praise, grace, hymns, gospel
+Hymns: The Ninety and Nine, Beneath the Cross of Jesus, A Shelter in the Time of Storm, Trusting Jesus, Faith is the Victory, Who Is on the Lord's Side?, I Am Praying for You, Under His Wings
+
+Ira Sankey was born in 1840 in Edinburg, Pennsylvania, and came to faith in his late teens at a revival meeting. Years later, as a young YMCA delegate attending a convention in Indianapolis in 1870, Sankey was asked to lead a hymn — and a preacher named Dwight L. Moody, listening nearby, told him afterward, 'I have been looking for you for the last eight years.' After six months of hesitation, Sankey gave up his career to become Moody's song leader, a partnership that would last until Moody's death in 1899.
+
+Sankey's rich voice and simple reed organ accompaniment carried Moody's preaching across Britain and America through the 1870s and 1880s, reaching enormous crowds. He compiled and expanded Sacred Songs and Solos, first published in 1873, which grew to include over a thousand hymns, and composed tunes for gospel songs including 'The Ninety and Nine' and 'A Shelter in the Time of Storm.'
+
+By 1903 Sankey had gone blind from glaucoma, yet he continued serving the church until his death in 1908. His hymns rarely dwelt on his own gifts or losses; again and again they pointed hearers back to a Saviour who seeks and saves those who cannot save themselves — grace offered, as Sankey sang it, to be simply received by faith, not earned by effort.
+
+---
+
 ## Isaac Watts (1674–1748)
 
 URL: https://livesoffaith.org/person.html?id=isaac-watts
@@ -806,6 +889,23 @@ Topics: missions, perseverance, grace, faithfulness, conversion
 Isobel Miller Kuhn was born in Toronto in 1901 and raised in a Presbyterian home, but by her last year at the University of British Columbia she had drifted into agnosticism, abandoning prayer and church. In 1921, undone by a broken engagement and at the edge of despair, she prayed a desperate bargain: ‘God, if there be a God... if You will give me peace, I will give You my whole life.’ The peace came, and so did the surrender.
 
 Three years later, hearing missionary J. O. Fraser describe the Lisu people of Yunnan, China, bound by fear of spirits, Isobel knew where that surrendered life was headed. She sailed with the China Inland Mission in 1928 and married fellow missionary John Kuhn the following year in Kunming. From 1934 to 1950 the Kuhns lived among the Lisu, where Isobel pioneered the ‘Rainy Season Bible School,’ timed to the farming calendar so Lisu believers could be trained as evangelists to their own people. When Communist forces swept through in 1950, the family fled over a mountain pass into Burma, leaving behind a growing church. From 1952 she and John continued the same work among Lisu communities in northern Thailand, until illness forced her retirement in 1954. She spent her last years writing books that still carry her testimony that grace, once truly received, cannot be kept to oneself.
+
+---
+
+## J. Gresham Machen (1881–1937)
+
+URL: https://livesoffaith.org/person.html?id=j-gresham-machen
+Wikipedia: https://en.wikipedia.org/wiki/J._Gresham_Machen
+Nationality: American · Tradition: Presbyterian (Orthodox Presbyterian Church) · Region: North America · Era: 20th Century
+Topics: Scripture, gospel, courage, faithfulness, doctrine
+
+J. Gresham Machen was born in 1881 in Baltimore, Maryland. Educated at Johns Hopkins and Princeton, he spent 1905–06 studying under leading liberal theologians in Germany — an experience that, rather than persuading him, deepened his conviction that historic Christianity and the new theological Liberalism sweeping American seminaries were not variations on the same faith, but two different religions entirely.
+
+Machen taught New Testament at Princeton Theological Seminary from 1906. His 1923 book Christianity and Liberalism argued, plainly and carefully, that the doctrines Liberal theology set aside — the deity of Christ, his atoning death, and salvation by grace through faith rather than human effort or moral improvement — were not incidental but were Christianity itself. Remove them, he wrote, and nothing distinctly Christian remains.
+
+When Princeton's governance was reorganized in 1929 to accommodate more liberal leadership, Machen and several colleagues left to found Westminster Theological Seminary in Philadelphia, determined to keep training ministers in the historic faith. Suspended from Presbyterian ministry in 1935 for his continued opposition to Liberalism in the denomination's mission board, Machen helped establish a new denomination the following year, later renamed the Orthodox Presbyterian Church.
+
+He died suddenly of pneumonia in North Dakota in January 1937, on a winter preaching tour. His gravestone bears a single Greek phrase: 'Faithful unto death' — the conviction, uncompromised to the end, that Christ alone saves, and that this good news is worth defending at any cost.
 
 ---
 
@@ -838,6 +938,21 @@ In 1890, after more than thirty years of labour, he published his Exhaustive Con
 Strong's numbers, as they came to be known, became a standard reference tool that remains in daily use more than 130 years later. A preacher with no knowledge of biblical languages can look up any English word, find its number, and trace it back to its root in the original text — a doorway Strong spent his life building and leaving open.
 
 He died in 1894. The Concordance outlasted him and is still published today, probably the most widely used Bible study reference in the English-speaking world.
+
+---
+
+## Jeremiah Lanphier (1809–1898)
+
+URL: https://livesoffaith.org/person.html?id=jeremiah-lanphier
+Wikipedia: https://en.wikipedia.org/wiki/Jeremiah_Lanphier
+Nationality: American · Tradition: Dutch Reformed · Region: North America · Era: 19th Century
+Topics: prayer, revival, faithfulness, gospel, conversion
+
+Jeremiah Lanphier was born in 1809 in Coxsackie, New York. After a business as a cloth merchant failed, he became an active, faithful member of several Reformed and Presbyterian congregations in New York City, and in 1857 was hired as a lay missionary for the North Dutch Church in Lower Manhattan — a role with no formal theological training required, only a willingness to serve.
+
+On 23 September 1857, Lanphier held the first of what he intended as a weekly noon prayer meeting for businessmen, distributing handbills inviting passers-by to 'stop 5, 10, or 20 minutes, or the whole time, as your time admits.' Only six people came, arriving late. Within weeks, as a severe financial panic gripped the city, attendance climbed into the dozens, then hundreds; by March 1858 an estimated ten thousand people were gathering daily at linked prayer meetings across Lower Manhattan, and the movement had spread to other cities across America.
+
+Historians would later call this the Prayer Meeting Revival, one of the most significant seasons of spiritual awakening in American history — begun not by a famous preacher, but by one ordinary layman's willingness to pray. Lanphier led the daily meeting for thirty-six years, retiring only in 1893. He died in 1898, having spent his life demonstrating that revival is not manufactured by human skill, but given by God — and simply asked for, in faith, on one's knees.
 
 ---
 
@@ -933,6 +1048,22 @@ Jan Hus was born around 1369 in Husinec, Bohemia. He became rector of the Univer
 He was excommunicated in 1411. The Council of Constance summoned him; he came under an imperial safe-conduct promise, which was not honoured. He refused to recant teachings he held to be grounded in Scripture and was burned at the stake on 6 July 1415.
 
 Hus is best understood as a pre-Reformation reformer who saw that the church must be reformed by Scripture alone. He died for that conviction a century before the Reformation gave it its fullest expression.
+
+---
+
+## John Knox (c. 1514–1572)
+
+URL: https://livesoffaith.org/person.html?id=john-knox
+Wikipedia: https://en.wikipedia.org/wiki/John_Knox
+Nationality: Scottish · Tradition: Presbyterian · Region: UK/Ireland · Era: Reformation
+Topics: Reformation, preaching, courage, perseverance, gospel
+Note: Knox published "The First Blast of the Trumpet Against the Monstrous Regiment of Women" (1558), arguing that rule by female monarchs was contrary to nature and Scripture. Aimed at Catholic queens Mary I of England and Mary of Guise, the tract nonetheless caused Knox lasting trouble — including with the Protestant Elizabeth I — and reflects a view of women in authority not shared by later Reformed tradition.
+
+John Knox was born around 1514 near Haddington, Scotland, and trained as a Catholic priest before the preaching of the martyr George Wishart turned him toward reform. When Wishart was arrested, Knox stood ready to guard him with a sword — but was kept back from the execution that followed in 1546. The next year Knox himself was captured at St Andrews Castle and spent nineteen months chained as a French galley slave, suffering for a faith he had barely begun to preach.
+
+After his release, Knox ministered in England and studied under John Calvin in Geneva before returning to Scotland in 1559 to lead its Reformation. His preaching helped topple the old order; he co-drafted the Scots Confession of 1560, which abolished papal authority and the Mass, and he is remembered as the founder of Presbyterianism in Scotland.
+
+Through repeated confrontations with the crown, including several tense audiences with Mary, Queen of Scots, Knox held to one unmoving conviction: that a sinner is justified before God through faith in Christ's finished work alone — not through priest, sacrament, or royal favour. He preached at St Giles' in Edinburgh almost to the day he died in 1572. Fittingly for a man who sought no monument to himself, his grave now lies beneath a car park behind the church he served — his legacy resting not in stone, but in the Reformed faith he helped establish across a nation.
 
 ---
 
@@ -1288,6 +1419,23 @@ Fuchida never claimed his past could be undone by anything he did. What changed 
 
 ---
 
+## Nate Saint (1923–1956)
+
+URL: https://livesoffaith.org/person.html?id=nate-saint
+Wikipedia: https://en.wikipedia.org/wiki/Nate_Saint
+Nationality: American · Tradition: Interdenominational evangelical · Region: Latin America · Era: 20th Century
+Topics: missions, sacrifice, martyrdom, faithfulness, obedience
+
+Nate Saint was born in 1923 near Hershey, Pennsylvania. Prevented by a childhood bone condition from completing wartime flight training, he instead put his piloting skill to use for the gospel, joining Mission Aviation Fellowship and, in 1948, opening its jungle base at Shell Mera, Ecuador, with his wife Marjorie.
+
+Saint pioneered the 'spiraling line' technique — circling a small plane tightly enough that a bucket on a long line would hang almost motionless over one spot below — allowing him to lower gifts to isolated tribes who had never seen an outsider survive contact with them. Through these patient, prayerful gift-drops, Saint and four fellow missionaries — Ed McCully, Roger Youderian, Peter Fleming, and Jim Elliot — began building trust with the Huaorani people of the Ecuadorian rainforest, a group who had killed every outsider who had approached them before.
+
+On 8 January 1956, having camped for days on a Curaray River sandbar in what appeared to be peaceful contact, Saint and his four companions were speared to death by Huaorani warriors. He was thirty-two.
+
+Saint's death did not end the story. His sister Rachel Saint, and later his own son Steve, went to live among the very people who had killed him — and the gospel he had risked everything to carry took root. Christ's call to lay down one's life for others, he had believed, was not a metaphor.
+
+---
+
 ## Nicky Cruz (b. 1938)
 
 URL: https://livesoffaith.org/person.html?id=nicky-cruz
@@ -1338,6 +1486,23 @@ Her life proclaimed what the gospel insists: that in Christ there is no Brahmin 
 
 ---
 
+## Peter Fleming (1928–1956)
+
+URL: https://livesoffaith.org/person.html?id=peter-fleming
+Wikipedia: https://en.wikipedia.org/wiki/Pete_Fleming
+Nationality: American · Tradition: Plymouth Brethren · Region: Latin America · Era: 20th Century
+Topics: missions, sacrifice, martyrdom, faithfulness, gospel
+
+Peter ('Pete') Fleming was born in 1928 in Seattle, Washington. A gifted student of philosophy at the University of Washington, where he led the university's Christian fellowship, Fleming might have pursued an academic career — but in 1952 he sailed for Ecuador instead, alongside his close friend Jim Elliot, as a missionary with the Plymouth Brethren agency Christian Missions in Many Lands.
+
+Fleming served among the Quichua people at Shandia, learning their language in the field, and married Olive Ainslie in 1954 after Elliot encouraged him to give his first year of ministry undivided attention. Of the five men who later attempted contact with the Huaorani — Elliot, Nate Saint, Ed McCully, and Roger Youderian among them — Fleming was the only one without children of his own.
+
+On 8 January 1956, as the group was attacked on a Curaray River sandbar, Fleming was the second to die, killed while attempting to call out friendly words in the Huaorani language.
+
+Fleming had exchanged the promise of an academic future for a harder and more hidden calling. He had come to believe, and to live out, the truth Scripture teaches plainly: that a life is not made valuable by what it achieves, but is given its worth entirely by the Christ who redeems it through faith, not through merit.
+
+---
+
 ## Philip Bliss (1838–1876)
 
 URL: https://livesoffaith.org/person.html?id=philip-bliss
@@ -1366,6 +1531,21 @@ Reuben Archer Torrey was born in 1856 in Hoboken, New Jersey, and educated at Ya
 From 1902 to 1907, Torrey led evangelistic campaigns across the English-speaking world and Asia, often alongside song leader Charles Alexander, drawing crowds that rivaled Moody's own. But his more lasting legacy was institutional rather than personal: he became founding dean of the Bible Institute of Los Angeles (BIOLA) in 1912, and from 1910 served as one of the editors of The Fundamentals — an essay series, distributed free to hundreds of thousands of pastors and workers, that defended the deity of Christ, the authority of Scripture, and salvation through Christ's atoning death against the rising theological liberalism of the day. The word “fundamentalist” itself traces back to this project.
 
 Torrey was as insistent on prayer as on doctrine, writing extensively to urge believers to depend on the Holy Spirit rather than mere technique or personality in evangelism — a caution aimed, not least, at platform evangelists like himself. He died in 1928, having spent a working life making sure that whatever methods changed, the message underneath — Christ crucified and risen for sinners — would not.
+
+---
+
+## R.C. Sproul (1939–2017)
+
+URL: https://livesoffaith.org/person.html?id=rc-sproul
+Wikipedia: https://en.wikipedia.org/wiki/R._C._Sproul
+Nationality: American · Tradition: Reformed/Presbyterian · Region: North America · Era: 20th Century
+Topics: grace, Scripture, sovereignty of God, holiness, teaching
+
+R.C. Sproul was born in 1939 in Pittsburgh, Pennsylvania. As a student at Westminster College, he was challenged by another student's plain, direct witness about Christ, and in 1957 committed his life to him. Sproul later recalled the moment as the beginning of a lifelong pursuit of knowing God more truly.
+
+After theological study, including under G.C. Berkouwer in the Netherlands, Sproul devoted himself to teaching ordinary Christians the doctrines that had gripped him: the holiness and sovereignty of God, the authority of Scripture, and justification by faith alone. In 1971 he founded a small study centre in rural Pennsylvania that grew into Ligonier Ministries, reaching a global audience through books, radio, and recorded teaching. His best-known book, The Holiness of God (1985), retold his own realization that a right view of who God is exposes exactly how little any person could ever deserve God's favour.
+
+In 1978 Sproul helped draft the Chicago Statement on Biblical Inerrancy, defending the trustworthiness of Scripture as the foundation for knowing Christ rightly at all. Until his death in 2017, he insisted that sinners are not saved by their own goodness, however sincere, but by grace alone, through faith alone, in Christ alone — the same conviction that had taken hold of him as a young student decades before.
 
 ---
 
@@ -1416,6 +1596,22 @@ His life pointed to the grace that produces unhurried, unboastful, enduring love
 
 ---
 
+## Robert Lowry (1826–1899)
+
+URL: https://livesoffaith.org/person.html?id=robert-lowry
+Wikipedia: https://en.wikipedia.org/wiki/Robert_Lowry_(hymn_writer)
+Nationality: American · Tradition: Baptist · Region: North America · Era: 19th Century
+Topics: worship, praise, grace, hymns, gospel
+Hymns: Shall We Gather at the River, Nothing But the Blood of Jesus, Christ Arose! (Low in the Grave He Lay), Marching to Zion, I Need Thee Every Hour
+
+Robert Lowry was born in 1826 in Philadelphia. Ordained into Baptist ministry in 1854, he served a series of churches over the following decades, including Hanson Place Baptist Church in Brooklyn and, later, Park Avenue Baptist Church in Plainfield, New Jersey, alongside a season teaching rhetoric at his alma mater.
+
+Though not formally trained in music, Lowry composed several of the era's most enduring gospel hymn tunes. In 1864, reflecting on the river of life described in the book of Revelation, he wrote 'Shall We Gather at the River' — a hymn he later dismissed, with characteristic modesty, as 'brass band music,' even as congregations everywhere kept singing it. In 1876 he wrote both words and music for 'Nothing But the Blood of Jesus,' a hymn built entirely around a single, unadorned gospel claim: that sinners are cleansed not by their own effort but solely by what Christ accomplished on the cross.
+
+Lowry also encouraged fellow hymn writers, including Fanny Crosby, for whom he composed tunes, and Annie Hawks, whose words he set to music for 'I Need Thee Every Hour.' He died in 1899, having spent a working life reminding ordinary congregations, in the simplest possible language, that nothing recommends a sinner to God except the blood of Christ, received by faith.
+
+---
+
 ## Robert Murray M'Cheyne (1813–1843)
 
 URL: https://livesoffaith.org/person.html?id=robert-murray-mcheyne
@@ -1431,6 +1627,23 @@ In the seven years of his ministry he became one of the most remarkable preacher
 He died in 1843, aged 29, from typhus contracted while visiting sick parishioners during an epidemic. His friend Andrew Bonar's Memoir and Remains, published shortly after, became one of the most influential books in Scottish evangelical history.
 
 M'Cheyne's life is a rebuke and a comfort — a rebuke to the idea that long years are needed for God's purposes, and a comfort that fruitfulness flows from proximity to Christ. "Lord, make me as holy as a pardoned sinner can be" was his prayer.
+
+---
+
+## Roger Youderian (1924–1956)
+
+URL: https://livesoffaith.org/person.html?id=roger-youderian
+Wikipedia: https://en.wikipedia.org/wiki/Roger_Youderian
+Nationality: American · Tradition: Baptist evangelical · Region: Latin America · Era: 20th Century
+Topics: missions, sacrifice, martyrdom, faithfulness, conversion
+
+Roger Youderian was born in 1924 in Sumatra, Montana. He served as a US Army paratrooper in the Second World War, fighting at the Battle of the Bulge and in Operation Varsity — and it was in England, through the influence of an army chaplain, that he professed faith in Christ in the autumn of 1944.
+
+After the war, Youderian trained at Northwestern College in Minnesota and married Barbara Orton. In 1953 the couple arrived in Ecuador, where Youderian began missionary work among the Jivaro (Shuar) people at the remote Macuma station — a people known, like the neighbouring Huaorani, for a history of violence toward outsiders.
+
+In January 1956, Youderian joined Nate Saint, Ed McCully, Peter Fleming, and Jim Elliot in a careful attempt at peaceful contact with the Huaorani. On 8 January, as the group was attacked on a Curaray River sandbar, Youderian was the last of the five to die, killed while trying to radio for help.
+
+A former soldier who had once fought for his country, Youderian had come to believe that the greater battle was a spiritual one, already won at the cross — and that no one, soldier or missionary, is saved by their own courage, but only by faith in the One who fought and died for them.
 
 ---
 
