@@ -3220,9 +3220,9 @@
       "redistribution_note": "Explicitly 'public domain in the United States', published before Jan 1 1931."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-03"
     },
     "memorials": [
       {
@@ -3922,9 +3922,9 @@
       "redistribution_note": "Photograph c.1930s — right at the PD cutoff, explicit claim but flag for spot-check."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-03"
     },
     "memorials": [
       {
@@ -4600,9 +4600,9 @@
       "redistribution_note": "Portrait dated 1840 — clear public-domain claim, no caveat."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-03"
     },
     "memorials": [
       {
@@ -5087,9 +5087,9 @@
       "redistribution_note": "Source is an archive.org/Princeton library collection citation, not a Wikimedia Commons URL — no automated fetch path for MVP."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-03"
     },
     "memorials": [
       {
@@ -5242,9 +5242,9 @@
     "family_story": "When Joni Eareckson Tada was 17 years old, she dived into a lake, hit the bottom, and broke her neck. She has been in a wheelchair ever since, unable to use her hands.\n\nAt first she was angry and heartbroken. But slowly, through reading the Bible and praying, she came to trust that God had not abandoned her — and that her life still had meaning.\n\nShe started Joni and Friends, a ministry helping people with disabilities worldwide. She paints pictures holding a brush in her mouth, and has written over fifty books.\n\nJoni says heaven feels more real than her wheelchair — not because she wants to escape, but because she believes God is writing a story that will one day make sense of everything.",
     "image": null,
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-03"
     },
     "memorials": []
   },
@@ -5590,7 +5590,14 @@
     "source_summary": "William MacDonald (1917–2007) was an American Plymouth Brethren teacher and author. He served as president of Emmaus Bible College in Oak Park, Illinois (1959–1965) before pursuing a wider Bible-teaching ministry across the United States, Europe, and Asia. He published more than eighty books, above all the Believer's Bible Commentary (1989), a single-volume exposition of every book of Scripture widely used among evangelical Christians.",
     "adult_story": "William MacDonald was born on 7 January 1917 in Leominster, Massachusetts. After earning degrees from Tufts College and Harvard Business School, he worked as an investment analyst at the First National Bank of Boston — but commerce gave way to conviction. He served in the Navy during the Second World War, and afterwards gave himself entirely to Bible teaching through the Plymouth Brethren.\n\nFrom 1946 he served on the faculty of Emmaus Bible School in Oak Park, Illinois, becoming its president in 1959. After stepping down in 1965, he spent years teaching in the United States, Europe, and Asia, then joined the Discipleship Intern Training Program in California, which he served until 1996.\n\nMacDonald published more than eighty books, but his lasting monument is the *Believer's Bible Commentary* (1989) — a single-volume exposition of every book of Scripture, written in plain and accessible prose. Where figures such as [[William E. Vine|william-edwy-vine]] had mapped the language of the New Testament, MacDonald mapped the whole landscape of the Bible for the ordinary believer. His *True Discipleship* pressed the saved believer beyond nominal religion into whole-hearted allegiance — not confusing the cost of discipleship with the free gift of salvation, but refusing to accept that a faith with no fruit in one's life was saving faith at all.\n\nHe died on 25 December 2007, Christmas Day, having spent sixty years making the Word of Christ dwell richly in whoever would read.",
     "family_story": "William MacDonald was an American teacher who believed the Bible was the most important book ever written — and spent his life helping ordinary people understand it.\n\nAfter studying at some of America's most famous universities, he gave up a career in banking to teach God's Word full-time. He led Emmaus Bible College and wrote more than eighty books.\n\nHis biggest book, the *Believer's Bible Commentary*, goes through every book of the Bible and explains what it means. Millions of Christians have used it to understand Scripture better.\n\nBill MacDonald also wrote about what it truly means to follow Jesus — not just in words, but with your whole life. He spent sixty years helping others trust in God's grace.",
-    "image": null,
+    "image": {
+      "file": "william-macdonald.jpg",
+      "prompt_used": "Photorealistic portrait of William MacDonald, American Plymouth Brethren Bible teacher and author, late 20th century, elderly with balding grey hair, wearing dark suit and striped tie, thick black-framed glasses, holding a Bible, dignified and gentle expression, historically accurate",
+      "prompt_image_source": "https://gospelfolio.com/wp-content/uploads/2020/06/MacDonald-William-Bill-e1593013221300.jpg — reference image personally selected and approved by the site owner (Gospel Folio Press, MacDonald's publisher)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "Publisher's own website image, not a Commons URL and carries no public-domain claim — approved for use as an AI-generation reference only, not for standalone republishing."
+    },
     "related_people": [
       "william-edwy-vine",
       "john-nelson-darby",
