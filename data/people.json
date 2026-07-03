@@ -4252,7 +4252,7 @@
     ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Luther",
     "source_summary": "Martin Luther (1483–1546) was a German Augustinian friar, priest, theologian, and professor who became the seminal figure of the Protestant Reformation. Born in Eisleben, Saxony, he entered an Augustinian monastery in 1505 after vowing during a thunderstorm to become a monk. Studying Paul’s letter to the Romans, he came to understand the righteousness of God as a gift given through faith in Christ rather than a standard to be achieved by human effort. On 31 October 1517 he posted ninety-five theses against the sale of indulgences; summoned before the Diet of Worms in 1521, he refused to recant unless shown by Scripture and reason that he was wrong. He translated the New Testament into German in eleven weeks (1522), married Katharina von Bora in 1525, and died in Eisleben in February 1546.",
-    "adult_story": "Martin Luther was born in 1483 in Eisleben, Saxony, the son of a copper miner who sent him to study law. During a violent thunderstorm in 1505, fearing sudden death, Luther vowed to become a monk. He entered an Augustinian monastery and pursued holiness with terrifying intensity — yet found only despair. However exhaustive his penance, he could not silence the voice that told him God was against him.\n\nThe breakthrough came through Scripture. Studying Paul’s letter to the Romans, he wrestled with the phrase the righteousness of God — and finally understood it not as the righteousness that condemns, but as the righteousness given freely to the sinner through faith in Christ. “I felt myself to be reborn and to have gone through open doors into paradise,” he wrote.\n\nOn 31 October 1517 he posted ninety-five theses against the sale of indulgences — the spark that became the Protestant Reformation. Summoned before the Diet of Worms in 1521, he refused to recant unless shown by Scripture and plain reason that he was wrong: “Here I stand; I can do no other.”\n\nHe translated the New Testament into German in eleven weeks (1522), giving ordinary people direct access to Scripture. He married Katharina von Bora in 1525 and modelled a new pattern of Christian domestic life.\n\nHe died in Eisleben in February 1546 — in the town where he was born. He left behind a Reformation built on a single rediscovery: by faith alone.",
+    "adult_story": "Martin Luther was born in 1483 in Eisleben, Saxony, the son of a copper miner who sent him to study law. During a violent thunderstorm in 1505, fearing sudden death, Luther vowed to become a monk. He entered an Augustinian monastery and pursued holiness with terrifying intensity — yet found only despair. However exhaustive his penance, he could not silence the voice that told him God was against him.\n\nThe breakthrough came through Scripture. Studying Paul’s letter to the Romans, he wrestled with the phrase the righteousness of God — and finally understood it not as the righteousness that condemns, but as the righteousness given freely to the sinner through faith in Christ. “I felt myself to be reborn and to have gone through open doors into paradise,” he wrote.\n\nOn 31 October 1517 he posted ninety-five theses against the sale of indulgences — the spark that became the Protestant Reformation. Summoned before the Diet of Worms in 1521, he refused to recant unless shown by Scripture and plain reason that he was wrong: “Here I stand; I can do no other.”\n\nHe translated the New Testament into German in eleven weeks (1522), giving ordinary people direct access to Scripture. He married [[Katharina von Bora|katharina-von-bora]] in 1525 and modelled a new pattern of Christian domestic life.\n\nHe died in Eisleben in February 1546 — in the town where he was born. He left behind a Reformation built on a single rediscovery: by faith alone.",
     "family_story": "Martin Luther was born in Germany in 1483. As a young man he became a monk, trying very hard to be good enough for God — but he never felt at peace.\n\nThen, reading the Bible, he discovered the truth that changed everything: people are not made right with God by trying harder. God gives his righteousness as a free gift, through faith in Jesus Christ.\n\nLuther told the world about this. He was put on trial and told to take it all back. He refused. He even translated the Bible into German so ordinary people could read it themselves.\n\nHis great discovery — that we are saved by faith alone, not by works — is still the foundation of the gospel today.",
     "image": {
       "file": "martin-luther.jpg",
@@ -4289,6 +4289,9 @@
         "lat": 51.8663,
         "lng": 12.6465
       }
+    ],
+    "related_people": [
+      "katharina-von-bora"
     ]
   },
   {
@@ -7093,5 +7096,758 @@
       "reviewed_by": "",
       "reviewed_date": ""
     }
+  },
+  {
+    "id": "katharina-von-bora",
+    "name": "Katharina von Bora",
+    "born": 1499,
+    "born_approximate": true,
+    "died": 1552,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "c. 1499",
+        "event": "birth",
+        "details": "Traditionally said to be born in Saxony; exact date and place undocumented."
+      },
+      {
+        "date": "Apr 4, 1523",
+        "event": "other",
+        "details": "Escaped Nimbschen convent hidden among herring barrels in a merchant's wagon."
+      },
+      {
+        "date": "Jun 13, 1525",
+        "event": "other",
+        "details": "Married Martin Luther in Wittenberg."
+      },
+      {
+        "date": "Dec 20, 1552",
+        "event": "death",
+        "details": "Died in Torgau, Saxony, from injuries sustained fleeing plague and famine."
+      }
+    ],
+    "nationality": "German",
+    "era": "Reformation",
+    "region": "Europe",
+    "tradition": "Lutheran",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "grace",
+      "marriage and family",
+      "reformation",
+      "faithfulness"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Katharina_von_Bora",
+    "source_summary": "Katharina von Bora (c. 1499–1552) was a former Cistercian nun who escaped her convent in 1523 and married the Reformer Martin Luther in 1525. She ran the Luther household in Wittenberg — farming, brewing, and hosting a constant stream of students and visitors — helping establish the pattern of the Protestant pastor's family. Widowed in 1546, she died in 1552 after being injured fleeing plague in Wittenberg.",
+    "adult_story": "Katharina von Bora was born around 1499 in Saxony and, like many daughters of the minor German nobility, was placed in a convent as a child — eventually a Cistercian house at Nimbschen. Reading the reforming writings circulating out of Wittenberg convinced her and eleven other nuns that convent vows could not earn the righteousness [[Martin Luther|martin-luther]] preached as a free gift in Christ.\n\nOn Holy Saturday, 1523, the twelve women escaped, smuggled out hidden among herring barrels in a merchant's wagon arranged by Luther. Two years later, in 1525, Katharina married Luther himself. She ran their household in Wittenberg's former monastery — farming, brewing, and keeping boarders — freeing Luther to write and teach, and in doing so helped establish the pattern of the Protestant pastor's family still recognizable today.\n\nWidowed in 1546, she lost much of Luther's estate to legal disputes and fled Wittenberg twice during war and plague, finally dying in 1552 from injuries sustained escaping the second time. She is remembered to have said on her deathbed, “I will stick to Christ as a burr to cloth” — the same confidence in Christ's finished work, not her own record of labor or suffering, that had carried her out of the convent thirty years before.",
+    "family_story": "Katharina was sent to live in a convent when she was a little girl. When she grew up, she heard about a teacher named Martin Luther who said God's forgiveness is a free gift — you don't have to earn it by keeping convent rules. She believed it, and one night she and eleven other nuns escaped, hidden in a merchant's wagon among barrels of fish.\n\nKatharina later married Martin Luther. She ran their busy home, growing food and brewing and caring for everyone who visited. Life was often hard for her, but she trusted Christ to the very end. She once said she would “stick to Christ like a burr sticks to cloth” — holding on, no matter what.",
+    "image": {
+      "file": "katharina-von-bora.jpg",
+      "prompt_used": "Photorealistic portrait of Katharina von Bora, German former nun and wife of Martin Luther, mid-1520s, wearing modest German burgher woman's dress and headcovering typical of Wittenberg, serious and composed expression, historically accurate to 1520s Saxon dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d._%C3%84._-_Katharina_von_Bora_-_WGA05678.jpg — Lucas Cranach the Elder portrait, c. 1525, Gemäldegalerie Berlin, public domain (life+100 rule, published before 1931)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Cranach portrait c. 1525, Gemäldegalerie Berlin — clear public-domain claim, no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "statue",
+        "name": "Denkmal für Katharina von Bora, Lutherhaus courtyard",
+        "address": "Collegienstraße 54, 06886 Lutherstadt Wittenberg, Germany",
+        "lat": 51.8664,
+        "lng": 12.6509
+      },
+      {
+        "type": "museum",
+        "name": "Katharina-Luther-Museum (Katharina-Luther-Stube)",
+        "address": "Katharinenstraße 11, 04860 Torgau, Germany",
+        "lat": 51.558891,
+        "lng": 13.006624
+      },
+      {
+        "type": "plaque",
+        "name": "Memorial plaque, Marienkirche Torgau — marks her death in 1552",
+        "address": "Wintergüne 1, 04860 Torgau, Germany",
+        "lat": 51.5578,
+        "lng": 13.0012
+      }
+    ],
+    "related_people": [
+      "martin-luther"
+    ]
+  },
+  {
+    "id": "samuel-rutherford",
+    "name": "Samuel Rutherford",
+    "born": 1600,
+    "born_approximate": true,
+    "died": 1661,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "c. 1600",
+        "event": "birth",
+        "details": "Born in Nisbet, Roxburghshire, Scotland; exact date unknown."
+      },
+      {
+        "date": "Jul 27, 1636",
+        "event": "other",
+        "details": "Prohibited from ministry and exiled to Aberdeen for nonconformity to episcopal church policy."
+      },
+      {
+        "date": "1644",
+        "event": "other",
+        "details": "Published Lex, Rex, defending constitutional limits on royal power."
+      },
+      {
+        "date": "Mar 29, 1661",
+        "event": "death",
+        "details": "Died in St Andrews, Scotland, before a summons on a charge of treason could be carried out."
+      }
+    ],
+    "nationality": "Scottish",
+    "era": "17th Century",
+    "region": "UK/Ireland",
+    "tradition": "Covenanter / Presbyterian",
+    "flagged": true,
+    "footnote": "Rutherford wrote A Free Disputation Against Pretended Liberty of Conscience (1649), arguing that civil authorities should suppress false religion and explicitly opposing the religious toleration advocated by Roger Williams. This defense of state-enforced conformity is rejected by the great majority of evangelical Christians today, who hold liberty of conscience to be a biblical and moral good. His devotional writing and pastoral suffering remain widely valued.",
+    "topics": [
+      "suffering",
+      "prayer",
+      "exile",
+      "devotion",
+      "Christ's love"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Samuel_Rutherford",
+    "source_summary": "Samuel Rutherford (c. 1600–1661) was a Scottish Presbyterian minister and Covenanter theologian. Barred from ministry and exiled to Aberdeen in 1636 for nonconformity, he wrote most of his famous devotional Letters during that exile. He represented Scotland at the Westminster Assembly and wrote Lex, Rex (1644), a defense of constitutional government that was publicly burned after the Restoration. He died in St Andrews in 1661 while facing a charge of treason.",
+    "adult_story": "Samuel Rutherford was born around 1600 in the Scottish Borders and rose to become one of the most learned ministers in the Church of Scotland, serving the parish of Anwoth in Galloway from 1627. His preaching and pastoral visiting were tireless, but his refusal to conform to the bishops' ceremonies brought him under repeated suspicion from the church courts.\n\nIn 1636 he was formally barred from ministry and banished to Aberdeen “during the King's pleasure” — an open-ended exile for nonconformity. It was there, cut off from his congregation, that he wrote most of the devotional Letters for which he is remembered: intimate, Christ-absorbed reflections on suffering that Charles Spurgeon later called “the nearest thing to inspiration...in all the writings of mere men.” Restored to ministry after 1638, he went on to represent Scotland at the Westminster Assembly and to write Lex, Rex (1644), a defense of constitutional government that was publicly burned after the Restoration.\n\nCited to face a charge of treason for that book, Rutherford died in St Andrews in 1661 before the case could proceed, reportedly answering the summons: “I have got a summons already before a superior Judge, and I behove to answer my first summons.” His life's whole direction, like his last recorded words, turned away from his own record toward Christ alone — “Acquainted with Emmanuel's love” is carved on his grave.",
+    "family_story": "Samuel Rutherford was a Scottish minister who loved his church so much people said he was “always preaching, always praying, always visiting the sick.” But when he wouldn't do everything the king's bishops demanded, he was sent to a different town, alone, for years.\n\nWhile away, missing his people, Rutherford wrote letters to comfort them — letters so full of love for Jesus Christ that people still read them centuries later. Even in the hardest years, he trusted God had not forgotten him.\n\nNear the end of his life, powerful men threatened to put him on trial. Rutherford wasn't afraid. He said he had already been summoned by a greater Judge than any of them — and he went gladly to meet Him.",
+    "image": {
+      "file": "samuel-rutherford.jpg",
+      "prompt_used": "Photorealistic portrait of Samuel Rutherford, Scottish Presbyterian minister and theologian, mid-17th century, wearing black Geneva gown and bands typical of a Covenanter-era minister, serious and resolute expression, historically accurate to 1640s Scotland",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Samuel_Rutherford_St._Andrews.jpg — oil portrait attributed to Robert Walker, University of St Andrews (HC223); public domain (life+100 rule, published before 1931). Note: Art UK's own listing marks the sitter's identity as uncertain (“Samuel Rutherford (1600–1661) (?)”)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "Source institution (Art UK) itself flags the sitter identification as uncertain — usable as a generation reference but not confirmed enough for standalone real-photo redistribution."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "monument",
+        "name": "Rutherford's Monument, Anwoth",
+        "address": "Boreland Hill, near Gatehouse of Fleet, Dumfries and Galloway, Scotland",
+        "lat": 54.8771,
+        "lng": -4.2029
+      },
+      {
+        "type": "gravestone",
+        "name": "Grave of Samuel Rutherford, St Andrews Cathedral",
+        "address": "St Andrews Cathedral churchyard, St Andrews, Fife, Scotland",
+        "lat": 56.3404,
+        "lng": -2.7888
+      }
+    ],
+    "related_people": []
+  },
+  {
+    "id": "charles-simeon",
+    "name": "Charles Simeon",
+    "born": 1759,
+    "born_approximate": false,
+    "died": 1836,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Sep 24, 1759",
+        "event": "birth",
+        "details": "Born in Reading, Berkshire, England."
+      },
+      {
+        "date": "1779",
+        "event": "saved",
+        "details": "Converted after preparing for communion at Cambridge, understanding Christ as his substitute for sin."
+      },
+      {
+        "date": "Nov 9, 1782",
+        "event": "other",
+        "details": "Appointed vicar of Holy Trinity Church, Cambridge, aged 23."
+      },
+      {
+        "date": "1799",
+        "event": "other",
+        "details": "Helped found the Church Missionary Society."
+      },
+      {
+        "date": "Nov 13, 1836",
+        "event": "death",
+        "details": "Died at Cambridge after 54 years as vicar of Holy Trinity."
+      }
+    ],
+    "nationality": "English",
+    "era": "18th Century",
+    "region": "UK/Ireland",
+    "tradition": "Anglican evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "perseverance",
+      "preaching",
+      "missions",
+      "conversion",
+      "pastoral ministry"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Simeon",
+    "source_summary": "Charles Simeon (1759–1836) was an Anglican evangelical clergyman who served as vicar of Holy Trinity Church, Cambridge, for 54 years despite years of hostility from his own congregation. He became a leading trainer of evangelical clergy and helped found the Church Missionary Society in 1799.",
+    "adult_story": "Charles Simeon was born in Reading in 1759 and came to Cambridge as a wealthy, worldly undergraduate at King's College. Ordered to attend communion, and dreading it, he prepared by reading a book on the Lord's Supper — and there, in 1779, understood for the first time that Christ himself had borne his sins as a substitute. “I must lay my sins on the head of my substitute,” he later wrote of that moment.\n\nIn 1782, aged just 23, he was appointed vicar of Holy Trinity Church, Cambridge — a post he held for fifty-four years. His own congregation despised him at first: churchwardens locked the pews against him and threw out benches he brought in for the poor, and hostility toward him lingered for years. He answered by starting an extra service for those the church excluded, and simply stayed. Over decades he became one of the most trusted trainers of evangelical clergy in England, mentoring young ministers such as [[Henry Martyn|henry-martyn]], and helped found the Church Missionary Society in 1799.\n\nSimeon never married and gave away much of his income, living simply to the end. He died in 1836, still vicar of the same church, having outlasted every one of his early opponents — proof, he would have said, not of his own persistence but of a Savior who does not let go of those he has bought.",
+    "family_story": "Charles Simeon became a church leader in Cambridge, England, when he was only 23. But almost nobody wanted him there — people locked their own pews so he couldn't use them, and threw away the benches he brought in for poor people to sit on.\n\nCharles didn't fight back or leave. He just kept loving his people and preaching the truth about Jesus. Slowly, over many years, hearts changed. He went on to teach hundreds of young preachers how to love Christ and share him with others — including missionaries like Henry Martyn.\n\nHe served that same church for fifty-four years, showing that staying faithful for a long time — even when nobody claps for you — matters more than being popular right away.",
+    "image": {
+      "file": "charles-simeon.jpg",
+      "prompt_used": "Photorealistic portrait of Charles Simeon, English Anglican clergyman, early 19th century, wearing black clerical coat and white bands, serious and pastoral expression, historically accurate to Cambridge academic dress of the period",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:CharlesSimeon.jpg — contemporary portrait, artist unknown; public domain (life+70 rule)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Contemporary portrait, anonymous artist — public domain (life+70 rule), no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "church",
+        "name": "Holy Trinity Church, Cambridge — Simeon's parish 1782–1836",
+        "address": "Market Street, Cambridge, CB2 3NZ, England",
+        "lat": 52.2049,
+        "lng": 0.1204
+      },
+      {
+        "type": "plaque",
+        "name": "Memorial tablet to Charles Simeon, Holy Trinity Church",
+        "address": "Market Street, Cambridge, CB2 3NZ, England",
+        "lat": 52.2049,
+        "lng": 0.1204
+      },
+      {
+        "type": "gravestone",
+        "name": "Grave of Charles Simeon, King's College Chapel",
+        "address": "King's Parade, Cambridge, CB2 1ST, England",
+        "lat": 52.2046,
+        "lng": 0.1176
+      }
+    ],
+    "related_people": [
+      "henry-martyn"
+    ]
+  },
+  {
+    "id": "john-charles-ryle",
+    "name": "John Charles Ryle",
+    "born": 1816,
+    "born_approximate": false,
+    "died": 1900,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "May 10, 1816",
+        "event": "birth",
+        "details": "Born in Macclesfield, Cheshire, England."
+      },
+      {
+        "date": "1837",
+        "event": "saved",
+        "details": "Converted at Oxford after hearing Ephesians 2:8 read in a church service."
+      },
+      {
+        "date": "1841",
+        "event": "other",
+        "details": "Ordained, having abandoned plans for a political career after his father's bank failed."
+      },
+      {
+        "date": "Apr 19, 1880",
+        "event": "other",
+        "details": "Became the first Bishop of Liverpool."
+      },
+      {
+        "date": "Jun 10, 1900",
+        "event": "death",
+        "details": "Died at Lowestoft, England; buried at All Saints Church, Childwall, Liverpool."
+      }
+    ],
+    "nationality": "English",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Anglican evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "holiness",
+      "providence",
+      "suffering",
+      "conversion"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/J._C._Ryle",
+    "source_summary": "John Charles Ryle (1816–1900) was converted at Oxford in 1837, then saw his expected career in politics or business end when his father's bank collapsed in 1841. He was ordained instead, served Suffolk parishes for decades, and became the first Bishop of Liverpool in 1880. He wrote extensively on holiness and Gospel exposition.",
+    "adult_story": "John Charles Ryle was born in 1816 into a wealthy banking family and seemed destined for cricket, politics, or business — until two events overturned his plans. At Oxford in the winter of 1837, hearing Ephesians 2:8 read aloud in church, he was struck by the truth that salvation is “by grace... through faith... not of works, lest any man should boast.” Then, in 1841, his father's bank collapsed, wiping out the family fortune and closing off every worldly path he had imagined for himself.\n\nRyle took holy orders instead, later calling the bank's failure “the greatest earthly blessing” of his life, because it forced him toward the ministry God had actually intended. He served parishes in Suffolk for nearly forty years, writing plainly and forcefully on personal holiness and the authority of Scripture — his Expository Thoughts on the Gospels and Holiness are still read today. In 1880 he became the first Bishop of Liverpool, a new industrial diocese, where he worked to plant churches among the urban poor.\n\nRyle never treated his ruin as a tragedy to resent. He treated it as evidence that God's plans for a Christian's usefulness often run directly through the collapse of a person's own plans for themselves — and that grace, not a family fortune or a career, was what had truly carried him. He died in 1900.",
+    "family_story": "John Charles Ryle grew up rich in England and expected to become a famous cricket player or maybe a politician. Then two things happened: he heard a Bible verse in church that said we're saved by God's grace, not by our own effort — and not long after, his father's bank failed, and the family lost all their money.\n\nSuddenly John's whole future plan was gone. But he became a church minister instead, and later a bishop — helping build churches for poor families in the growing city of Liverpool.\n\nRyle came to believe that losing his fortune was actually the best thing that ever happened to him. It pushed him toward the life God really wanted him to live.",
+    "image": {
+      "file": "john-charles-ryle.jpg",
+      "prompt_used": "Photorealistic portrait of John Charles Ryle, English Anglican bishop, mid-to-late 19th century, wearing black clerical coat, stern and dignified expression, historically accurate to Victorian Church of England dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:J._C._Ryle.jpg — 1859 photograph, private collection; public domain (life+70 rule, pre-1931)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "1859 photograph, public domain (life+70 rule), no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of J.C. Ryle, All Saints Church, Childwall",
+        "address": "Score Lane, Childwall, Liverpool L16 0JW, England",
+        "lat": 53.3903,
+        "lng": -2.8802
+      },
+      {
+        "type": "plaque",
+        "name": "Memorial to Bishop Ryle, Liverpool Cathedral",
+        "address": "St James Mount, Liverpool L1 7AZ, England",
+        "lat": 53.3958,
+        "lng": -2.9719
+      },
+      {
+        "type": "church",
+        "name": "St Mary Magdalene, Stradbroke — Ryle's parish 1861–1880",
+        "address": "Church Street, Stradbroke, Eye, Suffolk IP21 5JL, England",
+        "lat": 52.3336,
+        "lng": 1.2867
+      }
+    ],
+    "related_people": []
+  },
+  {
+    "id": "alexander-whyte",
+    "name": "Alexander Whyte",
+    "born": 1836,
+    "born_approximate": false,
+    "died": 1921,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Jan 13, 1836",
+        "event": "birth",
+        "details": "Born in Kirriemuir, Scotland, to an unmarried mother; raised in poverty."
+      },
+      {
+        "date": "1848",
+        "event": "other",
+        "details": "Apprenticed to a shoemaker in Kirriemuir at about age 12."
+      },
+      {
+        "date": "1866",
+        "event": "other",
+        "details": "Graduated New College, Edinburgh, and began ministry at Free St John's, Glasgow."
+      },
+      {
+        "date": "1870",
+        "event": "other",
+        "details": "Became colleague and successor to Robert Candlish at Free St George's, Edinburgh."
+      },
+      {
+        "date": "Jan 6, 1921",
+        "event": "death",
+        "details": "Died in Buckinghamshire, England; buried at Dean Cemetery, Edinburgh."
+      }
+    ],
+    "nationality": "Scottish",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Free Church of Scotland / Presbyterian",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "grace",
+      "sin and grace",
+      "perseverance",
+      "preaching"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Whyte",
+    "source_summary": "Alexander Whyte (1836–1921) was born illegitimate and raised in poverty in Kirriemuir, Scotland, apprenticed as a shoemaker before a local minister taught him Latin and Greek. He studied at Aberdeen and New College, Edinburgh, and became minister of Free St George's, Edinburgh, from 1870, known for unsparing preaching on sin and grace. He later served as Principal of New College.",
+    "adult_story": "Alexander Whyte was born in 1836 in Kirriemuir, Scotland, to an unmarried mother, and grew up in real poverty — at twelve he was apprenticed to a shoemaker, with no obvious path to further education. A local minister, recognizing his mind, taught him Latin and Greek in his spare hours, opening the way to study at Aberdeen and New College, Edinburgh.\n\nOrdained in the Free Church of Scotland, Whyte began ministry at Free St John's, Glasgow, in 1866, then in 1870 became colleague and successor to Robert Candlish at Free St George's, Edinburgh, where he preached for nearly forty years. He became known for sermons that named sin plainly and specifically — refusing the comfortable vagueness many preachers use — precisely so that grace could be named just as specifically. His studies of John Bunyan's allegories, published as Bunyan Characters, trace this same conviction: that the gospel means little to people who have never been shown, in detail, what they need saving from.\n\nA man raised with every social disadvantage his century could name went on to lead one of Edinburgh's most influential pulpits, later training its next generation of ministers as Principal of New College. Whyte never let his own unlikely rise become the point of the story — his sermons kept turning back to one claim: that grace runs deepest exactly where a person's own record gives them least to boast about. He died in 1921.",
+    "family_story": "Alexander Whyte grew up very poor in Scotland. His parents weren't married, which back then meant many people looked down on families like his. At twelve, he had to leave school and become a shoemaker's apprentice.\n\nBut a kind minister noticed how smart Alexander was and taught him in his spare time. Eventually Alexander went to university and became a minister himself — leading one of the most important churches in Edinburgh for almost forty years.\n\nAlexander became known for preaching honestly about sin — not to make people feel hopeless, but so they could understand just how much they needed God's grace. His own life proved it: no matter where you start out, God can use you completely.",
+    "image": {
+      "file": "alexander-whyte.jpg",
+      "prompt_used": "Photorealistic portrait of Alexander Whyte, Scottish Free Church minister, late 19th century, wearing black clerical coat and white bands, intense and searching expression, historically accurate to 1890s Edinburgh",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Alexander_Whyte.jpg — photograph by John Moffat (d. 1894), published no later than 1895; public domain (PD-old-100, CC-PD-Mark)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Photograph by John Moffat (d. 1894), published no later than 1895 — public domain, no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Alexander Whyte, Dean Cemetery",
+        "address": "Dean Path, Edinburgh EH4 3AX, Scotland",
+        "lat": 55.9533,
+        "lng": -3.2222
+      },
+      {
+        "type": "church",
+        "name": "Former Free St George's Church, Edinburgh — Whyte's pulpit 1870–1916 (now Charlotte Chapel)",
+        "address": "Shandwick Place, Edinburgh EH2 4RG, Scotland",
+        "lat": 55.9508,
+        "lng": -3.2074
+      }
+    ],
+    "related_people": []
+  },
+  {
+    "id": "joseph-parker",
+    "name": "Joseph Parker",
+    "born": 1830,
+    "born_approximate": false,
+    "died": 1902,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Apr 9, 1830",
+        "event": "birth",
+        "details": "Born in Hexham, Northumberland, England, the son of a stonemason."
+      },
+      {
+        "date": "1869",
+        "event": "other",
+        "details": "Became minister of the Poultry Chapel, London."
+      },
+      {
+        "date": "May 19, 1874",
+        "event": "other",
+        "details": "Opened the City Temple, Holborn Viaduct, built under his leadership."
+      },
+      {
+        "date": "Nov 28, 1902",
+        "event": "death",
+        "details": "Died in Hampstead, London."
+      }
+    ],
+    "nationality": "English",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Congregationalist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "preaching",
+      "perseverance",
+      "reconciliation"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Parker_(theologian)",
+    "source_summary": "Joseph Parker (1830–1902) was an English Congregationalist minister known for extemporaneous preaching, who led the Poultry Chapel congregation and built the City Temple, London, opened in 1874. Described as 'a pillar of orthodoxy,' he had a well-known public rivalry with Charles Spurgeon that later softened into mutual regard. His successor, R. J. Campbell, embraced the theological liberalism Parker himself never taught.",
+    "adult_story": "Joseph Parker was born in 1830 in Hexham, Northumberland, the son of a stonemason, with no advantages of wealth or connection. He entered Congregationalist ministry in his early twenties, serving churches in Banbury and Manchester before returning to London in 1869 to lead the historic Poultry Chapel congregation.\n\nParker's preaching — vivid, extemporaneous, delivered without notes — drew such crowds that his congregation built the City Temple on Holborn Viaduct, opened in 1874, one of the great nonconformist pulpits of Victorian London. He was a contemporary and, at times, public rival of [[Charles Haddon Spurgeon|charles-spurgeon]] — the two sparred in print over points of doctrine and style. Yet Spurgeon later praised Parker's originality generously, and Parker was a guest of honor at Spurgeon's fiftieth birthday celebration, the two having set aside their earlier friction. Historians remember Parker as “a pillar of orthodoxy” — a description that mattered more after his death, when his own successor at City Temple embraced the theological liberalism (“New Theology”) that Parker himself had never taught.\n\nParker's 25-volume The People's Bible preached through the whole of Scripture verse by verse. Whatever his combative streak in argument, the substance he defended in his years at the City Temple never moved: that the Bible's authority stood, and that sinners are reconciled to God only through Christ. He died in 1902.",
+    "family_story": "Joseph Parker was the son of a stonemason in England — nobody special, by the standards of his day. But he became one of London's most exciting preachers, famous for speaking without notes, straight from the heart.\n\nHis church, the City Temple, was built because so many people wanted to hear him. He sometimes argued publicly with another famous preacher, Charles Spurgeon — but later the two made up, and Spurgeon even praised him kindly.\n\nJoseph Parker always insisted on one thing, no matter what new ideas became fashionable: that the Bible could be trusted, and that Jesus Christ alone brings people back to God. That never changed, even as the world around him did.",
+    "image": {
+      "file": "joseph-parker.jpg",
+      "prompt_used": "Photorealistic portrait of Joseph Parker, English Congregationalist minister, late 19th century, wearing black clerical coat, animated and commanding expression, historically accurate to 1880s London nonconformist dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Rev._Joseph_Parker_D.D.jpg — published in Harper's Weekly, vol. 31, 24 September 1887; public domain (pre-1931)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Published in Harper's Weekly, 1887 — public domain (pre-1931), no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Joseph Parker, Hampstead Cemetery",
+        "address": "Fortune Green Road, London NW6 1DR, England",
+        "lat": 51.5533,
+        "lng": -0.1963
+      },
+      {
+        "type": "church",
+        "name": "City Temple, Holborn Viaduct, London — Parker's pulpit 1874–1902",
+        "address": "34 Holborn Viaduct, London EC1N 2NT, England",
+        "lat": 51.5177,
+        "lng": -0.1058
+      }
+    ],
+    "related_people": [
+      "charles-spurgeon"
+    ]
+  },
+  {
+    "id": "ra-torrey",
+    "name": "R. A. Torrey",
+    "born": 1856,
+    "born_approximate": false,
+    "died": 1928,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Jan 28, 1856",
+        "event": "birth",
+        "details": "Born in Hoboken, New Jersey."
+      },
+      {
+        "date": "1889",
+        "event": "other",
+        "details": "Became superintendent of the Bible Institute of the Chicago Evangelization Society (later Moody Bible Institute)."
+      },
+      {
+        "date": "1910",
+        "event": "other",
+        "details": "Began serving as an editor of The Fundamentals, defending core Christian doctrines against theological liberalism."
+      },
+      {
+        "date": "1912",
+        "event": "other",
+        "details": "Became founding dean of the Bible Institute of Los Angeles (BIOLA)."
+      },
+      {
+        "date": "Oct 26, 1928",
+        "event": "death",
+        "details": "Died in Asheville, North Carolina; buried at Montrose Bible Conference, Pennsylvania, which he had founded."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Congregationalist / nondenominational evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "evangelism",
+      "prayer",
+      "fundamentals of the faith",
+      "missions",
+      "preaching"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Reuben_Archer_Torrey",
+    "source_summary": "R. A. Torrey (1856–1928) was educated at Yale before joining Dwight L. Moody's Chicago ministry in 1889 as superintendent of the Bible institute that became Moody Bible Institute. He led worldwide evangelistic campaigns (1902–1907), became founding dean of BIOLA in 1912, and was a key editor of The Fundamentals, the essay series that gave the fundamentalist movement its name.",
+    "adult_story": "Reuben Archer Torrey was born in 1856 in Hoboken, New Jersey, and educated at Yale and Yale Divinity School before further theological study in Germany. He began as a Congregational pastor, but in 1889 was drawn into the orbit of evangelist [[Dwight L. Moody|dwight-l-moody]], becoming superintendent of the Bible institute Moody had founded in Chicago — training laypeople for ministry without requiring the university education few of them could afford.\n\nFrom 1902 to 1907, Torrey led evangelistic campaigns across the English-speaking world and Asia, often alongside song leader Charles Alexander, drawing crowds that rivaled Moody's own. But his more lasting legacy was institutional rather than personal: he became founding dean of the Bible Institute of Los Angeles (BIOLA) in 1912, and from 1910 served as one of the editors of The Fundamentals — an essay series, distributed free to hundreds of thousands of pastors and workers, that defended the deity of Christ, the authority of Scripture, and salvation through Christ's atoning death against the rising theological liberalism of the day. The word “fundamentalist” itself traces back to this project.\n\nTorrey was as insistent on prayer as on doctrine, writing extensively to urge believers to depend on the Holy Spirit rather than mere technique or personality in evangelism — a caution aimed, not least, at platform evangelists like himself. He died in 1928, having spent a working life making sure that whatever methods changed, the message underneath — Christ crucified and risen for sinners — would not.",
+    "family_story": "R. A. Torrey went to Yale University and became a church minister, but the biggest impact of his life came from teaching others. He helped run a Bible school in Chicago that trained ordinary people — not just university graduates — to serve God.\n\nTorrey also traveled the world preaching to huge crowds, and he helped edit a famous set of writings that defended the most important truths of the Christian faith at a time when many were starting to doubt: that Jesus is God, that the Bible can be trusted, and that Christ's death saves sinners.\n\nHe always said that only God's power, not clever methods, could really change hearts. He died in 1928, having spent his life pointing people back to Jesus.",
+    "image": {
+      "file": "ra-torrey.jpg",
+      "prompt_used": "Photorealistic portrait of Reuben Archer Torrey, American evangelist and educator, early 20th century, wearing dark suit and tie, alert and earnest expression, historically accurate to 1900s-1910s America",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:RATorrey.jpg — contemporary photograph; public domain (life+70 rule)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Contemporary photograph, public domain (life+70 rule), no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of R. A. Torrey, Montrose Bible Conference",
+        "address": "218 Locust Street, Montrose, PA 18801, USA",
+        "lat": 41.8312,
+        "lng": -75.8785
+      },
+      {
+        "type": "church",
+        "name": "Moody Church, Chicago — Torrey's pastorate 1894–1906",
+        "address": "1630 N Clark St, Chicago, IL 60614, USA",
+        "lat": 41.9142,
+        "lng": -87.6323
+      }
+    ],
+    "related_people": [
+      "dwight-l-moody"
+    ]
+  },
+  {
+    "id": "george-matheson",
+    "name": "George Matheson",
+    "born": 1842,
+    "born_approximate": false,
+    "died": 1906,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Mar 27, 1842",
+        "event": "birth",
+        "details": "Born in Glasgow, Scotland."
+      },
+      {
+        "date": "1862",
+        "event": "other",
+        "details": "Became totally blind while completing his studies at the University of Glasgow."
+      },
+      {
+        "date": "1868",
+        "event": "other",
+        "details": "Began his first ministry at Innellan, on the Firth of Clyde."
+      },
+      {
+        "date": "1882",
+        "event": "other",
+        "details": "Wrote the hymn 'O Love That Wilt Not Let Me Go' in about five minutes."
+      },
+      {
+        "date": "Aug 28, 1906",
+        "event": "death",
+        "details": "Died at North Berwick, Scotland; buried in Glasgow Necropolis."
+      }
+    ],
+    "nationality": "Scottish",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Church of Scotland",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "suffering",
+      "hymns",
+      "grace",
+      "perseverance",
+      "blindness"
+    ],
+    "hymns": [
+      "O Love That Wilt Not Let Me Go"
+    ],
+    "hymnary_url": "https://hymnary.org/person/Matheson_George",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/George_Matheson",
+    "source_summary": "George Matheson (1842–1906) went completely blind while a student at the University of Glasgow, and his fiancée ended their engagement rather than share that future with him. Aided by his sister, he became a Church of Scotland minister at Innellan and then Edinburgh, and in 1882 wrote the hymn 'O Love That Wilt Not Let Me Go' in about five minutes during a time of severe personal suffering he never publicly explained.",
+    "adult_story": "George Matheson was born in Glasgow in 1842 and was already losing his sight as a boy; by the time he finished his studies at the University of Glasgow, where he graduated first in his class, he was completely blind. His fiancée, learning the blindness was permanent, ended their engagement rather than share that future with him — a loss Matheson carried the rest of his life, aided afterward mainly by his devoted sister, who learned Hebrew and Greek to help him continue studying for the ministry.\n\nHe was licensed to preach in 1866 and served the parish of Innellan from 1868, then St Bernard's, Edinburgh, from 1886. He became a compelling preacher despite — or because of — never seeing his congregation's faces. In 1882, on an evening he later described only as one of “the most severe mental suffering,” he wrote the hymn “O Love That Wilt Not Let Me Go” in about five minutes, without revision. He never publicly explained what suffering prompted it.\n\nThe hymn's central image — a love that will not let go, even of someone with nothing left to offer in return — is Matheson's theology in miniature: he had lost his sight and the marriage he had planned, and had nothing to bring God but his need. “O Cross that liftest up my head, I dare not ask to fly from thee,” he wrote in the same hymn. He died in 1906.",
+    "family_story": "George Matheson was a brilliant student in Scotland, but he was slowly losing his eyesight — and by the time he finished university, he was completely blind. Even harder, the woman he'd planned to marry decided she couldn't go through life with a blind husband, and left him.\n\nGeorge didn't give up. His sister learned difficult languages to help him keep studying, and he became a minister anyway, preaching for years though he could never see his congregation.\n\nOne evening, feeling very sad, George wrote a hymn in just five minutes: “O Love That Wilt Not Let Me Go.” It's still sung today because it says something true for anyone who has lost something precious — that God's love holds tighter than anything we've lost.",
+    "image": {
+      "file": "george-matheson.jpg",
+      "prompt_used": "Photorealistic portrait of George Matheson, Scottish Church of Scotland minister, late 19th century, blind, wearing black clerical coat and white bands, calm and contemplative expression, historically accurate to 1880s Scotland",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:GeorgeMatheson.jpg — contemporary photograph; tagged Public Domain Mark 1.0 on Wikimedia Commons",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Contemporary photograph, tagged Public Domain Mark 1.0 on Commons, no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "church",
+        "name": "Innellan Parish Church — Matheson's pastorate 1868–1886",
+        "address": "Innellan, Argyll and Bute, Scotland",
+        "lat": 55.9058,
+        "lng": -4.97
+      },
+      {
+        "type": "church",
+        "name": "Stockbridge Parish Church (former St Bernard's) — Matheson's pastorate 1886–1899",
+        "address": "Saxe Coburg Street, Edinburgh EH3 5BR, Scotland",
+        "lat": 55.9601,
+        "lng": -3.2093
+      },
+      {
+        "type": "gravestone",
+        "name": "Grave of George Matheson, Glasgow Necropolis",
+        "address": "Glasgow Necropolis, Glasgow G4 0UZ, Scotland",
+        "lat": 55.8607,
+        "lng": -4.2331
+      }
+    ],
+    "related_people": []
+  },
+  {
+    "id": "christmas-evans",
+    "name": "Christmas Evans",
+    "born": 1766,
+    "born_approximate": false,
+    "died": 1838,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Dec 25, 1766",
+        "event": "birth",
+        "details": "Born near Llandysul, Cardiganshire, Wales."
+      },
+      {
+        "date": "1783",
+        "event": "other",
+        "details": "Began working for minister David Davies, who taught him to read during a period of religious revival."
+      },
+      {
+        "date": "1789",
+        "event": "other",
+        "details": "Joined the Baptist denomination and began ministry as an itinerant preacher in Wales."
+      },
+      {
+        "date": "Jul 19, 1838",
+        "event": "death",
+        "details": "Died at Swansea while on a preaching tour; buried at Bethesda Chapel."
+      }
+    ],
+    "nationality": "Welsh",
+    "era": "18th Century",
+    "region": "UK/Ireland",
+    "tradition": "Baptist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "preaching",
+      "perseverance",
+      "conversion",
+      "evangelism"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Christmas_Evans",
+    "source_summary": "Christmas Evans (1766–1838) was born into poverty in Cardiganshire, Wales, and lost an eye in a youthful brawl. Taught to read as a teenager while working for a Presbyterian minister, he joined the Baptists around 1789 and became a celebrated itinerant preacher across Wales, known for his imaginative and powerful oratory. He died on a preaching tour in Swansea.",
+    "adult_story": "Christmas Evans was born on Christmas Day, 1766, near Llandysul in Cardiganshire, Wales — the son the day itself named. His father, a shoemaker, died while Evans was still a child, and he grew up illiterate and desperately poor, working as a farm labourer. As a young man he lost an eye in a brawl, a disfigurement he carried the rest of his life.\n\nAt seventeen he went to work for a Presbyterian minister, David Davies, and during a season of religious revival there learned to read, in both Welsh and English, for the first time. He joined the Baptists around 1789 and became an itinerant preacher across Wales, eventually settling for years on Anglesey before later ministries in Caerphilly, Cardiff, and Caernarfon. His preaching became legendary for its imaginative power and physical intensity — contemporaries described sermons that held vast open-air crowds motionless for hours, delivered by a large, one-eyed man who had once had nothing, not even the ability to read the Bible he came to preach.\n\nEvans never let his own transformation — from illiterate, disfigured farmhand to Wales's most famous preacher — become the substance of his message. What he preached, sermon after sermon for nearly fifty years, was simpler and not about himself: that Christ receives sinners exactly as ruined as he had once been, and asks nothing from them but faith. He died in 1838, still on the road, still preaching.",
+    "family_story": "Christmas Evans was born on Christmas Day in Wales, which is how he got his name. His family was very poor, and after his father died, nobody taught him to read.\n\nAs a teenager, he went to work for a kind minister, and it was there that Christmas finally learned to read, in Welsh and English both. He also lost an eye in a fight when he was young, but it never held him back.\n\nChristmas Evans became one of the greatest preachers Wales has ever known, traveling from town to town so huge crowds came to hear him. He never forgot he had started with nothing — and he spent his life telling people that Jesus welcomes anyone, no matter where they start.",
+    "image": {
+      "file": "christmas-evans.jpg",
+      "prompt_used": "Photorealistic portrait of Christmas Evans, Welsh Baptist preacher, early 19th century, large and imposing figure, missing one eye, wearing plain dark preacher's coat, intense and commanding expression, historically accurate to 1830s Wales",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Revd._Christmas_Evans,_aged_70,_1835_(4670673).jpg — mezzotint by William Roos, 1835, National Library of Wales; public domain (life+100 rule)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "1835 mezzotint by William Roos, National Library of Wales — public domain (life+100 rule), no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Christmas Evans, Bethesda Chapel",
+        "address": "Bethesda Chapel, High Street, Swansea SA1 1JN, Wales",
+        "lat": 51.6183,
+        "lng": -3.9436
+      }
+    ],
+    "related_people": []
   }
 ]
