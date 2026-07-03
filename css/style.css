@@ -103,6 +103,19 @@ main {
 .site-title {
   text-decoration: none;
   display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.site-logo {
+  display: block;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+.site-title__text {
+  display: flex;
   flex-direction: column;
   gap: 0.1rem;
 }
@@ -1372,6 +1385,7 @@ main {
   html { font-size: 16px; }
 
   .site-title__main { font-size: 1.25rem; }
+  .site-logo { width: 34px; height: 34px; }
 
   .copy-section {
     padding: 1rem;

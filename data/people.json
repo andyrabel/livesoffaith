@@ -6215,5 +6215,883 @@
     "related_people": [
       "david-brainerd"
     ]
+  },
+  {
+    "id": "john-g-paton",
+    "name": "John G. Paton",
+    "born": 1824,
+    "born_approximate": false,
+    "died": 1907,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "May 24, 1824",
+        "event": "birth",
+        "details": "Born at Braehead, Kirkmahoe, Dumfriesshire, Scotland."
+      },
+      {
+        "date": "Nov 5, 1858",
+        "event": "other",
+        "details": "Arrived on the island of Tanna, New Hebrides, to begin mission work."
+      },
+      {
+        "date": "c. Feb 1862",
+        "event": "other",
+        "details": "Forced to flee Tanna amid tribal war and hostility following a measles epidemic."
+      },
+      {
+        "date": "1899",
+        "event": "other",
+        "details": "His translation of the New Testament into the Aniwan language was printed."
+      },
+      {
+        "date": "Jan 28, 1907",
+        "event": "death",
+        "details": "Died at Canterbury, Victoria, Australia, aged 82."
+      }
+    ],
+    "nationality": "Scottish",
+    "era": "19th Century",
+    "region": "Oceania",
+    "tradition": "Reformed Presbyterian Church of Scotland",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "perseverance",
+      "suffering",
+      "faithfulness",
+      "gospel"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_G._Paton",
+    "source_summary": "John Gibson Paton (1824-1907) was a Scottish Reformed Presbyterian missionary to the New Hebrides (now Vanuatu). His first wife and infant son died within a year of arriving on Tanna in 1858; he continued alone under repeated threats to his life. He fled Tanna in 1862, remarried, and from 1866 spent roughly thirty years on Aniwa, reducing the language to writing and completing a New Testament translation in 1899. He undertook extensive fundraising tours across Australia, Britain, and America, and campaigned against the trafficking of Pacific islanders as forced labour.",
+    "adult_story": "John Gibson Paton was born in 1824 to a devout farming family in Dumfriesshire, Scotland, where his father kept a ‘prayer closet’ and led the household in worship morning and night. Trained in Glasgow, he was ordained in 1858 and sailed with his young wife, Mary, for the island of Tanna in the New Hebrides (now Vanuatu) — known then for cannibalism and unceasing tribal warfare. Within a year Mary and their infant son were dead of illness, and Paton buried them himself, alone, in a land he had barely learned to call home.\n\nHe stayed. For years he lived under constant threat of death — clubbed, shot at, and once held at gunpoint for hours by a chief who eventually lowered his musket. Forced to flee Tanna in 1862 after an epidemic turned islanders against the missionaries, Paton remarried and, from 1866, gave nearly thirty years to the neighbouring island of Aniwa, reducing its language to writing and completing a translation of the New Testament in 1899. He tirelessly campaigned across Australia, Britain, and America, raising support for mission ships and speaking against the trafficking of Pacific islanders as forced labour.\n\nPaton later wrote that in his darkest hours on Tanna, with a gun levelled at his chest, he was sustained not by his own courage but by the nearness of Christ, who had promised never to leave him. It was that promise, not his own endurance, that Paton credited for every soul reached.",
+    "family_story": "John Paton grew up in Scotland, where his father prayed with the family every morning and night. As an adult, John became a missionary and sailed to a faraway island called Tanna, where people had never heard about Jesus. Soon after he arrived, his wife and baby son both died, and John was left completely alone. But he did not leave. Even when island warriors threatened to kill him, John stayed and kept telling people about Jesus. Years later, on the island of Aniwa, he taught people to read and helped translate the Bible into their language. John always said that when he was most afraid, God was closest to him — trusting Jesus, not being brave, was what carried him through.",
+    "image": {
+      "file": "john-g-paton.jpg",
+      "prompt_used": "Photorealistic portrait of John G. Paton, Scottish Reformed Presbyterian missionary, mid-19th century, weathered and resolute expression, wearing dark Victorian clerical coat, historically accurate to 1880s missionary dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:John_Gibson_Paton.jpg — from his 1889 autobiography, published before 1931, public domain",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Published 1889, well before 1931 — clear public-domain claim, resolves to a direct Commons file URL."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of John G. Paton",
+        "address": "Boroondara General Cemetery, corner of High Street and Park Hill Road, Kew, Victoria 3101, Australia",
+        "lat": -37.8031,
+        "lng": 145.0444
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "abraham-kuyper",
+    "name": "Abraham Kuyper",
+    "born": 1837,
+    "born_approximate": false,
+    "died": 1920,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Oct 29, 1837",
+        "event": "birth",
+        "details": "Born in Maassluis, Netherlands."
+      },
+      {
+        "date": "c. 1866",
+        "event": "saved",
+        "details": "Turned from fashionable liberal theology to confessional Reformed faith while pastoring in Beesd, influenced by parishioner Pietje Baltus."
+      },
+      {
+        "date": "Oct 20, 1880",
+        "event": "other",
+        "details": "Founded the Vrije Universiteit (Free University) of Amsterdam."
+      },
+      {
+        "date": "Jul 11, 1886",
+        "event": "other",
+        "details": "Led the Doleantie secession from the Dutch Reformed Church."
+      },
+      {
+        "date": "Aug 1, 1901",
+        "event": "other",
+        "details": "Became Prime Minister of the Netherlands, serving until 1905."
+      },
+      {
+        "date": "Nov 8, 1920",
+        "event": "death",
+        "details": "Died in The Hague, Netherlands, aged 83."
+      }
+    ],
+    "nationality": "Dutch",
+    "era": "19th Century",
+    "region": "Europe",
+    "tradition": "Reformed / Neo-Calvinist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "grace",
+      "faithfulness",
+      "Scripture",
+      "sovereignty of God",
+      "service"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Abraham_Kuyper",
+    "source_summary": "Abraham Kuyper (1837-1920) was a Dutch Reformed theologian, journalist, and statesman who served as Prime Minister of the Netherlands from 1901 to 1905. He shifted from liberal to confessional Reformed theology during his pastorate at Beesd, later founding the newspaper De Standaard, leading the 1886 Doleantie secession, founding the Vrije Universiteit Amsterdam in 1880, and developing the concept of 'sphere sovereignty.'",
+    "adult_story": "Abraham Kuyper was born in 1837 in Maassluis, Holland, the son of a Reformed pastor. Brilliant and ambitious, he earned his doctorate at Leiden in 1862 already leaning toward the fashionable liberal theology of his day, which treated Scripture as human literature rather than God’s word. His first pastorate, in the small village of Beesd, would change that.\n\nThere he met Pietje Baltus, a servant girl in his congregation who refused to shake his hand, telling him plainly that he did not yet believe what the Bible actually taught. Her blunt conviction, and his own return to serious study of Scripture, turned Kuyper from fashionable doubt to confident faith in the gospel of grace. He went on to found the newspaper De Standaard, lead a body of churches out of a compromised state denomination in 1886, and establish the Vrije Universiteit of Amsterdam in 1880 to train ministers in that same conviction. He served as Prime Minister of the Netherlands from 1901 to 1905, and in his 1898 lectures at Princeton declared that there is ‘not a square inch’ of creation over which Christ does not claim sovereignty.\n\nKuyper’s public brilliance was considerable, but he traced its root to a single quiet rebuke from a servant girl who cared more for his soul than his approval — a reminder that saving faith is God’s gift, not the credential of the educated.",
+    "family_story": "Abraham Kuyper was a very clever man from Holland who became a pastor, a newspaper writer, and even the Prime Minister of his whole country! But when he was young, he didn’t really believe the Bible was true — he thought it was just an old book. Then he met a poor woman in his church named Pietje, who told him honestly that he didn’t yet believe what Jesus taught. Instead of getting angry, Abraham listened. He began reading the Bible seriously again, and this time he truly trusted in Jesus. He always said that Jesus is Lord over every single part of life — school, work, government, everything — because Jesus made it all and died to save us all.",
+    "image": {
+      "file": "abraham-kuyper.jpg",
+      "prompt_used": "Photorealistic portrait of Abraham Kuyper, Dutch Reformed theologian and statesman, late 19th century, wearing formal dark Victorian suit, dignified and intense expression, historically accurate to 1890s Dutch dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Abraham_Kuyper_-_Griffis.jpg — published 1899 in W. E. Griffis, The American in Holland, public domain (before 1931)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Published 1899, well before 1931 — clear public-domain claim, resolves to a direct Commons file URL."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Abraham Kuyper",
+        "address": "Oud Eik en Duinen Cemetery, The Hague, Netherlands",
+        "lat": 52.066874,
+        "lng": 4.262671
+      },
+      {
+        "type": "statue",
+        "name": "Statue of Abraham Kuyper",
+        "address": "Marelplein, Maassluis, Netherlands",
+        "lat": 51.9233,
+        "lng": 4.25
+      },
+      {
+        "type": "church",
+        "name": "Sint-Pieterskerk, Beesd — Kuyper's first pastorate",
+        "address": "Voorstraat 92, 4153 AN Beesd, Netherlands",
+        "lat": 51.884,
+        "lng": 5.193
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "isobel-kuhn",
+    "name": "Isobel Kuhn",
+    "born": 1901,
+    "born_approximate": false,
+    "died": 1957,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Dec 17, 1901",
+        "event": "birth",
+        "details": "Born in Toronto, Ontario, Canada."
+      },
+      {
+        "date": "c. 1921",
+        "event": "saved",
+        "details": "After a period of agnosticism at university, prayed for God to prove Himself and give her peace, per her autobiography By Searching."
+      },
+      {
+        "date": "1924",
+        "event": "other",
+        "details": "Heard missionary J. O. Fraser describe the Lisu people's need at a conference in Bellingham, Washington, setting her call to missions."
+      },
+      {
+        "date": "Nov 4, 1929",
+        "event": "other",
+        "details": "Married John Becker Kuhn in Kunming, Yunnan Province, China."
+      },
+      {
+        "date": "Mar 1950",
+        "event": "other",
+        "details": "Evacuated China over a mountain pass into Burma amid the Communist revolution, ending sixteen years of Lisu ministry there."
+      },
+      {
+        "date": "Mar 20, 1957",
+        "event": "death",
+        "details": "Died of cancer in Wheaton, Illinois, USA, aged 55."
+      }
+    ],
+    "nationality": "Canadian",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "China Inland Mission (interdenominational evangelical)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "perseverance",
+      "grace",
+      "faithfulness",
+      "conversion"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Isobel_Kuhn",
+    "source_summary": "Isobel Miller Kuhn (1901-1957) was a Canadian missionary to the Lisu people of Yunnan, China, and later northern Thailand, with the China Inland Mission. Converted in 1921 after a personal crisis, she sailed for China in 1928, married fellow missionary John Kuhn in 1929, and from 1934 to 1950 pioneered a 'Rainy Season Bible School' to train Lisu evangelists. She evacuated China in 1950 amid the Communist revolution and continued Lisu ministry in Thailand until illness forced her retirement in 1954. She wrote nine missionary books before her death in 1957.",
+    "adult_story": "Isobel Miller Kuhn was born in Toronto in 1901 and raised in a Presbyterian home, but by her last year at the University of British Columbia she had drifted into agnosticism, abandoning prayer and church. In 1921, undone by a broken engagement and at the edge of despair, she prayed a desperate bargain: ‘God, if there be a God... if You will give me peace, I will give You my whole life.’ The peace came, and so did the surrender.\n\nThree years later, hearing missionary J. O. Fraser describe the Lisu people of Yunnan, China, bound by fear of spirits, Isobel knew where that surrendered life was headed. She sailed with the China Inland Mission in 1928 and married fellow missionary John Kuhn the following year in Kunming. From 1934 to 1950 the Kuhns lived among the Lisu, where Isobel pioneered the ‘Rainy Season Bible School,’ timed to the farming calendar so Lisu believers could be trained as evangelists to their own people. When Communist forces swept through in 1950, the family fled over a mountain pass into Burma, leaving behind a growing church. From 1952 she and John continued the same work among Lisu communities in northern Thailand, until illness forced her retirement in 1954. She spent her last years writing books that still carry her testimony that grace, once truly received, cannot be kept to oneself.",
+    "family_story": "Isobel Kuhn grew up in Canada. When she was at university, she stopped believing in God and felt very lost. One sad Christmas, she prayed a desperate prayer: ‘God, if You are real, give me peace, and I will do anything You ask.’ God answered, and Isobel gave her whole life to Jesus from then on. A few years later she heard about the Lisu people in China, who were afraid of evil spirits and had never heard of Jesus. Isobel became a missionary and moved to China to live among them, teaching them to read and starting a Bible school. Even after she had to flee to Thailand, she kept teaching people about Jesus for the rest of her life.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Isobel Kuhn",
+        "address": "Wheaton Cemetery, 1209 S. Warrenville Rd., Wheaton, Illinois, USA",
+        "lat": 41.8511,
+        "lng": -88.1117
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "francis-schaeffer",
+    "name": "Francis Schaeffer",
+    "born": 1912,
+    "born_approximate": false,
+    "died": 1984,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Jan 30, 1912",
+        "event": "birth",
+        "details": "Born in Germantown, Pennsylvania, USA."
+      },
+      {
+        "date": "1930",
+        "event": "saved",
+        "details": "Converted to Christianity after months of Bible reading, following a period of philosophical searching."
+      },
+      {
+        "date": "1938",
+        "event": "other",
+        "details": "Ordained as the first minister of the newly formed Bible Presbyterian Church."
+      },
+      {
+        "date": "Jun 5, 1955",
+        "event": "other",
+        "details": "Founded L'Abri Fellowship with his wife Edith in Huémoz, Switzerland."
+      },
+      {
+        "date": "May 15, 1984",
+        "event": "death",
+        "details": "Died of lymphoma in Rochester, Minnesota, USA, aged 72."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "Europe",
+    "tradition": "Reformed Presbyterian (RPCES)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "grace",
+      "faith",
+      "Scripture",
+      "gospel",
+      "service"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Francis_Schaeffer",
+    "source_summary": "Francis August Schaeffer (1912-1984) was an American Presbyterian pastor, theologian, and apologist. Converted around age 18, he trained at Westminster and Faith Theological Seminary and was ordained in 1938. In 1948 he moved with his wife Edith to Switzerland, and in 1955 they founded L'Abri Fellowship in Huémoz, offering hospitality and serious engagement with philosophical and religious questions to young travelers. His books, including The God Who Is There, helped shape evangelical engagement with modern philosophy and culture.",
+    "adult_story": "Francis Schaeffer was born in 1912 near Philadelphia into a home with little religious interest. As a teenager he began testing the great questions of philosophy against the Bible, reading it cover to cover over several months, and around 1930 he came to trust in Christ. He trained at Westminster and Faith Theological Seminary under scholars committed to the full trustworthiness of Scripture, and in 1938 became the first minister ordained in the newly formed Bible Presbyterian Church.\n\nIn 1948 Schaeffer moved with his wife Edith to Switzerland. A few years later, troubled that his own faith had grown more about correct doctrine than a living love for Christ and others, he went through a season of painful self-examination that reshaped his ministry. Out of it came L’Abri (‘The Shelter’), which he and Edith opened in their home in Huémoz in 1955 — a place where the honest questions of doubting students and travelers were met with patient answers and genuine welcome, not dismissal. Through books such as The God Who Is There and How Should We Then Live?, he helped a generation of evangelicals engage seriously with modern culture without abandoning confidence in the gospel.\n\nSchaeffer’s central conviction, tested in his own season of doubt before it appeared in any book, was that Christ alone answers what philosophy cannot: not by argument winning the point, but by grace meeting a person exactly where their questions have left them stranded.",
+    "family_story": "Francis Schaeffer grew up in America without much interest in God. But as a teenager, he started reading the Bible carefully to see if it was really true — and by the time he finished, he believed in Jesus with his whole heart. He became a pastor, and later moved to Switzerland with his wife, Edith. There, in 1955, they opened their home to any traveler or student with hard questions about God, calling it L'Abri, which means ‘the shelter.’ Instead of turning doubters away, Francis and Edith welcomed them, listened, and pointed them to Jesus. Many people who came looking for answers found something better — they found Christ himself, and put their trust in him.",
+    "image": {
+      "file": "francis-schaeffer.jpg",
+      "prompt_used": "Photorealistic portrait of Francis Schaeffer, American Presbyterian pastor and apologist, early 1980s, wearing knee-length knickerbockers and a plain jacket in his characteristic style, thoughtful and intense expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Dr._Francis_Schaeffer,_L%27Abri_Conference,_Urbana,_1981_(cropped).jpg — dated May 24, 1981, tagged CC0 1.0 by uploader",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "Tagged CC0 by uploader, but uploader has a track record of tagging found/scanned images as own work with unclear chain of custody — reference only, not confirmed clean for redistribution."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Francis and Edith Schaeffer",
+        "address": "Oakwood Cemetery, Rochester, Olmsted County, Minnesota, USA",
+        "lat": 44.027,
+        "lng": -92.4558
+      },
+      {
+        "type": "other",
+        "name": "L'Abri Fellowship, Chalet Bellevue",
+        "address": "Route de Villars 89, 1884 Huémoz, Switzerland",
+        "lat": 46.292425,
+        "lng": 7.028818
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "leon-morris",
+    "name": "Leon Morris",
+    "born": 1914,
+    "born_approximate": false,
+    "died": 2006,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Mar 15, 1914",
+        "event": "birth",
+        "details": "Born in Lithgow, New South Wales, Australia."
+      },
+      {
+        "date": "1938",
+        "event": "other",
+        "details": "Ordained deacon in the Anglican Diocese of Sydney; began curacy at St John's, Campsie."
+      },
+      {
+        "date": "1955",
+        "event": "other",
+        "details": "Published The Apostolic Preaching of the Cross, his landmark defence of penal substitutionary atonement."
+      },
+      {
+        "date": "1964",
+        "event": "other",
+        "details": "Became Principal of Ridley College, Melbourne, a post he held until 1979."
+      },
+      {
+        "date": "Jul 24, 2006",
+        "event": "death",
+        "details": "Died in Kew, Melbourne, Australia, aged 92."
+      }
+    ],
+    "nationality": "Australian",
+    "era": "20th Century",
+    "region": "Oceania",
+    "tradition": "Evangelical Anglican",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "Scripture",
+      "gospel",
+      "grace",
+      "biblical scholarship",
+      "cross"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Leon_Morris",
+    "source_summary": "Leon Lamb Morris (1914-2006) was an Australian Evangelical Anglican priest and New Testament scholar. Ordained in 1938, he earned a PhD at Cambridge and published The Apostolic Preaching of the Cross (1955), a landmark defence of penal substitutionary atonement. He served as Warden of Tyndale House, Cambridge, and Principal of Ridley College, Melbourne (1964-1979), writing over fifty books including a widely used commentary on John's Gospel.",
+    "adult_story": "Leon Morris was born in 1914 in Lithgow, New South Wales, and trained as a teacher before entering ministry, ordained a deacon in the Anglican Diocese of Sydney in 1938. Topping the national theology exam and serving first as a curate and then as a ‘bush pastor’ in outback South Australia, he went on to earn a PhD at Cambridge with a dissertation that would become one of the most significant evangelical books of the twentieth century.\n\nThat book, The Apostolic Preaching of the Cross (1955), argued — against a rising tide of theological fashion — that the New Testament presents Christ’s death as a real substitution, in which the Son bore the wrath that sinners deserved. Morris’s summary of the doctrine became famous: ‘Either we die, or He dies.’ He served as Warden of Tyndale House, Cambridge, and then for fifteen years as Principal of Ridley College, Melbourne, training generations of Australian clergy, while writing more than fifty books, including a widely used commentary on John’s Gospel, and helping translate the NIV and ESV Bibles.\n\nFor Morris, the cross was never a puzzle to be admired from a safe distance. It was the place where God himself, in Christ, paid what sinners could never pay — so that grace, not human effort, is the only ground on which anyone stands before God.",
+    "family_story": "Leon Morris grew up in Australia and became a teacher before he became a pastor. He studied hard and later earned a very important university degree, writing about something he believed was the heart of the whole Bible: that when Jesus died on the cross, he was taking the punishment that should have been ours. Leon wrote a famous line to explain it simply: ‘Either we die, or He dies.’ He spent his life teaching other people to become pastors in Australia and writing more than fifty books to help people understand the Bible. He wanted everyone to know that we cannot save ourselves — Jesus already did it for us, out of love.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "other",
+        "name": "Leon Morris Library, Ridley College",
+        "address": "170 The Avenue, Parkville, VIC 3052, Australia",
+        "lat": -37.7837187,
+        "lng": 144.9573615
+      },
+      {
+        "type": "church",
+        "name": "St John's Anglican Church, Campsie — Morris's first curacy",
+        "address": "26 Anglo Road, Campsie, NSW 2194, Australia",
+        "lat": -33.9146,
+        "lng": 151.1017
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "helen-roseveare",
+    "name": "Helen Roseveare",
+    "born": 1925,
+    "born_approximate": false,
+    "died": 2016,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Sep 21, 1925",
+        "event": "birth",
+        "details": "Born at Haileybury College, Hertfordshire, England."
+      },
+      {
+        "date": "1945",
+        "event": "saved",
+        "details": "Converted to Christian faith as a medical student at Cambridge, through the Cambridge Inter-Collegiate Christian Union."
+      },
+      {
+        "date": "1953",
+        "event": "other",
+        "details": "Arrived in the Belgian Congo as a WEC International missionary, establishing a hospital and training centre at Ibambi."
+      },
+      {
+        "date": "1964",
+        "event": "other",
+        "details": "Taken prisoner by rebel forces during the Simba Rebellion and held for several months."
+      },
+      {
+        "date": "1966",
+        "event": "other",
+        "details": "Returned to Congo to found a new medical centre and nursing school at Nyankunde."
+      },
+      {
+        "date": "Dec 7, 2016",
+        "event": "death",
+        "details": "Died in Northern Ireland, aged 91."
+      }
+    ],
+    "nationality": "English",
+    "era": "20th Century",
+    "region": "Africa",
+    "tradition": "WEC International (interdenominational evangelical)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "suffering",
+      "perseverance",
+      "grace"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Helen_Roseveare",
+    "source_summary": "Helen Roseveare (1925-2016) was an English medical doctor and missionary with WEC International in the Belgian Congo. Converted in 1945 while a medical student at Cambridge, she built hospitals and training schools at Ibambi and Nebobongo from 1953. During the 1964 Simba Rebellion she was taken prisoner and suffered violent assault; she later returned to found another medical centre at Nyankunde, serving until 1973, then had a long international speaking and writing ministry.",
+    "adult_story": "Helen Roseveare was born in England in 1925 and came to faith in Christ in 1945 while a medical student at Cambridge, through the university’s Christian Union. Trained as a doctor, she sailed for the Belgian Congo in 1953 with the mission agency WEC International, determined to combine medicine with the gospel.\n\nAt Ibambi, and later at a former leprosy camp called Nebobongo, she built a hospital and training school from nothing, training generations of Congolese paramedics. In 1964, during the violent Simba Rebellion, Roseveare was taken prisoner by rebel soldiers and held for months, suffering brutal assault. She later said her survival owed much to villagers she had previously cared for, who intervened on her behalf. Remarkably, she returned to Congo in 1966 to found another medical centre at Nyankunde, serving until 1973, and then spent decades travelling and writing about what she had learned of God in the midst of suffering.\n\nOne story she told often: a Congolese girl named Ruth prayed simply and specifically for a hot water bottle and a doll, to comfort a dying baby and its grieving young sister — and both arrived, unexpectedly, in a parcel that same day. Roseveare’s whole life testified to that same childlike confidence: that grace, not our strength or worthiness, is what God delights to give those who simply ask.",
+    "family_story": "Helen Roseveare was a doctor from England who became a missionary in Africa. She built a hospital in the Congo and trained local people to be nurses and doctors too. During a scary war, Helen was captured and treated very badly, but she never stopped trusting God — and some of the very people she had cared for helped save her life. One of her favorite stories was about a girl named Ruth, who prayed for a hot water bottle and a doll for a sick baby. That same day, a parcel arrived with exactly those things inside! Helen's whole life showed that God hears even the smallest prayers, and gives good gifts to those who trust him.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "other",
+        "name": "Nebobongo Evangelical Hospital — founded by Roseveare",
+        "address": "Nebobongo, Haut-Uele Province, Democratic Republic of the Congo",
+        "lat": 2.45,
+        "lng": 27.629
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "ff-bruce",
+    "name": "F. F. Bruce",
+    "born": 1910,
+    "born_approximate": false,
+    "died": 1990,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Oct 12, 1910",
+        "event": "birth",
+        "details": "Born in Elgin, Moray, Scotland, to a Plymouth Brethren family."
+      },
+      {
+        "date": "1936",
+        "event": "other",
+        "details": "Married Betty Davidson, from a Brethren family."
+      },
+      {
+        "date": "1959",
+        "event": "other",
+        "details": "Became Rylands Professor of Biblical Criticism and Exegesis at the University of Manchester, a post held until 1978."
+      },
+      {
+        "date": "1979",
+        "event": "other",
+        "details": "Founded the Christian Brethren Archive at the University of Manchester."
+      },
+      {
+        "date": "Sep 11, 1990",
+        "event": "death",
+        "details": "Died of cancer at his home in Buxton, Derbyshire, England, aged 79."
+      }
+    ],
+    "nationality": "Scottish",
+    "era": "20th Century",
+    "region": "UK/Ireland",
+    "tradition": "Plymouth Brethren",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "Scripture",
+      "biblical scholarship",
+      "faithfulness",
+      "gospel"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/F._F._Bruce",
+    "source_summary": "Frederick Fyvie Bruce (1910-1990) was a Scottish biblical scholar raised in a Plymouth Brethren family. He taught Greek at Edinburgh and Leeds before leading Biblical History and Literature at Sheffield, then serving as Rylands Professor of Biblical Criticism at Manchester from 1959 to 1978. His 1943 book Are the New Testament Documents Reliable? became a landmark evangelical defence of the New Testament's historical trustworthiness. He wrote nearly fifty books and supervised around fifty doctoral students, remaining a lifelong lay member of his Brethren assembly.",
+    "adult_story": "Frederick Fyvie Bruce was born in 1910 in Elgin, Scotland, the son of an itinerant Plymouth Brethren evangelist. Trained in classics at Aberdeen, Cambridge, and Vienna, he might easily have spent his career in secular scholarship — instead he devoted it to demonstrating that the New Testament could withstand the fullest scrutiny of critical history.\n\nBruce taught Greek at Edinburgh and Leeds before becoming, in 1947, the first head of Biblical History and Literature at Sheffield, and later, from 1959 to 1978, Rylands Professor of Biblical Criticism at Manchester. His 1943 book Are the New Testament Documents Reliable? became one of the most influential evangelical works of the century, arguing that rigorous historical inquiry, honestly pursued, only strengthens confidence in the Gospels rather than undermining them. He wrote nearly fifty books and supervised around fifty doctoral students who went on to shape evangelical biblical scholarship worldwide, while remaining, his whole life, a simple member of his Brethren assembly rather than an ordained clergyman — in keeping with the Brethren conviction that no Christian needs a special office to serve Christ or handle his word.\n\nFor Bruce, that conviction was not incidental to his scholarship but its foundation: Scripture's authority rests on what God has done in Christ and preserved in his word, not on the credentials of those who study it.",
+    "family_story": "F. F. Bruce grew up in Scotland, where his father traveled from town to town preaching about Jesus. F. F. loved studying languages and became one of the best Bible scholars in the world, teaching at important universities in England. He wrote a famous book showing that the stories in the Bible about Jesus can be trusted as true history. Even though he became very respected and clever, F. F. never wanted a special title or position in his church — he believed every Christian, not just pastors, could serve God and study his word. He spent his life helping people trust that the Bible is exactly what it claims to be: true.",
+    "image": null,
+    "memorials": [],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "martyn-lloyd-jones",
+    "name": "Martyn Lloyd-Jones",
+    "born": 1899,
+    "born_approximate": false,
+    "died": 1981,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Dec 20, 1899",
+        "event": "birth",
+        "details": "Born in Cardiff, Wales."
+      },
+      {
+        "date": "Feb 1, 1927",
+        "event": "other",
+        "details": "Began ministry at Bethlehem Chapel, Aberavon, after leaving a promising medical career."
+      },
+      {
+        "date": "Sep 1938",
+        "event": "other",
+        "details": "Became associate minister of Westminster Chapel, London, under G. Campbell Morgan."
+      },
+      {
+        "date": "Oct 18, 1966",
+        "event": "other",
+        "details": "Addressed the National Assembly of Evangelicals urging separation from doctrinally mixed denominations, publicly opposed by chairman John Stott."
+      },
+      {
+        "date": "Mar 1, 1981",
+        "event": "death",
+        "details": "Died in his sleep at Ealing, London, aged 81."
+      }
+    ],
+    "nationality": "Welsh",
+    "era": "20th Century",
+    "region": "UK/Ireland",
+    "tradition": "Calvinistic Methodist / independent evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "Scripture",
+      "preaching",
+      "gospel",
+      "grace"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Martyn_Lloyd-Jones",
+    "source_summary": "David Martyn Lloyd-Jones (1899-1981) was a Welsh preacher and former physician who became one of the most influential Reformed evangelical ministers in twentieth-century Britain. He left a medical career at St Bartholomew's Hospital for ministry in 1927, serving first at Aberavon and then, from 1938, at Westminster Chapel, London, until his 1968 retirement. Known for lengthy expository sermons through books such as Romans and Ephesians, he helped found the Banner of Truth Trust and the London Theological Seminary.",
+    "adult_story": "David Martyn Lloyd-Jones was born in Cardiff, Wales, in 1899 and trained as a doctor, rising quickly to become chief clinical assistant to the physician who attended the royal family. But treating patients who faced death with every medical resource available and no lasting hope unsettled him. In his mid-twenties, moved by preaching he heard and by the emptiness he saw in dying rooms that medicine could not touch, he came to faith in Christ and, in 1927, gave up a highly promising medical career to become a minister.\n\nHe served first at a small Calvinistic Methodist chapel in Aberavon, Wales, and from 1938 at Westminster Chapel, London, becoming one of the century's most influential preachers. Lloyd-Jones preached for decades through entire books of the Bible — Romans, Ephesians, the Sermon on the Mount — in long, doctrinally rich sermons a colleague called ‘logic on fire,’ insisting that people needed not entertainment but the gospel itself: that sinners are justified before God by faith in Christ alone, not by their own effort. He helped found the Banner of Truth Trust and the London Theological Seminary to keep that same gospel being taught after him.\n\nIn 1966 he controversially urged evangelicals to leave denominations that no longer held that gospel clearly — a call publicly opposed by his friend John Stott. Whatever one makes of that disagreement, both men agreed on what mattered most: that the good news of grace, not the shape of any denomination, is what saves.",
+    "family_story": "Martyn Lloyd-Jones grew up in Wales and trained to be a doctor in London — he was even chosen to help treat very important patients. But he noticed that even the best medical care could not give dying people real hope. This troubled him so much that he put his trust in Jesus, and in 1927 he gave up his medical career to become a preacher instead. He became famous for preaching very long, careful sermons that explained the Bible clearly, especially the truth that we are forgiven not by being good enough, but by trusting in Jesus. For over forty years, thousands of people came to hear him preach in London, learning that the good news of grace matters more than anything else.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "church",
+        "name": "Westminster Chapel — Lloyd-Jones's church, 1938-1968",
+        "address": "Buckingham Gate, London SW1E 6BS, England",
+        "lat": 51.4988,
+        "lng": -0.1382
+      },
+      {
+        "type": "gravestone",
+        "name": "Grave of Martyn Lloyd-Jones",
+        "address": "Gelli Cemetery, Cardigan Road (A484), Newcastle Emlyn, Carmarthenshire, Wales",
+        "lat": 52.0438,
+        "lng": -4.4843
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "aw-tozer",
+    "name": "A. W. Tozer",
+    "born": 1897,
+    "born_approximate": false,
+    "died": 1963,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Apr 21, 1897",
+        "event": "birth",
+        "details": "Born near La Jose, Pennsylvania, USA."
+      },
+      {
+        "date": "1915",
+        "event": "saved",
+        "details": "Converted in Akron, Ohio, after hearing a street preacher's appeal; prayed alone in his attic."
+      },
+      {
+        "date": "1928",
+        "event": "other",
+        "details": "Became pastor of Southside Alliance Church, Chicago, where he served thirty-one years."
+      },
+      {
+        "date": "1948",
+        "event": "other",
+        "details": "Published The Pursuit of God, his best-known work."
+      },
+      {
+        "date": "May 12, 1963",
+        "event": "death",
+        "details": "Died of a heart attack in Toronto, Ontario, Canada, aged 66."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Christian and Missionary Alliance",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "prayer",
+      "worship",
+      "grace",
+      "devotion"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/A._W._Tozer",
+    "source_summary": "Aiden Wilson Tozer (1897-1963) was an American pastor, editor, and devotional writer with the Christian and Missionary Alliance. Converted at seventeen in 1915, he entered ministry without formal theological training and served as pastor of Southside Alliance Church in Chicago from 1928 to 1959. His books The Pursuit of God (1948) and The Knowledge of the Holy (1961) remain widely read devotional classics.",
+    "adult_story": "Aiden Wilson Tozer was born in rural Pennsylvania in 1897 and grew up in Akron, Ohio, with no particular interest in religion. At seventeen, walking home from work, he passed a street preacher who called out that anyone could be saved simply by praying, ‘God be merciful to me, a sinner.’ Tozer went home, climbed to the attic alone, and did exactly that. He never forgot that the whole of his salvation began with nothing more than a stranger's plain words and his own honest prayer.\n\nHe never attended seminary, teaching himself theology instead through relentless reading in libraries and secondhand bookshops. Entering ministry with the Christian and Missionary Alliance in 1919, he became pastor of Southside Alliance Church in Chicago in 1928, where his Sunday evening services drew students from across the city's colleges for thirty-one years. From 1950 he also edited the denomination's magazine. His books, especially The Pursuit of God (1948) and The Knowledge of the Holy (1961), pressed one relentless question on comfortable Christians: did they actually know the God they claimed to worship, or merely know about him?\n\nTozer's answer always returned to that Akron attic — that nearness to God is not achieved by religious performance but received, like his own conversion, as a gift simply asked for and simply given.",
+    "family_story": "A. W. Tozer grew up in America without much interest in church. One day, walking home from work at age seventeen, he heard a street preacher say that anyone could be saved just by praying and asking God for mercy. That night, alone in his attic, young Tozer did exactly that — and he never forgot how simple it was. He never went to a special Bible school, but he read and studied on his own and became a pastor and writer. His books taught people not just to know facts about God, but to truly know and love him. Tozer believed that anyone — even a boy alone in an attic — can come to God simply by asking.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of A. W. Tozer",
+        "address": "Ellet Cemetery, 671 Canton Road, Akron, Ohio 44312, USA",
+        "lat": 41.0514,
+        "lng": -81.4354
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "oswald-chambers",
+    "name": "Oswald Chambers",
+    "born": 1874,
+    "born_approximate": false,
+    "died": 1917,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Jul 24, 1874",
+        "event": "birth",
+        "details": "Born in Aberdeen, Scotland."
+      },
+      {
+        "date": "May 1910",
+        "event": "other",
+        "details": "Married Gertrude 'Biddy' Hobbs."
+      },
+      {
+        "date": "1915",
+        "event": "other",
+        "details": "Became YMCA chaplain to British and ANZAC troops in Zeitoun, near Cairo, Egypt."
+      },
+      {
+        "date": "Nov 15, 1917",
+        "event": "death",
+        "details": "Died in Cairo, Egypt, of complications following an appendectomy, aged 43."
+      }
+    ],
+    "nationality": "Scottish",
+    "era": "20th Century",
+    "region": "UK/Ireland",
+    "tradition": "Baptist / Holiness movement, nondenominational",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "devotion",
+      "faithfulness",
+      "Scripture",
+      "grace",
+      "service"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Oswald_Chambers",
+    "source_summary": "Oswald Chambers (1874-1917) was a Scottish Baptist-raised Bible teacher associated with the Holiness movement. He founded and led the Bible Training College in Clapham, London, from 1911 to 1915, then served as a YMCA chaplain to British and ANZAC troops in Egypt during the First World War, where he died in 1917 following complications from an appendectomy. His widow Biddy compiled his oral teaching notes into the devotional My Utmost for His Highest, published in 1924, which has never been out of print.",
+    "adult_story": "Oswald Chambers was born in Aberdeen, Scotland, in 1874, and baptized at sixteen into a London Baptist chapel. Trained first as an artist and then in theology at Edinburgh and Dunoon, he became a gifted, searching Bible teacher, eventually founding and leading the Bible Training College in Clapham, London, from 1911 to 1915. In 1910 he married Gertrude ‘Biddy’ Hobbs, and their daughter Kathleen was born three years later.\n\nIn 1915, with the college's future uncertain amid the First World War, Chambers became a YMCA chaplain to British, Australian, and New Zealand troops stationed near Cairo, Egypt — walking among soldiers awaiting battle, teaching them the same searching faith he had taught his students. In October 1917 he underwent an emergency appendectomy; complications followed, and he died on 15 November 1917, only forty-three years old, with no book to his name.\n\nThat might have been the end of his story. Instead, his widow Biddy — who had taken careful shorthand notes of his oral talks for years — spent the following decade shaping them into a book, published in 1924 as My Utmost for His Highest. It has never been out of print since, read daily by millions in dozens of languages. Chambers himself never saw a page of it. His enduring legacy is, quite literally, not his own doing — a fitting shape for a man who taught, above all, that a Christian's usefulness rests entirely on Christ's grace, never on human achievement or length of days.",
+    "family_story": "Oswald Chambers was a Bible teacher from Scotland who taught students in London and then became a chaplain for soldiers in Egypt during World War 1. He was known for asking people hard, honest questions about following Jesus with their whole hearts. Sadly, Oswald became very sick and died when he was only forty-three years old — he had never written a book. But his wife, Biddy, had carefully written down everything he taught. Years later, she turned her notes into a book called My Utmost for His Highest, which people all over the world still read every single day. Even though Oswald died young, God used his words to help millions of people love Jesus more.",
+    "image": {
+      "file": "oswald-chambers.jpg",
+      "prompt_used": "Photorealistic portrait of Oswald Chambers, Scottish Bible teacher, early 20th century, wearing dark Edwardian suit and tie, thoughtful and earnest expression, historically accurate to 1910s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:OswaldChambers.jpg — sourced via Wheaton College Archives, public domain (life plus 70 years, CC Public Domain Mark 1.0)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Tagged public domain (life+70) with Creative Commons Public Domain Mark, sourced to Wheaton College Archives — clear claim, resolves to a direct Commons file URL."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Oswald Chambers",
+        "address": "Cairo War Memorial Cemetery, Old Cairo, Egypt",
+        "lat": 30.01438,
+        "lng": 31.23075
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "mitsuo-fuchida",
+    "name": "Mitsuo Fuchida",
+    "born": 1902,
+    "born_approximate": false,
+    "died": 1976,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Dec 3, 1902",
+        "event": "birth",
+        "details": "Born in Katsuragi, Nara Prefecture, Japan."
+      },
+      {
+        "date": "Dec 7, 1941",
+        "event": "other",
+        "details": "Commanded the first wave of aircraft in the attack on Pearl Harbor as an Imperial Japanese Navy air commander."
+      },
+      {
+        "date": "Jun 4, 1942",
+        "event": "other",
+        "details": "Wounded aboard the carrier Akagi at the Battle of Midway."
+      },
+      {
+        "date": "Sep 1949",
+        "event": "saved",
+        "details": "Became a Christian after independently reading the Bible, following the testimonies of Peggy Covell and Jacob DeShazer."
+      },
+      {
+        "date": "May 30, 1976",
+        "event": "death",
+        "details": "Died in Kashiwara, Osaka, Japan, of complications from diabetes, aged 73."
+      }
+    ],
+    "nationality": "Japanese",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Nondenominational evangelical",
+    "flagged": true,
+    "footnote": "Fuchida commanded the first wave of the December 7, 1941 attack on Pearl Harbor, in which over 2,400 Americans were killed, before his 1949 conversion to Christianity. This is noted here plainly, without minimizing the loss of life or treating his later profession of faith as erasing his role in it.",
+    "topics": [
+      "grace",
+      "conversion",
+      "forgiveness",
+      "redemption",
+      "gospel"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mitsuo_Fuchida",
+    "source_summary": "Mitsuo Fuchida (1902-1976) was a Japanese Imperial Navy pilot who commanded the first wave of the Pearl Harbor attack on December 7, 1941, and was wounded at the Battle of Midway in 1942. After the war he learned of the forgiveness shown by missionary's daughter Peggy Covell toward Japanese POWs and read the testimony of former Doolittle Raider Jacob DeShazer, a converted POW. Fuchida became a Christian in September 1949 and spent the rest of his life as an evangelist, touring under the title 'From Pearl Harbor to Calvary' and later befriending DeShazer.",
+    "adult_story": "Mitsuo Fuchida was born in 1902 in Nara Prefecture, Japan, and rose through the Imperial Japanese Navy Air Service to become one of its most skilled pilots. On 7 December 1941 he commanded the first wave of aircraft against Pearl Harbor, radioing back the signal confirming surprise had been achieved. He later flew at the Battle of Midway, where he was severely wounded, and served out the war as a staff officer.\n\nDemobilized after Japan's surrender, Fuchida carried the weight of a war that had cost so many lives. In the late 1940s he learned of Peggy Covell, an American whose missionary parents had been killed by Japanese soldiers, yet who chose to care for Japanese prisoners of war out of love for Christ. Soon after, he read the testimony of Jacob DeShazer, an American airman brutally treated as a Japanese prisoner, who had come to faith in Christ in captivity and forgiven his captors. Fuchida began reading the Bible himself — and in September 1949, he became a Christian. He spent his life as an evangelist, touring under the title 'From Pearl Harbor to Calvary,' and became a close friend of DeShazer, at times preaching alongside people his nation had once fought.\n\nFuchida never claimed his past could be undone by anything he did. What changed him was not remorse turned into good works, but grace — the same grace he had first seen lived out by people he had every reason to expect would hate him.",
+    "family_story": "Mitsuo Fuchida was a pilot in Japan's navy during World War Two. In 1941, he led the surprise attack on Pearl Harbor, where many American ships were destroyed and many people died. After the war ended, Fuchida heard about an American woman named Peggy, whose missionary parents had been killed by Japanese soldiers — yet she chose to care for Japanese prisoners instead of hating them. He also read the story of an American pilot who forgave the Japanese soldiers who had hurt him badly. Amazed by this forgiveness, Fuchida began reading the Bible himself, and in 1949 he became a Christian. He spent the rest of his life telling others about the same forgiveness he had received through Jesus.",
+    "image": {
+      "file": "mitsuo-fuchida.jpg",
+      "prompt_used": "Photorealistic portrait of Mitsuo Fuchida, Japanese naval aviator, early 1940s, wearing Imperial Japanese Navy officer's uniform, serious and composed expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Mitsuo_Fuchida_as_a_Captain.jpg — dated Oct 1944-Aug 1945, IJN official photographer, public domain in Japan and the United States",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain in Japan (copyright expired) and the US (not restored under URAA) — official IJN photograph, clear claim, resolves to a direct Commons file URL."
+    },
+    "memorials": [],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "allen-gardiner",
+    "name": "Allen Gardiner",
+    "born": 1794,
+    "born_approximate": false,
+    "died": 1851,
+    "died_approximate": true,
+    "significant_dates": [
+      {
+        "date": "Jan 28, 1794",
+        "event": "birth",
+        "details": "Born at the parsonage house, Basildon, Berkshire, England."
+      },
+      {
+        "date": "1844",
+        "event": "other",
+        "details": "Founded the Patagonian Missionary Society in Brighton, later renamed the South American Missionary Society."
+      },
+      {
+        "date": "Sep 7, 1850",
+        "event": "other",
+        "details": "Departed Liverpool aboard the Ocean Queen on the final expedition to Tierra del Fuego."
+      },
+      {
+        "date": "c. Sep 6, 1851",
+        "event": "death",
+        "details": "Died of starvation in a cave at Spaniard Harbour, Tierra del Fuego, the last of his seven-man party to die."
+      }
+    ],
+    "nationality": "English",
+    "era": "19th Century",
+    "region": "Latin America",
+    "tradition": "Church of England (evangelical)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "perseverance",
+      "sacrifice",
+      "faithfulness",
+      "suffering"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Allen_Francis_Gardiner",
+    "source_summary": "Allen Francis Gardiner (1794-1851) was a British Royal Navy officer who, after his first wife's death in 1834, turned to missionary work, founding a short-lived mission in Zulu territory before working among Chilean indigenous peoples and attempting repeatedly to reach the Yaghan people of Tierra del Fuego. He founded the Patagonian Missionary Society in 1844. In 1850 he led a final expedition to Tierra del Fuego; stranded without adequate supplies, his entire seven-man party starved to death by September 1851.",
+    "adult_story": "Allen Francis Gardiner spent much of his early life as a Royal Navy officer, serving with distinction in the War of 1812. The death of his first wife in 1834 redirected him toward missions: he founded a short-lived station among the Zulu in southern Africa, then turned to South America, working among Chile's indigenous peoples and making his first landing on Tierra del Fuego in 1842. Established missionary societies repeatedly declined to fund so remote and dangerous a field, so in 1844 Gardiner founded his own — the Patagonian Missionary Society, later renamed the South American Missionary Society.\n\nTwo further attempts to establish a Tierra del Fuego mission failed. In September 1850, at fifty-six, Gardiner sailed once more, with six companions, for a final attempt. Landing at Picton Island, they found the Yaghan people hostile and relocated to Spaniard Harbour — but most of their ammunition had been left aboard ship, leaving them unable to hunt, and the relief ship never came in time. Over the following months, all seven starved; Gardiner, the last survivor, is believed to have died around 6 September 1851.\n\nWhen a search ship found the camp, searchers discovered verses from Psalm 62 still painted on the rocks nearby: 'Trust in him at all times... God is a refuge for us.' Gardiner's death, rather than ending the mission, became the very thing that funded and inspired its eventual success — a field watered by grace that outlasted his own strength.",
+    "family_story": "Allen Gardiner used to be an officer in the British navy, but after his wife died, he decided to spend his life telling people who had never heard of Jesus about him. He tried many times to start a mission to a cold, faraway place called Tierra del Fuego, at the tip of South America. No missionary society would help pay for it, so Gardiner started his own. In 1850 he sailed there with six friends, but they ran out of food, and the supply ship that was supposed to help them never came in time. Sadly, Gardiner and his friends died there. But his story inspired other Christians to continue the mission he started, and it grew for years after he was gone.",
+    "image": {
+      "file": "allen-gardiner.jpg",
+      "prompt_used": "Photorealistic portrait of Allen Francis Gardiner, English Royal Navy officer turned missionary, mid-19th century, wearing dark naval-era coat, resolute and weathered expression, historically accurate to 1840s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Captain_Allen_Gardiner.jpg — scanned from an early-1900s biography via the Internet Archive, public domain",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Public Domain Mark, sourced from an Internet Archive scan of a period biography published before 1931 — clear claim, resolves to a direct Commons file URL."
+    },
+    "memorials": [
+      {
+        "type": "other",
+        "name": "Gardiner Caves, Bahía Aguirre — death site, Argentine National Historic Monument",
+        "address": "Bahía Aguirre, Península Mitre, Tierra del Fuego Province, Argentina",
+        "lat": -54.9111,
+        "lng": -65.9925
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]
