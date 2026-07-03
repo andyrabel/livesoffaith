@@ -1,597 +1,935 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/about.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/about.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=wang-ming-dao</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/map.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=wang-ming-dao</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/wang-ming-dao.jpg</image:loc>
+      <image:caption>Portrait of Wang Ming Dao</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=john-newton</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=john-newton</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-newton.jpg</image:loc>
+      <image:caption>Portrait of John Newton</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=fanny-crosby</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=fanny-crosby</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/fanny-crosby.jpg</image:loc>
+      <image:caption>Portrait of Fanny Crosby</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=john-bunyan</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=john-bunyan</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-bunyan.jpg</image:loc>
+      <image:caption>Portrait of John Bunyan</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=isaac-watts</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=isaac-watts</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/isaac-watts.jpg</image:loc>
+      <image:caption>Portrait of Isaac Watts</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=charles-wesley</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=charles-wesley</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/charles-wesley.jpg</image:loc>
+      <image:caption>Portrait of Charles Wesley</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=william-cowper</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=william-cowper</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/william-cowper.jpg</image:loc>
+      <image:caption>Portrait of William Cowper</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=augustus-toplady</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=augustus-toplady</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/augustus-toplady.jpg</image:loc>
+      <image:caption>Portrait of Augustus Toplady</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=philip-bliss</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=philip-bliss</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/philip-bliss.jpg</image:loc>
+      <image:caption>Portrait of Philip Bliss</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=horatius-bonar</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=horatius-bonar</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/horatius-bonar.jpg</image:loc>
+      <image:caption>Portrait of Horatius Bonar</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=susanna-wesley</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=susanna-wesley</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/susanna-wesley.jpg</image:loc>
+      <image:caption>Portrait of Susanna Wesley</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=george-whitefield</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=george-whitefield</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/george-whitefield.jpg</image:loc>
+      <image:caption>Portrait of George Whitefield</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=william-wilberforce</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=william-wilberforce</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/william-wilberforce.jpg</image:loc>
+      <image:caption>Portrait of William Wilberforce</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=george-muller</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=george-muller</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/george-muller.jpg</image:loc>
+      <image:caption>Portrait of George Müller</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=cs-lewis</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=cs-lewis</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/cs-lewis.jpg</image:loc>
+      <image:caption>Portrait of C.S. Lewis</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=jim-elliot</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=jim-elliot</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=hudson-taylor</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=hudson-taylor</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/hudson-taylor.jpg</image:loc>
+      <image:caption>Portrait of Hudson Taylor</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=david-livingstone</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=david-livingstone</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/david-livingstone.jpg</image:loc>
+      <image:caption>Portrait of David Livingstone</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=amy-carmichael</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=amy-carmichael</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/amy-carmichael.jpg</image:loc>
+      <image:caption>Portrait of Amy Carmichael</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=john-sung</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=john-sung</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-sung.jpg</image:loc>
+      <image:caption>Portrait of John Sung</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=watchman-nee</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=watchman-nee</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/watchman-nee.jpg</image:loc>
+      <image:caption>Portrait of Watchman Nee</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=sadhu-sundar-singh</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=sadhu-sundar-singh</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/sadhu-sundar-singh.jpg</image:loc>
+      <image:caption>Portrait of Sadhu Sundar Singh</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=william-tyndale</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=william-tyndale</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/william-tyndale.jpg</image:loc>
+      <image:caption>Portrait of William Tyndale</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=john-hus</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=john-hus</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-hus.jpg</image:loc>
+      <image:caption>Portrait of John Hus</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=richard-wurmbrand</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=richard-wurmbrand</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/richard-wurmbrand.jpg</image:loc>
+      <image:caption>Portrait of Richard Wurmbrand</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=william-carey</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=william-carey</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/william-carey.jpg</image:loc>
+      <image:caption>Portrait of William Carey</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=lilias-trotter</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=lilias-trotter</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/lilias-trotter.jpg</image:loc>
+      <image:caption>Portrait of Lilias Trotter</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=anthony-norris-groves</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=anthony-norris-groves</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/anthony-norris-groves.jpg</image:loc>
+      <image:caption>Portrait of Anthony Norris Groves</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=lord-shaftesbury</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=lord-shaftesbury</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/lord-shaftesbury.jpg</image:loc>
+      <image:caption>Portrait of Lord Shaftesbury</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=robert-boyle</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=robert-boyle</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/robert-boyle.jpg</image:loc>
+      <image:caption>Portrait of Robert Boyle</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=daniel-w-whittle</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=daniel-w-whittle</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/daniel-w-whittle.jpg</image:loc>
+      <image:caption>Portrait of Daniel W. Whittle</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=frances-ridley-havergal</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=frances-ridley-havergal</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/frances-ridley-havergal.jpg</image:loc>
+      <image:caption>Portrait of Frances Ridley Havergal</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=keith-green</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=keith-green</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/keith-green.jpg</image:loc>
+      <image:caption>Portrait of Keith Green</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=thomas-watson</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=thomas-watson</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/thomas-watson.jpg</image:loc>
+      <image:caption>Portrait of Thomas Watson</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=corrie-ten-boom</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=corrie-ten-boom</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/corrie-ten-boom.jpg</image:loc>
+      <image:caption>Portrait of Corrie ten Boom</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=eric-liddell</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=eric-liddell</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/eric-liddell.jpg</image:loc>
+      <image:caption>Portrait of Eric Liddell</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=elisabeth-elliot</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=elisabeth-elliot</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=brother-andrew</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=brother-andrew</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=william-borden</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=william-borden</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/william-borden.jpg</image:loc>
+      <image:caption>Portrait of William Borden</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=mary-slessor</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=mary-slessor</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/mary-slessor.jpg</image:loc>
+      <image:caption>Portrait of Mary Slessor</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=adoniram-judson</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=adoniram-judson</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/adoniram-judson.jpg</image:loc>
+      <image:caption>Portrait of Adoniram Judson</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=horatio-spafford</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=horatio-spafford</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/horatio-spafford.jpg</image:loc>
+      <image:caption>Portrait of Horatio Spafford</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=john-wesley</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=john-wesley</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-wesley.jpg</image:loc>
+      <image:caption>Portrait of John Wesley</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=george-verwer</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=george-verwer</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/george-verwer.jpg</image:loc>
+      <image:caption>Portrait of George Verwer</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=matthew-henry</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=matthew-henry</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/matthew-henry.jpg</image:loc>
+      <image:caption>Portrait of Matthew Henry</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=charles-spurgeon</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=charles-spurgeon</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/charles-spurgeon.jpg</image:loc>
+      <image:caption>Portrait of Charles Haddon Spurgeon</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=david-brainerd</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=david-brainerd</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/david-brainerd.jpg</image:loc>
+      <image:caption>Portrait of David Brainerd</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=gladys-aylward</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=gladys-aylward</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/gladys-aylward.jpg</image:loc>
+      <image:caption>Portrait of Gladys Aylward</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=ct-studd</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=ct-studd</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/ct-studd.jpg</image:loc>
+      <image:caption>Portrait of C. T. Studd</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=thomas-barnardo</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=thomas-barnardo</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/thomas-barnardo.jpg</image:loc>
+      <image:caption>Portrait of Thomas Barnardo</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=william-booth</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=william-booth</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/william-booth.jpg</image:loc>
+      <image:caption>Portrait of William Booth</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=martin-luther</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=martin-luther</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/martin-luther.jpg</image:loc>
+      <image:caption>Portrait of Martin Luther</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=john-calvin</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=john-calvin</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-calvin.jpg</image:loc>
+      <image:caption>Portrait of John Calvin</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=joseph-scriven</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=joseph-scriven</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=robert-cleaver-chapman</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=robert-cleaver-chapman</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=john-nelson-darby</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=john-nelson-darby</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-nelson-darby.jpg</image:loc>
+      <image:caption>Portrait of John Nelson Darby</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=robert-murray-mcheyne</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=robert-murray-mcheyne</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/robert-murray-mcheyne.jpg</image:loc>
+      <image:caption>Portrait of Robert Murray M'Cheyne</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=henry-martyn</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=henry-martyn</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/henry-martyn.jpg</image:loc>
+      <image:caption>Portrait of Henry Martyn</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=pandita-ramabai</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=pandita-ramabai</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/pandita-ramabai.jpg</image:loc>
+      <image:caption>Portrait of Pandita Ramabai</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=bakht-singh</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=bakht-singh</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/bakht-singh.jpg</image:loc>
+      <image:caption>Portrait of Bakht Singh</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=john-stam</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=john-stam</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-stam.jpg</image:loc>
+      <image:caption>Portrait of John Stam</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=betty-stam</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=betty-stam</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/betty-stam.jpg</image:loc>
+      <image:caption>Portrait of Betty Stam</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=dietrich-bonhoeffer</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=dietrich-bonhoeffer</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/dietrich-bonhoeffer.jpg</image:loc>
+      <image:caption>Portrait of Dietrich Bonhoeffer</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=joni-eareckson-tada</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=joni-eareckson-tada</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=dwight-l-moody</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=dwight-l-moody</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/dwight-l-moody.jpg</image:loc>
+      <image:caption>Portrait of Dwight L. Moody</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=william-edwy-vine</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=william-edwy-vine</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=james-strong</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=james-strong</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/james-strong.jpg</image:loc>
+      <image:caption>Portrait of James Strong</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=alexander-cruden</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=alexander-cruden</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/alexander-cruden.jpg</image:loc>
+      <image:caption>Portrait of Alexander Cruden</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=william-macdonald</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=william-macdonald</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/william-macdonald.jpg</image:loc>
+      <image:caption>Portrait of William MacDonald</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=ha-ironside</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=ha-ironside</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=john-wycliffe</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=john-wycliffe</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-wycliffe.jpg</image:loc>
+      <image:caption>Portrait of John Wycliffe</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=charlotte-elliott</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=charlotte-elliott</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/charlotte-elliott.jpg</image:loc>
+      <image:caption>Portrait of Charlotte Elliott</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=cesar-malan</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=cesar-malan</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/cesar-malan.jpg</image:loc>
+      <image:caption>Portrait of César Malan</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=billy-graham</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=billy-graham</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/billy-graham.jpg</image:loc>
+      <image:caption>Portrait of Billy Graham</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=harriet-tubman</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=harriet-tubman</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/harriet-tubman.jpg</image:loc>
+      <image:caption>Portrait of Harriet Tubman</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=jonathan-edwards</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=jonathan-edwards</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/jonathan-edwards.jpg</image:loc>
+      <image:caption>Portrait of Jonathan Edwards</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=john-g-paton</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=john-g-paton</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-g-paton.jpg</image:loc>
+      <image:caption>Portrait of John G. Paton</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=abraham-kuyper</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=abraham-kuyper</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/abraham-kuyper.jpg</image:loc>
+      <image:caption>Portrait of Abraham Kuyper</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=isobel-kuhn</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=isobel-kuhn</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=francis-schaeffer</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=francis-schaeffer</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/francis-schaeffer.jpg</image:loc>
+      <image:caption>Portrait of Francis Schaeffer</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=leon-morris</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=leon-morris</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=helen-roseveare</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=helen-roseveare</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=ff-bruce</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=ff-bruce</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=martyn-lloyd-jones</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=martyn-lloyd-jones</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=aw-tozer</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=aw-tozer</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=oswald-chambers</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=oswald-chambers</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/oswald-chambers.jpg</image:loc>
+      <image:caption>Portrait of Oswald Chambers</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=mitsuo-fuchida</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=mitsuo-fuchida</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/mitsuo-fuchida.jpg</image:loc>
+      <image:caption>Portrait of Mitsuo Fuchida</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=allen-gardiner</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=allen-gardiner</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/allen-gardiner.jpg</image:loc>
+      <image:caption>Portrait of Allen Gardiner</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=katharina-von-bora</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=katharina-von-bora</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/katharina-von-bora.jpg</image:loc>
+      <image:caption>Portrait of Katharina von Bora</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=samuel-rutherford</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=samuel-rutherford</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/samuel-rutherford.jpg</image:loc>
+      <image:caption>Portrait of Samuel Rutherford</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=charles-simeon</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=charles-simeon</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/charles-simeon.jpg</image:loc>
+      <image:caption>Portrait of Charles Simeon</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=john-charles-ryle</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=john-charles-ryle</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/john-charles-ryle.jpg</image:loc>
+      <image:caption>Portrait of John Charles Ryle</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=alexander-whyte</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=alexander-whyte</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/alexander-whyte.jpg</image:loc>
+      <image:caption>Portrait of Alexander Whyte</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=joseph-parker</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=joseph-parker</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/joseph-parker.jpg</image:loc>
+      <image:caption>Portrait of Joseph Parker</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=ra-torrey</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=ra-torrey</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/ra-torrey.jpg</image:loc>
+      <image:caption>Portrait of R. A. Torrey</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=george-matheson</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=george-matheson</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/george-matheson.jpg</image:loc>
+      <image:caption>Portrait of George Matheson</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://andyrabel.github.io/livesoffaith/person.html?id=christmas-evans</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://livesoffaith.org/person.html?id=christmas-evans</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/christmas-evans.jpg</image:loc>
+      <image:caption>Portrait of Christmas Evans</image:caption>
+    </image:image>
   </url>
 </urlset>

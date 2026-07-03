@@ -558,7 +558,7 @@ function renderPersonNav(person) {
 // SEO helpers for person page
 // ============================================================
 
-const SITE_URL = 'https://andyrabel.github.io/livesoffaith';
+const SITE_URL = 'https://livesoffaith.org';
 
 function setMeta(selector, attr, value) {
   const el = document.querySelector(selector);
@@ -638,12 +638,13 @@ function injectPersonSeo(person) {
   const twDesc = document.getElementById('twitter-description');
   if (twDesc) twDesc.setAttribute('content', description);
 
-  // JSON-LD: Person + BreadcrumbList
+  // JSON-LD: Person + BreadcrumbList + Article (full story, for richer extraction)
   const personLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
     'name': person.name,
     'url': pageUrl,
+    'mainEntityOfPage': pageUrl,
     'description': description,
     'nationality': person.nationality,
     'affiliation': person.tradition,
@@ -667,7 +668,30 @@ function injectPersonSeo(person) {
     ],
   };
 
-  [personLd, breadcrumbLd].forEach(ld => {
+  const publisherLd = {
+    '@type': 'Organization',
+    'name': 'Lives of Faith',
+    'url': `${SITE_URL}/`,
+  };
+
+  const articleLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'headline': `${person.name} (${dates})`,
+    'description': description,
+    'articleBody': stripLinks(person.adult_story || ''),
+    'mainEntityOfPage': pageUrl,
+    'url': pageUrl,
+    'inLanguage': 'en',
+    'about': { '@type': 'Person', 'name': person.name, 'sameAs': person.wikipedia_url || undefined },
+    'author': publisherLd,
+    'publisher': publisherLd,
+  };
+  if (person.image) {
+    articleLd['image'] = `${SITE_URL}/images/portraits/${encodeURIComponent(person.image.file)}`;
+  }
+
+  [personLd, breadcrumbLd, articleLd].forEach(ld => {
     const script = document.createElement('script');
     script.type = 'application/ld+json';
     script.textContent = JSON.stringify(ld);

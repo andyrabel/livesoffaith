@@ -317,6 +317,7 @@ _build/
 ├── generate_stories.py    ← calls Claude API to generate adult + family stories
 ├── generate_prompts.py    ← builds image generation prompts per person
 ├── generate_sitemap.py    ← regenerates sitemap.xml from data/people.json (run after adding any person)
+├── generate_llms_txt.py   ← regenerates llms.txt and llms-full.txt from data/people.json (run after adding any person)
 ├── vetting.py             ← runs exclusion checklist before content generation
 └── prompts/
     ├── adult_story.txt    ← master prompt template for adult stories
@@ -486,6 +487,8 @@ Claude will:
 - Add the full JSON entry with `"image": null` and all fields populated
 - Flag the entry if needed and explain why
 - **Update `sitemap.xml`** to include the new person's URL (run `python3 _build/generate_sitemap.py`)
+- **Update `llms.txt` and `llms-full.txt`** so AI assistants have the new person's
+  content (run `python3 _build/generate_llms_txt.py`)
 
 ### Step 4 — Update Cross-References
 Stories link to each other with the `[[Display Name|person-id]]` syntax (rendered
@@ -559,16 +562,18 @@ Once you are satisfied with the content and image, set:
 ```
 The ✅ badge will then appear on the published page.
 
-### Step 9 — Update Sitemap
-Run the sitemap generator to add the new person and update `<lastmod>` dates:
+### Step 9 — Update Sitemap and llms.txt
+Run the sitemap and llms.txt generators to add the new person and update dates:
 ```bash
 python3 _build/generate_sitemap.py
+python3 _build/generate_llms_txt.py
 ```
-This regenerates `sitemap.xml` from `data/people.json` automatically.
+This regenerates `sitemap.xml`, `llms.txt`, and `llms-full.txt` from
+`data/people.json` automatically.
 
 ### Step 10 — Commit and Push
 ```bash
-git add data/people.json sitemap.xml images/portraits/[person-id].jpg
+git add data/people.json sitemap.xml llms.txt llms-full.txt images/portraits/[person-id].jpg
 git commit -m "Add [Name]"
 git push
 ```

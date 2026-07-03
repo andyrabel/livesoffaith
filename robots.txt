@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://andyrabel.github.io/livesoffaith/sitemap.xml
+Sitemap: https://livesoffaith.org/sitemap.xml
