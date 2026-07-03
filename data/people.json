@@ -6108,9 +6108,9 @@
       "redistribution_note": "Library of Congress, photograph c.1868-1869 — clear public-domain claim, no caveat."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-03"
     },
     "memorials": [
       {
@@ -7932,9 +7932,9 @@
       }
     ],
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-03"
     }
   },
   {
@@ -8150,9 +8150,9 @@
     "image": null,
     "memorials": [],
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-03"
     }
   },
   {
