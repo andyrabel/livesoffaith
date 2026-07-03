@@ -3325,6 +3325,20 @@
         "address": "Burial Hill Cemetery, School Street, Plymouth, MA 02360, USA",
         "lat": 41.956,
         "lng": -70.6661
+      },
+      {
+        "type": "other",
+        "name": "Judson University — named in his honor, with a Heritage Room commemorating his life and legacy",
+        "address": "1151 North State Street, Elgin, Illinois 60123, USA",
+        "lat": 42.0454,
+        "lng": -88.2826
+      },
+      {
+        "type": "church",
+        "name": "Judson Memorial Church — built by his son Edward Judson as a memorial to his father",
+        "address": "55 Washington Square South, New York, New York 10012, USA",
+        "lat": 40.7295,
+        "lng": -73.9998
       }
     ]
   },
@@ -5325,6 +5339,34 @@
         "address": "Round Top Cemetery, Northfield Campus, Northfield, Massachusetts 01360, USA",
         "lat": 42.689,
         "lng": -72.453
+      },
+      {
+        "type": "statue",
+        "name": "Bronze bust of Dwight L. Moody by Hermon Atkins MacNeil (1920)",
+        "address": "Northfield Mount Hermon School, One Lamplighter Way, Gill, Massachusetts 01354, USA",
+        "lat": 42.6733,
+        "lng": -72.4581
+      },
+      {
+        "type": "museum",
+        "name": "D. L. Moody Birthplace and Museum",
+        "address": "30 Moody Street, Northfield, Massachusetts 01360, USA",
+        "lat": 42.6885,
+        "lng": -72.4522
+      },
+      {
+        "type": "other",
+        "name": "Moody Bible Institute",
+        "address": "820 North LaSalle Boulevard, Chicago, Illinois 60610, USA",
+        "lat": 41.8987,
+        "lng": -87.6328
+      },
+      {
+        "type": "church",
+        "name": "The Moody Church",
+        "address": "1635 North LaSalle Drive, Chicago, Illinois 60614, USA",
+        "lat": 41.9115,
+        "lng": -87.6329
       }
     ]
   },
@@ -6220,6 +6262,13 @@
         "address": "29 Greenview Avenue, Princeton, NJ 08542, USA",
         "lat": 40.3539958,
         "lng": -74.6598806
+      },
+      {
+        "type": "monument",
+        "name": "Sinners in the Hands of an Angry God boulder marker — site of the Second Meetinghouse of Enfield",
+        "address": "Enfield Street (Route 5) near Post Office Road, grounds of Enfield Montessori School, Enfield, Connecticut 06082, USA",
+        "lat": 41.9895,
+        "lng": -72.5779
       }
     ],
     "related_people": [
