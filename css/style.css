@@ -1191,6 +1191,75 @@ main {
   background: var(--border-light);
 }
 
+/* --- Marker type legend --------------------------------------- */
+.map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.9rem;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 0.55rem 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.map-legend__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.map-legend__swatch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  border: 2px solid #fff;
+  box-shadow: var(--shadow);
+  flex-shrink: 0;
+}
+
+/* --- Custom marker pins (map + tour) ---------------------------- */
+.memorial-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  border: 2px solid #fff;
+  box-shadow: var(--shadow-md);
+}
+
+.memorial-pin span {
+  transform: rotate(45deg);
+}
+
+.map-list-portrait-placeholder.place-thumb {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  color: #fff;
+  background: none;
+}
+
 .memorial-map .leaflet-popup-content-wrapper {
   border-radius: var(--radius);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -1248,6 +1317,23 @@ main {
   font-size: 0.74rem;
   color: var(--text-muted);
   margin-bottom: 0.3rem;
+}
+
+.map-popup-access-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--warning);
+  background: var(--warning-bg);
+  border-radius: 999px;
+  padding: 0.06rem 0.45rem;
+  margin-bottom: 0.3rem;
+}
+
+.map-list-meta .map-popup-access-badge {
+  vertical-align: middle;
+  margin-bottom: 0;
+  margin-left: 0.2rem;
 }
 
 .map-popup-links {

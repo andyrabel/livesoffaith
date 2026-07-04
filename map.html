@@ -86,10 +86,12 @@
       <a href="index.html" class="back-link">&#8592; Back to all people</a>
 
       <section class="intro" aria-label="Map description">
-        <p>Physical memorials — gravestones, statues, plaques, and monuments — for the people profiled on this site. Use this to plan a heritage visit or a walking tour.</p>
+        <p>Physical memorials — gravestones, statues, plaques, and monuments — for the people profiled on this site, plus museums, libraries, and other places of Christian interest not tied to a single person. Use this to plan a heritage visit or a walking tour.</p>
       </section>
 
-      <div id="memorial-map" class="memorial-map" aria-label="Map of physical memorials"></div>
+      <div id="map-legend" class="map-legend" aria-label="Marker type legend"></div>
+
+      <div id="memorial-map" class="memorial-map" aria-label="Map of physical memorials and places"></div>
 
       <section class="tour-planner" id="tour-planner" aria-label="Plan a memorial tour">
         <h2 class="tour-planner__title">&#129517; Plan a Tour</h2>
@@ -152,10 +154,10 @@
 
       <hr class="section-divider">
 
-      <section class="memorial-list-section" id="memorial-list-section" aria-label="Browse all memorials">
-        <h2 class="memorial-list-section__title">Browse All Memorials</h2>
+      <section class="memorial-list-section" id="memorial-list-section" aria-label="Browse all memorials and places">
+        <h2 class="memorial-list-section__title">Browse All Memorials &amp; Places</h2>
 
-        <section class="search-filter" aria-label="Search and filter memorials">
+        <section class="search-filter" aria-label="Search and filter memorials and places">
           <div class="search-row">
             <label for="map-search-input" class="sr-only">Search by name</label>
             <input
@@ -180,9 +182,9 @@
               <option value="Oceania">Oceania</option>
             </select>
 
-            <label for="map-filter-type" class="sr-only">Filter by memorial type</label>
-            <select id="map-filter-type" class="filter-select" aria-label="Filter by memorial type">
-              <option value="">All Memorial Types</option>
+            <label for="map-filter-type" class="sr-only">Filter by type</label>
+            <select id="map-filter-type" class="filter-select" aria-label="Filter by type">
+              <option value="">All Types</option>
               <option value="gravestone">Gravestone</option>
               <option value="statue">Statue</option>
               <option value="plaque">Plaque</option>
@@ -190,7 +192,16 @@
               <option value="window">Memorial Window</option>
               <option value="church">Church</option>
               <option value="museum">Museum</option>
+              <option value="library">Library</option>
+              <option value="archive">Archive</option>
               <option value="other">Other</option>
+            </select>
+
+            <label for="map-filter-source" class="sr-only">Filter by source</label>
+            <select id="map-filter-source" class="filter-select" aria-label="Filter by source">
+              <option value="">Memorials &amp; Places</option>
+              <option value="person">Person Memorials Only</option>
+              <option value="place">Places Only</option>
             </select>
 
             <button id="map-clear-filters" class="btn btn-secondary" type="button">Clear Filters</button>
@@ -201,7 +212,7 @@
           <p id="map-results-count"></p>
         </div>
 
-        <div id="memorial-list-page" class="memorial-list-page" aria-label="List of physical memorials">
+        <div id="memorial-list-page" class="memorial-list-page" aria-label="List of physical memorials and places">
           <div class="loading">Loading…</div>
         </div>
 

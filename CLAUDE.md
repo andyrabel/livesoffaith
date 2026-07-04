@@ -270,11 +270,20 @@ Rules:
 ### Memorials Schema
 
 Each memorial in the `memorials` array has:
-- `type` — one of: `"gravestone"`, `"statue"`, `"plaque"`, `"monument"`, `"window"`, `"church"`, `"museum"`, `"other"`
+- `type` — one of: `"gravestone"`, `"statue"`, `"plaque"`, `"monument"`, `"window"`, `"church"`, `"museum"`, `"library"`, `"archive"`, `"other"`
 - `name` — short label for the memorial
 - `address` — street address or descriptive location
 - `lat` — decimal latitude
 - `lng` — decimal longitude
+- `open_to_public` — boolean, required whenever `type` is `"museum"`, `"library"`, or `"archive"`;
+  omit for gravestones/statues/plaques/monuments/windows/churches, which are assumed
+  publicly viewable. `true` means a member of the public can simply walk in during
+  opening hours (a museum exhibit, a public library reading room, a cathedral library
+  exhibition); `false` means it's a closed-stack research collection needing an
+  appointment or reader registration — the normal case for a special-collections or
+  manuscripts archive, even when described as open "by appointment" or "to accredited
+  researchers." When unsure, check the institution's own visiting/access page rather
+  than assuming.
 
 Use `"memorials": []` when no confirmed physical memorials are known.
 When adding a new person, research and populate memorials as part of the standard workflow.
@@ -285,15 +294,26 @@ as a memorial with `"type": "church"`.
 For anyone who was an author, scholar, missionary correspondent, or otherwise likely to
 have left a body of personal papers, correspondence, or manuscripts, check whether a
 named library, university, or seminary holds a personal papers/manuscript archive for
-them — if so, include it as a memorial with `"type": "museum"` (the established
-convention for archive collections on this site, even when the collection is a
-reading-room resource rather than a public exhibit — see the Wheaton College Archives &
-Special Collections entries for the Auca martyrs, or the Christian Brethren Archive
-entry for F. F. Bruce, both at data/people.json). Name the entry
-`"Papers of [Name] — [Institution] ([Collection name if notable])"` and cite the
-institution's own special-collections page or an Archives Hub / finding-aid record, not
-just a passing mention — a name-check in a biography is not enough to confirm a
-dedicated archive exists.
+them — if so, include it as a memorial. Pick the type carefully rather than defaulting
+to `"museum"`:
+- `"museum"` — a genuine public exhibit space with open walk-in visiting hours, even if
+  it also has an attached research archive (e.g. the Marion E. Wade Center at Wheaton
+  College, or the Cowper & Newton Museum, Olney — both welcome walk-in visitors free of
+  charge).
+- `"archive"` — a closed-stack manuscripts/special-collections department: the normal
+  case for "Papers of [Name]" entries at a university, seminary, or historical society
+  archive. Set `"open_to_public": false` — see the Wheaton College Archives & Special
+  Collections entries for the Auca martyrs, or the Christian Brethren Archive entry for
+  F. F. Bruce, both at data/people.json.
+- `"library"` — a national or major public/theological library where the institution
+  and its reading room are open to any visitor, even though the specific manuscript may
+  need requesting in advance (e.g. the National Library of Scotland, National Library
+  of Wales, Yale Divinity School Library). Set `"open_to_public": true`.
+
+Name the entry `"Papers of [Name] — [Institution] ([Collection name if notable])"` and
+cite the institution's own special-collections page or an Archives Hub / finding-aid
+record, not just a passing mention — a name-check in a biography is not enough to
+confirm a dedicated archive exists.
 
 ---
 

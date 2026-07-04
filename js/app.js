@@ -5,9 +5,11 @@
    ============================================================ */
 
 const DATA_URL = 'data/people.json';
+const PLACES_URL = 'data/places.json';
 const STORY_PREF_KEY = 'preferred-story-version';
 
 let allPeople = [];
+let allPlaces = [];
 let randomOrder = [];
 
 const filterState = {
@@ -136,11 +138,50 @@ const MEMORIAL_TYPE_LABELS = {
   window: 'Memorial Window',
   church: 'Church',
   museum: 'Museum',
+  library: 'Library',
+  archive: 'Archive',
   other: 'Memorial',
 };
 
 function memorialTypeLabel(type) {
   return MEMORIAL_TYPE_LABELS[type] || 'Memorial';
+}
+
+// Marker styling per memorial/place type — a two-letter code plus a
+// distinct colour so pins are visually distinguishable at a glance and
+// in the legend, independent of the text label (which may be truncated
+// in small UI elements).
+const MEMORIAL_TYPE_STYLES = {
+  gravestone: { code: 'GR', color: '#5b6470' },
+  statue:     { code: 'ST', color: '#8a7b6c' },
+  plaque:     { code: 'PL', color: '#1c3d5a' },
+  monument:   { code: 'MN', color: '#7c4012' },
+  window:     { code: 'WN', color: '#2b7a8b' },
+  church:     { code: 'CH', color: '#5b3a8c' },
+  museum:     { code: 'MU', color: '#a8832a' },
+  library:    { code: 'LB', color: '#1f5c3a' },
+  archive:    { code: 'AR', color: '#9c2b2b' },
+  other:      { code: 'OT', color: '#6b6360' },
+};
+
+function memorialTypeStyle(type) {
+  return MEMORIAL_TYPE_STYLES[type] || MEMORIAL_TYPE_STYLES.other;
+}
+
+function memorialTypeIcon(type) {
+  const style = memorialTypeStyle(type);
+  return L.divIcon({
+    className: 'memorial-marker-icon',
+    html: `<span class="memorial-pin" style="background:${style.color}"><span>${style.code}</span></span>`,
+    iconSize: [28, 28],
+    iconAnchor: [14, 28],
+    popupAnchor: [0, -26],
+  });
+}
+
+function accessBadgeHtml(entryLike) {
+  if (typeof entryLike.open_to_public !== 'boolean' || entryLike.open_to_public) return '';
+  return `<span class="map-popup-access-badge" title="Not open for casual walk-in visits">&#128274; By appointment</span>`;
 }
 
 function directionsUrl(memorial) {
@@ -278,6 +319,17 @@ async function loadPeople() {
     if (content) {
       content.innerHTML = '<div class="error-message">Unable to load content. Please try again.</div>';
     }
+  }
+}
+
+async function loadPlaces() {
+  try {
+    const res = await fetch(PLACES_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allPlaces = await res.json();
+  } catch (err) {
+    console.error('Failed to load places.json:', err);
+    allPlaces = [];
   }
 }
 
@@ -953,6 +1005,7 @@ const mapState = {
   search: '',
   region: '',
   type: '',
+  source: '',
   page: 1,
 };
 
@@ -962,48 +1015,88 @@ let leafletMap = null;
 let markerClusterGroup = null;
 const markersByKey = new Map();
 
-function memorialKey(person, memorial, idx) {
-  return `${person.id}__${idx}`;
+// Normalizes a person-memorial pair or a standalone place into one shape
+// so the map, list, and tour planner can render either without branching
+// everywhere. `kind` is 'person' or 'place'.
+function entryName(entry) {
+  return entry.kind === 'person' ? entry.person.name : entry.place.name;
 }
 
-function getAllMemorialEntries() {
+function entryProfileUrl(entry) {
+  if (entry.kind === 'person') return `person.html?id=${escapeHtml(entry.person.id)}`;
+  return entry.place.website || '';
+}
+
+function entryThumbHtml(entry, imgClass, placeholderClass) {
+  if (entry.kind === 'person') {
+    const person = entry.person;
+    const initials = escapeHtml(getInitials(person.name));
+    if (person.image) {
+      const imgSrc = `images/portraits/${escapeHtml(person.image.file)}`;
+      return `<img class="${imgClass}" src="${imgSrc}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;${placeholderClass}&quot;>${initials}</div>'">`;
+    }
+    return `<div class="${placeholderClass}">${initials}</div>`;
+  }
+  const style = memorialTypeStyle(entry.memorial.type);
+  return `<div class="${placeholderClass} place-thumb" style="background:${style.color}">${style.code}</div>`;
+}
+
+function getAllMapEntries() {
   const entries = [];
   allPeople.forEach(person => {
     (person.memorials || []).forEach((memorial, idx) => {
-      entries.push({ person, memorial, key: memorialKey(person, memorial, idx) });
+      entries.push({ kind: 'person', person, place: null, memorial, region: person.region, key: `person-${person.id}__${idx}` });
     });
+  });
+  allPlaces.forEach(place => {
+    const memorial = { type: place.type, name: place.name, address: place.address, lat: place.lat, lng: place.lng, open_to_public: place.open_to_public };
+    entries.push({ kind: 'place', person: null, place, memorial, region: place.region, key: `place-${place.id}` });
   });
   return entries;
 }
 
 function filterMemorialEntries(entries) {
-  const { search, region, type } = mapState;
-  return entries.filter(({ person, memorial }) => {
-    if (search && !person.name.toLowerCase().includes(search.toLowerCase())) return false;
-    if (region && person.region !== region) return false;
-    if (type && memorial.type !== type) return false;
+  const { search, region, type, source } = mapState;
+  return entries.filter(entry => {
+    if (source && entry.kind !== source) return false;
+    if (search && !entryName(entry).toLowerCase().includes(search.toLowerCase())) return false;
+    if (region && entry.region !== region) return false;
+    if (type && entry.memorial.type !== type) return false;
     return true;
   });
 }
 
-function mapPopupHtml(person, memorial) {
-  const imgSrc = person.image ? `images/portraits/${escapeHtml(person.image.file)}` : '';
-  const initials = escapeHtml(getInitials(person.name));
-  const portrait = person.image
-    ? `<img class="map-popup-portrait" src="${imgSrc}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;map-list-portrait-placeholder&quot;>${initials}</div>'">`
-    : `<div class="map-list-portrait-placeholder">${initials}</div>`;
+function mapPopupHtml(entry) {
+  const { memorial } = entry;
+  const isPerson = entry.kind === 'person';
+  const name = entryName(entry);
+  const portrait = entryThumbHtml(entry, 'map-popup-portrait', 'map-list-portrait-placeholder');
+  const profileUrl = entryProfileUrl(entry);
+
+  const titleHtml = profileUrl
+    ? `<h3 class="map-popup-name"><a href="${escapeHtml(profileUrl)}" ${isPerson ? '' : 'target="_blank" rel="noopener noreferrer"'}>${escapeHtml(name)}</a></h3>`
+    : `<h3 class="map-popup-name">${escapeHtml(name)}</h3>`;
+
+  const subtitleHtml = isPerson
+    ? `<div class="map-popup-memorial-name">${escapeHtml(memorial.name)}</div>`
+    : (entry.place.description ? `<div class="map-popup-memorial-name">${escapeHtml(truncateSummary(entry.place.description, 160))}</div>` : '');
+
+  const secondaryLink = isPerson
+    ? `<a href="${escapeHtml(profileUrl)}">Profile</a>`
+    : (entry.place.website ? `<a href="${escapeHtml(entry.place.website)}" target="_blank" rel="noopener noreferrer">Website</a>` : '');
 
   return `
     <div class="map-popup">
       ${portrait}
       <div class="map-popup-body">
         <div class="map-popup-type">${escapeHtml(memorialTypeLabel(memorial.type))}</div>
-        <h3 class="map-popup-name"><a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a></h3>
-        <div class="map-popup-memorial-name">${escapeHtml(memorial.name)}</div>
+        ${titleHtml}
+        ${subtitleHtml}
         <div class="map-popup-address">${escapeHtml(memorial.address)}</div>
+        ${accessBadgeHtml(memorial)}
         <div class="map-popup-links">
           <a href="${directionsUrl(memorial)}" target="_blank" rel="noopener noreferrer">Directions</a>
-          <a href="person.html?id=${escapeHtml(person.id)}">Profile</a>
+          ${secondaryLink}
         </div>
       </div>
     </div>
@@ -1014,9 +1107,10 @@ function renderMapMarkers(entries) {
   markerClusterGroup.clearLayers();
   markersByKey.clear();
 
-  entries.forEach(({ person, memorial, key }) => {
-    const marker = L.marker([memorial.lat, memorial.lng]);
-    marker.bindPopup(mapPopupHtml(person, memorial));
+  entries.forEach(entry => {
+    const { memorial, key } = entry;
+    const marker = L.marker([memorial.lat, memorial.lng], { icon: memorialTypeIcon(memorial.type) });
+    marker.bindPopup(mapPopupHtml(entry));
     markerClusterGroup.addLayer(marker);
     markersByKey.set(key, marker);
   });
@@ -1027,16 +1121,16 @@ function renderMemorialListPage(entries) {
   if (!container) return;
 
   if (!entries.length) {
-    container.innerHTML = '<div class="no-results">No memorials match your current filters.</div>';
+    container.innerHTML = '<div class="no-results">No memorials or places match your current filters.</div>';
     return;
   }
 
   const byRegion = new Map();
   entries
     .slice()
-    .sort((a, b) => a.person.name.localeCompare(b.person.name))
+    .sort((a, b) => entryName(a).localeCompare(entryName(b)))
     .forEach(entry => {
-      const region = entry.person.region;
+      const region = entry.region;
       if (!byRegion.has(region)) byRegion.set(region, []);
       byRegion.get(region).push(entry);
     });
@@ -1044,19 +1138,21 @@ function renderMemorialListPage(entries) {
   const regions = Array.from(byRegion.keys()).sort();
 
   container.innerHTML = regions.map(region => {
-    const items = byRegion.get(region).map(({ person, memorial, key }) => {
-      const imgSrc = person.image ? `images/portraits/${escapeHtml(person.image.file)}` : '';
-      const initials = escapeHtml(getInitials(person.name));
-      const portrait = person.image
-        ? `<img class="map-list-portrait" src="${imgSrc}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;map-list-portrait-placeholder&quot;>${initials}</div>'">`
-        : `<div class="map-list-portrait-placeholder">${initials}</div>`;
+    const items = byRegion.get(region).map(entry => {
+      const { memorial, key } = entry;
+      const profileUrl = entryProfileUrl(entry);
+      const isPerson = entry.kind === 'person';
+      const portrait = entryThumbHtml(entry, 'map-list-portrait', 'map-list-portrait-placeholder');
+      const nameHtml = profileUrl
+        ? `<a href="${escapeHtml(profileUrl)}" ${isPerson ? '' : 'target="_blank" rel="noopener noreferrer"'}>${escapeHtml(entryName(entry))}</a>`
+        : escapeHtml(entryName(entry));
 
       return `
         <li class="map-list-item">
           ${portrait}
           <div>
-            <div class="map-list-name"><a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a></div>
-            <div class="map-list-meta">${escapeHtml(memorialTypeLabel(memorial.type))} &middot; ${escapeHtml(memorial.name)}</div>
+            <div class="map-list-name">${nameHtml}</div>
+            <div class="map-list-meta">${escapeHtml(memorialTypeLabel(memorial.type))} &middot; ${escapeHtml(memorial.name)} ${accessBadgeHtml(memorial)}</div>
             <div class="map-list-meta">${escapeHtml(memorial.address)}</div>
           </div>
           <div class="map-list-actions">
@@ -1090,8 +1186,22 @@ function updateMapResultsCount(count, total) {
   const el = document.getElementById('map-results-count');
   if (!el) return;
   el.textContent = count === total
-    ? `Showing all ${total} ${total === 1 ? 'memorial' : 'memorials'}`
-    : `Showing ${count} of ${total} ${total === 1 ? 'memorial' : 'memorials'}`;
+    ? `Showing all ${total} ${total === 1 ? 'location' : 'locations'}`
+    : `Showing ${count} of ${total} ${total === 1 ? 'location' : 'locations'}`;
+}
+
+function renderMapLegend() {
+  const el = document.getElementById('map-legend');
+  if (!el) return;
+  el.innerHTML = Object.keys(MEMORIAL_TYPE_LABELS).map(type => {
+    const style = memorialTypeStyle(type);
+    return `
+      <span class="map-legend__item">
+        <span class="map-legend__swatch" style="background:${style.color}">${style.code}</span>
+        ${escapeHtml(memorialTypeLabel(type))}
+      </span>
+    `;
+  }).join('');
 }
 
 function paginateEntries(entries, page, perPage) {
@@ -1129,7 +1239,7 @@ function renderMemorialPagination(page, totalPages) {
 }
 
 function applyMapFilters() {
-  const all = getAllMemorialEntries();
+  const all = getAllMapEntries();
   const filtered = filterMemorialEntries(all);
   renderMapMarkers(filtered);
 
@@ -1153,6 +1263,8 @@ function initMapPage() {
   markerClusterGroup = L.markerClusterGroup();
   leafletMap.addLayer(markerClusterGroup);
 
+  renderMapLegend();
+
   const params = new URLSearchParams(window.location.search);
   const personId = params.get('person');
   if (personId) {
@@ -1163,6 +1275,7 @@ function initMapPage() {
   const searchInput = document.getElementById('map-search-input');
   const regionSelect = document.getElementById('map-filter-region');
   const typeSelect = document.getElementById('map-filter-type');
+  const sourceSelect = document.getElementById('map-filter-source');
   const clearBtn = document.getElementById('map-clear-filters');
 
   if (searchInput) {
@@ -1187,15 +1300,24 @@ function initMapPage() {
       applyMapFilters();
     });
   }
+  if (sourceSelect) {
+    sourceSelect.addEventListener('change', () => {
+      mapState.source = sourceSelect.value;
+      mapState.page = 1;
+      applyMapFilters();
+    });
+  }
   if (clearBtn) {
     clearBtn.addEventListener('click', () => {
       mapState.search = '';
       mapState.region = '';
       mapState.type = '';
+      mapState.source = '';
       mapState.page = 1;
       if (searchInput) searchInput.value = '';
       if (regionSelect) regionSelect.value = '';
       if (typeSelect) typeSelect.value = '';
+      if (sourceSelect) sourceSelect.value = '';
       applyMapFilters();
       leafletMap.setView([25, 10], 2);
     });
@@ -1278,7 +1400,7 @@ function buildTourRoute({ center, radiusKm, transport, budgetMinutes }) {
   const dwell = TRANSPORT_DWELL_MIN[transport];
   const overhead = TRANSPORT_STOP_OVERHEAD_MIN[transport];
 
-  const candidates = getAllMemorialEntries()
+  const candidates = getAllMapEntries()
     .filter(({ memorial }) => typeof memorial.lat === 'number' && typeof memorial.lng === 'number')
     .map(entry => ({ ...entry, distFromCenter: haversineKm(center.lat, center.lng, entry.memorial.lat, entry.memorial.lng) }))
     .filter(entry => entry.distFromCenter <= radiusKm);
@@ -1361,16 +1483,22 @@ function drawTourOnMap() {
 
   const latlngs = [[center.lat, center.lng]];
   route.stops.forEach((stop, i) => {
-    const { person, memorial } = stop;
+    const { memorial } = stop;
+    const profileUrl = entryProfileUrl(stop);
+    const isPerson = stop.kind === 'person';
+    const nameHtml = profileUrl
+      ? `<a href="${escapeHtml(profileUrl)}" ${isPerson ? '' : 'target="_blank" rel="noopener noreferrer"'}>${escapeHtml(entryName(stop))}</a>`
+      : escapeHtml(entryName(stop));
     latlngs.push([memorial.lat, memorial.lng]);
     const marker = L.marker([memorial.lat, memorial.lng], { icon: numberedTourIcon(i + 1) });
     marker.bindPopup(`
       <div class="map-popup">
         <div class="map-popup-body">
           <div class="map-popup-type">Stop ${i + 1} &middot; arrive ~${formatClock(tourState.startMinutes + stop.arrivalMinutes)}</div>
-          <h3 class="map-popup-name"><a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a></h3>
+          <h3 class="map-popup-name">${nameHtml}</h3>
           <div class="map-popup-memorial-name">${escapeHtml(memorial.name)}</div>
           <div class="map-popup-address">${escapeHtml(memorial.address)}</div>
+          ${accessBadgeHtml(memorial)}
         </div>
       </div>
     `);
@@ -1405,12 +1533,13 @@ function renderTourResults() {
     `~${route.totalKm.toFixed(1)} km &middot; ${startClock} &rarr; ~${finishClock}`;
 
   listEl.innerHTML = route.stops.map((stop, i) => {
-    const { person, memorial } = stop;
-    const imgSrc = person.image ? `images/portraits/${escapeHtml(person.image.file)}` : '';
-    const initials = escapeHtml(getInitials(person.name));
-    const portrait = person.image
-      ? `<img class="map-list-portrait" src="${imgSrc}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;map-list-portrait-placeholder&quot;>${initials}</div>'">`
-      : `<div class="map-list-portrait-placeholder">${initials}</div>`;
+    const { memorial } = stop;
+    const portrait = entryThumbHtml(stop, 'map-list-portrait', 'map-list-portrait-placeholder');
+    const profileUrl = entryProfileUrl(stop);
+    const isPerson = stop.kind === 'person';
+    const nameHtml = profileUrl
+      ? `<a href="${escapeHtml(profileUrl)}" ${isPerson ? '' : 'target="_blank" rel="noopener noreferrer"'}>${escapeHtml(entryName(stop))}</a>`
+      : escapeHtml(entryName(stop));
     const arrival = formatClock(startMinutes + stop.arrivalMinutes);
 
     return `
@@ -1418,8 +1547,8 @@ function renderTourResults() {
         <span class="tour-stop-number">${i + 1}</span>
         ${portrait}
         <div>
-          <div class="map-list-name"><a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a></div>
-          <div class="map-list-meta">${escapeHtml(memorialTypeLabel(memorial.type))} &middot; ${escapeHtml(memorial.name)}</div>
+          <div class="map-list-name">${nameHtml}</div>
+          <div class="map-list-meta">${escapeHtml(memorialTypeLabel(memorial.type))} &middot; ${escapeHtml(memorial.name)} ${accessBadgeHtml(memorial)}</div>
           <div class="map-list-meta">${escapeHtml(memorial.address)}</div>
           <div class="tour-stop-timing">Arrive ~${arrival} &middot; ${stop.legKm.toFixed(1)} km from previous stop</div>
         </div>
@@ -1439,13 +1568,21 @@ function buildTourPromptText() {
   const lines = [];
   lines.push(`I'm planning a Christian heritage tour ${transportLabel} near ${centerLabel}, starting at ${formatClock(startMinutes)} for about ${durationHours} hour${durationHours === 1 ? '' : 's'}, within roughly ${radiusKm} km.`);
   lines.push('');
-  lines.push('Here are the memorials, in a suggested visiting order (nearest-neighbour route). Please suggest a refined order if there is a better one, a short narrative connecting each stop to their faith and legacy, and any practical notes (opening hours to check, etc.):');
+  lines.push('Here are the stops, in a suggested visiting order (nearest-neighbour route) — a mix of memorials to specific people and general places of Christian interest. Please suggest a refined order if there is a better one, a short narrative connecting each stop to its history and significance, and any practical notes (opening hours to check, appointment-only archives, etc.):');
   lines.push('');
   route.stops.forEach((stop, i) => {
-    const { person, memorial } = stop;
-    lines.push(`${i + 1}. ${memorial.name} (${memorialTypeLabel(memorial.type)}) — ${person.name} (${formatYears(person)}) — ${memorial.address}`);
-    const bio = person.source_summary ? truncateSummary(person.source_summary, 140) : `${person.nationality} ${person.tradition}.`;
-    lines.push(`   ${bio}`);
+    const { memorial } = stop;
+    const accessNote = memorial.open_to_public === false ? ' [by appointment — not casual walk-in]' : '';
+    if (stop.kind === 'person') {
+      const person = stop.person;
+      lines.push(`${i + 1}. ${memorial.name} (${memorialTypeLabel(memorial.type)}) — ${person.name} (${formatYears(person)}) — ${memorial.address}${accessNote}`);
+      const bio = person.source_summary ? truncateSummary(person.source_summary, 140) : `${person.nationality} ${person.tradition}.`;
+      lines.push(`   ${bio}`);
+    } else {
+      const place = stop.place;
+      lines.push(`${i + 1}. ${place.name} (${memorialTypeLabel(memorial.type)}) — ${memorial.address}${accessNote}`);
+      if (place.description) lines.push(`   ${truncateSummary(place.description, 140)}`);
+    }
   });
   lines.push('');
   lines.push(`Starting point: ${centerLabel}`);
@@ -1480,13 +1617,13 @@ function generateTour() {
   tourState.route = route;
 
   if (!route.stops.length) {
-    setTourStatus(`No memorials found within ${tourState.radiusKm} km of ${tourState.centerLabel}. Try a larger radius.`, true);
+    setTourStatus(`No memorials or places found within ${tourState.radiusKm} km of ${tourState.centerLabel}. Try a larger radius.`, true);
     renderTourResults();
     drawTourOnMap();
     return;
   }
 
-  setTourStatus(`Found ${route.stops.length} ${route.stops.length === 1 ? 'memorial' : 'memorials'} near ${tourState.centerLabel}.`);
+  setTourStatus(`Found ${route.stops.length} ${route.stops.length === 1 ? 'stop' : 'stops'} near ${tourState.centerLabel}.`);
   renderTourResults();
   drawTourOnMap();
 }
@@ -1572,13 +1709,17 @@ function initTourPlanner() {
 // ============================================================
 
 document.addEventListener('DOMContentLoaded', async () => {
+  if (document.getElementById('memorial-map')) {
+    await Promise.all([loadPeople(), loadPlaces()]);
+    initMapPage();
+    return;
+  }
+
   await loadPeople();
 
   if (document.getElementById('person-grid')) {
     initIndexPage();
   } else if (document.getElementById('person-content')) {
     initPersonPage();
-  } else if (document.getElementById('memorial-map')) {
-    initMapPage();
   }
 });
