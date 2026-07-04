@@ -1221,12 +1221,15 @@ main {
   height: 20px;
   border-radius: 50%;
   color: #fff;
-  font-size: 0.55rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
   border: 2px solid #fff;
   box-shadow: var(--shadow);
   flex-shrink: 0;
+}
+
+.map-legend__swatch svg,
+.memorial-pin svg,
+.place-thumb svg {
+  display: block;
 }
 
 /* --- Custom marker pins (map + tour) ---------------------------- */
@@ -1239,10 +1242,6 @@ main {
   border-radius: 50% 50% 50% 0;
   transform: rotate(-45deg);
   color: #fff;
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   border: 2px solid #fff;
   box-shadow: var(--shadow-md);
 }
@@ -1252,10 +1251,6 @@ main {
 }
 
 .map-list-portrait-placeholder.place-thumb {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 0.68rem;
-  letter-spacing: 0.02em;
   color: #fff;
   background: none;
 }

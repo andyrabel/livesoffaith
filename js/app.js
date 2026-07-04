@@ -147,32 +147,53 @@ function memorialTypeLabel(type) {
   return MEMORIAL_TYPE_LABELS[type] || 'Memorial';
 }
 
-// Marker styling per memorial/place type — a two-letter code plus a
-// distinct colour so pins are visually distinguishable at a glance and
-// in the legend, independent of the text label (which may be truncated
-// in small UI elements).
+// Marker styling per memorial/place type — a distinct colour plus a
+// Lucide (lucide.dev, ISC-licensed) icon so pins are visually
+// distinguishable at a glance and in the legend, independent of any
+// text label (which may be truncated in small UI elements).
 const MEMORIAL_TYPE_STYLES = {
-  gravestone: { code: 'GR', color: '#5b6470' },
-  statue:     { code: 'ST', color: '#8a7b6c' },
-  plaque:     { code: 'PL', color: '#1c3d5a' },
-  monument:   { code: 'MN', color: '#7c4012' },
-  window:     { code: 'WN', color: '#2b7a8b' },
-  church:     { code: 'CH', color: '#5b3a8c' },
-  museum:     { code: 'MU', color: '#a8832a' },
-  library:    { code: 'LB', color: '#1f5c3a' },
-  archive:    { code: 'AR', color: '#9c2b2b' },
-  other:      { code: 'OT', color: '#6b6360' },
+  gravestone: { color: '#5b6470' },
+  statue:     { color: '#8a7b6c' },
+  plaque:     { color: '#1c3d5a' },
+  monument:   { color: '#7c4012' },
+  window:     { color: '#2b7a8b' },
+  church:     { color: '#5b3a8c' },
+  museum:     { color: '#a8832a' },
+  library:    { color: '#1f5c3a' },
+  archive:    { color: '#9c2b2b' },
+  other:      { color: '#6b6360' },
+};
+
+// Inner markup (no outer <svg>) of Lucide icons, one per memorial/place
+// type — cross for a grave marker, a standing figure for a statue, an
+// inscribed scroll for a plaque, an obelisk for a monument, and so on.
+const MEMORIAL_TYPE_ICON_PATHS = {
+  gravestone: '<path d="M4 9a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h4a1 1 0 0 1 1 1v4a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-4a1 1 0 0 1 1-1h4a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-4a1 1 0 0 1-1-1V4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4a1 1 0 0 1-1 1z"/>',
+  statue: '<circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/>',
+  plaque: '<path d="M15 12h-5"/><path d="M15 8h-5"/><path d="M19 17V5a2 2 0 0 0-2-2H4"/><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"/>',
+  monument: '<path d="M2.5 16.88a1 1 0 0 1-.32-1.43l9-13.02a1 1 0 0 1 1.64 0l9 13.01a1 1 0 0 1-.32 1.44l-8.51 4.86a2 2 0 0 1-1.98 0Z"/><path d="M12 2v20"/>',
+  window: '<rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 4v4"/><path d="M2 8h20"/><path d="M6 4v4"/>',
+  church: '<path d="M10 9h4"/><path d="M12 7v5"/><path d="M14 21v-3a2 2 0 0 0-4 0v3"/><path d="m18 9 3.52 2.147a1 1 0 0 1 .48.854V19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-6.999a1 1 0 0 1 .48-.854L6 9"/><path d="M6 21V7a1 1 0 0 1 .376-.782l5-3.999a1 1 0 0 1 1.249.001l5 4A1 1 0 0 1 18 7v14"/>',
+  museum: '<path d="M10 18v-7"/><path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M3 22h18"/><path d="M6 18v-7"/>',
+  library: '<path d="m16 6 4 14"/><path d="M12 6v14"/><path d="M8 8v12"/><path d="M4 4v16"/>',
+  archive: '<rect width="20" height="5" x="2" y="3" rx="1"/><path d="M4 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8"/><path d="M10 12h4"/>',
+  other: '<path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/>',
 };
 
 function memorialTypeStyle(type) {
   return MEMORIAL_TYPE_STYLES[type] || MEMORIAL_TYPE_STYLES.other;
 }
 
+function memorialTypeIconSvg(type, size) {
+  const paths = MEMORIAL_TYPE_ICON_PATHS[type] || MEMORIAL_TYPE_ICON_PATHS.other;
+  return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths}</svg>`;
+}
+
 function memorialTypeIcon(type) {
   const style = memorialTypeStyle(type);
   return L.divIcon({
     className: 'memorial-marker-icon',
-    html: `<span class="memorial-pin" style="background:${style.color}"><span>${style.code}</span></span>`,
+    html: `<span class="memorial-pin" style="background:${style.color}"><span>${memorialTypeIconSvg(type, 15)}</span></span>`,
     iconSize: [28, 28],
     iconAnchor: [14, 28],
     popupAnchor: [0, -26],
@@ -1038,7 +1059,7 @@ function entryThumbHtml(entry, imgClass, placeholderClass) {
     return `<div class="${placeholderClass}">${initials}</div>`;
   }
   const style = memorialTypeStyle(entry.memorial.type);
-  return `<div class="${placeholderClass} place-thumb" style="background:${style.color}">${style.code}</div>`;
+  return `<div class="${placeholderClass} place-thumb" style="background:${style.color}">${memorialTypeIconSvg(entry.memorial.type, 20)}</div>`;
 }
 
 function getAllMapEntries() {
@@ -1197,7 +1218,7 @@ function renderMapLegend() {
     const style = memorialTypeStyle(type);
     return `
       <span class="map-legend__item">
-        <span class="map-legend__swatch" style="background:${style.color}">${style.code}</span>
+        <span class="map-legend__swatch" style="background:${style.color}">${memorialTypeIconSvg(type, 13)}</span>
         ${escapeHtml(memorialTypeLabel(type))}
       </span>
     `;
