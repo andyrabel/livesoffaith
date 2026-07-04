@@ -1433,10 +1433,10 @@
     "memorials": [
       {
         "type": "gravestone",
-        "name": "Jim Elliot and companions — burial site, Palm Beach, Curaray River",
+        "name": "Jim Elliot and companions — martyrdom and burial site, Palm Beach, Curaray River",
         "address": "Palm Beach sandbar, Curaray River, Cantón Arajuno, Pastaza Province, Ecuador",
-        "lat": -1.6333,
-        "lng": -77.0833
+        "lat": -1.3906639,
+        "lng": -76.9059105
       },
       {
         "type": "archive",
@@ -4555,6 +4555,13 @@
         "lng": 12.6373
       },
       {
+        "type": "monument",
+        "name": "Theses Door (Thesentür) — All Saints' Church (Schlosskirche), Wittenberg — bronze doors cast 1858 inscribed with the 95 Theses, marking where Luther posted them in 1517",
+        "address": "Schlossplatz 1, 06886 Lutherstadt Wittenberg, Germany",
+        "lat": 51.8664,
+        "lng": 12.6373
+      },
+      {
         "type": "statue",
         "name": "Luther Monument — Marktplatz, Wittenberg",
         "address": "Marktplatz, 06886 Lutherstadt Wittenberg, Germany",
@@ -5520,6 +5527,14 @@
         "address": "Gedächtnisallee 5, 92696 Flossenbürg, Bavaria, Germany",
         "lat": 49.7347,
         "lng": 12.3535
+      },
+      {
+        "type": "museum",
+        "name": "German Resistance Memorial Center (Gedenkstätte Deutscher Widerstand) — permanent exhibition on Christian and church resistance, Bendlerblock, Berlin",
+        "address": "Stauffenbergstraße 13–14, 10785 Berlin, Germany",
+        "lat": 52.5069,
+        "lng": 13.3614,
+        "open_to_public": true
       },
       {
         "type": "monument",
