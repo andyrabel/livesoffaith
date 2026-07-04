@@ -173,6 +173,13 @@
         "address": "Lombard Street, City of London, EC3V 9AN, England",
         "lat": 51.5126,
         "lng": -0.0878
+      },
+      {
+        "type": "museum",
+        "name": "Papers of John Newton — Cowper & Newton Museum",
+        "address": "Orchard Side, Market Place, Olney, Buckinghamshire MK46 4AJ, England",
+        "lat": 52.1539,
+        "lng": -0.7016
       }
     ]
   },
@@ -346,6 +353,13 @@
         "address": "17 St Cuthberts Street, Bedford, Bedfordshire MK40 3JE, England",
         "lat": 52.138,
         "lng": -0.4628
+      },
+      {
+        "type": "museum",
+        "name": "John Bunyan Museum — Bunyan Meeting Free Church",
+        "address": "Mill Street, Bedford, Bedfordshire MK40 3EU, England",
+        "lat": 52.1364,
+        "lng": -0.4676
       }
     ]
   },
@@ -551,6 +565,13 @@
         "address": "1 Wheatley Street, Marylebone, London W1G 8PS, England",
         "lat": 51.5196,
         "lng": -0.1503
+      },
+      {
+        "type": "museum",
+        "name": "Charles Wesley Papers — Methodist Archives and Research Centre, John Rylands Library",
+        "address": "150 Deansgate, Manchester M3 3EH, England",
+        "lat": 53.4803,
+        "lng": -2.2487
       }
     ]
   },
@@ -627,6 +648,13 @@
         "address": "St Nicholas Church, Church Street, East Dereham, Norfolk, NR19 1DN, England",
         "lat": 52.6811,
         "lng": 0.9393
+      },
+      {
+        "type": "museum",
+        "name": "Cowper Johnson Archive — papers and personal possessions of William Cowper, Cowper & Newton Museum",
+        "address": "Orchard Side, Market Place, Olney, Buckinghamshire MK46 4AJ, England",
+        "lat": 52.1539,
+        "lng": -0.7016
       }
     ]
   },
@@ -956,6 +984,13 @@
         "address": "Bunhill Fields Burial Ground, 38 City Road, London, EC1Y 2BG, England",
         "lat": 51.5237,
         "lng": -0.0888
+      },
+      {
+        "type": "museum",
+        "name": "Susanna Wesley letters, within the Wesley Family Papers — John Rylands Research Institute and Library, Manchester",
+        "address": "150 Deansgate, Manchester M3 3EH, England",
+        "lat": 53.4803,
+        "lng": -2.2487
       }
     ]
   },
@@ -1029,6 +1064,13 @@
         "address": "De Crypt School, off Southgate Street, Gloucester, GL1 1TP, England",
         "lat": 51.8659,
         "lng": -2.2441
+      },
+      {
+        "type": "museum",
+        "name": "The George Whitefield Manuscript Collection — Princeton Theological Seminary",
+        "address": "Wright Library, Princeton Theological Seminary, 25 Library Place, Princeton, NJ 08540, USA",
+        "lat": 40.3488,
+        "lng": -74.6614
       }
     ]
   },
@@ -1126,6 +1168,20 @@
         "address": "111 Broomwood Road, Battersea, London SW11 6JT, England",
         "lat": 51.4543,
         "lng": -0.1601
+      },
+      {
+        "type": "museum",
+        "name": "Archive of William Wilberforce — Bodleian Archives & Manuscripts, Weston Library, Oxford",
+        "address": "Broad St, Oxford OX1 3BG, England",
+        "lat": 51.7546,
+        "lng": -1.254
+      },
+      {
+        "type": "museum",
+        "name": "William Wilberforce Papers, 1782-1837 — David M. Rubenstein Rare Book & Manuscript Library, Duke University",
+        "address": "411 Chapel Drive, Durham, NC 27708, USA",
+        "lat": 36.0017,
+        "lng": -78.9384
       }
     ]
   },
@@ -1294,6 +1350,13 @@
         "address": "The Kilns, Lewis Close, Headington Quarry, Oxford OX3 8HN, England",
         "lat": 51.7598,
         "lng": -1.1981
+      },
+      {
+        "type": "museum",
+        "name": "C. S. Lewis letters and manuscripts — Marion E. Wade Center, Wheaton College",
+        "address": "351 E Lincoln Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8705,
+        "lng": -88.1009
       }
     ]
   },
@@ -1361,6 +1424,13 @@
         "address": "Palm Beach sandbar, Curaray River, Cantón Arajuno, Pastaza Province, Ecuador",
         "lat": -1.6333,
         "lng": -77.0833
+      },
+      {
+        "type": "museum",
+        "name": "Papers of Jim Elliot — Wheaton College Archives & Special Collections",
+        "address": "501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067
       }
     ]
   },
@@ -1453,6 +1523,13 @@
         "address": "21 Cheapside, Barnsley, South Yorkshire, England",
         "lat": 53.5541,
         "lng": -1.4828
+      },
+      {
+        "type": "museum",
+        "name": "Hudson Taylor papers — SOAS Library, University of London (China Inland Mission Archive)",
+        "address": "Thornhaugh Street, Russell Square, London WC1H 0XG, England",
+        "lat": 51.5221,
+        "lng": -0.1291
       }
     ]
   },
@@ -1533,6 +1610,13 @@
         "address": "David Livingstone Birthplace Museum, 165 Station Road, Blantyre, South Lanarkshire, G72 9BY, Scotland",
         "lat": 55.7907,
         "lng": -4.0851
+      },
+      {
+        "type": "museum",
+        "name": "Papers of David Livingstone — National Library of Scotland",
+        "address": "National Library of Scotland, George IV Bridge, Edinburgh EH1 1EW, Scotland",
+        "lat": 55.9483,
+        "lng": -3.1925
       }
     ]
   },
@@ -1689,6 +1773,13 @@
         "address": "Near Liucuo Village, Xiuyu District, Putian, Fujian Province, China",
         "lat": 25.1833,
         "lng": 119.0833
+      },
+      {
+        "type": "museum",
+        "name": "John Sung Papers — Yale Divinity Library",
+        "address": "409 Prospect St, New Haven, CT 06511, USA",
+        "lat": 41.3249,
+        "lng": -72.9236
       }
     ]
   },
@@ -1831,7 +1922,15 @@
       "reviewed_by": "",
       "reviewed_date": ""
     },
-    "memorials": []
+    "memorials": [
+      {
+        "type": "museum",
+        "name": "Sadhu Sundar Singh papers — SOAS Library Archives & Special Collections, University of London (Council for World Mission Archive)",
+        "address": "Thornhaugh Street, Russell Square, London WC1H 0XG, England",
+        "lat": 51.5221,
+        "lng": -0.1291
+      }
+    ]
   },
   {
     "id": "william-tyndale",
@@ -2011,6 +2110,13 @@
         "address": "Lutherplatz, 78462 Konstanz, Baden-Württemberg, Germany",
         "lat": 47.6614,
         "lng": 9.172
+      },
+      {
+        "type": "museum",
+        "name": "Hus-Haus — house where Jan Hus lodged before his trial and execution, Konstanz",
+        "address": "Hussenstraße 64, 78462 Konstanz, Baden-Württemberg, Germany",
+        "lat": 47.6605,
+        "lng": 9.1775
       }
     ]
   },
@@ -2172,6 +2278,13 @@
         "address": "34 West Street, Moulton, Northampton, NN3 7SB, England",
         "lat": 52.283,
         "lng": -0.8393
+      },
+      {
+        "type": "museum",
+        "name": "William Carey letters and papers — Angus Library and Archive, Regent's Park College, Oxford",
+        "address": "Pusey St, Oxford OX1 2LB, England",
+        "lat": 51.7563,
+        "lng": -1.2592
       }
     ]
   },
@@ -2247,6 +2360,13 @@
         "address": "Chemin Mohamed Gacem, Sidi M'Hamed, Algiers 16000, Algeria",
         "lat": 36.7483,
         "lng": 3.0594
+      },
+      {
+        "type": "museum",
+        "name": "Lilias Trotter Papers — Wheaton College Archives & Special Collections",
+        "address": "501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067
       }
     ]
   },
@@ -2406,6 +2526,13 @@
         "address": "Westminster Abbey, 20 Deans Yard, London SW1P 3PA, England",
         "lat": 51.4994,
         "lng": -0.1273
+      },
+      {
+        "type": "museum",
+        "name": "Shaftesbury Papers — Broadlands Archives, University of Southampton (Hartley Library)",
+        "address": "Hartley Library, University of Southampton, Highfield, Southampton SO17 1BJ, England",
+        "lat": 50.9354,
+        "lng": -1.3956
       }
     ]
   },
@@ -2480,6 +2607,13 @@
         "address": "Lismore Castle, Lismore, County Waterford, Ireland",
         "lat": 52.139,
         "lng": -7.933
+      },
+      {
+        "type": "museum",
+        "name": "Papers of Robert Boyle — Royal Society Library and Archives",
+        "address": "6-9 Carlton House Terrace, London SW1Y 5AG, England",
+        "lat": 51.5079,
+        "lng": -0.1313
       }
     ]
   },
@@ -2560,6 +2694,13 @@
         "address": "Parker Avenue, Northfield, Franklin County, MA 01360, USA",
         "lat": 42.6947,
         "lng": -72.4611
+      },
+      {
+        "type": "museum",
+        "name": "D. W. Whittle Papers — Library of Congress Manuscript Division",
+        "address": "101 Independence Ave SE, Washington, DC 20540, USA",
+        "lat": 38.8887,
+        "lng": -77.0047
       }
     ]
   },
@@ -2876,6 +3017,13 @@
         "address": "Barteljorisstraat 19, 2011 RD Haarlem, Netherlands",
         "lat": 52.3804,
         "lng": 4.6346
+      },
+      {
+        "type": "museum",
+        "name": "Corrie ten Boom Papers — Wheaton College Archives & Special Collections (Billy Graham Center Archives)",
+        "address": "501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067
       }
     ]
   },
@@ -2957,6 +3105,13 @@
         "address": "Old College, South Bridge, Edinburgh EH8 9YL, Scotland",
         "lat": 55.9418,
         "lng": -3.1856
+      },
+      {
+        "type": "museum",
+        "name": "Eric Liddell papers — SOAS Library, University of London (Council for World Mission Archive)",
+        "address": "Thornhaugh Street, Russell Square, London WC1H 0XG, England",
+        "lat": 51.5221,
+        "lng": -0.1291
       }
     ]
   },
@@ -3024,6 +3179,13 @@
         "address": "623 Bay Road, Hamilton, MA 01936, USA",
         "lat": 42.6199,
         "lng": -70.8471
+      },
+      {
+        "type": "museum",
+        "name": "Papers of Elisabeth Elliot — Wheaton College Archives & Special Collections (Billy Graham Center Archives)",
+        "address": "501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067
       }
     ]
   },
@@ -3245,6 +3407,13 @@
         "address": "Steeple Church, Nethergate, Dundee DD1 4DG, Scotland",
         "lat": 56.4594,
         "lng": -2.973
+      },
+      {
+        "type": "museum",
+        "name": "Papers of and relating to Mary Slessor — National Library of Scotland",
+        "address": "National Library of Scotland, George IV Bridge, Edinburgh EH1 1EW, Scotland",
+        "lat": 55.9483,
+        "lng": -3.1925
       }
     ]
   },
@@ -3339,6 +3508,13 @@
         "address": "55 Washington Square South, New York, New York 10012, USA",
         "lat": 40.7295,
         "lng": -73.9998
+      },
+      {
+        "type": "museum",
+        "name": "Papers of Adoniram Judson — American Baptist Historical Society",
+        "address": "2930 Flowers Rd South, Suite 150, Atlanta, GA 30341, USA",
+        "lat": 33.9026,
+        "lng": -84.3419
       }
     ]
   },
@@ -3416,6 +3592,13 @@
         "address": "Mount Zion Cemetery, Maale HaShalom, Mount Zion, Jerusalem 9108402, Israel",
         "lat": 31.7704,
         "lng": 35.2281
+      },
+      {
+        "type": "museum",
+        "name": "Diary and papers of Horatio Gates Spafford — American Colony in Jerusalem Collection, Library of Congress Manuscript Division",
+        "address": "101 Independence Ave SE, Washington, DC 20540, USA",
+        "lat": 38.8887,
+        "lng": -77.0047
       }
     ]
   },
@@ -3544,6 +3727,13 @@
         "address": "Busveal, Redruth, Cornwall TR16 5HQ, England",
         "lat": 50.2193,
         "lng": -5.1769
+      },
+      {
+        "type": "museum",
+        "name": "Wesley Family Papers — Methodist Archives and Research Centre, John Rylands Library",
+        "address": "150 Deansgate, Manchester M3 3EH, England",
+        "lat": 53.4803,
+        "lng": -2.2487
       }
     ]
   },
@@ -3689,6 +3879,13 @@
         "address": "Grosvenor Street, Chester, CH1 2NX, England",
         "lat": 53.1868,
         "lng": -2.8934
+      },
+      {
+        "type": "museum",
+        "name": "Letters and sermon notes of Philip and Matthew Henry — Dr Williams's Library collection, now held at the John Rylands Research Institute and Library, Manchester",
+        "address": "150 Deansgate, Manchester M3 3EH, England",
+        "lat": 53.4803,
+        "lng": -2.2487
       }
     ]
   },
@@ -3790,6 +3987,13 @@
         "address": "99 Nightingale Lane, Balham, London SW12 8LZ, England",
         "lat": 51.4499,
         "lng": -0.1582
+      },
+      {
+        "type": "museum",
+        "name": "Charles Spurgeon Heritage Collection (The Spurgeon Library) — Midwestern Baptist Theological Seminary",
+        "address": "5001 N Oak Trafficway, Kansas City, MO 64118, USA",
+        "lat": 39.1552,
+        "lng": -94.5688
       }
     ]
   },
@@ -3869,6 +4073,13 @@
         "address": "Bridge Street Cemetery, 156 Bridge Street, Northampton, MA 01060, USA",
         "lat": 42.3249,
         "lng": -72.6267
+      },
+      {
+        "type": "museum",
+        "name": "David Brainerd manuscript material — Beinecke Rare Book & Manuscript Library, Yale University (within the Jonathan Edwards Collection)",
+        "address": "121 Wall St, New Haven, CT 06511, USA",
+        "lat": 41.3111,
+        "lng": -72.9279
       }
     ],
     "related_people": [
@@ -3954,6 +4165,13 @@
         "address": "67 Cheddington Road, Edmonton, London N18 2EA, England",
         "lat": 51.6168,
         "lng": -0.083
+      },
+      {
+        "type": "museum",
+        "name": "Papers of Gladys Aylward — SOAS Library, University of London",
+        "address": "Thornhaugh Street, Russell Square, London WC1H 0XG, England",
+        "lat": 51.5221,
+        "lng": -0.1291
       }
     ]
   },
@@ -4211,6 +4429,13 @@
         "address": "Champion Park, Denmark Hill, London SE5 8BQ, England",
         "lat": 51.466,
         "lng": -0.092
+      },
+      {
+        "type": "museum",
+        "name": "Salvation Army International Heritage Centre — William Booth College",
+        "address": "William Booth College, Champion Park, London SE5 8BQ, England",
+        "lat": 51.466,
+        "lng": -0.092
       }
     ]
   },
@@ -4302,6 +4527,20 @@
         "address": "Kirchplatz 20, 06886 Lutherstadt Wittenberg, Germany",
         "lat": 51.8663,
         "lng": 12.6465
+      },
+      {
+        "type": "museum",
+        "name": "Lutherhaus (Luther House) — Luther's home 1508–1546 and the world's largest Reformation history museum",
+        "address": "Collegienstraße 54, 06886 Lutherstadt Wittenberg, Germany",
+        "lat": 51.8643,
+        "lng": 12.6524
+      },
+      {
+        "type": "museum",
+        "name": "Wartburg Castle — where Luther translated the New Testament into German, 1521–1522",
+        "address": "Auf der Wartburg 1, 99817 Eisenach, Thuringia, Germany",
+        "lat": 50.9671,
+        "lng": 10.3038
       }
     ],
     "related_people": [
@@ -4399,6 +4638,13 @@
         "address": "Cour de Saint-Pierre 8, 1204 Geneva, Switzerland",
         "lat": 46.2011,
         "lng": 6.1486
+      },
+      {
+        "type": "museum",
+        "name": "Manuscripts and autograph sermons of Jean Calvin — Bibliothèque de Genève",
+        "address": "Promenade des Bastions, 1204 Geneva, Switzerland",
+        "lat": 46.2002,
+        "lng": 6.1489
       }
     ]
   },
@@ -4625,6 +4871,13 @@
         "address": "Wimborne Road, Bournemouth, Dorset BH3 7AB, England",
         "lat": 50.73229,
         "lng": -1.87403
+      },
+      {
+        "type": "museum",
+        "name": "Papers of John Nelson Darby — Christian Brethren Archive, John Rylands Library",
+        "address": "150 Deansgate, Manchester M3 3EH, England",
+        "lat": 53.4803,
+        "lng": -2.2487
       }
     ],
     "related_people": [
@@ -4711,6 +4964,13 @@
         "address": "4 St Peter Street, Dundee, DD1 4JJ, Scotland",
         "lat": 56.4562,
         "lng": -2.9904
+      },
+      {
+        "type": "museum",
+        "name": "Papers of Robert Murray M'Cheyne — New College Library Special Collections, University of Edinburgh",
+        "address": "New College, Mound Place, Edinburgh EH1 2LX, Scotland",
+        "lat": 55.9497,
+        "lng": -3.1957
       }
     ]
   },
@@ -4882,6 +5142,13 @@
         "address": "Pandita Ramabai Mukti Mission, Kedgaon, Daund, Pune District, Maharashtra 412203, India",
         "lat": 18.4786,
         "lng": 74.3775
+      },
+      {
+        "type": "museum",
+        "name": "Pandita Ramabai Papers — Yale Divinity Library Special Collections",
+        "address": "409 Prospect St, New Haven, CT 06511, USA",
+        "lat": 41.3249,
+        "lng": -72.9236
       }
     ]
   },
@@ -5035,6 +5302,13 @@
         "address": "Jinghu District, Wuhu City, Anhui Province, China",
         "lat": 31.3373,
         "lng": 118.3735
+      },
+      {
+        "type": "museum",
+        "name": "Stam Family Papers — Wheaton College Archives & Special Collections",
+        "address": "501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067
       }
     ],
     "related_people": [
@@ -5112,6 +5386,13 @@
         "address": "Jinghu District, Wuhu City, Anhui Province, China",
         "lat": 31.3373,
         "lng": 118.3735
+      },
+      {
+        "type": "museum",
+        "name": "Stam Family Collection (John and Betty Stam papers) — Wheaton College Archives & Special Collections",
+        "address": "501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067
       }
     ],
     "related_people": [
@@ -5205,6 +5486,13 @@
         "address": "Zionskirchplatz, 10119 Berlin, Germany",
         "lat": 52.5346,
         "lng": 13.4038
+      },
+      {
+        "type": "museum",
+        "name": "Dietrich Bonhoeffer Manuscript Collection — Burke Library, Union Theological Seminary",
+        "address": "3041 Broadway, New York, NY 10027, USA",
+        "lat": 40.8109,
+        "lng": -73.9626
       }
     ]
   },
@@ -5367,6 +5655,13 @@
         "address": "1635 North LaSalle Drive, Chicago, Illinois 60614, USA",
         "lat": 41.9115,
         "lng": -87.6329
+      },
+      {
+        "type": "museum",
+        "name": "Dwight L. Moody Papers — Yale Divinity School Library",
+        "address": "409 Prospect St, New Haven, CT 06511, USA",
+        "lat": 41.3249,
+        "lng": -72.9236
       }
     ]
   },
@@ -5505,6 +5800,13 @@
         "address": "163-06 46th Avenue, Flushing, Queens, New York 11358, USA",
         "lat": 40.7522,
         "lng": -73.7994
+      },
+      {
+        "type": "museum",
+        "name": "James Strong Papers — Drew University Archives & Special Collections",
+        "address": "36 Madison Ave, Madison, NJ 07940, USA",
+        "lat": 40.759,
+        "lng": -74.4265
       }
     ]
   },
@@ -6086,6 +6388,13 @@
         "address": "United States Capitol, Washington, D.C., USA",
         "lat": 38.88981,
         "lng": -77.00902
+      },
+      {
+        "type": "museum",
+        "name": "Papers of Billy Graham — Wheaton College Archives & Special Collections (Billy Graham Center Archives)",
+        "address": "501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067
       }
     ]
   },
@@ -6269,6 +6578,13 @@
         "address": "Enfield Street (Route 5) near Post Office Road, grounds of Enfield Montessori School, Enfield, Connecticut 06082, USA",
         "lat": 41.9895,
         "lng": -72.5779
+      },
+      {
+        "type": "museum",
+        "name": "Jonathan Edwards Collection — Beinecke Rare Book & Manuscript Library, Yale University",
+        "address": "121 Wall St, New Haven, CT 06511, USA",
+        "lat": 41.3111,
+        "lng": -72.9279
       }
     ],
     "related_people": [
@@ -6342,6 +6658,13 @@
         "address": "Boroondara General Cemetery, corner of High Street and Park Hill Road, Kew, Victoria 3101, Australia",
         "lat": -37.8031,
         "lng": 145.0444
+      },
+      {
+        "type": "museum",
+        "name": "Papers of Reverend John G. Paton — National Library of Australia",
+        "address": "Parkes Place, Canberra ACT 2600, Australia",
+        "lat": -35.2969,
+        "lng": 149.1291
       }
     ],
     "review": {
@@ -6436,6 +6759,13 @@
         "address": "Voorstraat 92, 4153 AN Beesd, Netherlands",
         "lat": 51.884,
         "lng": 5.193
+      },
+      {
+        "type": "museum",
+        "name": "Papers of Abraham Kuyper — Historisch Documentatiecentrum, Vrije Universiteit Amsterdam",
+        "address": "De Boelelaan 1105, 1081 HV Amsterdam, Netherlands",
+        "lat": 52.3346,
+        "lng": 4.8642
       }
     ],
     "review": {
@@ -6509,6 +6839,13 @@
         "address": "Wheaton Cemetery, 1209 S. Warrenville Rd., Wheaton, Illinois, USA",
         "lat": 41.8511,
         "lng": -88.1117
+      },
+      {
+        "type": "museum",
+        "name": "Isobel Miller Kuhn Collection — Wheaton College Archives & Special Collections (Billy Graham Center Archives)",
+        "address": "501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067
       }
     ],
     "review": {
@@ -6591,6 +6928,13 @@
         "address": "Route de Villars 89, 1884 Huémoz, Switzerland",
         "lat": 46.292425,
         "lng": 7.028818
+      },
+      {
+        "type": "museum",
+        "name": "Francis and Edith Schaeffer Papers — Southeastern Baptist Theological Seminary",
+        "address": "120 South Wingate St, Wake Forest, NC 27587, USA",
+        "lat": 35.9797,
+        "lng": -78.5097
       }
     ],
     "review": {
@@ -6798,7 +7142,15 @@
     "adult_story": "Frederick Fyvie Bruce was born in 1910 in Elgin, Scotland, the son of an itinerant Plymouth Brethren evangelist. Trained in classics at Aberdeen, Cambridge, and Vienna, he might easily have spent his career in secular scholarship — instead he devoted it to demonstrating that the New Testament could withstand the fullest scrutiny of critical history.\n\nBruce taught Greek at Edinburgh and Leeds before becoming, in 1947, the first head of Biblical History and Literature at Sheffield, and later, from 1959 to 1978, Rylands Professor of Biblical Criticism at Manchester. His 1943 book Are the New Testament Documents Reliable? became one of the most influential evangelical works of the century, arguing that rigorous historical inquiry, honestly pursued, only strengthens confidence in the Gospels rather than undermining them. He wrote nearly fifty books and supervised around fifty doctoral students who went on to shape evangelical biblical scholarship worldwide, while remaining, his whole life, a simple member of his Brethren assembly rather than an ordained clergyman — in keeping with the Brethren conviction that no Christian needs a special office to serve Christ or handle his word.\n\nFor Bruce, that conviction was not incidental to his scholarship but its foundation: Scripture's authority rests on what God has done in Christ and preserved in his word, not on the credentials of those who study it.",
     "family_story": "F. F. Bruce grew up in Scotland, where his father traveled from town to town preaching about Jesus. F. F. loved studying languages and became one of the best Bible scholars in the world, teaching at important universities in England. He wrote a famous book showing that the stories in the Bible about Jesus can be trusted as true history. Even though he became very respected and clever, F. F. never wanted a special title or position in his church — he believed every Christian, not just pastors, could serve God and study his word. He spent his life helping people trust that the Bible is exactly what it claims to be: true.",
     "image": null,
-    "memorials": [],
+    "memorials": [
+      {
+        "type": "museum",
+        "name": "Papers of F. F. Bruce — John Rylands Library (Christian Brethren Archive)",
+        "address": "John Rylands Library, 150 Deansgate, Manchester M3 3EH, England",
+        "lat": 53.4803,
+        "lng": -2.2487
+      }
+    ],
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",
@@ -6871,6 +7223,13 @@
         "address": "Gelli Cemetery, Cardigan Road (A484), Newcastle Emlyn, Carmarthenshire, Wales",
         "lat": 52.0438,
         "lng": -4.4843
+      },
+      {
+        "type": "museum",
+        "name": "Dr D. Martyn Lloyd-Jones Papers — National Library of Wales",
+        "address": "National Library of Wales, Rhiw Penglais, Aberystwyth, Ceredigion SY23 3BU, Wales",
+        "lat": 52.4145,
+        "lng": -4.0685
       }
     ],
     "review": {
@@ -7008,6 +7367,13 @@
         "address": "Cairo War Memorial Cemetery, Old Cairo, Egypt",
         "lat": 30.01438,
         "lng": 31.23075
+      },
+      {
+        "type": "museum",
+        "name": "Oswald Chambers Papers — Wheaton College Archives & Special Collections",
+        "address": "501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067
       }
     ],
     "review": {
@@ -7076,7 +7442,15 @@
       "redistribution_safe": true,
       "redistribution_note": "Public domain in Japan (copyright expired) and the US (not restored under URAA) — official IJN photograph, clear claim, resolves to a direct Commons file URL."
     },
-    "memorials": [],
+    "memorials": [
+      {
+        "type": "museum",
+        "name": "Mitsuo Fuchida Papers — Hoover Institution Library & Archives, Stanford University",
+        "address": "434 Galvez Mall, Stanford, CA 94305, USA",
+        "lat": 37.4291,
+        "lng": -122.1669
+      }
+    ],
     "review": {
       "human_reviewed": true,
       "reviewed_by": "Andrew",
@@ -7145,6 +7519,13 @@
         "address": "Bahía Aguirre, Península Mitre, Tierra del Fuego Province, Argentina",
         "lat": -54.9111,
         "lng": -65.9925
+      },
+      {
+        "type": "museum",
+        "name": "Diaries of Allen Gardiner — Cadbury Research Library, University of Birmingham",
+        "address": "Muirhead Tower, University of Birmingham, Edgbaston, Birmingham B15 2TT, England",
+        "lat": 52.4508,
+        "lng": -1.9305
       }
     ],
     "review": {
@@ -7403,6 +7784,13 @@
         "address": "King's Parade, Cambridge, CB2 1ST, England",
         "lat": 52.2046,
         "lng": 0.1176
+      },
+      {
+        "type": "museum",
+        "name": "Papers relating to Charles Simeon — Archive Centre, King's College, Cambridge",
+        "address": "King's College, King's Parade, Cambridge CB2 1ST, England",
+        "lat": 52.2043,
+        "lng": 0.1149
       }
     ],
     "related_people": [
@@ -7576,6 +7964,13 @@
         "address": "Shandwick Place, Edinburgh EH2 4RG, Scotland",
         "lat": 55.9508,
         "lng": -3.2074
+      },
+      {
+        "type": "museum",
+        "name": "Papers of Alexander Whyte — New College Library Special Collections, University of Edinburgh",
+        "address": "New College, Mound Place, Edinburgh EH1 2LX, Scotland",
+        "lat": 55.9497,
+        "lng": -3.1957
       }
     ],
     "related_people": []
@@ -7737,6 +8132,13 @@
         "address": "1630 N Clark St, Chicago, IL 60614, USA",
         "lat": 41.9142,
         "lng": -87.6323
+      },
+      {
+        "type": "museum",
+        "name": "R. A. Torrey Sr. Collection — Wheaton College Archives & Special Collections (Billy Graham Center Archives)",
+        "address": "501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067
       }
     ],
     "related_people": [
@@ -7902,6 +8304,13 @@
         "address": "Bethesda Chapel, High Street, Swansea SA1 1JN, Wales",
         "lat": 51.6183,
         "lng": -3.9436
+      },
+      {
+        "type": "museum",
+        "name": "Christmas Evans sermons and papers — National Library of Wales",
+        "address": "National Library of Wales, Rhiw Penglais, Aberystwyth, Ceredigion SY23 3BU, Wales",
+        "lat": 52.4145,
+        "lng": -4.0685
       }
     ],
     "related_people": []
@@ -7978,6 +8387,13 @@
         "address": "Restlawn Memory Gardens, West Salem, Polk County, Oregon",
         "lat": 44.9481,
         "lng": -123.0873
+      },
+      {
+        "type": "museum",
+        "name": "Jacob and Florence DeShazer Collection — Seattle Pacific University Archives",
+        "address": "3307 3rd Ave West, Seattle, WA 98119, USA",
+        "lat": 47.6445,
+        "lng": -122.361
       }
     ],
     "review": {
@@ -8142,6 +8558,13 @@
         "address": "National Memorial Cemetery of the Pacific-style veterans cemetery: National Memorial Cemetery at Quantico, 18424 Joplin Rd, Triangle, Virginia 22172",
         "lat": 38.5495,
         "lng": -77.3336
+      },
+      {
+        "type": "museum",
+        "name": "Charles W. Colson Papers — Wheaton College Archives & Special Collections (Billy Graham Center Archives)",
+        "address": "501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067
       }
     ],
     "review": {
@@ -8722,6 +9145,13 @@
         "address": "Fuller Baptist Church burial ground, 51 Gold Street, Kettering, Northamptonshire, England",
         "lat": 52.3994,
         "lng": -0.7275
+      },
+      {
+        "type": "museum",
+        "name": "Diary of Andrew Fuller — Bristol Baptist College Library and Archives",
+        "address": "Bristol Baptist College, The Promenade, Clifton Down, Bristol BS8 3NJ, England",
+        "lat": 51.4626,
+        "lng": -2.6152
       }
     ]
   },
@@ -9077,6 +9507,13 @@
         "address": "1111 Sunday Lane, Winona Lake, IN 46590, USA",
         "lat": 41.224,
         "lng": -85.818
+      },
+      {
+        "type": "museum",
+        "name": "Billy Sunday Papers — Morgan Library Archives & Special Collections, Grace College and Theological Seminary",
+        "address": "1 Lancer Way, Winona Lake, IN 46590, USA",
+        "lat": 41.228,
+        "lng": -85.83
       }
     ]
   },
@@ -9158,6 +9595,13 @@
         "address": "2960 Church Road, Glenside, PA 19038, USA",
         "lat": 40.109,
         "lng": -75.145
+      },
+      {
+        "type": "museum",
+        "name": "The John Gresham Machen Manuscript Collection — Princeton Theological Seminary",
+        "address": "Wright Library, Princeton Theological Seminary, 25 Library Place, Princeton, NJ 08540, USA",
+        "lat": 40.3488,
+        "lng": -74.6614
       }
     ]
   },

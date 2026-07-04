@@ -282,6 +282,19 @@ For anyone who served as a pastor, vicar, minister, or similar church leadership
 check whether the church building they served in is still standing — if so, include it
 as a memorial with `"type": "church"`.
 
+For anyone who was an author, scholar, missionary correspondent, or otherwise likely to
+have left a body of personal papers, correspondence, or manuscripts, check whether a
+named library, university, or seminary holds a personal papers/manuscript archive for
+them — if so, include it as a memorial with `"type": "museum"` (the established
+convention for archive collections on this site, even when the collection is a
+reading-room resource rather than a public exhibit — see the Wheaton College Archives &
+Special Collections entries for the Auca martyrs, or the Christian Brethren Archive
+entry for F. F. Bruce, both at data/people.json). Name the entry
+`"Papers of [Name] — [Institution] ([Collection name if notable])"` and cite the
+institution's own special-collections page or an Archives Hub / finding-aid record, not
+just a passing mention — a name-check in a biography is not enough to confirm a
+dedicated archive exists.
+
 ---
 
 ## Site Architecture
