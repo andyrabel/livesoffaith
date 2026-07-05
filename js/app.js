@@ -1500,17 +1500,81 @@ function rebuildRouteFromStops() {
   drawTourOnMap();
 }
 
-function moveStop(index, direction) {
-  const target = index + direction;
-  if (target < 0 || target >= tourState.stops.length) return;
-  const stops = tourState.stops;
-  [stops[index], stops[target]] = [stops[target], stops[index]];
+function commitStopOrder(newOrderIndices) {
+  tourState.stops = newOrderIndices.map(i => tourState.stops[i]);
   rebuildRouteFromStops();
 }
 
 function removeStop(index) {
   tourState.stops.splice(index, 1);
   rebuildRouteFromStops();
+}
+
+function startStopDrag(li, e) {
+  if (!li) return;
+  e.preventDefault();
+  const listEl = li.parentElement;
+  const startY = e.clientY;
+  let offset = 0;
+
+  li.setPointerCapture(e.pointerId);
+  li.classList.add('tour-stop-item--dragging');
+  li.style.position = 'relative';
+  li.style.zIndex = '10';
+
+  const applyTransform = clientY => {
+    li.style.transform = `translateY(${clientY - startY + offset}px)`;
+  };
+
+  const onMove = ev => {
+    applyTransform(ev.clientY);
+
+    let swapped = true;
+    while (swapped) {
+      swapped = false;
+      const liRect = li.getBoundingClientRect();
+      const liMid = liRect.top + liRect.height / 2;
+      const items = Array.from(listEl.children);
+      const liIndexNow = items.indexOf(li);
+      for (const sib of items) {
+        if (sib === li) continue;
+        const sibIndexNow = items.indexOf(sib);
+        const sibRect = sib.getBoundingClientRect();
+        const sibMid = sibRect.top + sibRect.height / 2;
+        if (sibIndexNow > liIndexNow && liMid > sibMid) {
+          listEl.insertBefore(li, sib.nextSibling);
+          offset -= sibRect.height;
+          applyTransform(ev.clientY);
+          swapped = true;
+          break;
+        }
+        if (sibIndexNow < liIndexNow && liMid < sibMid) {
+          listEl.insertBefore(li, sib);
+          offset += sibRect.height;
+          applyTransform(ev.clientY);
+          swapped = true;
+          break;
+        }
+      }
+    }
+  };
+
+  const onUp = ev => {
+    li.releasePointerCapture(ev.pointerId);
+    li.classList.remove('tour-stop-item--dragging');
+    li.style.transform = '';
+    li.style.position = '';
+    li.style.zIndex = '';
+    li.removeEventListener('pointermove', onMove);
+    li.removeEventListener('pointerup', onUp);
+    li.removeEventListener('pointercancel', onUp);
+    const newOrderIndices = Array.from(listEl.children).map(el => parseInt(el.dataset.index, 10));
+    commitStopOrder(newOrderIndices);
+  };
+
+  li.addEventListener('pointermove', onMove);
+  li.addEventListener('pointerup', onUp);
+  li.addEventListener('pointercancel', onUp);
 }
 
 async function addCustomStop() {
@@ -1678,7 +1742,8 @@ function renderTourResults() {
     const arrival = formatClock(startMinutes + stop.arrivalMinutes);
 
     return `
-      <li class="tour-stop-item">
+      <li class="tour-stop-item" data-index="${i}">
+        <button type="button" class="tour-stop-handle" aria-label="Drag to reorder" title="Drag to reorder">&#8942;&#8942;</button>
         <span class="tour-stop-number">${i + 1}</span>
         ${portrait}
         <div>
@@ -1687,11 +1752,7 @@ function renderTourResults() {
           <div class="map-list-meta">${escapeHtml(memorial.address)}</div>
           <div class="tour-stop-timing">Arrive ~${arrival} &middot; ${stop.legKm.toFixed(1)} km from previous stop</div>
         </div>
-        <div class="tour-stop-controls">
-          <button type="button" class="tour-stop-btn" data-tour-action="up" data-index="${i}" ${i === 0 ? 'disabled' : ''} aria-label="Move stop up" title="Move up">&#8593;</button>
-          <button type="button" class="tour-stop-btn" data-tour-action="down" data-index="${i}" ${i === stops.length - 1 ? 'disabled' : ''} aria-label="Move stop down" title="Move down">&#8595;</button>
-          <button type="button" class="tour-stop-btn tour-stop-btn--remove" data-tour-action="remove" data-index="${i}" aria-label="Remove stop" title="Remove">&#10005;</button>
-        </div>
+        <button type="button" class="tour-stop-remove" data-tour-action="remove" data-index="${i}" aria-label="Remove stop" title="Remove">&#10005;</button>
       </li>
     `;
   }).join('');
@@ -2214,13 +2275,14 @@ function initTourPlanner() {
   const stopListEl = document.getElementById('tour-stop-list');
   if (stopListEl) {
     stopListEl.addEventListener('click', e => {
-      const btn = e.target.closest('button[data-tour-action]');
+      const btn = e.target.closest('button[data-tour-action="remove"]');
       if (!btn) return;
-      const index = parseInt(btn.dataset.index, 10);
-      const action = btn.dataset.tourAction;
-      if (action === 'up') moveStop(index, -1);
-      else if (action === 'down') moveStop(index, 1);
-      else if (action === 'remove') removeStop(index);
+      removeStop(parseInt(btn.dataset.index, 10));
+    });
+    stopListEl.addEventListener('pointerdown', e => {
+      const handle = e.target.closest('.tour-stop-handle');
+      if (!handle) return;
+      startStopDrag(handle.closest('.tour-stop-item'), e);
     });
   }
 
