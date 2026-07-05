@@ -55,6 +55,18 @@ fall into two categories, and either is sufficient grounds to flag:
   antisemitic writings; John Calvin — involvement in the execution of Michael
   Servetus; a slaveholder or someone who defended slavery)
 
+**Not flaggable on its own:** ordinary intramural evangelical debates — positions
+held across a wide swath of mainstream evangelicalism rather than idiosyncratic to
+one figure. Dispensational premillennialism (a pretribulational/premillennial
+reading of Christ's return, a distinct rapture, etc.) is explicitly **not** grounds
+for a flag — it is the site owner's own position and a mainstream evangelical view,
+not a fringe one. (Contrast John Nelson Darby, who is flagged not for originating
+dispensationalism but for his separatist "ecclesiology of ruin" — total-separation
+doctrine that caused the 1848 Brethren schism.) Cessationism/continuationism,
+Calvinist/Arminian soteriology, and paedobaptist/credobaptist views fall in the
+same not-flaggable category by default, absent some further idiosyncratic or
+divisive element specific to the person.
+
 Flagged figures may be included but must:
 - Have `"flagged": true` in their JSON entry
 - Have a `"footnote"` field with a specific, factual, charitable note — naming
