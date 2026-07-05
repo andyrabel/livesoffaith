@@ -1379,6 +1379,7 @@ const tourState = {
   transport: 'walk',
   startMinutes: 9 * 60,
   durationHours: 3,
+  includeAppointment: false,
 };
 
 let tourLayerGroup = null;
@@ -1420,14 +1421,14 @@ async function geocodeLocation(query) {
   };
 }
 
-function buildTourRoute({ center, radiusKm, transport, budgetMinutes }) {
+function buildTourRoute({ center, radiusKm, transport, budgetMinutes, includeAppointment }) {
   const speed = TRANSPORT_SPEED_KMH[transport];
   const dwell = TRANSPORT_DWELL_MIN[transport];
   const overhead = TRANSPORT_STOP_OVERHEAD_MIN[transport];
 
   const candidates = getAllMapEntries()
     .filter(({ memorial }) => typeof memorial.lat === 'number' && typeof memorial.lng === 'number')
-    .filter(({ memorial }) => memorial.open_to_public !== false)
+    .filter(({ memorial }) => includeAppointment || memorial.open_to_public !== false)
     .map(entry => ({ ...entry, distFromCenter: haversineKm(center.lat, center.lng, entry.memorial.lat, entry.memorial.lng) }))
     .filter(entry => entry.distFromCenter <= radiusKm);
 
@@ -1803,17 +1804,20 @@ function generateTour() {
   const transportSel = document.getElementById('tour-transport');
   const startInput = document.getElementById('tour-start');
   const durationSel = document.getElementById('tour-duration');
+  const includeAppointmentCheckbox = document.getElementById('tour-include-appointment');
 
   tourState.radiusKm = radiusSel ? parseFloat(radiusSel.value) : 5;
   tourState.transport = transportSel ? transportSel.value : 'walk';
   tourState.startMinutes = parseClockToMinutes(startInput ? startInput.value : '', 9 * 60);
   tourState.durationHours = durationSel ? parseFloat(durationSel.value) : 3;
+  tourState.includeAppointment = includeAppointmentCheckbox ? includeAppointmentCheckbox.checked : false;
 
   const route = buildTourRoute({
     center: tourState.center,
     radiusKm: tourState.radiusKm,
     transport: tourState.transport,
     budgetMinutes: tourState.durationHours * 60,
+    includeAppointment: tourState.includeAppointment,
   });
 
   tourState.route = route;
@@ -1887,6 +1891,7 @@ function serializeTourState() {
     transport: tourState.transport,
     startMinutes: tourState.startMinutes,
     durationHours: tourState.durationHours,
+    includeAppointment: tourState.includeAppointment,
     stops: tourState.stops.map(stopToPortable),
   };
 }
@@ -1906,6 +1911,7 @@ function applyTourData(data) {
   tourState.transport = data.transport || 'walk';
   tourState.startMinutes = typeof data.startMinutes === 'number' ? data.startMinutes : 9 * 60;
   tourState.durationHours = data.durationHours || 3;
+  tourState.includeAppointment = Boolean(data.includeAppointment);
   tourState.stops = (data.stops || []).map(portableToStop).filter(Boolean);
 
   const locationInput = document.getElementById('tour-location');
@@ -1913,11 +1919,13 @@ function applyTourData(data) {
   const transportSel = document.getElementById('tour-transport');
   const startInput = document.getElementById('tour-start');
   const durationSel = document.getElementById('tour-duration');
+  const includeAppointmentCheckbox = document.getElementById('tour-include-appointment');
   if (locationInput) locationInput.value = tourState.centerLabel || '';
   if (radiusSel) radiusSel.value = String(tourState.radiusKm);
   if (transportSel) transportSel.value = tourState.transport;
   if (startInput) startInput.value = formatClock(tourState.startMinutes);
   if (durationSel) durationSel.value = String(tourState.durationHours);
+  if (includeAppointmentCheckbox) includeAppointmentCheckbox.checked = tourState.includeAppointment;
 
   rebuildRouteFromStops();
   if (!tourState.stops.length) focusMapOnTourCenter();

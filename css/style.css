@@ -201,6 +201,13 @@ main {
   color: var(--text-muted);
 }
 
+.tour-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
 .tour-location-input {
   width: 220px;
 }
