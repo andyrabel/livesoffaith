@@ -141,6 +141,7 @@ const MEMORIAL_TYPE_LABELS = {
   library: 'Library',
   archive: 'Archive',
   other: 'Memorial',
+  custom: 'Custom Stop',
 };
 
 function memorialTypeLabel(type) {
@@ -162,6 +163,7 @@ const MEMORIAL_TYPE_STYLES = {
   library:    { color: '#1f5c3a' },
   archive:    { color: '#9c2b2b' },
   other:      { color: '#6b6360' },
+  custom:     { color: '#b5384a' },
 };
 
 // Inner markup (no outer <svg>) of Lucide icons, one per memorial/place
@@ -1372,6 +1374,7 @@ const tourState = {
   center: null,
   centerLabel: '',
   route: null,
+  stops: [],
   radiusKm: 5,
   transport: 'walk',
   startMinutes: 9 * 60,
@@ -1380,6 +1383,7 @@ const tourState = {
 
 let tourLayerGroup = null;
 const tourMarkersByKey = new Map();
+const SAVED_TOURS_KEY = 'lof-saved-tours';
 
 function haversineKm(lat1, lng1, lat2, lng2) {
   const R = 6371;
@@ -1459,6 +1463,98 @@ function buildTourRoute({ center, radiusKm, transport, budgetMinutes }) {
   return { stops, totalKm, totalMinutes: elapsedMinutes };
 }
 
+// Recomputes arrival/departure/leg-distance for a manually-ordered stop list
+// (used after reorder/add/remove, as opposed to buildTourRoute's initial
+// nearest-neighbour selection with a time budget cutoff).
+function computeStopsTiming(stopsOrder, center, transport) {
+  const speed = TRANSPORT_SPEED_KMH[transport];
+  const dwell = TRANSPORT_DWELL_MIN[transport];
+  const overhead = TRANSPORT_STOP_OVERHEAD_MIN[transport];
+
+  let currentLat = center.lat;
+  let currentLng = center.lng;
+  let elapsedMinutes = 0;
+  let totalKm = 0;
+
+  const stops = stopsOrder.map(entry => {
+    const { memorial } = entry;
+    const legKm = haversineKm(currentLat, currentLng, memorial.lat, memorial.lng);
+    const legMinutes = (legKm / speed) * 60 + overhead;
+    const arrivalMinutes = elapsedMinutes + legMinutes;
+    const departureMinutes = arrivalMinutes + dwell;
+    elapsedMinutes = departureMinutes;
+    totalKm += legKm;
+    currentLat = memorial.lat;
+    currentLng = memorial.lng;
+    return { ...entry, legKm, legMinutes, arrivalMinutes, departureMinutes };
+  });
+
+  return { stops, totalKm, totalMinutes: elapsedMinutes };
+}
+
+function rebuildRouteFromStops() {
+  tourState.route = (tourState.center && tourState.stops.length)
+    ? computeStopsTiming(tourState.stops, tourState.center, tourState.transport)
+    : { stops: [], totalKm: 0, totalMinutes: 0 };
+  renderTourResults();
+  drawTourOnMap();
+}
+
+function moveStop(index, direction) {
+  const target = index + direction;
+  if (target < 0 || target >= tourState.stops.length) return;
+  const stops = tourState.stops;
+  [stops[index], stops[target]] = [stops[target], stops[index]];
+  rebuildRouteFromStops();
+}
+
+function removeStop(index) {
+  tourState.stops.splice(index, 1);
+  rebuildRouteFromStops();
+}
+
+async function addCustomStop() {
+  const nameInput = document.getElementById('tour-add-name');
+  const addressInput = document.getElementById('tour-add-address');
+  const name = nameInput ? nameInput.value.trim() : '';
+  const address = addressInput ? addressInput.value.trim() : '';
+
+  if (!tourState.center) {
+    setTourStatus('Set a starting location first.', true);
+    return;
+  }
+  if (!name || !address) {
+    setTourStatus('Enter both a name and an address for the new stop.', true);
+    return;
+  }
+
+  setTourStatus('Locating new stop…');
+  try {
+    const result = await geocodeLocation(address);
+    tourState.stops.push({
+      kind: 'place',
+      person: null,
+      place: { name, description: '', website: '' },
+      memorial: {
+        type: 'custom',
+        name: 'Custom stop',
+        address: result.displayName.split(',').slice(0, 4).join(','),
+        lat: result.lat,
+        lng: result.lng,
+        open_to_public: true,
+      },
+      region: null,
+      key: `custom-${Date.now()}`,
+    });
+    rebuildRouteFromStops();
+    if (nameInput) nameInput.value = '';
+    if (addressInput) addressInput.value = '';
+    setTourStatus(`Added "${name}" to the tour.`);
+  } catch (err) {
+    setTourStatus(err.message || 'Could not find that address.', true);
+  }
+}
+
 function setTourStatus(msg, isError) {
   const el = document.getElementById('tour-status');
   if (!el) return;
@@ -1534,6 +1630,11 @@ function drawTourOnMap() {
   leafletMap.fitBounds(polyline.getBounds().pad(0.2));
 }
 
+function toggleTourActionButtons(enabled) {
+  const actionsEl = document.querySelector('.tour-results__actions');
+  if (actionsEl) actionsEl.hidden = !enabled;
+}
+
 function renderTourResults() {
   const resultsEl = document.getElementById('tour-results');
   const summaryEl = document.getElementById('tour-summary');
@@ -1541,20 +1642,32 @@ function renderTourResults() {
   const clearBtn = document.getElementById('tour-clear-btn');
   if (!resultsEl || !summaryEl || !listEl) return;
 
-  const { route, startMinutes } = tourState;
-
-  if (!route || !route.stops.length) {
+  if (!tourState.center) {
     resultsEl.hidden = true;
     if (clearBtn) clearBtn.hidden = true;
     return;
   }
 
+  resultsEl.hidden = false;
+
+  const { route, startMinutes } = tourState;
+  const stops = (route && route.stops) || [];
+
+  if (!stops.length) {
+    summaryEl.innerHTML = 'No stops yet — generate a tour above, or add a stop manually below.';
+    listEl.innerHTML = '';
+    if (clearBtn) clearBtn.hidden = true;
+    toggleTourActionButtons(false);
+    updateMapExportLinks();
+    return;
+  }
+
   const finishClock = formatClock(startMinutes + route.totalMinutes);
   const startClock = formatClock(startMinutes);
-  summaryEl.innerHTML = `<strong>${route.stops.length}</strong> ${route.stops.length === 1 ? 'stop' : 'stops'} &middot; ` +
+  summaryEl.innerHTML = `<strong>${stops.length}</strong> ${stops.length === 1 ? 'stop' : 'stops'} &middot; ` +
     `~${route.totalKm.toFixed(1)} km &middot; ${startClock} &rarr; ~${finishClock}`;
 
-  listEl.innerHTML = route.stops.map((stop, i) => {
+  listEl.innerHTML = stops.map((stop, i) => {
     const { memorial } = stop;
     const portrait = entryThumbHtml(stop, 'map-list-portrait', 'map-list-portrait-placeholder');
     const profileUrl = entryProfileUrl(stop);
@@ -1574,12 +1687,18 @@ function renderTourResults() {
           <div class="map-list-meta">${escapeHtml(memorial.address)}</div>
           <div class="tour-stop-timing">Arrive ~${arrival} &middot; ${stop.legKm.toFixed(1)} km from previous stop</div>
         </div>
+        <div class="tour-stop-controls">
+          <button type="button" class="tour-stop-btn" data-tour-action="up" data-index="${i}" ${i === 0 ? 'disabled' : ''} aria-label="Move stop up" title="Move up">&#8593;</button>
+          <button type="button" class="tour-stop-btn" data-tour-action="down" data-index="${i}" ${i === stops.length - 1 ? 'disabled' : ''} aria-label="Move stop down" title="Move down">&#8595;</button>
+          <button type="button" class="tour-stop-btn tour-stop-btn--remove" data-tour-action="remove" data-index="${i}" aria-label="Remove stop" title="Remove">&#10005;</button>
+        </div>
       </li>
     `;
   }).join('');
 
-  resultsEl.hidden = false;
   if (clearBtn) clearBtn.hidden = false;
+  toggleTourActionButtons(true);
+  updateMapExportLinks();
 }
 
 function buildTourPromptText() {
@@ -1637,6 +1756,7 @@ function generateTour() {
   });
 
   tourState.route = route;
+  tourState.stops = route.stops.map(s => ({ ...s }));
 
   if (!route.stops.length) {
     setTourStatus(`No memorials or places found within ${tourState.radiusKm} km of ${tourState.centerLabel}. Try a larger radius.`, true);
@@ -1652,9 +1772,373 @@ function generateTour() {
 
 function clearTour() {
   tourState.route = null;
+  tourState.stops = [];
   setTourStatus('');
   renderTourResults();
   drawTourOnMap();
+}
+
+// ============================================================
+// Tour Planner — save, share, print, export
+// ============================================================
+
+function stopToPortable(entry) {
+  if (entry.kind === 'person') {
+    return { kind: 'person', personId: entry.person.id, memorialIndex: (entry.person.memorials || []).indexOf(entry.memorial) };
+  }
+  if (entry.memorial.type === 'custom') {
+    return { kind: 'custom', name: entry.place.name, address: entry.memorial.address, lat: entry.memorial.lat, lng: entry.memorial.lng };
+  }
+  return { kind: 'placeRef', placeId: entry.place.id };
+}
+
+function portableToStop(portable) {
+  if (portable.kind === 'person') {
+    const person = allPeople.find(p => p.id === portable.personId);
+    const memorial = person && (person.memorials || [])[portable.memorialIndex];
+    if (!memorial) return null;
+    return { kind: 'person', person, place: null, memorial, region: person.region, key: `person-${person.id}__${portable.memorialIndex}` };
+  }
+  if (portable.kind === 'placeRef') {
+    const place = allPlaces.find(p => p.id === portable.placeId);
+    if (!place) return null;
+    const memorial = { type: place.type, name: place.name, address: place.address, lat: place.lat, lng: place.lng, open_to_public: place.open_to_public };
+    return { kind: 'place', person: null, place, memorial, region: place.region, key: `place-${place.id}` };
+  }
+  if (portable.kind === 'custom') {
+    return {
+      kind: 'place',
+      person: null,
+      place: { name: portable.name, description: '', website: '' },
+      memorial: { type: 'custom', name: 'Custom stop', address: portable.address, lat: portable.lat, lng: portable.lng, open_to_public: true },
+      region: null,
+      key: `custom-${portable.lat}-${portable.lng}-${portable.name}`,
+    };
+  }
+  return null;
+}
+
+function serializeTourState() {
+  return {
+    center: tourState.center,
+    centerLabel: tourState.centerLabel,
+    radiusKm: tourState.radiusKm,
+    transport: tourState.transport,
+    startMinutes: tourState.startMinutes,
+    durationHours: tourState.durationHours,
+    stops: tourState.stops.map(stopToPortable),
+  };
+}
+
+function encodeTourData(data) {
+  return btoa(encodeURIComponent(JSON.stringify(data)));
+}
+
+function decodeTourData(encoded) {
+  return JSON.parse(decodeURIComponent(atob(encoded)));
+}
+
+function applyTourData(data) {
+  tourState.center = data.center || null;
+  tourState.centerLabel = data.centerLabel || '';
+  tourState.radiusKm = data.radiusKm || 5;
+  tourState.transport = data.transport || 'walk';
+  tourState.startMinutes = typeof data.startMinutes === 'number' ? data.startMinutes : 9 * 60;
+  tourState.durationHours = data.durationHours || 3;
+  tourState.stops = (data.stops || []).map(portableToStop).filter(Boolean);
+
+  const locationInput = document.getElementById('tour-location');
+  const radiusSel = document.getElementById('tour-radius');
+  const transportSel = document.getElementById('tour-transport');
+  const startInput = document.getElementById('tour-start');
+  const durationSel = document.getElementById('tour-duration');
+  if (locationInput) locationInput.value = tourState.centerLabel || '';
+  if (radiusSel) radiusSel.value = String(tourState.radiusKm);
+  if (transportSel) transportSel.value = tourState.transport;
+  if (startInput) startInput.value = formatClock(tourState.startMinutes);
+  if (durationSel) durationSel.value = String(tourState.durationHours);
+
+  rebuildRouteFromStops();
+  if (!tourState.stops.length) focusMapOnTourCenter();
+}
+
+function currentShareUrl() {
+  const encoded = encodeTourData(serializeTourState());
+  return `${location.origin}${location.pathname}#tour=${encoded}`;
+}
+
+function getSavedTours() {
+  try {
+    return JSON.parse(localStorage.getItem(SAVED_TOURS_KEY) || '[]');
+  } catch (err) {
+    return [];
+  }
+}
+
+function setSavedTours(list) {
+  try {
+    localStorage.setItem(SAVED_TOURS_KEY, JSON.stringify(list));
+  } catch (err) { /* storage unavailable — saving is best-effort */ }
+}
+
+function renderSavedTours() {
+  const wrap = document.getElementById('tour-saved');
+  const listEl = document.getElementById('tour-saved-list');
+  if (!wrap || !listEl) return;
+
+  const tours = getSavedTours();
+  if (!tours.length) {
+    wrap.hidden = true;
+    listEl.innerHTML = '';
+    return;
+  }
+
+  wrap.hidden = false;
+  listEl.innerHTML = tours.map(t => `
+    <li class="tour-saved-item">
+      <span class="tour-saved-label">${escapeHtml(t.label)}</span>
+      <span class="tour-saved-date">${escapeHtml(new Date(t.savedAt).toLocaleDateString())}</span>
+      <button type="button" class="btn btn-secondary" data-open-tour="${escapeHtml(t.id)}">Open</button>
+      <button type="button" class="btn btn-secondary" data-delete-tour="${escapeHtml(t.id)}">Delete</button>
+    </li>
+  `).join('');
+}
+
+function saveTourPrompt() {
+  if (!tourState.center) {
+    setTourStatus('Set a starting location first.', true);
+    return;
+  }
+  const defaultLabel = tourState.centerLabel ? `Tour near ${tourState.centerLabel}` : 'My tour';
+  const label = window.prompt('Name this tour:', defaultLabel);
+  if (!label) return;
+
+  const list = getSavedTours();
+  list.unshift({ id: `t${Date.now()}`, label, savedAt: new Date().toISOString(), data: serializeTourState() });
+  setSavedTours(list.slice(0, 30));
+  renderSavedTours();
+  setTourStatus(`Saved "${label}".`);
+}
+
+async function shareTour(button) {
+  if (!tourState.center) {
+    setTourStatus('Set a starting location first.', true);
+    return;
+  }
+  const url = currentShareUrl();
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: 'Lives of Faith — Heritage Tour', text: 'A heritage tour I planned on Lives of Faith:', url });
+      return;
+    } catch (err) {
+      if (err && err.name === 'AbortError') return;
+    }
+  }
+  copyText(url, button, 'Link copied — paste it into a text or email!');
+}
+
+function buildTourPrintHtml() {
+  const { centerLabel, route, transport, startMinutes, radiusKm } = tourState;
+  const stops = (route && route.stops) || [];
+  const transportLabel = TRANSPORT_LABELS[transport];
+
+  const rows = stops.map((stop, i) => {
+    const { memorial } = stop;
+    const arrival = formatClock(startMinutes + stop.arrivalMinutes);
+    return `
+      <tr>
+        <td>${i + 1}</td>
+        <td>
+          <strong>${escapeHtml(entryName(stop))}</strong><br>
+          <span class="muted">${escapeHtml(memorialTypeLabel(memorial.type))} &middot; ${escapeHtml(memorial.name)}</span><br>
+          <span class="muted">${escapeHtml(memorial.address)}</span>
+        </td>
+        <td>${arrival}</td>
+        <td>${stop.legKm.toFixed(1)} km</td>
+      </tr>`;
+  }).join('');
+
+  return `<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>Heritage Tour — ${escapeHtml(centerLabel)}</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; color: #222; margin: 2rem; }
+  h1 { font-size: 1.4rem; margin-bottom: 0.2rem; }
+  .meta { color: #555; font-size: 0.9rem; margin-bottom: 1.2rem; }
+  table { width: 100%; border-collapse: collapse; }
+  td { vertical-align: top; padding: 0.5rem 0.6rem; border-bottom: 1px solid #ddd; font-size: 0.92rem; }
+  td:first-child { font-weight: bold; width: 2rem; }
+  .muted { color: #666; font-size: 0.85rem; }
+  footer { margin-top: 2rem; font-size: 0.78rem; color: #888; }
+  @media print { body { margin: 1cm; } }
+</style>
+</head><body>
+  <h1>Heritage Tour — ${escapeHtml(centerLabel)}</h1>
+  <div class="meta">
+    Starting ${escapeHtml(formatClock(startMinutes))}, ${escapeHtml(transportLabel)}, within ~${radiusKm} km &middot;
+    ${stops.length} stop${stops.length === 1 ? '' : 's'} &middot; ~${route.totalKm.toFixed(1)} km total
+  </div>
+  <table>
+    <thead><tr><td>#</td><td>Stop</td><td>Arrive</td><td>Leg</td></tr></thead>
+    <tbody>${rows}</tbody>
+  </table>
+  <footer>Generated by Lives of Faith (livesoffaith.org) — memorial locations are researched from public sources and may be approximate.</footer>
+</body></html>`;
+}
+
+function printTour() {
+  if (!tourState.route || !tourState.route.stops.length) {
+    setTourStatus('Generate or add stops before printing.', true);
+    return;
+  }
+  const win = window.open('', '_blank');
+  if (!win) {
+    setTourStatus('Please allow pop-ups to print the tour.', true);
+    return;
+  }
+  win.document.write(buildTourPrintHtml());
+  win.document.close();
+  win.focus();
+  setTimeout(() => win.print(), 200);
+}
+
+function buildGoogleMapsUrl() {
+  const { center, route, transport } = tourState;
+  if (!center || !route || !route.stops.length) return '';
+  const travelmode = transport === 'drive' ? 'driving' : transport === 'transit' ? 'transit' : 'walking';
+  const last = route.stops[route.stops.length - 1];
+  const middle = route.stops.slice(0, -1);
+  const params = new URLSearchParams({
+    api: '1',
+    origin: `${center.lat},${center.lng}`,
+    destination: `${last.memorial.lat},${last.memorial.lng}`,
+    travelmode,
+  });
+  if (middle.length) params.set('waypoints', middle.map(s => `${s.memorial.lat},${s.memorial.lng}`).join('|'));
+  return `https://www.google.com/maps/dir/?${params.toString()}`;
+}
+
+function buildAppleMapsUrl() {
+  const { center, route, transport } = tourState;
+  if (!center || !route || !route.stops.length) return '';
+  const dirflg = transport === 'drive' ? 'd' : transport === 'transit' ? 'r' : 'w';
+  const params = new URLSearchParams({ saddr: `${center.lat},${center.lng}`, dirflg });
+  let url = `https://maps.apple.com/?${params.toString()}`;
+  route.stops.forEach(stop => { url += `&daddr=${stop.memorial.lat},${stop.memorial.lng}`; });
+  return url;
+}
+
+function updateMapExportLinks() {
+  const gEl = document.getElementById('tour-gmaps-link');
+  const aEl = document.getElementById('tour-amaps-link');
+  const hasStops = Boolean(tourState.route && tourState.route.stops.length);
+  if (gEl) {
+    gEl.href = hasStops ? buildGoogleMapsUrl() : '#';
+    gEl.setAttribute('aria-disabled', hasStops ? 'false' : 'true');
+  }
+  if (aEl) {
+    aEl.href = hasStops ? buildAppleMapsUrl() : '#';
+    aEl.setAttribute('aria-disabled', hasStops ? 'false' : 'true');
+  }
+}
+
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function tourFileBaseName() {
+  const slug = (tourState.centerLabel || 'tour').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  return `heritage-tour-${slug || 'tour'}`;
+}
+
+function exportTourHtml() {
+  if (!tourState.route || !tourState.route.stops.length) {
+    setTourStatus('Generate or add stops before exporting.', true);
+    return;
+  }
+  downloadBlob(new Blob([buildTourPrintHtml()], { type: 'text/html' }), `${tourFileBaseName()}.html`);
+}
+
+// Word doesn't read arbitrary HTML as a document unless it carries the
+// mso-office namespaces — adding them (and an .doc extension) is enough
+// for Word/LibreOffice to open it as a real document, no docx library needed.
+function buildTourWordHtml() {
+  return buildTourPrintHtml().replace(
+    '<html>',
+    '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">'
+  );
+}
+
+function exportTourWord() {
+  if (!tourState.route || !tourState.route.stops.length) {
+    setTourStatus('Generate or add stops before exporting.', true);
+    return;
+  }
+  downloadBlob(new Blob(['﻿', buildTourWordHtml()], { type: 'application/msword' }), `${tourFileBaseName()}.doc`);
+}
+
+function exportTourPdf() {
+  if (!tourState.route || !tourState.route.stops.length) {
+    setTourStatus('Generate or add stops before exporting.', true);
+    return;
+  }
+  if (!window.jspdf) {
+    setTourStatus('PDF export library failed to load — check your connection and try again.', true);
+    return;
+  }
+
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ unit: 'pt', format: 'a4' });
+  const margin = 40;
+  const pageHeight = doc.internal.pageSize.getHeight();
+  const maxWidth = doc.internal.pageSize.getWidth() - margin * 2;
+  const { route, transport, startMinutes, radiusKm, centerLabel } = tourState;
+  let y = margin;
+
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(16);
+  doc.text(`Heritage Tour — ${centerLabel}`, margin, y);
+  y += 22;
+
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(10);
+  doc.text(
+    `Starting ${formatClock(startMinutes)}, ${TRANSPORT_LABELS[transport]}, within ~${radiusKm} km — ` +
+    `${route.stops.length} stop${route.stops.length === 1 ? '' : 's'}, ~${route.totalKm.toFixed(1)} km total`,
+    margin, y
+  );
+  y += 24;
+
+  route.stops.forEach((stop, i) => {
+    const { memorial } = stop;
+    const arrival = formatClock(startMinutes + stop.arrivalMinutes);
+    const detailLines = doc.splitTextToSize(
+      `${memorialTypeLabel(memorial.type)} · ${memorial.name} — ${memorial.address}`,
+      maxWidth
+    );
+    const blockHeight = 14 + detailLines.length * 11 + 20;
+    if (y + blockHeight > pageHeight - margin) { doc.addPage(); y = margin; }
+
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(11);
+    doc.text(`${i + 1}. ${entryName(stop)}`, margin, y);
+    y += 14;
+
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(9);
+    doc.text(detailLines, margin, y);
+    y += detailLines.length * 11;
+    doc.text(`Arrive ~${arrival} · ${stop.legKm.toFixed(1)} km from previous stop`, margin, y);
+    y += 20;
+  });
+
+  doc.save(`${tourFileBaseName()}.pdf`);
 }
 
 function initTourPlanner() {
@@ -1682,6 +2166,7 @@ function initTourPlanner() {
       tourState.centerLabel = result.displayName.split(',').slice(0, 3).join(',');
       setTourStatus(`Starting point set: ${tourState.centerLabel}`);
       focusMapOnTourCenter();
+      renderTourResults();
     } catch (err) {
       setTourStatus(err.message || 'Could not find that location.', true);
     }
@@ -1708,6 +2193,7 @@ function initTourPlanner() {
           if (locationInput) locationInput.value = '';
           setTourStatus('Starting point set to your current location.');
           focusMapOnTourCenter(14);
+          renderTourResults();
         },
         err => setTourStatus(`Could not get your location: ${err.message}`, true)
       );
@@ -1723,6 +2209,86 @@ function initTourPlanner() {
       if (!text) return;
       copyText(text, copyPromptBtn, 'Prompt copied!');
     });
+  }
+
+  const stopListEl = document.getElementById('tour-stop-list');
+  if (stopListEl) {
+    stopListEl.addEventListener('click', e => {
+      const btn = e.target.closest('button[data-tour-action]');
+      if (!btn) return;
+      const index = parseInt(btn.dataset.index, 10);
+      const action = btn.dataset.tourAction;
+      if (action === 'up') moveStop(index, -1);
+      else if (action === 'down') moveStop(index, 1);
+      else if (action === 'remove') removeStop(index);
+    });
+  }
+
+  const addStopBtn = document.getElementById('tour-add-stop-btn');
+  const addNameInput = document.getElementById('tour-add-name');
+  const addAddressInput = document.getElementById('tour-add-address');
+  if (addStopBtn) addStopBtn.addEventListener('click', () => addCustomStop());
+  if (addAddressInput) {
+    addAddressInput.addEventListener('keydown', e => {
+      if (e.key === 'Enter') { e.preventDefault(); addCustomStop(); }
+    });
+  }
+  if (addNameInput) {
+    addNameInput.addEventListener('keydown', e => {
+      if (e.key === 'Enter') { e.preventDefault(); addCustomStop(); }
+    });
+  }
+
+  const saveBtn = document.getElementById('tour-save-btn');
+  const shareBtn = document.getElementById('tour-share-btn');
+  const printBtn = document.getElementById('tour-print-btn');
+  if (saveBtn) saveBtn.addEventListener('click', saveTourPrompt);
+  if (shareBtn) shareBtn.addEventListener('click', () => shareTour(shareBtn));
+  if (printBtn) printBtn.addEventListener('click', printTour);
+
+  const exportMenu = document.querySelector('.tour-export-menu');
+  const exportHtmlBtn = document.getElementById('tour-export-html-btn');
+  const exportPdfBtn = document.getElementById('tour-export-pdf-btn');
+  const exportWordBtn = document.getElementById('tour-export-word-btn');
+  const closeExportMenu = () => { if (exportMenu) exportMenu.open = false; };
+  if (exportHtmlBtn) exportHtmlBtn.addEventListener('click', () => { exportTourHtml(); closeExportMenu(); });
+  if (exportPdfBtn) exportPdfBtn.addEventListener('click', () => { exportTourPdf(); closeExportMenu(); });
+  if (exportWordBtn) exportWordBtn.addEventListener('click', () => { exportTourWord(); closeExportMenu(); });
+  document.addEventListener('click', e => {
+    if (exportMenu && exportMenu.open && !exportMenu.contains(e.target)) exportMenu.open = false;
+  });
+
+  const savedListEl = document.getElementById('tour-saved-list');
+  if (savedListEl) {
+    savedListEl.addEventListener('click', e => {
+      const openBtn = e.target.closest('button[data-open-tour]');
+      const deleteBtn = e.target.closest('button[data-delete-tour]');
+      if (openBtn) {
+        const tour = getSavedTours().find(t => t.id === openBtn.dataset.openTour);
+        if (tour) {
+          applyTourData(tour.data);
+          setTourStatus(`Loaded "${tour.label}".`);
+        }
+      } else if (deleteBtn) {
+        setSavedTours(getSavedTours().filter(t => t.id !== deleteBtn.dataset.deleteTour));
+        renderSavedTours();
+      }
+    });
+  }
+
+  renderSavedTours();
+
+  // Parsed with a plain regex rather than URLSearchParams — the base64
+  // payload can contain literal '+' characters, which URLSearchParams
+  // (application/x-www-form-urlencoded semantics) would decode as spaces.
+  const hashMatch = /^#tour=(.+)$/.exec(location.hash);
+  if (hashMatch) {
+    try {
+      applyTourData(decodeTourData(hashMatch[1]));
+      setTourStatus(`Loaded shared tour${tourState.centerLabel ? ': ' + tourState.centerLabel : ''}.`);
+    } catch (err) {
+      console.error('Failed to load tour from link:', err);
+    }
   }
 }
 

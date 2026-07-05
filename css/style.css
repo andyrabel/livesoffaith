@@ -241,7 +241,7 @@ main {
 
 .tour-stop-item {
   display: grid;
-  grid-template-columns: 22px 48px 1fr;
+  grid-template-columns: 22px 48px 1fr auto;
   gap: 0.6rem;
   align-items: flex-start;
   padding: 0.55rem 0;
@@ -252,6 +252,140 @@ main {
 
 .tour-stop-item:last-child {
   border-bottom: none;
+}
+
+.tour-stop-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.tour-stop-btn {
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+.tour-stop-btn:hover:not(:disabled) {
+  background: var(--border-light);
+  color: var(--text);
+}
+
+.tour-stop-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.tour-stop-btn--remove:hover:not(:disabled) {
+  background: #f4dcd9;
+  color: #a3372f;
+  border-color: #e3b5af;
+}
+
+.tour-add-stop {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.75rem 0;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--border-light);
+}
+
+.tour-saved {
+  background: var(--gold-light);
+  border: 1px solid #d4b565;
+  border-radius: var(--radius);
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.75rem;
+}
+
+.tour-saved__title {
+  font-size: 0.85rem;
+  margin: 0 0 0.4rem;
+  color: var(--gold);
+}
+
+.tour-saved-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.tour-saved-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.82rem;
+}
+
+.tour-saved-label {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.tour-saved-date {
+  color: var(--text-muted);
+  font-size: 0.76rem;
+}
+
+.tour-results__actions[aria-disabled="true"],
+.btn[aria-disabled="true"] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.tour-export-menu {
+  position: relative;
+}
+
+.tour-export-menu > summary {
+  list-style: none;
+}
+
+.tour-export-menu > summary::-webkit-details-marker {
+  display: none;
+}
+
+.tour-export-menu__panel {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 4px);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  min-width: 170px;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.tour-export-menu__item {
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 0.55rem 0.8rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.85rem;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.tour-export-menu__item:hover {
+  background: var(--border-light);
 }
 
 .tour-stop-number {
@@ -276,7 +410,9 @@ main {
 
 .tour-results__actions {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
+  gap: 0.5rem;
 }
 
 .tour-stop-icon span,

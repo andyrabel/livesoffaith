@@ -96,6 +96,11 @@
         <h2 class="tour-planner__title">&#129517; Plan a Tour</h2>
         <p class="tour-planner__intro">Pick a starting point, how you're getting around, and how much time you have. We'll suggest a route through nearby memorials — or build a prompt you can paste into your favourite AI chat for a richer itinerary.</p>
 
+        <div id="tour-saved" class="tour-saved" hidden>
+          <h3 class="tour-saved__title">Saved Tours</h3>
+          <ul id="tour-saved-list" class="tour-saved-list"></ul>
+        </div>
+
         <div class="tour-planner__row">
           <label for="tour-location" class="sr-only">Starting location</label>
           <input type="text" id="tour-location" class="filter-input tour-location-input" placeholder="City or address, e.g. London, UK" autocomplete="off">
@@ -145,7 +150,29 @@
         <div id="tour-results" class="tour-results" hidden>
           <div id="tour-summary" class="tour-summary"></div>
           <ol id="tour-stop-list" class="tour-stop-list"></ol>
+
+          <div class="tour-add-stop">
+            <label for="tour-add-name" class="sr-only">New stop name</label>
+            <input type="text" id="tour-add-name" class="filter-input" placeholder="Stop name, e.g. Lunch at The Bell Inn">
+            <label for="tour-add-address" class="sr-only">New stop address</label>
+            <input type="text" id="tour-add-address" class="filter-input" placeholder="Address or place">
+            <button type="button" id="tour-add-stop-btn" class="btn btn-secondary">+ Add Stop</button>
+          </div>
+
           <div class="tour-results__actions">
+            <button type="button" id="tour-save-btn" class="btn btn-secondary">Save Tour</button>
+            <button type="button" id="tour-share-btn" class="btn btn-secondary">Share / Message</button>
+            <button type="button" id="tour-print-btn" class="btn btn-secondary">Print</button>
+            <a id="tour-gmaps-link" class="btn btn-secondary" href="#" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+            <a id="tour-amaps-link" class="btn btn-secondary" href="#" target="_blank" rel="noopener noreferrer">Open in Apple Maps</a>
+            <details class="tour-export-menu">
+              <summary class="btn btn-secondary">Export &#9662;</summary>
+              <div class="tour-export-menu__panel">
+                <button type="button" id="tour-export-html-btn" class="tour-export-menu__item">Web Page (.html)</button>
+                <button type="button" id="tour-export-pdf-btn" class="tour-export-menu__item">PDF (.pdf)</button>
+                <button type="button" id="tour-export-word-btn" class="tour-export-menu__item">Word (.doc)</button>
+              </div>
+            </details>
             <button type="button" id="tour-copy-prompt-btn" class="btn btn-copy">Copy AI Prompt</button>
           </div>
         </div>
@@ -164,6 +191,9 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/4.0.0/jspdf.umd.min.js"
+          integrity="sha512-RrsL9D48EoJRt9uznAsZqCH7HBDJk+hLW0WzfcU8RMdQUC6QJ3PfMz6n9kwl0TjoU2moqv+krh89HrgItCZ5zw=="
+          crossorigin="anonymous"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
