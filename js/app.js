@@ -2081,11 +2081,16 @@ function buildGoogleMapsUrl() {
 function buildAppleMapsUrl() {
   const { center, route, transport } = tourState;
   if (!center || !route || !route.stops.length) return '';
-  const dirflg = transport === 'drive' ? 'd' : transport === 'transit' ? 'r' : 'w';
-  const params = new URLSearchParams({ saddr: `${center.lat},${center.lng}`, dirflg });
-  let url = `https://maps.apple.com/?${params.toString()}`;
-  route.stops.forEach(stop => { url += `&daddr=${stop.memorial.lat},${stop.memorial.lng}`; });
-  return url;
+  const mode = transport === 'drive' ? 'driving' : transport === 'transit' ? 'transit' : 'walking';
+  const last = route.stops[route.stops.length - 1];
+  const middle = route.stops.slice(0, -1);
+  const params = new URLSearchParams({
+    source: `${center.lat},${center.lng}`,
+    destination: `${last.memorial.lat},${last.memorial.lng}`,
+    mode,
+  });
+  middle.forEach(stop => params.append('waypoint', `${stop.memorial.lat},${stop.memorial.lng}`));
+  return `https://maps.apple.com/directions?${params.toString()}`;
 }
 
 function updateMapExportLinks() {
