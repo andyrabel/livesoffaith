@@ -221,6 +221,20 @@ main {
   color: #a3372f;
 }
 
+.tour-planner__feedback {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 1rem 0 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.tour-planner__feedback a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .tour-results {
   border-top: 1px solid var(--border-light);
   padding-top: 0.75rem;
