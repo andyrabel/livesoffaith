@@ -1369,6 +1369,29 @@ main {
   background: var(--border-light);
 }
 
+/* --- Map jump-to-location search (distinct from Tour Planner) --- */
+.map-jump {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.map-jump__input {
+  flex: 1;
+}
+
+.map-jump__status {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: 0 0 0.75rem;
+  min-height: 1.1em;
+}
+
+.map-jump__status.is-error {
+  color: #a3372f;
+}
+
 /* --- Marker type legend --------------------------------------- */
 .map-legend {
   display: flex;
@@ -1515,75 +1538,6 @@ main {
   font-size: 0.74rem;
 }
 
-/* --- Section Divider (map page) ----------------------------- */
-.section-divider {
-  border: none;
-  border-top: 1px solid var(--border);
-  margin: 1.5rem 0;
-}
-
-/* --- Memorial List Section (map page) ------------------------ */
-.memorial-list-section {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 0.9rem 1rem 1.1rem;
-  box-shadow: var(--shadow);
-}
-
-.memorial-list-section__title {
-  font-size: 1.05rem;
-  margin: 0 0 0.75rem;
-}
-
-/* --- Memorial List (map page) ------------------------------- */
-.memorial-list-page {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.pagination {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 1.25rem;
-}
-
-.pagination__status {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 0.82rem;
-  color: var(--text-muted);
-}
-
-.pagination button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.memorial-region-group h2 {
-  font-size: 1.1rem;
-  margin-bottom: 0.6rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.map-list-item {
-  display: grid;
-  grid-template-columns: 48px 1fr auto;
-  gap: 0.75rem;
-  align-items: center;
-  padding: 0.6rem 0;
-  border-bottom: 1px solid var(--border-light);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 0.85rem;
-}
-
-.map-list-item:last-child {
-  border-bottom: none;
-}
-
 .map-list-portrait {
   width: 48px;
   height: 48px;
@@ -1624,37 +1578,8 @@ main {
   font-size: 0.8rem;
 }
 
-.map-list-actions {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-  align-items: flex-end;
-  font-size: 0.78rem;
-  white-space: nowrap;
-}
-
-.map-list-actions button {
-  background: none;
-  border: none;
-  color: var(--accent);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  cursor: pointer;
-  font-size: 0.78rem;
-  font-family: inherit;
-  padding: 0;
-}
-
 @media (max-width: 480px) {
   .memorial-map { height: 360px; }
-  .map-list-item {
-    grid-template-columns: 40px 1fr;
-    grid-template-areas: "img name" "img meta" ". actions";
-  }
-  .map-list-portrait, .map-list-portrait-placeholder { grid-area: img; }
-  .map-list-name { grid-area: name; }
-  .map-list-meta { grid-area: meta; }
-  .map-list-actions { grid-area: actions; align-items: flex-start; flex-direction: row; gap: 0.75rem; }
 }
 
 /* --- Loading ----------------------------------------------- */

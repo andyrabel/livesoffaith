@@ -1026,13 +1026,7 @@ function flashButton(button, msg, isError) {
 
 const mapState = {
   search: '',
-  region: '',
-  type: '',
-  source: '',
-  page: 1,
 };
-
-const MEMORIALS_PER_PAGE = 15;
 
 let leafletMap = null;
 let markerClusterGroup = null;
@@ -1079,14 +1073,9 @@ function getAllMapEntries() {
 }
 
 function filterMemorialEntries(entries) {
-  const { search, region, type, source } = mapState;
-  return entries.filter(entry => {
-    if (source && entry.kind !== source) return false;
-    if (search && !entryName(entry).toLowerCase().includes(search.toLowerCase())) return false;
-    if (region && entry.region !== region) return false;
-    if (type && entry.memorial.type !== type) return false;
-    return true;
-  });
+  const { search } = mapState;
+  if (!search) return entries;
+  return entries.filter(entry => entryName(entry).toLowerCase().includes(search.toLowerCase()));
 }
 
 function mapPopupHtml(entry) {
@@ -1139,80 +1128,6 @@ function renderMapMarkers(entries) {
   });
 }
 
-function renderMemorialListPage(entries) {
-  const container = document.getElementById('memorial-list-page');
-  if (!container) return;
-
-  if (!entries.length) {
-    container.innerHTML = '<div class="no-results">No memorials or places match your current filters.</div>';
-    return;
-  }
-
-  const byRegion = new Map();
-  entries
-    .slice()
-    .sort((a, b) => entryName(a).localeCompare(entryName(b)))
-    .forEach(entry => {
-      const region = entry.region;
-      if (!byRegion.has(region)) byRegion.set(region, []);
-      byRegion.get(region).push(entry);
-    });
-
-  const regions = Array.from(byRegion.keys()).sort();
-
-  container.innerHTML = regions.map(region => {
-    const items = byRegion.get(region).map(entry => {
-      const { memorial, key } = entry;
-      const profileUrl = entryProfileUrl(entry);
-      const isPerson = entry.kind === 'person';
-      const portrait = entryThumbHtml(entry, 'map-list-portrait', 'map-list-portrait-placeholder');
-      const nameHtml = profileUrl
-        ? `<a href="${escapeHtml(profileUrl)}" ${isPerson ? '' : 'target="_blank" rel="noopener noreferrer"'}>${escapeHtml(entryName(entry))}</a>`
-        : escapeHtml(entryName(entry));
-
-      return `
-        <li class="map-list-item">
-          ${portrait}
-          <div>
-            <div class="map-list-name">${nameHtml}</div>
-            <div class="map-list-meta">${escapeHtml(memorialTypeLabel(memorial.type))} &middot; ${escapeHtml(memorial.name)} ${accessBadgeHtml(memorial)}</div>
-            <div class="map-list-meta">${escapeHtml(memorial.address)}</div>
-          </div>
-          <div class="map-list-actions">
-            <button type="button" data-locate-key="${escapeHtml(key)}">View on map &#8593;</button>
-            <a href="${directionsUrl(memorial)}" target="_blank" rel="noopener noreferrer">Directions</a>
-          </div>
-        </li>
-      `;
-    }).join('');
-
-    return `
-      <div class="memorial-region-group">
-        <h2>${escapeHtml(region)}</h2>
-        <ul class="memorial-list">${items}</ul>
-      </div>
-    `;
-  }).join('');
-
-  container.querySelectorAll('[data-locate-key]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const marker = markersByKey.get(btn.dataset.locateKey);
-      if (!marker) return;
-      document.getElementById('memorial-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
-      leafletMap.setView(marker.getLatLng(), 12);
-      markerClusterGroup.zoomToShowLayer(marker, () => marker.openPopup());
-    });
-  });
-}
-
-function updateMapResultsCount(count, total) {
-  const el = document.getElementById('map-results-count');
-  if (!el) return;
-  el.textContent = count === total
-    ? `Showing all ${total} ${total === 1 ? 'location' : 'locations'}`
-    : `Showing ${count} of ${total} ${total === 1 ? 'location' : 'locations'}`;
-}
-
 function renderMapLegend() {
   const el = document.getElementById('map-legend');
   if (!el) return;
@@ -1227,50 +1142,9 @@ function renderMapLegend() {
   }).join('');
 }
 
-function paginateEntries(entries, page, perPage) {
-  const totalPages = Math.max(1, Math.ceil(entries.length / perPage));
-  const clampedPage = Math.min(Math.max(1, page), totalPages);
-  const start = (clampedPage - 1) * perPage;
-  return { pageItems: entries.slice(start, start + perPage), totalPages, page: clampedPage };
-}
-
-function renderMemorialPagination(page, totalPages) {
-  const nav = document.getElementById('memorial-pagination');
-  if (!nav) return;
-
-  if (totalPages <= 1) {
-    nav.innerHTML = '';
-    return;
-  }
-
-  nav.innerHTML = `
-    <button type="button" class="btn btn-secondary" id="memorial-page-prev" ${page <= 1 ? 'disabled' : ''}>&#8592; Prev</button>
-    <span class="pagination__status">Page ${page} of ${totalPages}</span>
-    <button type="button" class="btn btn-secondary" id="memorial-page-next" ${page >= totalPages ? 'disabled' : ''}>Next &#8594;</button>
-  `;
-
-  const prevBtn = document.getElementById('memorial-page-prev');
-  const nextBtn = document.getElementById('memorial-page-next');
-  const goToPage = delta => {
-    mapState.page += delta;
-    applyMapFilters();
-    const section = document.getElementById('memorial-list-section');
-    if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  };
-  if (prevBtn) prevBtn.addEventListener('click', () => goToPage(-1));
-  if (nextBtn) nextBtn.addEventListener('click', () => goToPage(1));
-}
-
 function applyMapFilters() {
-  const all = getAllMapEntries();
-  const filtered = filterMemorialEntries(all);
+  const filtered = filterMemorialEntries(getAllMapEntries());
   renderMapMarkers(filtered);
-
-  const { pageItems, totalPages, page } = paginateEntries(filtered, mapState.page, MEMORIALS_PER_PAGE);
-  mapState.page = page;
-  renderMemorialListPage(pageItems);
-  renderMemorialPagination(page, totalPages);
-  updateMapResultsCount(filtered.length, all.length);
 }
 
 function initMapPage() {
@@ -1295,58 +1169,8 @@ function initMapPage() {
     if (person) mapState.search = person.name;
   }
 
-  const searchInput = document.getElementById('map-search-input');
-  const regionSelect = document.getElementById('map-filter-region');
-  const typeSelect = document.getElementById('map-filter-type');
-  const sourceSelect = document.getElementById('map-filter-source');
-  const clearBtn = document.getElementById('map-clear-filters');
-
-  if (searchInput) {
-    searchInput.value = mapState.search;
-    searchInput.addEventListener('input', () => {
-      mapState.search = searchInput.value;
-      mapState.page = 1;
-      applyMapFilters();
-    });
-  }
-  if (regionSelect) {
-    regionSelect.addEventListener('change', () => {
-      mapState.region = regionSelect.value;
-      mapState.page = 1;
-      applyMapFilters();
-    });
-  }
-  if (typeSelect) {
-    typeSelect.addEventListener('change', () => {
-      mapState.type = typeSelect.value;
-      mapState.page = 1;
-      applyMapFilters();
-    });
-  }
-  if (sourceSelect) {
-    sourceSelect.addEventListener('change', () => {
-      mapState.source = sourceSelect.value;
-      mapState.page = 1;
-      applyMapFilters();
-    });
-  }
-  if (clearBtn) {
-    clearBtn.addEventListener('click', () => {
-      mapState.search = '';
-      mapState.region = '';
-      mapState.type = '';
-      mapState.source = '';
-      mapState.page = 1;
-      if (searchInput) searchInput.value = '';
-      if (regionSelect) regionSelect.value = '';
-      if (typeSelect) typeSelect.value = '';
-      if (sourceSelect) sourceSelect.value = '';
-      applyMapFilters();
-      leafletMap.setView([25, 10], 2);
-    });
-  }
-
   applyMapFilters();
+  initMapJumpSearch();
   initTourPlanner();
 
   if (personId && markerClusterGroup.getLayers().length) {
@@ -1359,6 +1183,42 @@ function initMapPage() {
       leafletMap.fitBounds(group.getBounds().pad(0.3));
     }
   }
+}
+
+let mapJumpMarker = null;
+
+function initMapJumpSearch() {
+  const form = document.getElementById('map-jump-form');
+  const input = document.getElementById('map-jump-input');
+  const status = document.getElementById('map-jump-status');
+  if (!form || !input || !leafletMap) return;
+
+  function setJumpStatus(message, isError) {
+    if (!status) return;
+    status.textContent = message || '';
+    status.classList.toggle('is-error', !!isError);
+  }
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    const query = input.value.trim();
+    if (!query) {
+      setJumpStatus('Type a place name to jump to.', true);
+      return;
+    }
+    setJumpStatus('Searching…');
+    try {
+      const result = await geocodeLocation(query);
+      leafletMap.setView([result.lat, result.lng], 11);
+      if (mapJumpMarker) leafletMap.removeLayer(mapJumpMarker);
+      mapJumpMarker = L.marker([result.lat, result.lng]).addTo(leafletMap);
+      const label = result.displayName.split(',').slice(0, 3).join(',');
+      mapJumpMarker.bindPopup(escapeHtml(label)).openPopup();
+      setJumpStatus(`Showing ${label}.`);
+    } catch (err) {
+      setJumpStatus(err.message || 'Could not find that place.', true);
+    }
+  });
 }
 
 // ============================================================
