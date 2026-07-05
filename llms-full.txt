@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-04. 136 people.
+Generated 2026-07-04. 139 people.
 
 ---
 
@@ -147,6 +147,22 @@ Fuller grew up under the shadow of 'hyper-Calvinism' — a teaching, common amon
 That conviction bore fruit directly: in 1792, Fuller helped found the Baptist Missionary Society at Kettering, and became its first secretary, tirelessly raising support so that his friend William Carey could sail for India as its first missionary.
 
 Fuller buried eight of his eleven children and his first wife, and was worn down by decades of unpaid, exhausting labour for the Society. He died in 1815, having spent his life insisting that the gospel is genuinely good news — for everyone who will simply believe it.
+
+---
+
+## Andrew Murray (1828–1917)
+
+URL: https://livesoffaith.org/person.html?id=andrew-murray
+Wikipedia: https://en.wikipedia.org/wiki/Andrew_Murray_(minister)
+Nationality: South African · Tradition: Dutch Reformed Church (NGK) · Region: Africa · Era: 19th Century
+Topics: prayer, surrender, holiness, conversion, grace, healing
+Note: Murray was a leading figure in the Keswick ‘Higher Life’ holiness movement and, in his 1894 book The Lord thy Healer, taught that physical healing is provided for in Christ's atonement alongside — not instead of — ordinary medical care. This healing-in-the-atonement teaching is not shared across evangelical traditions and should be distinguished from the very different, later prosperity-gospel teaching on healing and wealth.
+
+Andrew Murray was born in 1828 in Graaff-Reinet, Cape Colony, son of a Scottish-born Dutch Reformed minister. Sent to Scotland and then the Netherlands for his education, he seemed outwardly religious as a young theology student at Utrecht — but inwardly he knew he was not converted. In 1845 conviction took hold, and he wrote home that their son had been “born again,” not through any advantage of his upbringing, but by grace laid hold of through faith alone.
+
+Ordained in 1848, Murray became the first minister of the newly formed congregation at Bloemfontein at just twenty. He went on to pastor at Worcester, at Cape Town’s Groote Kerk, and finally at Wellington for thirty-five years, and was a central figure in South Africa’s 1860 revival. He founded the Huguenot Seminary for women and helped begin what became the South African General Mission, and wrote more than two hundred books and devotional works — among them Abide in Christ, With Christ in the School of Prayer, and Waiting on God — pressing believers toward daily surrender to Christ and constant, dependent prayer.
+
+Murray’s own testimony ran through everything he taught: religious upbringing, ministerial office, and disciplined habit are not the same as new life in Christ. What saves is not a minister’s son doing a minister’s duties, but a sinner brought, by grace through faith, to abide in Christ — the message he pressed on others for seventy years because he had first needed it himself.
 
 ---
 
@@ -1485,6 +1501,21 @@ In 1998, at eighty years old, Zamperini returned to Japan hoping to personally f
 
 ---
 
+## Manche Masemola (c. 1913–c. 1928)
+
+URL: https://livesoffaith.org/person.html?id=manche-masemola
+Wikipedia: https://en.wikipedia.org/wiki/Manche_Masemola
+Nationality: South African (Pedi) · Tradition: Anglican (Community of the Resurrection mission) · Region: Africa · Era: 20th Century
+Topics: martyrdom, persecution, faith, courage
+
+Manche Masemola was born around 1913 among the Pedi people of Sekhukhuneland, in what is now Limpopo Province, South Africa. As a girl of about fourteen, she began attending catechism classes at a nearby Anglican mission alongside her cousin Lucia, preparing for baptism.
+
+Her parents, holding to traditional religion, strongly opposed her new faith and forbade her from continuing. Manche would not give it up. Tradition holds that she said she would be baptized in her own blood if she could not be baptized in water — words that testify to a trust in Christ that did not wait for the sacrament to be genuine. Around 1928, her parents took her to a remote hillside and killed her rather than let her go on as a Christian. She died a catechumen, unbaptized, but not without faith.
+
+Within a generation, other Pedi believers — eventually including Manche’s own mother — came to faith in the Christ she had refused to deny. The Anglican Church later recognised her as a martyr, and in 1998 a statue of her was placed among ten twentieth-century martyrs above the west door of Westminster Abbey. Pilgrims still visit her grave each year, remembering not a girl’s own courage, but the Christ who was sufficient to save her before a single drop of water ever touched her.
+
+---
+
 ## Martin Luther (1483–1546)
 
 URL: https://livesoffaith.org/person.html?id=martin-luther
@@ -2025,6 +2056,22 @@ Thomas Watson (c.1620–1686) was an English Puritan minister educated at Emmanu
 He is known chiefly for three books. A Body of Divinity — sermons on the Westminster Shorter Catechism — remains one of the clearest introductions to Reformed theology in the English language, opening with the question "What is the chief end of man?" and demonstrating that doctrine is not abstract but immediately connected to worship. All Things for Good meditates on Romans 8:28 with the authority of a man who had lost his living; The Doctrine of Repentance carefully distinguishes genuine repentance from its counterfeits.
 
 Watson died suddenly while in prayer at Barnston, Essex in 1686. He was Reformed in theology, Puritan in devotion, and pastoral in care for ordinary believers — always intent on helping them understand not just what they believed, but how to tell whether they had the real thing.
+
+---
+
+## Tiyo Soga (c. 1829–1871)
+
+URL: https://livesoffaith.org/person.html?id=tiyo-soga
+Wikipedia: https://en.wikipedia.org/wiki/Tiyo_Soga
+Nationality: South African (Xhosa) · Tradition: United Presbyterian Church of Scotland · Region: Africa · Era: 19th Century
+Topics: missions, translation, perseverance, suffering
+Hymns: Lizalis' idinga lakho (Fulfil Your Promise)
+
+Tiyo Soga was born in May 1829 in the Tyhume valley of the Cape Colony, in present-day South Africa, the son of a counsellor to a Xhosa chief. Educated at the Scottish mission school at Lovedale and then sent to Glasgow, Scotland, he was baptized there in 1848, making a personal profession of faith in Christ far from home.
+
+Soga became the first black South African to matriculate at a British university, studying at Glasgow from 1851, and in 1856 the first black South African ordained as a Christian minister, in the United Presbyterian Church of Scotland. He returned home with his Scottish wife, Janet Burnside, to found mission stations at Mgwali and later Tutura. There he translated Bunyan’s Pilgrim’s Progress and portions of Scripture into Xhosa — work that shaped Xhosa Christian literature for generations, alongside hymns he composed in his own language.
+
+In July 1857, soon after his return, Soga wrote a hymn, “Lizalis’ idinga lakho” (“Fulfil Your Promise”), pleading for God’s Spirit to be poured out on Africa. Still sung in South African churches today, it holds together the two loyalties of his whole life: a Xhosa son’s love for his own people, and a converted sinner’s confidence that salvation belongs to Christ alone, freely offered to every nation under heaven.
 
 ---
 

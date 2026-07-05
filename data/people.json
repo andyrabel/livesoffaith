@@ -7933,10 +7933,10 @@
     "image": {
       "file": "john-charles-ryle.jpg",
       "prompt_used": "Photorealistic portrait of John Charles Ryle, English Anglican bishop, mid-to-late 19th century, wearing black clerical coat, stern and dignified expression, historically accurate to Victorian Church of England dress",
-      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:J._C._Ryle.jpg — 1859 photograph, private collection; public domain (life+70 rule, pre-1931)",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:JCRylePhoto.jpg — photograph by Herbert Rose Barraud, published 1888, National Portrait Gallery London (NPG Ax5420); public domain (PD-old-100-expired)",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": true,
-      "redistribution_note": "1859 photograph, public domain (life+70 rule), no caveat."
+      "redistribution_safe": false,
+      "redistribution_note": "NPG carries a 'sweat of the brow' copyright claim on this reproduction despite PD-old status — reference only, do not repost the source photo."
     },
     "review": {
       "human_reviewed": false,
@@ -11405,6 +11405,294 @@
         "address": "Yanghwajin Foreign Missionary Cemetery, Mapo District, Seoul, South Korea",
         "lat": 37.546,
         "lng": 126.91
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "andrew-murray",
+    "name": "Andrew Murray",
+    "born": 1828,
+    "born_approximate": false,
+    "died": 1917,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "May 9, 1828",
+        "event": "birth",
+        "details": "Born in Graaff-Reinet, Cape Colony, son of a Dutch Reformed minister."
+      },
+      {
+        "date": "Nov 14, 1845",
+        "event": "saved",
+        "details": "Wrote to his parents from Utrecht, Netherlands, that he had been born again."
+      },
+      {
+        "date": "May 9, 1848",
+        "event": "other",
+        "details": "Ordained in the Dutch Reformed Church by the Hague Committee."
+      },
+      {
+        "date": "1874",
+        "event": "other",
+        "details": "Founded the Huguenot Seminary for women in Wellington, Cape Colony."
+      },
+      {
+        "date": "1894",
+        "event": "other",
+        "details": "Published The Lord thy Healer, teaching that healing is provided for in Christ's atonement."
+      },
+      {
+        "date": "Jan 18, 1917",
+        "event": "death",
+        "details": "Died in Wellington, Cape Colony, South Africa, aged 88."
+      }
+    ],
+    "nationality": "South African",
+    "era": "19th Century",
+    "region": "Africa",
+    "tradition": "Dutch Reformed Church (NGK)",
+    "flagged": true,
+    "footnote": "Murray was a leading figure in the Keswick ‘Higher Life’ holiness movement and, in his 1894 book The Lord thy Healer, taught that physical healing is provided for in Christ's atonement alongside — not instead of — ordinary medical care. This healing-in-the-atonement teaching is not shared across evangelical traditions and should be distinguished from the very different, later prosperity-gospel teaching on healing and wealth.",
+    "topics": [
+      "prayer",
+      "surrender",
+      "holiness",
+      "conversion",
+      "grace",
+      "healing"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Murray_(minister)",
+    "source_summary": "Andrew Murray (1828–1917) was a South African Dutch Reformed pastor and prolific devotional writer, ordained in 1848 and pastoring in Bloemfontein, Worcester, Cape Town, and finally Wellington for 35 years. A central figure in South Africa's 1860 revival, he wrote over 200 books — among them Abide in Christ, With Christ in the School of Prayer, and The Lord thy Healer — and founded the Huguenot Seminary and helped begin what became the South African General Mission.",
+    "adult_story": "Andrew Murray was born in 1828 in Graaff-Reinet, Cape Colony, son of a Scottish-born Dutch Reformed minister. Sent to Scotland and then the Netherlands for his education, he seemed outwardly religious as a young theology student at Utrecht — but inwardly he knew he was not converted. In 1845 conviction took hold, and he wrote home that their son had been “born again,” not through any advantage of his upbringing, but by grace laid hold of through faith alone.\n\nOrdained in 1848, Murray became the first minister of the newly formed congregation at Bloemfontein at just twenty. He went on to pastor at Worcester, at Cape Town’s Groote Kerk, and finally at Wellington for thirty-five years, and was a central figure in South Africa’s 1860 revival. He founded the Huguenot Seminary for women and helped begin what became the South African General Mission, and wrote more than two hundred books and devotional works — among them Abide in Christ, With Christ in the School of Prayer, and Waiting on God — pressing believers toward daily surrender to Christ and constant, dependent prayer.\n\nMurray’s own testimony ran through everything he taught: religious upbringing, ministerial office, and disciplined habit are not the same as new life in Christ. What saves is not a minister’s son doing a minister’s duties, but a sinner brought, by grace through faith, to abide in Christ — the message he pressed on others for seventy years because he had first needed it himself.",
+    "family_story": "Andrew Murray was born in South Africa in 1828. His father was a pastor, and Andrew grew up going to church — but going to church is not the same as knowing Jesus.\n\nWhile studying in the Netherlands as a young man, Andrew realized this, and he gave his life to Christ. He wrote home that he had been “born again.” He became a pastor himself, serving churches in South Africa for almost sixty years, and started a school for girls.\n\nAndrew wrote many books to help people pray and grow closer to Jesus, like With Christ in the School of Prayer. He never forgot that following Jesus isn’t about being raised in the right family — it’s about trusting Him yourself.",
+    "image": {
+      "file": "andrew-murray.jpg",
+      "prompt_used": "Photorealistic portrait of Andrew Murray, South African Dutch Reformed pastor, late 19th century, wearing a dark clerical coat with white collar, dignified and thoughtful expression, historically accurate to Cape Colony dress of the period",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Andrew_Murray.JPG — public domain (PD Mark 1.0 / PD-old), sourced via a modern publisher's author page rather than an original archival scan; use as reference only",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "File page notes possible non-PD status in some longer-copyright-term jurisdictions and traces to a modern publisher's website rather than a dated original archival file — reference only, not confirmed safe for standalone republication."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Andrew Murray",
+        "address": "Andrew Murray Dutch Reformed Church, Church Street, Wellington, Western Cape 7654, South Africa",
+        "lat": -33.6425,
+        "lng": 19.0037
+      },
+      {
+        "type": "statue",
+        "name": "Andrew Murray Statue, Wellington (unveiled 1923)",
+        "address": "Andrew Murray Dutch Reformed Church, Church Street, Wellington, Western Cape 7654, South Africa",
+        "lat": -33.6419,
+        "lng": 19.0042
+      },
+      {
+        "type": "church",
+        "name": "Andrew Murray Dutch Reformed Church, Wellington",
+        "address": "Church Street, Wellington, Western Cape 7654, South Africa",
+        "lat": -33.6419,
+        "lng": 19.0042
+      },
+      {
+        "type": "church",
+        "name": "Groote Kerk, Cape Town",
+        "address": "43 Upper Adderley Street, Cape Town, Western Cape, South Africa",
+        "lat": -33.9235,
+        "lng": 18.4204
+      },
+      {
+        "type": "church",
+        "name": "NG Kerk Moederkerk, Worcester",
+        "address": "Church Square, Worcester, Western Cape, South Africa",
+        "lat": -33.6478,
+        "lng": 19.4478
+      },
+      {
+        "type": "museum",
+        "name": "Wellington Museum (Andrew Murray exhibits)",
+        "address": "Cnr Church & College Street, Wellington, Western Cape 7654, South Africa",
+        "lat": -33.6407,
+        "lng": 19.0067,
+        "open_to_public": true
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "tiyo-soga",
+    "name": "Tiyo Soga",
+    "born": 1829,
+    "born_approximate": true,
+    "died": 1871,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "May 1829",
+        "event": "birth",
+        "details": "Born at Gwali, in the Tyhume valley, Cape Colony (present-day Eastern Cape, South Africa)."
+      },
+      {
+        "date": "May 7, 1848",
+        "event": "saved",
+        "details": "Baptized and professed faith in Christ at John Street United Presbyterian Church, Glasgow."
+      },
+      {
+        "date": "Dec 10, 1856",
+        "event": "other",
+        "details": "Ordained in the United Presbyterian Church of Scotland, the first black South African ordained minister."
+      },
+      {
+        "date": "Jul 1857",
+        "event": "other",
+        "details": "Composed the Xhosa hymn ‘Lizalis’ idinga lakho’ (‘Fulfil Your Promise’)."
+      },
+      {
+        "date": "1862",
+        "event": "other",
+        "details": "Built the mission church at Mgwali, near Stutterheim, which still stands today."
+      },
+      {
+        "date": "Aug 12, 1871",
+        "event": "death",
+        "details": "Died of tuberculosis at Tutura, near Centane, Eastern Cape, South Africa."
+      }
+    ],
+    "nationality": "South African (Xhosa)",
+    "era": "19th Century",
+    "region": "Africa",
+    "tradition": "United Presbyterian Church of Scotland",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "translation",
+      "perseverance",
+      "suffering"
+    ],
+    "hymns": [
+      "Lizalis' idinga lakho (Fulfil Your Promise)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tiyo_Soga",
+    "source_summary": "Tiyo Soga (1829–1871) was a Xhosa South African who became the first black South African ordained as a Christian minister, trained in the United Presbyterian Church of Scotland. He founded mission stations at Mgwali and Tutura, translated Bunyan's Pilgrim's Progress and portions of Scripture into Xhosa, and composed the hymn 'Lizalis' idinga lakho,' still sung in South African churches today.",
+    "adult_story": "Tiyo Soga was born in May 1829 in the Tyhume valley of the Cape Colony, in present-day South Africa, the son of a counsellor to a Xhosa chief. Educated at the Scottish mission school at Lovedale and then sent to Glasgow, Scotland, he was baptized there in 1848, making a personal profession of faith in Christ far from home.\n\nSoga became the first black South African to matriculate at a British university, studying at Glasgow from 1851, and in 1856 the first black South African ordained as a Christian minister, in the United Presbyterian Church of Scotland. He returned home with his Scottish wife, Janet Burnside, to found mission stations at Mgwali and later Tutura. There he translated [[Bunyan|john-bunyan]]’s Pilgrim’s Progress and portions of Scripture into Xhosa — work that shaped Xhosa Christian literature for generations, alongside hymns he composed in his own language.\n\nIn July 1857, soon after his return, Soga wrote a hymn, “Lizalis’ idinga lakho” (“Fulfil Your Promise”), pleading for God’s Spirit to be poured out on Africa. Still sung in South African churches today, it holds together the two loyalties of his whole life: a Xhosa son’s love for his own people, and a converted sinner’s confidence that salvation belongs to Christ alone, freely offered to every nation under heaven.",
+    "family_story": "Tiyo Soga was born in South Africa in 1829. As a boy he went to a mission school run by Scottish missionaries, and later travelled to Scotland to keep studying.\n\nIn Scotland, young Tiyo put his trust in Jesus and was baptized. He became the first black South African ever ordained as a minister, then went home with his Scottish wife, Janet, to share the good news with his own people.\n\nTiyo translated [[Bunyan|john-bunyan]]'s Pilgrim's Progress and parts of the Bible into his language, Xhosa, and wrote a hymn asking God to pour out His Spirit on Africa. That hymn is still sung today — the good news of Jesus belongs to every people on earth.",
+    "image": {
+      "file": "tiyo-soga.jpg",
+      "prompt_used": "Photorealistic portrait of Tiyo Soga, Xhosa South African Presbyterian minister, mid-19th century, wearing a dark clerical coat with white collar, dignified and composed expression, historically accurate to 1850s–60s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Tiyo_Soga_-_African_nationalist_politician_of_the_Cape_Colony.jpg — tagged PD-South-Africa and CC Public Domain Mark 1.0 on Wikimedia Commons",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Tagged PD-South-Africa and CC Public Domain Mark 1.0 on Wikimedia Commons — unambiguous public-domain claim, direct Commons file."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Tiyo Soga, Tutura Uniting Presbyterian Church",
+        "address": "Tutura, near Centane, Eastern Cape, South Africa",
+        "lat": -32.65,
+        "lng": 28.8
+      },
+      {
+        "type": "monument",
+        "name": "Tiyo Soga Memorial (bust), unveiled 2011",
+        "address": "Thuthura village, near Centane, Eastern Cape, South Africa",
+        "lat": -32.65,
+        "lng": 28.8
+      },
+      {
+        "type": "church",
+        "name": "Mgwali Mission Church",
+        "address": "Mgwali (Emgwali), near Stutterheim, Eastern Cape, South Africa",
+        "lat": -32.57,
+        "lng": 27.39
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "manche-masemola",
+    "name": "Manche Masemola",
+    "born": 1913,
+    "born_approximate": true,
+    "died": 1928,
+    "died_approximate": true,
+    "significant_dates": [
+      {
+        "date": "c. 1913",
+        "event": "birth",
+        "details": "Born in Ga-Marishane, Sekhukhuneland, Transvaal (present-day Limpopo Province, South Africa)."
+      },
+      {
+        "date": "c. 1928",
+        "event": "martyred",
+        "details": "Killed by her own parents near Ga-Marishane for continuing Christian instruction against their wishes."
+      },
+      {
+        "date": "1935",
+        "event": "other",
+        "details": "First organized pilgrimage to her grave took place, a tradition that continues today."
+      },
+      {
+        "date": "1998",
+        "event": "other",
+        "details": "A statue of her was unveiled among ten twentieth-century martyrs at Westminster Abbey, London."
+      }
+    ],
+    "nationality": "South African (Pedi)",
+    "era": "20th Century",
+    "region": "Africa",
+    "tradition": "Anglican (Community of the Resurrection mission)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "persecution",
+      "faith",
+      "courage"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Manche_Masemola",
+    "source_summary": "Manche Masemola (c. 1913 – c. 1928) was a Pedi girl in Sekhukhuneland, South Africa, killed by her own parents for refusing to abandon Christian instruction at a nearby Anglican mission. She died an unbaptized catechumen and was later recognised by the Anglican Church as a martyr; a statue of her stands among ten twentieth-century martyrs at Westminster Abbey. Sources disagree on the precise year of her death (1924, 1926, or 1928) and the exact manner of her killing; the site follows the most widely cited account.",
+    "adult_story": "Manche Masemola was born around 1913 among the Pedi people of Sekhukhuneland, in what is now Limpopo Province, South Africa. As a girl of about fourteen, she began attending catechism classes at a nearby Anglican mission alongside her cousin Lucia, preparing for baptism.\n\nHer parents, holding to traditional religion, strongly opposed her new faith and forbade her from continuing. Manche would not give it up. Tradition holds that she said she would be baptized in her own blood if she could not be baptized in water — words that testify to a trust in Christ that did not wait for the sacrament to be genuine. Around 1928, her parents took her to a remote hillside and killed her rather than let her go on as a Christian. She died a catechumen, unbaptized, but not without faith.\n\nWithin a generation, other Pedi believers — eventually including Manche’s own mother — came to faith in the Christ she had refused to deny. The Anglican Church later recognised her as a martyr, and in 1998 a statue of her was placed among ten twentieth-century martyrs above the west door of Westminster Abbey. Pilgrims still visit her grave each year, remembering not a girl’s own courage, but the Christ who was sufficient to save her before a single drop of water ever touched her.",
+    "family_story": "Manche Masemola was a young girl who lived in South Africa about a hundred years ago. She started going to classes to learn about Jesus, getting ready to be baptized.\n\nHer parents did not want her to become a Christian, and told her to stop. Manche would not stop loving Jesus, even when it became dangerous. Her parents were so angry that they killed her on a lonely hillside. She was still waiting to be baptized when she died.\n\nManche never was baptized with water — but she trusted Jesus with her whole heart, and that was enough. People still visit the place where she died, and a statue of her stands in a famous church in London.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave and pilgrimage site of Manche Masemola",
+        "address": "Ga-Marishane, Sekhukhuneland, Makhuduthamaga Local Municipality, Limpopo, South Africa",
+        "lat": -24.729,
+        "lng": 29.749
+      },
+      {
+        "type": "monument",
+        "name": "Manche Masemola Memorial",
+        "address": "Ga-Marishane, Sekhukhuneland, Limpopo, South Africa",
+        "lat": -24.729,
+        "lng": 29.749
+      },
+      {
+        "type": "statue",
+        "name": "Statue of Manche Masemola, Ten Modern Martyrs",
+        "address": "Westminster Abbey, 20 Dean's Yard, London SW1P 3PA, England",
+        "lat": 51.4993,
+        "lng": -0.1273
       }
     ],
     "review": {

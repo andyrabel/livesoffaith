@@ -1266,4 +1266,30 @@
       <image:caption>Portrait of Rosetta Sherwood Hall</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=andrew-murray</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/andrew-murray.jpg</image:loc>
+      <image:caption>Portrait of Andrew Murray</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=tiyo-soga</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/tiyo-soga.jpg</image:loc>
+      <image:caption>Portrait of Tiyo Soga</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=manche-masemola</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
