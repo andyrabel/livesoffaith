@@ -6,13 +6,13 @@
   <meta name="description" content="An interactive map of physical memorials — gravestones, statues, plaques, and monuments — for Christians profiled on Lives of Faith. Plan a heritage visit or tour.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Lives of Faith">
-  <title>Map — Lives of Faith</title>
+  <title>Tour Planner — Lives of Faith</title>
   <link rel="canonical" href="https://livesoffaith.org/map.html">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://livesoffaith.org/map.html">
-  <meta property="og:title" content="Map — Lives of Faith">
+  <meta property="og:title" content="Tour Planner — Lives of Faith">
   <meta property="og:description" content="An interactive map of gravestones, statues, plaques, and monuments for Christians profiled on Lives of Faith.">
   <meta property="og:site_name" content="Lives of Faith">
   <meta property="og:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
@@ -21,7 +21,7 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Map — Lives of Faith">
+  <meta name="twitter:title" content="Tour Planner — Lives of Faith">
   <meta name="twitter:description" content="Plan a visit — gravestones, statues, and plaques for Christians profiled on Lives of Faith.">
   <meta name="twitter:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
 
@@ -33,7 +33,7 @@
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "url": "https://livesoffaith.org/map.html",
-    "name": "Map — Lives of Faith",
+    "name": "Tour Planner — Lives of Faith",
     "description": "An interactive map of physical memorials — gravestones, statues, plaques, and monuments — for Christians profiled on Lives of Faith.",
     "isPartOf": {
       "@type": "WebSite",
@@ -72,8 +72,7 @@
           </span>
         </a>
         <nav class="site-nav" aria-label="Site navigation">
-          <a href="map.html" aria-current="page">Map</a>
-          <a href="map.html#tour-planner">Tour Planner</a>
+          <a href="map.html" aria-current="page">Tour Planner</a>
           <a href="about.html">About</a>
         </nav>
       </div>
@@ -150,73 +149,6 @@
             <button type="button" id="tour-copy-prompt-btn" class="btn btn-copy">Copy AI Prompt</button>
           </div>
         </div>
-      </section>
-
-      <hr class="section-divider">
-
-      <section class="memorial-list-section" id="memorial-list-section" aria-label="Browse all memorials and places">
-        <h2 class="memorial-list-section__title">Browse All Memorials &amp; Places</h2>
-
-        <section class="search-filter" aria-label="Search and filter memorials and places">
-          <div class="search-row">
-            <label for="map-search-input" class="sr-only">Search by name</label>
-            <input
-              type="search"
-              id="map-search-input"
-              class="search-input"
-              placeholder="Search by name…"
-              autocomplete="off"
-              aria-label="Search by name"
-            >
-          </div>
-          <div class="filter-row">
-            <label for="map-filter-region" class="sr-only">Filter by region</label>
-            <select id="map-filter-region" class="filter-select" aria-label="Filter by region">
-              <option value="">All Regions</option>
-              <option value="UK/Ireland">UK / Ireland</option>
-              <option value="North America">North America</option>
-              <option value="Africa">Africa</option>
-              <option value="Asia">Asia</option>
-              <option value="Latin America">Latin America</option>
-              <option value="Europe">Europe</option>
-              <option value="Oceania">Oceania</option>
-            </select>
-
-            <label for="map-filter-type" class="sr-only">Filter by type</label>
-            <select id="map-filter-type" class="filter-select" aria-label="Filter by type">
-              <option value="">All Types</option>
-              <option value="gravestone">Gravestone</option>
-              <option value="statue">Statue</option>
-              <option value="plaque">Plaque</option>
-              <option value="monument">Monument</option>
-              <option value="window">Memorial Window</option>
-              <option value="church">Church</option>
-              <option value="museum">Museum</option>
-              <option value="library">Library</option>
-              <option value="archive">Archive</option>
-              <option value="other">Other</option>
-            </select>
-
-            <label for="map-filter-source" class="sr-only">Filter by source</label>
-            <select id="map-filter-source" class="filter-select" aria-label="Filter by source">
-              <option value="">Memorials &amp; Places</option>
-              <option value="person">Person Memorials Only</option>
-              <option value="place">Places Only</option>
-            </select>
-
-            <button id="map-clear-filters" class="btn btn-secondary" type="button">Clear Filters</button>
-          </div>
-        </section>
-
-        <div class="results-summary" aria-live="polite">
-          <p id="map-results-count"></p>
-        </div>
-
-        <div id="memorial-list-page" class="memorial-list-page" aria-label="List of physical memorials and places">
-          <div class="loading">Loading…</div>
-        </div>
-
-        <nav id="memorial-pagination" class="pagination" aria-label="Memorial list pages"></nav>
       </section>
 
     </div>
