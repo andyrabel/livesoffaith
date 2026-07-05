@@ -1,7 +1,7 @@
 [
   {
     "id": "wang-ming-dao",
-    "name": "Wang Ming Dao",
+    "name": "Wang Ming Dao 王明道",
     "born": 1900,
     "born_approximate": false,
     "died": 1991,
@@ -1717,7 +1717,7 @@
   },
   {
     "id": "john-sung",
-    "name": "John Sung",
+    "name": "John Sung 宋尚節",
     "born": 1901,
     "born_approximate": false,
     "died": 1944,
@@ -1803,7 +1803,7 @@
   },
   {
     "id": "watchman-nee",
-    "name": "Watchman Nee",
+    "name": "Watchman Nee 倪柝聲",
     "born": 1903,
     "born_approximate": false,
     "died": 1972,
@@ -9880,5 +9880,1007 @@
         "lng": -73.9924
       }
     ]
+  },
+  {
+    "id": "charles-albert-tindley",
+    "name": "Charles Albert Tindley",
+    "born": 1851,
+    "born_approximate": false,
+    "died": 1933,
+    "significant_dates": [
+      {
+        "date": "Jul 7, 1851",
+        "event": "birth",
+        "details": "Born in Berlin, Maryland, the son of an enslaved father, but born free."
+      },
+      {
+        "date": "1906",
+        "event": "other",
+        "details": "Became pastor of East Calvary Methodist Episcopal Church, Philadelphia."
+      },
+      {
+        "date": "1916",
+        "event": "other",
+        "details": "Wrote “Take Your Burden to the Lord and Leave It There.”"
+      },
+      {
+        "date": "Jul 26, 1933",
+        "event": "death",
+        "details": "Died in Philadelphia, Pennsylvania, aged 81."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Methodist Episcopal",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "gospel music",
+      "perseverance",
+      "grace",
+      "civil rights"
+    ],
+    "hymns": [
+      "I'll Overcome Someday",
+      "Stand By Me",
+      "Take Your Burden to the Lord and Leave It There",
+      "What Are They Doing in Heaven?"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Albert_Tindley",
+    "source_summary": "Charles Albert Tindley (1851-1933) was an African-American Methodist Episcopal pastor and gospel hymn composer in Philadelphia. Born free despite his father's enslavement, he taught himself to read and eventually pastored the church where he had once been a sexton, growing it from 130 to 10,000 members. His hymn \"I'll Overcome Someday\" is credited as the melodic and thematic basis for the Civil Rights anthem \"We Shall Overcome.\"",
+    "adult_story": "Charles Albert Tindley was born in 1851 in Berlin, Maryland, the son of an enslaved father, yet born free himself. After the Civil War he moved to Philadelphia, working as a hod carrier and church sexton while teaching himself to read from discarded scraps of paper. He later mastered Hebrew and Greek through independent and correspondence study and was ordained in the Methodist Episcopal Church, becoming an elder in 1889.\n\nIn 1906 he returned to the small congregation where he had once swept floors, East Calvary Methodist Episcopal Church, as its pastor. Under his preaching it grew from 130 members to more than 10,000 — Black and white worshipping side by side in a city still divided by race. He is remembered today as the father of American gospel music, writing hymns that turned hard-won faith into song: “Stand By Me,” “What Are They Doing in Heaven?,” and “Take Your Burden to the Lord and Leave It There.”\n\nHis hymn “I'll Overcome Someday” later gave its melody and message to the Civil Rights anthem “We Shall Overcome.” But Tindley's “someday” was never a slogan first — it was the hope of a former sexton who knew that no burden, however heavy, could out-hope the grace that carries the weary all the way home. He did not write to be remembered; he wrote so that suffering people would keep singing of Christ until their burdens were finally, fully lifted.",
+    "family_story": "Charles Tindley was born in 1851. His father had been enslaved, but Charles was born free. He had almost no schooling, so he taught himself to read using old scraps of paper he found.\n\nCharles worked as a church janitor before he became its pastor. Under his preaching, the small church grew into a huge congregation of thousands, Black and white worshipping together.\n\nCharles wrote hymns to comfort struggling people, like “Take Your Burden to the Lord and Leave It There.” One of his songs later became the tune for “We Shall Overcome.”\n\nCharles believed that no matter how heavy life gets, Jesus can carry it — and one day, he will carry it all away.",
+    "image": {
+      "file": "charles-albert-tindley.jpg",
+      "prompt_used": "Photorealistic portrait of Charles Albert Tindley, African-American Methodist Episcopal pastor and gospel hymn composer, Philadelphia, early 20th century, wearing a dark clerical suit, dignified and warm expression, historically accurate to the 1900s-1920s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:C._A._Tindley.jpg — public domain in the US, published before 1931; courtesy General Board of Global Ministries, The United Methodist Church / Tindley Temple",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Published before 1931, unambiguous US public-domain claim, resolvable to a direct Commons file."
+    },
+    "memorials": [
+      {
+        "type": "church",
+        "name": "Tindley Temple United Methodist Church (formerly East Calvary Methodist Episcopal Church)",
+        "address": "750 S Broad St, Philadelphia, Pennsylvania, USA",
+        "lat": 39.9391,
+        "lng": -75.1691
+      },
+      {
+        "type": "gravestone",
+        "name": "Grave of Charles Albert Tindley",
+        "address": "Eden Cemetery, 1434 Springfield Rd, Collingdale, Pennsylvania, USA",
+        "lat": 39.9203,
+        "lng": -75.274
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "william-herbert-brewster",
+    "name": "William Herbert Brewster Sr.",
+    "born": 1897,
+    "born_approximate": false,
+    "died": 1987,
+    "significant_dates": [
+      {
+        "date": "Jul 2, 1897",
+        "event": "birth",
+        "details": "Born on a sharecropping farm near Somerville, Tennessee."
+      },
+      {
+        "date": "1930",
+        "event": "other",
+        "details": "Became pastor of East Trigg Avenue Baptist Church, Memphis."
+      },
+      {
+        "date": "1946",
+        "event": "other",
+        "details": "Wrote “Move On Up a Little Higher,” recorded by Mahalia Jackson, the first gospel record to sell a million copies."
+      },
+      {
+        "date": "Oct 15, 1987",
+        "event": "death",
+        "details": "Died in Memphis, Tennessee, aged 90."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Baptist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "gospel music",
+      "hope",
+      "grace",
+      "civil rights"
+    ],
+    "hymns": [
+      "Move On Up a Little Higher",
+      "Surely, God Is Able",
+      "Let Us Go Back to the Old Landmark"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/William_Herbert_Brewster,_Sr.",
+    "source_summary": "William Herbert Brewster Sr. (1897-1987) was a Baptist pastor in Memphis, Tennessee, and a pioneering gospel songwriter who composed over 200 songs and staged early African American religious musical dramas. His 1946 song \"Move On Up a Little Higher,\" recorded by Mahalia Jackson, was the first gospel record to sell a million copies. A young Elvis Presley attended his church and radio broadcasts.",
+    "adult_story": "William Herbert Brewster Sr. was born in 1897 on a sharecropping farm near Somerville, Tennessee, the oldest of eight children. He worked his way through Roger Williams College in Nashville and in 1930 became pastor of East Trigg Avenue Baptist Church in Memphis, a position he held for fifty-seven years.\n\nBrewster wrote more than two hundred gospel songs and staged musical dramas that combined biblical themes with the hard realities of Black life under segregation. His 1946 song “Move On Up a Little Higher,” recorded by Mahalia Jackson, became the first gospel record to sell a million copies; “Surely, God Is Able” followed with the Ward Singers in 1949. His biographer records that he “constantly preached on the theme that a better day was coming, one in which all men could walk as brothers” — a hope he grounded not in politics but in the promise of Christ, who alone lifts the lowly.\n\nA young Elvis Presley sat in Brewster's congregation and absorbed his radio broadcasts, carrying something of that sound into American popular music. But Brewster's own aim was narrower and higher: to give suffering people songs sturdy enough to stand on. “Move On Up a Little Higher” was not a call to climb by human effort — it was an invitation to the eternal reward Christ secures for those who trust him, sung by people who had precious little reason to hope in anything else.",
+    "family_story": "William Brewster grew up on a farm in Tennessee, the oldest of eight children of sharecroppers. He worked hard to get an education and became a pastor in Memphis in 1930, staying there the rest of his life.\n\nHe wrote more than two hundred gospel songs, including “Move On Up a Little Higher,” the first gospel record ever to sell a million copies. He also wrote plays telling Bible stories through gospel music.\n\nBrewster preached that a better day was coming — not through fighting, but through the hope Jesus gives. A young Elvis Presley once sat in his church and heard him sing.\n\nBrewster's songs still remind us: heaven's reward doesn't come from climbing higher ourselves. It comes from Christ.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "church",
+        "name": "East Trigg Avenue Baptist Church",
+        "address": "1315 S Bellevue Blvd, Memphis, Tennessee, USA",
+        "lat": 35.1128,
+        "lng": -90.0384
+      },
+      {
+        "type": "gravestone",
+        "name": "Grave of William Herbert Brewster Sr.",
+        "address": "New Park Cemetery, Memphis, Tennessee, USA",
+        "lat": 35.0779,
+        "lng": -90.0201
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "andrae-crouch",
+    "name": "Andraé Crouch",
+    "born": 1942,
+    "born_approximate": false,
+    "died": 2015,
+    "significant_dates": [
+      {
+        "date": "Jul 1, 1942",
+        "event": "birth",
+        "details": "Born in Los Angeles, California, a twin to his sister Sandra."
+      },
+      {
+        "date": "1965",
+        "event": "other",
+        "details": "Formed the gospel group The Disciples."
+      },
+      {
+        "date": "1968",
+        "event": "other",
+        "details": "Released his first album, Take the Message Everywhere."
+      },
+      {
+        "date": "Jan 8, 2015",
+        "event": "death",
+        "details": "Died in Los Angeles, California, aged 72, following a heart attack."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Pentecostal (Church of God in Christ)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "worship",
+      "grace",
+      "gospel music",
+      "healing"
+    ],
+    "hymns": [
+      "Soon and Very Soon",
+      "My Tribute (To God Be the Glory)",
+      "The Blood Will Never Lose Its Power"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Andra%C3%A9_Crouch",
+    "source_summary": "Andraé Crouch (1942-2015) was an American gospel singer, songwriter, and Church of God in Christ pastor from Pacoima, California, widely called \"the father of modern gospel music\" for blending soul, jazz, and pop into gospel. He won seven Grammy Awards and was nominated for an Oscar. After his father's death he returned to pastor the church where he grew up.",
+    "adult_story": "Andraé Crouch was born in 1942 in Los Angeles, a twin to his sister Sandra, the son of Benjamin Crouch, a Church of God in Christ minister who pastored a small congregation in Pacoima while running a dry-cleaning business to support his family. Andraé began playing piano in church services at eleven and had written his first gospel song by fourteen.\n\nThrough his group The Disciples, and later as a solo artist and producer, Crouch pioneered a style that folded soul, jazz, and pop into gospel music — work that helped create contemporary Christian music as a genre and earned him seven Grammy Awards and an Oscar nomination. Songs like “My Tribute (To God Be the Glory),” “The Blood Will Never Lose Its Power,” and “Soon and Very Soon” moved beyond church walls into hymnals and radio across denominations and continents.\n\nAfter his father's death, Crouch and Sandra returned to pastor the church that had raised them. He endured four bouts of cancer and, in his final years, congestive heart failure, dying in January 2015. His sister's parting words captured the theology behind every song he wrote: he had “gone home to be with the Lord.” Crouch never treated his gifts as his own achievement — his music consistently pointed past his own considerable talent to the God who alone deserved the tribute, the glory, and the credit for any good in it.",
+    "family_story": "Andraé Crouch grew up in Los Angeles, where his father was a pastor. Andraé started playing piano in church at eleven, and by fourteen he had written his first gospel song.\n\nHe grew up to write some of the most-loved gospel songs ever, like “Soon and Very Soon” and “My Tribute (To God Be the Glory).” His music mixed gospel with jazz and pop, helping start a whole new kind of Christian music sung today.\n\nEven though he became famous and won many awards, Andraé always said the glory belonged to God, not to him.\n\nWhen he died in 2015, his twin sister said he had simply “gone home to be with the Lord” — the Lord his songs had pointed to all along.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "church",
+        "name": "New Christ Memorial Church of God in Christ",
+        "address": "13333 Vaughn St, Pacoima, California, USA",
+        "lat": 34.2683,
+        "lng": -118.4106
+      },
+      {
+        "type": "other",
+        "name": "Pacoima Neighborhood Mural (depicting Andraé Crouch)",
+        "address": "Pacoima, California, USA",
+        "lat": 34.26,
+        "lng": -118.42
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "george-beverly-shea",
+    "name": "George Beverly Shea",
+    "born": 1909,
+    "born_approximate": false,
+    "died": 2013,
+    "significant_dates": [
+      {
+        "date": "Feb 1, 1909",
+        "event": "birth",
+        "details": "Born in Winchester, Ontario, Canada, the son of a Wesleyan Methodist minister."
+      },
+      {
+        "date": "1932",
+        "event": "other",
+        "details": "Composed the tune for “I'd Rather Have Jesus.”"
+      },
+      {
+        "date": "Nov 1947",
+        "event": "other",
+        "details": "Became the first staff member of the Billy Graham Evangelistic Association."
+      },
+      {
+        "date": "Apr 16, 2013",
+        "event": "death",
+        "details": "Died in Montreat, North Carolina, aged 104."
+      }
+    ],
+    "nationality": "Canadian-American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Wesleyan Methodist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "evangelism",
+      "faithfulness",
+      "grace",
+      "gospel"
+    ],
+    "hymns": [
+      "I'd Rather Have Jesus",
+      "The Wonder of It All"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/George_Beverly_Shea",
+    "source_summary": "George Beverly Shea (1909-2013) was a Canadian-American gospel singer who served as the first staff member of the Billy Graham Evangelistic Association from 1947 until his death, singing at Graham's crusades worldwide for over sixty years. He composed the tune for \"I'd Rather Have Jesus\" and helped popularize \"How Great Thou Art.\"",
+    "adult_story": "George Beverly Shea was born in 1909 in Winchester, Ontario, the son of a Wesleyan Methodist minister. He worked as an insurance clerk in New York while singing on NBC radio, until a friend showed him a poem, “I'd Rather Have Jesus,” and urged him to set it to music. The tune came to him in minutes at the piano — and became the song most associated with his name.\n\nIn the early 1940s Shea met a young evangelist named [[Billy Graham|billy-graham]] on a Chicago radio program; in November 1947 he became the first staff member of the Billy Graham Evangelistic Association, a partnership that lasted until his death. For more than sixty years Shea sang before Graham's crusades on every continent, reportedly performing live to more people than anyone in history, always the same deep, unadorned baritone offering the same simple invitation to trust Christ.\n\nWhen Graham first invited him to join the ministry, Shea asked whether he would be expected to talk between songs the way other gospel singers did. Graham chuckled: “I hope not.” Shea's calling was never to draw attention to his own voice but to let it fade behind the message it carried. He kept singing until he was over one hundred years old, content, as his signature song put it, to have Jesus rather than houses, or lands, or fame — and to have nothing else besides.",
+    "family_story": "George Beverly Shea was born in Canada in 1909, the son of a minister. He worked as an office clerk but loved to sing, and one day a friend gave him a poem called “I'd Rather Have Jesus.” George wrote a tune for it in minutes.\n\nLater he met a young preacher named [[Billy Graham|billy-graham]], and for over sixty years George sang at Graham's crusades worldwide. Some say more people heard him sing live than anyone else in history.\n\nEven though he became famous, George never wanted people to notice him — only to notice Jesus. He kept singing his simple songs about trusting Christ until he was over a hundred.\n\nHis favorite song said it best: he'd rather have Jesus than anything else.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of George Beverly Shea",
+        "address": "Billy Graham Library, 4330 Westmont Church Rd, Charlotte, North Carolina, USA",
+        "lat": 35.1546,
+        "lng": -80.8945
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "dottie-rambo",
+    "name": "Dottie Rambo",
+    "born": 1934,
+    "born_approximate": false,
+    "died": 2008,
+    "significant_dates": [
+      {
+        "date": "Mar 2, 1934",
+        "event": "birth",
+        "details": "Born Joyce Reba Luttrell in Madisonville, Kentucky."
+      },
+      {
+        "date": "c. 1946",
+        "event": "saved",
+        "details": "Committed her life to Christ at age twelve, against her father's wishes."
+      },
+      {
+        "date": "1950",
+        "event": "other",
+        "details": "Married Buck Rambo at a revival meeting; later formed The Singing Rambos."
+      },
+      {
+        "date": "1968",
+        "event": "other",
+        "details": "Won a Grammy Award for Best Soul Gospel Performance."
+      },
+      {
+        "date": "May 11, 2008",
+        "event": "death",
+        "details": "Died near Mount Vernon, Missouri, in a tour bus accident."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Evangelical (Southern Gospel)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "grace",
+      "suffering",
+      "forgiveness",
+      "gospel music"
+    ],
+    "hymns": [
+      "We Shall Behold Him",
+      "He Looked Beyond My Fault and Saw My Need",
+      "I Go to the Rock"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dottie_Rambo",
+    "source_summary": "Dottie Rambo (born Joyce Reba Luttrell, 1934-2008) was an American Southern Gospel singer and one of the most prolific hymn writers of the 20th century, credited with over 2,500 songs including \"We Shall Behold Him\" and \"He Looked Beyond My Fault and Saw My Need.\" She died in a tour bus accident in 2008.",
+    "adult_story": "Dottie Rambo was born Joyce Reba Luttrell in 1934 in Madisonville, Kentucky, into a poor family. At twelve she committed her life to Christ against her father's wishes and left home to pursue gospel music. At sixteen she married Buck Rambo at a revival meeting, and together with their daughter Reba they formed The Singing Rambos, touring for decades — including a 1967 tour singing for American troops in Vietnam aboard the carriers USS Kitty Hawk and USS Ticonderoga.\n\nRambo wrote more than 2,500 songs across her lifetime, among them “We Shall Behold Him,” “I Go to the Rock,” and “He Looked Beyond My Fault and Saw My Need” — a hymn whose title states the gospel outright: that Christ does not wait for us to become worthy before loving us. A ruptured disk left her temporarily paralyzed in 1987, and her marriage ended in divorce in 1994, but she kept writing until her final years, releasing new work in her sixties after a long silence.\n\nShe died in 2008 in a tour bus accident on her way to a Mother's Day concert. At her funeral, a flag that had flown over the White House was presented in her honor — a public tribute to a woman whose songs had already told the truer story: that whatever a person's fault, God looks beyond it to the need beneath, and meets that need in Christ.",
+    "family_story": "Dottie Rambo grew up poor in Kentucky. When she was just twelve, she decided to give her life to Jesus, even though her father didn't want her to. She left home to sing gospel music and never stopped.\n\nShe married young and sang with her husband and daughter as “The Singing Rambos,” even traveling to sing for soldiers during the Vietnam War. Over her life she wrote more than 2,500 songs, including “He Looked Beyond My Fault and Saw My Need.”\n\nThat song says something true about God: he doesn't wait for us to be good enough before he loves us. He looks past our mistakes and meets our need, through Jesus.\n\nDottie died in 2008, but her songs are still sung in churches everywhere.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Tomb of Dottie Rambo",
+        "address": "Woodlawn Memorial Park, 660 Thompson Ln, Nashville, Tennessee, USA",
+        "lat": 36.1161,
+        "lng": -86.7601
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "james-montgomery",
+    "name": "James Montgomery",
+    "born": 1771,
+    "born_approximate": false,
+    "died": 1854,
+    "significant_dates": [
+      {
+        "date": "Nov 4, 1771",
+        "event": "birth",
+        "details": "Born in Irvine, Scotland, the son of Moravian missionaries."
+      },
+      {
+        "date": "1794",
+        "event": "other",
+        "details": "Became editor of the Sheffield Iris newspaper."
+      },
+      {
+        "date": "1795",
+        "event": "other",
+        "details": "Imprisoned for printing a poem celebrating the fall of the Bastille."
+      },
+      {
+        "date": "Apr 30, 1854",
+        "event": "death",
+        "details": "Died in Sheffield, England, aged 82."
+      }
+    ],
+    "nationality": "British",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Moravian",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "hymn writing",
+      "abolition",
+      "justice",
+      "prayer"
+    ],
+    "hymns": [
+      "Angels from the Realms of Glory",
+      "Prayer Is the Soul's Sincere Desire",
+      "Hail to the Lord's Anointed"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/James_Montgomery_(poet)",
+    "source_summary": "James Montgomery (1771-1854) was a Scottish-born hymn writer, poet, and newspaper editor who settled in Sheffield, England. Raised in the Moravian Church after his missionary parents died, he campaigned against slavery and child labor and wrote around 400 hymns, including \"Angels from the Realms of Glory.\"",
+    "adult_story": "James Montgomery was born in 1771 in Irvine, Scotland, the son of Moravian missionaries who died in the West Indies within a year of each other while he was still a boy at Fulneck School. He settled in Sheffield, England, where he edited the newspaper the Sheffield Iris for over thirty years — a role that twice landed him in prison, once for printing a poem celebrating the fall of the Bastille, once for criticizing a local magistrate.\n\nMontgomery used his platform to campaign against slavery and against the exploitation of child chimney sweeps, convictions rooted in the same faith that shaped his poetry. Over his lifetime he wrote some four hundred hymns, several of which remain in wide use: “Angels from the Realms of Glory,” “Prayer Is the Soul's Sincere Desire,” and “Hail to the Lord's Anointed.” His hymns pair lyrical craft with plain doctrine — grace freely given, prayer as dependence rather than achievement, Christ as the anointed king before whom every human throne must eventually bow.\n\nMontgomery never married, devoting himself instead to his writing and to Sheffield's charitable and religious causes until his death in 1854. He was honored with a public funeral, and the city later raised a monument over his grave — a tribute, fittingly, to a man whose own hymns insisted that lasting honor belongs to Christ, not to the poet who sings of him.",
+    "family_story": "James Montgomery's parents were missionaries who died far from home when he was still a boy at school. He grew up to become a newspaper editor in England — a job that got him thrown in jail twice, once for a poem people thought was too rebellious.\n\nJames cared deeply about fairness. He spoke out against slavery and against sending small children to work as chimney sweeps. He also wrote about four hundred hymns, including “Angels from the Realms of Glory,” still sung at Christmas today.\n\nHis hymns always pointed to the same truth: that prayer isn't about being impressive, and that Jesus is the true King everyone will one day bow to.\n\nWhen James died, the whole city of Sheffield came to honor him.",
+    "image": {
+      "file": "james-montgomery.jpg",
+      "prompt_used": "Photorealistic portrait of James Montgomery, Scottish-born British hymn writer, poet, and newspaper editor, Sheffield England, early 19th century, wearing a dark early Victorian-era coat and cravat, thoughtful and dignified expression, historically accurate to the 1820s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Portrait_of_James_Montgomery_Esq_(4672641).jpg — 1820s stipple engraving by Henry Richard Cook, National Library of Wales Welsh Portrait Collection; Public Domain Mark 1.0",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Public Domain Mark 1.0, unambiguous, resolvable to a direct Commons file."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave and Monument of James Montgomery",
+        "address": "Sheffield General Cemetery, Cemetery Rd, Sheffield, England, UK",
+        "lat": 53.3712,
+        "lng": -1.4874
+      },
+      {
+        "type": "statue",
+        "name": "Statue of James Montgomery",
+        "address": "Sheffield Cathedral forecourt, Church St, Sheffield, England, UK",
+        "lat": 53.3822,
+        "lng": -1.4703
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "philip-doddridge",
+    "name": "Philip Doddridge",
+    "born": 1702,
+    "born_approximate": false,
+    "died": 1751,
+    "significant_dates": [
+      {
+        "date": "Jun 26, 1702",
+        "event": "birth",
+        "details": "Born in London, the last of twenty children."
+      },
+      {
+        "date": "1729",
+        "event": "other",
+        "details": "Became pastor of an independent congregation in Northampton and founded a dissenting academy."
+      },
+      {
+        "date": "1745",
+        "event": "other",
+        "details": "Published The Rise and Progress of Religion in the Soul."
+      },
+      {
+        "date": "Oct 26, 1751",
+        "event": "death",
+        "details": "Died of tuberculosis in Lisbon, Portugal, aged 49."
+      }
+    ],
+    "nationality": "English",
+    "era": "18th Century",
+    "region": "UK/Ireland",
+    "tradition": "Congregationalist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "education",
+      "grace",
+      "hymn writing",
+      "revival"
+    ],
+    "hymns": [
+      "O Happy Day",
+      "Hark the Glad Sound!",
+      "Awake, My Soul, Stretch Every Nerve",
+      "O God of Bethel"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philip_Doddridge",
+    "source_summary": "Philip Doddridge (1702-1751) was an English Congregationalist minister, educator, and hymn writer who pastored a Northampton congregation and ran a dissenting academy training ministers excluded from England's universities. He wrote over 400 hymns and the devotional classic The Rise and Progress of Religion in the Soul.",
+    "adult_story": "Philip Doddridge was born in London in 1702, the last of twenty children, and orphaned by thirteen. He was taken in by a Presbyterian minister to whom he later wrote, “To him under God I owe even myself and all my opportunities of public usefulness in the church.” He trained for ministry rather than accepting an offer to fund his studies at Cambridge, and in 1729 became pastor of an independent congregation in Northampton, where he also ran a dissenting academy that trained ministers excluded from England's universities by their nonconformity.\n\nDoddridge wrote over four hundred hymns, among them “O Happy Day,” “Hark the Glad Sound!,” and “Awake, My Soul, Stretch Every Nerve” — hymns of vigorous, active faith that nonetheless rest entirely on grace already given rather than earned. His prose work The Rise and Progress of Religion in the Soul (1745) walked readers through conversion and Christian growth so effectively that Charles Spurgeon later called it “that holy book,” and it was translated into seven languages.\n\nDoddridge died of tuberculosis in Lisbon in 1751, where he had traveled seeking a warmer climate for his health, and was buried in the city's British Cemetery. He left behind students trained for gospel ministry and hymns still sung by congregations who have long since forgotten his name — proof that the “opportunities of public usefulness” he received from grace, he spent giving grace away.",
+    "family_story": "Philip Doddridge was the youngest of twenty children, and both his parents died before he grew up. A kind minister took him in and paid for his education, which Philip never forgot.\n\nHe grew up to become a minister in Northampton, England, where he also ran a school to train other ministers. He wrote over four hundred hymns, including “Awake, My Soul, Stretch Every Nerve” and “O Happy Day.”\n\nPhilip also wrote a famous book to help people grow closer to God, and it was translated into many languages.\n\nHe died while traveling for his health, far from home in Portugal. But the hymns he wrote — and the ministers he trained — carried his faith forward long after he was gone.",
+    "image": {
+      "file": "philip-doddridge.jpg",
+      "prompt_used": "Photorealistic portrait of Philip Doddridge, English Congregationalist minister and hymn writer, Northampton England, mid-18th century, wearing a black clerical coat and white bands, gentle and scholarly expression, historically accurate to the 1740s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Philip_Doddridge.jpg — 1751 line engraving by George Vertue after a painting by Andrea Soldi, National Portrait Gallery (NPG D2278); public domain, life+100",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain (life+100, pre-1931 US publication), no caveat, resolvable to a direct Commons file."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Philip Doddridge",
+        "address": "British Cemetery, Rua de São Jorge, Lisbon, Portugal",
+        "lat": 38.7139,
+        "lng": -9.1607
+      },
+      {
+        "type": "church",
+        "name": "Doddridge Memorial Church (formerly Doddridge Chapel)",
+        "address": "Doddridge Street, Northampton, England, UK",
+        "lat": 52.2379,
+        "lng": -0.901
+      },
+      {
+        "type": "archive",
+        "name": "Papers of Philip Doddridge — Dr Williams's Library (University of Manchester)",
+        "address": "The John Rylands Research Institute and Library, 150 Deansgate, Manchester, England, UK",
+        "lat": 53.4808,
+        "lng": -2.2513,
+        "open_to_public": false
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "samuel-medley",
+    "name": "Samuel Medley",
+    "born": 1738,
+    "born_approximate": false,
+    "died": 1799,
+    "significant_dates": [
+      {
+        "date": "Jun 23, 1738",
+        "event": "birth",
+        "details": "Born in Cheshunt, Hertfordshire, England."
+      },
+      {
+        "date": "1759",
+        "event": "saved",
+        "details": "Converted to Christ while recovering from wounds received at the Battle of Lagos."
+      },
+      {
+        "date": "1772",
+        "event": "other",
+        "details": "Became pastor of Byrom Street Baptist Church, Liverpool."
+      },
+      {
+        "date": "Jul 17, 1799",
+        "event": "death",
+        "details": "Died in Liverpool, England, aged 61."
+      }
+    ],
+    "nationality": "English",
+    "era": "18th Century",
+    "region": "UK/Ireland",
+    "tradition": "Particular Baptist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "conversion",
+      "grace",
+      "perseverance",
+      "gospel"
+    ],
+    "hymns": [
+      "I Know That My Redeemer Lives",
+      "Awake, My Soul, in Joyful Lays"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Samuel_Medley_(minister)",
+    "source_summary": "Samuel Medley (1738-1799) was an English Particular Baptist minister and hymn writer, converted to Christ while recovering from naval wounds. He pastored Byrom Street Baptist Church in Liverpool for 27 years, ministering especially to sailors, and published around 230 hymns.",
+    "adult_story": "Samuel Medley was born in 1738 in Cheshunt, Hertfordshire. Apprenticed as a teenager to an oilman, he escaped the trade by enlisting in the Royal Navy, and was severely wounded at the Battle of Lagos in 1759. Expecting to lose his injured leg, he read a sermon by [[Isaac Watts|isaac-watts]] while recovering and was converted — the surgery, in the end, proved unnecessary, but the change in his life was permanent.\n\nAfter running a school in Soho for several years, Medley joined a Baptist congregation in London, began preaching in 1766, and was ordained two years later. In 1772 he became pastor of Byrom Street Baptist Church in Liverpool, a bustling port city, where he ministered for twenty-seven years — with particular care for the sailors passing through, men who reminded him of the wounded young man he had once been. He published roughly 230 hymns, including “I Know That My Redeemer Lives” and “Awake, My Soul, in Joyful Lays,” hymns critics judged more earnest than polished but which congregations sang for generations regardless.\n\nMedley's own testimony ran through his ministry like a refrain: a sailor who expected to lose a limb instead found a Redeemer. He spent the rest of his life telling other wounded, wandering people that the same grace that met him on a hospital bed was available to them too.",
+    "family_story": "Samuel Medley joined the navy as a teenager to escape a job he didn't like. He was badly wounded in battle, and while recovering, doctors thought they might have to cut off his leg.\n\nWhile he waited, Samuel read a sermon, and it changed his heart completely. His leg healed, and so did his soul — he gave his life to Jesus.\n\nSamuel became a pastor in Liverpool, a busy port city, where he looked after sailors just like the young man he used to be. He wrote 230 hymns, including “I Know That My Redeemer Lives.”\n\nSamuel's life told one story: a wounded sailor who thought he'd lose everything instead found Jesus — and that same Jesus is ready to meet anyone else, too.",
+    "image": {
+      "file": "samuel-medley.jpg",
+      "prompt_used": "Photorealistic portrait of Samuel Medley, English Particular Baptist minister and hymn writer, Liverpool England, late 18th century, wearing a dark clerical coat, warm and weathered expression evoking his years as a sailor, historically accurate to the 1790s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Revd._Samuel_Medley,_V.D.M_(4671662).jpg — engraved circa 1800 by his son Samuel Medley the painter; CC0 public domain",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "CC0, unambiguous, resolvable to a direct Commons file."
+    },
+    "memorials": [],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "huldrych-zwingli",
+    "name": "Huldrych Zwingli",
+    "born": 1484,
+    "born_approximate": false,
+    "died": 1531,
+    "significant_dates": [
+      {
+        "date": "Jan 1, 1484",
+        "event": "birth",
+        "details": "Born in Wildhaus, Switzerland."
+      },
+      {
+        "date": "1519",
+        "event": "other",
+        "details": "Appointed people's priest at the Grossmünster, Zurich, and began preaching verse-by-verse through Scripture."
+      },
+      {
+        "date": "1523",
+        "event": "other",
+        "details": "The First Zurich Disputation affirmed Zwingli's reforms and Scripture as the sole authority for the Zurich church."
+      },
+      {
+        "date": "Oct 11, 1531",
+        "event": "death",
+        "details": "Killed at the Battle of Kappel between Protestant and Catholic Swiss cantons."
+      }
+    ],
+    "nationality": "Swiss",
+    "era": "Reformation",
+    "region": "Europe",
+    "tradition": "Reformed",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "Reformation",
+      "Scripture",
+      "grace",
+      "preaching"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Huldrych_Zwingli",
+    "source_summary": "Huldrych Zwingli (1484-1531) led the Reformation in Zurich, Switzerland, arriving independently at convictions similar to Martin Luther's: salvation by grace through faith and Scripture as final authority. He broke with Luther over the Lord's Supper and was killed as chaplain to Zurich's forces at the Battle of Kappel.",
+    "adult_story": "Huldrych Zwingli was born in 1484 in Wildhaus, Switzerland, and ordained a Catholic priest in 1506. Appointed people's priest at the Grossmünster in Zurich in 1519, he broke with the conventional practice of preaching from the lectionary and instead preached verse by verse through entire books of Scripture — a method that let the Bible itself, rather than church tradition, set the agenda for what Zurich heard on Sunday.\n\nIndependently of [[Martin Luther|martin-luther]], Zwingli arrived at many of the same convictions: salvation by grace through faith, Scripture as the final authority, and a rejection of practices he judged unscriptural, including the veneration of images and the doctrine that the Mass re-offered Christ's sacrifice. He argued instead that the Lord's Supper was a memorial of a sacrifice completed once for all — a disagreement with Luther over the nature of Christ's presence in the meal that split the two reformers permanently and, with them, the wider Reformation.\n\nIn 1531, war broke out between Zurich's Protestant cantons and their Catholic neighbors. Zwingli accompanied Zurich's forces as chaplain and was killed at the Battle of Kappel, one of about five hundred dead in an hour of fighting. He had written years earlier, after surviving the plague, of submitting entirely to God's purpose — words that outlasted him, along with a conviction that had already reshaped Swiss Christianity: that the church's authority is Scripture alone, and its foundation is Christ's finished work, not man's.",
+    "family_story": "Huldrych Zwingli was born in Switzerland in 1484 and became a priest. Given a church in Zurich, he did something unusual: instead of skipping around the Bible, he preached straight through whole books, so people could hear what Scripture said.\n\nZwingli came to believe, on his own, many of the same things [[Martin Luther|martin-luther]] taught in Germany — that we are saved by trusting Jesus, not earning it, and that the Bible should guide what Christians believe.\n\nSadly, war broke out between Zurich and its neighbors, and Zwingli died in battle in 1531, serving alongside Zurich's soldiers.\n\nEven after surviving a serious illness, Zwingli had written that he trusted God with whatever happened. His short life changed how millions read the Bible today.",
+    "image": {
+      "file": "huldrych-zwingli.jpg",
+      "prompt_used": "Photorealistic portrait of Huldrych Zwingli, Swiss Reformer and people's priest of the Grossmünster, Zurich, early 16th century, wearing dark clerical robes, resolute and scholarly expression, historically accurate to the 1520s-1531",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Ulrich_Zwingli_by_Hans_Asper_1531.jpg — 1531 painting by Hans Asper; public domain, life+70",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain (life+70, pre-1931), no caveat, resolvable to a direct Commons file."
+    },
+    "memorials": [
+      {
+        "type": "church",
+        "name": "Grossmünster (Zwingli preached here 1519–1531)",
+        "address": "Grossmünsterplatz, Zurich, Switzerland",
+        "lat": 47.3701,
+        "lng": 8.5443
+      },
+      {
+        "type": "statue",
+        "name": "Zwingli Statue",
+        "address": "Limmatquai, near Wasserkirche, Zurich, Switzerland",
+        "lat": 47.3705,
+        "lng": 8.5442
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "thomas-cranmer",
+    "name": "Thomas Cranmer",
+    "born": 1489,
+    "born_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Jul 2, 1489",
+        "event": "birth",
+        "details": "Born in Aslockton, Nottinghamshire, England."
+      },
+      {
+        "date": "Dec 3, 1533",
+        "event": "other",
+        "details": "Became Archbishop of Canterbury."
+      },
+      {
+        "date": "1549",
+        "event": "other",
+        "details": "Published the first Book of Common Prayer."
+      },
+      {
+        "date": "Mar 21, 1556",
+        "event": "martyred",
+        "details": "Burned at the stake for heresy in Oxford, England."
+      }
+    ],
+    "nationality": "English",
+    "era": "Reformation",
+    "region": "UK/Ireland",
+    "tradition": "Anglican Reformer",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "Scripture",
+      "grace",
+      "courage"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Cranmer",
+    "source_summary": "Thomas Cranmer (1489-1556) was Archbishop of Canterbury and chief architect of the English Reformation, authoring the Book of Common Prayer. Imprisoned by Mary I, he recanted his Protestant beliefs under pressure but withdrew the recantations at the stake, burning the hand that had signed them first before being executed.",
+    "adult_story": "Thomas Cranmer was born in 1489 in Nottinghamshire and became a fellow of Jesus College, Cambridge, where sustained study of Scripture moved him toward the reforming convictions then spreading from the Continent. His path to church leadership began unusually: he suggested that Henry VIII's marriage question be settled by university theologians rather than Rome, a suggestion that led directly to his appointment as Archbishop of Canterbury in 1533, in the middle of Henry's break with the papacy.\n\nAs archbishop, Cranmer shaped the doctrine and worship of the newly independent English church for over twenty years. He wrote the Book of Common Prayer, putting worship into English so ordinary believers could pray, and hear Scripture read, in their own tongue. He drafted the Forty-two Articles, later revised into the Thirty-nine Articles that still define Anglican doctrine — grace through faith in Christ's finished work, not human merit, at their center.\n\nWhen the Catholic Mary I came to the throne, Cranmer was imprisoned and, under pressure, signed recantations of his Protestant beliefs. But at the stake in 1556, he withdrew them, declaring that his hand — which had signed the recantations — would burn first, since it had offended. He held that hand steady in the flames. His last words were: “Lord Jesus, receive my spirit. I see the heavens open and Jesus standing at the right hand of God.” A man who had once bent under pressure died holding, without wavering, to the grace he had proclaimed.",
+    "family_story": "Thomas Cranmer led the church in England and helped write the Book of Common Prayer, so everyone — not just priests who knew Latin — could pray and read the Bible in their own language.\n\nWhen a new queen wanted England to return to the old ways, Cranmer was imprisoned. Under terrible pressure, he signed papers saying he no longer believed what he'd taught.\n\nBut on the day he was to be burned at the stake, Cranmer took it all back. He said his hand had done wrong by signing those papers, so he held it into the fire first.\n\nHis last words were about seeing Jesus. Though he had given in to fear once, in the end his faith held strong.",
+    "image": {
+      "file": "thomas-cranmer.jpg",
+      "prompt_used": "Photorealistic portrait of Thomas Cranmer, Archbishop of Canterbury, England, mid-16th century, wearing black archbishop's robes and cap, serious and dignified expression, historically accurate to the 1540s-1550s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Thomas_Cranmer_by_Gerlach_Flicke.jpg — 1545 painting by Gerlach Flicke; public domain, life+100",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain (life+100, pre-1931), no caveat, resolvable to a direct Commons file."
+    },
+    "memorials": [
+      {
+        "type": "statue",
+        "name": "Statue of Cranmer, Martyrs' Memorial",
+        "address": "St Giles', Oxford, England, UK",
+        "lat": 51.7566,
+        "lng": -1.261
+      },
+      {
+        "type": "plaque",
+        "name": "Martyrs' Cross (execution site marker)",
+        "address": "Broad Street, Oxford, England, UK",
+        "lat": 51.7548,
+        "lng": -1.256
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "died": 1556
+  },
+  {
+    "id": "hugh-latimer",
+    "name": "Hugh Latimer",
+    "born": 1487,
+    "born_approximate": true,
+    "died": 1555,
+    "significant_dates": [
+      {
+        "date": "c. 1487",
+        "event": "birth",
+        "details": "Born in Thurcaston, Leicestershire, England."
+      },
+      {
+        "date": "1535",
+        "event": "other",
+        "details": "Became Bishop of Worcester."
+      },
+      {
+        "date": "Oct 16, 1555",
+        "event": "martyred",
+        "details": "Burned at the stake alongside Nicholas Ridley in Oxford, England."
+      }
+    ],
+    "nationality": "English",
+    "era": "Reformation",
+    "region": "UK/Ireland",
+    "tradition": "Anglican Reformer",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "preaching",
+      "grace",
+      "courage"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hugh_Latimer",
+    "source_summary": "Hugh Latimer (c.1487-1555) was an English Reformer and Bishop of Worcester known for plain, forthright preaching. One of the Oxford Martyrs, he was burned at the stake with Nicholas Ridley under Mary I, encouraging Ridley with words that became famous: they would light a candle by God's grace in England that would never be put out.",
+    "adult_story": "Hugh Latimer was born around 1487 in Thurcaston, Leicestershire, and became a fellow of Clare College, Cambridge. He began as a defender of the old Catholic faith, but around 1524 study of Scripture — reportedly through conversation with fellow Cambridge scholar Thomas Bilney — turned him toward the Reformation. He became a celebrated preacher, serving as Bishop of Worcester and later as chaplain to the young King Edward VI, known for plain, vivid sermons that applied Scripture bluntly to the abuses of his day, regardless of who was listening.\n\nWhen the Catholic Mary I took the throne, Latimer's outspoken preaching made him an early target. He was imprisoned and tried for heresy alongside fellow bishops [[Thomas Cranmer|thomas-cranmer]] and [[Nicholas Ridley|nicholas-ridley]], and on 16 October 1555 he was burned at the stake with Ridley outside Balliol College, Oxford.\n\nAs the fire was lit, Latimer turned to his fellow martyr and spoke words that have outlasted both of them: “Play the man, Master Ridley; we shall this day light such a candle, by God's grace, in England, as I trust shall never be put out.” He was right — Latimer died an old man in the flames, but the message he had preached for decades, that sinners are saved by Christ's grace and not by rite or ritual, kept spreading in England long after the smoke cleared.",
+    "family_story": "Hugh Latimer was a famous preacher in England who wasn't afraid to tell the truth, even to powerful people. He believed that people are saved by trusting Jesus, not by doing religious rituals.\n\nWhen a new queen took over who disagreed with him, Latimer was arrested along with his friend [[Nicholas Ridley|nicholas-ridley]]. They were sentenced to be burned at the stake for their beliefs.\n\nAs the fire was about to be lit, Latimer said something brave to encourage his friend: “we shall this day light such a candle, by God's grace, in England, as I trust shall never be put out.”\n\nHe was right. Latimer's courage, and the truth he preached about Jesus, is still remembered hundreds of years later.",
+    "image": {
+      "file": "hugh-latimer.jpg",
+      "prompt_used": "Photorealistic portrait of Hugh Latimer, English Reformer and Bishop of Worcester, Oxford England, mid-16th century, wearing a bishop's cap and dark clerical robes, elderly and resolute expression, historically accurate to the 1550s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Hugh_Latimer_from_NPG.jpg — 1555 painting, National Portrait Gallery; public domain in the US (pre-1931), reproduction rights disputed by NPG outside the US — use as reference only",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "NPG disputes reproduction rights to this photograph of the painting outside the US — reference only, not confirmed safe to republish as-is."
+    },
+    "memorials": [
+      {
+        "type": "statue",
+        "name": "Statue of Latimer, Martyrs' Memorial",
+        "address": "St Giles', Oxford, England, UK",
+        "lat": 51.7566,
+        "lng": -1.261
+      },
+      {
+        "type": "plaque",
+        "name": "Martyrs' Cross (execution site marker)",
+        "address": "Broad Street, Oxford, England, UK",
+        "lat": 51.7548,
+        "lng": -1.256
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "nicholas-ridley",
+    "name": "Nicholas Ridley",
+    "born": 1500,
+    "born_approximate": true,
+    "died": 1555,
+    "significant_dates": [
+      {
+        "date": "c. 1500",
+        "event": "birth",
+        "details": "Born in South Tynedale, Northumberland, England."
+      },
+      {
+        "date": "1550",
+        "event": "other",
+        "details": "Became Bishop of London."
+      },
+      {
+        "date": "Oct 16, 1555",
+        "event": "martyred",
+        "details": "Burned at the stake alongside Hugh Latimer in Oxford, England."
+      }
+    ],
+    "nationality": "English",
+    "era": "Reformation",
+    "region": "UK/Ireland",
+    "tradition": "Anglican Reformer",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "Scripture",
+      "grace",
+      "courage"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nicholas_Ridley_(martyr)",
+    "source_summary": "Nicholas Ridley (c.1500-1555) was an English Reformer, Bishop of London, and chaplain to Archbishop Thomas Cranmer. One of the Oxford Martyrs, he was burned at the stake alongside Hugh Latimer under Mary I for his Reformed convictions, particularly on the Lord's Supper.",
+    "adult_story": "Nicholas Ridley was born around 1500 in Northumberland and educated at Pembroke College, Cambridge, before further study at the Sorbonne in Paris. He returned to England a scholar of unusual depth, was ordained, and became chaplain to Archbishop [[Thomas Cranmer|thomas-cranmer]] in 1537 — a connection that placed him at the center of England's Reformation. He served as Master of Pembroke College, then as Bishop of Rochester, and from 1550 as Bishop of London, where his preaching and writing helped establish Reformed doctrine in the English church, particularly on the nature of the Lord's Supper.\n\nRidley's support for the ill-fated attempt to place Lady Jane Grey on the throne made him politically vulnerable the moment Mary I secured the crown. Tried for heresy alongside Cranmer and [[Hugh Latimer|hugh-latimer]], he was burned at the stake on 16 October 1555, outside Balliol College, Oxford, together with Latimer.\n\nIt was Ridley's own comrade Latimer, seeing him waver, who offered the words of comfort that have echoed ever since: “Be of good comfort, and play the man, Master Ridley; we shall this day light such a candle, by God's grace, in England, as I trust shall never be put out.” Ridley found the courage those words called for, dying beside his friend for a conviction he had spent his career defending — that sinners stand before God clothed in Christ's righteousness, not their own.",
+    "family_story": "Nicholas Ridley was a bishop and a careful student of the Bible in England. He believed strongly that people are made right with God through Jesus, not through their own good deeds.\n\nWhen Queen Mary I came to power, Ridley was arrested for his beliefs, along with his friend [[Hugh Latimer|hugh-latimer]]. Both men were sentenced to be burned at the stake.\n\nAs they faced the fire together, Latimer encouraged Ridley with brave words about lighting a candle that would never go out. Ridley found courage in his friend's words and stood firm.\n\nNicholas Ridley died for what he believed: that we don't make ourselves right with God — Jesus does that for us, and that is a gift worth holding onto, even to the end.",
+    "image": {
+      "file": "nicholas-ridley.jpg",
+      "prompt_used": "Photorealistic portrait of Nicholas Ridley, English Reformer and Bishop of London, Oxford England, mid-16th century, wearing a bishop's cap and dark clerical robes, composed and dignified expression, historically accurate to the 1550s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Nicholas_Ridley_from_NPG.jpg — posthumous portrait circa 1550s, National Portrait Gallery; public domain UK work by unknown author over 70 years old, reproduction rights disputed by NPG outside the US — use as reference only",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "NPG disputes reproduction rights to this photograph of the painting outside the US — reference only, not confirmed safe to republish as-is."
+    },
+    "memorials": [
+      {
+        "type": "statue",
+        "name": "Statue of Ridley, Martyrs' Memorial",
+        "address": "St Giles', Oxford, England, UK",
+        "lat": 51.7566,
+        "lng": -1.261
+      },
+      {
+        "type": "plaque",
+        "name": "Martyrs' Cross (execution site marker)",
+        "address": "Broad Street, Oxford, England, UK",
+        "lat": 51.7548,
+        "lng": -1.256
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "menno-simons",
+    "name": "Menno Simons",
+    "born": 1496,
+    "born_approximate": false,
+    "died": 1561,
+    "significant_dates": [
+      {
+        "date": "1496",
+        "event": "birth",
+        "details": "Born in Witmarsum, Friesland."
+      },
+      {
+        "date": "1535",
+        "event": "other",
+        "details": "His brother Pieter was killed in the violent Anabaptist uprising at Oldeklooster."
+      },
+      {
+        "date": "Jan 12, 1536",
+        "event": "other",
+        "details": "Formally renounced the Roman Catholic priesthood."
+      },
+      {
+        "date": "Jan 31, 1561",
+        "event": "death",
+        "details": "Died at Wüstenfelde, Duchy of Holstein."
+      }
+    ],
+    "nationality": "Dutch",
+    "era": "Reformation",
+    "region": "Europe",
+    "tradition": "Anabaptist (Mennonite)",
+    "flagged": true,
+    "footnote": "Menno Simons founded a lasting Anabaptist tradition built on believer's baptism, rigorous church discipline, and mandatory nonresistance (a rejection of violence, including self-defense and military service) as conditions of church membership. These are distinctive positions not shared across evangelical traditions, including church discipline practiced as the collective “ban” — withdrawal of fellowship from the unrepentant by the whole congregation, including family members. This does not place Menno Simons outside historic Christian orthodoxy, but readers should know these positions are debated among evangelicals.",
+    "topics": [
+      "Reformation",
+      "grace",
+      "nonresistance",
+      "discipleship"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Menno_Simons",
+    "source_summary": "Menno Simons (1496-1561) was a Dutch Anabaptist reformer, a former Catholic priest who renounced the priesthood in 1536 and became the organizing leader of the Anabaptist movement that took his name: the Mennonites. He taught believer's baptism, church discipline, and strict nonresistance to violence.",
+    "adult_story": "Menno Simons was born in 1496 in Witmarsum, Friesland, and ordained a Roman Catholic priest around 1515. Doubts about transubstantiation set him studying Scripture on his own, and in 1531 the execution of a man for practicing adult baptism forced him to examine what the Bible said about the rite. His crisis deepened in 1535, when his brother Pieter was killed in a violent Anabaptist uprising at Oldeklooster — a tragedy that convinced Menno the movement needed leaders committed to peace, not the sword.\n\nOn 12 January 1536, Menno renounced the priesthood and, soon after, was baptized as an adult believer. He spent the next twenty-five years as a hunted preacher across the Low Countries and northern Germany, organizing scattered Anabaptist congregations into a stable, disciplined movement — one so shaped by his leadership its members came to be called “Mennonites.” He taught that true faith “manifests itself in all righteousness and works of love... feeds the hungry; consoles the afflicted; shelters the miserable,” insisting a living faith in Christ must show itself in a transformed life.\n\nMenno died in 1561, having spent his ministry arguing the church should follow Christ's example of nonresistance rather than the violence some radical Anabaptists had embraced. His convictions on baptism and discipline remain distinctive within the wider Christian family — see the footnote below — but his central confession matched the one held across the Reformation: sinners are saved by grace through faith in Christ, not any rite the church performs.",
+    "family_story": "Menno Simons was a priest in the Netherlands who began to doubt some church teachings. He studied the Bible for himself and left the priesthood to follow what he believed Scripture actually taught.\n\nMenno's brother was killed in a violent uprising, which convinced Menno that Christians should never fight with weapons, even to defend themselves — they should follow Jesus's example of peace instead.\n\nFor the rest of his life, Menno traveled in secret, teaching scattered Christians and helping organize them into stable churches. People eventually named the whole group after him: Mennonites.\n\nMenno taught that real faith in Jesus shows up in how we treat others — feeding the hungry, comforting the sad, and living peacefully, even with our enemies.",
+    "image": {
+      "file": "menno-simons.jpg",
+      "prompt_used": "Photorealistic portrait of Menno Simons, Dutch Anabaptist reformer and founder of the Mennonite movement, Friesland, mid-16th century, wearing a dark robe and skull cap in the Dutch style, serious and weathered expression, historically accurate to the 1550s",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Menno_Simons_by_Jacob_Burghart.jpg — 1683 copper engraving by Jacob Burghart; public domain, pre-1931",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain (pre-1931 and country-of-origin PD), no caveat, resolvable to a direct Commons file."
+    },
+    "memorials": [
+      {
+        "type": "monument",
+        "name": "Menno Simons Monument",
+        "address": "Witmarsum, Friesland, Netherlands",
+        "lat": 53.0764,
+        "lng": 5.6389
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "felix-manz",
+    "name": "Felix Manz",
+    "born": 1498,
+    "born_approximate": true,
+    "died": 1527,
+    "significant_dates": [
+      {
+        "date": "c. 1498",
+        "event": "birth",
+        "details": "Born in Zurich, Switzerland, the son of a Grossmünster canon."
+      },
+      {
+        "date": "Jan 21, 1525",
+        "event": "other",
+        "details": "Took part in the first adult baptisms of the Reformation era, founding the Swiss Brethren movement."
+      },
+      {
+        "date": "Jan 5, 1527",
+        "event": "martyred",
+        "details": "Drowned in the Limmat River, Zurich, for practicing believer's baptism."
+      }
+    ],
+    "nationality": "Swiss",
+    "era": "Reformation",
+    "region": "Europe",
+    "tradition": "Anabaptist (Swiss Brethren)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "conscience",
+      "courage",
+      "believer's baptism"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Felix_Manz",
+    "source_summary": "Felix Manz (c.1498-1527) was a Swiss Anabaptist co-founder of the Swiss Brethren movement in Zurich. A former follower of Huldrych Zwingli, he broke with him over infant baptism and took part in the first adult baptisms of the Reformation in 1525. He was drowned by the Zurich council in 1527, the first Protestant executed by fellow Protestants.",
+    "adult_story": "Felix Manz was born around 1498 in Zurich, the son of a canon at the Grossmünster, and was fluent in Hebrew, Greek, and Latin by early adulthood. He began as a follower of the reformer [[Huldrych Zwingli|huldrych-zwingli]], but he and fellow student Conrad Grebel grew convinced that Zwingli's reforms did not go far enough — particularly on infant baptism, which they could not find commanded in Scripture.\n\nOn 21 January 1525, in defiance of the Zurich council, Manz and Grebel took part in the first adult baptisms of the Reformation era, effectively founding what became known as the Swiss Brethren. Manz spent the following two years as an evangelist and translator for the growing movement, preaching that baptism belonged only to those who could personally confess faith in Christ — a conviction he refused to abandon even as the authorities who had once been his teachers turned against him.\n\nThe Zurich council, unwilling to tolerate a rival form of the church, made adult rebaptism a capital offense. Manz was arrested and, on 5 January 1527, drowned in the Limmat River — a punishment chosen, grimly, to mock the very rite he had died defending. He was the first Protestant executed by fellow Protestants for his faith. His reported last words, “Into thy hands, O God, I commend my spirit,” echoed Christ's own words from the cross: a young man's conscience, staked entirely on the mercy of the God he was trusting to receive him.",
+    "family_story": "Felix Manz grew up in Zurich, Switzerland, and was good at languages. At first he followed the reformer [[Huldrych Zwingli|huldrych-zwingli]], but Felix came to believe only people who could choose faith for themselves should be baptized — not babies.\n\nIn 1525, Felix and his friend Conrad Grebel baptized each other as adults, even though city leaders said this broke the law. Felix kept teaching what he believed, even as it grew dangerous.\n\nEventually, Felix was arrested. On January 5, 1527, he was drowned in the river as punishment — the first Protestant killed by other Protestants for his faith.\n\nHis last words were, “Into thy hands, O God, I commend my spirit” — the same trust Jesus showed on the cross, held until the end.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "plaque",
+        "name": "Memorial to Felix Manz and Executed Anabaptists",
+        "address": "Limmatquai, opposite Schipfe 43, Zurich, Switzerland",
+        "lat": 47.3716,
+        "lng": 8.5427
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]

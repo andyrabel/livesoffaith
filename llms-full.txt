@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-03. 115 people.
+Generated 2026-07-04. 129 people.
 
 ---
 
@@ -114,6 +114,22 @@ She arrived in India in 1895 and settled in Dohnavur in Tamil Nadu, where she wo
 In 1931 a serious fall left her partly disabled; for her last twenty years she was largely confined to her room, yet wrote more than thirty books and continued to lead the community.
 
 She died in Dohnavur in 1951. Her grave has no headstone — only a birdbath placed there by the children she had rescued. She had asked for no memorial.
+
+---
+
+## Andraé Crouch (1942–2015)
+
+URL: https://livesoffaith.org/person.html?id=andrae-crouch
+Wikipedia: https://en.wikipedia.org/wiki/Andra%C3%A9_Crouch
+Nationality: American · Tradition: Pentecostal (Church of God in Christ) · Region: North America · Era: 20th Century
+Topics: worship, grace, gospel music, healing
+Hymns: Soon and Very Soon, My Tribute (To God Be the Glory), The Blood Will Never Lose Its Power
+
+Andraé Crouch was born in 1942 in Los Angeles, a twin to his sister Sandra, the son of Benjamin Crouch, a Church of God in Christ minister who pastored a small congregation in Pacoima while running a dry-cleaning business to support his family. Andraé began playing piano in church services at eleven and had written his first gospel song by fourteen.
+
+Through his group The Disciples, and later as a solo artist and producer, Crouch pioneered a style that folded soul, jazz, and pop into gospel music — work that helped create contemporary Christian music as a genre and earned him seven Grammy Awards and an Oscar nomination. Songs like “My Tribute (To God Be the Glory),” “The Blood Will Never Lose Its Power,” and “Soon and Very Soon” moved beyond church walls into hymnals and radio across denominations and continents.
+
+After his father's death, Crouch and Sandra returned to pastor the church that had raised them. He endured four bouts of cancer and, in his final years, congestive heart failure, dying in January 2015. His sister's parting words captured the theology behind every song he wrote: he had “gone home to be with the Lord.” Crouch never treated his gifts as his own achievement — his music consistently pointed past his own considerable talent to the God who alone deserved the tribute, the glory, and the credit for any good in it.
 
 ---
 
@@ -300,6 +316,22 @@ His conversion was gradual and intellectual. He found the atheist position requi
 Mere Christianity presented a reasoned case for belief to educated sceptics. The Screwtape Letters explored the Christian life through satirical inversion. The Chronicles of Narnia communicated the shape of the gospel through fiction. Millions have found their way to faith through his work.
 
 Note: Lewis held some Anglo-Catholic views, including belief in purgatory, not shared by most Protestants.
+
+---
+
+## Charles Albert Tindley (1851–1933)
+
+URL: https://livesoffaith.org/person.html?id=charles-albert-tindley
+Wikipedia: https://en.wikipedia.org/wiki/Charles_Albert_Tindley
+Nationality: American · Tradition: Methodist Episcopal · Region: North America · Era: 20th Century
+Topics: gospel music, perseverance, grace, civil rights
+Hymns: I'll Overcome Someday, Stand By Me, Take Your Burden to the Lord and Leave It There, What Are They Doing in Heaven?
+
+Charles Albert Tindley was born in 1851 in Berlin, Maryland, the son of an enslaved father, yet born free himself. After the Civil War he moved to Philadelphia, working as a hod carrier and church sexton while teaching himself to read from discarded scraps of paper. He later mastered Hebrew and Greek through independent and correspondence study and was ordained in the Methodist Episcopal Church, becoming an elder in 1889.
+
+In 1906 he returned to the small congregation where he had once swept floors, East Calvary Methodist Episcopal Church, as its pastor. Under his preaching it grew from 130 members to more than 10,000 — Black and white worshipping side by side in a city still divided by race. He is remembered today as the father of American gospel music, writing hymns that turned hard-won faith into song: “Stand By Me,” “What Are They Doing in Heaven?,” and “Take Your Burden to the Lord and Leave It There.”
+
+His hymn “I'll Overcome Someday” later gave its melody and message to the Civil Rights anthem “We Shall Overcome.” But Tindley's “someday” was never a slogan first — it was the hope of a former sexton who knew that no burden, however heavy, could out-hope the grace that carries the weary all the way home. He did not write to be remembered; he wrote so that suffering people would keep singing of Christ until their burdens were finally, fully lifted.
 
 ---
 
@@ -499,6 +531,22 @@ He was arrested in April 1943 and executed at Flossenbürg concentration camp on
 
 ---
 
+## Dottie Rambo (1934–2008)
+
+URL: https://livesoffaith.org/person.html?id=dottie-rambo
+Wikipedia: https://en.wikipedia.org/wiki/Dottie_Rambo
+Nationality: American · Tradition: Evangelical (Southern Gospel) · Region: North America · Era: 20th Century
+Topics: grace, suffering, forgiveness, gospel music
+Hymns: We Shall Behold Him, He Looked Beyond My Fault and Saw My Need, I Go to the Rock
+
+Dottie Rambo was born Joyce Reba Luttrell in 1934 in Madisonville, Kentucky, into a poor family. At twelve she committed her life to Christ against her father's wishes and left home to pursue gospel music. At sixteen she married Buck Rambo at a revival meeting, and together with their daughter Reba they formed The Singing Rambos, touring for decades — including a 1967 tour singing for American troops in Vietnam aboard the carriers USS Kitty Hawk and USS Ticonderoga.
+
+Rambo wrote more than 2,500 songs across her lifetime, among them “We Shall Behold Him,” “I Go to the Rock,” and “He Looked Beyond My Fault and Saw My Need” — a hymn whose title states the gospel outright: that Christ does not wait for us to become worthy before loving us. A ruptured disk left her temporarily paralyzed in 1987, and her marriage ended in divorce in 1994, but she kept writing until her final years, releasing new work in her sixties after a long silence.
+
+She died in 2008 in a tour bus accident on her way to a Mother's Day concert. At her funeral, a flag that had flown over the White House was presented in her honor — a public tribute to a woman whose songs had already told the truer story: that whatever a person's fault, God looks beyond it to the need beneath, and meets that need in Christ.
+
+---
+
 ## Dwight L. Moody (1837–1899)
 
 URL: https://livesoffaith.org/person.html?id=dwight-l-moody
@@ -602,6 +650,21 @@ She said of her blindness: "If perfect earthly sight were offered me tomorrow I 
 
 ---
 
+## Felix Manz (c. 1498–1527)
+
+URL: https://livesoffaith.org/person.html?id=felix-manz
+Wikipedia: https://en.wikipedia.org/wiki/Felix_Manz
+Nationality: Swiss · Tradition: Anabaptist (Swiss Brethren) · Region: Europe · Era: Reformation
+Topics: martyrdom, conscience, courage, believer's baptism
+
+Felix Manz was born around 1498 in Zurich, the son of a canon at the Grossmünster, and was fluent in Hebrew, Greek, and Latin by early adulthood. He began as a follower of the reformer Huldrych Zwingli, but he and fellow student Conrad Grebel grew convinced that Zwingli's reforms did not go far enough — particularly on infant baptism, which they could not find commanded in Scripture.
+
+On 21 January 1525, in defiance of the Zurich council, Manz and Grebel took part in the first adult baptisms of the Reformation era, effectively founding what became known as the Swiss Brethren. Manz spent the following two years as an evangelist and translator for the growing movement, preaching that baptism belonged only to those who could personally confess faith in Christ — a conviction he refused to abandon even as the authorities who had once been his teachers turned against him.
+
+The Zurich council, unwilling to tolerate a rival form of the church, made adult rebaptism a capital offense. Manz was arrested and, on 5 January 1527, drowned in the Limmat River — a punishment chosen, grimly, to mock the very rite he had died defending. He was the first Protestant executed by fellow Protestants for his faith. His reported last words, “Into thy hands, O God, I commend my spirit,” echoed Christ's own words from the cross: a young man's conscience, staked entirely on the mercy of the God he was trusting to receive him.
+
+---
+
 ## Frances Ridley Havergal (1836–1879)
 
 URL: https://livesoffaith.org/person.html?id=frances-ridley-havergal
@@ -630,6 +693,22 @@ Francis Schaeffer was born in 1912 near Philadelphia into a home with little rel
 In 1948 Schaeffer moved with his wife Edith to Switzerland. A few years later, troubled that his own faith had grown more about correct doctrine than a living love for Christ and others, he went through a season of painful self-examination that reshaped his ministry. Out of it came L’Abri (‘The Shelter’), which he and Edith opened in their home in Huémoz in 1955 — a place where the honest questions of doubting students and travelers were met with patient answers and genuine welcome, not dismissal. Through books such as The God Who Is There and How Should We Then Live?, he helped a generation of evangelicals engage seriously with modern culture without abandoning confidence in the gospel.
 
 Schaeffer’s central conviction, tested in his own season of doubt before it appeared in any book, was that Christ alone answers what philosophy cannot: not by argument winning the point, but by grace meeting a person exactly where their questions have left them stranded.
+
+---
+
+## George Beverly Shea (1909–2013)
+
+URL: https://livesoffaith.org/person.html?id=george-beverly-shea
+Wikipedia: https://en.wikipedia.org/wiki/George_Beverly_Shea
+Nationality: Canadian-American · Tradition: Wesleyan Methodist · Region: North America · Era: 20th Century
+Topics: evangelism, faithfulness, grace, gospel
+Hymns: I'd Rather Have Jesus, The Wonder of It All
+
+George Beverly Shea was born in 1909 in Winchester, Ontario, the son of a Wesleyan Methodist minister. He worked as an insurance clerk in New York while singing on NBC radio, until a friend showed him a poem, “I'd Rather Have Jesus,” and urged him to set it to music. The tune came to him in minutes at the piano — and became the song most associated with his name.
+
+In the early 1940s Shea met a young evangelist named Billy Graham on a Chicago radio program; in November 1947 he became the first staff member of the Billy Graham Evangelistic Association, a partnership that lasted until his death. For more than sixty years Shea sang before Graham's crusades on every continent, reportedly performing live to more people than anyone in history, always the same deep, unadorned baritone offering the same simple invitation to trust Christ.
+
+When Graham first invited him to join the ministry, Shea asked whether he would be expected to talk between songs the way other gospel singers did. Graham chuckled: “I hope not.” Shea's calling was never to draw attention to his own voice but to let it fade behind the message it carried. He kept singing until he was over one hundred years old, content, as his signature song put it, to have Jesus rather than houses, or lands, or fame — and to have nothing else besides.
 
 ---
 
@@ -847,6 +926,36 @@ He died in Changsha, Hunan in 1905. His conviction throughout: God's commands ar
 
 ---
 
+## Hugh Latimer (c. 1487–1555)
+
+URL: https://livesoffaith.org/person.html?id=hugh-latimer
+Wikipedia: https://en.wikipedia.org/wiki/Hugh_Latimer
+Nationality: English · Tradition: Anglican Reformer · Region: UK/Ireland · Era: Reformation
+Topics: martyrdom, preaching, grace, courage
+
+Hugh Latimer was born around 1487 in Thurcaston, Leicestershire, and became a fellow of Clare College, Cambridge. He began as a defender of the old Catholic faith, but around 1524 study of Scripture — reportedly through conversation with fellow Cambridge scholar Thomas Bilney — turned him toward the Reformation. He became a celebrated preacher, serving as Bishop of Worcester and later as chaplain to the young King Edward VI, known for plain, vivid sermons that applied Scripture bluntly to the abuses of his day, regardless of who was listening.
+
+When the Catholic Mary I took the throne, Latimer's outspoken preaching made him an early target. He was imprisoned and tried for heresy alongside fellow bishops Thomas Cranmer and Nicholas Ridley, and on 16 October 1555 he was burned at the stake with Ridley outside Balliol College, Oxford.
+
+As the fire was lit, Latimer turned to his fellow martyr and spoke words that have outlasted both of them: “Play the man, Master Ridley; we shall this day light such a candle, by God's grace, in England, as I trust shall never be put out.” He was right — Latimer died an old man in the flames, but the message he had preached for decades, that sinners are saved by Christ's grace and not by rite or ritual, kept spreading in England long after the smoke cleared.
+
+---
+
+## Huldrych Zwingli (1484–1531)
+
+URL: https://livesoffaith.org/person.html?id=huldrych-zwingli
+Wikipedia: https://en.wikipedia.org/wiki/Huldrych_Zwingli
+Nationality: Swiss · Tradition: Reformed · Region: Europe · Era: Reformation
+Topics: Reformation, Scripture, grace, preaching
+
+Huldrych Zwingli was born in 1484 in Wildhaus, Switzerland, and ordained a Catholic priest in 1506. Appointed people's priest at the Grossmünster in Zurich in 1519, he broke with the conventional practice of preaching from the lectionary and instead preached verse by verse through entire books of Scripture — a method that let the Bible itself, rather than church tradition, set the agenda for what Zurich heard on Sunday.
+
+Independently of Martin Luther, Zwingli arrived at many of the same convictions: salvation by grace through faith, Scripture as the final authority, and a rejection of practices he judged unscriptural, including the veneration of images and the doctrine that the Mass re-offered Christ's sacrifice. He argued instead that the Lord's Supper was a memorial of a sacrifice completed once for all — a disagreement with Luther over the nature of Christ's presence in the meal that split the two reformers permanently and, with them, the wider Reformation.
+
+In 1531, war broke out between Zurich's Protestant cantons and their Catholic neighbors. Zwingli accompanied Zurich's forces as chaplain and was killed at the Battle of Kappel, one of about five hundred dead in an hour of fighting. He had written years earlier, after surviving the plague, of submitting entirely to God's purpose — words that outlasted him, along with a conviction that had already reshaped Swiss Christianity: that the church's authority is Scripture alone, and its foundation is Christ's finished work, not man's.
+
+---
+
 ## Ira Sankey (1840–1908)
 
 URL: https://livesoffaith.org/person.html?id=ira-sankey
@@ -921,6 +1030,22 @@ Jacob DeShazer was born in 1912 in West Stayton, Oregon, and joined the US Army 
 In 1944 he persuaded a guard to lend him a Bible for three weeks. He read it over and over, and in his cell he came to trust in Christ. Released in August 1945, DeShazer trained at Seattle Pacific College and Asbury Theological Seminary, then returned to Japan in December 1948 as a Free Methodist missionary — to the same nation that had held and tortured him. He served there for thirty years. His testimony pamphlet, 'I Was a Prisoner of Japan,' was read by former Pearl Harbor commander Mitsuo Fuchida, and became part of what led Fuchida to Christ; the two former enemies later preached together.
 
 DeShazer never described his transformation as something he achieved through willpower or resolve. It was grace received in a prison cell — undeserved, unearned, and strong enough to turn hatred for his captors into thirty years spent loving their countrymen in Christ's name.
+
+---
+
+## James Montgomery (1771–1854)
+
+URL: https://livesoffaith.org/person.html?id=james-montgomery
+Wikipedia: https://en.wikipedia.org/wiki/James_Montgomery_(poet)
+Nationality: British · Tradition: Moravian · Region: UK/Ireland · Era: 19th Century
+Topics: hymn writing, abolition, justice, prayer
+Hymns: Angels from the Realms of Glory, Prayer Is the Soul's Sincere Desire, Hail to the Lord's Anointed
+
+James Montgomery was born in 1771 in Irvine, Scotland, the son of Moravian missionaries who died in the West Indies within a year of each other while he was still a boy at Fulneck School. He settled in Sheffield, England, where he edited the newspaper the Sheffield Iris for over thirty years — a role that twice landed him in prison, once for printing a poem celebrating the fall of the Bastille, once for criticizing a local magistrate.
+
+Montgomery used his platform to campaign against slavery and against the exploitation of child chimney sweeps, convictions rooted in the same faith that shaped his poetry. Over his lifetime he wrote some four hundred hymns, several of which remain in wide use: “Angels from the Realms of Glory,” “Prayer Is the Soul's Sincere Desire,” and “Hail to the Lord's Anointed.” His hymns pair lyrical craft with plain doctrine — grace freely given, prayer as dependence rather than achievement, Christ as the anointed king before whom every human throne must eventually bow.
+
+Montgomery never married, devoting himself instead to his writing and to Sheffield's charitable and religious causes until his death in 1854. He was honored with a public funeral, and the city later raised a monument over his grave — a tribute, fittingly, to a man whose own hymns insisted that lasting honor belongs to Christ, not to the poet who sings of him.
 
 ---
 
@@ -1122,7 +1247,7 @@ He was 27.
 
 ---
 
-## John Sung (1901–1944)
+## John Sung 宋尚節 (1901–1944)
 
 URL: https://livesoffaith.org/person.html?id=john-sung
 Wikipedia: https://en.wikipedia.org/wiki/John_Sung
@@ -1403,6 +1528,22 @@ The discovery that drove his life was simple: the grace of God in Christ is the 
 
 ---
 
+## Menno Simons (1496–1561)
+
+URL: https://livesoffaith.org/person.html?id=menno-simons
+Wikipedia: https://en.wikipedia.org/wiki/Menno_Simons
+Nationality: Dutch · Tradition: Anabaptist (Mennonite) · Region: Europe · Era: Reformation
+Topics: Reformation, grace, nonresistance, discipleship
+Note: Menno Simons founded a lasting Anabaptist tradition built on believer's baptism, rigorous church discipline, and mandatory nonresistance (a rejection of violence, including self-defense and military service) as conditions of church membership. These are distinctive positions not shared across evangelical traditions, including church discipline practiced as the collective “ban” — withdrawal of fellowship from the unrepentant by the whole congregation, including family members. This does not place Menno Simons outside historic Christian orthodoxy, but readers should know these positions are debated among evangelicals.
+
+Menno Simons was born in 1496 in Witmarsum, Friesland, and ordained a Roman Catholic priest around 1515. Doubts about transubstantiation set him studying Scripture on his own, and in 1531 the execution of a man for practicing adult baptism forced him to examine what the Bible said about the rite. His crisis deepened in 1535, when his brother Pieter was killed in a violent Anabaptist uprising at Oldeklooster — a tragedy that convinced Menno the movement needed leaders committed to peace, not the sword.
+
+On 12 January 1536, Menno renounced the priesthood and, soon after, was baptized as an adult believer. He spent the next twenty-five years as a hunted preacher across the Low Countries and northern Germany, organizing scattered Anabaptist congregations into a stable, disciplined movement — one so shaped by his leadership its members came to be called “Mennonites.” He taught that true faith “manifests itself in all righteousness and works of love... feeds the hungry; consoles the afflicted; shelters the miserable,” insisting a living faith in Christ must show itself in a transformed life.
+
+Menno died in 1561, having spent his ministry arguing the church should follow Christ's example of nonresistance rather than the violence some radical Anabaptists had embraced. His convictions on baptism and discipline remain distinctive within the wider Christian family — see the footnote below — but his central confession matched the one held across the Reformation: sinners are saved by grace through faith in Christ, not any rite the church performs.
+
+---
+
 ## Mitsuo Fuchida (1902–1976)
 
 URL: https://livesoffaith.org/person.html?id=mitsuo-fuchida
@@ -1433,6 +1574,21 @@ Saint pioneered the 'spiraling line' technique — circling a small plane tightl
 On 8 January 1956, having camped for days on a Curaray River sandbar in what appeared to be peaceful contact, Saint and his four companions were speared to death by Huaorani warriors. He was thirty-two.
 
 Saint's death did not end the story. His sister Rachel Saint, and later his own son Steve, went to live among the very people who had killed him — and the gospel he had risked everything to carry took root. Christ's call to lay down one's life for others, he had believed, was not a metaphor.
+
+---
+
+## Nicholas Ridley (c. 1500–1555)
+
+URL: https://livesoffaith.org/person.html?id=nicholas-ridley
+Wikipedia: https://en.wikipedia.org/wiki/Nicholas_Ridley_(martyr)
+Nationality: English · Tradition: Anglican Reformer · Region: UK/Ireland · Era: Reformation
+Topics: martyrdom, Scripture, grace, courage
+
+Nicholas Ridley was born around 1500 in Northumberland and educated at Pembroke College, Cambridge, before further study at the Sorbonne in Paris. He returned to England a scholar of unusual depth, was ordained, and became chaplain to Archbishop Thomas Cranmer in 1537 — a connection that placed him at the center of England's Reformation. He served as Master of Pembroke College, then as Bishop of Rochester, and from 1550 as Bishop of London, where his preaching and writing helped establish Reformed doctrine in the English church, particularly on the nature of the Lord's Supper.
+
+Ridley's support for the ill-fated attempt to place Lady Jane Grey on the throne made him politically vulnerable the moment Mary I secured the crown. Tried for heresy alongside Cranmer and Hugh Latimer, he was burned at the stake on 16 October 1555, outside Balliol College, Oxford, together with Latimer.
+
+It was Ridley's own comrade Latimer, seeing him waver, who offered the words of comfort that have echoed ever since: “Be of good comfort, and play the man, Master Ridley; we shall this day light such a candle, by God's grace, in England, as I trust shall never be put out.” Ridley found the courage those words called for, dying beside his friend for a conviction he had spent his career defending — that sinners stand before God clothed in Christ's righteousness, not their own.
 
 ---
 
@@ -1516,6 +1672,22 @@ Philip Paul Bliss was born in 1838 in Clearfield County, Pennsylvania, in rural 
 His gospel songs — Almost Persuaded, Wonderful Words of Life, Hallelujah What a Saviour — were clear, accessible, and Christ-centred. He also set to music words not his own: Horatio Spafford, who had lost all four daughters in a shipwreck, wrote, "When sorrows like sea billows roll; whatever my lot, thou hast taught me to say, it is well with my soul." Bliss's tune made them unforgettable.
 
 Bliss and his wife died on 29 December 1876 in the Ashtabula River rail disaster, aged thirty-eight. God uses ordinary instruments for extraordinary purposes.
+
+---
+
+## Philip Doddridge (1702–1751)
+
+URL: https://livesoffaith.org/person.html?id=philip-doddridge
+Wikipedia: https://en.wikipedia.org/wiki/Philip_Doddridge
+Nationality: English · Tradition: Congregationalist · Region: UK/Ireland · Era: 18th Century
+Topics: education, grace, hymn writing, revival
+Hymns: O Happy Day, Hark the Glad Sound!, Awake, My Soul, Stretch Every Nerve, O God of Bethel
+
+Philip Doddridge was born in London in 1702, the last of twenty children, and orphaned by thirteen. He was taken in by a Presbyterian minister to whom he later wrote, “To him under God I owe even myself and all my opportunities of public usefulness in the church.” He trained for ministry rather than accepting an offer to fund his studies at Cambridge, and in 1729 became pastor of an independent congregation in Northampton, where he also ran a dissenting academy that trained ministers excluded from England's universities by their nonconformity.
+
+Doddridge wrote over four hundred hymns, among them “O Happy Day,” “Hark the Glad Sound!,” and “Awake, My Soul, Stretch Every Nerve” — hymns of vigorous, active faith that nonetheless rest entirely on grace already given rather than earned. His prose work The Rise and Progress of Religion in the Soul (1745) walked readers through conversion and Christian growth so effectively that Charles Spurgeon later called it “that holy book,” and it was translated into seven languages.
+
+Doddridge died of tuberculosis in Lisbon in 1751, where he had traveled seeking a warmer climate for his health, and was buried in the city's British Cemetery. He left behind students trained for gospel ministry and hymns still sung by congregations who have long since forgotten his name — proof that the “opportunities of public usefulness” he received from grace, he spent giving grace away.
 
 ---
 
@@ -1667,6 +1839,22 @@ He disappeared in 1929 while attempting to cross the Himalayas into Tibet, aged 
 
 ---
 
+## Samuel Medley (1738–1799)
+
+URL: https://livesoffaith.org/person.html?id=samuel-medley
+Wikipedia: https://en.wikipedia.org/wiki/Samuel_Medley_(minister)
+Nationality: English · Tradition: Particular Baptist · Region: UK/Ireland · Era: 18th Century
+Topics: conversion, grace, perseverance, gospel
+Hymns: I Know That My Redeemer Lives, Awake, My Soul, in Joyful Lays
+
+Samuel Medley was born in 1738 in Cheshunt, Hertfordshire. Apprenticed as a teenager to an oilman, he escaped the trade by enlisting in the Royal Navy, and was severely wounded at the Battle of Lagos in 1759. Expecting to lose his injured leg, he read a sermon by Isaac Watts while recovering and was converted — the surgery, in the end, proved unnecessary, but the change in his life was permanent.
+
+After running a school in Soho for several years, Medley joined a Baptist congregation in London, began preaching in 1766, and was ordained two years later. In 1772 he became pastor of Byrom Street Baptist Church in Liverpool, a bustling port city, where he ministered for twenty-seven years — with particular care for the sailors passing through, men who reminded him of the wounded young man he had once been. He published roughly 230 hymns, including “I Know That My Redeemer Lives” and “Awake, My Soul, in Joyful Lays,” hymns critics judged more earnest than polished but which congregations sang for generations regardless.
+
+Medley's own testimony ran through his ministry like a refrain: a sailor who expected to lose a limb instead found a Redeemer. He spent the rest of his life telling other wounded, wandering people that the same grace that met him on a hospital bed was available to them too.
+
+---
+
 ## Samuel Rutherford (c. 1600–1661)
 
 URL: https://livesoffaith.org/person.html?id=samuel-rutherford
@@ -1719,6 +1907,21 @@ The gospel drove his philanthropy. Grace received expressed itself in mercy give
 
 ---
 
+## Thomas Cranmer (1489–1556)
+
+URL: https://livesoffaith.org/person.html?id=thomas-cranmer
+Wikipedia: https://en.wikipedia.org/wiki/Thomas_Cranmer
+Nationality: English · Tradition: Anglican Reformer · Region: UK/Ireland · Era: Reformation
+Topics: martyrdom, Scripture, grace, courage
+
+Thomas Cranmer was born in 1489 in Nottinghamshire and became a fellow of Jesus College, Cambridge, where sustained study of Scripture moved him toward the reforming convictions then spreading from the Continent. His path to church leadership began unusually: he suggested that Henry VIII's marriage question be settled by university theologians rather than Rome, a suggestion that led directly to his appointment as Archbishop of Canterbury in 1533, in the middle of Henry's break with the papacy.
+
+As archbishop, Cranmer shaped the doctrine and worship of the newly independent English church for over twenty years. He wrote the Book of Common Prayer, putting worship into English so ordinary believers could pray, and hear Scripture read, in their own tongue. He drafted the Forty-two Articles, later revised into the Thirty-nine Articles that still define Anglican doctrine — grace through faith in Christ's finished work, not human merit, at their center.
+
+When the Catholic Mary I came to the throne, Cranmer was imprisoned and, under pressure, signed recantations of his Protestant beliefs. But at the stake in 1556, he withdrew them, declaring that his hand — which had signed the recantations — would burn first, since it had offended. He held that hand steady in the flames. His last words were: “Lord Jesus, receive my spirit. I see the heavens open and Jesus standing at the right hand of God.” A man who had once bent under pressure died holding, without wavering, to the grace he had proclaimed.
+
+---
+
 ## Thomas Watson (c. 1620–1686)
 
 URL: https://livesoffaith.org/person.html?id=thomas-watson
@@ -1751,7 +1954,7 @@ His name is not widely celebrated. But Vine's Dictionary sits on the shelves of 
 
 ---
 
-## Wang Ming Dao (1900–1991)
+## Wang Ming Dao 王明道 (1900–1991)
 
 URL: https://livesoffaith.org/person.html?id=wang-ming-dao
 Wikipedia: https://en.wikipedia.org/wiki/Wang_Mingdao
@@ -1768,7 +1971,7 @@ His story is not one of seamless heroism but of grace: a man who fell, was resto
 
 ---
 
-## Watchman Nee (1903–1972)
+## Watchman Nee 倪柝聲 (1903–1972)
 
 URL: https://livesoffaith.org/person.html?id=watchman-nee
 Wikipedia: https://en.wikipedia.org/wiki/Watchman_Nee
@@ -1852,6 +2055,22 @@ William Cowper was born in 1731 in Berkhamsted, Hertfordshire. His mother died w
 Working with John Newton at Olney, he contributed sixty-seven hymns to the Olney Hymns (1779), including God Moves in a Mysterious Way and There Is a Fountain Filled with Blood. He never fully escaped the shadow of mental illness.
 
 God Moves in a Mysterious Way has a remarkable origin: a man on the edge of breakdown writing of God's unfathomable purposes — "the clouds ye so much dread are big with mercy." The truth he expressed, even when he could not feel it, has comforted believers in darkness for two centuries.
+
+---
+
+## William Herbert Brewster Sr. (1897–1987)
+
+URL: https://livesoffaith.org/person.html?id=william-herbert-brewster
+Wikipedia: https://en.wikipedia.org/wiki/William_Herbert_Brewster,_Sr.
+Nationality: American · Tradition: Baptist · Region: North America · Era: 20th Century
+Topics: gospel music, hope, grace, civil rights
+Hymns: Move On Up a Little Higher, Surely, God Is Able, Let Us Go Back to the Old Landmark
+
+William Herbert Brewster Sr. was born in 1897 on a sharecropping farm near Somerville, Tennessee, the oldest of eight children. He worked his way through Roger Williams College in Nashville and in 1930 became pastor of East Trigg Avenue Baptist Church in Memphis, a position he held for fifty-seven years.
+
+Brewster wrote more than two hundred gospel songs and staged musical dramas that combined biblical themes with the hard realities of Black life under segregation. His 1946 song “Move On Up a Little Higher,” recorded by Mahalia Jackson, became the first gospel record to sell a million copies; “Surely, God Is Able” followed with the Ward Singers in 1949. His biographer records that he “constantly preached on the theme that a better day was coming, one in which all men could walk as brothers” — a hope he grounded not in politics but in the promise of Christ, who alone lifts the lowly.
+
+A young Elvis Presley sat in Brewster's congregation and absorbed his radio broadcasts, carrying something of that sound into American popular music. But Brewster's own aim was narrower and higher: to give suffering people songs sturdy enough to stand on. “Move On Up a Little Higher” was not a call to climb by human effort — it was an invitation to the eternal reward Christ secures for those who trust him, sung by people who had precious little reason to hope in anything else.
 
 ---
 
