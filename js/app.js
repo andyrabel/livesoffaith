@@ -1423,6 +1423,7 @@ function buildTourRoute({ center, radiusKm, transport, budgetMinutes }) {
 
   const candidates = getAllMapEntries()
     .filter(({ memorial }) => typeof memorial.lat === 'number' && typeof memorial.lng === 'number')
+    .filter(({ memorial }) => memorial.open_to_public !== false)
     .map(entry => ({ ...entry, distFromCenter: haversineKm(center.lat, center.lng, entry.memorial.lat, entry.memorial.lng) }))
     .filter(entry => entry.distFromCenter <= radiusKm);
 
