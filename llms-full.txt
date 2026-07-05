@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-04. 129 people.
+Generated 2026-07-04. 136 people.
 
 ---
 
@@ -793,6 +793,22 @@ Williams died in 1905, having spent sixty years insisting that the answer to a y
 
 ---
 
+## Gil Seon-ju 길선주 (1869–1935)
+
+URL: https://livesoffaith.org/person.html?id=gil-seon-ju
+Wikipedia: https://en.wikipedia.org/wiki/Gil_Seon-ju
+Nationality: Korean · Tradition: Presbyterian · Region: Asia · Era: 20th Century
+Topics: revival, repentance, prayer, perseverance
+Note: Before his conversion, Gil spent roughly a decade as a devotee of Korean folk mysticism, and some historians trace continuity between those earlier ascetic disciplines and his later, distinctively fervent style of prayer. He was also an early Korean advocate of dispensationalist premillennial teaching on Christ's return — a position not shared across evangelical traditions. Neither point casts doubt on his conversion or his Christian ministry, which are well documented and orthodox, but they are noted here for the reader's discernment.
+
+Gil Seon-ju was born in 1869 in Korea's South Pyeongan Province. For about ten years he pursued Korean folk mysticism, seeking enlightenment through fasting and ascetic discipline, before a friend introduced him to Christian teaching in 1897. He was converted, and became one of the first seven Koreans ordained as Presbyterian ministers, in 1907, pastoring Jangdaehyeon Church in Pyongyang.
+
+That same year, at an evening meeting, Gil stood and confessed publicly to a specific sin — money he had wrongly kept while settling a deceased friend's estate — saying it stood between the Korean church and God's blessing. His confession triggered a wave of repentance across the congregation that became known as the 1907 Pyongyang Great Revival, a turning point for Korean Protestant Christianity. In 1919 Gil signed Korea's Declaration of Independence as one of thirty-three national representatives and was imprisoned by Japanese authorities for over two years.
+
+Gil's revival began the moment he stopped defending himself. He did not call the congregation to try harder; he showed them, in his own confession, that the only way forward was to stop hiding sin and receive the forgiveness Christ freely offers — a lesson every person in that room, and every reader since, still needs.
+
+---
+
 ## Gladys Aylward (1902–1970)
 
 URL: https://livesoffaith.org/person.html?id=gladys-aylward
@@ -908,6 +924,21 @@ Horatius Bonar was born in Edinburgh in 1808 into a long tradition of Presbyteri
 He became one of the most prolific Scottish hymn writers of the Victorian era, producing over 600 hymns notable for their warmth and their consistent focus on the person of Christ.
 
 I Heard the Voice of Jesus Say is structured around three invitations — to rest, to drink, to come into the light — each answered with a personal response of faith. It is the gospel in dialogue: Jesus invites, the soul comes, and finds exactly what He promised. Bonar's hymns are windows onto the mercy of Jesus — they point through themselves toward Him.
+
+---
+
+## Hsi Shengmo 席勝魔 (c. 1836–1896)
+
+URL: https://livesoffaith.org/person.html?id=hsi-shengmo
+Wikipedia: https://en.wikipedia.org/wiki/Xi_Shengmo
+Nationality: Chinese · Tradition: China Inland Mission (interdenominational evangelical) · Region: Asia · Era: 19th Century
+Topics: conversion, missions, perseverance, grace
+
+Hsi Shengmo was born around 1836 near Linfen, in China's Shanxi province, and rose to be a respected Confucian scholar. After the death of his first wife left him without hope, he turned to opium and sank for years into addiction, despised by the community that had once honored him.
+
+Introduced to Christian teaching through an English Methodist missionary, he read the Gospel account of the crucifixion and wept, overwhelmed by the discovery that Christ had died for a man as broken as he was. Freed from opium through prayer alone, he took the name Shengmo — 'conqueror of demons' — and was baptized in 1880. Hudson Taylor ordained him in 1886 as pastor over a wide district, where he went on to found some forty opium refuges across four provinces, each one doubling as a small church.
+
+Hsi never treated his own recovery as proof of willpower. He told his story the way Scripture tells every conversion story: not a man reforming himself, but a sinner laid hold of by grace, and made new by faith in the One he had wept over — Christ crucified for him.
 
 ---
 
@@ -1819,6 +1850,21 @@ A former soldier who had once fought for his country, Youderian had come to beli
 
 ---
 
+## Rosetta Sherwood Hall (1865–1951)
+
+URL: https://livesoffaith.org/person.html?id=rosetta-sherwood-hall
+Wikipedia: https://en.wikipedia.org/wiki/Rosetta_Sherwood_Hall
+Nationality: American · Tradition: Methodist Episcopal · Region: Asia · Era: 20th Century
+Topics: compassion, perseverance, sacrifice, service
+
+Rosetta Sherwood Hall was born in 1865 in Liberty, New York, and trained as a doctor at the Woman's Medical College of Pennsylvania. In 1890 she sailed to Korea as a medical missionary, and there married fellow physician William James Hall. Widowed at twenty-nine when William died of typhus caught while tending wounded soldiers, Rosetta — six weeks pregnant — briefly returned to America, then chose to go back to Korea with her small children rather than remain safely home.
+
+Her infant daughter Edith died of dysentery soon after their return. Rather than retreat, Rosetta founded a children's medical ward in Edith's name, then went on to establish the Pyongyang School for the Deaf and Blind in 1909, pioneering Korean Braille, and in 1928 co-founded Korea's first women's medical school. She served Korea for forty-four years. Her son Sherwood Hall later became a missionary doctor himself, launching Korea's first Christmas Seals campaign against tuberculosis.
+
+Rosetta could have called her husband's death, and her daughter's, reasons to stop. Instead she turned grief into decades of gospel-shaped service, trusting that the God who had not spared her losses was still worth giving her whole life to — not because service earns His favor, but because grace received is grace given away.
+
+---
+
 ## Sadhu Sundar Singh (1889–c. 1929)
 
 URL: https://livesoffaith.org/person.html?id=sadhu-sundar-singh
@@ -1836,6 +1882,36 @@ He became a sadhu — wearing the saffron robe, living on hospitality — and pr
 Note: Some accounts associated with Singh cannot be independently verified and should be received with critical discernment.
 
 He disappeared in 1929 while attempting to cross the Himalayas into Tibet, aged approximately forty.
+
+---
+
+## Samuel Ajayi Crowther (c. 1809–1891)
+
+URL: https://livesoffaith.org/person.html?id=samuel-ajayi-crowther
+Wikipedia: https://en.wikipedia.org/wiki/Samuel_Ajayi_Crowther
+Nationality: Nigerian (Yoruba) · Tradition: Anglican (Church Missionary Society) · Region: Africa · Era: 19th Century
+Topics: freedom, missions, translation, perseverance
+
+Samuel Ajayi Crowther was born around 1809 in Osogun, in what is now Nigeria. Around age twelve he was captured during a raid, separated from his mother, and sold into slavery. The Portuguese ship carrying him was intercepted by a Royal Navy anti-slavery patrol, and he was landed at Freetown, Sierra Leone, where Church Missionary Society schools gave him an education he had never expected to receive. He was baptized in 1825.
+
+Crowther became the first student at Fourah Bay College, was ordained, and gave himself to translating Scripture into his native Yoruba, completing the full Bible in 1884 alongside a Yoruba grammar and prayer book. In 1864 he was consecrated the first African bishop of the Anglican Church, at Canterbury Cathedral, and led the CMS Niger Mission for decades — though in his final year, younger European missionaries undermined his authority in ways historians now recognize as racially motivated.
+
+In 1846, returning as a missionary to the region of his childhood, Crowther was reunited with his mother, twenty-five years after the raid that had torn them apart. She and other family members subsequently believed in Christ. The boy stolen from his home became, by grace alone, the means by which his own family was found by the God he had come to know in exile.
+
+---
+
+## Samuel Lamb 林献羔 (1924–2013)
+
+URL: https://livesoffaith.org/person.html?id=samuel-lamb
+Wikipedia: https://en.wikipedia.org/wiki/Samuel_Lamb
+Nationality: Chinese · Tradition: Independent evangelical (Baptist background) · Region: Asia · Era: 20th Century
+Topics: perseverance, persecution, faithfulness, suffering
+
+Samuel Lamb — known in Chinese as Lin Xiangao — was born in 1924 near Guangzhou, the son of a Baptist pastor. He trained for ministry in Hong Kong and began preaching in Guangzhou in the years before Communist rule, in the same circles as the independent evangelist Wang Ming Dao.
+
+When China's new government demanded that every Protestant church submit to the state-controlled Three-Self Patriotic Movement, Lamb refused, insisting that Christ alone governs His church. He was imprisoned in 1955, then re-arrested in 1958 and sentenced to twenty years of hard labor, much of it spent coupling coal wagons in freezing underground mine tunnels where many men around him were killed or maimed. Released in 1979, he reopened his small house church in Guangzhou; within a few years it was drawing thousands of worshippers across several services each week, entirely without official recognition.
+
+Looking back on the mines, Lamb said only that God had protected him though he could have died many times over. He liked to sum up his life in one line: more persecution, more growth. What carried him through two decades of imprisonment was not his own endurance but the same gift he preached every week — that God receives sinners not for their compliance or their merit, but freely, by grace, through faith in Christ alone.
 
 ---
 
@@ -1868,6 +1944,21 @@ Samuel Rutherford was born around 1600 in the Scottish Borders and rose to becom
 In 1636 he was formally barred from ministry and banished to Aberdeen “during the King's pleasure” — an open-ended exile for nonconformity. It was there, cut off from his congregation, that he wrote most of the devotional Letters for which he is remembered: intimate, Christ-absorbed reflections on suffering that Charles Spurgeon later called “the nearest thing to inspiration...in all the writings of mere men.” Restored to ministry after 1638, he went on to represent Scotland at the Westminster Assembly and to write Lex, Rex (1644), a defense of constitutional government that was publicly burned after the Restoration.
 
 Cited to face a charge of treason for that book, Rutherford died in St Andrews in 1661 before the case could proceed, reportedly answering the summons: “I have got a summons already before a superior Judge, and I behove to answer my first summons.” His life's whole direction, like his last recorded words, turned away from his own record toward Christ alone — “Acquainted with Emmanuel's love” is carved on his grave.
+
+---
+
+## Son Yang-won 손양원 (1902–1950)
+
+URL: https://livesoffaith.org/person.html?id=son-yang-won
+Wikipedia: https://ko.wikipedia.org/wiki/손양원
+Nationality: Korean · Tradition: Presbyterian · Region: Asia · Era: 20th Century
+Topics: forgiveness, persecution, martyrdom, suffering
+
+Son Yang-won was born in 1902 in Gyeongsangnam-do, Korea. Trained at Pyongyang Theological Seminary, he became pastor of the church at Aeyangwon, a leprosy colony near Yeosu, where he spent decades caring for patients that much of society had abandoned. In 1940, Japanese colonial authorities imprisoned him for about five years for refusing to bow at Shinto shrines.
+
+In 1948, during the Yeosu-Suncheon rebellion, a young communist sympathizer murdered Son's two sons, Dong-in and Dong-shin, for being Christians loyal to the new government. When the killer was captured and sentenced to die, Son did the almost unthinkable: he pleaded for the young man's life, and then adopted him as his own son. Two years later, during the Korean War, Son was captured by retreating Communist troops, tortured, and shot near Yeosu — killed, like his sons, for his faith.
+
+Son's adoption of his sons' killer was not sentiment; it was doctrine made visible. He had spent his ministry telling leprosy patients that God does not love the deserving — He loves and forgives sinners freely, through faith in Christ, who first forgave those who killed Him. Son simply lived out, at unbearable cost, the grace he had always preached.
 
 ---
 
@@ -1934,6 +2025,22 @@ Thomas Watson (c.1620–1686) was an English Puritan minister educated at Emmanu
 He is known chiefly for three books. A Body of Divinity — sermons on the Westminster Shorter Catechism — remains one of the clearest introductions to Reformed theology in the English language, opening with the question "What is the chief end of man?" and demonstrating that doctrine is not abstract but immediately connected to worship. All Things for Good meditates on Romans 8:28 with the authority of a man who had lost his living; The Doctrine of Repentance carefully distinguishes genuine repentance from its counterfeits.
 
 Watson died suddenly while in prayer at Barnston, Essex in 1686. He was Reformed in theology, Puritan in devotion, and pastoral in care for ordinary believers — always intent on helping them understand not just what they believed, but how to tell whether they had the real thing.
+
+---
+
+## Toyohiko Kagawa 賀川豊彦 (1888–1960)
+
+URL: https://livesoffaith.org/person.html?id=toyohiko-kagawa
+Wikipedia: https://en.wikipedia.org/wiki/Toyohiko_Kagawa
+Nationality: Japanese · Tradition: Presbyterian / evangelical social reformer · Region: Asia · Era: 20th Century
+Topics: compassion, social reform, suffering, service
+Note: Kagawa's ministry was marked by a strong emphasis on Christian practice and social reform, which at times sat loosely to doctrinal precision — he described 'Christianity in action' as the truth behind Christian doctrine rather than doctrine itself. He also made some ambiguous public statements during Japan's wartime nationalism that have troubled later historians. These are noted for the reader's discernment; they do not erase a lifetime of sacrificial gospel service among the poor.
+
+Toyohiko Kagawa was born in Kobe, Japan, in 1888. Discipled as a teenager by Southern Presbyterian missionaries, he was baptized in 1904 — a decision that cost him his family, who disowned him. He went on to study at Kobe Theological Seminary and Princeton, but it was not academic theology that shaped his calling.
+
+On Christmas Eve 1909, while still a seminary student, Kagawa moved into Kobe's Shinkawa slum to live among its poorest residents, sharing his own meagre stipend and enduring beatings and robbery from the gangsters who controlled the district. From that single room he built a life's work: organizing Japan's labor movement, founding consumer cooperatives, and from 1926 leading the nationwide 'Kingdom of God' evangelistic campaign that carried the gospel into towns and villages across Japan. He was nominated for the Nobel Peace Prize and the Nobel Prize in Literature.
+
+Kagawa insisted that Christianity had to be lived, not merely believed — but the gospel he lived out was still the old one: that Christ receives sinners freely, and asks them in turn to love their neighbor as he had loved them, without payment or precondition.
 
 ---
 

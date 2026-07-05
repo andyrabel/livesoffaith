@@ -1204,4 +1204,66 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=samuel-lamb</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=hsi-shengmo</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/hsi-shengmo.jpg</image:loc>
+      <image:caption>Portrait of Hsi Shengmo 席勝魔</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=toyohiko-kagawa</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/toyohiko-kagawa.jpg</image:loc>
+      <image:caption>Portrait of Toyohiko Kagawa 賀川豊彦</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=samuel-ajayi-crowther</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/samuel-ajayi-crowther.jpg</image:loc>
+      <image:caption>Portrait of Samuel Ajayi Crowther</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=son-yang-won</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=gil-seon-ju</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/gil-seon-ju.jpg</image:loc>
+      <image:caption>Portrait of Gil Seon-ju 길선주</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=rosetta-sherwood-hall</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/rosetta-sherwood-hall.jpg</image:loc>
+      <image:caption>Portrait of Rosetta Sherwood Hall</image:caption>
+    </image:image>
+  </url>
 </urlset>
