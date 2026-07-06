@@ -797,5 +797,39 @@
     "source_url": "https://en.wikipedia.org/wiki/Jeamni_massacre",
     "status": "Open to the public",
     "open_to_public": true
+  },
+  {
+    "id": "taiyuan-massacre-memorial",
+    "name": "Taiyuan Massacre Memorial — Cathedral of the Immaculate Conception",
+    "type": "church",
+    "category": "secular",
+    "country": "China",
+    "region": "Asia",
+    "address": "174 Jiefang Road, Taiyuan, Shanxi 030009, China",
+    "lat": 37.8706,
+    "lng": 112.5489,
+    "description": "On 9 July 1900, during the Boxer Rebellion, the governor of Shanxi had 46 foreign missionaries — 34 Protestants and 12 Catholics — massacred in the courtyard of his palace in Taiyuan; by summer's end, an estimated 1,500-2,000 Chinese Christians had also been killed across the province, in what one historian has called the greatest single tragedy in the history of Christian evangelicalism. A Cemetery of the (Catholic) Boxer Martyrs was built in Taiyuan in 1901, and this cathedral — rebuilt after the massacre and restored again for its 2006 centenary — now carries a memorial tablet to the victims.",
+    "interest_note": "This is a Roman Catholic cathedral, not an evangelical institution, and its surviving memorial commemorates the twelve Catholic priests killed alongside the missionaries. It is included here because the massacre itself was overwhelmingly Protestant in its toll — 34 of the 46 killed at the governor's palace, and the great majority of the roughly 2,000 Chinese Christians killed across Shanxi that summer — and this cathedral is the only substantial surviving memorial marking the event.",
+    "website": "",
+    "source_url": "https://en.wikipedia.org/wiki/Taiyuan_massacre",
+    "status": "Open to the public",
+    "open_to_public": true
+  },
+  {
+    "id": "immanuel-general-mission-tokyo",
+    "name": "Immanuel General Mission Headquarters, Tokyo",
+    "type": "other",
+    "category": "christian",
+    "country": "Japan",
+    "region": "Asia",
+    "address": "2-1 Kanda Surugadai, Chiyoda-ku, Tokyo, Japan",
+    "lat": 35.6969,
+    "lng": 139.7614,
+    "description": "On 26 June 1942, Japanese authorities arrested Holiness pastor David Tsugio Tsutada and roughly 130 other Christians for refusing to bow toward the Imperial Palace and perform mandatory Shinto shrine worship, saying 'only God in heaven is divine. We worship Him alone.' Tsutada spent two years in solitary confinement at Sugamo Prison. After his release, he founded a new church in Tokyo in 1945, naming it 'Immanuel' — 'You, O God, are with us, just as you were in the cell with me.' That congregation grew into the Immanuel General Mission, a Japanese Holiness denomination headquartered here today.",
+    "interest_note": "",
+    "website": "https://www.immanuel.or.jp/",
+    "source_url": "https://en.wikipedia.org/wiki/David_Tsugio_Tsutada",
+    "status": "Working denominational headquarters",
+    "open_to_public": false
   }
 ]
