@@ -3513,9 +3513,9 @@
       "redistribution_note": "1846 portrait, Creative Commons Public Domain Mark 1.0 — clear claim, no caveat."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-05"
     },
     "memorials": [
       {
@@ -5950,9 +5950,9 @@
       "redistribution_note": "Explicitly 'public domain in USA', published before 1931."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-05"
     },
     "memorials": [
       {
@@ -7405,9 +7405,9 @@
       }
     ],
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-05"
     }
   },
   {
