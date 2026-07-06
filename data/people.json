@@ -1883,7 +1883,91 @@
       "reviewed_by": "",
       "reviewed_date": ""
     },
-    "memorials": []
+    "memorials": [
+      {
+        "type": "other",
+        "name": "Baimaoling Prison Labour Camp, Guangde County, Anhui — where Nee died in detention in 1972; his ashes were buried in an unmarked grave nearby, site not marked or accessible",
+        "address": "Guangde County, Anhui Province, China",
+        "lat": 30.8935,
+        "lng": 119.4247,
+        "open_to_public": false
+      }
+    ]
+  },
+  {
+    "id": "lin-zhao",
+    "name": "Lin Zhao 林昭",
+    "born": 1932,
+    "born_approximate": false,
+    "died": 1968,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Jan 23, 1932",
+        "event": "birth",
+        "details": "Born Peng Lingzhao in Suzhou, Jiangsu Province, China."
+      },
+      {
+        "date": "Jul 1957",
+        "event": "other",
+        "details": "Branded a 'rightist' during the Hundred Flowers Movement for defending open debate; refused to recant, unlike most others accused."
+      },
+      {
+        "date": "Oct 24, 1960",
+        "event": "other",
+        "details": "Arrested in Suzhou for association with a group of intellectuals who had discussed the famine deaths sweeping China."
+      },
+      {
+        "date": "Feb 5, 1964",
+        "event": "other",
+        "details": "After a suicide attempt in prison, began writing in her own blood when denied pen and paper, producing poems and letters steeped in Christian language of sacrifice and martyrdom."
+      },
+      {
+        "date": "Apr 29, 1968",
+        "event": "martyred",
+        "details": "Executed by firing squad at Shanghai's Longhua Airport for her writings against Mao's regime; her family was later charged a fee for the bullet."
+      }
+    ],
+    "nationality": "Chinese",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Independent evangelical (Methodist mission-school background)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "persecution",
+      "suffering",
+      "perseverance"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lin_Zhao",
+    "source_summary": "Lin Zhao (1932-1968), born Peng Lingzhao, was a Chinese Christian dissident executed during China's Cultural Revolution era for her writings opposing Mao's totalitarian rule. Baptized at a Methodist mission school in Suzhou, she drew on Christian language of sacrifice and martyrdom throughout years of imprisonment, at times writing in her own blood when denied pen and paper. She was executed by firing squad in 1968; her tomb at Lingyan Mountain, Suzhou, remains a site of pilgrimage for Chinese dissidents today.",
+    "adult_story": "Lin Zhao was born Peng Lingzhao in 1932 in Suzhou, China. Educated at a Methodist mission school, she was baptized as a teenager, then joined an underground Communist cell during China's civil war, believing the revolution would bring justice to the poor.\n\nWhat she saw instead broke that faith apart. During land reform she witnessed landlords tortured and killed; during the 1956 Hundred Flowers Movement, she watched the Party punish the very criticism it had invited. In 1957 she was branded a 'rightist' for defending open debate — and, unlike most who recanted, she refused, insisting she had done no wrong.\n\nArrested in 1960 and imprisoned for years, Lin turned back to the Christian faith of her youth as the only ground steady enough to stand on. Denied pen and paper, she wrote poems, letters, and prayers in her own blood, calling her sufferings an offering patterned on Christ's own sacrifice — not a way to earn favor with God, but a testimony that her life, however it ended, already belonged to the Christ who had first given his blood for her.\n\nShe was executed by firing squad in Shanghai in 1968, at thirty-six. Her family later received a bill for the bullet. Yet Lin's blood-written words survived, smuggled out by relatives and later preserved at Stanford University, still read today by Chinese Christians and dissidents alike as proof that a life surrendered to Christ cannot finally be silenced by a government's gun.",
+    "family_story": "Lin Zhao was born in China in 1932. She went to a Christian school and was baptized as a teenager, then joined a Communist group, hoping it would help the poor.\n\nBut she saw the government hurt and even kill people instead of helping them. When she spoke up, the government punished her and eventually put her in prison for years.\n\nIn prison, Lin turned back to her Christian faith. She wasn't allowed pens or paper, so she wrote poems and letters using her own blood, comparing her suffering to Jesus giving his life for others.\n\nIn 1968, Lin was executed for her writings. But her words were saved and are still read today, showing no government can silence someone whose life belongs to Jesus.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Lin Zhao's Tomb, Lingyan Mountain, Suzhou — inscribed with lines from her prison writings; visited by dissidents despite ongoing government monitoring and periodic restrictions",
+        "address": "Lingyan Mountain, near Mudu, Suzhou, Jiangsu Province, China",
+        "lat": 31.2519,
+        "lng": 120.5117
+      },
+      {
+        "type": "archive",
+        "name": "Lin Zhao Papers — Hoover Institution Library & Archives, Stanford University",
+        "address": "434 Galvez Mall, Stanford, CA 94305, USA",
+        "lat": 37.4275,
+        "lng": -122.1697,
+        "open_to_public": false
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   },
   {
     "id": "sadhu-sundar-singh",
@@ -11397,7 +11481,16 @@
       "redistribution_safe": false,
       "redistribution_note": "Tagged public domain in South Korea/Japan, but the original photographer/source is undocumented ('unknown') — treat as reference only, not an unambiguous redistribution claim."
     },
-    "memorials": [],
+    "memorials": [
+      {
+        "type": "other",
+        "name": "Site of Jangdaehyeon Church, Pyongyang — where Gil's 1907 confession sparked the Pyongyang Great Revival; the church was demolished under North Korean rule and the Mansu Hill Grand Monument now stands on the site, inaccessible as a Christian site",
+        "address": "Mansu Hill, Pyongyang, North Korea",
+        "lat": 39.0392,
+        "lng": 125.7625,
+        "open_to_public": false
+      }
+    ],
     "review": {
       "human_reviewed": true,
       "reviewed_by": "Andrew",

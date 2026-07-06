@@ -780,5 +780,22 @@
     "source_url": "https://en.wikipedia.org/wiki/Cane_Ridge_Revival",
     "status": "Open to the public seasonally, April–November; contact the site for current hours",
     "open_to_public": true
+  },
+  {
+    "id": "jeam-ri-massacre-memorial",
+    "name": "Jeam-ri 3.1 Independence Movement Memorial Hall",
+    "type": "monument",
+    "category": "christian",
+    "country": "South Korea",
+    "region": "Asia",
+    "address": "322-4 Jeam-ri, Hyangnam-eup, Hwaseong-si, Gyeonggi-do, South Korea",
+    "lat": 37.11,
+    "lng": 126.851,
+    "description": "On 15 April 1919, during Japan's crackdown following Korea's March 1st Movement for independence, Japanese soldiers forced about 20 male Christians and Cheondoists into the Jeam-ri Protestant church, locked the doors, and killed them with gunfire and bayonets before burning the building. A joint cemetery for 23 martyrs stands on the hill behind the site, alongside a memorial hall opened in 2001 and a further independence movement memorial hall completed in 2024.",
+    "interest_note": "",
+    "website": "",
+    "source_url": "https://en.wikipedia.org/wiki/Jeamni_massacre",
+    "status": "Open to the public",
+    "open_to_public": true
   }
 ]

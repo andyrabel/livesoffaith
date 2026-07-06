@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-06. 141 people.
+Generated 2026-07-06. 142 people.
 
 ---
 
@@ -1485,6 +1485,23 @@ Lilias Trotter (1853–1928) was a British artist who, in her twenties, was told
 She declined. Converted through D.L. Moody's London meetings in the 1870s, she had concluded that no calling, however glittering, could compete with the eternal. She wrote: "I cannot give myself to painting in the way he means and continue to seek first the Kingdom of God." She served among London's poor, then in 1888 sailed to Algeria — rejected by the North Africa Mission on health grounds, she went anyway with two friends and founded what became the Algiers Mission Band.
 
 She spent forty years among Muslim Algerians, learning Arabic, forming relationships across vast cultural distance, bearing witness over a long obedience. She never saw mass conversion. She kept painting — now as worship rather than ambition — and her devotional writings, including Parables of the Cross, remain in print. She died in Algeria in 1928. Her life poses the question she posed herself: what is more valuable — the fame that perishes, or the fruit that abides? She answered it with forty years of faithful service in a place that returned almost nothing visible.
+
+---
+
+## Lin Zhao 林昭 (1932–1968)
+
+URL: https://livesoffaith.org/person.html?id=lin-zhao
+Wikipedia: https://en.wikipedia.org/wiki/Lin_Zhao
+Nationality: Chinese · Tradition: Independent evangelical (Methodist mission-school background) · Region: Asia · Era: 20th Century
+Topics: martyrdom, persecution, suffering, perseverance
+
+Lin Zhao was born Peng Lingzhao in 1932 in Suzhou, China. Educated at a Methodist mission school, she was baptized as a teenager, then joined an underground Communist cell during China's civil war, believing the revolution would bring justice to the poor.
+
+What she saw instead broke that faith apart. During land reform she witnessed landlords tortured and killed; during the 1956 Hundred Flowers Movement, she watched the Party punish the very criticism it had invited. In 1957 she was branded a 'rightist' for defending open debate — and, unlike most who recanted, she refused, insisting she had done no wrong.
+
+Arrested in 1960 and imprisoned for years, Lin turned back to the Christian faith of her youth as the only ground steady enough to stand on. Denied pen and paper, she wrote poems, letters, and prayers in her own blood, calling her sufferings an offering patterned on Christ's own sacrifice — not a way to earn favor with God, but a testimony that her life, however it ended, already belonged to the Christ who had first given his blood for her.
+
+She was executed by firing squad in Shanghai in 1968, at thirty-six. Her family later received a bill for the bullet. Yet Lin's blood-written words survived, smuggled out by relatives and later preserved at Stanford University, still read today by Chinese Christians and dissidents alike as proof that a life surrendered to Christ cannot finally be silenced by a government's gun.
 
 ---
 
