@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-04. 139 people.
+Generated 2026-07-06. 141 people.
 
 ---
 
@@ -430,6 +430,23 @@ Evans never let his own transformation — from illiterate, disfigured farmhand 
 
 ---
 
+## Chu Ki-chol 주기철 (1897–1944)
+
+URL: https://livesoffaith.org/person.html?id=chu-ki-chol
+Wikipedia: https://en.wikipedia.org/wiki/Chu_Ki-chol
+Nationality: Korean · Tradition: Presbyterian · Region: Asia · Era: 20th Century
+Topics: martyrdom, persecution, faithfulness, idolatry
+
+Chu Ki-chol was born in 1897 in Changwon, Korea. He took part in the 1919 independence protests against Japanese rule, but a meeting with the evangelist Kim Ik-du redirected his life from politics toward ministry. He trained at Pyongyang Theological Seminary and was ordained a Presbyterian minister in 1926.
+
+From 1936 Chu pastored Sanjunghyun Church in Pyongyang, and from there turned local opposition to Japan's compulsory Shinto shrine worship into a nationwide movement, insisting that bowing at the shrines was the idolatry Scripture forbids. He was arrested and tortured repeatedly through the late 1930s. In 1938 he preached a sermon titled 'Determination for Death,' making plain that his stand was a matter of Christian conscience, not nationalism. His final arrest came in July 1940, after he publicly confronted a Japanese-installed pastor who claimed shrine worship was not sinful.
+
+Chu spent his last years in Pyongyang Prison, tortured repeatedly for refusing to recant. He died in the prison's medical ward on 21 April 1944, at forty-six. His last recorded words were: 'God of my soul, hold me firm.'
+
+Chu's resistance was never really about the shrine gate itself — it was about whether Christ alone, or the emperor beside him, would receive the worship due to God. He chose, at the cost of his life, to give God what belonged to God alone, leaving Korea's church a model of costly, first-commandment faithfulness under totalitarian pressure.
+
+---
+
 ## Chuck Colson (1931–2012)
 
 URL: https://livesoffaith.org/person.html?id=chuck-colson
@@ -570,15 +587,15 @@ Wikipedia: https://en.wikipedia.org/wiki/Dwight_L._Moody
 Nationality: American · Tradition: Non-denominational evangelical · Region: North America · Era: 19th Century
 Topics: evangelism, revival, grace, conversion, prayer, missions
 
-Dwight Lyman Moody was born in 1837 in Northfield, Massachusetts, the sixth of nine children. His father died when Dwight was four, leaving the family in poverty. He had little formal education and moved to Boston at seventeen to work in a shoe store.
+Dwight Lyman Moody was born in 1837 in Northfield, Massachusetts. His father died when Dwight was four, leaving the family in poverty. With little formal education, he moved to Boston at seventeen to work in a shoe store.
 
-His employer's condition was that he attend Sunday school. It was there that his teacher Edward Kimball sought him out in the back room of the shop in 1855 and asked if he was willing to give his life to Christ. Moody was. It was, as he later described it, the day everything changed.
+His employer required him to attend church and Sunday school. There, his teacher, Edward Kimball, sought him out in the back room of the shop in 1855, explained the gospel personally, and urged him to trust Christ. Moody did so, and later described it as the day everything changed.
 
-He moved to Chicago, prospered in business, and might have remained prosperous — but in 1860 he gave it up for full-time ministry among the poor of the city. He built a Sunday school in the slums that grew into what became Moody Church. He partnered with singer Ira Sankey, and together they conducted evangelistic campaigns across Britain and North America through the 1870s and 1880s that drew hundreds of thousands.
+He moved to Chicago, prospered in business, and might have remained successful there, but in 1860 he gave it up for full-time ministry among the city's poor. The Sunday school he founded eventually developed into what is now Moody Church. Partnering with singer Ira Sankey, he led evangelistic campaigns across Britain and North America throughout the 1870s and 1880s that drew hundreds of thousands.
 
-He founded Northfield schools in Massachusetts, and in 1886 established the school that became Moody Bible Institute — training ordinary men and women for ministry without requiring the formal education he himself had never received.
+Moody also founded the Northfield schools in Massachusetts and, in 1886, established the Chicago Evangelization Society, which later became Moody Bible Institute, training ordinary men and women for Christian service without requiring the formal education he himself had never received.
 
-He died in 1899. It is estimated he preached to more than one hundred million people — each one brought face to face with a God who, as Moody put it, is not angry but loves them.
+He died in 1899. It has been estimated that he preached to more than one hundred million people, consistently pointing them to the God who loved them and had provided salvation through Jesus Christ.
 
 ---
 
@@ -950,11 +967,11 @@ Wikipedia: https://en.wikipedia.org/wiki/Xi_Shengmo
 Nationality: Chinese · Tradition: China Inland Mission (interdenominational evangelical) · Region: Asia · Era: 19th Century
 Topics: conversion, missions, perseverance, grace
 
-Hsi Shengmo was born around 1836 near Linfen, in China's Shanxi province, and rose to be a respected Confucian scholar. After the death of his first wife left him without hope, he turned to opium and sank for years into addiction, despised by the community that had once honored him.
+Hsi Shengmo was born around 1836 near Linfen, in China's Shanxi province, and became a respected Confucian scholar. After the death of his first wife and years of fruitless searching for peace through traditional religion, he fell into opium addiction and became a man whom many regarded as beyond hope.
 
-Introduced to Christian teaching through an English Methodist missionary, he read the Gospel account of the crucifixion and wept, overwhelmed by the discovery that Christ had died for a man as broken as he was. Freed from opium through prayer alone, he took the name Shengmo — 'conqueror of demons' — and was baptized in 1880. Hudson Taylor ordained him in 1886 as pastor over a wide district, where he went on to found some forty opium refuges across four provinces, each one doubling as a small church.
+Introduced to Christianity through the English Methodist missionary David Hill, he was deeply moved as he read the Gospel account of Christ's suffering and death, weeping at the realization that Christ had died even for him. After medicine had failed, he sought God's help in prayer and found freedom from opium. On becoming a Christian in 1879, he took the name Shengmo—"Conqueror of Demons"—and was later baptized. In 1886 Hudson Taylor ordained him as superintendent pastor over a wide district, where he established about forty opium refuges across four provinces, each serving as both a place of healing and a center for the spread of the gospel.
 
-Hsi never treated his own recovery as proof of willpower. He told his story the way Scripture tells every conversion story: not a man reforming himself, but a sinner laid hold of by grace, and made new by faith in the One he had wept over — Christ crucified for him.
+Hsi never treated his own recovery as a triumph of human resolve. He told his story the way Scripture tells every conversion: not of a man reforming himself, but of a sinner rescued by God's grace through faith in Christ crucified.
 
 ---
 
@@ -1827,6 +1844,23 @@ He became associated with the Open Brethren and was known across the evangelical
 Chapman lived to 99 and never retired from ministry. He was a poet, an evangelist, and a letter-writer whose counsel was sought by leaders across denominations. His maxim was that love is the greatest apologetic: "Let your life preach, then let your lips, if necessary, also speak."
 
 His life pointed to the grace that produces unhurried, unboastful, enduring love — not a love manufactured by duty, but one rooted in a sight of Christ he had been cultivating for eight decades.
+
+---
+
+## Robert Jermain Thomas (1840–c. 1866)
+
+URL: https://livesoffaith.org/person.html?id=robert-jermain-thomas
+Wikipedia: https://en.wikipedia.org/wiki/Robert_Jermain_Thomas
+Nationality: Welsh · Tradition: Congregationalist (London Missionary Society) · Region: Asia · Era: 19th Century
+Topics: missions, martyrdom, Scripture, sacrifice
+
+Robert Jermain Thomas was born in 1840 in Rhayader, Wales, the son of a Congregational minister. Ordained in 1863, he married Caroline Godfrey and sailed with the London Missionary Society for Shanghai. Tragedy met him almost at once: three months after they arrived, Caroline died from complications following a miscarriage, leaving Thomas alone at twenty-three.
+
+Rather than return home, Thomas turned toward Korea, then almost entirely closed to Western contact. In 1865 he spent two and a half months along the Korean coast, handing out Chinese-language New Testaments — among the first substantial Scripture many Koreans had ever seen.
+
+In 1866 he joined the American trading ship General Sherman as an interpreter, hoping the voyage would open a door for further gospel distribution. When the ship ran aground in the Taedong River near Pyongyang, tension with Korean authorities turned to violence. As the grounded vessel burned, Thomas is remembered as continuing to hand Testaments to people on the riverbank even as he was killed.
+
+His death was not the end of his witness. Korean believers later traced the seeds of the 1907 Pyongyang Great Revival that Gil Seon-ju helped spark — the awakening that made the city known as 'the Jerusalem of the East' — back to the very Scriptures he had scattered along that river forty years before. Thomas staked his life not on his own survival but on the sufficiency of Christ's word, trusting God to bring a harvest he would never live to see.
 
 ---
 

@@ -11405,6 +11405,156 @@
     }
   },
   {
+    "id": "robert-jermain-thomas",
+    "name": "Robert Jermain Thomas",
+    "born": 1840,
+    "born_approximate": false,
+    "died": 1866,
+    "died_approximate": true,
+    "significant_dates": [
+      {
+        "date": "Sep 7, 1840",
+        "event": "birth",
+        "details": "Born in Rhayader, Radnorshire, Wales, son of a Congregational minister."
+      },
+      {
+        "date": "1863",
+        "event": "other",
+        "details": "Ordained and married Caroline Godfrey; sailed for Shanghai as a London Missionary Society missionary."
+      },
+      {
+        "date": "1864",
+        "event": "other",
+        "details": "Caroline died from complications following a miscarriage, three months after they reached Shanghai."
+      },
+      {
+        "date": "1865",
+        "event": "other",
+        "details": "Spent two and a half months distributing Chinese-language New Testaments along the Korean coast."
+      },
+      {
+        "date": "c. Sep 2, 1866",
+        "event": "martyred",
+        "details": "Killed near Pyongyang when the trading ship General Sherman was attacked and burned after running aground in the Taedong River."
+      }
+    ],
+    "nationality": "Welsh",
+    "era": "19th Century",
+    "region": "Asia",
+    "tradition": "Congregationalist (London Missionary Society)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "martyrdom",
+      "Scripture",
+      "sacrifice"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Jermain_Thomas",
+    "source_summary": "Robert Jermain Thomas (1840-1866) was a Welsh Congregationalist missionary with the London Missionary Society, regarded as the first Protestant martyr in Korea. After his young wife's death in Shanghai, he distributed Chinese-language New Testaments along the Korean coast in 1865, then died in 1866 near Pyongyang while continuing to hand out Scripture as the ship General Sherman was attacked and burned.",
+    "adult_story": "Robert Jermain Thomas was born in 1840 in Rhayader, Wales, the son of a Congregational minister. Ordained in 1863, he married Caroline Godfrey and sailed with the London Missionary Society for Shanghai. Tragedy met him almost at once: three months after they arrived, Caroline died from complications following a miscarriage, leaving Thomas alone at twenty-three.\n\nRather than return home, Thomas turned toward Korea, then almost entirely closed to Western contact. In 1865 he spent two and a half months along the Korean coast, handing out Chinese-language New Testaments — among the first substantial Scripture many Koreans had ever seen.\n\nIn 1866 he joined the American trading ship General Sherman as an interpreter, hoping the voyage would open a door for further gospel distribution. When the ship ran aground in the Taedong River near Pyongyang, tension with Korean authorities turned to violence. As the grounded vessel burned, Thomas is remembered as continuing to hand Testaments to people on the riverbank even as he was killed.\n\nHis death was not the end of his witness. Korean believers later traced the seeds of the 1907 Pyongyang Great Revival that [[Gil Seon-ju|gil-seon-ju]] helped spark — the awakening that made the city known as 'the Jerusalem of the East' — back to the very Scriptures he had scattered along that river forty years before. Thomas staked his life not on his own survival but on the sufficiency of Christ's word, trusting God to bring a harvest he would never live to see.",
+    "family_story": "Robert Thomas grew up in Wales and became a missionary to China. Soon after he arrived, his young wife Caroline became very sick and died, leaving him sad and alone.\n\nInstead of giving up, Robert decided to bring Bibles to Korea, a country closed to visitors from other lands. He sailed along the coast, giving out New Testaments to anyone who would take one.\n\nIn 1866, Robert sailed up a river near the city of Pyongyang. When soldiers attacked the ship he was on, Robert kept handing Bibles to people on the shore. He was killed that day.\n\nYears later, many people in that same city came to trust in Jesus. Robert's gift of God's word had not been wasted.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "plaque",
+        "name": "Robert Jermain Thomas birthplace plaque, Rhayader",
+        "address": "Rhayader, Powys, Wales",
+        "lat": 52.3019,
+        "lng": -3.4991
+      },
+      {
+        "type": "other",
+        "name": "Site of the General Sherman incident, Taedong River — marked 1931 by the Robert Jermain Thomas Memorial Church, since replaced by Pyongyang University of Science and Technology; inside North Korea and not accessible to visitors",
+        "address": "Pyongyang University of Science and Technology, Pyongyang-Kaesong Motorway, Rangnang District, Pyongyang, North Korea",
+        "lat": 38.9556,
+        "lng": 125.7031,
+        "open_to_public": false
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "chu-ki-chol",
+    "name": "Chu Ki-chol 주기철",
+    "born": 1897,
+    "born_approximate": false,
+    "died": 1944,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Nov 25, 1897",
+        "event": "birth",
+        "details": "Born in Changwon, South Gyeongsang Province, Korea."
+      },
+      {
+        "date": "Jan 10, 1926",
+        "event": "other",
+        "details": "Ordained as a Presbyterian minister."
+      },
+      {
+        "date": "1936",
+        "event": "other",
+        "details": "Became pastor of Sanjunghyun Church, Pyongyang, and expanded local resistance to Shinto shrine worship into a nationwide movement."
+      },
+      {
+        "date": "Jul 1940",
+        "event": "other",
+        "details": "Arrested for the final time after publicly confronting a Japanese-installed pastor who claimed shrine worship was not sinful."
+      },
+      {
+        "date": "Apr 21, 1944",
+        "event": "martyred",
+        "details": "Died in Pyongyang Prison's medical ward from injuries sustained under repeated torture, having refused to recant."
+      }
+    ],
+    "nationality": "Korean",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Presbyterian",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "persecution",
+      "faithfulness",
+      "idolatry"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chu_Ki-chol",
+    "source_summary": "Chu Ki-chol (1897-1944) was a Korean Presbyterian pastor who led the nationwide movement against Japan's compulsory Shinto shrine worship from his pulpit at Sanjunghyun Church, Pyongyang. Arrested and tortured repeatedly through the late 1930s and again from 1940, he died in Pyongyang Prison's medical ward in 1944 rather than recant.",
+    "adult_story": "Chu Ki-chol was born in 1897 in Changwon, Korea. He took part in the 1919 independence protests against Japanese rule, but a meeting with the evangelist Kim Ik-du redirected his life from politics toward ministry. He trained at Pyongyang Theological Seminary and was ordained a Presbyterian minister in 1926.\n\nFrom 1936 Chu pastored Sanjunghyun Church in Pyongyang, and from there turned local opposition to Japan's compulsory Shinto shrine worship into a nationwide movement, insisting that bowing at the shrines was the idolatry Scripture forbids. He was arrested and tortured repeatedly through the late 1930s. In 1938 he preached a sermon titled 'Determination for Death,' making plain that his stand was a matter of Christian conscience, not nationalism. His final arrest came in July 1940, after he publicly confronted a Japanese-installed pastor who claimed shrine worship was not sinful.\n\nChu spent his last years in Pyongyang Prison, tortured repeatedly for refusing to recant. He died in the prison's medical ward on 21 April 1944, at forty-six. His last recorded words were: 'God of my soul, hold me firm.'\n\nChu's resistance was never really about the shrine gate itself — it was about whether Christ alone, or the emperor beside him, would receive the worship due to God. He chose, at the cost of his life, to give God what belonged to God alone, leaving Korea's church a model of costly, first-commandment faithfulness under totalitarian pressure.",
+    "family_story": "Chu Ki-chol was born in Korea in 1897. As a young man he became a pastor, and by 1936 he was leading a big church in the city of Pyongyang.\n\nAt that time, Japan ruled Korea and forced people to bow at Shinto shrines, even in front of churches. Chu believed that bowing to anyone but God was wrong, so he refused — and encouraged other Christians to refuse too.\n\nJapanese officials arrested Chu again and again, and hurt him badly to try to make him stop. He never gave in. In 1944 he died in prison from his injuries. His last words were, 'God of my soul, hold me firm.'\n\nChu chose to worship only God, no matter the cost.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "museum",
+        "name": "Chu Ki-chol Memorial Hall, Ungcheon-dong, Jinhae",
+        "address": "Ungcheon-dong, Jinhae-gu, Changwon-si, Gyeongsangnam-do, South Korea",
+        "lat": 35.1266,
+        "lng": 128.7,
+        "open_to_public": true
+      },
+      {
+        "type": "plaque",
+        "name": "Memorial marker to Chu Ki-chol, Seoul National Cemetery (commemorative — buried in a public cemetery in Pyongyang, now inaccessible)",
+        "address": "Seoul National Cemetery, 210 Hyeonchungno, Dongjak-gu, Seoul, South Korea",
+        "lat": 37.501,
+        "lng": 126.978
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
     "id": "rosetta-sherwood-hall",
     "name": "Rosetta Sherwood Hall",
     "born": 1865,
