@@ -6,11 +6,13 @@
 
 const DATA_URL = 'data/people.json';
 const PLACES_URL = 'data/places.json';
+const PAGEVIEWS_URL = 'data/pageviews.json';
 const STORY_PREF_KEY = 'preferred-story-version';
 
 let allPeople = [];
 let allPlaces = [];
 let randomOrder = [];
+let pageviews = {};
 
 const filterState = {
   search: '',
@@ -322,6 +324,7 @@ function applySortOrder(people) {
   if (sort === 'name-za') return people.slice().sort((a, b) => b.name.localeCompare(a.name));
   if (sort === 'born-asc') return people.slice().sort((a, b) => (a.born || 0) - (b.born || 0));
   if (sort === 'born-desc') return people.slice().sort((a, b) => (b.born || 0) - (a.born || 0));
+  if (sort === 'popularity') return people.slice().sort((a, b) => (pageviews[b.id] || 0) - (pageviews[a.id] || 0));
   return people;
 }
 
@@ -353,6 +356,21 @@ async function loadPlaces() {
   } catch (err) {
     console.error('Failed to load places.json:', err);
     allPlaces = [];
+  }
+}
+
+// pageviews.json is regenerated periodically by _build/fetch_pageviews.py
+// from GA4 data — absent or stale is a normal, non-error state, not just
+// a missing-file fallback, so this stays silent (no console noise) unlike
+// loadPeople/loadPlaces above.
+async function loadPageviews() {
+  try {
+    const res = await fetch(PAGEVIEWS_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    pageviews = data.views || {};
+  } catch (err) {
+    pageviews = {};
   }
 }
 
@@ -408,6 +426,10 @@ function createCardHtml(person) {
   const memorialHtml = memorialCount
     ? `<span class="card-memorial-count" title="${memorialCount} ${memorialCount === 1 ? 'memorial' : 'memorials'} recorded">&#128205; ${memorialCount} ${memorialCount === 1 ? 'memorial' : 'memorials'}</span>`
     : '';
+  const viewCount = pageviews[person.id] || 0;
+  const viewsHtml = viewCount
+    ? `<span class="card-view-count" title="${viewCount.toLocaleString()} page ${viewCount === 1 ? 'view' : 'views'}">&#128065; ${viewCount.toLocaleString()}</span>`
+    : '';
 
   return `
     <article class="person-card" role="listitem" onclick="window.location='person.html?id=${escapeHtml(person.id)}'">
@@ -424,7 +446,7 @@ function createCardHtml(person) {
         <p class="card-meta">${escapeHtml(person.nationality)} &middot; ${escapeHtml(person.tradition)}</p>
         <p class="card-meta">${escapeHtml(person.region)} &middot; ${escapeHtml(person.era)}</p>
         <div class="card-topics">${tags}</div>
-        <div class="card-badge">${badge}${memorialHtml}</div>
+        <div class="card-badge">${badge}${memorialHtml}${viewsHtml}</div>
       </div>
     </article>
   `;
@@ -680,6 +702,17 @@ function injectPersonSeo(person) {
   setMeta('meta[name="description"]', 'content', description);
   const kwEl = document.getElementById('meta-keywords');
   if (kwEl) kwEl.setAttribute('content', keywords);
+
+  // Fire the pageview manually (auto pageview is disabled in person.html)
+  // so it carries person_id, letting fetch_pageviews.py join GA data back
+  // to a specific person without parsing the title string.
+  if (typeof gtag === 'function') {
+    gtag('event', 'page_view', {
+      page_title: fullTitle,
+      page_location: pageUrl,
+      person_id: person.id,
+    });
+  }
 
   // Canonical
   const canonical = document.getElementById('canonical-link');
@@ -2238,7 +2271,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  await loadPeople();
+  await Promise.all([loadPeople(), loadPageviews()]);
 
   if (document.getElementById('person-grid')) {
     initIndexPage();

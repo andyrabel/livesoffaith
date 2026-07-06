@@ -38,7 +38,10 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-X7V501G4W2');
+    // send_page_view disabled here: app.js fires the page_view manually once
+    // the person record loads, so it can attach a stable person_id parameter
+    // for reliable per-person view counts (see injectPersonSeo in app.js).
+    gtag('config', 'G-X7V501G4W2', { send_page_view: false });
   </script>
 </head>
 <body>

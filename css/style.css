@@ -740,7 +740,8 @@ main {
   gap: 0.45rem;
 }
 
-.card-memorial-count {
+.card-memorial-count,
+.card-view-count {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-size: 0.72rem;
   color: var(--text-muted);
