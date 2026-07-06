@@ -21,7 +21,7 @@ const filterState = {
   region: '',
   era: '',
   reviewed: '',
-  sort: 'random',
+  sort: 'popularity',
 };
 
 // ============================================================
@@ -588,14 +588,14 @@ function initIndexPage() {
       filterState.region = '';
       filterState.era = '';
       filterState.reviewed = '';
-      filterState.sort = 'random';
+      filterState.sort = 'popularity';
       if (searchInput)  searchInput.value  = '';
       if (hymnInput)    hymnInput.value    = '';
       if (regionSel)    regionSel.value    = '';
       if (eraSel)       eraSel.value       = '';
       if (topicSel)     topicSel.value     = '';
       if (reviewedSel)  reviewedSel.value  = '';
-      if (sortSel)      sortSel.value      = 'random';
+      if (sortSel)      sortSel.value      = 'popularity';
       applyFilters();
     });
   }
