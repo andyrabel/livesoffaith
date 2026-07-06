@@ -746,5 +746,22 @@
     "source_url": "https://en.wikipedia.org/wiki/Cape_Coast_Castle",
     "status": "Open to the public",
     "open_to_public": true
+  },
+  {
+    "id": "hcjb-voice-of-the-andes",
+    "name": "HCJB — Voice of the Andes",
+    "type": "other",
+    "category": "christian",
+    "country": "Ecuador",
+    "region": "Latin America",
+    "address": "Oe2 Vozandes N39-85 y Juan Diguja, Quito, Ecuador",
+    "lat": -0.1703,
+    "lng": -78.4882,
+    "description": "Founded in 1931 by missionaries Clarence W. Jones, Reuben Larson, and D. Stuart Clark, HCJB was the world's first Christian missionary radio station, broadcasting its inaugural program from the Jones family's living room on a 200-watt transmitter. Its shortwave service, once heard across the globe from a transmitter site near Pifo, ended in 2009, but the organisation continues local FM broadcasting from these studios in Quito.",
+    "interest_note": "",
+    "website": "https://hcjb.org/",
+    "source_url": "https://en.wikipedia.org/wiki/HCJB",
+    "status": "Working radio studio, not a visitor site; no public museum or tours",
+    "open_to_public": false
   }
 ]
