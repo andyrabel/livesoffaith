@@ -763,5 +763,22 @@
     "source_url": "https://en.wikipedia.org/wiki/HCJB",
     "status": "Working radio studio, not a visitor site; no public museum or tours",
     "open_to_public": false
+  },
+  {
+    "id": "cane-ridge-meeting-house",
+    "name": "Cane Ridge Meeting House",
+    "type": "museum",
+    "category": "christian",
+    "country": "USA",
+    "region": "North America",
+    "address": "1655 Cane Ridge Road, Paris, KY 40361, USA",
+    "lat": 38.2156,
+    "lng": -84.1439,
+    "description": "A log meeting house built in 1791, site of the Cane Ridge Revival of August 1801 — the largest camp meeting of the Second Great Awakening, drawing an estimated 20,000 people. Presbyterian, Methodist, and Baptist ministers preached together over several days of continuous open-air services, launching the camp-meeting tradition that spread revival across the American frontier through the 19th century.",
+    "interest_note": "",
+    "website": "http://www.caneridge.org/",
+    "source_url": "https://en.wikipedia.org/wiki/Cane_Ridge_Revival",
+    "status": "Open to the public seasonally, April–November; contact the site for current hours",
+    "open_to_public": true
   }
 ]

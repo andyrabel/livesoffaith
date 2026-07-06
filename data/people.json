@@ -1079,6 +1079,20 @@
         "lat": 40.3488,
         "lng": -74.6614,
         "open_to_public": false
+      },
+      {
+        "type": "other",
+        "name": "Hanham Mount — site of Whitefield's first open-air sermon, 17 Feb 1739",
+        "address": "51 Mount Hill Road, Bristol, South Gloucestershire, BS15 8QT, England",
+        "lat": 51.4514,
+        "lng": -2.5087
+      },
+      {
+        "type": "other",
+        "name": "Boston Common — site of Whitefield's 1740 Great Awakening sermons",
+        "address": "Boston Common, Boston, MA 02116, USA",
+        "lat": 42.3551,
+        "lng": -71.0657
       }
     ]
   },
@@ -3761,6 +3775,20 @@
         "address": "Busveal, Redruth, Cornwall TR16 5HQ, England",
         "lat": 50.2193,
         "lng": -5.1769
+      },
+      {
+        "type": "other",
+        "name": "Hanham Mount — Wesley's first open-air sermon at Whitefield's invitation, Apr 1739",
+        "address": "51 Mount Hill Road, Bristol, South Gloucestershire, BS15 8QT, England",
+        "lat": 51.4514,
+        "lng": -2.5087
+      },
+      {
+        "type": "monument",
+        "name": "Samuel Wesley's tomb, St Andrew's churchyard, Epworth — where Wesley preached after being barred from the pulpit, Jun 1742",
+        "address": "Church St, Epworth, Doncaster DN9 1ES, England",
+        "lat": 53.526,
+        "lng": -0.8188
       },
       {
         "type": "archive",
