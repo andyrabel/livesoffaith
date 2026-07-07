@@ -1726,5 +1726,17 @@
     "answer": "Westminster Chapel",
     "person_id": "martyn-lloyd-jones",
     "difficulty": 3
+  },
+  {
+    "question": "Who said, \"He is no fool who gives what he cannot keep to gain what he cannot lose\"?",
+    "answer": "Jim Elliot",
+    "person_id": "jim-elliot",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote \"The Lion, the Witch and the Wardrobe\"?",
+    "answer": "C.S. Lewis",
+    "person_id": "cs-lewis",
+    "difficulty": 1
   }
 ]
