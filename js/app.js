@@ -729,6 +729,11 @@ function initIndexPage() {
   const paramHymn = urlParams.get('hymn') || '';
   if (paramHymn && hymnInput) { filterState.hymn = paramHymn; hymnInput.value = paramHymn; }
 
+  if (paramQ || paramRegion || paramEra || paramTopic || paramHymn) {
+    const detailsEl = document.getElementById('search-filter-details');
+    if (detailsEl) detailsEl.open = true;
+  }
+
   applyFilters();
 
   let searchTimer;

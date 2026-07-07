@@ -115,7 +115,12 @@
 
       <div id="quiz-question"></div>
 
-      <section class="search-filter" aria-label="Search and filter">
+      <details id="search-filter-details" class="search-filter-toggle">
+        <summary class="search-filter-summary">
+          <span class="search-filter-summary__icon" aria-hidden="true">🔍</span>
+          Search &amp; Filter
+        </summary>
+        <section class="search-filter" aria-label="Search and filter">
         <div class="search-row">
           <label for="search-input" class="sr-only">Search by name</label>
           <input
@@ -202,7 +207,8 @@
 
           <button id="clear-filters" class="btn btn-secondary" type="button">Clear Filters</button>
         </div>
-      </section>
+        </section>
+      </details>
 
       <div class="results-summary" aria-live="polite">
         <p id="results-count"></p>

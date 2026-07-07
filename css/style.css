@@ -706,12 +706,53 @@ main {
 }
 
 /* --- Search & Filter --------------------------------------- */
+.search-filter-toggle {
+  margin-bottom: 0.75rem;
+}
+
+.search-filter-summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.search-filter-summary::-webkit-details-marker {
+  display: none;
+}
+
+.search-filter-summary::after {
+  content: "▸";
+  margin-left: 0.15rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  transition: transform 0.15s;
+}
+
+.search-filter-toggle[open] .search-filter-summary::after {
+  transform: rotate(90deg);
+}
+
+.search-filter-summary__icon {
+  font-size: 0.9rem;
+}
+
 .search-filter {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 0.75rem 1rem;
-  margin-bottom: 0.75rem;
+  margin-top: 0.5rem;
   box-shadow: var(--shadow);
 }
 
