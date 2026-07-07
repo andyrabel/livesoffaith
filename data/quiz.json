@@ -1516,5 +1516,215 @@
     "answer": "Nigeria",
     "person_id": "samuel-ajayi-crowther",
     "difficulty": 3
+  },
+  {
+    "question": "What nickname, referring to his anticipating the Reformation more than a century early, is John Wycliffe known by?",
+    "answer": "The Morning Star of the Reformation",
+    "person_id": "john-wycliffe",
+    "difficulty": 1
+  },
+  {
+    "question": "What 18th-century revival movement was George Whitefield a leading preacher of, alongside John Wesley?",
+    "answer": "The Great Awakening",
+    "person_id": "george-whitefield",
+    "difficulty": 1
+  },
+  {
+    "question": "Susanna Wesley was the mother of which two famous preachers?",
+    "answer": "John and Charles Wesley",
+    "person_id": "susanna-wesley",
+    "difficulty": 1
+  },
+  {
+    "question": "Which Chinese Christian teacher wrote The Normal Christian Life and died after twenty years in a Communist prison?",
+    "answer": "Watchman Nee",
+    "person_id": "watchman-nee",
+    "difficulty": 1
+  },
+  {
+    "question": "Which English Reformer was burned at the stake alongside Hugh Latimer as one of the Oxford Martyrs?",
+    "answer": "Nicholas Ridley",
+    "person_id": "nicholas-ridley",
+    "difficulty": 1
+  },
+  {
+    "question": "Whose name is attached to the famous Bible concordance that numbers every Hebrew and Greek word?",
+    "answer": "James Strong",
+    "person_id": "james-strong",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the most widely read English Bible commentary in history, his six-volume Exposition of the Old and New Testaments?",
+    "answer": "Matthew Henry",
+    "person_id": "matthew-henry",
+    "difficulty": 1
+  },
+  {
+    "question": "What classic daily devotional, compiled from his teaching by his widow, is Oswald Chambers remembered for?",
+    "answer": "My Utmost for His Highest",
+    "person_id": "oswald-chambers",
+    "difficulty": 1
+  },
+  {
+    "question": "What professional sport did evangelist Billy Sunday play before his conversion?",
+    "answer": "Baseball",
+    "person_id": "billy-sunday",
+    "difficulty": 1
+  },
+  {
+    "question": "What scientific law, still taught in chemistry classes today, is named after this devout Christian scientist?",
+    "answer": "Boyle's Law",
+    "person_id": "robert-boyle",
+    "difficulty": 1
+  },
+  {
+    "question": "What theological system, teaching distinct ages in God's dealings with humanity, did John Nelson Darby originate?",
+    "answer": "Dispensationalism",
+    "person_id": "john-nelson-darby",
+    "difficulty": 1
+  },
+  {
+    "question": "What country did theologian Abraham Kuyper serve as Prime Minister of?",
+    "answer": "The Netherlands",
+    "person_id": "abraham-kuyper",
+    "difficulty": 1
+  },
+  {
+    "question": "What Swiss city did Huldrych Zwingli lead the Reformation in?",
+    "answer": "Zurich",
+    "person_id": "huldrych-zwingli",
+    "difficulty": 1
+  },
+  {
+    "question": "What country did devotional writer Andrew Murray serve in as a pastor for 35 years?",
+    "answer": "South Africa",
+    "person_id": "andrew-murray",
+    "difficulty": 1
+  },
+  {
+    "question": "What English city did John Charles Ryle become the first bishop of, in 1880?",
+    "answer": "Liverpool",
+    "person_id": "john-charles-ryle",
+    "difficulty": 1
+  },
+  {
+    "question": "What did the Welsh preacher Christmas Evans lose in a youthful brawl?",
+    "answer": "One of his eyes",
+    "person_id": "christmas-evans",
+    "difficulty": 3
+  },
+  {
+    "question": "What English town did Robert Cleaver Chapman serve as a minister in for seventy years?",
+    "answer": "Barnstaple, Devon",
+    "person_id": "robert-cleaver-chapman",
+    "difficulty": 3
+  },
+  {
+    "question": "What words did Cesar Malan speak to Charlotte Elliott that she later turned into a hymn?",
+    "answer": "Come just as you are",
+    "person_id": "cesar-malan",
+    "difficulty": 3
+  },
+  {
+    "question": "What devotional classic, written during his exile in Aberdeen, is Samuel Rutherford remembered for?",
+    "answer": "His Letters",
+    "person_id": "samuel-rutherford",
+    "difficulty": 3
+  },
+  {
+    "question": "What reference work, the first of its kind for the whole English Bible, did Alexander Cruden compile largely alone?",
+    "answer": "His Complete Concordance to the Holy Scriptures",
+    "person_id": "alexander-cruden",
+    "difficulty": 3
+  },
+  {
+    "question": "What Puritan classic on the Westminster Shorter Catechism did Thomas Watson write?",
+    "answer": "A Body of Divinity",
+    "person_id": "thomas-watson",
+    "difficulty": 3
+  },
+  {
+    "question": "What Swiss community did Francis Schaeffer and his wife Edith found in 1955?",
+    "answer": "L'Abri Fellowship",
+    "person_id": "francis-schaeffer",
+    "difficulty": 3
+  },
+  {
+    "question": "What ministry did R.C. Sproul found in 1971 to teach Reformed theology?",
+    "answer": "Ligonier Ministries",
+    "person_id": "rc-sproul",
+    "difficulty": 3
+  },
+  {
+    "question": "What seminary did J. Gresham Machen found in 1929 after leaving Princeton?",
+    "answer": "Westminster Theological Seminary",
+    "person_id": "j-gresham-machen",
+    "difficulty": 3
+  },
+  {
+    "question": "What Los Angeles Bible college did R.A. Torrey become founding dean of in 1912?",
+    "answer": "BIOLA",
+    "person_id": "ra-torrey",
+    "difficulty": 3
+  },
+  {
+    "question": "How many years did Charles Simeon serve as vicar of the same Cambridge church?",
+    "answer": "54 years",
+    "person_id": "charles-simeon",
+    "difficulty": 3
+  },
+  {
+    "question": "What 19th-century British laws protecting child factory workers did Lord Shaftesbury campaign for?",
+    "answer": "The Factory Acts",
+    "person_id": "lord-shaftesbury",
+    "difficulty": 3
+  },
+  {
+    "question": "What mission did Pandita Ramabai found near Pune as a refuge for widows and women in poverty?",
+    "answer": "The Mukti Mission",
+    "person_id": "pandita-ramabai",
+    "difficulty": 3
+  },
+  {
+    "question": "What subject did evangelist John Sung earn a PhD in before his dramatic reconversion?",
+    "answer": "Chemistry",
+    "person_id": "john-sung",
+    "difficulty": 3
+  },
+  {
+    "question": "What 1907 revival in Korea did Gil Seon-ju's public confession of sin help ignite?",
+    "answer": "The Pyongyang Great Revival",
+    "person_id": "gil-seon-ju",
+    "difficulty": 3
+  },
+  {
+    "question": "What Chinese city did house-church pastor Samuel Lamb serve in?",
+    "answer": "Guangzhou",
+    "person_id": "samuel-lamb",
+    "difficulty": 3
+  },
+  {
+    "question": "What did Lin Zhao write with when she was denied pen and paper in prison?",
+    "answer": "Her own blood",
+    "person_id": "lin-zhao",
+    "difficulty": 3
+  },
+  {
+    "question": "What Japanese city's slum did Toyohiko Kagawa live in among the poor from 1909?",
+    "answer": "Kobe",
+    "person_id": "toyohiko-kagawa",
+    "difficulty": 3
+  },
+  {
+    "question": "What trade was Alexander Whyte apprenticed in before a local minister taught him Latin and Greek?",
+    "answer": "Shoemaking",
+    "person_id": "alexander-whyte",
+    "difficulty": 3
+  },
+  {
+    "question": "What London church did Martyn Lloyd-Jones preach at for 30 years, until 1968?",
+    "answer": "Westminster Chapel",
+    "person_id": "martyn-lloyd-jones",
+    "difficulty": 3
   }
 ]
