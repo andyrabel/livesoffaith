@@ -329,6 +329,33 @@ confirm a dedicated archive exists.
 
 ---
 
+## Quiz Questions
+
+`data/quiz.json` is a flat array of trivia questions that power the homepage "Quiz
+Question" box and the printable quiz generator (`quiz-print.html`). Each entry:
+
+```json
+{
+  "question": "What country did Hudson Taylor devote his life to reaching?",
+  "answer": "China",
+  "person_id": "hudson-taylor",
+  "difficulty": 3
+}
+```
+
+- `difficulty` — one of `1` (Easy), `3` (Medium), `5` (Hard). No other values are used.
+- `person_id` must match an existing entry in `people.json`.
+- Questions should be answerable from the person's `adult_story`/`family_story`/
+  significant facts — not obscure trivia beyond what the page itself documents.
+- Most people have 1–3 questions; vary the difficulty rather than making them all
+  Medium. Keep the phrasing style consistent with existing entries (short, factual,
+  "What/Who/Where..." questions with a short answer).
+
+When adding a new person, also add 1–3 quiz questions for them to `data/quiz.json`
+as a standard part of the pipeline (see Step 3 below).
+
+---
+
 ## Site Architecture
 
 The site is a **flat static site** hosted on GitHub Pages. No backend, no database,
@@ -494,13 +521,14 @@ Claude Code assists at each step when asked.
 pipeline without being asked separately for each step — source and download a
 reference image, generate the AI portrait (Step 6), research and populate
 `memorials`, research and populate `significant_dates` (see Significant Dates
-Schema above), and update cross-references (Step 4) — not just write the JSON
-skeleton with `"image": null` and `"memorials": []`. If no suitable public
-domain reference image can be found, do not stop the pipeline — leave
-`"image": null` and complete every other step (content, memorials,
-significant_dates, cross-references, sitemap) anyway. Image sourcing and
-portrait generation (Steps 2 and 6) can be revisited later once a reference
-image turns up.
+Schema above), add quiz questions (see Quiz Questions above), and update
+cross-references (Step 4) — not just write the JSON skeleton with
+`"image": null` and `"memorials": []`. If no suitable public domain reference
+image can be found, do not stop the pipeline — leave `"image": null` and
+complete every other step (content, memorials, significant_dates, quiz
+questions, cross-references, sitemap) anyway. Image sourcing and portrait
+generation (Steps 2 and 6) can be revisited later once a reference image
+turns up.
 
 ### Step 1 — Decide and Vet
 1. Choose a person to add
@@ -531,6 +559,8 @@ Claude will:
   Dates Schema above)
 - Add the full JSON entry with `"image": null` and all fields populated
 - Flag the entry if needed and explain why
+- **Add 1–3 quiz questions** for the person to `data/quiz.json` (see Quiz
+  Questions schema above)
 - **Update `sitemap.xml`** to include the new person's URL (run `python3 _build/generate_sitemap.py`)
 - **Update `llms.txt` and `llms-full.txt`** so AI assistants have the new person's
   content (run `python3 _build/generate_llms_txt.py`)
@@ -618,7 +648,7 @@ This regenerates `sitemap.xml`, `llms.txt`, and `llms-full.txt` from
 
 ### Step 10 — Commit and Push
 ```bash
-git add data/people.json sitemap.xml llms.txt llms-full.txt images/portraits/[person-id].jpg
+git add data/people.json data/quiz.json sitemap.xml llms.txt llms-full.txt images/portraits/[person-id].jpg
 git commit -m "Add [Name]"
 git push
 ```
