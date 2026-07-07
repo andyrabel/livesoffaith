@@ -12020,5 +12020,300 @@
       "reviewed_by": "",
       "reviewed_date": ""
     }
+  },
+  {
+    "id": "janani-luwum",
+    "name": "Janani Luwum",
+    "born": 1922,
+    "born_approximate": true,
+    "died": 1977,
+    "significant_dates": [
+      {
+        "date": "c. 1922",
+        "event": "birth",
+        "details": "Born in Mucwini village, Kitgum District, northern Uganda."
+      },
+      {
+        "date": "1948",
+        "event": "saved",
+        "details": "Converted to Christianity."
+      },
+      {
+        "date": "1954",
+        "event": "other",
+        "details": "Ordained a priest in the Anglican Church of Uganda."
+      },
+      {
+        "date": "1969",
+        "event": "other",
+        "details": "Consecrated Bishop of Northern Uganda."
+      },
+      {
+        "date": "1974",
+        "event": "other",
+        "details": "Enthroned as Archbishop of Uganda, Rwanda, Burundi and Boga-Zaire."
+      },
+      {
+        "date": "Feb 16, 1977",
+        "event": "martyred",
+        "details": "Killed on the orders of President Idi Amin after protesting the regime's killings."
+      }
+    ],
+    "nationality": "Ugandan",
+    "era": "20th Century",
+    "region": "Africa",
+    "tradition": "Anglican (evangelical wing)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "courage",
+      "persecution",
+      "prayer",
+      "faithfulness"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Janani_Luwum",
+    "source_summary": "Janani Luwum (c. 1922–1977) was a Ugandan Anglican archbishop who converted to Christianity in 1948, was ordained priest in 1954, and became Archbishop of Uganda in 1974. He led the church during Idi Amin's dictatorship and, with fellow bishops, signed a formal protest against the regime's killings and disappearances in February 1977. Days later he was summoned by Amin, accused of plotting a coup, and killed; the government falsely claimed a car accident. A statue of him stands among ten twentieth-century martyrs at Westminster Abbey.",
+    "adult_story": "Janani Luwum was born around 1922 in Mucwini, northern Uganda, and came to faith in Christ in 1948. Trained at Buwalasi Theological College, he was ordained priest in 1954 and rose through the Ugandan church, becoming Bishop of Northern Uganda in 1969 and Archbishop of Uganda, Rwanda, Burundi and Boga-Zaire in 1974.\n\nAs Archbishop, Luwum led the church through the terror of Idi Amin's dictatorship, when thousands of Ugandans disappeared or were killed without trial. He did not treat faith as a private matter detached from what was happening around him. Trusting that Christ, not any earthly ruler, held final authority over the church, Luwum and his fellow bishops signed a formal protest to Amin in February 1977, demanding an end to the unlawful killings and arrests carried out by the regime's security forces.\n\nSummoned before Amin days later on fabricated charges of plotting a coup, Luwum was taken from the meeting and shot, though the government falsely announced a car accident. He was fifty-five. His death did not silence the Ugandan church; congregations that had grown fearful found new boldness in the years that followed. In 1998 a statue of Luwum was placed among ten twentieth-century martyrs above the west door of Westminster Abbey — witness to what he had preached all his life: that for anyone who belongs to Christ by faith, the grave is not the last word.",
+    "family_story": "Janani Luwum grew up in Uganda and became a Christian as a young man. He studied hard and became a church leader, eventually becoming Archbishop — his country's most senior church leader.\n\nJanani led the church during a dangerous time. A cruel ruler named Idi Amin was having many people killed without trial. Janani was not afraid to speak up. He and other church leaders signed a letter asking Amin to stop the killing.\n\nBecause of this, Janani was arrested and killed in 1977. But Janani had always taught that no one who trusts in Jesus is ever really lost. Today a statue of him stands in a famous church in London, remembering a man who trusted Christ more than he feared any ruler.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "statue",
+        "name": "Statue of Janani Luwum, Ten Modern Martyrs",
+        "address": "Westminster Abbey, 20 Dean's Yard, London SW1P 3PA, England",
+        "lat": 51.4993,
+        "lng": -0.1273
+      },
+      {
+        "type": "gravestone",
+        "name": "Grave of Janani Luwum",
+        "address": "Mucwini, Kitgum District, Uganda",
+        "lat": 3.217,
+        "lng": 32.783
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "esther-john",
+    "name": "Esther John",
+    "born": 1929,
+    "born_approximate": false,
+    "died": 1960,
+    "significant_dates": [
+      {
+        "date": "Oct 14, 1929",
+        "event": "birth",
+        "details": "Born Qamar Zia into a Muslim family in British India."
+      },
+      {
+        "date": "1947",
+        "event": "other",
+        "details": "Family migrated to Pakistan following Partition."
+      },
+      {
+        "date": "1954",
+        "event": "saved",
+        "details": "Converted to Christianity, taking the name Esther John, after reading the book of Isaiah."
+      },
+      {
+        "date": "1956",
+        "event": "other",
+        "details": "Began training as a teacher at the United Bible Training Centre, Gujranwala."
+      },
+      {
+        "date": "Feb 2, 1960",
+        "event": "martyred",
+        "details": "Murdered in her bed at Chichawatni, Pakistan, for her Christian evangelism."
+      }
+    ],
+    "nationality": "Pakistani",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Presbyterian",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "conversion",
+      "martyrdom",
+      "missions",
+      "courage",
+      "scripture"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Esther_John",
+    "source_summary": "Esther John, born Qamar Zia (1929–1960), was a Pakistani Christian convert from Islam. Her family migrated from India to Pakistan after Partition in 1947. As a teenager she read the prophet Isaiah and put her faith in Christ, leaving her family in 1954 and taking the name Esther John. She trained as a teacher and worked as a Bible woman evangelizing among villages near Chichawatni before being murdered in her bed in 1960, almost certainly for her Christian witness. A statue of her stands among ten twentieth-century martyrs at Westminster Abbey.",
+    "adult_story": "Esther John was born Qamar Zia in 1929 to a Muslim family in British India; her family moved to Pakistan after Partition in 1947. As a teenager attending a Christian school, she read the prophet Isaiah's description of a suffering servant who bore the sins of others to bring them peace. Convinced this pointed to Jesus Christ, she put her faith in him — not in her own righteousness, but in his — and in 1954 left her family and took the name Esther John.\n\nShe trained as a teacher at the United Bible Training Centre in Gujranwala, then worked in a Karachi orphanage and a mission hospital in Sahiwal district. From 1956 she travelled among villages near Chichawatni as a \"Bible woman,\" teaching literacy and Scripture to Muslim women who had little other way to hear the gospel, at real risk to herself as a convert from Islam.\n\nOn 2 February 1960 she was murdered in her bed at Chichawatni, almost certainly for her open Christian witness. She was thirty. Esther had once been moved by a prophecy of a servant who suffered on others' behalf; her own death, quietly borne for the sake of the gospel she loved, echoed the same pattern of grace. In 1998 her statue was placed among ten twentieth-century martyrs at Westminster Abbey — a Muslim convert remembered for trusting Christ alone.",
+    "family_story": "Esther John was born into a Muslim family in India, then moved to Pakistan with her family. As a teenager, she read a book of the Bible that talked about Jesus, and decided to follow him.\n\nThis was a hard choice. She left her family and took a new name, Esther. She trained as a teacher and spent years telling women in Pakistani villages about Jesus, even though it was dangerous for someone who had left Islam.\n\nIn 1960 she was killed in her own home because of her faith, aged thirty. Esther trusted Jesus more than she feared danger, and today her statue stands in a famous church in London, remembering her courage.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "statue",
+        "name": "Statue of Esther John, Ten Modern Martyrs",
+        "address": "Westminster Abbey, 20 Dean's Yard, London SW1P 3PA, England",
+        "lat": 51.4993,
+        "lng": -0.1273
+      },
+      {
+        "type": "gravestone",
+        "name": "Grave of Esther John",
+        "address": "Christian cemetery, Sahiwal, Punjab, Pakistan",
+        "lat": 30.661,
+        "lng": 73.108
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "lucian-tapiedi",
+    "name": "Lucian Tapiedi",
+    "born": 1921,
+    "born_approximate": true,
+    "died": 1942,
+    "significant_dates": [
+      {
+        "date": "c. 1921",
+        "event": "birth",
+        "details": "Born in Taupota village, Milne Bay district, Papua."
+      },
+      {
+        "date": "1939",
+        "event": "other",
+        "details": "Entered St Aidan's Teacher Training College at Dogura."
+      },
+      {
+        "date": "1941",
+        "event": "other",
+        "details": "Began serving as a teacher and evangelist at Sangara mission station."
+      },
+      {
+        "date": "Jan 4, 1942",
+        "event": "martyred",
+        "details": "Killed with an axe near Kurumbo village while fleeing the Japanese invasion of Papua."
+      }
+    ],
+    "nationality": "Papua New Guinean",
+    "era": "20th Century",
+    "region": "Oceania",
+    "tradition": "Anglican",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "forgiveness",
+      "missions",
+      "courage"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lucian_Tapiedi",
+    "source_summary": "Lucian Tapiedi (c. 1921–1942) was a Papuan Anglican teacher and evangelist at the Sangara mission station. During the Japanese invasion of Papua in the Second World War he was killed with an axe near Kurumbo village on 4 January 1942 by a man named Hivijapa, one of hundreds of Papuan Christians and missionaries killed in the invasion. Hivijapa later converted to Christianity and built a church in Tapiedi's memory. A statue of Tapiedi stands among ten twentieth-century martyrs at Westminster Abbey.",
+    "adult_story": "Lucian Tapiedi was born around 1921 in Taupota village on Papua's north coast. Raised in a family under suspicion of practising sorcery, he was drawn instead to the Christian faith taught in Anglican mission schools, entering St Aidan's Teacher Training College at Dogura in 1939. By 1941 he was serving as a teacher and evangelist at the Sangara mission station, passing on the faith he had received to his own Orokaiva people.\n\nAs Japanese forces invaded Papua during the Second World War, foreign missionaries and Papuan church workers alike faced sudden danger. Tapiedi continued his work at Sangara as the invasion swept the region, one of hundreds of local Christians and missionaries who would be killed in Papua before the war's end.\n\nOn 4 January 1942, while fleeing with a small group near Kurumbo village, Tapiedi was killed with an axe by a man named Hivijapa. He was about twenty years old. The story did not end there: years later, Hivijapa himself came to faith in the same Christ that Tapiedi had died proclaiming, and built a church in his memory. A young teacher's death became, in time, the ground of his own killer's salvation — a sign that grace in Christ reaches even those who least deserve it, received by faith and not by any merit of their own. In 1998 Tapiedi's statue was placed among ten twentieth-century martyrs above the west door of Westminster Abbey.",
+    "family_story": "Lucian Tapiedi grew up in Papua New Guinea and went to a Christian school. He became a teacher, telling others in his village about Jesus.\n\nDuring World War Two, Japanese soldiers invaded Papua. While Lucian was trying to escape with some friends, a man named Hivijapa killed him with an axe. Lucian was only about twenty years old.\n\nBut that is not the end of the story. Years later, Hivijapa himself became a Christian, and even built a church to remember Lucian. Jesus can forgive anyone who trusts him — even someone who has done something terrible. Today, a statue of Lucian stands in a famous church in London.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "statue",
+        "name": "Statue of Lucian Tapiedi, Ten Modern Martyrs",
+        "address": "Westminster Abbey, 20 Dean's Yard, London SW1P 3PA, England",
+        "lat": 51.4993,
+        "lng": -0.1273
+      },
+      {
+        "type": "gravestone",
+        "name": "Grave of Lucian Tapiedi",
+        "address": "Sangara mission station, Oro Province, Papua New Guinea",
+        "lat": -8.82306,
+        "lng": 148.10194
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "wang-zhiming",
+    "name": "Wang Zhiming 王志明",
+    "born": 1907,
+    "born_approximate": false,
+    "died": 1973,
+    "significant_dates": [
+      {
+        "date": "1907",
+        "event": "birth",
+        "details": "Born in Wuding County, Yunnan Province, China, of Miao ethnicity."
+      },
+      {
+        "date": "1944",
+        "event": "other",
+        "details": "Elected chairman of the church council in Wuding."
+      },
+      {
+        "date": "1951",
+        "event": "other",
+        "details": "Ordained as a pastor at age 44."
+      },
+      {
+        "date": "May 1969",
+        "event": "other",
+        "details": "Arrested with his wife and sons during the Cultural Revolution."
+      },
+      {
+        "date": "Dec 29, 1973",
+        "event": "martyred",
+        "details": "Executed before a crowd of more than 10,000 in a stadium in Wuding County."
+      }
+    ],
+    "nationality": "Chinese",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Protestant (Miao church, Yunnan)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "perseverance",
+      "persecution",
+      "courage",
+      "faithfulness"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Wang_Zhiming_(pastor)",
+    "source_summary": "Wang Zhiming (1907–1973) was a Miao Christian pastor in Wuding County, Yunnan Province, China. Ordained in 1951, he led his congregation through the early Communist period and refused to denounce fellow believers during the Cultural Revolution. Arrested in 1969, he was executed before a crowd of over 10,000 in December 1973. The local church grew significantly in the years after his death. A statue of him stands among ten twentieth-century martyrs at Westminster Abbey.",
+    "adult_story": "Wang Zhiming was born in 1907 in Wuding County, Yunnan Province, part of China's Miao minority in a district first reached by Christian missionaries in 1906. Educated in mission schools, he taught for about ten years before being elected chairman of the local church council in 1944, and was ordained as a pastor in 1951 at the age of forty-four.\n\nWang led his congregation through the early years of Communist rule, when churches came under pressure to sever ties with the wider Christian world. He signed the government's Three-Self declaration, but as the Cultural Revolution turned violent, he refused to denounce fellow believers at public struggle sessions, saying that his hands had baptized many converts and should not be turned to such sinfulness. For this he was branded a counter-revolutionary.\n\nArrested with his wife and sons in May 1969, Wang was executed on 29 December 1973 before a crowd of more than ten thousand people in a stadium in Wuding — a death meant to crush the local church. It did not: within a few years the number of believers in the district had grown several times over, evidence that no regime can extinguish what Christ sustains by grace through the faith of ordinary believers. In 1998 Wang's statue was placed among ten twentieth-century martyrs above the west door of Westminster Abbey.",
+    "family_story": "Wang Zhiming was a Chinese pastor from Yunnan Province, born in 1907. He became a church leader and was made a pastor in 1951.\n\nWhen the Communist government began punishing Christians, Wang refused to say bad things about other believers, even when he knew it was dangerous. He said his hands had been used to baptize people and should not be used to hurt them.\n\nIn 1973 he was killed in front of a huge crowd because of his faith. But instead of disappearing, the church in his area grew even bigger after his death. Today, a statue of Wang Zhiming stands in a famous church in London, remembering a pastor who trusted Jesus to the very end.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "statue",
+        "name": "Statue of Wang Zhiming, Ten Modern Martyrs",
+        "address": "Westminster Abbey, 20 Dean's Yard, London SW1P 3PA, England",
+        "lat": 51.4993,
+        "lng": -0.1273
+      },
+      {
+        "type": "monument",
+        "name": "Monument at the grave of Wang Zhiming",
+        "address": "Wuding County, Yunnan Province, China",
+        "lat": 25.53,
+        "lng": 102.404
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]

@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-06. 142 people.
+Generated 2026-07-06. 146 people.
 
 ---
 
@@ -650,6 +650,21 @@ His life asks a persistent question: what does faithfulness actually cost? Lidde
 
 ---
 
+## Esther John (1929–1960)
+
+URL: https://livesoffaith.org/person.html?id=esther-john
+Wikipedia: https://en.wikipedia.org/wiki/Esther_John
+Nationality: Pakistani · Tradition: Presbyterian · Region: Asia · Era: 20th Century
+Topics: conversion, martyrdom, missions, courage, scripture
+
+Esther John was born Qamar Zia in 1929 to a Muslim family in British India; her family moved to Pakistan after Partition in 1947. As a teenager attending a Christian school, she read the prophet Isaiah's description of a suffering servant who bore the sins of others to bring them peace. Convinced this pointed to Jesus Christ, she put her faith in him — not in her own righteousness, but in his — and in 1954 left her family and took the name Esther John.
+
+She trained as a teacher at the United Bible Training Centre in Gujranwala, then worked in a Karachi orphanage and a mission hospital in Sahiwal district. From 1956 she travelled among villages near Chichawatni as a "Bible woman," teaching literacy and Scripture to Muslim women who had little other way to hear the gospel, at real risk to herself as a convert from Islam.
+
+On 2 February 1960 she was murdered in her bed at Chichawatni, almost certainly for her open Christian witness. She was thirty. Esther had once been moved by a prophecy of a servant who suffered on others' behalf; her own death, quietly borne for the sake of the gospel she loved, echoed the same pattern of grace. In 1998 her statue was placed among ten twentieth-century martyrs at Westminster Abbey — a Muslim convert remembered for trusting Christ alone.
+
+---
+
 ## F. F. Bruce (1910–1990)
 
 URL: https://livesoffaith.org/person.html?id=ff-bruce
@@ -1130,6 +1145,21 @@ He died in 1894. The Concordance outlasted him and is still published today, pro
 
 ---
 
+## Janani Luwum (c. 1922–1977)
+
+URL: https://livesoffaith.org/person.html?id=janani-luwum
+Wikipedia: https://en.wikipedia.org/wiki/Janani_Luwum
+Nationality: Ugandan · Tradition: Anglican (evangelical wing) · Region: Africa · Era: 20th Century
+Topics: martyrdom, courage, persecution, prayer, faithfulness
+
+Janani Luwum was born around 1922 in Mucwini, northern Uganda, and came to faith in Christ in 1948. Trained at Buwalasi Theological College, he was ordained priest in 1954 and rose through the Ugandan church, becoming Bishop of Northern Uganda in 1969 and Archbishop of Uganda, Rwanda, Burundi and Boga-Zaire in 1974.
+
+As Archbishop, Luwum led the church through the terror of Idi Amin's dictatorship, when thousands of Ugandans disappeared or were killed without trial. He did not treat faith as a private matter detached from what was happening around him. Trusting that Christ, not any earthly ruler, held final authority over the church, Luwum and his fellow bishops signed a formal protest to Amin in February 1977, demanding an end to the unlawful killings and arrests carried out by the regime's security forces.
+
+Summoned before Amin days later on fabricated charges of plotting a coup, Luwum was taken from the meeting and shot, though the government falsely announced a car accident. He was fifty-five. His death did not silence the Ugandan church; congregations that had grown fearful found new boldness in the years that followed. In 1998 a statue of Luwum was placed among ten twentieth-century martyrs above the west door of Westminster Abbey — witness to what he had preached all his life: that for anyone who belongs to Christ by faith, the grave is not the last word.
+
+---
+
 ## Jeremiah Lanphier (1809–1898)
 
 URL: https://livesoffaith.org/person.html?id=jeremiah-lanphier
@@ -1532,6 +1562,21 @@ Louis Zamperini was born in 1917 in Olean, New York, and grew up to become a cha
 Zamperini returned home from the war outwardly a hero but inwardly consumed by nightmares, rage, and alcoholism. In October 1949 he attended Billy Graham's Los Angeles crusade. Graham's preaching on the cross moved him to surrender his life to Christ, and that night his nightmares stopped for good. In 1952 he founded Victory Boys Camp to mentor troubled youth, and spent the rest of his life speaking about the faith and forgiveness that had remade him.
 
 In 1998, at eighty years old, Zamperini returned to Japan hoping to personally forgive his former captors, including Watanabe, who refused to meet him. He forgave him anyway. Zamperini was clear that this forgiveness was not something he had willed into being through sheer determination — it was the same grace he had received at the foot of the cross, now flowing outward to men who had shown him none.
+
+---
+
+## Lucian Tapiedi (c. 1921–1942)
+
+URL: https://livesoffaith.org/person.html?id=lucian-tapiedi
+Wikipedia: https://en.wikipedia.org/wiki/Lucian_Tapiedi
+Nationality: Papua New Guinean · Tradition: Anglican · Region: Oceania · Era: 20th Century
+Topics: martyrdom, forgiveness, missions, courage
+
+Lucian Tapiedi was born around 1921 in Taupota village on Papua's north coast. Raised in a family under suspicion of practising sorcery, he was drawn instead to the Christian faith taught in Anglican mission schools, entering St Aidan's Teacher Training College at Dogura in 1939. By 1941 he was serving as a teacher and evangelist at the Sangara mission station, passing on the faith he had received to his own Orokaiva people.
+
+As Japanese forces invaded Papua during the Second World War, foreign missionaries and Papuan church workers alike faced sudden danger. Tapiedi continued his work at Sangara as the invasion swept the region, one of hundreds of local Christians and missionaries who would be killed in Papua before the war's end.
+
+On 4 January 1942, while fleeing with a small group near Kurumbo village, Tapiedi was killed with an axe by a man named Hivijapa. He was about twenty years old. The story did not end there: years later, Hivijapa himself came to faith in the same Christ that Tapiedi had died proclaiming, and built a church in his memory. A young teacher's death became, in time, the ground of his own killer's salvation — a sign that grace in Christ reaches even those who least deserve it, received by faith and not by any merit of their own. In 1998 Tapiedi's statue was placed among ten twentieth-century martyrs above the west door of Westminster Abbey.
 
 ---
 
@@ -2173,6 +2218,21 @@ He was arrested in 1955. Under sustained pressure he signed a recantation — an
 He emerged in 1980 elderly and nearly blind, yet unbroken in faith. He continued to encourage the underground church until his death in 1991.
 
 His story is not one of seamless heroism but of grace: a man who fell, was restored, and held to the end — not by his own strength, but by the mercy of a Lord who does not abandon those who stumble back to Him.
+
+---
+
+## Wang Zhiming 王志明 (1907–1973)
+
+URL: https://livesoffaith.org/person.html?id=wang-zhiming
+Wikipedia: https://en.wikipedia.org/wiki/Wang_Zhiming_(pastor)
+Nationality: Chinese · Tradition: Protestant (Miao church, Yunnan) · Region: Asia · Era: 20th Century
+Topics: martyrdom, perseverance, persecution, courage, faithfulness
+
+Wang Zhiming was born in 1907 in Wuding County, Yunnan Province, part of China's Miao minority in a district first reached by Christian missionaries in 1906. Educated in mission schools, he taught for about ten years before being elected chairman of the local church council in 1944, and was ordained as a pastor in 1951 at the age of forty-four.
+
+Wang led his congregation through the early years of Communist rule, when churches came under pressure to sever ties with the wider Christian world. He signed the government's Three-Self declaration, but as the Cultural Revolution turned violent, he refused to denounce fellow believers at public struggle sessions, saying that his hands had baptized many converts and should not be turned to such sinfulness. For this he was branded a counter-revolutionary.
+
+Arrested with his wife and sons in May 1969, Wang was executed on 29 December 1973 before a crowd of more than ten thousand people in a stadium in Wuding — a death meant to crush the local church. It did not: within a few years the number of believers in the district had grown several times over, evidence that no regime can extinguish what Christ sustains by grace through the faith of ordinary believers. In 1998 Wang's statue was placed among ten twentieth-century martyrs above the west door of Westminster Abbey.
 
 ---
 
