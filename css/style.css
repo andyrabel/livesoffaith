@@ -194,6 +194,20 @@ main {
   align-items: baseline;
   gap: 0.5rem;
   padding: 0.45rem 0.9rem;
+  cursor: pointer;
+}
+
+.verse-of-day--expanded {
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.verse-of-day--expanded .verse-of-day__quote {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  flex-basis: 100%;
+  order: 3;
 }
 
 .verse-of-day__label {

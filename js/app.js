@@ -317,12 +317,25 @@ function renderVerseOfDay() {
   const verse = allVerses[ref];
 
   container.innerHTML = `
-    <div class="verse-of-day">
+    <div class="verse-of-day" role="button" tabindex="0" aria-expanded="false">
       <span class="verse-of-day__label">Verse of the Day</span>
       <span class="verse-of-day__quote" title="${escapeHtml(verse.text)}">&#8220;${escapeHtml(verse.text)}&#8221;</span>
       <span class="verse-of-day__ref">${escapeHtml(ref)}</span>
     </div>
   `;
+
+  const banner = container.querySelector('.verse-of-day');
+  const toggle = () => {
+    const expanded = banner.classList.toggle('verse-of-day--expanded');
+    banner.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+  };
+  banner.addEventListener('click', toggle);
+  banner.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggle();
+    }
+  });
 }
 
 // ============================================================
