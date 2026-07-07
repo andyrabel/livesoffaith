@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Generate and print a 10-question quiz about Christians throughout history — pick a difficulty level for worship, Sunday school, or family use.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Lives of Faith">
+  <title>Printable Quiz — Lives of Faith</title>
+  <link rel="canonical" href="https://livesoffaith.org/quiz-print.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://livesoffaith.org/quiz-print.html">
+  <meta property="og:title" content="Printable Quiz — Lives of Faith">
+  <meta property="og:description" content="Generate and print a 10-question quiz about Christians throughout history — pick a difficulty level for worship, Sunday school, or family use.">
+  <meta property="og:site_name" content="Lives of Faith">
+  <meta property="og:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Printable Quiz — Lives of Faith">
+  <meta name="twitter:description" content="Generate and print a 10-question quiz about Christians throughout history.">
+  <meta name="twitter:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7V501G4W2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X7V501G4W2');
+  </script>
+</head>
+<body>
+
+  <header class="site-header no-print">
+    <div class="container">
+      <div class="site-header__inner">
+        <a href="/" class="site-title" aria-label="Lives of Faith — Home">
+          <img src="images/logos/livesoffaith_logo_128.png" alt="" class="site-logo" width="44" height="44">
+          <span class="site-title__text">
+            <span class="site-title__main">Lives of Faith</span>
+            <span class="site-title__sub">Christians Throughout History</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Site navigation">
+          <a href="index.html">People</a>
+          <a href="map.html">Tour Planner</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <a href="index.html" class="back-link no-print">&#8592; Back to all people</a>
+
+      <section class="intro no-print" aria-label="Printable quiz description">
+        <p>Generate a 10-question quiz for worship, Sunday school, or family devotions — pick a difficulty and print.</p>
+      </section>
+
+      <section class="quiz-print-controls no-print" aria-label="Quiz options">
+        <label for="quiz-print-difficulty">Maximum difficulty</label>
+        <select id="quiz-print-difficulty" class="filter-select">
+          <option value="1">Easy</option>
+          <option value="3" selected>Medium</option>
+          <option value="5">Hard</option>
+        </select>
+        <button type="button" id="quiz-print-generate" class="btn btn-primary">New Questions</button>
+        <button type="button" id="quiz-print-btn" class="btn btn-secondary" onclick="window.print()">&#128438; Print</button>
+        <p id="quiz-print-status" class="quiz-print-status" aria-live="polite"></p>
+      </section>
+
+      <section class="quiz-print-sheet" aria-label="Quiz questions">
+        <h1 class="quiz-print-title">Lives of Faith — Quiz</h1>
+        <p class="quiz-print-fields">Name: <span class="quiz-print-blank"></span> &nbsp; Date: <span class="quiz-print-blank quiz-print-blank--short"></span></p>
+        <ol id="quiz-print-questions" class="quiz-print-questions"></ol>
+      </section>
+
+      <section class="quiz-print-answers" aria-label="Answer key">
+        <h2 class="quiz-print-answers-title">Answer Key</h2>
+        <ol id="quiz-print-answer-list" class="quiz-print-answer-list"></ol>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer no-print">
+    <div class="container">
+      <p>Lives of Faith — Christ-centred biographies for worship and teaching.</p>
+      <p>All biographical content and images are AI-generated. <a href="about.html">Read about our methodology</a> and human review process.</p>
+      <p class="footer-social"><a href="https://www.facebook.com/profile.php?id=61591251525310" aria-label="Follow us on Facebook"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94z"/></svg></a></p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

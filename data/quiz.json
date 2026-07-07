@@ -222,18 +222,6 @@
     "difficulty": 3
   },
   {
-    "question": "Who wrote \"Amazing Grace\"?",
-    "answer": "John Newton",
-    "person_id": "john-newton",
-    "difficulty": 1
-  },
-  {
-    "question": "What former occupation did John Newton have before becoming a minister?",
-    "answer": "Slave trader",
-    "person_id": "john-newton",
-    "difficulty": 1
-  },
-  {
     "question": "About how many hymns did Fanny Crosby write?",
     "answer": "8,000–9,000",
     "person_id": "fanny-crosby",
@@ -246,34 +234,10 @@
     "difficulty": 1
   },
   {
-    "question": "Who wrote \"When I Survey the Wondrous Cross\"?",
-    "answer": "Isaac Watts",
-    "person_id": "isaac-watts",
-    "difficulty": 1
-  },
-  {
-    "question": "Who wrote \"Hark, the Herald Angels Sing\"?",
-    "answer": "Charles Wesley",
-    "person_id": "charles-wesley",
-    "difficulty": 1
-  },
-  {
     "question": "Who wrote \"It Is Well with My Soul,\" and after what tragedy?",
     "answer": "Horatio Spafford, after his four daughters drowned",
     "person_id": "horatio-spafford",
     "difficulty": 3
-  },
-  {
-    "question": "Who wrote \"Rock of Ages\"?",
-    "answer": "Augustus Toplady",
-    "person_id": "augustus-toplady",
-    "difficulty": 1
-  },
-  {
-    "question": "Who wrote \"What a Friend We Have in Jesus\"?",
-    "answer": "Joseph Scriven",
-    "person_id": "joseph-scriven",
-    "difficulty": 1
   },
   {
     "question": "Who wrote \"Just As I Am\"?",
@@ -438,12 +402,6 @@
     "difficulty": 1
   },
   {
-    "question": "What Underground Railroad nickname was Harriet Tubman known by?",
-    "answer": "Moses",
-    "person_id": "harriet-tubman",
-    "difficulty": 1
-  },
-  {
     "question": "How many enslaved people did Harriet Tubman personally lead to freedom?",
     "answer": "About seventy",
     "person_id": "harriet-tubman",
@@ -466,12 +424,6 @@
     "answer": "The English New Testament",
     "person_id": "william-tyndale",
     "difficulty": 5
-  },
-  {
-    "question": "What Olympic event did Eric Liddell refuse to run because it fell on a Sunday?",
-    "answer": "The 100 metres",
-    "person_id": "eric-liddell",
-    "difficulty": 1
   },
   {
     "question": "Where was John Bunyan imprisoned when he wrote The Pilgrim's Progress?",
@@ -540,12 +492,6 @@
     "difficulty": 3
   },
   {
-    "question": "What continent did David Livingstone explore as a missionary and doctor?",
-    "answer": "Africa",
-    "person_id": "david-livingstone",
-    "difficulty": 1
-  },
-  {
     "question": "What trade did William Carey work at before becoming a missionary?",
     "answer": "Shoemaking",
     "person_id": "william-carey",
@@ -567,12 +513,6 @@
     "question": "What Olympic race did Eric Liddell refuse to run because it was held on a Sunday?",
     "answer": "The 100 metres",
     "person_id": "eric-liddell",
-    "difficulty": 1
-  },
-  {
-    "question": "George Muller cared for thousands of orphans without ever doing what?",
-    "answer": "Asking the public for money",
-    "person_id": "george-muller",
     "difficulty": 1
   },
   {
@@ -660,18 +600,6 @@
     "difficulty": 3
   },
   {
-    "question": "What famous document did Martin Luther nail to a church door?",
-    "answer": "The Ninety-Five Theses",
-    "person_id": "martin-luther",
-    "difficulty": 1
-  },
-  {
-    "question": "Who translated the Bible into English and was later executed for it?",
-    "answer": "William Tyndale",
-    "person_id": "william-tyndale",
-    "difficulty": 1
-  },
-  {
     "question": "Who was John Newton's close friend and fellow hymn writer at Olney?",
     "answer": "William Cowper",
     "person_id": "john-newton",
@@ -741,12 +669,6 @@
     "question": "Who founded the Salvation Army?",
     "answer": "William Booth",
     "person_id": "william-booth",
-    "difficulty": 1
-  },
-  {
-    "question": "Who was blind and wrote thousands of hymns, including \"Blessed Assurance\"?",
-    "answer": "Fanny Crosby",
-    "person_id": "fanny-crosby",
     "difficulty": 1
   },
   {

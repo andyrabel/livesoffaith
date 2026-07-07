@@ -284,6 +284,114 @@ main {
   color: var(--gold);
 }
 
+.quiz-box__print-link {
+  margin-left: auto;
+  padding-left: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--gold);
+  white-space: nowrap;
+}
+
+/* --- Printable Quiz (quiz-print.html) ------------------------ */
+.quiz-print-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.quiz-print-controls label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.quiz-print-status {
+  flex-basis: 100%;
+  font-size: 0.8rem;
+  color: var(--gold);
+  margin: 0;
+}
+
+.quiz-print-sheet {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+  max-width: 720px;
+}
+
+.quiz-print-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.4rem;
+}
+
+.quiz-print-fields {
+  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.quiz-print-blank {
+  display: inline-block;
+  width: 220px;
+  border-bottom: 1px solid var(--border);
+}
+
+.quiz-print-blank--short {
+  width: 120px;
+}
+
+.quiz-print-questions {
+  list-style: decimal;
+  padding-left: 1.4rem;
+  margin: 0;
+}
+
+.quiz-print-question {
+  margin-bottom: 1.1rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.quiz-print-question__text {
+  display: block;
+}
+
+.quiz-print-question__rule {
+  display: block;
+  margin-top: 0.6rem;
+  width: 100%;
+  height: 1.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.quiz-print-answers {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.75rem;
+  max-width: 720px;
+}
+
+.quiz-print-answers-title {
+  margin: 0 0 0.6rem;
+  font-size: 1.1rem;
+  color: var(--gold);
+}
+
+.quiz-print-answer-list {
+  margin: 0;
+  padding-left: 1.4rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
 /* --- Tour Planner (map page) --------------------------------- */
 .tour-planner {
   background: var(--surface);
@@ -1868,5 +1976,33 @@ main {
     border-left: 4px solid #666;
     color: #000;
     break-inside: avoid;
+  }
+}
+
+/* --- Print Handout (quiz-print.html) ------------------------- */
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .quiz-print-sheet,
+  .quiz-print-answers {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .quiz-print-answers {
+    page-break-before: always;
+  }
+
+  .quiz-print-blank {
+    border-bottom-color: #000;
+  }
+
+  .quiz-print-question__rule {
+    border-bottom-color: #999;
   }
 }

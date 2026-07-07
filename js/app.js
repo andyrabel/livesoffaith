@@ -9,6 +9,7 @@ const PLACES_URL = 'data/places.json';
 const PAGEVIEWS_URL = 'data/pageviews.json';
 const QUIZ_URL = 'data/quiz.json';
 const STORY_PREF_KEY = 'preferred-story-version';
+const QUIZ_DIFFICULTY_KEY = 'preferred-quiz-difficulty';
 
 let allPeople = [];
 let allPlaces = [];
@@ -92,6 +93,18 @@ function getStoryVersion() {
 
 function setStoryVersion(v) {
   localStorage.setItem(STORY_PREF_KEY, v);
+}
+
+// ============================================================
+// Quiz print difficulty preference (localStorage)
+// ============================================================
+
+function getQuizPrintDifficulty() {
+  return localStorage.getItem(QUIZ_DIFFICULTY_KEY) || '3';
+}
+
+function setQuizPrintDifficulty(v) {
+  localStorage.setItem(QUIZ_DIFFICULTY_KEY, v);
 }
 
 // ============================================================
@@ -366,9 +379,14 @@ function renderQuizQuestion() {
   const container = document.getElementById('quiz-question');
   if (!container || !allQuiz.length) return;
 
+  // Defaults to Medium until the visitor picks a difficulty on the print-quiz page.
+  const maxDifficulty = parseInt(getQuizPrintDifficulty(), 10);
+  const pool = allQuiz.filter(q => q.difficulty <= maxDifficulty);
+  if (!pool.length) return;
+
   const today = new Date();
   const seed = `quiz-${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
-  const q = allQuiz[seededIndex(seed, allQuiz.length)];
+  const q = pool[seededIndex(seed, pool.length)];
   const person = allPeople.find(p => p.id === q.person_id);
 
   const answerLinkHtml = person
@@ -381,6 +399,7 @@ function renderQuizQuestion() {
       <span class="quiz-box__question">${escapeHtml(q.question)}</span>
       <button class="quiz-box__reveal-btn" type="button" aria-expanded="false">Reveal Answer</button>
       <span class="quiz-box__answer" hidden><strong>${escapeHtml(q.answer)}</strong>${answerLinkHtml}</span>
+      <a class="quiz-box__print-link" href="quiz-print.html">&#128438; Print a quiz &#8594;</a>
     </div>
   `;
 
@@ -392,6 +411,67 @@ function renderQuizQuestion() {
     answerEl.setAttribute('tabindex', '-1');
     answerEl.focus();
   });
+}
+
+// ============================================================
+// Printable quiz page (quiz-print.html)
+// ============================================================
+
+const QUIZ_PRINT_COUNT = 10;
+
+function renderPrintQuiz(maxDifficulty) {
+  const pool = allQuiz.filter(q => q.difficulty <= maxDifficulty);
+  const questions = shuffleArray(pool).slice(0, QUIZ_PRINT_COUNT);
+
+  const questionsList = document.getElementById('quiz-print-questions');
+  const answerList = document.getElementById('quiz-print-answer-list');
+  const status = document.getElementById('quiz-print-status');
+  if (!questionsList || !answerList) return;
+
+  questionsList.innerHTML = questions.map(q => `
+    <li class="quiz-print-question">
+      <span class="quiz-print-question__text">${escapeHtml(q.question)}</span>
+      <span class="quiz-print-question__rule"></span>
+    </li>
+  `).join('');
+
+  answerList.innerHTML = questions.map(q => {
+    const person = allPeople.find(p => p.id === q.person_id);
+    const nameSuffix = person && person.name.toLowerCase() !== q.answer.toLowerCase()
+      ? ` (${escapeHtml(person.name)})`
+      : '';
+    return `<li>${escapeHtml(q.answer)}${nameSuffix}</li>`;
+  }).join('');
+
+  if (status) {
+    status.textContent = questions.length < QUIZ_PRINT_COUNT
+      ? `Only ${questions.length} questions available at this difficulty.`
+      : '';
+  }
+}
+
+function initQuizPrintPage() {
+  const difficultySel = document.getElementById('quiz-print-difficulty');
+  const generateBtn = document.getElementById('quiz-print-generate');
+  if (!difficultySel || !generateBtn) return;
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const paramMax = urlParams.get('max');
+  difficultySel.value = (paramMax && ['1', '3', '5'].includes(paramMax)) ? paramMax : getQuizPrintDifficulty();
+
+  const generate = () => {
+    const maxDifficulty = parseInt(difficultySel.value, 10);
+    setQuizPrintDifficulty(difficultySel.value);
+    const url = new URL(window.location.href);
+    url.searchParams.set('max', String(maxDifficulty));
+    history.replaceState(null, '', url);
+    renderPrintQuiz(maxDifficulty);
+  };
+
+  generateBtn.addEventListener('click', generate);
+  difficultySel.addEventListener('change', generate);
+
+  generate();
 }
 
 function memorialsSectionHtml(person) {
@@ -2405,5 +2485,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initIndexPage();
   } else if (document.getElementById('person-content')) {
     initPersonPage();
+  } else if (document.getElementById('quiz-print-questions')) {
+    initQuizPrintPage();
   }
 });
