@@ -279,6 +279,80 @@ function significantDatesSectionHtml(person) {
   `;
 }
 
+// ============================================================
+// "On this day" home page banner
+// ============================================================
+
+const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+// Only dates with a full "Mon D, YYYY" precision (see Significant Dates
+// Schema in CLAUDE.md) carry a day-of-year we can match "on this day"
+// against — "Jan 1976" and "1976"/"c. 1725" precision entries are skipped.
+function parseFullDate(dateStr) {
+  const m = /^([A-Za-z]{3}) (\d{1,2}), (\d{4})$/.exec(dateStr || '');
+  if (!m) return null;
+  const month = MONTH_ABBR.indexOf(m[1]);
+  if (month === -1) return null;
+  return { month, day: parseInt(m[2], 10), year: parseInt(m[3], 10) };
+}
+
+function getOnThisDayCandidates(people, month, day) {
+  const candidates = [];
+  people.forEach(person => {
+    (person.significant_dates || []).forEach(dateEntry => {
+      const parsed = parseFullDate(dateEntry.date);
+      if (parsed && parsed.month === month && parsed.day === day) {
+        candidates.push({ person, dateEntry });
+      }
+    });
+  });
+  return candidates;
+}
+
+// Deterministic (not Math.random) so every visitor sees the same pick for
+// the day and it doesn't change on refresh.
+function seededIndex(seedStr, length) {
+  let hash = 0;
+  for (let i = 0; i < seedStr.length; i++) {
+    hash = (hash * 31 + seedStr.charCodeAt(i)) >>> 0;
+  }
+  return hash % length;
+}
+
+function withPeriod(text) {
+  const trimmed = (text || '').trim();
+  if (!trimmed) return '';
+  return /[.!?]$/.test(trimmed) ? trimmed : `${trimmed}.`;
+}
+
+function renderOnThisDay() {
+  const introEl = document.querySelector('.intro');
+  if (!introEl) return;
+
+  const today = new Date();
+  const candidates = getOnThisDayCandidates(allPeople, today.getMonth(), today.getDate());
+  if (!candidates.length) return;
+
+  const seed = `${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
+  const { person, dateEntry } = candidates[seededIndex(seed, candidates.length)];
+
+  const initials = escapeHtml(getInitials(person.name));
+  const thumbHtml = person.image
+    ? `<img class="on-this-day__portrait" src="images/portraits/${escapeHtml(person.image.file)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;on-this-day__portrait on-this-day__portrait--placeholder&quot;>${initials}</div>'">`
+    : `<div class="on-this-day__portrait on-this-day__portrait--placeholder">${initials}</div>`;
+
+  introEl.innerHTML = `
+    <a class="on-this-day" href="person.html?id=${escapeHtml(person.id)}">
+      ${thumbHtml}
+      <span class="on-this-day__text">
+        <span class="on-this-day__label">On this day, ${escapeHtml(dateEntry.date)}</span>
+        <span class="on-this-day__name">${escapeHtml(person.name)}.</span>
+        ${escapeHtml(withPeriod(dateEntry.details))}
+      </span>
+    </a>
+  `;
+}
+
 function memorialsSectionHtml(person) {
   const memorials = person.memorials || [];
   if (!memorials.length) return '';
@@ -498,6 +572,7 @@ function applyFilters() {
 
 function initIndexPage() {
   injectIndexSeo(allPeople);
+  renderOnThisDay();
 
   const searchInput  = document.getElementById('search-input');
   const regionSel    = document.getElementById('filter-region');
