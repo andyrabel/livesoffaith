@@ -8,6 +8,7 @@ const DATA_URL = 'data/people.json';
 const PLACES_URL = 'data/places.json';
 const PAGEVIEWS_URL = 'data/pageviews.json';
 const QUIZ_URL = 'data/quiz.json';
+const VERSES_URL = 'data/verses.json';
 const STORY_PREF_KEY = 'preferred-story-version';
 const QUIZ_DIFFICULTY_KEY = 'preferred-quiz-difficulty';
 
@@ -16,6 +17,7 @@ let allPlaces = [];
 let randomOrder = [];
 let pageviews = {};
 let allQuiz = [];
+let allVerses = {};
 
 const filterState = {
   search: '',
@@ -295,6 +297,33 @@ function significantDatesSectionHtml(person) {
 }
 
 // ============================================================
+// "Verse of the Day" home page banner
+// ============================================================
+
+// Same seeded-pick approach as "On this day"/quiz box, with its own seed
+// prefix so the three don't land on the same hash slot.
+function renderVerseOfDay() {
+  const container = document.getElementById('verse-of-day');
+  if (!container) return;
+
+  const refs = Object.keys(allVerses);
+  if (!refs.length) return;
+
+  const today = new Date();
+  const seed = `verse-${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
+  const ref = refs[seededIndex(seed, refs.length)];
+  const verse = allVerses[ref];
+
+  container.innerHTML = `
+    <div class="verse-of-day">
+      <span class="verse-of-day__label">Verse of the Day</span>
+      <span class="verse-of-day__quote" title="${escapeHtml(verse.text)}">&#8220;${escapeHtml(verse.text)}&#8221;</span>
+      <span class="verse-of-day__ref">${escapeHtml(ref)}</span>
+    </div>
+  `;
+}
+
+// ============================================================
 // "On this day" home page banner
 // ============================================================
 
@@ -554,6 +583,17 @@ async function loadQuiz() {
   }
 }
 
+async function loadVerses() {
+  try {
+    const res = await fetch(VERSES_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allVerses = await res.json();
+  } catch (err) {
+    console.error('Failed to load verses.json:', err);
+    allVerses = {};
+  }
+}
+
 async function loadPlaces() {
   try {
     const res = await fetch(PLACES_URL);
@@ -704,6 +744,7 @@ function applyFilters() {
 
 function initIndexPage() {
   injectIndexSeo(allPeople);
+  renderVerseOfDay();
   renderOnThisDay();
   renderQuizQuestion();
 
@@ -2484,7 +2525,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  await Promise.all([loadPeople(), loadPageviews(), loadQuiz()]);
+  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses()]);
 
   if (document.getElementById('person-grid')) {
     initIndexPage();

@@ -164,6 +164,45 @@ main {
   font-style: italic;
 }
 
+.verse-of-day {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  max-width: 680px;
+  padding: 0.5rem 0.75rem;
+  margin: 0.75rem 0 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+
+.verse-of-day__label {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  font-weight: bold;
+}
+
+.verse-of-day__quote {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--text);
+}
+
+.verse-of-day__ref {
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: var(--accent);
+}
+
 .on-this-day {
   display: flex;
   align-items: center;
