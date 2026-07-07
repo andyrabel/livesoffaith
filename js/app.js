@@ -400,6 +400,30 @@ function renderOnThisDay() {
 }
 
 // ============================================================
+// "Hymn of the Day" home page banner
+// ============================================================
+
+// Same seeded-pick approach as "Verse of the Day"/"On this day", with its
+// own seed prefix so the boxes don't land on the same hash slot.
+function renderHymnOfDay() {
+  const container = document.getElementById('hymn-of-day');
+  if (!container || !allHymns.length) return;
+
+  const today = new Date();
+  const seed = `hymn-${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
+  const hymn = allHymns[seededIndex(seed, allHymns.length)];
+  const writer = hymnWriter(hymn);
+
+  container.innerHTML = `
+    <a class="hymn-of-day" href="hymn.html?id=${escapeHtml(hymn.id)}">
+      <span class="hymn-of-day__label">Hymn of the Day</span>
+      <span class="hymn-of-day__title">&#8220;${escapeHtml(hymn.title)}&#8221;</span>
+      ${writer ? `<span class="hymn-of-day__writer">${escapeHtml(writer.name)}</span>` : ''}
+    </a>
+  `;
+}
+
+// ============================================================
 // Quiz question home page box
 // ============================================================
 
@@ -419,8 +443,11 @@ function renderQuizQuestion() {
   const seed = `quiz-${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
   const q = pool[seededIndex(seed, pool.length)];
   const person = allPeople.find(p => p.id === q.person_id);
+  const hymn = allHymns.find(h => h.id === q.hymn_id);
 
-  const answerLinkHtml = person
+  const answerLinkHtml = hymn
+    ? `<a class="quiz-box__answer-link" href="hymn.html?id=${escapeHtml(hymn.id)}">The story behind &ldquo;${escapeHtml(hymn.title)}&rdquo; &#8594;</a>`
+    : person
     ? `<a class="quiz-box__answer-link" href="person.html?id=${escapeHtml(person.id)}">More about ${escapeHtml(person.name)} &#8594;</a>`
     : '';
 
@@ -757,8 +784,9 @@ function applyFilters() {
 
 function initIndexPage() {
   injectIndexSeo(allPeople);
-  renderVerseOfDay();
   renderOnThisDay();
+  renderVerseOfDay();
+  renderHymnOfDay();
   renderQuizQuestion();
 
   const searchInput  = document.getElementById('search-input');
@@ -1114,6 +1142,41 @@ function injectIndexSeo(people) {
   });
 }
 
+function injectHymnsIndexSeo(hymns) {
+  const pageUrl = `${SITE_URL}/hymns.html`;
+
+  const itemList = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    'name': 'Hymn Stories',
+    'description': 'The documented history behind individual hymns — who wrote them, when, and the Scripture that shaped them.',
+    'url': pageUrl,
+    'numberOfItems': hymns.length,
+    'itemListElement': hymns.map((h, i) => ({
+      '@type': 'ListItem',
+      'position': i + 1,
+      'url': `${SITE_URL}/hymn.html?id=${encodeURIComponent(h.id)}`,
+      'name': h.title,
+    })),
+  };
+
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'name': 'Lives of Faith', 'item': `${SITE_URL}/` },
+      { '@type': 'ListItem', 'position': 2, 'name': 'Hymn Stories', 'item': pageUrl },
+    ],
+  };
+
+  [itemList, breadcrumbLd].forEach(ld => {
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(ld);
+    document.head.appendChild(script);
+  });
+}
+
 // ============================================================
 // Person page
 // ============================================================
@@ -1396,6 +1459,7 @@ function initHymnsIndexPage() {
   const sortSel = document.getElementById('hymn-sort-order');
   const clearBtn = document.getElementById('hymn-clear-filters');
 
+  injectHymnsIndexSeo(allHymns);
   applyHymnFilters();
 
   let searchTimer;
@@ -1439,6 +1503,7 @@ function initHymnsIndexPage() {
 
 function injectHymnSeo(hymn, writer) {
   const pageUrl = `${SITE_URL}/hymn.html?id=${encodeURIComponent(hymn.id)}`;
+  const hymnsUrl = `${SITE_URL}/hymns.html`;
   const writerName = writer ? writer.name : 'an unknown writer';
   const description = `The story behind "${hymn.title}" (${hymn.year}), written by ${writerName} — grounded in ${hymn.scripture_basis}. Lives of Faith.`;
   const fullTitle = `${hymn.title} — The Story Behind the Hymn — Lives of Faith`;
@@ -1447,7 +1512,16 @@ function injectHymnSeo(hymn, writer) {
   setMeta('meta[name="description"]', 'content', description);
   const kwEl = document.getElementById('meta-keywords');
   if (kwEl) {
-    const keywordParts = [hymn.title, writerName, ...(hymn.topics || []), 'hymn story', 'Lives of Faith'].filter(Boolean);
+    const keywordParts = [
+      hymn.title,
+      writerName,
+      String(hymn.year),
+      hymn.scripture_basis,
+      ...(hymn.topics || []),
+      'hymn story',
+      'hymn history',
+      'Lives of Faith',
+    ].filter(Boolean);
     kwEl.setAttribute('content', [...new Set(keywordParts)].join(', '));
   }
 
@@ -1472,6 +1546,46 @@ function injectHymnSeo(hymn, writer) {
   const twDesc = document.getElementById('twitter-description');
   if (twDesc) twDesc.setAttribute('content', description);
 
+  // Use the writer's portrait for social share cards when one exists,
+  // falling back to the default site logo already set in hymn.html.
+  if (writer && writer.image) {
+    const imgUrl = `${SITE_URL}/images/portraits/${encodeURIComponent(writer.image.file)}`;
+    const imgAlt = `Portrait of ${writer.name}`;
+    const ogImg = document.getElementById('og-image');
+    if (ogImg) ogImg.setAttribute('content', imgUrl);
+    const ogImgAlt = document.getElementById('og-image-alt');
+    if (ogImgAlt) ogImgAlt.setAttribute('content', imgAlt);
+    const twImg = document.getElementById('twitter-image');
+    if (twImg) twImg.setAttribute('content', imgUrl);
+    const twImgAlt = document.getElementById('twitter-image-alt');
+    if (twImgAlt) twImgAlt.setAttribute('content', imgAlt);
+  }
+
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'name': 'Lives of Faith', 'item': `${SITE_URL}/` },
+      { '@type': 'ListItem', 'position': 2, 'name': 'Hymn Stories', 'item': hymnsUrl },
+      { '@type': 'ListItem', 'position': 3, 'name': hymn.title, 'item': pageUrl },
+    ],
+  };
+
+  const publisherLd = { '@type': 'Organization', 'name': 'Lives of Faith', 'url': `${SITE_URL}/` };
+
+  const musicCompositionLd = {
+    '@type': 'MusicComposition',
+    'name': hymn.title,
+  };
+  if (hymn.year) musicCompositionLd['dateCreated'] = String(hymn.year);
+  if (writer) {
+    musicCompositionLd['lyricist'] = {
+      '@type': 'Person',
+      'name': writer.name,
+      'url': `${SITE_URL}/person.html?id=${encodeURIComponent(writer.id)}`,
+    };
+  }
+
   const articleLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -1481,15 +1595,18 @@ function injectHymnSeo(hymn, writer) {
     'mainEntityOfPage': pageUrl,
     'url': pageUrl,
     'inLanguage': 'en',
-    'author': { '@type': 'Organization', 'name': 'Lives of Faith', 'url': `${SITE_URL}/` },
-    'publisher': { '@type': 'Organization', 'name': 'Lives of Faith', 'url': `${SITE_URL}/` },
+    'about': musicCompositionLd,
+    'author': publisherLd,
+    'publisher': publisherLd,
   };
   if (hymn.wikipedia_url) articleLd['sameAs'] = hymn.wikipedia_url;
 
-  const script = document.createElement('script');
-  script.type = 'application/ld+json';
-  script.textContent = JSON.stringify(articleLd);
-  document.head.appendChild(script);
+  [breadcrumbLd, articleLd].forEach(ld => {
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(ld);
+    document.head.appendChild(script);
+  });
 }
 
 function initHymnPage() {
