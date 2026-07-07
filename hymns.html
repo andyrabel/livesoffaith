@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The stories behind the hymns — how and why they were written, and the Scripture that shaped them. From Lives of Faith.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Lives of Faith">
+  <title>Hymn Stories — Lives of Faith</title>
+  <link rel="canonical" href="https://livesoffaith.org/hymns.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://livesoffaith.org/hymns.html">
+  <meta property="og:title" content="Hymn Stories — Lives of Faith">
+  <meta property="og:description" content="The stories behind the hymns — how and why they were written, and the Scripture that shaped them.">
+  <meta property="og:site_name" content="Lives of Faith">
+  <meta property="og:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hymn Stories — Lives of Faith">
+  <meta name="twitter:description" content="The stories behind the hymns — how and why they were written, and the Scripture that shaped them.">
+  <meta name="twitter:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7V501G4W2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X7V501G4W2');
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a href="/" class="site-title" aria-label="Lives of Faith — Home">
+          <img src="images/logos/livesoffaith_logo_128.png" alt="" class="site-logo" width="44" height="44">
+          <span class="site-title__text">
+            <span class="site-title__main">Lives of Faith</span>
+            <span class="site-title__sub">Christians Throughout History</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Site navigation">
+          <a href="index.html">People</a>
+          <a href="hymns.html" aria-current="page">Hymns</a>
+          <a href="map.html">Tour Planner</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <section class="intro" aria-label="Section description">
+        <p>Hymn Stories — how and why these hymns were written, and the Scripture behind them.</p>
+      </section>
+
+      <div class="toolbar-row">
+        <div class="results-summary" aria-live="polite">
+          <p id="hymn-results-count"></p>
+        </div>
+
+        <details id="hymn-search-filter-details" class="search-filter-toggle">
+          <summary class="search-filter-summary">
+            <span class="search-filter-summary__icon" aria-hidden="true">&#128269;</span>
+            Search &amp; Filter
+          </summary>
+          <section class="search-filter" aria-label="Search and filter">
+            <div class="search-row">
+              <label for="hymn-search-input" class="sr-only">Search by hymn or writer name</label>
+              <input
+                type="search"
+                id="hymn-search-input"
+                class="search-input"
+                placeholder="Search by hymn or writer name…"
+                autocomplete="off"
+                aria-label="Search by hymn or writer name"
+              >
+            </div>
+            <div class="filter-row">
+              <label for="hymn-filter-topic" class="sr-only">Filter by topic</label>
+              <select id="hymn-filter-topic" class="filter-select" aria-label="Filter by topic">
+                <option value="">All Topics</option>
+                <option value="grace">Grace</option>
+                <option value="suffering">Suffering</option>
+                <option value="perseverance">Perseverance</option>
+                <option value="faithfulness">Faithfulness</option>
+                <option value="prayer">Prayer</option>
+                <option value="cross">Cross</option>
+                <option value="resurrection">Resurrection</option>
+                <option value="missions">Missions</option>
+                <option value="persecution">Persecution</option>
+                <option value="martyrdom">Martyrdom</option>
+                <option value="redemption">Redemption</option>
+                <option value="conversion">Conversion</option>
+                <option value="praise">Praise</option>
+                <option value="worship">Worship</option>
+                <option value="gospel">Gospel</option>
+              </select>
+
+              <label for="hymn-sort-order" class="sr-only">Sort order</label>
+              <select id="hymn-sort-order" class="filter-select" aria-label="Sort order">
+                <option value="title-az" selected>Title A–Z</option>
+                <option value="title-za">Title Z–A</option>
+                <option value="writer-az">Writer A–Z</option>
+              </select>
+
+              <button id="hymn-clear-filters" class="btn btn-secondary" type="button">Clear Filters</button>
+            </div>
+          </section>
+        </details>
+      </div>
+
+      <div id="hymn-grid" class="person-grid" role="list" aria-label="Hymn stories">
+        <div class="loading">Loading…</div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Lives of Faith — Christ-centred biographies for worship and teaching.</p>
+      <p>All biographical and hymn-story content is AI-generated from verified sources. <a href="about.html">Read about our methodology</a> and human review process.</p>
+      <p class="footer-social"><a href="https://www.facebook.com/profile.php?id=61591251525310" aria-label="Follow us on Facebook"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94z"/></svg></a></p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

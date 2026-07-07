@@ -9,6 +9,7 @@ const PLACES_URL = 'data/places.json';
 const PAGEVIEWS_URL = 'data/pageviews.json';
 const QUIZ_URL = 'data/quiz.json';
 const VERSES_URL = 'data/verses.json';
+const HYMNS_URL = 'data/hymns.json';
 const STORY_PREF_KEY = 'preferred-story-version';
 const QUIZ_DIFFICULTY_KEY = 'preferred-quiz-difficulty';
 
@@ -18,6 +19,7 @@ let randomOrder = [];
 let pageviews = {};
 let allQuiz = [];
 let allVerses = {};
+let allHymns = [];
 
 const filterState = {
   search: '',
@@ -605,6 +607,17 @@ async function loadPlaces() {
   }
 }
 
+async function loadHymns() {
+  try {
+    const res = await fetch(HYMNS_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allHymns = await res.json();
+  } catch (err) {
+    console.error('Failed to load hymns.json:', err);
+    allHymns = [];
+  }
+}
+
 // pageviews.json is regenerated periodically by _build/fetch_pageviews.py
 // from GA4 data — absent or stale is a normal, non-error state, not just
 // a missing-file fallback, so this stays silent (no console noise) unlike
@@ -1132,7 +1145,7 @@ function initPersonPage() {
     .join('');
 
   const hymnsHtml = person.hymns.length
-    ? `<p class="person-hymns">Hymns: ${person.hymns.map(h => escapeHtml(h)).join(', ')}</p>`
+    ? `<p class="person-hymns">Hymns: ${person.hymns.map(h => hymnTitleLinkHtml(h, person.id)).join(', ')}</p>`
     : '';
 
   const flaggedHtml = person.flagged && person.footnote
@@ -1263,6 +1276,335 @@ function initPersonPage() {
   });
 
   renderPersonNav(person);
+}
+
+// ============================================================
+// Hymns — index page, detail page, and person<->hymn linking
+// ============================================================
+
+// Looks up a title string from a person's `hymns` array against hymns.json
+// (matched on title + person_id, since a title alone isn't unique — e.g.
+// "Who Is on the Lord's Side?" is credited to both Havergal and Sankey).
+// Falls back to plain text when no hymn-story page exists yet for it.
+function findHymnByTitle(title, personId) {
+  return allHymns.find(h => h.title === title && h.person_id === personId) || null;
+}
+
+function hymnTitleLinkHtml(title, personId) {
+  const hymn = findHymnByTitle(title, personId);
+  if (!hymn) return escapeHtml(title);
+  return `<a href="hymn.html?id=${escapeHtml(hymn.id)}" class="person-link">${escapeHtml(title)}</a>`;
+}
+
+const hymnFilterState = {
+  search: '',
+  topic: '',
+  sort: 'title-az',
+};
+
+function hymnWriter(hymn) {
+  return allPeople.find(p => p.id === hymn.person_id) || null;
+}
+
+function hymnCardHtml(hymn) {
+  const writer = hymnWriter(hymn);
+  const writerName = writer ? writer.name : '';
+  const badge = hymn.review.human_reviewed
+    ? `<span class="badge badge-reviewed" title="Reviewed">&#10003; Reviewed for accuracy</span>`
+    : `<span class="badge badge-unreviewed">&#9888; AI-generated — not yet human reviewed</span>`;
+  const tags = (hymn.topics || [])
+    .map(t => `<span class="topic-tag">${escapeHtml(t)}</span>`)
+    .join('');
+
+  return `
+    <article class="person-card hymn-card" role="listitem" onclick="window.location='hymn.html?id=${escapeHtml(hymn.id)}'">
+      <div class="card-body">
+        <h2 class="card-name">
+          <a href="hymn.html?id=${escapeHtml(hymn.id)}" onclick="event.stopPropagation()">
+            ${escapeHtml(hymn.title)}
+          </a>
+        </h2>
+        <p class="card-dates">${escapeHtml(hymn.year)}</p>
+        ${writerName ? `<p class="card-meta">${escapeHtml(writerName)}</p>` : ''}
+        <p class="card-meta">${escapeHtml(hymn.scripture_basis)}</p>
+        <div class="card-topics">${tags}</div>
+        <div class="card-badge">${badge}</div>
+      </div>
+    </article>
+  `;
+}
+
+function updateHymnResultsCount(count) {
+  const el = document.getElementById('hymn-results-count');
+  if (!el) return;
+  const total = allHymns.length;
+  el.textContent = count === total
+    ? `Showing all ${total} hymn ${total === 1 ? 'story' : 'stories'}`
+    : `Showing ${count} of ${total} hymn stories`;
+}
+
+function applyHymnSortOrder(hymns) {
+  const { sort } = hymnFilterState;
+  if (sort === 'title-az') return hymns.slice().sort((a, b) => a.title.localeCompare(b.title));
+  if (sort === 'title-za') return hymns.slice().sort((a, b) => b.title.localeCompare(a.title));
+  if (sort === 'writer-az') {
+    return hymns.slice().sort((a, b) => {
+      const wa = hymnWriter(a);
+      const wb = hymnWriter(b);
+      return (wa ? wa.name : '').localeCompare(wb ? wb.name : '');
+    });
+  }
+  return hymns;
+}
+
+function renderHymnCards(hymns) {
+  const grid = document.getElementById('hymn-grid');
+  if (!grid) return;
+
+  if (hymns.length === 0) {
+    grid.innerHTML = '<div class="no-results">No hymns match your current filters.</div>';
+    updateHymnResultsCount(0);
+    return;
+  }
+
+  grid.innerHTML = hymns.map(hymn => hymnCardHtml(hymn)).join('');
+  updateHymnResultsCount(hymns.length);
+}
+
+function applyHymnFilters() {
+  const { search, topic } = hymnFilterState;
+
+  const filtered = allHymns.filter(hymn => {
+    if (search) {
+      const q = search.toLowerCase();
+      const writer = hymnWriter(hymn);
+      const writerName = writer ? writer.name.toLowerCase() : '';
+      if (!hymn.title.toLowerCase().includes(q) && !writerName.includes(q)) return false;
+    }
+    if (topic) {
+      if (!(hymn.topics || []).includes(topic)) return false;
+    }
+    return true;
+  });
+
+  renderHymnCards(applyHymnSortOrder(filtered));
+}
+
+function initHymnsIndexPage() {
+  const searchInput = document.getElementById('hymn-search-input');
+  const topicSel = document.getElementById('hymn-filter-topic');
+  const sortSel = document.getElementById('hymn-sort-order');
+  const clearBtn = document.getElementById('hymn-clear-filters');
+
+  applyHymnFilters();
+
+  let searchTimer;
+
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        hymnFilterState.search = searchInput.value.trim();
+        applyHymnFilters();
+      }, 200);
+    });
+  }
+
+  if (topicSel) {
+    topicSel.addEventListener('change', () => {
+      hymnFilterState.topic = topicSel.value;
+      applyHymnFilters();
+    });
+  }
+
+  if (sortSel) {
+    sortSel.addEventListener('change', () => {
+      hymnFilterState.sort = sortSel.value;
+      applyHymnFilters();
+    });
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      hymnFilterState.search = '';
+      hymnFilterState.topic = '';
+      hymnFilterState.sort = 'title-az';
+      if (searchInput) searchInput.value = '';
+      if (topicSel) topicSel.value = '';
+      if (sortSel) sortSel.value = 'title-az';
+      applyHymnFilters();
+    });
+  }
+}
+
+function injectHymnSeo(hymn, writer) {
+  const pageUrl = `${SITE_URL}/hymn.html?id=${encodeURIComponent(hymn.id)}`;
+  const writerName = writer ? writer.name : 'an unknown writer';
+  const description = `The story behind "${hymn.title}" (${hymn.year}), written by ${writerName} — grounded in ${hymn.scripture_basis}. Lives of Faith.`;
+  const fullTitle = `${hymn.title} — The Story Behind the Hymn — Lives of Faith`;
+
+  document.title = fullTitle;
+  setMeta('meta[name="description"]', 'content', description);
+  const kwEl = document.getElementById('meta-keywords');
+  if (kwEl) {
+    const keywordParts = [hymn.title, writerName, ...(hymn.topics || []), 'hymn story', 'Lives of Faith'].filter(Boolean);
+    kwEl.setAttribute('content', [...new Set(keywordParts)].join(', '));
+  }
+
+  if (typeof gtag === 'function') {
+    gtag('event', 'page_view', {
+      page_title: fullTitle,
+      page_location: pageUrl,
+      hymn_id: hymn.id,
+    });
+  }
+
+  const canonical = document.getElementById('canonical-link');
+  if (canonical) canonical.setAttribute('href', pageUrl);
+  const ogUrl = document.getElementById('og-url');
+  if (ogUrl) ogUrl.setAttribute('content', pageUrl);
+  const ogTitle = document.getElementById('og-title');
+  if (ogTitle) ogTitle.setAttribute('content', fullTitle);
+  const ogDesc = document.getElementById('og-description');
+  if (ogDesc) ogDesc.setAttribute('content', description);
+  const twTitle = document.getElementById('twitter-title');
+  if (twTitle) twTitle.setAttribute('content', fullTitle);
+  const twDesc = document.getElementById('twitter-description');
+  if (twDesc) twDesc.setAttribute('content', description);
+
+  const articleLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'headline': hymn.title,
+    'description': description,
+    'articleBody': stripLinks(hymn.adult_story || ''),
+    'mainEntityOfPage': pageUrl,
+    'url': pageUrl,
+    'inLanguage': 'en',
+    'author': { '@type': 'Organization', 'name': 'Lives of Faith', 'url': `${SITE_URL}/` },
+    'publisher': { '@type': 'Organization', 'name': 'Lives of Faith', 'url': `${SITE_URL}/` },
+  };
+  if (hymn.wikipedia_url) articleLd['sameAs'] = hymn.wikipedia_url;
+
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify(articleLd);
+  document.head.appendChild(script);
+}
+
+function initHymnPage() {
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  const content = document.getElementById('hymn-content');
+  if (!content) return;
+
+  const hymn = allHymns.find(h => h.id === id);
+
+  if (!hymn) {
+    content.innerHTML = `
+      <div class="error-message">
+        <p>Hymn not found. <a href="hymns.html">Return to all hymns</a>.</p>
+      </div>
+    `;
+    return;
+  }
+
+  const writer = hymnWriter(hymn);
+  injectHymnSeo(hymn, writer);
+
+  const badge = hymn.review.human_reviewed
+    ? `<span class="badge badge-reviewed" title="Reviewed${hymn.review.reviewed_by ? ' by ' + escapeHtml(hymn.review.reviewed_by) : ''}">&#10003; Reviewed for accuracy</span>`
+    : `<span class="badge badge-unreviewed">&#9888; AI-generated — not yet human reviewed</span>`;
+
+  const writerHtml = writer
+    ? `<a href="person.html?id=${escapeHtml(writer.id)}" class="person-link">${escapeHtml(writer.name)}</a>`
+    : 'Unknown';
+
+  const topics = (hymn.topics || [])
+    .map(t => `<span class="topic-tag">${escapeHtml(t)}</span>`)
+    .join('');
+
+  const links = [];
+  if (hymn.wikipedia_url) {
+    links.push(`<a href="${escapeHtml(hymn.wikipedia_url)}" target="_blank" rel="noopener noreferrer">Wikipedia</a>`);
+  }
+  const sourcesHtml = links.length ? `<div class="story-sources">Read more: ${links.join(' &middot; ')}</div>` : '';
+
+  const version = getStoryVersion();
+
+  content.innerHTML = `
+    <div class="person-header">
+      <div class="person-info">
+        <h1 class="person-name">${escapeHtml(hymn.title)}</h1>
+        <p class="person-dates">${escapeHtml(hymn.year)}</p>
+        <div class="person-meta-grid">
+          <span class="person-meta-label">Writer</span>
+          <span class="person-meta-value">${writerHtml}</span>
+          <span class="person-meta-label">Scripture</span>
+          <span class="person-meta-value">${escapeHtml(hymn.scripture_basis)}</span>
+        </div>
+        <div class="person-topics">${topics}</div>
+      </div>
+    </div>
+
+    <div class="story-tabs-wrapper">
+      <div class="story-tabs-nav" role="tablist" aria-label="Story version">
+        <button class="story-tab${version === 'adult' ? ' active' : ''}"
+                role="tab" aria-selected="${version === 'adult'}"
+                aria-controls="panel-adult" id="tab-adult" data-version="adult">
+          For Worship &amp; Teaching
+        </button>
+        <button class="story-tab${version === 'family' ? ' active' : ''}"
+                role="tab" aria-selected="${version === 'family'}"
+                aria-controls="panel-family" id="tab-family" data-version="family">
+          Family Version
+        </button>
+      </div>
+
+      <div class="story-panel${version === 'adult' ? '' : ' hidden'}"
+           role="tabpanel" aria-labelledby="tab-adult" id="panel-adult">
+        <div class="story-text">${storyToHtml(hymn.adult_story)}</div>
+        ${sourcesHtml}
+        <div class="story-panel-footer">
+          ${badge}
+          <button class="btn btn-copy" data-copy-version="adult">Copy</button>
+        </div>
+      </div>
+
+      <div class="story-panel${version === 'family' ? '' : ' hidden'}"
+           role="tabpanel" aria-labelledby="tab-family" id="panel-family">
+        <div class="story-text">${storyToHtml(hymn.family_story)}</div>
+        ${sourcesHtml}
+        <div class="story-panel-footer">
+          ${badge}
+          <button class="btn btn-copy" data-copy-version="family">Copy</button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  content.querySelectorAll('.story-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const v = btn.dataset.version;
+      setStoryVersion(v);
+      content.querySelectorAll('.story-tab').forEach(b => {
+        b.classList.toggle('active', b.dataset.version === v);
+        b.setAttribute('aria-selected', String(b.dataset.version === v));
+      });
+      content.querySelectorAll('.story-panel').forEach(p => {
+        p.classList.toggle('hidden', p.id !== `panel-${v}`);
+      });
+    });
+  });
+
+  content.querySelectorAll('[data-copy-version]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const v = btn.dataset.copyVersion;
+      const story = v === 'adult' ? hymn.adult_story : hymn.family_story;
+      const text = `${hymn.title} (${hymn.year})\n\n${stripLinks(story)}`;
+      copyText(text, btn, 'Copied!');
+    });
+  });
 }
 
 // ============================================================
@@ -2525,12 +2867,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses()]);
+  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns()]);
 
   if (document.getElementById('person-grid')) {
     initIndexPage();
   } else if (document.getElementById('person-content')) {
     initPersonPage();
+  } else if (document.getElementById('hymn-grid')) {
+    initHymnsIndexPage();
+  } else if (document.getElementById('hymn-content')) {
+    initHymnPage();
   } else if (document.getElementById('quiz-print-questions')) {
     initQuizPrintPage();
   }

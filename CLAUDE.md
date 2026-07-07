@@ -356,6 +356,89 @@ as a standard part of the pipeline (see Step 3 below).
 
 ---
 
+## Hymn Stories
+
+In addition to person biographies, the site publishes standalone **hymn story**
+pages — the documented history behind an individual hymn (who wrote it, when,
+the occasion, and the Scripture it is grounded in), distinct from the story of
+the hymn's writer as a person. These live in `data/hymns.json` and render via
+`hymn.html?id=...`, indexed at `hymns.html`.
+
+A hymn only qualifies for a `hymns.json` entry if its composition is
+**well-documented**: a specific, verifiable date, occasion, or Scripture basis
+confirmed by Wikipedia or another approved source — not just "person X wrote
+this hymn" with no further detail. Popular but apocryphal backstories (e.g.
+the "sheltering in a storm-cleft rock" legend behind Toplady's "Rock of Ages")
+must not be published as fact; state only what is confirmed, and note
+explicitly in the story text when a well-known legend is disputed or
+unconfirmed (see the "A Mighty Fortress" and "God Moves in a Mysterious Way"
+entries in `data/hymns.json` for the pattern).
+
+Before writing a hymn's story, verify who actually wrote the words versus the
+music — many hymns are credited on a person's page to whoever the site's
+biography is about, even when they only composed the tune (e.g. Ira Sankey)
+or added a refrain to someone else's text (e.g. Robert Lowry's refrain on
+Annie Hawks's "I Need Thee Every Hour"). The `hymns.json` story text itself
+must credit authorship accurately regardless of which person the entry's
+`person_id` points to — do not let the site's person-centred structure imply
+sole authorship where none exists.
+
+### JSON Schema — Hymn Entry
+
+```json
+{
+  "id": "amazing-grace",
+  "title": "Amazing Grace",
+  "person_id": "john-newton",
+  "year": "1772/1773",
+  "scripture_basis": "1 Chronicles 17:16-17",
+  "topics": ["grace", "conversion", "redemption"],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Amazing_Grace",
+  "adult_story": "...",
+  "family_story": "...",
+  "review": {
+    "human_reviewed": false,
+    "reviewed_by": "",
+    "reviewed_date": ""
+  }
+}
+```
+
+- `person_id` must match an existing entry in `people.json` — this is the only
+  link between a hymn and its writer; `people.json` itself is never modified
+  to add a reverse reference. `js/app.js` computes the reverse lookup at
+  render time (`hymnWriter()`, `hymnTitleLinkHtml()`), so a person's `hymns`
+  array (plain title strings) automatically links to the matching hymn page
+  when one exists, and falls back to plain text when it doesn't.
+- `topics` reuses the same taxonomy as `people.json` topics, for consistent
+  filtering.
+- `wikipedia_url` should point to the hymn's own dedicated Wikipedia article
+  when one exists and has been confirmed to load (many famous hymns have
+  one); otherwise fall back to the writer's Wikipedia URL rather than guess
+  at an article slug that may not exist.
+- Same `adult_story` (≤250 words) / `family_story` (≤125 words) two-tier
+  system and `review` block as person entries — see Two Story Versions Per
+  Person and Human Review System above; the same rules apply (grounded in
+  sources, Christ-centred, no invented dialogue).
+- Hymns do not have portrait images, `flagged`/`footnote`, `memorials`, or
+  `significant_dates` fields — those are person-specific.
+
+### Adding a New Hymn Story
+
+1. Confirm the hymn's composition is well-documented per the bar above —
+   research its own Wikipedia article if one exists, or the relevant section
+   of the writer's article.
+2. Verify actual authorship (words vs. music) before writing the story; credit
+   accurately even if it complicates a clean attribution to the `person_id`.
+3. Write the JSON entry following the schema above, with `"review": {"human_reviewed": false, ...}`.
+4. Append it to `data/hymns.json`.
+5. Run `python3 _build/generate_sitemap.py` and `python3 _build/generate_llms_txt.py`
+   to pick up the new hymn page.
+6. Commit `data/hymns.json`, `sitemap.xml`, `llms.txt`, and `llms-full.txt`
+   together.
+
+---
+
 ## Site Architecture
 
 The site is a **flat static site** hosted on GitHub Pages. No backend, no database,
@@ -367,13 +450,16 @@ no server-side code. All data lives in JSON files. All filtering is client-side 
 /                          ← site root
 ├── index.html             ← home page + search/filter UI
 ├── person.html            ← single person template page
+├── hymns.html             ← hymn story index + search/filter UI
+├── hymn.html              ← single hymn story template page
 ├── about.html             ← about the site, methodology, disclaimer
 ├── css/
 │   └── style.css
 ├── js/
 │   └── app.js             ← filtering, search, clipboard logic
 ├── data/
-│   └── people.json        ← all person entries
+│   ├── people.json        ← all person entries
+│   └── hymns.json         ← all hymn story entries (see Hymn Stories above)
 └── images/
     └── portraits/         ← all AI-generated portraits
 ```
@@ -388,8 +474,8 @@ _build/
 ├── fetch_wikipedia.py     ← fetches and caches Wikipedia summaries
 ├── generate_stories.py    ← calls Claude API to generate adult + family stories
 ├── generate_prompts.py    ← builds image generation prompts per person
-├── generate_sitemap.py    ← regenerates sitemap.xml from data/people.json (run after adding any person)
-├── generate_llms_txt.py   ← regenerates llms.txt and llms-full.txt from data/people.json (run after adding any person)
+├── generate_sitemap.py    ← regenerates sitemap.xml from data/people.json and data/hymns.json (run after adding any person or hymn)
+├── generate_llms_txt.py   ← regenerates llms.txt and llms-full.txt from data/people.json and data/hymns.json (run after adding any person or hymn)
 ├── vetting.py             ← runs exclusion checklist before content generation
 └── prompts/
     ├── adult_story.txt    ← master prompt template for adult stories

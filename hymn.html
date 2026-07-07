@@ -3,31 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Christ-centred biography from Lives of Faith — for worship leaders, Bible teachers, and families.">
+  <meta name="description" content="The story behind a hymn — from Lives of Faith.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Lives of Faith">
   <meta name="keywords" content="" id="meta-keywords">
   <title>Lives of Faith</title>
-  <link rel="canonical" href="https://livesoffaith.org/person.html" id="canonical-link">
+  <link rel="canonical" href="https://livesoffaith.org/hymn.html" id="canonical-link">
 
-  <!-- Open Graph (updated dynamically per person by app.js) -->
+  <!-- Open Graph (updated dynamically per hymn by app.js) -->
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://livesoffaith.org/person.html" id="og-url">
+  <meta property="og:url" content="https://livesoffaith.org/hymn.html" id="og-url">
   <meta property="og:title" content="Lives of Faith" id="og-title">
-  <meta property="og:description" content="Christ-centred biography from Lives of Faith — for worship leaders, Bible teachers, and families." id="og-description">
-  <meta property="og:image" content="" id="og-image">
-  <meta property="og:image:alt" content="" id="og-image-alt">
-  <meta property="og:image:width" content="800">
-  <meta property="og:image:height" content="800">
+  <meta property="og:description" content="The story behind a hymn — from Lives of Faith." id="og-description">
+  <meta property="og:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
   <meta property="og:site_name" content="Lives of Faith">
-  <meta property="article:section" content="" id="article-section">
+  <meta property="article:section" content="Hymn Stories">
 
-  <!-- Twitter Card (updated dynamically per person by app.js) -->
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Lives of Faith" id="twitter-title">
-  <meta name="twitter:description" content="Christ-centred biography from Lives of Faith." id="twitter-description">
-  <meta name="twitter:image" content="" id="twitter-image">
-  <meta name="twitter:image:alt" content="" id="twitter-image-alt">
+  <meta name="twitter:description" content="The story behind a hymn — from Lives of Faith." id="twitter-description">
+  <meta name="twitter:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="css/style.css">
@@ -38,9 +34,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    // send_page_view disabled here: app.js fires the page_view manually once
-    // the person record loads, so it can attach a stable person_id parameter
-    // for reliable per-person view counts (see injectPersonSeo in app.js).
     gtag('config', 'G-X7V501G4W2', { send_page_view: false });
   </script>
 </head>
@@ -70,17 +63,13 @@
     <div class="container">
 
       <div class="person-page-actions no-print">
-        <a href="index.html" class="back-link">&#8592; Back to all people</a>
+        <a href="hymns.html" class="back-link">&#8592; Back to all hymns</a>
         <button class="btn btn-secondary btn-print" onclick="window.print()">&#128438; Print Handout</button>
       </div>
 
-      <nav class="person-nav no-print" aria-label="Person navigation"></nav>
-
-      <div id="person-content" class="person-page" role="main">
+      <div id="hymn-content" class="person-page" role="main">
         <div class="loading">Loading…</div>
       </div>
-
-      <nav class="person-nav person-nav--bottom no-print" aria-label="Person navigation"></nav>
 
     </div>
   </main>
@@ -88,7 +77,7 @@
   <footer class="site-footer no-print">
     <div class="container">
       <p>Lives of Faith — Christ-centred biographies for worship and teaching.</p>
-      <p>All biographical content is AI-generated from verified sources. Portrait images are public domain. <a href="about.html">Read about our methodology</a> and human review process.</p>
+      <p>All hymn-story content is AI-generated from verified sources. <a href="about.html">Read about our methodology</a> and human review process.</p>
       <p class="footer-social"><a href="https://www.facebook.com/profile.php?id=61591251525310" aria-label="Follow us on Facebook"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94z"/></svg></a></p>
     </div>
   </footer>

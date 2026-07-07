@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-06. 146 people.
+Generated 2026-07-07. 146 people.
 
 ---
 
@@ -389,7 +389,7 @@ URL: https://livesoffaith.org/person.html?id=charles-wesley
 Wikipedia: https://en.wikipedia.org/wiki/Charles_Wesley
 Nationality: English · Tradition: Methodist · Region: UK/Ireland · Era: 18th Century
 Topics: grace, conversion, praise, worship, gospel
-Hymns: Love Divine All Loves Excelling, Christ the Lord Is Risen Today, Amazing Love, Come, Thou Long-Expected Jesus, God, Our Father, We Adore You, Hark, the Herald Angels Sing, Oh, for a Thousand Tongues to Sing, Rejoice, the Lord Is King
+Hymns: Love Divine All Loves Excelling, Christ the Lord Is Risen Today, Amazing Love, Come, Thou Long-Expected Jesus, Hark, the Herald Angels Sing, Oh, for a Thousand Tongues to Sing, Rejoice, the Lord Is King
 
 Charles Wesley was born in Epworth, Lincolnshire in 1707, the eighteenth of nineteen children. At Oxford he co-founded the Holy Club with his brother John — disciplined and earnest, but not yet living faith.
 
@@ -2383,4 +2383,874 @@ William Wilberforce was born in Hull, Yorkshire in 1759. He entered Parliament a
 The campaign took twenty years. He brought his first abolition bill in 1788 and was defeated. He brought it again, repeatedly. The Slave Trade Act passed in 1807. The abolition of slavery throughout the British Empire was passed in 1833; he received the news three days before his death.
 
 His faith was not incidental to his political work — it was its source. His life is a witness that patient faithfulness through twenty years of defeat is itself an act of trust in God.
+
+---
+
+# Hymn Stories
+
+The documented history behind 54 individual hymns — who wrote them, when, and the Scripture that shaped them.
+
+---
+
+## A Mighty Fortress Is Our God (c. 1527-1529)
+
+URL: https://livesoffaith.org/hymn.html?id=a-mighty-fortress-is-our-god
+Writer: Martin Luther (https://livesoffaith.org/person.html?id=martin-luther)
+Scripture basis: Psalm 46
+Wikipedia: https://en.wikipedia.org/wiki/A_Mighty_Fortress_Is_Our_God
+Topics: faithfulness, perseverance, worship
+
+Martin Luther wrote "A Mighty Fortress Is Our God" sometime around 1527 to 1529, basing it on Psalm 46, a psalm of confidence in God as refuge "though the earth be removed" and its waters roar. Luther wrote it during years of real danger -- under imperial ban since 1521 for his teaching, and facing recurring plague, illness, and political threat against the Reformation itself.
+
+Popular legend has sometimes tied the hymn to Luther's journey to the Diet of Worms in 1521, but this cannot be confirmed and the hymn's actual composition is dated later. What is certain is its content: Luther names "the old evil foe" as a real and "cruel" enemy, yet insists that "one little word shall fell him" -- a reference to Christ, against whom no earthly power ultimately prevails.
+
+The hymn became, within Luther's own lifetime, an anthem of the Reformation movement, sung by congregations asserting that their stand rested not on human strength -- "did we in our own strength confide, our striving would be losing" -- but on Christ himself. It remains one of the most translated and sung hymns in Protestant history.
+
+---
+
+## Alas! and Did My Savior Bleed (1707)
+
+URL: https://livesoffaith.org/hymn.html?id=alas-and-did-my-savior-bleed
+Writer: Isaac Watts (https://livesoffaith.org/person.html?id=isaac-watts)
+Scripture basis: Romans 6
+Wikipedia: https://en.wikipedia.org/wiki/Isaac_Watts
+Topics: cross, grace, redemption
+
+Isaac Watts published "Alas! and Did My Saviour Bleed" in 1707, in the same collection as "When I Survey the Wondrous Cross." Watts drew its central image from Romans 6, where Paul asks whether those baptised into Christ have died to sin with him -- and answers that Christ's death was "for such a worm as I."
+
+The hymn does not flinch from the cost of the cross: it names Christ's death plainly as suffering "for crimes that I had done," language that refuses any suggestion the crucifixion was primarily an example to imitate rather than a sacrifice made necessary by real sin. Its third verse pictures creation itself recoiling -- "well might the sun in darkness hide" -- at what Christ endured there.
+
+In 1885 the American composer Ralph E. Hudson added a new refrain, "At the Cross, at the Cross, where I first saw the light," which is now sung so often with Watts's verses that many congregations know the combined hymn simply as "At the Cross" -- Watts's original meditation on sin and substitution carried, more than a century after his death, into a new generation of worship.
+
+---
+
+## All the Way My Savior Leads Me (1875)
+
+URL: https://livesoffaith.org/hymn.html?id=all-the-way-my-savior-leads-me
+Writer: Fanny Crosby (https://livesoffaith.org/person.html?id=fanny-crosby)
+Scripture basis: Psalm 23
+Wikipedia: https://en.wikipedia.org/wiki/Fanny_Crosby
+Topics: faithfulness, perseverance, praise
+
+Fanny Crosby wrote "All the Way My Savior Leads Me" in 1875, prompted by a specific answer to prayer. In a season of financial need, she had prayed for a small sum of money to meet a pressing obligation; soon afterward a stranger, without knowing her need, gave her the exact amount she had asked for. Crosby took it as confirmation of a truth she had staked her whole life on: that God's guidance could be trusted in small matters as much as great ones.
+
+The hymn traces that trust across a lifetime rather than a single incident -- "all the way my Saviour leads me, what have I to ask beside?" -- moving from present provision to future hope, closing with the confidence that the same hand that had led her "safely thus far" would lead her "safely home" at last. There is no achievement of Crosby's own in view here, only a Guide who is "faithful to the end."
+
+Blind from infancy and dependent on others for so much of her daily life, Crosby wrote often of guidance and providence; this hymn, sung to Robert Lowry's tune, became one of her most enduring statements of that theme.
+
+---
+
+## Almost Persuaded (1871)
+
+URL: https://livesoffaith.org/hymn.html?id=almost-persuaded
+Writer: Philip Bliss (https://livesoffaith.org/person.html?id=philip-bliss)
+Scripture basis: Acts 26:28
+Wikipedia: https://en.wikipedia.org/wiki/Philip_Bliss
+Topics: gospel, conversion
+
+Philip Bliss wrote "Almost Persuaded" in 1871 after hearing a sermon by the Reverend Brundage that closed with the words of King Agrippa to the apostle Paul in Acts 26:28: "Almost thou persuadest me to be a Christian." Bliss was struck by how close a response that was to conviction, and how tragic -- Agrippa heard Paul's testimony, was moved, and yet turned away without believing.
+
+The hymn is addressed to exactly that kind of hearer: someone who has heard the gospel, felt its weight, and still hesitates. Its refrain warns that "almost cannot avail," pressing toward a decision rather than resting in a feeling of being close to faith. The final verse imagines the moment of hesitation hardening permanently into "almost, but lost" -- a warning Bliss intended pastorally, not to frighten but to press home that saving faith requires actual trust in Christ, not merely sympathetic agreement with the gospel's claims.
+
+Bliss, who wrote both words and music for many of his hymns, died in a train crash in Ohio in 1876 at thirty-eight, having spent his brief hymn-writing career urging exactly this kind of decisive response to Christ.
+
+---
+
+## Amazing Grace (1772/1773)
+
+URL: https://livesoffaith.org/hymn.html?id=amazing-grace
+Writer: John Newton (https://livesoffaith.org/person.html?id=john-newton)
+Scripture basis: 1 Chronicles 17:16-17
+Wikipedia: https://en.wikipedia.org/wiki/Amazing_Grace
+Topics: grace, conversion, redemption
+
+"Amazing Grace" began as a sermon illustration. John Newton, curate of the parish church at Olney, wrote it to accompany his New Year's Day sermon on 1 January 1773, drawing on David's astonished prayer in 1 Chronicles 17:16-17: "Who am I, O Lord God... that thou hast brought me thus far?" Newton set his own testimony to that text -- a former slave-trading ship's captain who, after a violent storm at sea in 1748, had cried out to God and found himself, over the following years, drawn to faith in Christ.
+
+The hymn's opening line states its whole theology in five words: "Amazing grace, how sweet the sound, that saved a wretch like me." There is no ladder of merit here, no religious achievement -- only a sinner rescued by grace he did not earn and could not have purchased. Newton, who spent the rest of his life as an Anglican clergyman and later a fierce campaigner against the slave trade he had once served, never let his congregation forget what he had been saved from, or the God who had saved him.
+
+Sung first in Olney's parish church to a handful of villagers, the hymn was largely unknown in Newton's lifetime outside evangelical hymnals. It was paired with the tune "New Britain" in nineteenth-century America and has since become perhaps the most widely sung hymn in the English language -- still testifying, wherever it is sung, that grace alone saves.
+
+---
+
+## Amazing Love (And Can It Be) (1738)
+
+URL: https://livesoffaith.org/hymn.html?id=amazing-love
+Writer: Charles Wesley (https://livesoffaith.org/person.html?id=charles-wesley)
+Scripture basis: Acts 12:6-11
+Wikipedia: https://en.wikipedia.org/wiki/And_Can_It_Be
+Topics: conversion, grace, redemption
+
+Charles Wesley wrote "And Can It Be That I Should Gain" -- commonly known by its refrain, "Amazing Love" -- in May 1738, within days of his own evangelical conversion. On 21 May, three days before his brother John's famous Aldersgate experience, Charles had come to a settled assurance that Christ had died for him personally and that his sins were forgiven; he wrote the hymn the following morning, still in the first flush of that discovery.
+
+Its central question is theological astonishment, not doubt: "And can it be, that I should gain an interest in the Saviour's blood? Died He for me, who caused His pain?" Wesley marvels that Christ's death was not a distant historical fact but had purchased, specifically and personally, his own pardon -- a mystery he calls "immense and free," language that leaves no room for any contribution of his own.
+
+Its best-known image describes conversion itself: "My chains fell off, my heart was free, I rose, went forth, and followed Thee" -- an echo of Peter's prison escape in Acts 12, applied to release from the guilt of sin rather than physical chains.
+
+---
+
+## Angels from the Realms of Glory (1816)
+
+URL: https://livesoffaith.org/hymn.html?id=angels-from-the-realms-of-glory
+Writer: James Montgomery (https://livesoffaith.org/person.html?id=james-montgomery)
+Scripture basis: Luke 2:8-14
+Wikipedia: https://en.wikipedia.org/wiki/Angels_from_the_Realms_of_Glory
+Topics: worship, praise
+
+James Montgomery, editor of the Sheffield Iris newspaper, first published "Angels from the Realms of Glory" as a poem in his own paper on Christmas Eve, 1816, before it was later set to music and sung as a hymn. Montgomery structured it around the different witnesses of Christ's birth in Luke's Gospel in turn -- angels, shepherds, the magi ("sages"), and finally "saints before the altar" -- each summoned by the refrain to "come and worship... worship Christ, the newborn King."
+
+Montgomery had himself been imprisoned twice as a young newspaper editor for his political writing, and remained throughout his life an advocate for causes including the abolition of slavery and the British Bible Society; his hymn writing was one part of a public life spent, as he saw it, in service of both social justice and the gospel.
+
+The hymn's final verse addresses "Saviour, since Thou art come to us" directly, moving the Christmas story from ancient narrative to present address -- the same worship offered by angels and shepherds two millennia earlier, offered again by whoever sings it now.
+
+---
+
+## Blessed Assurance (1873)
+
+URL: https://livesoffaith.org/hymn.html?id=blessed-assurance
+Writer: Fanny Crosby (https://livesoffaith.org/person.html?id=fanny-crosby)
+Scripture basis: Romans 8:16
+Wikipedia: https://en.wikipedia.org/wiki/Blessed_Assurance
+Topics: grace, praise, worship
+
+Fanny Crosby, blind from infancy, wrote "Blessed Assurance" in 1873 after her friend Phoebe Palmer Knapp played a new tune on the piano and asked, "What do you think that says?" Crosby, who habitually composed complete hymns in her head before dictating them, answered at once: "Blessed assurance, Jesus is mine!" The words were finished within the hour.
+
+The hymn is a testimony to the doctrine of assurance -- the conviction, drawn from passages like Romans 8:16, that a believer can know, not merely hope, that they belong to Christ. "Perfect submission, perfect delight," Crosby wrote, "visions of rapture now burst on my sight" -- not because of anything she had achieved, but because she was, in the hymn's central image, an heir of salvation, purchased of God, born of his Spirit, washed in his blood.
+
+Crosby wrote more than 8,000 hymn texts across her long life, many for the express purpose of leading the unconverted to Christ. "Blessed Assurance" remains one of the most widely sung, its confident opening chords carrying into worship the same certainty Crosby herself held: that salvation, once given by grace through faith, cannot be taken away.
+
+---
+
+## By Gracious Powers (December 1944)
+
+URL: https://livesoffaith.org/hymn.html?id=by-gracious-powers
+Writer: Dietrich Bonhoeffer (https://livesoffaith.org/person.html?id=dietrich-bonhoeffer)
+Scripture basis: Psalm 121:7-8
+Wikipedia: https://en.wikipedia.org/wiki/Dietrich_Bonhoeffer
+Topics: suffering, faithfulness, martyrdom, perseverance
+
+Dietrich Bonhoeffer wrote "By Gracious Powers" in December 1944, in a letter to his mother from Tegel military prison in Berlin, where he had been held since his arrest in 1943 for involvement in the German resistance to Hitler. He would be executed by hanging at Flossenburg concentration camp in April 1945, weeks before the war's end.
+
+Bonhoeffer sent the poem as a New Year's greeting for the family he knew he might never see again, calling it a poem "for all of you" rather than a private meditation. Its opening lines ask to be "wonderfully sheltered by gracious powers" and to face "whatever this new year may bring" with hearts warmed by "the comfort of these days" -- language of trust written not in safety but from a cell, by a man who understood he was likely facing death.
+
+Its best-known stanza, often sung as its own hymn, commits each part of the coming time -- "be it night, be it day" -- into God's keeping, closing "God is with us night and morning, and never fails to greet us each new day." Written by a theologian who had spent his ministry insisting that costly discipleship, not cheap comfort, was the true shape of grace, the hymn embodies exactly that conviction under its final test.
+
+---
+
+## Christ Arose! (Low in the Grave He Lay) (1874)
+
+URL: https://livesoffaith.org/hymn.html?id=christ-arose
+Writer: Robert Lowry (https://livesoffaith.org/person.html?id=robert-lowry)
+Scripture basis: Matthew 28:6
+Wikipedia: https://en.wikipedia.org/wiki/Robert_Lowry_(hymn_writer)
+Topics: resurrection, praise, worship
+
+Robert Lowry wrote "Low in the Grave He Lay," commonly known by its refrain "Christ Arose," in 1874, composing both the verses and the triumphant tune himself. He wrote it during a period of personal meditation on the resurrection narratives in the Gospels, particularly the angel's announcement at the empty tomb: "He is not here, for he is risen" (Matthew 28:6).
+
+The verses describe Christ's body "low in the grave," watched over by "his own dear guards" and seemingly defeated -- before the refrain interrupts each time with a shift from despair to triumph: "up from the grave he arose, with a mighty triumph o'er his foes." Lowry structures the hymn so the darkness of the verses is never allowed the last word; the resurrection refrain always answers it.
+
+The hymn quickly became a fixture of Easter worship in American churches after its publication, its dramatic contrast between grave and triumph giving congregations a hymn that does not merely state the resurrection as doctrine but performs, verse by verse, the shock of it.
+
+---
+
+## Christ the Lord Is Risen Today (1739)
+
+URL: https://livesoffaith.org/hymn.html?id=christ-the-lord-is-risen-today
+Writer: Charles Wesley (https://livesoffaith.org/person.html?id=charles-wesley)
+Scripture basis: 1 Corinthians 15
+Wikipedia: https://en.wikipedia.org/wiki/Christ_the_Lord_Is_Risen_Today
+Topics: resurrection, worship, praise
+
+Charles Wesley wrote "Christ the Lord Is Risen Today" in 1739, publishing it in Hymns and Sacred Poems as an eleven-verse hymn for Easter -- most modern hymnals use only a shortened selection of its verses. It was written in the same extraordinarily productive year as many of Wesley's best-known hymns, not long after his own evangelical conversion in May 1738.
+
+The hymn's repeated "Alleluia!" -- absent from Wesley's original text and added later by editors -- has become one of its most recognisable features, but the theology is Wesley's own: Christ's resurrection is declared as victory over "death's dark shadow" and the grave itself, "where thy victory, O grave?" Wesley draws directly on Paul's resurrection argument in 1 Corinthians 15, that Christ's rising guarantees the believer's own future resurrection -- "made like him, like him we rise."
+
+Sung to the tune "Easter Hymn," it has become one of the most widely used Easter hymns in English-language worship, its confident declaration of a bodily, historical resurrection standing at the centre of the Christian gospel it announces.
+
+---
+
+## Come, Thou Long-Expected Jesus (1744)
+
+URL: https://livesoffaith.org/hymn.html?id=come-thou-long-expected-jesus
+Writer: Charles Wesley (https://livesoffaith.org/person.html?id=charles-wesley)
+Scripture basis: Haggai 2:7
+Wikipedia: https://en.wikipedia.org/wiki/Charles_Wesley
+Topics: worship, faithfulness
+
+Charles Wesley published "Come, Thou Long-Expected Jesus" in 1744 in a small collection titled Hymns for the Nativity of Our Lord. Written for Advent, the season of waiting before Christmas, the hymn takes on the voice of Israel awaiting her promised Messiah, drawing on prophetic titles like "Israel's strength and consolation" and "hope of all the earth" -- language rooted in passages such as Haggai's promise that the "desire of all nations" would come to God's temple.
+
+Its second half turns from waiting to purpose: Wesley prays that this coming Christ would come "born to reign in us for ever," ruling not as a distant king but "by thine own eternal Spirit" within the believer. The hope is not merely historical, that Christ once came to Bethlehem, but personal -- that the same Christ would establish his kingdom in the heart of whoever sang the hymn.
+
+It remains a standard Advent hymn in English-language churches, its plea "let us find our rest in thee" summarising Wesley's own theology of grace received rather than earned.
+
+---
+
+## Give Me Jesus (1879)
+
+URL: https://livesoffaith.org/hymn.html?id=give-me-jesus
+Writer: Fanny Crosby (https://livesoffaith.org/person.html?id=fanny-crosby)
+Scripture basis: Philippians 3:8
+Wikipedia: https://en.wikipedia.org/wiki/Fanny_Crosby
+Topics: grace, faithfulness
+
+Fanny Crosby wrote "Give Me Jesus" -- properly titled "Take the World, But Give Me Jesus" -- in 1879, after a conversation with a neighbour who complained bitterly about being poor. Crosby, herself dependent for most of her life on the charity of others and never wealthy, was struck by the contrast between that complaint and her own settled contentment, and wrote the hymn the same day.
+
+Its refrain sets worldly wealth and Christ against one another as a stark, deliberate choice: "take the world, but give me Jesus, all its joys are but a name." The hymn does not condemn poverty or romanticise it; it simply insists, in Crosby's own plain terms, that nothing the world offers compares to knowing Christ -- echoing Paul's declaration in Philippians that he counted all things loss "for the excellency of the knowledge of Christ Jesus my Lord."
+
+Blind since infancy, without a settled income for much of her adult life, and yet by her own account one of the most joyful women her friends knew, Crosby wrote this hymn less as doctrine than as testimony: she had, in fact, chosen exactly what the hymn describes, and found it enough.
+
+---
+
+## Glorious Things of Thee Are Spoken (1779)
+
+URL: https://livesoffaith.org/hymn.html?id=glorious-things-of-thee-are-spoken
+Writer: John Newton (https://livesoffaith.org/person.html?id=john-newton)
+Scripture basis: Psalm 87
+Wikipedia: https://en.wikipedia.org/wiki/John_Newton
+Topics: worship, praise, faithfulness
+
+Newton wrote "Glorious Things of Thee Are Spoken" as a paraphrase of Psalm 87, a psalm that celebrates Zion, the city of God, as the true home of every believer regardless of their birth nation. It was published in 1779 in Olney Hymns, the hymnal Newton compiled with his friend and neighbour William Cowper for the weekly prayer meetings at Olney parish church.
+
+The hymn pictures the church as a city built not by human hands but by God himself, fed from "the streams of living water, springing from eternal love" -- an image drawn from Christ's promise of living water in John's Gospel. Where merit-based religion asks what the worshipper has done, Newton's hymn asks instead what God has done: chosen, called, and kept his people by grace, "on the Rock of Ages founded."
+
+Set to Haydn's stately tune "Austria," the hymn became a fixture of English congregational worship, sung by generations who -- like Newton himself, a former slave-trader remade by grace -- found in it a picture of belonging that owed nothing to their own record and everything to Christ.
+
+---
+
+## God Moves in a Mysterious Way (1773)
+
+URL: https://livesoffaith.org/hymn.html?id=god-moves-in-a-mysterious-way
+Writer: William Cowper (https://livesoffaith.org/person.html?id=william-cowper)
+Scripture basis: Romans 11:33
+Wikipedia: https://en.wikipedia.org/wiki/God_Moves_in_a_Mysterious_Way
+Topics: suffering, faithfulness, perseverance
+
+William Cowper wrote "God Moves in a Mysterious Way" in 1773, and it was published six years later in Olney Hymns, the collection he compiled with his friend and pastor John Newton. Cowper suffered from severe, recurring depression throughout his adult life, and this hymn reflects on how God's purposes can remain hidden even from a believer walking through real darkness.
+
+Its opening line -- "God moves in a mysterious way, His wonders to perform" -- is now so familiar it is often quoted outside any Christian context, but Cowper's point is specifically theological: God "plants his footsteps in the sea, and rides upon the storm," working through circumstances that look, from ground level, like disaster rather than blessing. "Behind a frowning providence," Cowper writes, God "hides a smiling face."
+
+The hymn does not explain suffering so much as ask the believer to trust a God whose plans exceed what can be seen -- "blind unbelief is sure to err, and scan his work in vain." Written by a man who knew suffering intimately, it remains one of the most quoted hymns on providence in the English language.
+
+---
+
+## Hail to the Lord's Anointed (1821)
+
+URL: https://livesoffaith.org/hymn.html?id=hail-to-the-lords-anointed
+Writer: James Montgomery (https://livesoffaith.org/person.html?id=james-montgomery)
+Scripture basis: Psalm 72
+Wikipedia: https://en.wikipedia.org/wiki/James_Montgomery_(poet)
+Topics: missions, worship, praise
+
+James Montgomery wrote "Hail to the Lord's Anointed" in 1821 for the anniversary meeting of the London Missionary Society, taking Psalm 72 -- the same psalm of a righteous, worldwide-reaching king that Isaac Watts had earlier paraphrased in "Jesus Shall Reign" -- as his text. Montgomery's version emphasises the practical shape of Christ's promised reign: the king who will "judge Thy people with righteousness" is pictured specifically defending "the poor," delivering "the needy," and breaking "in pieces the oppressor."
+
+Written for a missionary anniversary rather than ordinary Sunday worship, the hymn was intended to connect the global spread of the gospel directly to justice for the vulnerable, not merely numerical growth -- "he shall come down like showers upon the fruitful earth," bringing "love, joy, hope, like flowers" wherever his reign takes root.
+
+Montgomery, a lifelong campaigner against slavery and for social reform, wrote the hymn from the conviction that Christ's kingdom, once truly established among a people, could not leave unjust structures untouched -- a conviction that shaped much of his life outside hymn-writing as well.
+
+---
+
+## Hark the Glad Sound! (c. 1735 (posthumous 1755))
+
+URL: https://livesoffaith.org/hymn.html?id=hark-the-glad-sound
+Writer: Philip Doddridge (https://livesoffaith.org/person.html?id=philip-doddridge)
+Scripture basis: Luke 4:18-19
+Wikipedia: https://en.wikipedia.org/wiki/Philip_Doddridge
+Topics: worship, gospel
+
+Philip Doddridge wrote "Hark the Glad Sound! The Saviour Comes" for Advent, likely around 1735, basing it directly on Luke 4, where Jesus reads aloud in the synagogue at Nazareth from Isaiah's prophecy and applies it to himself: sent "to preach the gospel to the poor... to heal the broken-hearted, to preach deliverance to the captives." Doddridge's hymn simply restates Christ's own description of his mission, verse by verse.
+
+Each verse names a specific group Christ came for -- "the prisoner," "the mourning soul," "the humble poor" -- refusing to leave Christ's coming as an abstract theological event and insisting instead on concrete rescue for those who most needed it. Nothing in the hymn suggests these groups earned Christ's attention by their condition; rather, their very need is what his coming was for.
+
+Published posthumously in 1755, four years after Doddridge's death, the hymn has remained a standard Advent hymn in English-language churches, its Isaiah-rooted language reminding congregations each December that Christ's first coming was announced, from his own lips, as good news specifically for those with nothing to offer in return.
+
+---
+
+## Hark, the Herald Angels Sing (1739)
+
+URL: https://livesoffaith.org/hymn.html?id=hark-the-herald-angels-sing
+Writer: Charles Wesley (https://livesoffaith.org/person.html?id=charles-wesley)
+Scripture basis: Luke 2
+Wikipedia: https://en.wikipedia.org/wiki/Hark!_The_Herald_Angels_Sing
+Topics: worship, praise
+
+Charles Wesley wrote "Hark, the Herald Angels Sing" in 1739, originally opening with the line "Hark, how all the welkin rings, glory to the King of kings" -- "welkin" being an old word for the vault of heaven. It was the evangelist George Whitefield who, in 1753, altered the opening to the now-familiar "Hark! The herald angels sing," a change Wesley reportedly did not welcome but which has endured ever since.
+
+The hymn dramatizes the angels' announcement to the shepherds in Luke 2, but Wesley's real interest is theological rather than merely narrative: Christ is named "God and sinners reconciled," "veiled in flesh the Godhead see," language asserting the full doctrine of the incarnation -- that the baby born at Bethlehem was fully God as well as fully man. The third verse looks past the manger to Christ's purpose in coming: "born that man no more may die, born to raise the sons of earth, born to give them second birth."
+
+Set since 1855 to a tune adapted by William H. Cummings from Felix Mendelssohn, it has become one of the most sung Christmas carols in the English language.
+
+---
+
+## He Looked Beyond My Fault and Saw My Need (1968)
+
+URL: https://livesoffaith.org/hymn.html?id=he-looked-beyond-my-fault-and-saw-my-need
+Writer: Dottie Rambo (https://livesoffaith.org/person.html?id=dottie-rambo)
+Scripture basis: Romans 5:8
+Wikipedia: https://en.wikipedia.org/wiki/Dottie_Rambo
+Topics: grace, redemption, conversion
+
+Dottie Rambo wrote "He Looked Beyond My Fault and Saw My Need" in 1968, taking its title and central idea from a phrase she heard a preacher use during an altar call -- that God does not wait for a sinner's record to improve before responding to them, but looks past the fault itself to the need underneath it.
+
+The hymn states its whole theology in that single title phrase: grace is not extended because a person has become acceptable, but reaches exactly the person who has not. Its verses describe someone who "wandered on in the darkness, not a ray of light to see," found and saved not by any change already made in themselves but simply because "he looked beyond my fault, and saw my need."
+
+Rambo, who wrote more than 2,500 gospel songs across her career and became one of the most recorded gospel songwriters in American history, considered this one of her most personal hymns, describing her own sense of having been rescued not because she deserved it but because God chose to see past what she was to what she needed most -- himself.
+
+---
+
+## I Know That My Redeemer Lives (1775)
+
+URL: https://livesoffaith.org/hymn.html?id=i-know-that-my-redeemer-lives
+Writer: Samuel Medley (https://livesoffaith.org/person.html?id=samuel-medley)
+Scripture basis: Job 19:25
+Wikipedia: https://en.wikipedia.org/wiki/Samuel_Medley_(minister)
+Topics: faithfulness, resurrection, praise
+
+Samuel Medley, a former Royal Navy sailor who nearly lost his leg to a wound sustained in battle and who found genuine faith in Christ while recovering -- after his grandfather read him a sermon by Isaac Watts -- later became a Baptist pastor and hymn writer. He wrote "I Know That My Redeemer Lives" in 1775, taking his text directly from Job 19:25, one of the Old Testament's clearest statements of resurrection hope: "I know that my redeemer liveth, and that he shall stand at the latter day upon the earth."
+
+Medley's hymn restates Job's ancient confidence as present-tense personal testimony, each verse repeating the refrain "he lives" as the ground for a different comfort -- "he lives to bless me with his love," "he lives to plead for me above," "he lives, all glory to his name." Written by a man whose own life had nearly ended at sea before Christ was made real to him, the hymn treats the risen, living Christ not as a doctrine to be affirmed only, but as a present help for exactly the fears and needs Medley names one by one.
+
+It remains sung as a hymn of resurrection assurance, especially near Easter.
+
+---
+
+## I Know Whom I Have Believed (1883)
+
+URL: https://livesoffaith.org/hymn.html?id=i-know-whom-i-have-believed
+Writer: Daniel W. Whittle (https://livesoffaith.org/person.html?id=daniel-w-whittle)
+Scripture basis: 2 Timothy 1:12
+Wikipedia: https://en.wikipedia.org/wiki/I_Know_Whom_I_Have_Believed
+Topics: faithfulness, conversion, perseverance
+
+Daniel Whittle wrote "I Know Whom I Have Believed" in 1883, drawing its title directly from 2 Timothy 1:12, where the apostle Paul, imprisoned and facing death, writes: "I know whom I have believed, and am persuaded that he is able to keep that which I have committed unto him." Whittle knew something of Paul's confidence under pressure from his own life: he had served as a Union Army officer during the American Civil War, lost his right arm at the Battle of Vicksburg, and while recovering as a prisoner of war had come to faith in Christ after a chaplain gave him a Bible and a wounded soldier's dying words pressed the gospel home to him.
+
+The hymn's refrain does not claim to understand everything about God's ways -- each verse admits uncertainty over "why," "how," or "when" God works as he does -- but rests entirely on the one thing it does claim to know for certain: "I know whom I have believed, and am persuaded that he is able to keep that which I've committed unto him against that day."
+
+Set to music by James McGranahan, it became a favourite hymn of quiet, tested assurance rather than easy triumph.
+
+---
+
+## I Need Thee Every Hour (1872)
+
+URL: https://livesoffaith.org/hymn.html?id=i-need-thee-every-hour
+Writer: Robert Lowry (https://livesoffaith.org/person.html?id=robert-lowry)
+Scripture basis: John 15:5
+Wikipedia: https://en.wikipedia.org/wiki/I_Need_Thee_Every_Hour
+Topics: prayer, faithfulness
+
+Annie Sherwood Hawks wrote the verses of "I Need Thee Every Hour" in 1872, describing a sudden, unprompted sense of her constant need for God that came to her, she later said, while going about ordinary housework -- with no particular sorrow prompting it, simply an overwhelming awareness of dependence on Christ for every moment, not only in crisis. She brought the verses to her pastor, Robert Lowry, who added the refrain -- "I need thee, oh, I need thee; every hour I need thee" -- and composed the tune.
+
+The hymn deliberately avoids treating need for God as something felt only in emergencies: "in joy or pain," in temptation, in "the tempted hour," it insists the same dependence holds. This differs from many hymns of crisis or deathbed testimony; Hawks wrote it, by her own account, on an ordinary day, making its claim broader -- need for Christ as the normal condition of the Christian life, not an exception to it.
+
+Hawks later said the hymn's meaning deepened for her only years afterward, when she experienced real grief and found the words she had written in ordinary contentment now carried her through genuine sorrow.
+
+---
+
+## I'd Rather Have Jesus (1922 poem / 1932 testimony)
+
+URL: https://livesoffaith.org/hymn.html?id=id-rather-have-jesus
+Writer: George Beverly Shea (https://livesoffaith.org/person.html?id=george-beverly-shea)
+Scripture basis: Mark 8:36
+Wikipedia: https://en.wikipedia.org/wiki/George_Beverly_Shea
+Topics: conversion, faithfulness
+
+The words of "I'd Rather Have Jesus" were written as a poem in 1922 by Rhea F. Miller. Ten years later, in 1932, the singer George Beverly Shea faced a career-defining choice: he had been offered a contract to sing popular secular music professionally, a path that promised real financial success. Arriving home, he found Miller's poem left on the piano by his mother, without any comment attached.
+
+Reading it, Shea found in it the words he needed for his own decision: "I'd rather have Jesus than silver or gold, I'd rather be his than have riches untold" -- an echo of Christ's own question in Mark 8, what it would profit anyone "to gain the whole world, and lose his own soul." Shea turned the secular offer down and later composed the tune that carried Miller's words, going on to spend decades as the featured soloist for the Billy Graham Evangelistic Association, singing at crusades before hundreds of millions of people worldwide.
+
+The hymn remained personal to him throughout that career: a decision made once, in his mother's living room, and then sung publicly for the rest of his long life.
+
+---
+
+## I'll Overcome Someday (1901)
+
+URL: https://livesoffaith.org/hymn.html?id=ill-overcome-someday
+Writer: Charles Albert Tindley (https://livesoffaith.org/person.html?id=charles-albert-tindley)
+Scripture basis: 1 John 5:4
+Wikipedia: https://en.wikipedia.org/wiki/Charles_Albert_Tindley
+Topics: perseverance, suffering, faithfulness, persecution
+
+Charles Albert Tindley, a Methodist pastor born to an enslaved father in Maryland and largely self-taught after teaching himself to read as a young man, wrote "I'll Overcome Someday" in 1901 for his congregation in Philadelphia, many of whom faced real daily hardship, poverty, and racial injustice in the Jim Crow era. The hymn's refrain -- "this world is one great battlefield, with forces all arrayed, if in my heart I do not yield, I'll overcome some day" -- offers no promise that trouble will lift soon, only that faithful endurance in Christ will not, finally, be defeated.
+
+Decades later, the hymn's melody and refrain were reworked by labor and civil rights organisers, most directly associated with the Highlander Folk School, into "We Shall Overcome" -- the anthem that became inseparable from the American civil rights movement of the 1950s and 1960s. The transformation changed "I'll" to "We" and shifted register from personal endurance to collective hope, but the root remains Tindley's original hymn of faith under pressure.
+
+Tindley wrote dozens of hymns from the same pastoral concern -- that ordinary, suffering believers needed hymns that named hardship honestly while still pointing to a Christ who overcomes it with them.
+
+---
+
+## It Is Well with My Soul (1873)
+
+URL: https://livesoffaith.org/hymn.html?id=it-is-well-with-my-soul
+Writer: Horatio Spafford (https://livesoffaith.org/person.html?id=horatio-spafford)
+Scripture basis: Colossians 2:14
+Wikipedia: https://en.wikipedia.org/wiki/It_Is_Well_with_My_Soul
+Topics: suffering, faithfulness, perseverance
+
+Horatio Spafford wrote "It Is Well with My Soul" in 1873, in the aftermath of devastating loss. A Chicago lawyer, he had already lost most of his fortune in the Great Chicago Fire of 1871; in November 1873, his wife Anna and their four daughters sailed for Europe ahead of him, and their ship, the Ville du Havre, collided with another vessel in the Atlantic and sank. All four daughters drowned; Anna survived and cabled him two words: "Saved alone."
+
+Spafford sailed to join her, and as his ship crossed near the place where his daughters had died, he wrote this hymn. Its opening lines do not deny the depth of his grief -- "when sorrows like sea billows roll" -- but assert, in the same breath, a settled trust that does not depend on circumstances: "it is well, it is well with my soul." The third verse turns explicitly to the cross: "my sin, not in part but the whole, is nailed to the cross, and I bear it no more" -- the same grace, Spafford insisted, that had forgiven his sin was sufficient to hold him even here.
+
+Set to Philip Bliss's tune "Ville du Havre," named for the wrecked ship, it remains one of the most sung hymns of Christian suffering.
+
+---
+
+## Jesus Shall Reign (1719)
+
+URL: https://livesoffaith.org/hymn.html?id=jesus-shall-reign
+Writer: Isaac Watts (https://livesoffaith.org/person.html?id=isaac-watts)
+Scripture basis: Psalm 72
+Wikipedia: https://en.wikipedia.org/wiki/Isaac_Watts
+Topics: missions, worship, praise
+
+"Jesus Shall Reign Where'er the Sun" is Isaac Watts's 1719 paraphrase of Psalm 72, a psalm originally written as a prayer for Solomon's kingdom to extend justice and blessing "from sea to sea, and from the river unto the ends of the earth." Watts read the psalm as a prophecy of Christ's kingdom rather than Solomon's, and rewrote it accordingly.
+
+The hymn pictures Christ's name being praised in "every land," with "prayer... made for him unceasingly," language that later made it a favourite hymn of the modern missionary movement -- sung at commissioning services for missionaries departing for regions of the world where Christ was not yet known or worshipped. It envisions the reach of the gospel as global from the outset, in an era when most English Christians had little contact with the wider world.
+
+Set traditionally to the tune "Truro," the hymn closes with every creature rising "to bless his name," a vision Watts grounded not in any nation's power but in Christ's own reign, secured once for all at the cross and consummated at his return.
+
+---
+
+## Joy to the World (1719)
+
+URL: https://livesoffaith.org/hymn.html?id=joy-to-the-world
+Writer: Isaac Watts (https://livesoffaith.org/person.html?id=isaac-watts)
+Scripture basis: Psalm 98
+Wikipedia: https://en.wikipedia.org/wiki/Joy_to_the_World
+Topics: worship, praise
+
+Isaac Watts published "Joy to the World" in 1719 in his collection The Psalms of David Imitated in the Language of the New Testament -- a book in which Watts deliberately reworked the Old Testament psalms to sing of Christ explicitly, rather than leaving them as songs of ancient Israel alone. "Joy to the World" is his paraphrase of Psalm 98, a psalm that calls all creation to sing before the Lord who "cometh to judge the earth."
+
+Watts's version is not, in its original intent, a Christmas carol about the nativity at all -- it looks forward to Christ's reign over creation rather than back to the manger. But its language of the Lord's coming, the earth receiving her king, and heaven and nature singing has made it, since being set to a tune adapted from Handel by Lowell Mason in 1848, one of the most sung Christmas hymns in the English-speaking world.
+
+Its final verses promise that Christ will rule the nations "with truth and grace" -- a kingdom secured not by human effort but by the King himself, "far as the curse is found."
+
+---
+
+## Just As I Am, Without One Plea (1835)
+
+URL: https://livesoffaith.org/hymn.html?id=just-as-i-am-without-one-plea
+Writer: Charlotte Elliott (https://livesoffaith.org/person.html?id=charlotte-elliott)
+Scripture basis: John 6:37
+Wikipedia: https://en.wikipedia.org/wiki/Just_as_I_Am
+Topics: grace, conversion, gospel
+
+Charlotte Elliott wrote "Just As I Am, Without One Plea" in 1835, drawing on an encounter more than a decade earlier with the Swiss evangelist Henri Cesar Malan. Elliott, an invalid for much of her adult life, had told Malan she did not feel spiritually ready enough to come to Christ; he replied that she should come to God "just as she was," with no preparation of her own required. Elliott later said the conversation had shown her, for the first time, that she could not clean herself up before coming to faith -- faith itself was the only requirement.
+
+The hymn restates that conversation as invitation: each verse names a reason for hesitation -- "without one plea," "though tossed about with many a conflict," "poor, wretched, blind" -- and answers every one of them with the same refrain: "O Lamb of God, I come." Nothing about the sinner's condition disqualifies them; only Christ's invitation and blood qualify anyone at all.
+
+First published anonymously, the hymn became closely associated a generation later with the evangelist D. L. Moody, who had it sung as an invitation hymn at his revival meetings, inviting hearers to respond to the gospel exactly as Elliott had once been told to -- just as they were.
+
+---
+
+## Let the Lower Lights Be Burning (1871)
+
+URL: https://livesoffaith.org/hymn.html?id=let-the-lower-lights-be-burning
+Writer: Philip Bliss (https://livesoffaith.org/person.html?id=philip-bliss)
+Scripture basis: Matthew 5:14-16
+Wikipedia: https://en.wikipedia.org/wiki/Philip_Bliss
+Topics: faithfulness, missions
+
+Philip Bliss wrote "Let the Lower Lights Be Burning" in 1871 after hearing D. L. Moody tell a story in a Cleveland sermon about a ship approaching the harbour on a stormy night. The harbour's main lighthouse was still shining, but the smaller shoreline lights that guided ships safely past the rocks had gone out, and the ship was wrecked with loss of life. Moody's point, as Bliss remembered it, was that Christ was the great, unfailing lighthouse -- but he depended on ordinary believers to keep the smaller, closer lights burning for those nearby who could not yet see the greater light for themselves.
+
+Bliss built the hymn directly on that image and on Christ's own words in Matthew 5, that his followers are "the light of the world" and must let that light shine before others. Its refrain calls fellow Christians to faithful, unglamorous service: "let the lower lights be burning, send a gleam across the wave," not because they save anyone themselves, but because they guide others safely toward the Saviour who does.
+
+Bliss died in a train wreck in 1876, five years after writing it, having spent those years urging exactly this kind of quiet, faithful witness.
+
+---
+
+## Lizalis' idinga lakho (Fulfil Your Promise) (July 1857)
+
+URL: https://livesoffaith.org/hymn.html?id=lizalise-idinga-lakho
+Writer: Tiyo Soga (https://livesoffaith.org/person.html?id=tiyo-soga)
+Scripture basis: 2 Corinthians 1:20
+Wikipedia: https://en.wikipedia.org/wiki/Tiyo_Soga
+Topics: faithfulness, missions, worship
+
+Tiyo Soga, the first Black South African to be ordained as a Presbyterian minister, wrote "Lizalis' idinga lakho" ("Fulfil Your Promise") in Xhosa in July 1857, on the ship carrying him and his new wife, Janet, back to South Africa after his theological training and ordination in Scotland. Soga was returning to a homeland recently devastated by the Xhosa Cattle-Killing movement, a catastrophic famine brought on the previous year after a prophecy that the ancestors would drive out European settlers if the Xhosa people destroyed their own cattle and crops.
+
+Written into that specific context of national grief and uncertainty, the hymn calls on God to fulfil his covenant promises to his people, grounding present hope not in any prophecy or human plan but in God's own faithfulness. As the first widely used hymn written originally in Xhosa rather than translated into it, it gave southern African Christians a hymn of their own language and idiom rather than only imported European hymnody.
+
+The hymn's significance outlasted Soga's own lifetime: it was sung in 1912 at the founding meeting of the South African Native National Congress, the organisation that later became the African National Congress, and has remained part of South African Christian and national memory since.
+
+---
+
+## Love Divine, All Loves Excelling (1747)
+
+URL: https://livesoffaith.org/hymn.html?id=love-divine-all-loves-excelling
+Writer: Charles Wesley (https://livesoffaith.org/person.html?id=charles-wesley)
+Scripture basis: 2 Corinthians 3:18
+Wikipedia: https://en.wikipedia.org/wiki/Love_Divine,_All_Loves_Excelling
+Topics: worship, grace, praise
+
+Charles Wesley published "Love Divine, All Loves Excelling" in 1747, in a collection titled Hymns for Those That Seek and Those That Have Redemption -- its two halves aimed respectively at those still seeking Christ and those already trusting him. The hymn itself moves through both conditions: it opens praying for Christ to "fix in us thy humble dwelling," then asks that his people be brought, by grace rather than effort, to reflect his likeness -- "changed from glory into glory," in the language of 2 Corinthians 3:18.
+
+Some editors have suggested Wesley drew his opening lines from a secular love song by John Dryden, deliberately redirecting its language of romantic devotion toward Christ -- though this cannot be confirmed with certainty. What is certain is the hymn's content: it asks not for religious performance but for God's own love to enter and remake the worshipper entirely, ending in "pure and spotless" perfection that is God's finished work, not the believer's achievement.
+
+Sung to several tunes, including Purcell's "Westminster Abbey," it remains a hymn of both wedding services and ordinary Sunday worship across the English-speaking church.
+
+---
+
+## Man of Sorrows What a Name (1875)
+
+URL: https://livesoffaith.org/hymn.html?id=man-of-sorrows-what-a-name
+Writer: Philip Bliss (https://livesoffaith.org/person.html?id=philip-bliss)
+Scripture basis: Isaiah 53:3
+Wikipedia: https://en.wikipedia.org/wiki/Philip_Bliss
+Topics: cross, gospel, redemption
+
+Philip Bliss wrote "Man of Sorrows, What a Name" in 1875, taking its title directly from Isaiah 53:3, part of the great prophecy of the suffering servant written centuries before Christ: "he is despised and rejected of men; a man of sorrows, and acquainted with grief." Christians have long read that chapter of Isaiah as a description of Jesus's suffering on the cross, and Bliss's hymn makes that identification explicit from its opening line.
+
+Each verse names a purpose of Christ's suffering rather than dwelling only on its pain: "in my place condemned he stood," "he was cut off for sins, but not his own." The refrain -- "hallelujah, what a Saviour!" -- refuses to let the hymn's sorrowful subject end in sorrow, insisting that a suffering foretold and endured for sinners is, rightly understood, cause for praise rather than mourning alone.
+
+Bliss set the words to his own tune, and the hymn remains sung especially during Holy Week, tracing the path from Isaiah's ancient prophecy to the empty tomb in its final verse.
+
+---
+
+## Marching to Zion (1867)
+
+URL: https://livesoffaith.org/hymn.html?id=marching-to-zion
+Writer: Robert Lowry (https://livesoffaith.org/person.html?id=robert-lowry)
+Scripture basis: Isaiah 35:10
+Wikipedia: https://en.wikipedia.org/wiki/Marching_to_Zion
+Topics: worship, praise, perseverance
+
+"Marching to Zion" combines two hymn writers separated by a century and a half. Isaac Watts wrote the original text, "Come, We That Love the Lord," in 1707, an invitation to "sound his praise abroad" that draws on the Old Testament image of Zion, the city of God, as the destination of the faithful. In 1867, Robert Lowry took Watts's verses, added a new refrain of his own -- "we're marching to Zion, beautiful, beautiful Zion, we're marching upward to Zion, the beautiful city of God" -- and composed a new, more energetic tune to carry it.
+
+Lowry's addition transforms Watts's meditative hymn into a hymn of collective, forward motion -- pilgrims travelling together rather than individuals reflecting alone. The refrain echoes passages like Isaiah 35:10, where "the ransomed of the Lord shall return, and come to Zion with songs," picturing the Christian life as a journey with a certain destination rather than an uncertain wandering.
+
+The combined hymn, published in Lowry's 1867 collection Bright Jewels, became enormously popular in American congregational and camp-meeting singing, its brisk marching rhythm giving Watts's older words new and lasting life.
+
+---
+
+## Move On Up a Little Higher (1946)
+
+URL: https://livesoffaith.org/hymn.html?id=move-on-up-a-little-higher
+Writer: William Herbert Brewster Sr. (https://livesoffaith.org/person.html?id=william-herbert-brewster)
+Scripture basis: Philippians 3:14
+Wikipedia: https://en.wikipedia.org/wiki/William_Herbert_Brewster,_Sr.
+Topics: perseverance, faithfulness, persecution
+
+William Herbert Brewster Sr., a Baptist pastor in Memphis, wrote "Move On Up a Little Higher" in 1946 for the gospel singer Mahalia Jackson, drawing its central image from Philippians 3:14, where Paul writes of pressing "toward the mark for the prize of the high calling of God in Christ Jesus." On its surface, the song is a straightforward call to spiritual perseverance and hope for heaven.
+
+Brewster, however, was also a prominent voice for racial justice in the segregated American South, and he later acknowledged that songs like this one carried a second, coded meaning for Black congregations living under Jim Crow -- "moving up higher" spoke not only of heaven but of the hope of social advancement and dignity denied by segregation, a message that could be sung openly in public without provoking retaliation.
+
+Recorded by Jackson in 1947, the song sold over a million copies, an almost unprecedented figure for a gospel recording at the time, and helped establish her as the best-selling gospel artist in America. It remains sung both for its plain gospel message of pressing on toward Christ and for the history of quiet, coded resistance it carried within Black church life.
+
+---
+
+## O God of Bethel (c. 1736 (posthumous 1755; revised 1781))
+
+URL: https://livesoffaith.org/hymn.html?id=o-god-of-bethel
+Writer: Philip Doddridge (https://livesoffaith.org/person.html?id=philip-doddridge)
+Scripture basis: Genesis 28:20-22
+Wikipedia: https://en.wikipedia.org/wiki/Philip_Doddridge
+Topics: faithfulness, prayer
+
+Philip Doddridge wrote "O God of Bethel, By Whose Hand" based directly on Jacob's vow at Bethel in Genesis 28, where Jacob, fleeing his home with nothing, wakes from a dream of a ladder reaching to heaven and vows that if God will be with him and keep him, "then shall the Lord be my God."
+
+Doddridge applied Jacob's vow to the ordinary congregation singing it, asking that the same God who had "led our fathers through the wilderness" would continue leading "this our pilgrim flock" and provide "food and raiment" as Jacob had asked. Rather than treating Jacob's story as ancient history only, the hymn treats every generation of believers as continuing the same journey of dependent trust that began at Bethel.
+
+Published posthumously in 1755, it was later revised and expanded by the Scottish minister John Logan in 1781, and the combined version became widely used in Scottish and English Presbyterian worship, sung especially at the close of a service or year as a prayer for God's continuing guidance into whatever lay ahead.
+
+---
+
+## O God, Our Help in Ages Past (1708/1719)
+
+URL: https://livesoffaith.org/hymn.html?id=o-god-our-help-in-ages-past
+Writer: Isaac Watts (https://livesoffaith.org/person.html?id=isaac-watts)
+Scripture basis: Psalm 90
+Wikipedia: https://en.wikipedia.org/wiki/O_God,_Our_Help_in_Ages_Past
+Topics: faithfulness, worship, praise
+
+Isaac Watts wrote "O God, Our Help in Ages Past" as a paraphrase of Psalm 90, the only psalm in the Bible attributed to Moses, a meditation on human frailty ("we fly forgotten, as a dream dies at the opening day") set against the eternity of God, who has been a "dwelling place" for his people "in all generations." Watts completed it around 1708 and published it in 1719.
+
+The hymn's opening line -- "our help in ages past, our hope for years to come" -- deliberately spans all of time, refusing to root security in any particular moment or circumstance. Where Psalm 90 asks God to "teach us to number our days," Watts's hymn answers with confidence rather than dread: whatever ages have passed or years remain, God himself, not the believer's own endurance, has been and will be sufficient.
+
+It has become one of the most enduring English hymns, sung at national commemorations, funerals, and New Year services alike -- its steady, almost liturgical repetition of God's eternity offering comfort precisely because it locates security outside the worshipper altogether.
+
+---
+
+## O Happy Day (c. 1755 (posthumous))
+
+URL: https://livesoffaith.org/hymn.html?id=o-happy-day
+Writer: Philip Doddridge (https://livesoffaith.org/person.html?id=philip-doddridge)
+Scripture basis: Acts 8:35-39
+Wikipedia: https://en.wikipedia.org/wiki/Philip_Doddridge
+Topics: conversion, praise, worship
+
+Philip Doddridge wrote "O Happy Day, That Fixed My Choice" to commemorate his own renewal of personal commitment to Christ, recorded in his private papers, drawing its rejoicing tone from Acts 8, where the Ethiopian official, having heard the gospel from Philip, immediately asks to be baptised and "went on his way rejoicing." Doddridge, an English Nonconformist minister and head of a dissenting academy that trained ministers outside the state church, died in 1751; the hymn was published posthumously in 1755 in a collection of his hymns.
+
+Its refrain -- "happy day, happy day, when Jesus washed my sins away" -- was added later by an American editor and is not part of Doddridge's original text, but it captures accurately what Doddridge's verses already describe: a specific, remembered turning point rather than a vague general faith. The hymn treats the moment of committing to Christ as worth marking and remembering by name, not because of anything achieved on that day but because of what Christ had done in response to it.
+
+It should not be confused with the very different, much later gospel song "Oh Happy Day," popularised by Edwin Hawkins in 1967 -- a distinct composition sharing only the phrase.
+
+---
+
+## O Love That Wilt Not Let Me Go (1882)
+
+URL: https://livesoffaith.org/hymn.html?id=o-love-that-wilt-not-let-me-go
+Writer: George Matheson (https://livesoffaith.org/person.html?id=george-matheson)
+Scripture basis: Romans 8:38-39
+Wikipedia: https://en.wikipedia.org/wiki/O_Love_That_Wilt_Not_Let_Me_Go
+Topics: suffering, faithfulness, worship
+
+George Matheson, a Scottish minister who had been completely blind since his twenties, wrote "O Love That Wilt Not Let Me Go" on 6 June 1882, the evening of his sister's wedding. Matheson himself said only that he had suffered "the most severe mental suffering" that evening, connected to "a most severe trial," but he never disclosed publicly what the trial was, and said he wrote the entire hymn in about five minutes, feeling it came to him rather than being composed by effort.
+
+Whatever the trial, the hymn does not ask for it to be removed. It asks instead that love itself -- Christ's love, which the hymn addresses directly -- would not let the sufferer go: "I rest my weary soul in thee." Each verse takes something Matheson might reasonably have wished for -- light, joy, a painless path -- and instead traces it through difficulty: "I trace the rainbow through the rain," and the cross itself becomes the place where he finds he can, in his words, "not soar" but still find life.
+
+Set to the tune "St. Margaret," it has become one of the most sung hymns of faith holding on through suffering that is never explained, only endured.
+
+---
+
+## O for a Closer Walk with God (1769)
+
+URL: https://livesoffaith.org/hymn.html?id=o-for-a-closer-walk-with-god
+Writer: William Cowper (https://livesoffaith.org/person.html?id=william-cowper)
+Scripture basis: Genesis 5:24
+Wikipedia: https://en.wikipedia.org/wiki/William_Cowper
+Topics: prayer, faithfulness
+
+William Cowper wrote "O for a Closer Walk with God" in 1769, prompted by the illness and eventual death of a member of the household of Mrs. Mary Unwin, with whom Cowper lived -- a period of grief that led him to reflect on how far his own daily experience of God had drifted from the intimacy the hymn describes. Its title draws on Genesis 5:24, where Enoch "walked with God" so closely that "he was not; for God took him."
+
+The hymn is a prayer of self-examination rather than confident testimony: Cowper asks, "Where is the blessedness I knew when first I saw the Lord?" -- acknowledging openly that the felt closeness of earlier faith can fade, without concluding that faith itself has failed. Its answer is not self-improvement but returning: "Return, O holy Dove, return," asking God himself to restore what only God can restore.
+
+Written by a man who struggled with depression and doubt throughout his Christian life, the hymn has given later generations of believers, especially those in seasons of spiritual dryness, honest words for an experience hymns rarely admit to.
+
+---
+
+## Oh Lord, You're Beautiful (1980)
+
+URL: https://livesoffaith.org/hymn.html?id=oh-lord-youre-beautiful
+Writer: Keith Green (https://livesoffaith.org/person.html?id=keith-green)
+Scripture basis: Psalm 27:4
+Wikipedia: https://en.wikipedia.org/wiki/Keith_Green
+Topics: worship, praise
+
+Keith Green wrote "Oh Lord, You're Beautiful" in 1980, describing it afterward as arising from a specific, personal moment of worship rather than a planned composition -- Green said the song came to him almost complete during a time alone with God, an experience he understood as God speaking tenderly to him as a father to a child. It became one of the most personal and widely used songs from his brief recording career.
+
+Its opening line, "Oh Lord, you're beautiful, your face is all I seek," reflects Green's own conviction, shaped by his 1975 conversion from a restless search through drugs and Eastern mysticism, that knowing Christ personally mattered more than any achievement -- including his own considerable musical success. The song asks God for nothing except closeness itself: "I want to take your Word and shine it all around."
+
+Green died in a plane crash in 1982, two years after writing it, at twenty-eight. The song has remained a staple of contemporary worship since, sung for its simple, unguarded address to Christ rather than any theological argument.
+
+---
+
+## Oh, for a Thousand Tongues to Sing (1739)
+
+URL: https://livesoffaith.org/hymn.html?id=oh-for-a-thousand-tongues-to-sing
+Writer: Charles Wesley (https://livesoffaith.org/person.html?id=charles-wesley)
+Scripture basis: Psalm 34:1-3
+Wikipedia: https://en.wikipedia.org/wiki/Charles_Wesley
+Topics: conversion, praise, worship
+
+Charles Wesley wrote "Oh, for a Thousand Tongues to Sing" in 1739 to mark the first anniversary of his conversion in May 1738. Wesley later said the hymn's opening idea came from a remark by the Moravian minister Peter Bohler, who had told him, "Had I a thousand tongues, I would praise Christ with them all" -- a comment Wesley took and made the header of his own testimony in verse.
+
+The hymn is deliberately personal rather than general: it recounts what "my great Redeemer's praise" had done specifically for Wesley -- breaking "the power of cancelled sin," setting "the prisoner free," and giving "life and health" not through his own effort but through Christ's "blood availed for me." Its famous line "he sets the prisoner free, his blood can make the foulest clean" restates the same conviction found across Wesley's hymns: that grace reaches those who could not clean or free themselves.
+
+Long placed as hymn number one in Methodist hymnals, it has served for nearly three centuries as an opening statement of what congregational praise is for -- not admiration of religious achievement, but astonished gratitude for undeserved rescue.
+
+---
+
+## Rejoice, the Lord Is King (1746)
+
+URL: https://livesoffaith.org/hymn.html?id=rejoice-the-lord-is-king
+Writer: Charles Wesley (https://livesoffaith.org/person.html?id=charles-wesley)
+Scripture basis: Philippians 4:4
+Wikipedia: https://en.wikipedia.org/wiki/Charles_Wesley
+Topics: worship, praise
+
+Charles Wesley published "Rejoice, the Lord Is King" in 1746, taking its opening line directly from Philippians 4:4, where Paul, writing from prison, commands the church: "Rejoice in the Lord always: and again I say, Rejoice." Wesley expands Paul's single command into a hymn celebrating Christ's present, active reign rather than a future hope only.
+
+Each verse ends with the refrain "lift up your heart, lift up your voice; rejoice, again I say, rejoice" -- a direct echo of Paul's doubled command, sung back to the congregation as both invitation and instruction. The hymn moves from Christ's ascension ("the Lord is King, who once upon the cross") through his present rule over creation to his promised return in glory, treating each stage as equal ground for rejoicing.
+
+Set often to the triumphant tune "Gopsal," composed by George Frideric Handel specifically for this text, the hymn has remained a hymn of confident praise rather than lament -- joy commanded not because circumstances are easy, but because Christ reigns regardless of them.
+
+---
+
+## Rescue the Perishing (1869)
+
+URL: https://livesoffaith.org/hymn.html?id=rescue-the-perishing
+Writer: Fanny Crosby (https://livesoffaith.org/person.html?id=fanny-crosby)
+Scripture basis: Jude 1:23
+Wikipedia: https://en.wikipedia.org/wiki/Fanny_Crosby
+Topics: gospel, missions, redemption
+
+Fanny Crosby wrote "Rescue the Perishing" in 1869 after an evening spent at a mission hall in a poor district of New York City, where she had gone regularly to speak with men whose lives had been wrecked by addiction and poverty. That night one young man told her he felt he had drifted too far from his mother's prayers ever to be saved. Crosby, deeply moved, returned home and wrote the hymn before going to bed, addressing it directly to those doing the rescuing: "Rescue the perishing, care for the dying, snatch them in pity from sin and the grave."
+
+The hymn is a call to evangelism rather than a personal testimony -- it urges believers to go after those who feel furthest from God, on the conviction that "Jesus is merciful, Jesus will save." Crosby later learned that the young man from the mission hall had returned, repented, and trusted Christ; she counted it one of the clearest evidences she had that her hymn-writing was not merely sentiment but had real evangelistic purpose.
+
+Set to music by William Doane within days of Crosby's writing it, the hymn became a staple of American urban mission work through the late nineteenth century.
+
+---
+
+## Safe in the Arms of Jesus (1868)
+
+URL: https://livesoffaith.org/hymn.html?id=safe-in-the-arms-of-jesus
+Writer: Fanny Crosby (https://livesoffaith.org/person.html?id=fanny-crosby)
+Scripture basis: Deuteronomy 33:27
+Wikipedia: https://en.wikipedia.org/wiki/Fanny_Crosby
+Topics: grace, suffering, faithfulness
+
+Fanny Crosby wrote "Safe in the Arms of Jesus" in 1868 at the request of the composer William Batchelder Bradbury, who asked her for a hymn on the theme of a believer's safety in Christ shortly before his own death. Crosby, who habitually wrote to a tune already given to her rather than the reverse, produced the words within a single sitting.
+
+The hymn pictures the Christian life, in all its "sin and sorrow," "toils and conflicts," coming finally to rest -- not in the believer's own strength, but held in "the arms of my dear Saviour." It became a favourite hymn for funerals and for the dying in the nineteenth century, sung at gravesides across America and Britain as a statement of confidence that death could not separate a believer from Christ's keeping.
+
+Crosby, blind since she was six weeks old, wrote from a life that had known real hardship, yet she insisted to the end of her ninety-four years that she would not have chosen sight if it meant losing the spiritual insight her blindness had given her. "Safe in the Arms of Jesus" reflects that same trust -- security found entirely outside herself.
+
+---
+
+## Shall We Gather at the River (1864)
+
+URL: https://livesoffaith.org/hymn.html?id=shall-we-gather-at-the-river
+Writer: Robert Lowry (https://livesoffaith.org/person.html?id=robert-lowry)
+Scripture basis: Revelation 22:1
+Wikipedia: https://en.wikipedia.org/wiki/Shall_We_Gather_at_the_River
+Topics: worship, faithfulness, praise
+
+Robert Lowry wrote both words and music for "Shall We Gather at the River" in 1864, during a New York summer heat wave, while serving as a Baptist pastor. He later said the song came to him quickly, almost complete, while he sat at his study organ imagining the scene described in Revelation 22:1 -- "a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb."
+
+Lowry admitted he had not set out to write a hymn about physical death; he intended it, he said, as a song of present fellowship and future hope together, imagining believers gathered even now around "the beautiful, the beautiful river" of God's presence, not only after death. Its refrain, "yes, we'll gather at the river... that flows by the throne of God," became so strongly associated with funerals and the hope of heaven that this original intention was often lost.
+
+The hymn spread quickly through American camp meetings and revivals in the years after its writing, and remains one of the most recognisable nineteenth-century American gospel songs, its simple refrain carrying real biblical hope for God's presence, not merely sentimental comfort.
+
+---
+
+## Surely, God Is Able (c. 1949-1950)
+
+URL: https://livesoffaith.org/hymn.html?id=surely-god-is-able
+Writer: William Herbert Brewster Sr. (https://livesoffaith.org/person.html?id=william-herbert-brewster)
+Scripture basis: Daniel 3
+Wikipedia: https://en.wikipedia.org/wiki/William_Herbert_Brewster,_Sr.
+Topics: faithfulness, perseverance
+
+William Herbert Brewster wrote "Surely, God Is Able" out of his own preaching, drawing its conviction from Daniel 3, where three young men facing execution in a fiery furnace tell the king that "our God whom we serve is able to deliver us," while adding that even if he does not, they will still not turn from him. Brewster built the hymn's confidence on that same double conviction -- trust in God's power and submission to his will whether or not deliverance comes as hoped.
+
+Made famous by the gospel singer Clara Ward and the Ward Singers, whose recording became a bestseller, the song's steady, declarative refrain -- "surely, surely, surely, God is able" -- was sung across Black congregations in the mid-twentieth century as an affirmation of faith that did not depend on immediate proof, echoing the same trust Brewster preached from the pulpit each week.
+
+Brewster wrote from a context of real hardship and injustice under segregation, and the hymn's insistence on God's ability to deliver carried force for congregations who had good reason to wonder whether help would ever come.
+
+---
+
+## Take My Life, and Let It Be (1874)
+
+URL: https://livesoffaith.org/hymn.html?id=take-my-life-and-let-it-be
+Writer: Frances Ridley Havergal (https://livesoffaith.org/person.html?id=frances-ridley-havergal)
+Scripture basis: Romans 12:1
+Wikipedia: https://en.wikipedia.org/wiki/Frances_Ridley_Havergal
+Topics: worship, faithfulness
+
+Frances Ridley Havergal wrote "Take My Life, and Let It Be" on 4 February 1874, during a visit to Areley House, where she had gone to stay with a household of ten people, several of whom were not yet believers. By the end of her stay, Havergal recorded, every person in the house had either come to faith in Christ or been restored to it. Overwhelmed with gratitude, she stayed awake that night composing this hymn of consecration, verse by verse.
+
+Structured as a series of short petitions, the hymn offers each part of the worshipper's life to God in turn -- hands, feet, voice, lips, silver and gold, intellect, will, heart, and finally "myself" -- echoing Paul's call in Romans 12:1 to present the whole self as "a living sacrifice." Havergal does not ask God to accept these offerings because they are impressive; she simply gives them, verse by verse, as an act of grateful response to grace already received.
+
+Havergal died just five years later, in 1879, aged forty-two; her hymn remains one of the most used consecration hymns in evangelical worship.
+
+---
+
+## The Ninety and Nine (1874)
+
+URL: https://livesoffaith.org/hymn.html?id=the-ninety-and-nine
+Writer: Ira Sankey (https://livesoffaith.org/person.html?id=ira-sankey)
+Scripture basis: Luke 15:3-7
+Wikipedia: https://en.wikipedia.org/wiki/The_Ninety_and_Nine
+Topics: gospel, redemption
+
+Ira Sankey composed the tune for "The Ninety and Nine" on the spot, in 1874, after finding the words -- a poem by the Scottish writer Elizabeth Clephane, based on Christ's parable of the lost sheep in Luke 15 -- printed in a newspaper he happened to be reading on a train to Edinburgh, where he and D. L. Moody were holding evangelistic meetings. That same evening, at the close of Moody's sermon, Moody turned to Sankey and asked if he had anything appropriate to sing. Sankey had only the newspaper clipping; he set it on the organ, prayed silently, and improvised the melody as he sang it for the first time in public.
+
+Clephane's words retell the parable directly: the shepherd who leaves ninety-nine safe sheep to search for the one that is lost, "away on the mountains wild and bare, away from the tender Shepherd's care." The hymn's force lies in its refusal to treat the lost sheep as a minor concern -- the shepherd's whole search is for the one, a picture of Christ's own pursuit of individual sinners rather than only the already-gathered flock.
+
+First sung that evening in Edinburgh, the tune Sankey improvised under pressure has been sung with Clephane's words ever since.
+
+---
+
+## The Wonder of It All (1955)
+
+URL: https://livesoffaith.org/hymn.html?id=the-wonder-of-it-all
+Writer: George Beverly Shea (https://livesoffaith.org/person.html?id=george-beverly-shea)
+Scripture basis: 1 John 3:1
+Wikipedia: https://en.wikipedia.org/wiki/George_Beverly_Shea
+Topics: praise, worship
+
+George Beverly Shea wrote "The Wonder of It All" in the mid-1950s, prompted by a publisher who challenged him, during a transatlantic ship crossing with Billy Graham's evangelistic team, to write a song entirely of his own rather than only performing others' compositions. Shea, looking out at the sea from the ship's deck, wrote both words and tune before the voyage ended.
+
+The hymn is a simple statement of ongoing wonder rather than argument or narrative: "there's the wonder of sunset at evening, the wonder as sunrise I see; but the wonder of wonders that thrills my soul is the wonder that God loves me." Shea structures each verse to build toward the same conclusion -- that natural beauty, however striking, is not the greatest wonder available to a believer; being loved and saved by God is.
+
+First performed at Billy Graham crusades soon after it was written, the song became one of Shea's signature pieces across a singing career that spanned more than six decades, its refrain repeating a single, deliberately simple claim: that grace, not scenery, is the true wonder of the world.
+
+---
+
+## There Is a Fountain Filled with Blood (1772)
+
+URL: https://livesoffaith.org/hymn.html?id=there-is-a-fountain-filled-with-blood
+Writer: William Cowper (https://livesoffaith.org/person.html?id=william-cowper)
+Scripture basis: Zechariah 13:1
+Wikipedia: https://en.wikipedia.org/wiki/There_Is_a_Fountain_Filled_with_Blood
+Topics: cross, grace, redemption
+
+William Cowper wrote "There Is a Fountain Filled with Blood" around 1772, drawing its central image directly from Zechariah 13:1: "In that day there shall be a fountain opened... for sin and for uncleanness." Cowper takes the prophet's image of a cleansing fountain and applies it explicitly to Christ's blood shed at the cross.
+
+The hymn's imagery is deliberately vivid and physical -- sinners are pictured actually "plunged beneath that flood" and losing "all their guilty stains" -- language some modern hymnals have softened, but which Cowper intended to make the cost and completeness of Christ's atonement impossible to sentimentalise or ignore. The thief crucified beside Jesus is named specifically as the pattern for every believer: "the dying thief rejoiced to see that fountain in his day," saved in his very last hours by faith alone, with no time left for any works of his own.
+
+Written during years when Cowper battled repeated, severe depression and doubted his own salvation, the hymn insists -- against his own inner darkness -- that Christ's blood is sufficient "till all the ransomed church of God be saved, to sin no more."
+
+---
+
+## To God Be the Glory (1875)
+
+URL: https://livesoffaith.org/hymn.html?id=to-god-be-the-glory
+Writer: Fanny Crosby (https://livesoffaith.org/person.html?id=fanny-crosby)
+Scripture basis: John 3:16
+Wikipedia: https://en.wikipedia.org/wiki/To_God_Be_the_Glory
+Topics: grace, praise, gospel
+
+Fanny Crosby wrote "To God Be the Glory" in 1875, setting it to a tune by her frequent collaborator William Howard Doane. The hymn opens with the announcement of John 3:16 in verse: "for the greatest gift, He gave us his Son" -- and answers it immediately with worship: "great things He hath done."
+
+Crosby's hymn was popular in America for a time but fell out of common use for decades. It found new life nearly a century later when the evangelist Cliff Barrows introduced it at Billy Graham's 1954 London crusade, where British congregations, unfamiliar with the tune, embraced it so warmly that it became a staple of Graham's crusades on both sides of the Atlantic from then on.
+
+Its refrain repeats a single conviction three times over: that "the vilest offender who truly believes, that moment from Jesus a pardon receives" -- that forgiveness is given the instant it is trusted for, not earned by any process of self-improvement. Crosby, blind since infancy and reliant on others her whole life for so much, wrote often of a grace that needed no merit of her own, only faith in the Son given at Calvary.
+
+---
+
+## What a Friend We Have in Jesus (1855)
+
+URL: https://livesoffaith.org/hymn.html?id=what-a-friend-we-have-in-jesus
+Writer: Joseph M. Scriven (https://livesoffaith.org/person.html?id=joseph-scriven)
+Scripture basis: John 15:14-15
+Wikipedia: https://en.wikipedia.org/wiki/What_a_Friend_We_Have_in_Jesus
+Topics: prayer, faithfulness, suffering
+
+Joseph Scriven wrote "What a Friend We Have in Jesus" in 1855 to comfort his mother, who remained in Ireland while Scriven had emigrated to Canada. Scriven's own life had already been marked by grief: his first fiancee drowned the night before their wedding, and he never fully recovered from the loss. Writing to a mother he could not be present with in her own troubles, he offered her the one comfort he had found sufficient in his own -- access to Christ in prayer.
+
+The hymn treats prayer not as a religious duty but as simple friendship: "what a friend we have in Jesus, all our sins and griefs to bear... what a privilege to carry everything to God in prayer." Its recurring question -- "Oh, what peace we often forfeit, oh, what needless pain we bear, all because we do not carry everything to God in prayer" -- is addressed to ordinary anxiety and grief, not abstract doctrine, reflecting Scriven's own hard-won conviction that Christ could be trusted with exactly the sorrows Scriven himself had carried.
+
+Scriven did not intend the poem for publication; it circulated privately for years before being set to music and becoming one of the most sung hymns on prayer in the English language.
+
+---
+
+## When I Survey the Wondrous Cross (1707)
+
+URL: https://livesoffaith.org/hymn.html?id=when-i-survey-the-wondrous-cross
+Writer: Isaac Watts (https://livesoffaith.org/person.html?id=isaac-watts)
+Scripture basis: Galatians 6:14
+Wikipedia: https://en.wikipedia.org/wiki/When_I_Survey_the_Wondrous_Cross
+Topics: cross, worship, redemption
+
+Isaac Watts published "When I Survey the Wondrous Cross" in 1707 in his collection Hymns and Spiritual Songs, under the heading "Crucifixion to the World by the Cross of Christ" -- a direct reference to Galatians 6:14, where Paul writes that he will boast in nothing "save the cross of our Lord Jesus Christ, by whom the world is crucified unto me." Watts intended the hymn for use at the Lord's Supper, as a meditation to accompany communion.
+
+Where English congregational singing before Watts had consisted almost entirely of metrical psalms, sung in the psalmist's own words, Watts deliberately wrote hymns of specifically Christian reflection -- and this is among his most searching. It moves from the crucified Christ to the worshipper's own response: "Love so amazing, so divine, demands my soul, my life, my all." Nothing is offered to God as payment; everything -- soul, life, all -- is given only in response to what has already been given at Calvary.
+
+Often called the greatest hymn in the English language, it has been sung at state funerals and ordinary Sunday communion services alike, its final verse asking not for merit to be recognised but for a heart wholly surrendered.
+
+---
+
+## Your Love Broke Through (1977)
+
+URL: https://livesoffaith.org/hymn.html?id=your-love-broke-through
+Writer: Keith Green (https://livesoffaith.org/person.html?id=keith-green)
+Scripture basis: Luke 15:4-6
+Wikipedia: https://en.wikipedia.org/wiki/Keith_Green
+Topics: conversion, grace
+
+Keith Green co-wrote "Your Love Broke Through" in 1977 (with Todd Fishkind and Randy Stonehill), and its lyrics trace his own conversion in May 1975. Green had spent his teenage years searching restlessly through drugs and Eastern religions for meaning, signed to a record label before he was out of his teens yet still unsatisfied. At a home Bible study in Beverly Hills, he and his wife Melody heard, for the first time framed as something meant specifically for them, that Jesus was the Jewish Messiah who had died for their sins -- and believed it.
+
+The hymn describes that moment in the language of rescue rather than achievement: "like waking up from the longest dream, how real it seemed," until "your love broke through" -- grace arriving not because Green had finally found the right philosophy, but because God pursued him. Its bridge pictures Christ himself searching, "like a foolish, wandering sheep... I was lost, I was lost."
+
+Written two years after his conversion, at the height of his own songwriting and ministry, the song remains one of Green's clearest testimonies to grace received rather than earned.
 
