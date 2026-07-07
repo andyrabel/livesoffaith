@@ -1738,5 +1738,107 @@
     "answer": "C.S. Lewis",
     "person_id": "cs-lewis",
     "difficulty": 1
+  },
+  {
+    "question": "Which book of the Bible contains the verse: \"I can do all things through Christ, who strengthens me\"?",
+    "answer": "Philippians",
+    "person_id": null,
+    "difficulty": 1
+  },
+  {
+    "question": "Which book of the Bible contains the verse: \"You will be hated by all men for my name's sake, but he who endures to the end will be saved\"?",
+    "answer": "Matthew",
+    "person_id": null,
+    "difficulty": 1
+  },
+  {
+    "question": "Which book of the Bible contains the verse: \"In the world you have oppression; but cheer up! I have overcome the world\"?",
+    "answer": "John",
+    "person_id": null,
+    "difficulty": 1
+  },
+  {
+    "question": "Which book of the Bible contains the verse: \"Be faithful to death, and I will give you the crown of life\"?",
+    "answer": "Revelation",
+    "person_id": null,
+    "difficulty": 1
+  },
+  {
+    "question": "Which book of the Bible contains the verse: \"Be steadfast, immovable, always abounding in the Lord's work, because you know that your labor is not in vain in the Lord\"?",
+    "answer": "1 Corinthians",
+    "person_id": null,
+    "difficulty": 1
+  },
+  {
+    "question": "Which book of the Bible contains the verse: \"Blessed is the man who endures temptation, for when he has been approved, he will receive the crown of life\"?",
+    "answer": "James",
+    "person_id": null,
+    "difficulty": 1
+  },
+  {
+    "question": "What is the Bible reference (book, chapter, and verse) for: \"I have fought the good fight. I have finished the course. I have kept the faith\"?",
+    "answer": "2 Timothy 4:7-8",
+    "person_id": null,
+    "difficulty": 3
+  },
+  {
+    "question": "What is the Bible reference (book, chapter, and verse) for: \"They therefore departed from the presence of the council, rejoicing that they were counted worthy to suffer dishonor for Jesus' name\"?",
+    "answer": "Acts 5:41",
+    "person_id": null,
+    "difficulty": 3
+  },
+  {
+    "question": "What is the Bible reference (book, chapter, and verse) for: \"Those who wait for Yahweh will renew their strength. They will mount up with wings like eagles\"?",
+    "answer": "Isaiah 40:31",
+    "person_id": null,
+    "difficulty": 3
+  },
+  {
+    "question": "What is the Bible reference (book, chapter, and verse) for: \"Though our outward man is decaying, yet our inward man is renewed day by day\"?",
+    "answer": "2 Corinthians 4:16-18",
+    "person_id": null,
+    "difficulty": 3
+  },
+  {
+    "question": "What is the Bible reference (book, chapter, and verse) for: \"Let us not be weary in doing good, for we will reap in due season, if we don't give up\"?",
+    "answer": "Galatians 6:9",
+    "person_id": null,
+    "difficulty": 3
+  },
+  {
+    "question": "Complete the verse (Hebrews 12:1): \"Let us run with ___ the race that is set before us, looking to Jesus, the author and perfecter of faith.\"",
+    "answer": "Perseverance",
+    "person_id": null,
+    "difficulty": 5
+  },
+  {
+    "question": "Complete the verse (Romans 8:37): \"No, in all these things, we are more than ___ through him who loved us.\"",
+    "answer": "Conquerors",
+    "person_id": null,
+    "difficulty": 5
+  },
+  {
+    "question": "Complete the verse (Matthew 5:10): \"Blessed are those who have been persecuted for righteousness' sake, for theirs is the Kingdom of ___.\"",
+    "answer": "Heaven",
+    "person_id": null,
+    "difficulty": 5
+  },
+  {
+    "question": "Complete the verse (James 1:2-3): \"Count it all joy, my brothers, when you fall into various temptations, knowing that the testing of your faith produces ___.\"",
+    "answer": "Endurance",
+    "person_id": null,
+    "difficulty": 5
+  },
+  {
+    "question": "Complete the verse (2 Timothy 2:3): \"You therefore must endure hardship, as a good ___ of Christ Jesus.\"",
+    "answer": "Soldier",
+    "person_id": null,
+    "difficulty": 5
+  },
+  {
+    "question": "Complete the verse (Revelation 12:11): \"They overcame him because of the Lamb's blood, and because of the word of their ___.\"",
+    "answer": "Testimony",
+    "person_id": null,
+    "difficulty": 5
   }
 ]
