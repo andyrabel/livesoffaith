@@ -109,21 +109,28 @@
   <main>
     <div class="container">
 
-      <div id="verse-of-day"></div>
+      <div class="today-panel">
+        <div id="verse-of-day"></div>
 
-      <section class="intro" aria-label="Site description">
-        <p>Lives of Faith — Christ-centred biographies for worship and teaching.</p>
-      </section>
+        <section class="intro" aria-label="Site description">
+          <p>Lives of Faith — Christ-centred biographies for worship and teaching.</p>
+        </section>
 
-      <div id="quiz-question"></div>
+        <div id="quiz-question"></div>
+      </div>
 
-      <details id="search-filter-details" class="search-filter-toggle">
-        <summary class="search-filter-summary">
-          <span class="search-filter-summary__icon" aria-hidden="true">🔍</span>
-          Search &amp; Filter
-        </summary>
-        <section class="search-filter" aria-label="Search and filter">
-        <div class="search-row">
+      <div class="toolbar-row">
+        <div class="results-summary" aria-live="polite">
+          <p id="results-count"></p>
+        </div>
+
+        <details id="search-filter-details" class="search-filter-toggle">
+          <summary class="search-filter-summary">
+            <span class="search-filter-summary__icon" aria-hidden="true">🔍</span>
+            Search &amp; Filter
+          </summary>
+          <section class="search-filter" aria-label="Search and filter">
+          <div class="search-row">
           <label for="search-input" class="sr-only">Search by name</label>
           <input
             type="search"
@@ -209,11 +216,8 @@
 
           <button id="clear-filters" class="btn btn-secondary" type="button">Clear Filters</button>
         </div>
-        </section>
-      </details>
-
-      <div class="results-summary" aria-live="polite">
-        <p id="results-count"></p>
+          </section>
+        </details>
       </div>
 
       <div id="person-grid" class="person-grid" role="list" aria-label="People profiles">
