@@ -1,0 +1,1598 @@
+[
+  {
+    "question": "What country did Amy Carmichael serve in?",
+    "answer": "India",
+    "person_id": "amy-carmichael",
+    "difficulty": 3
+  },
+  {
+    "question": "What country did Hudson Taylor devote his life to reaching?",
+    "answer": "China",
+    "person_id": "hudson-taylor",
+    "difficulty": 3
+  },
+  {
+    "question": "What continent did David Livingstone explore as a missionary?",
+    "answer": "Africa",
+    "person_id": "david-livingstone",
+    "difficulty": 1
+  },
+  {
+    "question": "What country did Mary Slessor serve in?",
+    "answer": "Nigeria",
+    "person_id": "mary-slessor",
+    "difficulty": 3
+  },
+  {
+    "question": "What country did Adoniram Judson serve in?",
+    "answer": "Burma (Myanmar)",
+    "person_id": "adoniram-judson",
+    "difficulty": 3
+  },
+  {
+    "question": "What country is William Carey known as \"the father of modern missions\" for?",
+    "answer": "India",
+    "person_id": "william-carey",
+    "difficulty": 3
+  },
+  {
+    "question": "What country did Lilias Trotter serve in?",
+    "answer": "Algeria",
+    "person_id": "lilias-trotter",
+    "difficulty": 5
+  },
+  {
+    "question": "What country were Jim Elliot and four companions killed in?",
+    "answer": "Ecuador",
+    "person_id": "jim-elliot",
+    "difficulty": 3
+  },
+  {
+    "question": "What country did Gladys Aylward serve in?",
+    "answer": "China",
+    "person_id": "gladys-aylward",
+    "difficulty": 3
+  },
+  {
+    "question": "What country did Eric Liddell return to as a missionary after the Olympics?",
+    "answer": "China",
+    "person_id": "eric-liddell",
+    "difficulty": 5
+  },
+  {
+    "question": "What people group did Isobel Kuhn serve among in China?",
+    "answer": "The Lisu people",
+    "person_id": "isobel-kuhn",
+    "difficulty": 5
+  },
+  {
+    "question": "What country did Helen Roseveare serve in as a doctor?",
+    "answer": "Belgian Congo (DR Congo)",
+    "person_id": "helen-roseveare",
+    "difficulty": 5
+  },
+  {
+    "question": "What sport did C.T. Studd play before becoming a missionary?",
+    "answer": "Cricket",
+    "person_id": "ct-studd",
+    "difficulty": 3
+  },
+  {
+    "question": "What island nation did John G. Paton serve in?",
+    "answer": "The New Hebrides (Vanuatu)",
+    "person_id": "john-g-paton",
+    "difficulty": 5
+  },
+  {
+    "question": "Robert Jermain Thomas is remembered as the first Protestant martyr in which country?",
+    "answer": "Korea",
+    "person_id": "robert-jermain-thomas",
+    "difficulty": 5
+  },
+  {
+    "question": "What illness did the patients Son Yang-won cared for suffer from?",
+    "answer": "Leprosy",
+    "person_id": "son-yang-won",
+    "difficulty": 5
+  },
+  {
+    "question": "What country did Rosetta Sherwood Hall serve in as a doctor?",
+    "answer": "Korea",
+    "person_id": "rosetta-sherwood-hall",
+    "difficulty": 5
+  },
+  {
+    "question": "What was Samuel Ajayi Crowther the first African to become?",
+    "answer": "An Anglican bishop",
+    "person_id": "samuel-ajayi-crowther",
+    "difficulty": 3
+  },
+  {
+    "question": "What country did Wang Ming Dao pastor a church in?",
+    "answer": "China",
+    "person_id": "wang-ming-dao",
+    "difficulty": 3
+  },
+  {
+    "question": "What country did Sadhu Sundar Singh evangelize across?",
+    "answer": "India",
+    "person_id": "sadhu-sundar-singh",
+    "difficulty": 5
+  },
+  {
+    "question": "What country did Bakht Singh plant churches across?",
+    "answer": "India",
+    "person_id": "bakht-singh",
+    "difficulty": 5
+  },
+  {
+    "question": "What country did Bilquis Sheikh convert to Christianity in?",
+    "answer": "Pakistan",
+    "person_id": "bilquis-sheikh",
+    "difficulty": 5
+  },
+  {
+    "question": "What country did Esther John serve as a Bible woman in?",
+    "answer": "Pakistan",
+    "person_id": "esther-john",
+    "difficulty": 5
+  },
+  {
+    "question": "What did Brother Andrew smuggle into Communist countries?",
+    "answer": "Bibles",
+    "person_id": "brother-andrew",
+    "difficulty": 3
+  },
+  {
+    "question": "What country imprisoned Richard Wurmbrand for 14 years?",
+    "answer": "Romania",
+    "person_id": "richard-wurmbrand",
+    "difficulty": 5
+  },
+  {
+    "question": "What people did the ten Boom family hide during WWII?",
+    "answer": "Jewish people",
+    "person_id": "corrie-ten-boom",
+    "difficulty": 1
+  },
+  {
+    "question": "What did Martin Luther nail to the Wittenberg church door in 1517?",
+    "answer": "The Ninety-Five Theses",
+    "person_id": "martin-luther",
+    "difficulty": 1
+  },
+  {
+    "question": "How many weeks did it take Luther to translate the New Testament into German?",
+    "answer": "Eleven weeks",
+    "person_id": "martin-luther",
+    "difficulty": 5
+  },
+  {
+    "question": "What Swiss city did John Calvin minister in?",
+    "answer": "Geneva",
+    "person_id": "john-calvin",
+    "difficulty": 3
+  },
+  {
+    "question": "What language did William Tyndale translate the New Testament from?",
+    "answer": "Greek",
+    "person_id": "william-tyndale",
+    "difficulty": 3
+  },
+  {
+    "question": "What university was John Hus rector of?",
+    "answer": "The University of Prague",
+    "person_id": "john-hus",
+    "difficulty": 5
+  },
+  {
+    "question": "How long did John Knox serve as a French galley slave?",
+    "answer": "19 months",
+    "person_id": "john-knox",
+    "difficulty": 5
+  },
+  {
+    "question": "What prayer book did Thomas Cranmer author?",
+    "answer": "The Book of Common Prayer",
+    "person_id": "thomas-cranmer",
+    "difficulty": 5
+  },
+  {
+    "question": "Who were Hugh Latimer and Nicholas Ridley burned at the stake alongside each other as?",
+    "answer": "The Oxford Martyrs",
+    "person_id": "hugh-latimer",
+    "difficulty": 5
+  },
+  {
+    "question": "What movement did Menno Simons give his name to?",
+    "answer": "The Mennonites",
+    "person_id": "menno-simons",
+    "difficulty": 5
+  },
+  {
+    "question": "What was Felix Manz executed for practicing?",
+    "answer": "Adult (believer's) baptism",
+    "person_id": "felix-manz",
+    "difficulty": 5
+  },
+  {
+    "question": "Who did Katharina von Bora marry in 1525?",
+    "answer": "Martin Luther",
+    "person_id": "katharina-von-bora",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote \"Amazing Grace\"?",
+    "answer": "John Newton",
+    "person_id": "john-newton",
+    "difficulty": 1
+  },
+  {
+    "question": "What former occupation did John Newton have before becoming a minister?",
+    "answer": "Slave trader",
+    "person_id": "john-newton",
+    "difficulty": 1
+  },
+  {
+    "question": "About how many hymns did Fanny Crosby write?",
+    "answer": "8,000–9,000",
+    "person_id": "fanny-crosby",
+    "difficulty": 5
+  },
+  {
+    "question": "What disability did Fanny Crosby have from infancy?",
+    "answer": "Blindness",
+    "person_id": "fanny-crosby",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote \"When I Survey the Wondrous Cross\"?",
+    "answer": "Isaac Watts",
+    "person_id": "isaac-watts",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote \"Hark, the Herald Angels Sing\"?",
+    "answer": "Charles Wesley",
+    "person_id": "charles-wesley",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote \"It Is Well with My Soul,\" and after what tragedy?",
+    "answer": "Horatio Spafford, after his four daughters drowned",
+    "person_id": "horatio-spafford",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote \"Rock of Ages\"?",
+    "answer": "Augustus Toplady",
+    "person_id": "augustus-toplady",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote \"What a Friend We Have in Jesus\"?",
+    "answer": "Joseph Scriven",
+    "person_id": "joseph-scriven",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote \"Just As I Am\"?",
+    "answer": "Charlotte Elliott",
+    "person_id": "charlotte-elliott",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote \"A Mighty Fortress Is Our God\"?",
+    "answer": "Martin Luther",
+    "person_id": "martin-luther",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote \"The Ninety and Nine\"?",
+    "answer": "Ira Sankey",
+    "person_id": "ira-sankey",
+    "difficulty": 5
+  },
+  {
+    "question": "Who composed the tune for \"It Is Well with My Soul\"?",
+    "answer": "Philip Bliss",
+    "person_id": "philip-bliss",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote \"O Love That Wilt Not Let Me Go\" after going blind?",
+    "answer": "George Matheson",
+    "person_id": "george-matheson",
+    "difficulty": 5
+  },
+  {
+    "question": "How many years did Wang Ming Dao spend in prison for refusing to compromise?",
+    "answer": "23 years",
+    "person_id": "wang-ming-dao",
+    "difficulty": 5
+  },
+  {
+    "question": "What method of execution did John Hus die by?",
+    "answer": "Burned at the stake",
+    "person_id": "john-hus",
+    "difficulty": 3
+  },
+  {
+    "question": "What country was Dietrich Bonhoeffer resisting the regime of?",
+    "answer": "Nazi Germany",
+    "person_id": "dietrich-bonhoeffer",
+    "difficulty": 1
+  },
+  {
+    "question": "What did Wang Zhiming refuse to do during China's Cultural Revolution?",
+    "answer": "Denounce fellow believers",
+    "person_id": "wang-zhiming",
+    "difficulty": 5
+  },
+  {
+    "question": "What did Chu Ki-chol refuse to do that led to his death in a Japanese prison?",
+    "answer": "Bow at a Shinto shrine",
+    "person_id": "chu-ki-chol",
+    "difficulty": 5
+  },
+  {
+    "question": "Who forgave and adopted the young man who murdered his two sons?",
+    "answer": "Son Yang-won",
+    "person_id": "son-yang-won",
+    "difficulty": 5
+  },
+  {
+    "question": "What did Manche Masemola's own family do to her?",
+    "answer": "Killed her for refusing to abandon Christian instruction",
+    "person_id": "manche-masemola",
+    "difficulty": 5
+  },
+  {
+    "question": "Where do statues of ten 20th-century martyrs, including Luwum, Tapiedi, and Esther John, stand today?",
+    "answer": "Westminster Abbey",
+    "person_id": "janani-luwum",
+    "difficulty": 5
+  },
+  {
+    "question": "What African country was Janani Luwum archbishop of before he was killed?",
+    "answer": "Uganda",
+    "person_id": "janani-luwum",
+    "difficulty": 5
+  },
+  {
+    "question": "What weapon was Lucian Tapiedi killed with in Papua New Guinea?",
+    "answer": "An axe",
+    "person_id": "lucian-tapiedi",
+    "difficulty": 5
+  },
+  {
+    "question": "What Pearl Harbor pilot became a Christian evangelist after the war?",
+    "answer": "Mitsuo Fuchida",
+    "person_id": "mitsuo-fuchida",
+    "difficulty": 5
+  },
+  {
+    "question": "Whose testimony as a converted Doolittle Raider helped lead Fuchida to Christ?",
+    "answer": "Jacob DeShazer",
+    "person_id": "jacob-deshazer",
+    "difficulty": 5
+  },
+  {
+    "question": "How many days did Louis Zamperini survive adrift on a life raft in WWII?",
+    "answer": "47 days",
+    "person_id": "louis-zamperini",
+    "difficulty": 3
+  },
+  {
+    "question": "What US president's aide was Chuck Colson before his conversion?",
+    "answer": "Richard Nixon",
+    "person_id": "chuck-colson",
+    "difficulty": 3
+  },
+  {
+    "question": "What book led to Chuck Colson's conversion?",
+    "answer": "Mere Christianity, by C.S. Lewis",
+    "person_id": "chuck-colson",
+    "difficulty": 5
+  },
+  {
+    "question": "What street gang did Nicky Cruz lead before his conversion?",
+    "answer": "The Mau Maus",
+    "person_id": "nicky-cruz",
+    "difficulty": 5
+  },
+  {
+    "question": "What kind of accident left Joni Eareckson Tada paralyzed at 17?",
+    "answer": "A diving accident",
+    "person_id": "joni-eareckson-tada",
+    "difficulty": 3
+  },
+  {
+    "question": "What Sunday school teacher led D.L. Moody to Christ?",
+    "answer": "Edward Kimball",
+    "person_id": "dwight-l-moody",
+    "difficulty": 5
+  },
+  {
+    "question": "Who was D.L. Moody's song-leading partner on his campaigns?",
+    "answer": "Ira Sankey",
+    "person_id": "ira-sankey",
+    "difficulty": 3
+  },
+  {
+    "question": "Which US city did Billy Graham's 1949 crusade rise to fame in?",
+    "answer": "Los Angeles",
+    "person_id": "billy-graham",
+    "difficulty": 5
+  },
+  {
+    "question": "About how many people did Billy Graham preach to in person over his lifetime?",
+    "answer": "Around 210 million",
+    "person_id": "billy-graham",
+    "difficulty": 5
+  },
+  {
+    "question": "What campaign did William Wilberforce spend 20 years fighting in Parliament?",
+    "answer": "Ending the British slave trade",
+    "person_id": "william-wilberforce",
+    "difficulty": 1
+  },
+  {
+    "question": "What Underground Railroad nickname was Harriet Tubman known by?",
+    "answer": "Moses",
+    "person_id": "harriet-tubman",
+    "difficulty": 1
+  },
+  {
+    "question": "How many enslaved people did Harriet Tubman personally lead to freedom?",
+    "answer": "About seventy",
+    "person_id": "harriet-tubman",
+    "difficulty": 5
+  },
+  {
+    "question": "What did George Muller rely on instead of public fundraising for his orphanage?",
+    "answer": "Prayer",
+    "person_id": "george-muller",
+    "difficulty": 1
+  },
+  {
+    "question": "About how many children passed through George Muller's orphanage?",
+    "answer": "Over 10,000",
+    "person_id": "george-muller",
+    "difficulty": 5
+  },
+  {
+    "question": "What did William Tyndale finish translating in the city of Worms?",
+    "answer": "The English New Testament",
+    "person_id": "william-tyndale",
+    "difficulty": 5
+  },
+  {
+    "question": "What Olympic event did Eric Liddell refuse to run because it fell on a Sunday?",
+    "answer": "The 100 metres",
+    "person_id": "eric-liddell",
+    "difficulty": 1
+  },
+  {
+    "question": "Where was John Bunyan imprisoned when he wrote The Pilgrim's Progress?",
+    "answer": "In Bedford jail",
+    "person_id": "john-bunyan",
+    "difficulty": 3
+  },
+  {
+    "question": "What was Charles Spurgeon nicknamed?",
+    "answer": "The Prince of Preachers",
+    "person_id": "charles-spurgeon",
+    "difficulty": 1
+  },
+  {
+    "question": "What is Jonathan Edwards's most famous sermon called?",
+    "answer": "\"Sinners in the Hands of an Angry God\"",
+    "person_id": "jonathan-edwards",
+    "difficulty": 1
+  },
+  {
+    "question": "What organization did George Williams found in 1844?",
+    "answer": "The YMCA",
+    "person_id": "george-williams",
+    "difficulty": 3
+  },
+  {
+    "question": "What did Jeremiah Lanphier start in 1857 that grew into a citywide revival?",
+    "answer": "A noon prayer meeting",
+    "person_id": "jeremiah-lanphier",
+    "difficulty": 5
+  },
+  {
+    "question": "Who composed the hymn \"Lizalis' idinga lakho,\" still sung in South African churches?",
+    "answer": "Tiyo Soga",
+    "person_id": "tiyo-soga",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Amazing Grace\"?",
+    "answer": "John Newton",
+    "person_id": "john-newton",
+    "difficulty": 1
+  },
+  {
+    "question": "What job did John Newton have before he became a minister?",
+    "answer": "A slave trader",
+    "person_id": "john-newton",
+    "difficulty": 1
+  },
+  {
+    "question": "What could Fanny Crosby not do, from the time she was a baby?",
+    "answer": "See — she was blind",
+    "person_id": "fanny-crosby",
+    "difficulty": 1
+  },
+  {
+    "question": "What country did missionary Amy Carmichael serve in?",
+    "answer": "India",
+    "person_id": "amy-carmichael",
+    "difficulty": 3
+  },
+  {
+    "question": "What country did Hudson Taylor spend most of his life serving in?",
+    "answer": "China",
+    "person_id": "hudson-taylor",
+    "difficulty": 3
+  },
+  {
+    "question": "What continent did David Livingstone explore as a missionary and doctor?",
+    "answer": "Africa",
+    "person_id": "david-livingstone",
+    "difficulty": 1
+  },
+  {
+    "question": "What trade did William Carey work at before becoming a missionary?",
+    "answer": "Shoemaking",
+    "person_id": "william-carey",
+    "difficulty": 3
+  },
+  {
+    "question": "What country was Jim Elliot killed in while trying to reach a tribe with the gospel?",
+    "answer": "Ecuador",
+    "person_id": "jim-elliot",
+    "difficulty": 3
+  },
+  {
+    "question": "During World War II, what people did Corrie ten Boom's family hide in their house?",
+    "answer": "Jewish people",
+    "person_id": "corrie-ten-boom",
+    "difficulty": 1
+  },
+  {
+    "question": "What Olympic race did Eric Liddell refuse to run because it was held on a Sunday?",
+    "answer": "The 100 metres",
+    "person_id": "eric-liddell",
+    "difficulty": 1
+  },
+  {
+    "question": "George Muller cared for thousands of orphans without ever doing what?",
+    "answer": "Asking the public for money",
+    "person_id": "george-muller",
+    "difficulty": 1
+  },
+  {
+    "question": "What did Martin Luther discover in the Bible that changed his whole life?",
+    "answer": "That we are saved by faith, not by our own good works",
+    "person_id": "martin-luther",
+    "difficulty": 1
+  },
+  {
+    "question": "What famous book did John Bunyan write while in prison?",
+    "answer": "The Pilgrim's Progress",
+    "person_id": "john-bunyan",
+    "difficulty": 1
+  },
+  {
+    "question": "What did William Wilberforce spend most of his life in Parliament fighting to end?",
+    "answer": "The slave trade",
+    "person_id": "william-wilberforce",
+    "difficulty": 1
+  },
+  {
+    "question": "What was the secret escape route called that Harriet Tubman used to lead enslaved people to freedom?",
+    "answer": "The Underground Railroad",
+    "person_id": "harriet-tubman",
+    "difficulty": 1
+  },
+  {
+    "question": "As a boy in Africa, what happened to Samuel Ajayi Crowther before he was rescued by a British ship?",
+    "answer": "He was captured and sold as a slave",
+    "person_id": "samuel-ajayi-crowther",
+    "difficulty": 3
+  },
+  {
+    "question": "What kind of factory did Mary Slessor work in as a child before becoming a missionary?",
+    "answer": "A jute mill",
+    "person_id": "mary-slessor",
+    "difficulty": 5
+  },
+  {
+    "question": "Gladys Aylward saved her wages to travel all the way to which country?",
+    "answer": "China",
+    "person_id": "gladys-aylward",
+    "difficulty": 3
+  },
+  {
+    "question": "Isaac Watts didn't like the old songs sung in church, so what did he start writing instead?",
+    "answer": "Hymns",
+    "person_id": "isaac-watts",
+    "difficulty": 3
+  },
+  {
+    "question": "What was the name of Charles Wesley's mother, who carefully taught all her children about God?",
+    "answer": "Susanna Wesley",
+    "person_id": "charles-wesley",
+    "difficulty": 3
+  },
+  {
+    "question": "What kind of accident left Joni Eareckson Tada in a wheelchair?",
+    "answer": "A diving accident",
+    "person_id": "joni-eareckson-tada",
+    "difficulty": 3
+  },
+  {
+    "question": "What did Billy Graham grow up doing on his family's farm?",
+    "answer": "Dairy farming",
+    "person_id": "billy-graham",
+    "difficulty": 3
+  },
+  {
+    "question": "What Chinese pastor spent over 20 years in prison for refusing to compromise his faith?",
+    "answer": "Wang Ming Dao",
+    "person_id": "wang-ming-dao",
+    "difficulty": 3
+  },
+  {
+    "question": "What sport did C.T. Studd play for England before becoming a missionary?",
+    "answer": "Cricket",
+    "person_id": "ct-studd",
+    "difficulty": 3
+  },
+  {
+    "question": "What did Brother Andrew smuggle across closed borders to help persecuted Christians?",
+    "answer": "Bibles",
+    "person_id": "brother-andrew",
+    "difficulty": 3
+  },
+  {
+    "question": "What famous document did Martin Luther nail to a church door?",
+    "answer": "The Ninety-Five Theses",
+    "person_id": "martin-luther",
+    "difficulty": 1
+  },
+  {
+    "question": "Who translated the Bible into English and was later executed for it?",
+    "answer": "William Tyndale",
+    "person_id": "william-tyndale",
+    "difficulty": 1
+  },
+  {
+    "question": "Who was John Newton's close friend and fellow hymn writer at Olney?",
+    "answer": "William Cowper",
+    "person_id": "john-newton",
+    "difficulty": 5
+  },
+  {
+    "question": "How did Louis Zamperini survive for 47 days after his plane crashed in the Pacific?",
+    "answer": "Adrift on a life raft",
+    "person_id": "louis-zamperini",
+    "difficulty": 3
+  },
+  {
+    "question": "What former street gang leader became a Christian and wrote the book \"Run Baby Run\"?",
+    "answer": "Nicky Cruz",
+    "person_id": "nicky-cruz",
+    "difficulty": 3
+  },
+  {
+    "question": "What hymn is George Matheson remembered for writing after he went blind?",
+    "answer": "\"O Love That Wilt Not Let Me Go\"",
+    "person_id": "george-matheson",
+    "difficulty": 5
+  },
+  {
+    "question": "What did William Carey put up above his workbench to remind him to pray for the world?",
+    "answer": "A map of the world",
+    "person_id": "william-carey",
+    "difficulty": 3
+  },
+  {
+    "question": "What sank in a storm and led John Newton to cry out to God?",
+    "answer": "His ship",
+    "person_id": "john-newton",
+    "difficulty": 3
+  },
+  {
+    "question": "What did Gladys Aylward do when a mission board said she wasn't clever enough to be sent overseas?",
+    "answer": "She saved her own wages and went anyway",
+    "person_id": "gladys-aylward",
+    "difficulty": 3
+  },
+  {
+    "question": "What kind of care did Amy Carmichael provide for children in India?",
+    "answer": "She rescued children from being forced into temple prostitution",
+    "person_id": "amy-carmichael",
+    "difficulty": 3
+  },
+  {
+    "question": "What did David Livingstone prop on his machine as a boy so he could read while he worked?",
+    "answer": "A book",
+    "person_id": "david-livingstone",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote The Pilgrim's Progress?",
+    "answer": "John Bunyan",
+    "person_id": "john-bunyan",
+    "difficulty": 1
+  },
+  {
+    "question": "Who nailed the Ninety-Five Theses to a church door?",
+    "answer": "Martin Luther",
+    "person_id": "martin-luther",
+    "difficulty": 1
+  },
+  {
+    "question": "Who founded the Salvation Army?",
+    "answer": "William Booth",
+    "person_id": "william-booth",
+    "difficulty": 1
+  },
+  {
+    "question": "Who was blind and wrote thousands of hymns, including \"Blessed Assurance\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 1
+  },
+  {
+    "question": "Who founded the China Inland Mission?",
+    "answer": "Hudson Taylor",
+    "person_id": "hudson-taylor",
+    "difficulty": 1
+  },
+  {
+    "question": "Which missionary was killed trying to reach the Waodani people of Ecuador?",
+    "answer": "Jim Elliot",
+    "person_id": "jim-elliot",
+    "difficulty": 1
+  },
+  {
+    "question": "Which Olympic runner refused to race on a Sunday?",
+    "answer": "Eric Liddell",
+    "person_id": "eric-liddell",
+    "difficulty": 1
+  },
+  {
+    "question": "Who hid Jewish people in her home during World War II and wrote The Hiding Place?",
+    "answer": "Corrie ten Boom",
+    "person_id": "corrie-ten-boom",
+    "difficulty": 1
+  },
+  {
+    "question": "Who was the famous American evangelist known for his worldwide crusades?",
+    "answer": "Billy Graham",
+    "person_id": "billy-graham",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"It Is Well with My Soul\"?",
+    "answer": "Horatio Spafford",
+    "person_id": "horatio-spafford",
+    "difficulty": 1
+  },
+  {
+    "question": "Which famous London preacher was known as \"the Prince of Preachers\"?",
+    "answer": "Charles Spurgeon",
+    "person_id": "charles-spurgeon",
+    "difficulty": 1
+  },
+  {
+    "question": "Who led the campaign to end the British slave trade?",
+    "answer": "William Wilberforce",
+    "person_id": "william-wilberforce",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote Mere Christianity and The Chronicles of Narnia?",
+    "answer": "C.S. Lewis",
+    "person_id": "cs-lewis",
+    "difficulty": 1
+  },
+  {
+    "question": "Who translated the Bible into English and was executed for it?",
+    "answer": "William Tyndale",
+    "person_id": "william-tyndale",
+    "difficulty": 1
+  },
+  {
+    "question": "Who was known as \"Moses\" for leading enslaved people to freedom?",
+    "answer": "Harriet Tubman",
+    "person_id": "harriet-tubman",
+    "difficulty": 1
+  },
+  {
+    "question": "Who was the first American Protestant missionary sent overseas, to Burma?",
+    "answer": "Adoniram Judson",
+    "person_id": "adoniram-judson",
+    "difficulty": 3
+  },
+  {
+    "question": "Who preached the famous sermon \"Sinners in the Hands of an Angry God\"?",
+    "answer": "Jonathan Edwards",
+    "person_id": "jonathan-edwards",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"What a Friend We Have in Jesus\"?",
+    "answer": "Joseph Scriven",
+    "person_id": "joseph-scriven",
+    "difficulty": 1
+  },
+  {
+    "question": "Who ran a huge orphanage in Bristol and relied only on prayer for support?",
+    "answer": "George Muller",
+    "person_id": "george-muller",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"When I Survey the Wondrous Cross\"?",
+    "answer": "Isaac Watts",
+    "person_id": "isaac-watts",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Hark, the Herald Angels Sing\"?",
+    "answer": "Charles Wesley",
+    "person_id": "charles-wesley",
+    "difficulty": 1
+  },
+  {
+    "question": "Which missionary explorer famously said, \"I am immortal till my work is done\" and explored Africa?",
+    "answer": "David Livingstone",
+    "person_id": "david-livingstone",
+    "difficulty": 3
+  },
+  {
+    "question": "Who was the Reformer who started the Protestant Reformation in Germany?",
+    "answer": "Martin Luther",
+    "person_id": "martin-luther",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Rock of Ages\"?",
+    "answer": "Augustus Toplady",
+    "person_id": "augustus-toplady",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Glorious Things of Thee Are Spoken\"?",
+    "answer": "John Newton",
+    "person_id": "john-newton",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"How Sweet the Name of Jesus Sounds\"?",
+    "answer": "John Newton",
+    "person_id": "john-newton",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Great God of Wonders\"?",
+    "answer": "John Newton",
+    "person_id": "john-newton",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Blessed Assurance\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"To God Be the Glory\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Safe in the Arms of Jesus\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Near the Cross\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Rescue the Perishing\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"All the Way My Savior Leads Me\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Draw Me Nearer\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Give Me Jesus\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"He Hideth My Soul\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"My Savior First of All\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Praise Him! Praise Him!\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Redeemed\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Tell Me the Story of Jesus\"?",
+    "answer": "Fanny Crosby",
+    "person_id": "fanny-crosby",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Joy to the World\"?",
+    "answer": "Isaac Watts",
+    "person_id": "isaac-watts",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Jesus Shall Reign\"?",
+    "answer": "Isaac Watts",
+    "person_id": "isaac-watts",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Alas! and Did My Savior Bleed\"?",
+    "answer": "Isaac Watts",
+    "person_id": "isaac-watts",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"At the Cross\"?",
+    "answer": "Isaac Watts",
+    "person_id": "isaac-watts",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"I Sing the Mighty Power of God\"?",
+    "answer": "Isaac Watts",
+    "person_id": "isaac-watts",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Not All the Blood of Beasts\"?",
+    "answer": "Isaac Watts",
+    "person_id": "isaac-watts",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"O God, Our Help in Ages Past\"?",
+    "answer": "Isaac Watts",
+    "person_id": "isaac-watts",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Love Divine All Loves Excelling\"?",
+    "answer": "Charles Wesley",
+    "person_id": "charles-wesley",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Christ the Lord Is Risen Today\"?",
+    "answer": "Charles Wesley",
+    "person_id": "charles-wesley",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Amazing Love\"?",
+    "answer": "Charles Wesley",
+    "person_id": "charles-wesley",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Come, Thou Long-Expected Jesus\"?",
+    "answer": "Charles Wesley",
+    "person_id": "charles-wesley",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"God, Our Father, We Adore You\"?",
+    "answer": "Charles Wesley",
+    "person_id": "charles-wesley",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Oh, for a Thousand Tongues to Sing\"?",
+    "answer": "Charles Wesley",
+    "person_id": "charles-wesley",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Rejoice, the Lord Is King\"?",
+    "answer": "Charles Wesley",
+    "person_id": "charles-wesley",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"God Moves in a Mysterious Way\"?",
+    "answer": "William Cowper",
+    "person_id": "william-cowper",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"There Is a Fountain Filled with Blood\"?",
+    "answer": "William Cowper",
+    "person_id": "william-cowper",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"O for a Closer Walk with God\"?",
+    "answer": "William Cowper",
+    "person_id": "william-cowper",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Almost Persuaded\"?",
+    "answer": "Philip Bliss",
+    "person_id": "philip-bliss",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Wonderful Words of Life\"?",
+    "answer": "Philip Bliss",
+    "person_id": "philip-bliss",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Man of Sorrows What a Name\"?",
+    "answer": "Philip Bliss",
+    "person_id": "philip-bliss",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Let the Lower Lights Be Burning\"?",
+    "answer": "Philip Bliss",
+    "person_id": "philip-bliss",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Hallelujah, What a Savior!\"?",
+    "answer": "Philip Bliss",
+    "person_id": "philip-bliss",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"I Will Sing of My Redeemer\"?",
+    "answer": "Philip Bliss",
+    "person_id": "philip-bliss",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Jesus Loves Even Me\"?",
+    "answer": "Philip Bliss",
+    "person_id": "philip-bliss",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"I Heard the Voice of Jesus Say\"?",
+    "answer": "Horatius Bonar",
+    "person_id": "horatius-bonar",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"I Was a Wandering Sheep\"?",
+    "answer": "Horatius Bonar",
+    "person_id": "horatius-bonar",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"A Mind at Perfect Peace\"?",
+    "answer": "Horatius Bonar",
+    "person_id": "horatius-bonar",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Blessed Be God, Our God\"?",
+    "answer": "Horatius Bonar",
+    "person_id": "horatius-bonar",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Done Is the Work That Saves\"?",
+    "answer": "Horatius Bonar",
+    "person_id": "horatius-bonar",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Here, O Our Lord\"?",
+    "answer": "Horatius Bonar",
+    "person_id": "horatius-bonar",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"I Hear the Words of Love\"?",
+    "answer": "Horatius Bonar",
+    "person_id": "horatius-bonar",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"No Blood, No Altar Now\"?",
+    "answer": "Horatius Bonar",
+    "person_id": "horatius-bonar",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Christ Liveth in Me\"?",
+    "answer": "Daniel W. Whittle",
+    "person_id": "daniel-w-whittle",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Have You Any Room for Jesus?\"?",
+    "answer": "Daniel W. Whittle",
+    "person_id": "daniel-w-whittle",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"I Know Whom I Have Believed\"?",
+    "answer": "Daniel W. Whittle",
+    "person_id": "daniel-w-whittle",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Moment by Moment\"?",
+    "answer": "Daniel W. Whittle",
+    "person_id": "daniel-w-whittle",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Like a River Glorious\"?",
+    "answer": "Frances Ridley Havergal",
+    "person_id": "frances-ridley-havergal",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Take My Life, and Let It Be\"?",
+    "answer": "Frances Ridley Havergal",
+    "person_id": "frances-ridley-havergal",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Who Is on the Lord's Side?\"?",
+    "answer": "Frances Ridley Havergal",
+    "person_id": "frances-ridley-havergal",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Asleep in the Light\"?",
+    "answer": "Keith Green",
+    "person_id": "keith-green",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Create in Me a Clean Heart\"?",
+    "answer": "Keith Green",
+    "person_id": "keith-green",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Grace by Which I Stand\"?",
+    "answer": "Keith Green",
+    "person_id": "keith-green",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"I Make My Life a Prayer to You\"?",
+    "answer": "Keith Green",
+    "person_id": "keith-green",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Oh Lord, You're Beautiful\"?",
+    "answer": "Keith Green",
+    "person_id": "keith-green",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"So You Wanna Go Back to Egypt\"?",
+    "answer": "Keith Green",
+    "person_id": "keith-green",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"There Is a Redeemer\"?",
+    "answer": "Keith Green",
+    "person_id": "keith-green",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Your Love Broke Through\"?",
+    "answer": "Keith Green",
+    "person_id": "keith-green",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"When This Passing World Is Done\"?",
+    "answer": "Robert Murray M'Cheyne",
+    "person_id": "robert-murray-mcheyne",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"By Gracious Powers\"?",
+    "answer": "Dietrich Bonhoeffer",
+    "person_id": "dietrich-bonhoeffer",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"My God and Father While I Stray\"?",
+    "answer": "Charlotte Elliott",
+    "person_id": "charlotte-elliott",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Beneath the Cross of Jesus\"?",
+    "answer": "Ira Sankey",
+    "person_id": "ira-sankey",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"A Shelter in the Time of Storm\"?",
+    "answer": "Ira Sankey",
+    "person_id": "ira-sankey",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Trusting Jesus\"?",
+    "answer": "Ira Sankey",
+    "person_id": "ira-sankey",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Faith is the Victory\"?",
+    "answer": "Ira Sankey",
+    "person_id": "ira-sankey",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"I Am Praying for You\"?",
+    "answer": "Ira Sankey",
+    "person_id": "ira-sankey",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Under His Wings\"?",
+    "answer": "Ira Sankey",
+    "person_id": "ira-sankey",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Shall We Gather at the River\"?",
+    "answer": "Robert Lowry",
+    "person_id": "robert-lowry",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Nothing But the Blood of Jesus\"?",
+    "answer": "Robert Lowry",
+    "person_id": "robert-lowry",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Christ Arose! (Low in the Grave He Lay)\"?",
+    "answer": "Robert Lowry",
+    "person_id": "robert-lowry",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Marching to Zion\"?",
+    "answer": "Robert Lowry",
+    "person_id": "robert-lowry",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"I Need Thee Every Hour\"?",
+    "answer": "Robert Lowry",
+    "person_id": "robert-lowry",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"I'll Overcome Someday\"?",
+    "answer": "Charles Albert Tindley",
+    "person_id": "charles-albert-tindley",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Stand By Me\"?",
+    "answer": "Charles Albert Tindley",
+    "person_id": "charles-albert-tindley",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Take Your Burden to the Lord and Leave It There\"?",
+    "answer": "Charles Albert Tindley",
+    "person_id": "charles-albert-tindley",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"What Are They Doing in Heaven?\"?",
+    "answer": "Charles Albert Tindley",
+    "person_id": "charles-albert-tindley",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Move On Up a Little Higher\"?",
+    "answer": "William Herbert Brewster Sr.",
+    "person_id": "william-herbert-brewster",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Surely, God Is Able\"?",
+    "answer": "William Herbert Brewster Sr.",
+    "person_id": "william-herbert-brewster",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Let Us Go Back to the Old Landmark\"?",
+    "answer": "William Herbert Brewster Sr.",
+    "person_id": "william-herbert-brewster",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Soon and Very Soon\"?",
+    "answer": "Andraé Crouch",
+    "person_id": "andrae-crouch",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"My Tribute (To God Be the Glory)\"?",
+    "answer": "Andraé Crouch",
+    "person_id": "andrae-crouch",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"The Blood Will Never Lose Its Power\"?",
+    "answer": "Andraé Crouch",
+    "person_id": "andrae-crouch",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"I'd Rather Have Jesus\"?",
+    "answer": "George Beverly Shea",
+    "person_id": "george-beverly-shea",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"The Wonder of It All\"?",
+    "answer": "George Beverly Shea",
+    "person_id": "george-beverly-shea",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"We Shall Behold Him\"?",
+    "answer": "Dottie Rambo",
+    "person_id": "dottie-rambo",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"He Looked Beyond My Fault and Saw My Need\"?",
+    "answer": "Dottie Rambo",
+    "person_id": "dottie-rambo",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"I Go to the Rock\"?",
+    "answer": "Dottie Rambo",
+    "person_id": "dottie-rambo",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Angels from the Realms of Glory\"?",
+    "answer": "James Montgomery",
+    "person_id": "james-montgomery",
+    "difficulty": 1
+  },
+  {
+    "question": "Who wrote the hymn \"Prayer Is the Soul's Sincere Desire\"?",
+    "answer": "James Montgomery",
+    "person_id": "james-montgomery",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"Hail to the Lord's Anointed\"?",
+    "answer": "James Montgomery",
+    "person_id": "james-montgomery",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"O Happy Day\"?",
+    "answer": "Philip Doddridge",
+    "person_id": "philip-doddridge",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Hark the Glad Sound!\"?",
+    "answer": "Philip Doddridge",
+    "person_id": "philip-doddridge",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Awake, My Soul, Stretch Every Nerve\"?",
+    "answer": "Philip Doddridge",
+    "person_id": "philip-doddridge",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"O God of Bethel\"?",
+    "answer": "Philip Doddridge",
+    "person_id": "philip-doddridge",
+    "difficulty": 5
+  },
+  {
+    "question": "Who wrote the hymn \"I Know That My Redeemer Lives\"?",
+    "answer": "Samuel Medley",
+    "person_id": "samuel-medley",
+    "difficulty": 3
+  },
+  {
+    "question": "Who wrote the hymn \"Awake, My Soul, in Joyful Lays\"?",
+    "answer": "Samuel Medley",
+    "person_id": "samuel-medley",
+    "difficulty": 5
+  },
+  {
+    "question": "What two countries did Anthony Norris Groves serve as a missionary in?",
+    "answer": "Baghdad (Iraq) and India",
+    "person_id": "anthony-norris-groves",
+    "difficulty": 5
+  },
+  {
+    "question": "What people did Elisabeth Elliot go to live among after her husband's death?",
+    "answer": "The Waodani people of Ecuador",
+    "person_id": "elisabeth-elliot",
+    "difficulty": 3
+  },
+  {
+    "question": "What region did Brother Andrew travel into to smuggle Bibles to persecuted Christians?",
+    "answer": "Communist Eastern Europe (behind the Iron Curtain)",
+    "person_id": "brother-andrew",
+    "difficulty": 3
+  },
+  {
+    "question": "What country did William Borden sail to in order to learn Arabic before his intended mission field?",
+    "answer": "Egypt",
+    "person_id": "william-borden",
+    "difficulty": 5
+  },
+  {
+    "question": "What American colony did John Wesley serve in as a missionary before his conversion?",
+    "answer": "Georgia",
+    "person_id": "john-wesley",
+    "difficulty": 5
+  },
+  {
+    "question": "What country did George Verwer begin distributing Gospel literature in, before founding Operation Mobilisation?",
+    "answer": "Mexico",
+    "person_id": "george-verwer",
+    "difficulty": 5
+  },
+  {
+    "question": "What people did David Brainerd serve as a missionary among in colonial America?",
+    "answer": "Native Americans (the Delaware and Mahican peoples)",
+    "person_id": "david-brainerd",
+    "difficulty": 3
+  },
+  {
+    "question": "What three countries did C.T. Studd serve in as a missionary?",
+    "answer": "China, India, and the Belgian Congo",
+    "person_id": "ct-studd",
+    "difficulty": 3
+  },
+  {
+    "question": "What country did Henry Martyn sail to as a chaplain and Bible translator?",
+    "answer": "India",
+    "person_id": "henry-martyn",
+    "difficulty": 3
+  },
+  {
+    "question": "What country were John and Betty Stam serving in as missionaries when they were martyred?",
+    "answer": "China",
+    "person_id": "john-stam",
+    "difficulty": 3
+  },
+  {
+    "question": "What country were John and Betty Stam serving in as missionaries when they were martyred?",
+    "answer": "China",
+    "person_id": "betty-stam",
+    "difficulty": 3
+  },
+  {
+    "question": "What people did Jonathan Edwards serve as a missionary to at Stockbridge?",
+    "answer": "The Housatonic people",
+    "person_id": "jonathan-edwards",
+    "difficulty": 5
+  },
+  {
+    "question": "What country did Jacob DeShazer return to as a missionary after the war?",
+    "answer": "Japan",
+    "person_id": "jacob-deshazer",
+    "difficulty": 3
+  },
+  {
+    "question": "What remote region did Allen Gardiner repeatedly try to reach as a missionary, where he ultimately starved to death?",
+    "answer": "Tierra del Fuego",
+    "person_id": "allen-gardiner",
+    "difficulty": 5
+  },
+  {
+    "question": "What country was Nate Saint serving in as a missionary pilot when he was killed?",
+    "answer": "Ecuador",
+    "person_id": "nate-saint",
+    "difficulty": 3
+  },
+  {
+    "question": "What people did Ed McCully serve among in Ecuador?",
+    "answer": "The Quichua people",
+    "person_id": "ed-mccully",
+    "difficulty": 5
+  },
+  {
+    "question": "What people did Roger Youderian serve among in Ecuador?",
+    "answer": "The Jivaro (Shuar) people",
+    "person_id": "roger-youderian",
+    "difficulty": 5
+  },
+  {
+    "question": "What people did Peter Fleming serve among in Ecuador?",
+    "answer": "The Quichua people",
+    "person_id": "peter-fleming",
+    "difficulty": 5
+  },
+  {
+    "question": "What Chinese province did Hsi Shengmo work in, founding opium refuges across it?",
+    "answer": "Shanxi",
+    "person_id": "hsi-shengmo",
+    "difficulty": 5
+  },
+  {
+    "question": "What African country did Samuel Ajayi Crowther lead the Niger Mission in?",
+    "answer": "Nigeria",
+    "person_id": "samuel-ajayi-crowther",
+    "difficulty": 3
+  }
+]

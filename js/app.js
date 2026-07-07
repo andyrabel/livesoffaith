@@ -7,12 +7,14 @@
 const DATA_URL = 'data/people.json';
 const PLACES_URL = 'data/places.json';
 const PAGEVIEWS_URL = 'data/pageviews.json';
+const QUIZ_URL = 'data/quiz.json';
 const STORY_PREF_KEY = 'preferred-story-version';
 
 let allPeople = [];
 let allPlaces = [];
 let randomOrder = [];
 let pageviews = {};
+let allQuiz = [];
 
 const filterState = {
   search: '',
@@ -353,6 +355,45 @@ function renderOnThisDay() {
   `;
 }
 
+// ============================================================
+// Quiz question home page box
+// ============================================================
+
+// Same seeded pick every visitor gets today, changes at midnight —
+// distinct seed prefix from "On this day" so the two don't happen to
+// land on the same hash slot.
+function renderQuizQuestion() {
+  const container = document.getElementById('quiz-question');
+  if (!container || !allQuiz.length) return;
+
+  const today = new Date();
+  const seed = `quiz-${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
+  const q = allQuiz[seededIndex(seed, allQuiz.length)];
+  const person = allPeople.find(p => p.id === q.person_id);
+
+  const answerLinkHtml = person
+    ? `<a class="quiz-box__answer-link" href="person.html?id=${escapeHtml(person.id)}">More about ${escapeHtml(person.name)} &#8594;</a>`
+    : '';
+
+  container.innerHTML = `
+    <div class="quiz-box">
+      <span class="quiz-box__label">Quiz Question:</span>
+      <span class="quiz-box__question">${escapeHtml(q.question)}</span>
+      <button class="quiz-box__reveal-btn" type="button" aria-expanded="false">Reveal Answer</button>
+      <span class="quiz-box__answer" hidden><strong>${escapeHtml(q.answer)}</strong>${answerLinkHtml}</span>
+    </div>
+  `;
+
+  const btn = container.querySelector('.quiz-box__reveal-btn');
+  const answerEl = container.querySelector('.quiz-box__answer');
+  btn.addEventListener('click', () => {
+    btn.remove();
+    answerEl.hidden = false;
+    answerEl.setAttribute('tabindex', '-1');
+    answerEl.focus();
+  });
+}
+
 function memorialsSectionHtml(person) {
   const memorials = person.memorials || [];
   if (!memorials.length) return '';
@@ -419,6 +460,17 @@ async function loadPeople() {
     if (content) {
       content.innerHTML = '<div class="error-message">Unable to load content. Please try again.</div>';
     }
+  }
+}
+
+async function loadQuiz() {
+  try {
+    const res = await fetch(QUIZ_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allQuiz = await res.json();
+  } catch (err) {
+    console.error('Failed to load quiz.json:', err);
+    allQuiz = [];
   }
 }
 
@@ -573,6 +625,7 @@ function applyFilters() {
 function initIndexPage() {
   injectIndexSeo(allPeople);
   renderOnThisDay();
+  renderQuizQuestion();
 
   const searchInput  = document.getElementById('search-input');
   const regionSel    = document.getElementById('filter-region');
@@ -2346,7 +2399,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  await Promise.all([loadPeople(), loadPageviews()]);
+  await Promise.all([loadPeople(), loadPageviews(), loadQuiz()]);
 
   if (document.getElementById('person-grid')) {
     initIndexPage();
