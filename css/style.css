@@ -902,6 +902,17 @@ main {
   border-bottom-color: var(--accent);
 }
 
+.person-page-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn-print {
+  flex-shrink: 0;
+}
+
 /* --- Person Page ------------------------------------------- */
 .person-page {
   max-width: 820px;
@@ -922,6 +933,9 @@ main {
   }
   .person-portrait-wrap {
     max-width: 200px;
+  }
+  .person-page-actions {
+    flex-wrap: wrap;
   }
 }
 
@@ -1688,5 +1702,88 @@ main {
 
   .filter-input {
     width: 100%;
+  }
+}
+
+/* --- Print Handout (person.html) ---------------------------- */
+/* Photo + name + adult story + hymns only — a bulletin/service-insert
+   view for worship leaders. Everything else on the page is chrome. */
+@media print {
+  .no-print,
+  .story-tabs-nav,
+  .story-panel-footer,
+  .story-sources,
+  .person-timeline,
+  .person-memorials,
+  .person-related,
+  .person-meta-grid,
+  .person-topics {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  main .container {
+    max-width: 100%;
+  }
+
+  .person-page {
+    max-width: 100%;
+  }
+
+  .person-header {
+    grid-template-columns: 140px 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .portrait-image-frame,
+  .person-portrait,
+  .person-portrait-placeholder {
+    box-shadow: none;
+    border-color: #999;
+    break-inside: avoid;
+  }
+
+  .person-name {
+    color: #000;
+  }
+
+  .person-hymns {
+    color: #333;
+  }
+
+  .story-tabs-wrapper {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+  }
+
+  /* Print always shows the adult ("For Worship & Teaching") version,
+     regardless of which tab the reader last had open on screen. */
+  #panel-family {
+    display: none !important;
+  }
+
+  #panel-adult {
+    display: block !important;
+    padding: 0;
+  }
+
+  .story-text {
+    color: #000;
+    orphans: 3;
+    widows: 3;
+  }
+
+  .flagged-notice {
+    background: none;
+    border: 1px solid #999;
+    border-left: 4px solid #666;
+    color: #000;
+    break-inside: avoid;
   }
 }

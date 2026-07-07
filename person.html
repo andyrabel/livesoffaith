@@ -46,7 +46,7 @@
 </head>
 <body>
 
-  <header class="site-header">
+  <header class="site-header no-print">
     <div class="container">
       <div class="site-header__inner">
         <a href="/" class="site-title" aria-label="Lives of Faith — Home">
@@ -68,23 +68,27 @@
   <main>
     <div class="container">
 
-      <a href="index.html" class="back-link">&#8592; Back to all people</a>
+      <div class="person-page-actions no-print">
+        <a href="index.html" class="back-link">&#8592; Back to all people</a>
+        <button class="btn btn-secondary btn-print" onclick="window.print()">&#128438; Print Handout</button>
+      </div>
 
-      <nav class="person-nav" aria-label="Person navigation"></nav>
+      <nav class="person-nav no-print" aria-label="Person navigation"></nav>
 
       <div id="person-content" class="person-page" role="main">
         <div class="loading">Loading…</div>
       </div>
 
-      <nav class="person-nav person-nav--bottom" aria-label="Person navigation"></nav>
+      <nav class="person-nav person-nav--bottom no-print" aria-label="Person navigation"></nav>
 
     </div>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer no-print">
     <div class="container">
       <p>Lives of Faith — Christ-centred biographies for worship and teaching.</p>
       <p>All biographical content is AI-generated from verified sources. Portrait images are public domain. <a href="about.html">Read about our methodology</a> and human review process.</p>
+      <p><a href="https://www.facebook.com/profile.php?id=61591251525310">Follow us on Facebook</a></p>
     </div>
   </footer>
 
