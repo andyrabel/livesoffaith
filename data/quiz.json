@@ -237,6 +237,7 @@
     "question": "Who wrote \"It Is Well with My Soul,\" and after what tragedy?",
     "answer": "Horatio Spafford, after his four daughters drowned",
     "person_id": "horatio-spafford",
+    "hymn_id": "it-is-well-with-my-soul",
     "difficulty": 3
   },
   {
@@ -249,24 +250,28 @@
     "question": "Who wrote \"A Mighty Fortress Is Our God\"?",
     "answer": "Martin Luther",
     "person_id": "martin-luther",
+    "hymn_id": "a-mighty-fortress-is-our-god",
     "difficulty": 3
   },
   {
     "question": "Who wrote \"The Ninety and Nine\"?",
     "answer": "Ira Sankey",
     "person_id": "ira-sankey",
+    "hymn_id": "the-ninety-and-nine",
     "difficulty": 5
   },
   {
     "question": "Who composed the tune for \"It Is Well with My Soul\"?",
     "answer": "Philip Bliss",
     "person_id": "philip-bliss",
+    "hymn_id": "it-is-well-with-my-soul",
     "difficulty": 5
   },
   {
     "question": "Who wrote \"O Love That Wilt Not Let Me Go\" after going blind?",
     "answer": "George Matheson",
     "person_id": "george-matheson",
+    "hymn_id": "o-love-that-wilt-not-let-me-go",
     "difficulty": 5
   },
   {
@@ -459,12 +464,14 @@
     "question": "Who composed the hymn \"Lizalis' idinga lakho,\" still sung in South African churches?",
     "answer": "Tiyo Soga",
     "person_id": "tiyo-soga",
+    "hymn_id": "lizalise-idinga-lakho",
     "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"Amazing Grace\"?",
     "answer": "John Newton",
     "person_id": "john-newton",
+    "hymn_id": "amazing-grace",
     "difficulty": 1
   },
   {
@@ -705,6 +712,7 @@
     "question": "Who wrote the hymn \"It Is Well with My Soul\"?",
     "answer": "Horatio Spafford",
     "person_id": "horatio-spafford",
+    "hymn_id": "it-is-well-with-my-soul",
     "difficulty": 1
   },
   {
@@ -753,6 +761,7 @@
     "question": "Who wrote the hymn \"What a Friend We Have in Jesus\"?",
     "answer": "Joseph Scriven",
     "person_id": "joseph-scriven",
+    "hymn_id": "what-a-friend-we-have-in-jesus",
     "difficulty": 1
   },
   {
@@ -765,12 +774,14 @@
     "question": "Who wrote the hymn \"When I Survey the Wondrous Cross\"?",
     "answer": "Isaac Watts",
     "person_id": "isaac-watts",
+    "hymn_id": "when-i-survey-the-wondrous-cross",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"Hark, the Herald Angels Sing\"?",
     "answer": "Charles Wesley",
     "person_id": "charles-wesley",
+    "hymn_id": "hark-the-herald-angels-sing",
     "difficulty": 1
   },
   {
@@ -795,6 +806,7 @@
     "question": "Who wrote the hymn \"Glorious Things of Thee Are Spoken\"?",
     "answer": "John Newton",
     "person_id": "john-newton",
+    "hymn_id": "glorious-things-of-thee-are-spoken",
     "difficulty": 5
   },
   {
@@ -813,18 +825,21 @@
     "question": "Who wrote the hymn \"Blessed Assurance\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "blessed-assurance",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"To God Be the Glory\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "to-god-be-the-glory",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"Safe in the Arms of Jesus\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "safe-in-the-arms-of-jesus",
     "difficulty": 3
   },
   {
@@ -837,12 +852,14 @@
     "question": "Who wrote the hymn \"Rescue the Perishing\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "rescue-the-perishing",
     "difficulty": 3
   },
   {
     "question": "Who wrote the hymn \"All the Way My Savior Leads Me\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "all-the-way-my-savior-leads-me",
     "difficulty": 3
   },
   {
@@ -855,6 +872,7 @@
     "question": "Who wrote the hymn \"Give Me Jesus\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "give-me-jesus",
     "difficulty": 3
   },
   {
@@ -891,18 +909,21 @@
     "question": "Who wrote the hymn \"Joy to the World\"?",
     "answer": "Isaac Watts",
     "person_id": "isaac-watts",
+    "hymn_id": "joy-to-the-world",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"Jesus Shall Reign\"?",
     "answer": "Isaac Watts",
     "person_id": "isaac-watts",
+    "hymn_id": "jesus-shall-reign",
     "difficulty": 3
   },
   {
     "question": "Who wrote the hymn \"Alas! and Did My Savior Bleed\"?",
     "answer": "Isaac Watts",
     "person_id": "isaac-watts",
+    "hymn_id": "alas-and-did-my-savior-bleed",
     "difficulty": 3
   },
   {
@@ -927,66 +948,77 @@
     "question": "Who wrote the hymn \"O God, Our Help in Ages Past\"?",
     "answer": "Isaac Watts",
     "person_id": "isaac-watts",
+    "hymn_id": "o-god-our-help-in-ages-past",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"Love Divine All Loves Excelling\"?",
     "answer": "Charles Wesley",
     "person_id": "charles-wesley",
+    "hymn_id": "love-divine-all-loves-excelling",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"Christ the Lord Is Risen Today\"?",
     "answer": "Charles Wesley",
     "person_id": "charles-wesley",
+    "hymn_id": "christ-the-lord-is-risen-today",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"Amazing Love\"?",
     "answer": "Charles Wesley",
     "person_id": "charles-wesley",
+    "hymn_id": "amazing-love",
     "difficulty": 3
   },
   {
     "question": "Who wrote the hymn \"Come, Thou Long-Expected Jesus\"?",
     "answer": "Charles Wesley",
     "person_id": "charles-wesley",
+    "hymn_id": "come-thou-long-expected-jesus",
     "difficulty": 3
   },
   {
     "question": "Who wrote the hymn \"Oh, for a Thousand Tongues to Sing\"?",
     "answer": "Charles Wesley",
     "person_id": "charles-wesley",
+    "hymn_id": "oh-for-a-thousand-tongues-to-sing",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"Rejoice, the Lord Is King\"?",
     "answer": "Charles Wesley",
     "person_id": "charles-wesley",
+    "hymn_id": "rejoice-the-lord-is-king",
     "difficulty": 3
   },
   {
     "question": "Who wrote the hymn \"God Moves in a Mysterious Way\"?",
     "answer": "William Cowper",
     "person_id": "william-cowper",
+    "hymn_id": "god-moves-in-a-mysterious-way",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"There Is a Fountain Filled with Blood\"?",
     "answer": "William Cowper",
     "person_id": "william-cowper",
+    "hymn_id": "there-is-a-fountain-filled-with-blood",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"O for a Closer Walk with God\"?",
     "answer": "William Cowper",
     "person_id": "william-cowper",
+    "hymn_id": "o-for-a-closer-walk-with-god",
     "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"Almost Persuaded\"?",
     "answer": "Philip Bliss",
     "person_id": "philip-bliss",
+    "hymn_id": "almost-persuaded",
     "difficulty": 3
   },
   {
@@ -999,12 +1031,14 @@
     "question": "Who wrote the hymn \"Man of Sorrows What a Name\"?",
     "answer": "Philip Bliss",
     "person_id": "philip-bliss",
+    "hymn_id": "man-of-sorrows-what-a-name",
     "difficulty": 3
   },
   {
     "question": "Who wrote the hymn \"Let the Lower Lights Be Burning\"?",
     "answer": "Philip Bliss",
     "person_id": "philip-bliss",
+    "hymn_id": "let-the-lower-lights-be-burning",
     "difficulty": 5
   },
   {
@@ -1089,6 +1123,7 @@
     "question": "Who wrote the hymn \"I Know Whom I Have Believed\"?",
     "answer": "Daniel W. Whittle",
     "person_id": "daniel-w-whittle",
+    "hymn_id": "i-know-whom-i-have-believed",
     "difficulty": 3
   },
   {
@@ -1107,6 +1142,7 @@
     "question": "Who wrote the hymn \"Take My Life, and Let It Be\"?",
     "answer": "Frances Ridley Havergal",
     "person_id": "frances-ridley-havergal",
+    "hymn_id": "take-my-life-and-let-it-be",
     "difficulty": 1
   },
   {
@@ -1143,6 +1179,7 @@
     "question": "Who wrote the hymn \"Oh Lord, You're Beautiful\"?",
     "answer": "Keith Green",
     "person_id": "keith-green",
+    "hymn_id": "oh-lord-youre-beautiful",
     "difficulty": 3
   },
   {
@@ -1161,6 +1198,7 @@
     "question": "Who wrote the hymn \"Your Love Broke Through\"?",
     "answer": "Keith Green",
     "person_id": "keith-green",
+    "hymn_id": "your-love-broke-through",
     "difficulty": 5
   },
   {
@@ -1173,6 +1211,7 @@
     "question": "Who wrote the hymn \"By Gracious Powers\"?",
     "answer": "Dietrich Bonhoeffer",
     "person_id": "dietrich-bonhoeffer",
+    "hymn_id": "by-gracious-powers",
     "difficulty": 5
   },
   {
@@ -1221,6 +1260,7 @@
     "question": "Who wrote the hymn \"Shall We Gather at the River\"?",
     "answer": "Robert Lowry",
     "person_id": "robert-lowry",
+    "hymn_id": "shall-we-gather-at-the-river",
     "difficulty": 3
   },
   {
@@ -1233,24 +1273,28 @@
     "question": "Who wrote the hymn \"Christ Arose! (Low in the Grave He Lay)\"?",
     "answer": "Robert Lowry",
     "person_id": "robert-lowry",
+    "hymn_id": "christ-arose",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"Marching to Zion\"?",
     "answer": "Robert Lowry",
     "person_id": "robert-lowry",
+    "hymn_id": "marching-to-zion",
     "difficulty": 3
   },
   {
     "question": "Who wrote the hymn \"I Need Thee Every Hour\"?",
     "answer": "Robert Lowry",
     "person_id": "robert-lowry",
+    "hymn_id": "i-need-thee-every-hour",
     "difficulty": 1
   },
   {
     "question": "Who wrote the hymn \"I'll Overcome Someday\"?",
     "answer": "Charles Albert Tindley",
     "person_id": "charles-albert-tindley",
+    "hymn_id": "ill-overcome-someday",
     "difficulty": 3
   },
   {
@@ -1275,12 +1319,14 @@
     "question": "Who wrote the hymn \"Move On Up a Little Higher\"?",
     "answer": "William Herbert Brewster Sr.",
     "person_id": "william-herbert-brewster",
+    "hymn_id": "move-on-up-a-little-higher",
     "difficulty": 3
   },
   {
     "question": "Who wrote the hymn \"Surely, God Is Able\"?",
     "answer": "William Herbert Brewster Sr.",
     "person_id": "william-herbert-brewster",
+    "hymn_id": "surely-god-is-able",
     "difficulty": 5
   },
   {
@@ -1311,12 +1357,14 @@
     "question": "Who wrote the hymn \"I'd Rather Have Jesus\"?",
     "answer": "George Beverly Shea",
     "person_id": "george-beverly-shea",
+    "hymn_id": "id-rather-have-jesus",
     "difficulty": 3
   },
   {
     "question": "Who wrote the hymn \"The Wonder of It All\"?",
     "answer": "George Beverly Shea",
     "person_id": "george-beverly-shea",
+    "hymn_id": "the-wonder-of-it-all",
     "difficulty": 5
   },
   {
@@ -1329,6 +1377,7 @@
     "question": "Who wrote the hymn \"He Looked Beyond My Fault and Saw My Need\"?",
     "answer": "Dottie Rambo",
     "person_id": "dottie-rambo",
+    "hymn_id": "he-looked-beyond-my-fault-and-saw-my-need",
     "difficulty": 3
   },
   {
@@ -1341,6 +1390,7 @@
     "question": "Who wrote the hymn \"Angels from the Realms of Glory\"?",
     "answer": "James Montgomery",
     "person_id": "james-montgomery",
+    "hymn_id": "angels-from-the-realms-of-glory",
     "difficulty": 1
   },
   {
@@ -1353,18 +1403,21 @@
     "question": "Who wrote the hymn \"Hail to the Lord's Anointed\"?",
     "answer": "James Montgomery",
     "person_id": "james-montgomery",
+    "hymn_id": "hail-to-the-lords-anointed",
     "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"O Happy Day\"?",
     "answer": "Philip Doddridge",
     "person_id": "philip-doddridge",
+    "hymn_id": "o-happy-day",
     "difficulty": 3
   },
   {
     "question": "Who wrote the hymn \"Hark the Glad Sound!\"?",
     "answer": "Philip Doddridge",
     "person_id": "philip-doddridge",
+    "hymn_id": "hark-the-glad-sound",
     "difficulty": 3
   },
   {
@@ -1377,12 +1430,14 @@
     "question": "Who wrote the hymn \"O God of Bethel\"?",
     "answer": "Philip Doddridge",
     "person_id": "philip-doddridge",
+    "hymn_id": "o-god-of-bethel",
     "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"I Know That My Redeemer Lives\"?",
     "answer": "Samuel Medley",
     "person_id": "samuel-medley",
+    "hymn_id": "i-know-that-my-redeemer-lives",
     "difficulty": 3
   },
   {

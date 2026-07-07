@@ -345,6 +345,13 @@ Question" box and the printable quiz generator (`quiz-print.html`). Each entry:
 
 - `difficulty` — one of `1` (Easy), `3` (Medium), `5` (Hard). No other values are used.
 - `person_id` must match an existing entry in `people.json`.
+- `hymn_id` — optional. Include it whenever the question is about a specific hymn
+  (e.g. "Who wrote the hymn X?") **and** that hymn has its own entry in
+  `data/hymns.json`. It must match that entry's `id`. Omit the field entirely
+  (don't set it to `null` or `""`) when the question isn't about a hymn, or the
+  hymn it names has no dedicated `hymns.json` page yet. `js/app.js`
+  (`renderQuizQuestion`) uses it to link the homepage quiz box's answer to the
+  hymn's story page instead of the writer's person page.
 - Questions should be answerable from the person's `adult_story`/`family_story`/
   significant facts — not obscure trivia beyond what the page itself documents.
 - Most people have 1–3 questions; vary the difficulty rather than making them all
@@ -352,7 +359,9 @@ Question" box and the printable quiz generator (`quiz-print.html`). Each entry:
   "What/Who/Where..." questions with a short answer).
 
 When adding a new person, also add 1–3 quiz questions for them to `data/quiz.json`
-as a standard part of the pipeline (see Step 3 below).
+as a standard part of the pipeline (see Step 3 below). When adding a new hymn story
+to `data/hymns.json`, also add `hymn_id` to any existing quiz question about that
+hymn (see above).
 
 ---
 
