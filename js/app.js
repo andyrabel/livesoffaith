@@ -1437,6 +1437,10 @@ function renderHymnCards(hymns) {
   const grid = document.getElementById('hymn-grid');
   if (!grid) return;
 
+  try {
+    sessionStorage.setItem('lof-hymn-nav-order', JSON.stringify(hymns.map(h => h.id)));
+  } catch (e) { /* quota or private-mode — navigation falls back to alpha */ }
+
   if (hymns.length === 0) {
     grid.innerHTML = '<div class="no-results">No hymns match your current filters.</div>';
     updateHymnResultsCount(0);
@@ -1622,6 +1626,52 @@ function injectHymnSeo(hymn, writer) {
   });
 }
 
+function getHymnNav(currentId) {
+  let orderedIds = null;
+  try {
+    const stored = sessionStorage.getItem('lof-hymn-nav-order');
+    if (stored) orderedIds = JSON.parse(stored);
+  } catch (e) { /* ignore */ }
+
+  if (!orderedIds || orderedIds.length === 0) {
+    orderedIds = allHymns.slice().sort((a, b) => a.title.localeCompare(b.title)).map(h => h.id);
+  }
+
+  const idx = orderedIds.indexOf(currentId);
+  if (idx === -1) return { prev: null, next: null, total: orderedIds.length, position: null };
+
+  const prevId = idx > 0 ? orderedIds[idx - 1] : null;
+  const nextId = idx < orderedIds.length - 1 ? orderedIds[idx + 1] : null;
+
+  return {
+    prev: prevId ? allHymns.find(h => h.id === prevId) || null : null,
+    next: nextId ? allHymns.find(h => h.id === nextId) || null : null,
+    total: orderedIds.length,
+    position: idx + 1,
+  };
+}
+
+function renderHymnNav(hymn) {
+  const navEls = document.querySelectorAll('.hymn-nav');
+  if (!navEls.length) return;
+
+  const { prev, next } = getHymnNav(hymn.id);
+
+  navEls.forEach(nav => {
+    if (!prev && !next) { nav.hidden = true; return; }
+
+    const prevHtml = prev
+      ? `<a class="hymn-nav__link hymn-nav__prev" href="hymn.html?id=${escapeHtml(prev.id)}" aria-label="Previous: ${escapeHtml(prev.title)}">&#8592; ${escapeHtml(prev.title)}</a>`
+      : `<span class="hymn-nav__spacer"></span>`;
+
+    const nextHtml = next
+      ? `<a class="hymn-nav__link hymn-nav__next" href="hymn.html?id=${escapeHtml(next.id)}" aria-label="Next: ${escapeHtml(next.title)}">${escapeHtml(next.title)} &#8594;</a>`
+      : `<span class="hymn-nav__spacer"></span>`;
+
+    nav.innerHTML = prevHtml + nextHtml;
+  });
+}
+
 function initHymnPage() {
   const params = new URLSearchParams(window.location.search);
   const id = params.get('id');
@@ -1735,6 +1785,8 @@ function initHymnPage() {
       copyText(text, btn, 'Copied!');
     });
   });
+
+  renderHymnNav(hymn);
 }
 
 // ============================================================
