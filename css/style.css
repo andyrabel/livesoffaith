@@ -266,8 +266,10 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--tag-bg);
-  color: var(--tag-text);
+  background: var(--gold-light);
+  color: var(--accent);
+  border: 1px solid var(--gold);
+  font-family: Georgia, serif;
   font-size: 0.65rem;
   font-weight: bold;
 }
@@ -1102,17 +1104,27 @@ main {
 }
 
 .portrait-placeholder {
+  position: relative;
   width: 100%;
   height: 100%;
-  background: linear-gradient(145deg, #2a4a6a, #1c3d5a);
+  background: var(--gold-light);
+  border: 2px solid var(--gold);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(255,255,255,0.85);
+  color: var(--accent);
   font-family: Georgia, serif;
   font-size: 2rem;
   letter-spacing: 0.04em;
   user-select: none;
+}
+
+.portrait-placeholder::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border: 1px solid var(--gold);
+  pointer-events: none;
 }
 
 .card-body {
@@ -1349,20 +1361,30 @@ main {
 }
 
 .person-portrait-placeholder {
+  position: relative;
   width: 100%;
   aspect-ratio: 3 / 4;
-  background: linear-gradient(145deg, #2a4a6a, #1c3d5a);
+  background: var(--gold-light);
   border-radius: var(--radius-lg);
-  border: 1px solid var(--border);
+  border: 2px solid var(--gold);
   box-shadow: var(--shadow-md);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(255,255,255,0.80);
+  color: var(--accent);
   font-family: Georgia, serif;
   font-size: 2rem;
   letter-spacing: 0.04em;
   user-select: none;
+}
+
+.person-portrait-placeholder::after {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px solid var(--gold);
+  border-radius: calc(var(--radius-lg) - 4px);
+  pointer-events: none;
 }
 
 .person-portrait-caption {
@@ -1708,14 +1730,15 @@ main {
 }
 
 .related-portrait-placeholder {
-  background: var(--tag-bg);
-  color: var(--tag-text);
+  background: var(--gold-light);
+  color: var(--accent);
+  border: 1.5px solid var(--gold);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 0.8rem;
   font-weight: 600;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: Georgia, serif;
 }
 
 .related-person-name {
@@ -1938,6 +1961,7 @@ main {
 .map-list-portrait-placeholder.place-thumb {
   color: #fff;
   background: none;
+  border: none;
 }
 
 .memorial-map .leaflet-popup-content-wrapper {
@@ -2035,11 +2059,12 @@ main {
   width: 48px;
   height: 48px;
   border-radius: 6px;
-  background: linear-gradient(145deg, #2a4a6a, #1c3d5a);
+  background: var(--gold-light);
+  border: 1.5px solid var(--gold);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(255,255,255,0.85);
+  color: var(--accent);
   font-family: Georgia, serif;
   font-size: 0.8rem;
 }
