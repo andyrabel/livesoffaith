@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-07. 146 people.
+Generated 2026-07-09. 149 people.
 
 ---
 
@@ -332,6 +332,24 @@ His conversion was gradual and intellectual. He found the atheist position requi
 Mere Christianity presented a reasoned case for belief to educated sceptics. The Screwtape Letters explored the Christian life through satirical inversion. The Chronicles of Narnia communicated the shape of the gospel through fiction. Millions have found their way to faith through his work.
 
 Note: Lewis held some Anglo-Catholic views, including belief in purgatory, not shared by most Protestants.
+
+---
+
+## Cecil Frances Alexander (1818–1895)
+
+URL: https://livesoffaith.org/person.html?id=cecil-frances-alexander
+Wikipedia: https://en.wikipedia.org/wiki/Cecil_Frances_Alexander
+Nationality: Irish · Tradition: Anglican (Church of Ireland) · Region: UK/Ireland · Era: 19th Century
+Topics: hymn writing, children, creation, cross, compassion
+Hymns: All Things Bright and Beautiful, Once in Royal David's City, There Is a Green Hill Far Away, I Bind Unto Myself Today (St Patrick's Breastplate)
+
+Cecil Frances Alexander was born in April 1818 in Dublin, Ireland, into an Anglo-Irish family, and spent much of her early life at Milltown House, Strabane. Shaped by the Oxford Movement's emphasis on the church's ancient creeds and liturgy, she began writing verse as a girl and devoted much of her adult work to using her poetic gift in the service of the church.
+
+In 1848 she published Hymns for Little Children, written to help children understand the Apostles' Creed clause by clause. From it came three enduring hymns: "All Things Bright and Beautiful," teaching that God is "maker of heaven and earth"; "Once in Royal David's City," on Christ's birth "of the Virgin Mary"; and "There Is a Green Hill Far Away," on his suffering "under Pontius Pilate." In 1889, at a Dublin clergyman's request, she versified the ancient "Lorica" attributed to Saint Patrick as "I Bind Unto Myself Today." In 1850 she married William Alexander, later Archbishop of Armagh.
+
+Profits from her hymnbook helped found a school for deaf and mute children in Strabane, and she worked personally among Derry's poor, sick, and women in need, treating practical charity as inseparable from the gospel she taught in verse.
+
+Alexander's hymns rarely mention her own name or achievements; instead, verse after verse fixes a child's imagination on Christ — his creation, his birth, his cross — so even the youngest singer might grasp why he came and what he did for them.
 
 ---
 
@@ -873,6 +891,23 @@ When Japanese forces invaded and bombed Yangcheng in 1940, Gladys led one hundre
 She later settled permanently in Taiwan, caring for orphaned children until her death in January 1970.
 
 Rejected by the missions board, she went anyway. Dismissed as too ordinary, God used her extraordinarily. Her life is a testimony that calling comes from God — and God does not consult admissions panels.
+
+---
+
+## Graham Kendrick (b. 1950)
+
+URL: https://livesoffaith.org/person.html?id=graham-kendrick
+Wikipedia: https://en.wikipedia.org/wiki/Graham_Kendrick
+Nationality: English · Tradition: Charismatic evangelical · Region: UK/Ireland · Era: 20th Century
+Topics: worship, grace, humility, revival, hymn writing
+Hymns: Shine, Jesus, Shine, The Servant King, Meekness and Majesty, Knowing You (All I Once Held Dear), Beauty for Brokenness (God of the Poor)
+Note: Kendrick has taught that towns and cities can be spiritually oppressed by "territorial spirits" requiring targeted intercession, a strategic-level spiritual-warfare theology associated with the March for Jesus movement he co-founded. This view of geographically assigned spirits is not shared across evangelical traditions and has been questioned even within charismatic circles; Kendrick himself later cautioned against a triumphalist "down with Satan" approach to spiritual warfare.
+
+Graham Kendrick was born on 2 August 1950 in Blisworth, Northamptonshire, England, the son of a Baptist minister. He professed faith in Christ at about age five, after his mother read him a bedtime story that included the gospel. As a teenager at a London school he was, along with his brother, one of the only Christians he knew, and held to his faith through the hedonism of the 1960s around him.
+
+He began writing songs in the late 1960s, released his first album in 1972, and later worked with Ichthus Christian Fellowship in south London. There he wrote "Shine, Jesus, Shine" (1987), inspired by meditating on God's holiness in 1 Timothy 6:16 — now sung in churches worldwide. His other hymns include "The Servant King" (1983), "Meekness and Majesty" (1986), "Knowing You" (1993), and "Beauty for Brokenness" (1993). In 1987 he also co-founded March for Jesus, worship marches that grew from 15,000 people in London to events in over 170 countries by 1994.
+
+His hymns return again and again to one theme: that the eternal, holy God came among us not in power but in weakness, as a servant, so that sinners could know him — not through their own effort, but through grace received by faith. "Knowing You," his setting of Philippians 3, counts every human achievement "but loss" beside "the surpassing worth of knowing Christ Jesus my Lord" — a confession, not a resume, at the heart of all he has written.
 
 ---
 
@@ -1485,6 +1520,23 @@ Keith Gordon Green (1953–1982) was born in Brooklyn, New York, to a Jewish fam
 What followed was one of the most concentrated outpourings of Christian music in the modern church. He released six studio albums, including songs that still appear in contemporary worship: There Is a Redeemer, Oh Lord You're Beautiful, Grace by Which I Stand, and Asleep in the Light. In 1977 he and Melody founded Last Days Ministries in Lindale, Texas, a communal outreach housing recovering addicts and others in need. In 1979 he decided he could not charge for his albums when the gospel itself was free — and mortgaged his home to finance distributing them without charge.
 
 On 28 July 1982, he died in a plane crash near Garden Valley, Texas. Two of his young children, Josiah and Bethany, died with him. He was twenty-eight. In seven years of Christian faith he had called the sleeping church to wake up — and pointed it always to the Redeemer.
+
+---
+
+## Kenneth N. Taylor (1917–2005)
+
+URL: https://livesoffaith.org/person.html?id=kenneth-taylor
+Wikipedia: https://en.wikipedia.org/wiki/Kenneth_N._Taylor
+Nationality: American · Tradition: Evangelical · Region: North America · Era: 20th Century
+Topics: Scripture, translation, children, evangelism
+
+Kenneth Nathaniel Taylor was born on 8 May 1917 in Portland, Oregon, the son of a Presbyterian minister. He studied at Wheaton College and later trained at Dallas Theological Seminary and Northern Baptist Seminary, working for years as an editor and then as director of Moody Press in Chicago.
+
+Taylor and his wife, Margaret, raised ten children, and each evening the family read the Bible together. Frustrated that his younger children could not follow the seventeenth-century language of the King James Version, Taylor began, in 1954, rewording New Testament passages into plain modern English — much of the work done during his daily commuter-train ride between Wheaton and his office in Chicago. What began as a private project for his own children grew, over years of revision, into a full paraphrase.
+
+When publishers repeatedly declined the manuscript, Taylor and his wife used their own savings in 1962 to found Tyndale House Publishers and print it themselves as Living Letters, a paraphrase of the New Testament epistles. The complete Living Bible followed in 1971, becoming the best-selling book in the United States in 1972 and 1973 and eventually selling more than forty million copies worldwide.
+
+Taylor never intended the Living Bible to replace careful study of Scripture in its original languages; he described it simply as a paraphrase meant to make the Bible's meaning clear to ordinary readers, especially children — an aim that began, and never really left, his own living room.
 
 ---
 
@@ -2388,7 +2440,7 @@ His faith was not incidental to his political work — it was its source. His li
 
 # Hymn Stories
 
-The documented history behind 54 individual hymns — who wrote them, when, and the Scripture that shaped them.
+The documented history behind 63 individual hymns — who wrote them, when, and the Scripture that shaped them.
 
 ---
 
@@ -2416,11 +2468,27 @@ Scripture basis: Romans 6
 Wikipedia: https://en.wikipedia.org/wiki/Isaac_Watts
 Topics: cross, grace, redemption
 
-Isaac Watts published "Alas! and Did My Saviour Bleed" in 1707, in the same collection as "When I Survey the Wondrous Cross." Watts drew its central image from Romans 6, where Paul asks whether those baptised into Christ have died to sin with him -- and answers that Christ's death was "for such a worm as I."
+Isaac Watts published "Alas! and Did My Saviour Bleed" in 1707, in the same collection as "When I Survey the Wondrous Cross." Drawing on the New Testament's teaching about Christ's atoning death for sinners, Watts expresses profound wonder that the Son of God should suffer "for such a worm as I" -- a vivid confession of personal unworthiness before the cross.
 
-The hymn does not flinch from the cost of the cross: it names Christ's death plainly as suffering "for crimes that I had done," language that refuses any suggestion the crucifixion was primarily an example to imitate rather than a sacrifice made necessary by real sin. Its third verse pictures creation itself recoiling -- "well might the sun in darkness hide" -- at what Christ endured there.
+The hymn does not flinch from the cost of the cross: it speaks of Christ dying "for crimes that I had done," language that refuses any suggestion the crucifixion was merely an example to imitate rather than a sacrifice made necessary by real sin. Its third verse pictures creation itself recoiling -- "well might the sun in darkness hide" -- recalling the darkness that fell over the land during Christ's crucifixion.
 
-In 1885 the American composer Ralph E. Hudson added a new refrain, "At the Cross, at the Cross, where I first saw the light," which is now sung so often with Watts's verses that many congregations know the combined hymn simply as "At the Cross" -- Watts's original meditation on sin and substitution carried, more than a century after his death, into a new generation of worship.
+In 1885, Ralph E. Hudson added the refrain, "At the Cross, at the Cross, where I first saw the light," which became so popular that many congregations came to know the combined hymn simply as "At the Cross." More than a century after Watts's death, his meditation on sin, substitution, and grace continues to be one of the best-loved hymns of the cross in the English-speaking church.
+
+---
+
+## All Things Bright and Beautiful (1848)
+
+URL: https://livesoffaith.org/hymn.html?id=all-things-bright-and-beautiful
+Writer: Cecil Frances Alexander (https://livesoffaith.org/person.html?id=cecil-frances-alexander)
+Scripture basis: Psalm 104:24-25
+Wikipedia: https://en.wikipedia.org/wiki/All_Things_Bright_and_Beautiful
+Topics: creation, children, worship
+
+Cecil Frances Alexander wrote "All Things Bright and Beautiful" in 1848 for her collection Hymns for Little Children, composed to help children understand the Apostles' Creed line by line. This hymn illustrates the opening clause, that God is "maker of heaven and earth," walking a child through the beauty and variety of the created world — birds, flowers, mountains, rivers — as evidence of God's care in making "all things wise and wonderful."
+
+The hymn's original third verse, "The rich man in his castle, / The poor man at his gate, / God made them high or lowly, / And ordered their estate," was widely read as endorsing a fixed, God-ordained social hierarchy. It was dropped from The English Hymnal in 1906 and from most hymnals since, including revised editions of Hymns Ancient and Modern, and is now rarely sung.
+
+Stripped of that verse, the hymn's surviving message is simpler and consistent with Alexander's other children's hymns: that the created world, in all its variety, points beyond itself to the God who "made" and "ordereth" it, and that even a small child, taught to notice a flower or a bird, is being taught something true about the Creator. It remains one of the most widely recognised hymns in the English-speaking world, sung in churches, schools, and homes for well over a century and a half.
 
 ---
 
@@ -2448,11 +2516,11 @@ Scripture basis: Acts 26:28
 Wikipedia: https://en.wikipedia.org/wiki/Philip_Bliss
 Topics: gospel, conversion
 
-Philip Bliss wrote "Almost Persuaded" in 1871 after hearing a sermon by the Reverend Brundage that closed with the words of King Agrippa to the apostle Paul in Acts 26:28: "Almost thou persuadest me to be a Christian." Bliss was struck by how close a response that was to conviction, and how tragic -- Agrippa heard Paul's testimony, was moved, and yet turned away without believing.
+Philip Bliss wrote "Almost Persuaded" in 1871, traditionally inspired by a sermon of the Reverend Lorenzo Dow Brundage that closed with King Herod Agrippa II's words to the apostle Paul in Acts 26:28: "Almost thou persuadest me to be a Christian."
 
-The hymn is addressed to exactly that kind of hearer: someone who has heard the gospel, felt its weight, and still hesitates. Its refrain warns that "almost cannot avail," pressing toward a decision rather than resting in a feeling of being close to faith. The final verse imagines the moment of hesitation hardening permanently into "almost, but lost" -- a warning Bliss intended pastorally, not to frighten but to press home that saving faith requires actual trust in Christ, not merely sympathetic agreement with the gospel's claims.
+The hymn is addressed to exactly that kind of hearer: someone who has heard the gospel, felt its weight, and still hesitates. Its refrain warns that "Almost cannot avail; almost is but to fail," urging a response of faith rather than resting in conviction or sympathy alone. The final verse pictures hesitation ending in the words "Almost -- but lost!" -- a pastoral warning that saving faith requires actual trust in Christ.
 
-Bliss, who wrote both words and music for many of his hymns, died in a train crash in Ohio in 1876 at thirty-eight, having spent his brief hymn-writing career urging exactly this kind of decisive response to Christ.
+Bliss, who wrote both words and music, died in the Ashtabula River railroad disaster in 1876 at the age of thirty-eight, having spent his brief ministry urging hearers to come to Christ without delay.
 
 ---
 
@@ -2504,6 +2572,22 @@ The hymn's final verse addresses "Saviour, since Thou art come to us" directly, 
 
 ---
 
+## Beauty for Brokenness (God of the Poor) (1993)
+
+URL: https://livesoffaith.org/hymn.html?id=beauty-for-brokenness
+Writer: Graham Kendrick (https://livesoffaith.org/person.html?id=graham-kendrick)
+Scripture basis: Isaiah 61:1-3
+Wikipedia: https://en.wikipedia.org/wiki/Graham_Kendrick
+Topics: compassion, justice, worship, grace
+
+Graham Kendrick wrote "Beauty for Brokenness," also known by its refrain "God of the Poor," in 1993 for the twenty-fifth anniversary of Tearfund, the British Christian relief and development agency. The song grew out of a visit Kendrick made to India the previous year, where he was confronted by the scale of poverty he saw on the streets of Bombay — among them, he later recalled, lepers holding out fingerless hands for money.
+
+Its title echoes Isaiah's promise of "beauty for ashes" to those who mourn, and the hymn draws throughout on the prophets' and Gospels' repeated insistence that God has particular concern for the poor, the hungry, and the oppressed. Rather than treating compassion as a cause to admire from a distance, the hymn asks God to "melt our cold hearts" and "let the powerful hear" — confronting the singer's own comfort with the world's need.
+
+Written as a prayer of repentance and intercession rather than celebration, "Beauty for Brokenness" asks not for personal blessing but for the church to become the answer to its own prayers for justice. It has since been included in hymnals across Britain, Australia, and Scotland, and remains closely tied to Tearfund's appeal to Christians to care practically for the world's poor — a concern the hymn grounds not in guilt but in the character of God himself, named in its refrain simply "God of the poor."
+
+---
+
 ## Blessed Assurance (1873)
 
 URL: https://livesoffaith.org/hymn.html?id=blessed-assurance
@@ -2516,7 +2600,7 @@ Fanny Crosby, blind from infancy, wrote "Blessed Assurance" in 1873 after her fr
 
 The hymn is a testimony to the doctrine of assurance -- the conviction, drawn from passages like Romans 8:16, that a believer can know, not merely hope, that they belong to Christ. "Perfect submission, perfect delight," Crosby wrote, "visions of rapture now burst on my sight" -- not because of anything she had achieved, but because she was, in the hymn's central image, an heir of salvation, purchased of God, born of his Spirit, washed in his blood.
 
-Crosby wrote more than 8,000 hymn texts across her long life, many for the express purpose of leading the unconverted to Christ. "Blessed Assurance" remains one of the most widely sung, its confident opening chords carrying into worship the same certainty Crosby herself held: that salvation, once given by grace through faith, cannot be taken away.
+Crosby wrote more than 8,000 hymn texts across her long life, many for the express purpose of leading the unconverted to Christ. "Blessed Assurance" remains one of the most widely sung, its confident opening chords carrying into worship the same joyful assurance Crosby herself knew—that Jesus Christ was truly hers.
 
 ---
 
@@ -2544,11 +2628,11 @@ Scripture basis: Matthew 28:6
 Wikipedia: https://en.wikipedia.org/wiki/Robert_Lowry_(hymn_writer)
 Topics: resurrection, praise, worship
 
-Robert Lowry wrote "Low in the Grave He Lay," commonly known by its refrain "Christ Arose," in 1874, composing both the verses and the triumphant tune himself. He wrote it during a period of personal meditation on the resurrection narratives in the Gospels, particularly the angel's announcement at the empty tomb: "He is not here, for he is risen" (Matthew 28:6).
+Robert Lowry wrote "Low in the Grave He Lay," commonly known by its refrain "Christ Arose," in 1874, composing both the words and the triumphant tune himself. Drawing on the Gospel accounts of the resurrection, especially the angel's announcement at the empty tomb -- "He is not here, for he is risen" (Matthew 28:6) -- Lowry crafted a hymn that moves dramatically from burial to victory.
 
-The verses describe Christ's body "low in the grave," watched over by "his own dear guards" and seemingly defeated -- before the refrain interrupts each time with a shift from despair to triumph: "up from the grave he arose, with a mighty triumph o'er his foes." Lowry structures the hymn so the darkness of the verses is never allowed the last word; the resurrection refrain always answers it.
+The verses linger over Christ lying "low in the grave," guarded at the tomb and seemingly conquered by death. Yet each time the refrain breaks in with irresistible force: "Up from the grave He arose, with a mighty triumph o'er His foes." Lowry structures the hymn so that the darkness of the verses is never allowed the final word; the resurrection always answers it.
 
-The hymn quickly became a fixture of Easter worship in American churches after its publication, its dramatic contrast between grave and triumph giving congregations a hymn that does not merely state the resurrection as doctrine but performs, verse by verse, the shock of it.
+Published in 1874, the hymn quickly became a favourite of Easter worship in American churches. Its dramatic contrast between silence and triumph gives congregations more than a statement of doctrine: verse by verse, it invites them to experience the astonishment and joy of the empty tomb, proclaiming Christ's victory over sin, death, and the grave.
 
 ---
 
@@ -2576,11 +2660,11 @@ Scripture basis: Haggai 2:7
 Wikipedia: https://en.wikipedia.org/wiki/Charles_Wesley
 Topics: worship, faithfulness
 
-Charles Wesley published "Come, Thou Long-Expected Jesus" in 1744 in a small collection titled Hymns for the Nativity of Our Lord. Written for Advent, the season of waiting before Christmas, the hymn takes on the voice of Israel awaiting her promised Messiah, drawing on prophetic titles like "Israel's strength and consolation" and "hope of all the earth" -- language rooted in passages such as Haggai's promise that the "desire of all nations" would come to God's temple.
+Charles Wesley published "Come, Thou Long-Expected Jesus" in 1744 in *Hymns for the Nativity of Our Lord*. Written for Advent, the season of waiting before Christmas, the hymn gives voice to Israel's longing for the promised Messiah, drawing on Old Testament hopes of the coming Redeemer in phrases such as "Israel's strength and consolation" and "hope of all the earth."
 
-Its second half turns from waiting to purpose: Wesley prays that this coming Christ would come "born to reign in us for ever," ruling not as a distant king but "by thine own eternal Spirit" within the believer. The hope is not merely historical, that Christ once came to Bethlehem, but personal -- that the same Christ would establish his kingdom in the heart of whoever sang the hymn.
+The second stanza turns from expectation to purpose. Wesley prays that the Christ who came at Bethlehem would also come to reign in the hearts of his people: "Born to reign in us for ever... Rule in all our hearts alone." The hymn celebrates not only Christ's first coming but his continuing work by the Holy Spirit, establishing his kingdom within those who trust him.
 
-It remains a standard Advent hymn in English-language churches, its plea "let us find our rest in thee" summarising Wesley's own theology of grace received rather than earned.
+Now one of the best-loved Advent hymns in English-speaking churches, it unites the promises of Christ's first coming with the transforming power of his present reign. Its closing prayer, "let us find our rest in thee," expresses the believer's confidence that true peace is found in Christ alone.
 
 ---
 
@@ -2693,6 +2777,22 @@ Dottie Rambo wrote "He Looked Beyond My Fault and Saw My Need" in 1968, taking i
 The hymn states its whole theology in that single title phrase: grace is not extended because a person has become acceptable, but reaches exactly the person who has not. Its verses describe someone who "wandered on in the darkness, not a ray of light to see," found and saved not by any change already made in themselves but simply because "he looked beyond my fault, and saw my need."
 
 Rambo, who wrote more than 2,500 gospel songs across her career and became one of the most recorded gospel songwriters in American history, considered this one of her most personal hymns, describing her own sense of having been rescued not because she deserved it but because God chose to see past what she was to what she needed most -- himself.
+
+---
+
+## I Bind Unto Myself Today (St Patrick's Breastplate) (1889)
+
+URL: https://livesoffaith.org/hymn.html?id=i-bind-unto-myself-today
+Writer: Cecil Frances Alexander (https://livesoffaith.org/person.html?id=cecil-frances-alexander)
+Scripture basis: Ephesians 6:10-18
+Wikipedia: https://en.wikipedia.org/wiki/St_Patrick%27s_Breastplate
+Topics: doctrine, worship, faith
+
+Cecil Frances Alexander wrote "I Bind Unto Myself Today," commonly known as "St Patrick's Breastplate," in 1889 at the request of Dean H. H. Dickinson, who asked her to provide a metrical English version of the ancient Irish prayer traditionally attributed to Saint Patrick, known as the "Lorica," to fill a gap in the Church of Ireland's hymnal. Dickinson supplied her with the best available prose translations of the Old Irish text, dated by scholars to around the eighth century and preserved in the eleventh-century Liber Hymnorum.
+
+Alexander's version keeps the ancient prayer's structure: an invocation of the Trinity, a recitation of Christ's incarnation, baptism, crucifixion, burial, resurrection, and ascension as the ground of the singer's faith, and a plea for Christ's protection — "Christ with me, Christ before me, Christ behind me... Christ in the heart of every man who thinks of me." Rather than asking for protection through charms or private merit, the hymn roots all safety in the historic facts of Christ's saving work and in the Trinity's presence with the believer.
+
+Set to music by Charles Villiers Stanford in 1902 using two traditional Irish melodies, "St Patrick" and "Gartan," the hymn remains sung at Saint Patrick's Day and Trinity Sunday services across many denominations — a nineteenth-century woman's translation carrying a fifteen-hundred-year-old prayer of protection grounded entirely in who Christ is and what he has done.
 
 ---
 
@@ -2840,6 +2940,22 @@ First published anonymously, the hymn became closely associated a generation lat
 
 ---
 
+## Knowing You (All I Once Held Dear) (1993)
+
+URL: https://livesoffaith.org/hymn.html?id=knowing-you
+Writer: Graham Kendrick (https://livesoffaith.org/person.html?id=graham-kendrick)
+Scripture basis: Philippians 3:7-11
+Wikipedia: https://en.wikipedia.org/wiki/Graham_Kendrick
+Topics: conversion, grace, surrender, worship
+
+Graham Kendrick wrote "Knowing You," also known by its opening line "All I Once Held Dear," in 1993 after a British Christian conference invited a group of songwriters to write material based on the book of Philippians. Kendrick's contribution set to music one of the most personal passages Paul ever wrote — his confession in Philippians 3:7-11 that everything he once counted as an asset, his heritage, his religious credentials, his own righteousness, he now counted as "loss," even "rubbish," for the sake of knowing Christ.
+
+The hymn's refrain — "Knowing you, Jesus, knowing you, there is no greater thing" — names the substance of the gospel as a relationship, not an achievement: Paul's language of "gaining Christ" and "being found in Him" describes a righteousness that "comes from God" on the basis of faith, not one built by his own effort under the law. The hymn does not treat this as abstract doctrine but as Paul's own testimony, sung in the first person by every congregation that takes it up.
+
+First released in 1995 on the album Is Anyone Thirsty?, "Knowing You" became, alongside "Shine, Jesus, Shine" and "The Servant King," one of Kendrick's most widely sung songs, used across denominations as a hymn of surrender and consecration — its closing plea, "that I may know Him," standing as one of contemporary worship's clearest statements of grace received rather than earned.
+
+---
+
 ## Let the Lower Lights Be Burning (1871)
 
 URL: https://livesoffaith.org/hymn.html?id=let-the-lower-lights-be-burning
@@ -2917,6 +3033,22 @@ Topics: worship, praise, perseverance
 Lowry's addition transforms Watts's meditative hymn into a hymn of collective, forward motion -- pilgrims travelling together rather than individuals reflecting alone. The refrain echoes passages like Isaiah 35:10, where "the ransomed of the Lord shall return, and come to Zion with songs," picturing the Christian life as a journey with a certain destination rather than an uncertain wandering.
 
 The combined hymn, published in Lowry's 1867 collection Bright Jewels, became enormously popular in American congregational and camp-meeting singing, its brisk marching rhythm giving Watts's older words new and lasting life.
+
+---
+
+## Meekness and Majesty (1986)
+
+URL: https://livesoffaith.org/hymn.html?id=meekness-and-majesty
+Writer: Graham Kendrick (https://livesoffaith.org/person.html?id=graham-kendrick)
+Scripture basis: Philippians 2:6-11
+Wikipedia: https://en.wikipedia.org/wiki/Graham_Kendrick
+Topics: holiness, humility, worship, cross
+
+Graham Kendrick wrote "Meekness and Majesty," also titled "This Is Your God," in 1986 for the Spring Harvest conference. Reading the writings of A. W. Tozer on the character of God, Kendrick found himself confronted by paradox: that the same God who is utterly majestic, "clothed in light," is also the God who came among us in weakness and frailty.
+
+The hymn holds these opposites together across its three verses, moving from creation to incarnation — "wounded and bruised... manhood surrendered to God's holy will" — to the cross and empty tomb, ending each verse with the refrain "Bow down and worship, for this is your God." Kendrick has described filling pages with scattered thoughts on these paradoxes before the song took shape; colleagues cautioned him over phrasing that might blur the line between Christ's full divinity and full humanity, ground the finished hymn navigates carefully.
+
+First sung at Spring Harvest, "Meekness and Majesty" became one of the most enduring hymns of the British worship renewal of the 1980s, still sung across denominations today. Its refrain functions less as description than as summons: the hearer is not invited to admire Christ's paradoxical nature from a distance but to bow before it, recognising that the God who rules all things is the same God who, in Christ, stooped low enough to save.
 
 ---
 
@@ -3048,6 +3180,22 @@ Long placed as hymn number one in Methodist hymnals, it has served for nearly th
 
 ---
 
+## Once in Royal David's City (1848)
+
+URL: https://livesoffaith.org/hymn.html?id=once-in-royal-davids-city
+Writer: Cecil Frances Alexander (https://livesoffaith.org/person.html?id=cecil-frances-alexander)
+Scripture basis: Luke 2:4-7
+Wikipedia: https://en.wikipedia.org/wiki/Once_in_Royal_David%27s_City
+Topics: worship, children, humility
+
+Cecil Frances Alexander wrote "Once in Royal David's City" in 1848 for Hymns for Little Children, to teach the Apostles' Creed clause describing Christ as "born of the Virgin Mary." Drawing directly on Luke's account of the nativity, the hymn tells of Christ's birth in a stable, laid "where a mother laid her Baby / In a manger for His bed" — deliberately plain language chosen so young children could picture the scene.
+
+Set the following year to a tune called "Irby" by organist Henry Gauntlett, the hymn's central claim is one of paradox: that "our Lord Jesus Christ" was born not into royal wealth but into poverty, "with the poor and mean and lowly," so that he might share fully in human life before revealing "His glory" as Lord.
+
+Since 1919, the hymn has opened the annual Festival of Nine Lessons and Carols at King's College, Cambridge, sung as a processional with a single boy chorister singing the first verse alone before the full choir and congregation join. That format, still broadcast worldwide each Christmas Eve, has made "Once in Royal David's City" one of the most recognisable Christmas hymns in the English language — its final verses looking beyond the manger to the promise that all who trust this same Christ "shall see Him" in glory.
+
+---
+
 ## Rejoice, the Lord Is King (1746)
 
 URL: https://livesoffaith.org/hymn.html?id=rejoice-the-lord-is-king
@@ -3112,6 +3260,24 @@ The hymn spread quickly through American camp meetings and revivals in the years
 
 ---
 
+## Shine, Jesus, Shine (1987)
+
+URL: https://livesoffaith.org/hymn.html?id=shine-jesus-shine
+Writer: Graham Kendrick (https://livesoffaith.org/person.html?id=graham-kendrick)
+Scripture basis: 1 Timothy 6:16
+Wikipedia: https://en.wikipedia.org/wiki/Shine,_Jesus,_Shine
+Topics: revival, holiness, worship, grace
+
+Graham Kendrick wrote "Shine, Jesus, Shine" in 1987 after meditating on the holiness of God described in 1 Timothy 6:16, that God "dwells in unapproachable light." He wrote the verses first, then returned months later and composed the chorus — "Shine, Jesus, shine" — in around half an hour.
+
+The hymn draws together a wide sweep of Scripture's light imagery: Genesis's first command "let there be light," John's description of Christ as the light no darkness overcomes, and the promise of the Spirit poured out like water on dry ground. Its central prayer is not for personal blessing but for a nation: that the glory of the risen Christ would "flood the nations with grace and mercy," setting people free from sin through the light of his presence.
+
+Kendrick premiered the hymn at the 1987 Spring Harvest conference, one of Britain's largest annual gatherings of evangelical Christians, where it was received with immediate enthusiasm. It quickly spread into hymnals and churches across the English-speaking world and became closely associated with March for Jesus, the public worship marches Kendrick co-founded that same year.
+
+In 2005, viewers of the BBC's Songs of Praise voted it the tenth favourite hymn in the United Kingdom. Its simplicity has drawn critics, but its enduring appeal lies precisely there: a plain, repeated plea that the light of Christ, not human effort, would illuminate hearts blinded by sin.
+
+---
+
 ## Surely, God Is Able (c. 1949-1950)
 
 URL: https://livesoffaith.org/hymn.html?id=surely-god-is-able
@@ -3160,6 +3326,22 @@ First sung that evening in Edinburgh, the tune Sankey improvised under pressure 
 
 ---
 
+## The Servant King (1983)
+
+URL: https://livesoffaith.org/hymn.html?id=the-servant-king
+Writer: Graham Kendrick (https://livesoffaith.org/person.html?id=graham-kendrick)
+Scripture basis: Philippians 2:5-8
+Wikipedia: https://en.wikipedia.org/wiki/Graham_Kendrick
+Topics: humility, sacrifice, cross, worship
+
+Graham Kendrick wrote "The Servant King," also known by its opening line "From Heaven You Came," in 1983. The hymn traces the pattern of Christ's life set out in Philippians 2 — that though he was God, he did not cling to his rights but emptied himself, taking "the form of a servant," and humbled himself to the point of death on a cross.
+
+Each verse follows a different stage of that descent: the helpless baby born to "the darkest hour," the man who came "to serve, not to be served," and the one who in Gethsemane prayed "not My will, but Yours" before going to the cross to "bring us to God." Its final section calls the singer to the same servanthood the hymn describes in Christ, echoing Paul's charge in Philippians 2 to have "this mind... which was also in Christ Jesus."
+
+Set to a simple, singable tune, "The Servant King" became a staple of British evangelical worship through the 1980s and has since crossed into wider use in traditional hymnals and Holy Week and communion services, sung by congregations of many different traditions. Its theology is unambiguous: Christ's kingship is not compromised but most fully revealed in his willingness to serve and to die, and it is this sacrifice — not any merit of the singer's own — that "brings us to God."
+
+---
+
 ## The Wonder of It All (1955)
 
 URL: https://livesoffaith.org/hymn.html?id=the-wonder-of-it-all
@@ -3189,6 +3371,22 @@ William Cowper wrote "There Is a Fountain Filled with Blood" around 1772, drawin
 The hymn's imagery is deliberately vivid and physical -- sinners are pictured actually "plunged beneath that flood" and losing "all their guilty stains" -- language some modern hymnals have softened, but which Cowper intended to make the cost and completeness of Christ's atonement impossible to sentimentalise or ignore. The thief crucified beside Jesus is named specifically as the pattern for every believer: "the dying thief rejoiced to see that fountain in his day," saved in his very last hours by faith alone, with no time left for any works of his own.
 
 Written during years when Cowper battled repeated, severe depression and doubted his own salvation, the hymn insists -- against his own inner darkness -- that Christ's blood is sufficient "till all the ransomed church of God be saved, to sin no more."
+
+---
+
+## There Is a Green Hill Far Away (1848)
+
+URL: https://livesoffaith.org/hymn.html?id=there-is-a-green-hill-far-away
+Writer: Cecil Frances Alexander (https://livesoffaith.org/person.html?id=cecil-frances-alexander)
+Scripture basis: Isaiah 53:5-6
+Wikipedia: https://en.wikipedia.org/wiki/There_Is_a_Green_Hill_Far_Away
+Topics: cross, children, worship
+
+Cecil Frances Alexander wrote "There Is a Green Hill Far Away" in 1848 for Hymns for Little Children, to explain the Apostles' Creed clause "suffered under Pontius Pilate, was crucified, dead, and buried." Rather than naming Golgotha directly, Alexander pictured a simple green hill "without a city wall," so that children anywhere could imagine the place where "the dear Lord was crucified, / Who died to save us all."
+
+The hymn states the doctrine of the atonement in plain terms suited to a child's understanding: "There was no other good enough / To pay the price of sin," and "He died that we might be forgiven, / He died to make us good" — Christ's death as a payment for sin that no other sacrifice, and no effort of the singer's own, could accomplish. The hymn's closing prayer asks not for the child's own merit to be recognised but for love and trust in return: "O dearly, dearly has He loved, / And we must love Him too."
+
+Set most often to William Horsley's 1844 tune "Horsley," it became one of the standard hymns of Passiontide in English-speaking churches. The French composer Charles Gounod, on hearing it in 1871, is reported to have called it the most perfect hymn in the English language — high praise for a hymn written, in the first place, simply to help children understand why Christ died.
 
 ---
 

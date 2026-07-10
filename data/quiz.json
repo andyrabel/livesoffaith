@@ -1889,5 +1889,84 @@
     "answer": "Testimony",
     "person_id": null,
     "difficulty": 5
+  },
+  {
+    "question": "What is the title of Graham Kendrick's most famous worship song, written in 1987?",
+    "answer": "Shine, Jesus, Shine",
+    "person_id": "graham-kendrick",
+    "difficulty": 1,
+    "hymn_id": "shine-jesus-shine"
+  },
+  {
+    "question": "What Bible verse about God's unapproachable light inspired Graham Kendrick to write \"Shine, Jesus, Shine\"?",
+    "answer": "1 Timothy 6:16",
+    "person_id": "graham-kendrick",
+    "difficulty": 5,
+    "hymn_id": "shine-jesus-shine"
+  },
+  {
+    "question": "What movement of mass public worship marches did Graham Kendrick co-found in 1987?",
+    "answer": "March for Jesus",
+    "person_id": "graham-kendrick",
+    "difficulty": 3
+  },
+  {
+    "question": "Which Graham Kendrick hymn is based on the apostle Paul's words in Philippians 3, counting all things as loss for the sake of knowing Christ?",
+    "answer": "Knowing You (All I Once Held Dear)",
+    "person_id": "graham-kendrick",
+    "difficulty": 3,
+    "hymn_id": "knowing-you"
+  },
+  {
+    "question": "Graham Kendrick wrote \"Beauty for Brokenness\" for the 25th anniversary of which Christian relief charity?",
+    "answer": "Tearfund",
+    "person_id": "graham-kendrick",
+    "difficulty": 3,
+    "hymn_id": "beauty-for-brokenness"
+  },
+  {
+    "question": "Cecil Frances Alexander wrote her hymns for children to help them understand which ancient Christian statement of belief?",
+    "answer": "The Apostles' Creed",
+    "person_id": "cecil-frances-alexander",
+    "difficulty": 3
+  },
+  {
+    "question": "What hymn did Cecil Frances Alexander write about Christ's birth, which has opened the King's College Cambridge Christmas Eve carol service since 1919?",
+    "answer": "Once in Royal David's City",
+    "person_id": "cecil-frances-alexander",
+    "difficulty": 1,
+    "hymn_id": "once-in-royal-davids-city"
+  },
+  {
+    "question": "In Cecil Frances Alexander's hymn \"There Is a Green Hill Far Away,\" what event does the \"green hill\" represent?",
+    "answer": "The crucifixion of Jesus",
+    "person_id": "cecil-frances-alexander",
+    "difficulty": 3,
+    "hymn_id": "there-is-a-green-hill-far-away"
+  },
+  {
+    "question": "Which ancient Irish prayer, attributed to Saint Patrick, did Cecil Frances Alexander turn into the hymn \"I Bind Unto Myself Today\"?",
+    "answer": "The Lorica (St Patrick's Breastplate)",
+    "person_id": "cecil-frances-alexander",
+    "difficulty": 5,
+    "hymn_id": "i-bind-unto-myself-today"
+  },
+  {
+    "question": "Why did Kenneth Taylor first start paraphrasing the Bible into simple English in 1954?",
+    "answer": "To help his own children understand it during family Bible reading",
+    "person_id": "kenneth-taylor",
+    "difficulty": 1
+  },
+  {
+    "question": "What publishing company did Kenneth Taylor found in 1962 to print his Bible paraphrase himself?",
+    "answer": "Tyndale House Publishers",
+    "person_id": "kenneth-taylor",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the title of Kenneth Taylor's complete Bible paraphrase, published in 1971?",
+    "answer": "The Living Bible",
+    "person_id": "kenneth-taylor",
+    "difficulty": 1
   }
 ]

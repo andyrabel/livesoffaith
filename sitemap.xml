@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://livesoffaith.org/</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/about.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/map.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymns.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=wang-ming-dao</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -36,7 +36,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-newton</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -46,7 +46,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=fanny-crosby</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -56,7 +56,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-bunyan</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -66,7 +66,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=isaac-watts</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -76,7 +76,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=charles-wesley</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=william-cowper</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -96,7 +96,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=augustus-toplady</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=philip-bliss</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -116,7 +116,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=horatius-bonar</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -126,7 +126,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=susanna-wesley</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -136,7 +136,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=george-whitefield</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=william-wilberforce</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -156,7 +156,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=george-muller</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -166,7 +166,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=cs-lewis</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -176,13 +176,13 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=jim-elliot</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=hudson-taylor</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -192,7 +192,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=david-livingstone</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -202,7 +202,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=amy-carmichael</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-sung</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -222,7 +222,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=watchman-nee</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -232,13 +232,13 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=lin-zhao</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=sadhu-sundar-singh</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -248,7 +248,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=william-tyndale</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -258,7 +258,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-hus</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -268,7 +268,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=richard-wurmbrand</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -278,7 +278,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=william-carey</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -288,7 +288,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=lilias-trotter</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -298,7 +298,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=anthony-norris-groves</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -308,7 +308,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=lord-shaftesbury</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -318,7 +318,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=robert-boyle</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -328,7 +328,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=daniel-w-whittle</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -338,7 +338,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=frances-ridley-havergal</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -348,7 +348,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=keith-green</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -358,7 +358,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=thomas-watson</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -368,7 +368,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=corrie-ten-boom</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -378,7 +378,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=eric-liddell</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -388,19 +388,19 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=elisabeth-elliot</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=brother-andrew</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=william-borden</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -410,7 +410,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=mary-slessor</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -420,7 +420,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=adoniram-judson</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -430,7 +430,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=horatio-spafford</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -440,7 +440,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-wesley</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -450,7 +450,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=george-verwer</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -460,7 +460,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=matthew-henry</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -470,7 +470,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=charles-spurgeon</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -480,7 +480,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=david-brainerd</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -490,7 +490,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=gladys-aylward</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -500,7 +500,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=ct-studd</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -510,7 +510,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=thomas-barnardo</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -520,7 +520,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=william-booth</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -530,7 +530,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=martin-luther</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -540,7 +540,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-calvin</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -550,19 +550,19 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=joseph-scriven</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=robert-cleaver-chapman</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-nelson-darby</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -572,7 +572,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=robert-murray-mcheyne</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -582,7 +582,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=henry-martyn</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -592,7 +592,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=pandita-ramabai</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -602,7 +602,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=bakht-singh</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -612,7 +612,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-stam</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -622,7 +622,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=betty-stam</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -632,7 +632,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=dietrich-bonhoeffer</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -642,7 +642,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=joni-eareckson-tada</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -652,7 +652,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=dwight-l-moody</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -662,7 +662,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=william-edwy-vine</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -672,7 +672,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=james-strong</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -682,7 +682,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=alexander-cruden</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -692,7 +692,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=william-macdonald</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -702,13 +702,13 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=ha-ironside</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-wycliffe</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -718,7 +718,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=charlotte-elliott</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -728,7 +728,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=cesar-malan</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -738,7 +738,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=billy-graham</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -748,7 +748,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=harriet-tubman</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -758,7 +758,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=jonathan-edwards</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -768,7 +768,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-g-paton</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -778,7 +778,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=abraham-kuyper</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -788,13 +788,13 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=isobel-kuhn</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=francis-schaeffer</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -804,7 +804,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=leon-morris</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -814,7 +814,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=helen-roseveare</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -824,25 +824,25 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=ff-bruce</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=martyn-lloyd-jones</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=aw-tozer</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=oswald-chambers</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -852,7 +852,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=mitsuo-fuchida</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -862,7 +862,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=allen-gardiner</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -872,7 +872,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=katharina-von-bora</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -882,7 +882,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=samuel-rutherford</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -892,7 +892,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=charles-simeon</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -902,7 +902,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-charles-ryle</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -912,7 +912,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=alexander-whyte</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -922,7 +922,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=joseph-parker</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -932,7 +932,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=ra-torrey</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -942,7 +942,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=george-matheson</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -952,7 +952,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=christmas-evans</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -962,7 +962,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=jacob-deshazer</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -972,7 +972,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=louis-zamperini</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -982,7 +982,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=chuck-colson</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -992,19 +992,19 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=nicky-cruz</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=bilquis-sheikh</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=john-knox</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1014,31 +1014,31 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=nate-saint</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=ed-mccully</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=roger-youderian</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=peter-fleming</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=andrew-fuller</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1048,7 +1048,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=ira-sankey</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1058,7 +1058,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=robert-lowry</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1068,7 +1068,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=rc-sproul</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1078,7 +1078,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=billy-sunday</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1088,7 +1088,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=j-gresham-machen</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1098,7 +1098,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=george-williams</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1108,7 +1108,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=jeremiah-lanphier</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1118,7 +1118,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=charles-albert-tindley</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1128,7 +1128,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=william-herbert-brewster</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1138,25 +1138,25 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=andrae-crouch</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=george-beverly-shea</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=dottie-rambo</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=james-montgomery</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1166,7 +1166,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=philip-doddridge</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1176,7 +1176,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=samuel-medley</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1186,7 +1186,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=huldrych-zwingli</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1196,7 +1196,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=thomas-cranmer</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1206,7 +1206,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=hugh-latimer</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1216,7 +1216,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=nicholas-ridley</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1226,7 +1226,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=menno-simons</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1236,19 +1236,19 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=felix-manz</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=samuel-lamb</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=hsi-shengmo</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1258,7 +1258,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=toyohiko-kagawa</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1268,7 +1268,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=samuel-ajayi-crowther</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1278,13 +1278,13 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=son-yang-won</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=gil-seon-ju</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1294,19 +1294,19 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=robert-jermain-thomas</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=chu-ki-chol</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=rosetta-sherwood-hall</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1316,7 +1316,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=andrew-murray</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1326,7 +1326,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=tiyo-soga</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1336,7 +1336,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=manche-masemola</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1346,7 +1346,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=janani-luwum</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1356,7 +1356,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=esther-john</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1366,7 +1366,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=lucian-tapiedi</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1376,7 +1376,7 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/person.html?id=wang-zhiming</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1385,326 +1385,402 @@
     </image:image>
   </url>
   <url>
+    <loc>https://livesoffaith.org/person.html?id=graham-kendrick</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=cecil-frances-alexander</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/cecil-frances-alexander.jpg</image:loc>
+      <image:caption>Portrait of Cecil Frances Alexander</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=kenneth-taylor</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://livesoffaith.org/hymn.html?id=amazing-grace</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=glorious-things-of-thee-are-spoken</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=blessed-assurance</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=to-god-be-the-glory</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=safe-in-the-arms-of-jesus</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=rescue-the-perishing</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=all-the-way-my-savior-leads-me</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=give-me-jesus</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=when-i-survey-the-wondrous-cross</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=joy-to-the-world</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=jesus-shall-reign</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=alas-and-did-my-savior-bleed</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=o-god-our-help-in-ages-past</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=love-divine-all-loves-excelling</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=christ-the-lord-is-risen-today</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=amazing-love</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=come-thou-long-expected-jesus</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=hark-the-herald-angels-sing</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=oh-for-a-thousand-tongues-to-sing</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=rejoice-the-lord-is-king</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=god-moves-in-a-mysterious-way</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=there-is-a-fountain-filled-with-blood</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=o-for-a-closer-walk-with-god</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=almost-persuaded</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=man-of-sorrows-what-a-name</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=let-the-lower-lights-be-burning</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=i-know-whom-i-have-believed</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=take-my-life-and-let-it-be</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=oh-lord-youre-beautiful</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=your-love-broke-through</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=it-is-well-with-my-soul</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=a-mighty-fortress-is-our-god</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=what-a-friend-we-have-in-jesus</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=by-gracious-powers</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=just-as-i-am-without-one-plea</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=o-love-that-wilt-not-let-me-go</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=the-ninety-and-nine</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=shall-we-gather-at-the-river</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=christ-arose</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=marching-to-zion</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=i-need-thee-every-hour</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=ill-overcome-someday</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=move-on-up-a-little-higher</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=surely-god-is-able</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=id-rather-have-jesus</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=the-wonder-of-it-all</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=he-looked-beyond-my-fault-and-saw-my-need</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=angels-from-the-realms-of-glory</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=hail-to-the-lords-anointed</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=o-happy-day</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=hark-the-glad-sound</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=o-god-of-bethel</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=i-know-that-my-redeemer-lives</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=lizalise-idinga-lakho</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=shine-jesus-shine</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=the-servant-king</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=meekness-and-majesty</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=beauty-for-brokenness</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=knowing-you</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=all-things-bright-and-beautiful</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=once-in-royal-davids-city</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=there-is-a-green-hill-far-away</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=i-bind-unto-myself-today</loc>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

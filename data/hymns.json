@@ -328,12 +328,12 @@
       "faithfulness"
     ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Wesley",
-    "adult_story": "[[Charles Wesley|charles-wesley]] published \"Come, Thou Long-Expected Jesus\" in 1744 in a small collection titled Hymns for the Nativity of Our Lord. Written for Advent, the season of waiting before Christmas, the hymn takes on the voice of Israel awaiting her promised Messiah, drawing on prophetic titles like \"Israel's strength and consolation\" and \"hope of all the earth\" -- language rooted in passages such as Haggai's promise that the \"desire of all nations\" would come to God's temple.\n\nIts second half turns from waiting to purpose: Wesley prays that this coming Christ would come \"born to reign in us for ever,\" ruling not as a distant king but \"by thine own eternal Spirit\" within the believer. The hope is not merely historical, that Christ once came to Bethlehem, but personal -- that the same Christ would establish his kingdom in the heart of whoever sang the hymn.\n\nIt remains a standard Advent hymn in English-language churches, its plea \"let us find our rest in thee\" summarising Wesley's own theology of grace received rather than earned.",
+    "adult_story": "[[Charles Wesley|charles-wesley]] published \"Come, Thou Long-Expected Jesus\" in 1744 in *Hymns for the Nativity of Our Lord*. Written for Advent, the season of waiting before Christmas, the hymn gives voice to Israel's longing for the promised Messiah, drawing on Old Testament hopes of the coming Redeemer in phrases such as \"Israel's strength and consolation\" and \"hope of all the earth.\"\n\nThe second stanza turns from expectation to purpose. Wesley prays that the Christ who came at Bethlehem would also come to reign in the hearts of his people: \"Born to reign in us for ever... Rule in all our hearts alone.\" The hymn celebrates not only Christ's first coming but his continuing work by the Holy Spirit, establishing his kingdom within those who trust him.\n\nNow one of the best-loved Advent hymns in English-speaking churches, it unites the promises of Christ's first coming with the transforming power of his present reign. Its closing prayer, \"let us find our rest in thee,\" expresses the believer's confidence that true peace is found in Christ alone.",
     "family_story": "[[Charles Wesley|charles-wesley]] wrote \"Come, Thou Long-Expected Jesus\" in 1744 for Advent, the time when Christians wait and get ready to celebrate Jesus's birth.\n\nThe song remembers how, long before Jesus was born, God's people were waiting and hoping for the Saviour he had promised. It also prays that Jesus would come and rule in our hearts, not just be a story from long ago.\n\nIt's still sung in churches every December.",
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-08"
     }
   },
   {
@@ -1056,6 +1056,191 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tiyo_Soga",
     "adult_story": "[[Tiyo Soga|tiyo-soga]], the first Black South African to be ordained as a Presbyterian minister, wrote \"Lizalis' idinga lakho\" (\"Fulfil Your Promise\") in Xhosa in July 1857, on the ship carrying him and his new wife, Janet, back to South Africa after his theological training and ordination in Scotland. Soga was returning to a homeland recently devastated by the Xhosa Cattle-Killing movement, a catastrophic famine brought on the previous year after a prophecy that the ancestors would drive out European settlers if the Xhosa people destroyed their own cattle and crops.\n\nWritten into that specific context of national grief and uncertainty, the hymn calls on God to fulfil his covenant promises to his people, grounding present hope not in any prophecy or human plan but in God's own faithfulness. As the first widely used hymn written originally in Xhosa rather than translated into it, it gave southern African Christians a hymn of their own language and idiom rather than only imported European hymnody.\n\nThe hymn's significance outlasted Soga's own lifetime: it was sung in 1912 at the founding meeting of the South African Native National Congress, the organisation that later became the African National Congress, and has remained part of South African Christian and national memory since.",
     "family_story": "[[Tiyo Soga|tiyo-soga]] was the first Black South African to become an ordained minister. In 1857, on the ship taking him and his new wife home from Scotland to South Africa, he wrote a hymn in his own language, Xhosa, called \"Lizalis' idinga lakho,\" which means \"Fulfil Your Promise.\"\n\nHe was returning to a country that had just been through a terrible famine. His hymn asked God to keep his promises to his people, even in hard times.\n\nIt became so important that it was sung more than fifty years later at a historic meeting that eventually led to the founding of the African National Congress.",
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "shine-jesus-shine",
+    "title": "Shine, Jesus, Shine",
+    "person_id": "graham-kendrick",
+    "year": "1987",
+    "scripture_basis": "1 Timothy 6:16",
+    "topics": [
+      "revival",
+      "holiness",
+      "worship",
+      "grace"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shine,_Jesus,_Shine",
+    "adult_story": "[[Graham Kendrick|graham-kendrick]] wrote \"Shine, Jesus, Shine\" in 1987 after meditating on the holiness of God described in 1 Timothy 6:16, that God \"dwells in unapproachable light.\" He wrote the verses first, then returned months later and composed the chorus — \"Shine, Jesus, shine\" — in around half an hour.\n\nThe hymn draws together a wide sweep of Scripture's light imagery: Genesis's first command \"let there be light,\" John's description of Christ as the light no darkness overcomes, and the promise of the Spirit poured out like water on dry ground. Its central prayer is not for personal blessing but for a nation: that the glory of the risen Christ would \"flood the nations with grace and mercy,\" setting people free from sin through the light of his presence.\n\nKendrick premiered the hymn at the 1987 Spring Harvest conference, one of Britain's largest annual gatherings of evangelical Christians, where it was received with immediate enthusiasm. It quickly spread into hymnals and churches across the English-speaking world and became closely associated with March for Jesus, the public worship marches Kendrick co-founded that same year.\n\nIn 2005, viewers of the BBC's Songs of Praise voted it the tenth favourite hymn in the United Kingdom. Its simplicity has drawn critics, but its enduring appeal lies precisely there: a plain, repeated plea that the light of Christ, not human effort, would illuminate hearts blinded by sin.",
+    "family_story": "[[Graham Kendrick|graham-kendrick]] wrote \"Shine, Jesus, Shine\" in 1987. He was thinking about a Bible verse that says God lives in light so bright no one can go near it — and the words \"Shine, Jesus, shine\" came to him.\n\nHe first sang it at a big Christian conference called Spring Harvest, and people loved it right away. Soon churches everywhere were singing it.\n\nThe song asks Jesus to shine his light into the world, so people who don't know him can see the truth and be set free from sin. In 2005, British television viewers voted it one of the ten best-loved hymns in the country.",
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "the-servant-king",
+    "title": "The Servant King",
+    "person_id": "graham-kendrick",
+    "year": "1983",
+    "scripture_basis": "Philippians 2:5-8",
+    "topics": [
+      "humility",
+      "sacrifice",
+      "cross",
+      "worship"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Graham_Kendrick",
+    "adult_story": "[[Graham Kendrick|graham-kendrick]] wrote \"The Servant King,\" also known by its opening line \"From Heaven You Came,\" in 1983. The hymn traces the pattern of Christ's life set out in Philippians 2 — that though he was God, he did not cling to his rights but emptied himself, taking \"the form of a servant,\" and humbled himself to the point of death on a cross.\n\nEach verse follows a different stage of that descent: the helpless baby born to \"the darkest hour,\" the man who came \"to serve, not to be served,\" and the one who in Gethsemane prayed \"not My will, but Yours\" before going to the cross to \"bring us to God.\" Its final section calls the singer to the same servanthood the hymn describes in Christ, echoing Paul's charge in Philippians 2 to have \"this mind... which was also in Christ Jesus.\"\n\nSet to a simple, singable tune, \"The Servant King\" became a staple of British evangelical worship through the 1980s and has since crossed into wider use in traditional hymnals and Holy Week and communion services, sung by congregations of many different traditions. Its theology is unambiguous: Christ's kingship is not compromised but most fully revealed in his willingness to serve and to die, and it is this sacrifice — not any merit of the singer's own — that \"brings us to God.\"",
+    "family_story": "[[Graham Kendrick|graham-kendrick]] wrote \"The Servant King\" in 1983. It tells the story of Jesus — how he was God, but came to earth as a helpless baby, and grew up to serve other people instead of being served.\n\nThe song follows Jesus all the way to the cross, where he died to bring people back to God. It reminds us that Jesus, though he was a King, showed his love by becoming a servant.\n\nThe hymn asks us to follow Jesus's example — to serve others the way he served us, because of what he has already done for us.",
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "meekness-and-majesty",
+    "title": "Meekness and Majesty",
+    "person_id": "graham-kendrick",
+    "year": "1986",
+    "scripture_basis": "Philippians 2:6-11",
+    "topics": [
+      "holiness",
+      "humility",
+      "worship",
+      "cross"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Graham_Kendrick",
+    "adult_story": "[[Graham Kendrick|graham-kendrick]] wrote \"Meekness and Majesty,\" also titled \"This Is Your God,\" in 1986 for the Spring Harvest conference. Reading the writings of A. W. Tozer on the character of God, Kendrick found himself confronted by paradox: that the same God who is utterly majestic, \"clothed in light,\" is also the God who came among us in weakness and frailty.\n\nThe hymn holds these opposites together across its three verses, moving from creation to incarnation — \"wounded and bruised... manhood surrendered to God's holy will\" — to the cross and empty tomb, ending each verse with the refrain \"Bow down and worship, for this is your God.\" Kendrick has described filling pages with scattered thoughts on these paradoxes before the song took shape; colleagues cautioned him over phrasing that might blur the line between Christ's full divinity and full humanity, ground the finished hymn navigates carefully.\n\nFirst sung at Spring Harvest, \"Meekness and Majesty\" became one of the most enduring hymns of the British worship renewal of the 1980s, still sung across denominations today. Its refrain functions less as description than as summons: the hearer is not invited to admire Christ's paradoxical nature from a distance but to bow before it, recognising that the God who rules all things is the same God who, in Christ, stooped low enough to save.",
+    "family_story": "[[Graham Kendrick|graham-kendrick]] wrote \"Meekness and Majesty\" in 1986 for a big Christian conference called Spring Harvest. He had been reading about how Jesus is both mighty and gentle at the same time.\n\nThe song describes Jesus as a King who is also a servant — powerful enough to have made the whole world, but gentle enough to become a baby and later die on a cross for us.\n\nIts message is simple: Jesus is both great and humble, and because of that, he deserves to be worshipped.",
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "beauty-for-brokenness",
+    "title": "Beauty for Brokenness (God of the Poor)",
+    "person_id": "graham-kendrick",
+    "year": "1993",
+    "scripture_basis": "Isaiah 61:1-3",
+    "topics": [
+      "compassion",
+      "justice",
+      "worship",
+      "grace"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Graham_Kendrick",
+    "adult_story": "[[Graham Kendrick|graham-kendrick]] wrote \"Beauty for Brokenness,\" also known by its refrain \"God of the Poor,\" in 1993 for the twenty-fifth anniversary of Tearfund, the British Christian relief and development agency. The song grew out of a visit Kendrick made to India the previous year, where he was confronted by the scale of poverty he saw on the streets of Bombay — among them, he later recalled, lepers holding out fingerless hands for money.\n\nIts title echoes Isaiah's promise of \"beauty for ashes\" to those who mourn, and the hymn draws throughout on the prophets' and Gospels' repeated insistence that God has particular concern for the poor, the hungry, and the oppressed. Rather than treating compassion as a cause to admire from a distance, the hymn asks God to \"melt our cold hearts\" and \"let the powerful hear\" — confronting the singer's own comfort with the world's need.\n\nWritten as a prayer of repentance and intercession rather than celebration, \"Beauty for Brokenness\" asks not for personal blessing but for the church to become the answer to its own prayers for justice. It has since been included in hymnals across Britain, Australia, and Scotland, and remains closely tied to Tearfund's appeal to Christians to care practically for the world's poor — a concern the hymn grounds not in guilt but in the character of God himself, named in its refrain simply \"God of the poor.\"",
+    "family_story": "[[Graham Kendrick|graham-kendrick]] wrote \"Beauty for Brokenness\" in 1993, after visiting India and seeing terrible poverty on the streets — people with almost nothing, begging just to survive.\n\nHe wrote the song for Tearfund, a Christian charity that helps poor people around the world, for their twenty-fifth anniversary.\n\nThe song is a prayer, asking God to soften our hearts so we care about people who are hungry, sick, or forgotten — because God himself cares deeply for the poor.",
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "knowing-you",
+    "title": "Knowing You (All I Once Held Dear)",
+    "person_id": "graham-kendrick",
+    "year": "1993",
+    "scripture_basis": "Philippians 3:7-11",
+    "topics": [
+      "conversion",
+      "grace",
+      "surrender",
+      "worship"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Graham_Kendrick",
+    "adult_story": "[[Graham Kendrick|graham-kendrick]] wrote \"Knowing You,\" also known by its opening line \"All I Once Held Dear,\" in 1993 after a British Christian conference invited a group of songwriters to write material based on the book of Philippians. Kendrick's contribution set to music one of the most personal passages Paul ever wrote — his confession in Philippians 3:7-11 that everything he once counted as an asset, his heritage, his religious credentials, his own righteousness, he now counted as \"loss,\" even \"rubbish,\" for the sake of knowing Christ.\n\nThe hymn's refrain — \"Knowing you, Jesus, knowing you, there is no greater thing\" — names the substance of the gospel as a relationship, not an achievement: Paul's language of \"gaining Christ\" and \"being found in Him\" describes a righteousness that \"comes from God\" on the basis of faith, not one built by his own effort under the law. The hymn does not treat this as abstract doctrine but as Paul's own testimony, sung in the first person by every congregation that takes it up.\n\nFirst released in 1995 on the album Is Anyone Thirsty?, \"Knowing You\" became, alongside \"Shine, Jesus, Shine\" and \"The Servant King,\" one of Kendrick's most widely sung songs, used across denominations as a hymn of surrender and consecration — its closing plea, \"that I may know Him,\" standing as one of contemporary worship's clearest statements of grace received rather than earned.",
+    "family_story": "[[Graham Kendrick|graham-kendrick]] wrote \"Knowing You\" in 1993, based on words the apostle Paul wrote in the Bible (Philippians 3). Paul said that all the things he used to be proud of — his background, his achievements — were worth nothing compared to knowing Jesus.\n\nThe song's chorus says, \"Knowing you, Jesus, knowing you, there is no greater thing.\" It reminds us that what matters most isn't what we've done, but knowing Jesus and trusting him.\n\nIt's still sung in churches today as a song of giving everything to Jesus.",
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "all-things-bright-and-beautiful",
+    "title": "All Things Bright and Beautiful",
+    "person_id": "cecil-frances-alexander",
+    "year": "1848",
+    "scripture_basis": "Psalm 104:24-25",
+    "topics": [
+      "creation",
+      "children",
+      "worship"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/All_Things_Bright_and_Beautiful",
+    "adult_story": "[[Cecil Frances Alexander|cecil-frances-alexander]] wrote \"All Things Bright and Beautiful\" in 1848 for her collection Hymns for Little Children, composed to help children understand the Apostles' Creed line by line. This hymn illustrates the opening clause, that God is \"maker of heaven and earth,\" walking a child through the beauty and variety of the created world — birds, flowers, mountains, rivers — as evidence of God's care in making \"all things wise and wonderful.\"\n\nThe hymn's original third verse, \"The rich man in his castle, / The poor man at his gate, / God made them high or lowly, / And ordered their estate,\" was widely read as endorsing a fixed, God-ordained social hierarchy. It was dropped from The English Hymnal in 1906 and from most hymnals since, including revised editions of Hymns Ancient and Modern, and is now rarely sung.\n\nStripped of that verse, the hymn's surviving message is simpler and consistent with Alexander's other children's hymns: that the created world, in all its variety, points beyond itself to the God who \"made\" and \"ordereth\" it, and that even a small child, taught to notice a flower or a bird, is being taught something true about the Creator. It remains one of the most widely recognised hymns in the English-speaking world, sung in churches, schools, and homes for well over a century and a half.",
+    "family_story": "[[Cecil Frances Alexander|cecil-frances-alexander]] wrote \"All Things Bright and Beautiful\" in 1848 to help children learn that God made everything in the world — every bird, every flower, every mountain and river.\n\nThe song reminds us that when we see something beautiful in nature, it points back to God, who made it all.\n\nOne verse from the original song talked about rich and poor people, suggesting God planned for some to be rich and others poor. That verse isn't sung anymore, because it isn't a fair or true way to think about people. But the rest of the hymn is still loved today, reminding children that God is the maker of all things bright and beautiful.",
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "once-in-royal-davids-city",
+    "title": "Once in Royal David's City",
+    "person_id": "cecil-frances-alexander",
+    "year": "1848",
+    "scripture_basis": "Luke 2:4-7",
+    "topics": [
+      "worship",
+      "children",
+      "humility"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Once_in_Royal_David%27s_City",
+    "adult_story": "[[Cecil Frances Alexander|cecil-frances-alexander]] wrote \"Once in Royal David's City\" in 1848 for Hymns for Little Children, to teach the Apostles' Creed clause describing Christ as \"born of the Virgin Mary.\" Drawing directly on Luke's account of the nativity, the hymn tells of Christ's birth in a stable, laid \"where a mother laid her Baby / In a manger for His bed\" — deliberately plain language chosen so young children could picture the scene.\n\nSet the following year to a tune called \"Irby\" by organist Henry Gauntlett, the hymn's central claim is one of paradox: that \"our Lord Jesus Christ\" was born not into royal wealth but into poverty, \"with the poor and mean and lowly,\" so that he might share fully in human life before revealing \"His glory\" as Lord.\n\nSince 1919, the hymn has opened the annual Festival of Nine Lessons and Carols at King's College, Cambridge, sung as a processional with a single boy chorister singing the first verse alone before the full choir and congregation join. That format, still broadcast worldwide each Christmas Eve, has made \"Once in Royal David's City\" one of the most recognisable Christmas hymns in the English language — its final verses looking beyond the manger to the promise that all who trust this same Christ \"shall see Him\" in glory.",
+    "family_story": "[[Cecil Frances Alexander|cecil-frances-alexander]] wrote \"Once in Royal David's City\" in 1848, based on the Christmas story from the Bible. It describes how Jesus, though he is God's Son, was born as a poor baby in a stable, not in a palace.\n\nA year later, a composer named Henry Gauntlett wrote music for the words.\n\nSince 1919, this carol has opened a famous Christmas service every year at King's College, Cambridge, in England, sung on television and radio around the world. It reminds us that Jesus came humbly as a baby so that one day we could see him in his full glory.",
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "there-is-a-green-hill-far-away",
+    "title": "There Is a Green Hill Far Away",
+    "person_id": "cecil-frances-alexander",
+    "year": "1848",
+    "scripture_basis": "Isaiah 53:5-6",
+    "topics": [
+      "cross",
+      "children",
+      "worship"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/There_Is_a_Green_Hill_Far_Away",
+    "adult_story": "[[Cecil Frances Alexander|cecil-frances-alexander]] wrote \"There Is a Green Hill Far Away\" in 1848 for Hymns for Little Children, to explain the Apostles' Creed clause \"suffered under Pontius Pilate, was crucified, dead, and buried.\" Rather than naming Golgotha directly, Alexander pictured a simple green hill \"without a city wall,\" so that children anywhere could imagine the place where \"the dear Lord was crucified, / Who died to save us all.\"\n\nThe hymn states the doctrine of the atonement in plain terms suited to a child's understanding: \"There was no other good enough / To pay the price of sin,\" and \"He died that we might be forgiven, / He died to make us good\" — Christ's death as a payment for sin that no other sacrifice, and no effort of the singer's own, could accomplish. The hymn's closing prayer asks not for the child's own merit to be recognised but for love and trust in return: \"O dearly, dearly has He loved, / And we must love Him too.\"\n\nSet most often to William Horsley's 1844 tune \"Horsley,\" it became one of the standard hymns of Passiontide in English-speaking churches. The French composer Charles Gounod, on hearing it in 1871, is reported to have called it the most perfect hymn in the English language — high praise for a hymn written, in the first place, simply to help children understand why Christ died.",
+    "family_story": "[[Cecil Frances Alexander|cecil-frances-alexander]] wrote \"There Is a Green Hill Far Away\" in 1848 to help children understand why Jesus died on the cross.\n\nThe song doesn't name the real hill where Jesus was crucified. Instead, it pictures \"a green hill far away,\" so that any child, anywhere, could imagine the place where Jesus died to save us.\n\nThe words are simple but important: Jesus died because nothing else could pay for sin — not our good behaviour, not anything we could do ourselves. He did it because he loves us, and the hymn asks us to love him back.",
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "i-bind-unto-myself-today",
+    "title": "I Bind Unto Myself Today (St Patrick's Breastplate)",
+    "person_id": "cecil-frances-alexander",
+    "year": "1889",
+    "scripture_basis": "Ephesians 6:10-18",
+    "topics": [
+      "doctrine",
+      "worship",
+      "faith"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/St_Patrick%27s_Breastplate",
+    "adult_story": "[[Cecil Frances Alexander|cecil-frances-alexander]] wrote \"I Bind Unto Myself Today,\" commonly known as \"St Patrick's Breastplate,\" in 1889 at the request of Dean H. H. Dickinson, who asked her to provide a metrical English version of the ancient Irish prayer traditionally attributed to Saint Patrick, known as the \"Lorica,\" to fill a gap in the Church of Ireland's hymnal. Dickinson supplied her with the best available prose translations of the Old Irish text, dated by scholars to around the eighth century and preserved in the eleventh-century Liber Hymnorum.\n\nAlexander's version keeps the ancient prayer's structure: an invocation of the Trinity, a recitation of Christ's incarnation, baptism, crucifixion, burial, resurrection, and ascension as the ground of the singer's faith, and a plea for Christ's protection — \"Christ with me, Christ before me, Christ behind me... Christ in the heart of every man who thinks of me.\" Rather than asking for protection through charms or private merit, the hymn roots all safety in the historic facts of Christ's saving work and in the Trinity's presence with the believer.\n\nSet to music by Charles Villiers Stanford in 1902 using two traditional Irish melodies, \"St Patrick\" and \"Gartan,\" the hymn remains sung at Saint Patrick's Day and Trinity Sunday services across many denominations — a nineteenth-century woman's translation carrying a fifteen-hundred-year-old prayer of protection grounded entirely in who Christ is and what he has done.",
+    "family_story": "In 1889, a church leader asked [[Cecil Frances Alexander|cecil-frances-alexander]] to turn a very old Irish prayer into a hymn that people could sing. The prayer was said to go back to Saint Patrick himself, hundreds of years earlier.\n\nCecil's hymn, called \"I Bind Unto Myself Today,\" asks for God's protection by remembering everything Jesus has done — his birth, his death on the cross, and his coming back to life.\n\nIt includes the famous words \"Christ with me, Christ before me, Christ behind me\" — reminding us that our safety comes from Jesus being with us always, not from anything we do ourselves.",
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",

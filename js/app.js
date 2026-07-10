@@ -17,6 +17,7 @@ let allPeople = [];
 let allPlaces = [];
 let randomOrder = [];
 let pageviews = {};
+let hymnPageviews = {};
 let allQuiz = [];
 let allVerses = {};
 let allHymns = [];
@@ -668,8 +669,10 @@ async function loadPageviews() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     pageviews = data.views || {};
+    hymnPageviews = data.hymn_views || {};
   } catch (err) {
     pageviews = {};
+    hymnPageviews = {};
   }
 }
 
@@ -1391,6 +1394,10 @@ function hymnCardHtml(hymn) {
   const tags = (hymn.topics || [])
     .map(t => `<span class="topic-tag">${escapeHtml(t)}</span>`)
     .join('');
+  const viewCount = hymnPageviews[hymn.id] || 0;
+  const viewsHtml = viewCount
+    ? `<span class="card-view-count" title="${viewCount.toLocaleString()} page ${viewCount === 1 ? 'view' : 'views'}">&#128065; ${viewCount.toLocaleString()}</span>`
+    : '';
 
   return `
     <article class="person-card hymn-card" role="listitem" onclick="window.location='hymn.html?id=${escapeHtml(hymn.id)}'">
@@ -1404,7 +1411,7 @@ function hymnCardHtml(hymn) {
         ${writerName ? `<p class="card-meta">${escapeHtml(writerName)}</p>` : ''}
         <p class="card-meta">${escapeHtml(hymn.scripture_basis)}</p>
         <div class="card-topics">${tags}</div>
-        <div class="card-badge">${badge}</div>
+        <div class="card-badge">${badge}${viewsHtml}</div>
       </div>
     </article>
   `;
@@ -1430,6 +1437,7 @@ function applyHymnSortOrder(hymns) {
       return (wa ? wa.name : '').localeCompare(wb ? wb.name : '');
     });
   }
+  if (sort === 'popularity') return hymns.slice().sort((a, b) => (hymnPageviews[b.id] || 0) - (hymnPageviews[a.id] || 0));
   return hymns;
 }
 
