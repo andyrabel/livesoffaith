@@ -2322,7 +2322,7 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Wurmbrand",
     "source_summary": "Richard Wurmbrand (1909–2001) was a Romanian Lutheran pastor of Jewish background who was imprisoned and tortured by the Communist regime in Romania for fourteen years, including three years in solitary confinement. He founded Voice of the Martyrs in 1967 and wrote Tortured for Christ (1967).",
     "adult_story": "Richard Wurmbrand was born in Bucharest, Romania in 1909 to a Jewish family. In his early adult years he was a Communist and an atheist. His conversion came in the 1930s through the witness of a Romanian peasant carpenter and an Anglican missionary.\n\nDuring the Nazi occupation he worked clandestinely to shelter Jewish people and minister to German soldiers. When the Communists took power, he continued underground church work. On 29 February 1948 he was arrested and held for fourteen years — three in complete solitary confinement underground, subjected to systematic torture designed to break the human person entirely.\n\nReleased in 1964 and ransomed to the West, he founded Voice of the Martyrs in 1967 and wrote Tortured for Christ. He died in 2001 at ninety-one, saying that in the worst of what he had endured, Christ was present.",
-    "family_story": "Richard Wurmbrand was born in Romania in 1909 to a Jewish family. For a time he did not believe in God. But he heard about Jesus and became a Christian — and so did his wife Sabina.\n\nWhen the Communist government took over Romania, Richard kept meeting with Christians in secret. In 1948 he was arrested and spent fourteen years in prison — three of them in complete solitary confinement underground. They tried to break his faith. They could not.\n\nAfter his release he wrote Tortured for Christ and started Voice of the Martyrs to help persecuted Christians everywhere.\n\nHe said that even in the darkest cell, Christ was with him.",
+    "family_story": "Richard Wurmbrand was born in Romania in 1909 to a Jewish family. For a time he did not believe in God. But he heard about Jesus and became a Christian — and so did his wife [[Sabina Wurmbrand|sabina-wurmbrand]].\n\nWhen the Communist government took over Romania, Richard kept meeting with Christians in secret. In 1948 he was arrested and spent fourteen years in prison — three of them in complete solitary confinement underground. They tried to break his faith. They could not.\n\nAfter his release he wrote Tortured for Christ and started Voice of the Martyrs to help persecuted Christians everywhere.\n\nHe said that even in the darkest cell, Christ was with him.",
     "image": {
       "file": "richard-wurmbrand.jpg",
       "prompt_used": "Single front-facing portrait of Richard Wurmbrand, Romanian Lutheran pastor of Jewish background, circa 1940s, wearing a plain dark suit, dignified and resilient expression, historically accurate to wartime Romania, one person only, head and shoulders, no side view",
@@ -12719,6 +12719,77 @@
     "family_story": "Kristyn Getty grew up in Belfast, Northern Ireland. In 2002, her uncle introduced her to a musician named Keith Getty, and the two married in 2004.\n\nKristyn writes and sings hymns with Keith. In 2003 they wrote \"There Is a Higher Throne\" together, a song about everyone who loves Jesus one day standing before his throne in heaven, forgiven and made clean — not because of anything they did, but because of Jesus.\n\nKristyn's clear singing voice has carried songs like \"In Christ Alone\" to churches all over the world. She and Keith started a yearly conference called Sing!, encouraging churches everywhere to keep singing about Jesus together.",
     "image": null,
     "memorials": [],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "sabina-wurmbrand",
+    "name": "Sabina Wurmbrand",
+    "born": 1913,
+    "born_approximate": false,
+    "died": 2000,
+    "significant_dates": [
+      {
+        "date": "Jul 10, 1913",
+        "event": "birth",
+        "details": "Born Sabina Oster in Czernowitz, Austria-Hungary."
+      },
+      {
+        "date": "1936",
+        "event": "other",
+        "details": "Married Richard Wurmbrand in Bucharest."
+      },
+      {
+        "date": "1938",
+        "event": "saved",
+        "details": "Converted to Christianity together with Richard Wurmbrand."
+      },
+      {
+        "date": "1951",
+        "event": "other",
+        "details": "Imprisoned for three years in a labour camp on the Danube-Black Sea Canal."
+      },
+      {
+        "date": "1967",
+        "event": "other",
+        "details": "Co-founded Jesus to the Communist World, later Voice of the Martyrs."
+      },
+      {
+        "date": "Aug 20, 2000",
+        "event": "death",
+        "details": "Died of liver cancer in Tijuana, Mexico, aged 87."
+      }
+    ],
+    "nationality": "Romanian",
+    "era": "20th Century",
+    "region": "Europe",
+    "tradition": "Lutheran evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "persecution",
+      "suffering",
+      "faithfulness",
+      "perseverance"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sabina_Wurmbrand",
+    "source_summary": "Sabina Wurmbrand (1913-2000) was a Romanian Christian of Jewish background who, with her husband Richard, was converted in 1938 and helped found a Jewish-Christian congregation in Bucharest. She was imprisoned for three years under Communist rule, later emigrated to the West, co-founded Jesus to the Communist World (Voice of the Martyrs) in 1967, and wrote the memoir The Pastor's Wife (1970).",
+    "adult_story": "Sabina Wurmbrand (born Sabina Oster) was born in 1913 into an observant Jewish family in Czernowitz, Austria-Hungary. After studying languages in Paris, she returned to Romania, married [[Richard Wurmbrand|richard-wurmbrand]] in 1936, and in 1938 the couple were converted to Christ — trusting not in inherited religion or personal merit but in salvation by grace through faith in Jesus alone. Together they founded a Jewish-Christian congregation in Bucharest that grew to over a thousand converts.\n\nWhen Communist rule turned against the churches, Sabina carried Scripture to Soviet soldiers and sheltered persecuted believers. She was imprisoned herself from 1951 to 1954 in a labour camp on the Danube-Black Sea Canal, leaving their young son Mihai in a friend's care. While she served her sentence, secret police staged a false account of Richard's death, hoping despair would break her; it did not. Richard remained imprisoned until 1964, when a ransom secured the family's passage to the West.\n\nIn California, Sabina and Richard founded Jesus to the Communist World, later Voice of the Martyrs, to support persecuted Christians worldwide, and in 1970 she published her own account, The Pastor's Wife. She died in 2000. She is remembered not merely as \"the pastor's wife\" but as a woman whose own suffering and quiet faith in Christ testified that grace sustains even when every human comfort is stripped away.",
+    "family_story": "Sabina Wurmbrand grew up in a Jewish family in Romania. In 1936 she married [[Richard Wurmbrand|richard-wurmbrand]], and two years later they both put their trust in Jesus as their Savior.\n\nWhen Communist leaders took over Romania, they hated Christians. Sabina helped believers in secret and was sent to a prison labor camp for three years. She had to leave her little son, Mihai, with a friend. While there, guards lied and told her Richard had died — but she kept trusting God anyway.\n\nRichard was finally freed in 1964, and the family moved to America. Sabina wrote a book about what had happened to her, and she and Richard started a ministry to help Christians suffering for their faith, just as they once had.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Sabina Wurmbrand — Rose Hills Memorial Park, Whittier",
+        "address": "Rose Hills Memorial Park, 3888 Workman Mill Road, Whittier, CA 90601, USA",
+        "lat": 34.0156,
+        "lng": -118.0379
+      }
+    ],
     "review": {
       "human_reviewed": false,
       "reviewed_by": "",

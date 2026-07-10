@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-09. 151 people.
+Generated 2026-07-10. 152 people.
 
 ---
 
@@ -590,11 +590,11 @@ Nationality: American · Tradition: Evangelical (Southern Gospel) · Region: Nor
 Topics: grace, suffering, forgiveness, gospel music
 Hymns: We Shall Behold Him, He Looked Beyond My Fault and Saw My Need, I Go to the Rock
 
-Dottie Rambo was born Joyce Reba Luttrell in 1934 in Madisonville, Kentucky, into a poor family. At twelve she committed her life to Christ against her father's wishes and left home to pursue gospel music. At sixteen she married Buck Rambo at a revival meeting, and together with their daughter Reba they formed The Singing Rambos, touring for decades — including a 1967 tour singing for American troops in Vietnam aboard the carriers USS Kitty Hawk and USS Ticonderoga.
+Dottie Rambo was born Joyce Reba Luttrell in 1934 in Madisonville, Kentucky, into a poor family. At twelve she committed her life to Christ despite her father's opposition, and as a teenager left home to follow God's call to ministry. At sixteen she married Buck Rambo, and together with their daughter Reba they formed The Singing Rambos, touring for decades — including a 1967 ministry tour to American troops in Vietnam, with performances aboard the aircraft carriers USS Kitty Hawk and USS Ticonderoga.
 
-Rambo wrote more than 2,500 songs across her lifetime, among them “We Shall Behold Him,” “I Go to the Rock,” and “He Looked Beyond My Fault and Saw My Need” — a hymn whose title states the gospel outright: that Christ does not wait for us to become worthy before loving us. A ruptured disk left her temporarily paralyzed in 1987, and her marriage ended in divorce in 1994, but she kept writing until her final years, releasing new work in her sixties after a long silence.
+Rambo wrote more than 2,500 gospel songs, among them “We Shall Behold Him,” “I Go to the Rock,” and “He Looked Beyond My Fault and Saw My Need” — a hymn that proclaims the heart of the gospel: Christ does not wait for us to become worthy before loving us. A ruptured disc left her temporarily unable to walk in 1987, and her marriage ended in divorce in 1994, but she continued writing and recording through the later years of her life.
 
-She died in 2008 in a tour bus accident on her way to a Mother's Day concert. At her funeral, a flag that had flown over the White House was presented in her honor — a public tribute to a woman whose songs had already told the truer story: that whatever a person's fault, God looks beyond it to the need beneath, and meets that need in Christ.
+She died in 2008 in a tour bus accident while travelling to a Mother's Day concert. At her funeral, her family was presented with a flag that had flown over the White House — a fitting tribute to a woman whose songs had already told the greater story: that whatever our fault, God looks beyond it to our deepest need, and meets that need in Christ.
 
 ---
 
@@ -2073,6 +2073,21 @@ Rosetta Sherwood Hall was born in 1865 in Liberty, New York, and trained as a do
 Her infant daughter Edith died of dysentery soon after their return. Rather than retreat, Rosetta founded a children's medical ward in Edith's name, then went on to establish the Pyongyang School for the Deaf and Blind in 1909, pioneering Korean Braille, and in 1928 co-founded Korea's first women's medical school. She served Korea for forty-four years. Her son Sherwood Hall later became a missionary doctor himself, launching Korea's first Christmas Seals campaign against tuberculosis.
 
 Rosetta could have called her husband's death, and her daughter's, reasons to stop. Instead she turned grief into decades of gospel-shaped service, trusting that the God who had not spared her losses was still worth giving her whole life to — not because service earns His favor, but because grace received is grace given away.
+
+---
+
+## Sabina Wurmbrand (1913–2000)
+
+URL: https://livesoffaith.org/person.html?id=sabina-wurmbrand
+Wikipedia: https://en.wikipedia.org/wiki/Sabina_Wurmbrand
+Nationality: Romanian · Tradition: Lutheran evangelical · Region: Europe · Era: 20th Century
+Topics: persecution, suffering, faithfulness, perseverance
+
+Sabina Wurmbrand (born Sabina Oster) was born in 1913 into an observant Jewish family in Czernowitz, Austria-Hungary. After studying languages in Paris, she returned to Romania, married Richard Wurmbrand in 1936, and in 1938 the couple were converted to Christ — trusting not in inherited religion or personal merit but in salvation by grace through faith in Jesus alone. Together they founded a Jewish-Christian congregation in Bucharest that grew to over a thousand converts.
+
+When Communist rule turned against the churches, Sabina carried Scripture to Soviet soldiers and sheltered persecuted believers. She was imprisoned herself from 1951 to 1954 in a labour camp on the Danube-Black Sea Canal, leaving their young son Mihai in a friend's care. While she served her sentence, secret police staged a false account of Richard's death, hoping despair would break her; it did not. Richard remained imprisoned until 1964, when a ransom secured the family's passage to the West.
+
+In California, Sabina and Richard founded Jesus to the Communist World, later Voice of the Martyrs, to support persecuted Christians worldwide, and in 1970 she published her own account, The Pastor's Wife. She died in 2000. She is remembered not merely as "the pastor's wife" but as a woman whose own suffering and quiet faith in Christ testified that grace sustains even when every human comfort is stripped away.
 
 ---
 

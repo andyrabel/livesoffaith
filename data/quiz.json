@@ -2001,5 +2001,23 @@
     "answer": "An OBE (Officer of the Order of the British Empire)",
     "person_id": "keith-getty",
     "difficulty": 3
+  },
+  {
+    "question": "What book did Sabina Wurmbrand write about her experiences of Communist persecution in Romania?",
+    "answer": "The Pastor's Wife",
+    "person_id": "sabina-wurmbrand",
+    "difficulty": 3
+  },
+  {
+    "question": "How many years was Sabina Wurmbrand imprisoned in a labour camp on the Danube-Black Sea Canal?",
+    "answer": "Three years (1951-1954)",
+    "person_id": "sabina-wurmbrand",
+    "difficulty": 3
+  },
+  {
+    "question": "What organization did Sabina and Richard Wurmbrand found in 1967 to support persecuted Christians worldwide?",
+    "answer": "Jesus to the Communist World, later known as Voice of the Martyrs",
+    "person_id": "sabina-wurmbrand",
+    "difficulty": 1
   }
 ]
