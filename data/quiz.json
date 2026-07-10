@@ -1968,5 +1968,38 @@
     "answer": "The Living Bible",
     "person_id": "kenneth-taylor",
     "difficulty": 1
+  },
+  {
+    "question": "Which two songwriters co-wrote the hymn \"In Christ Alone\" in 2001?",
+    "answer": "Keith Getty and Stuart Townend",
+    "person_id": "keith-getty",
+    "hymn_id": "in-christ-alone",
+    "difficulty": 3
+  },
+  {
+    "question": "What country are Keith and Kristyn Getty from?",
+    "answer": "Northern Ireland",
+    "person_id": "keith-getty",
+    "difficulty": 1
+  },
+  {
+    "question": "In 2013, what line did Keith Getty and Stuart Townend refuse to change in \"In Christ Alone\" for a hymnal committee?",
+    "answer": "\"The wrath of God was satisfied\"",
+    "person_id": "keith-getty",
+    "hymn_id": "in-christ-alone",
+    "difficulty": 5
+  },
+  {
+    "question": "What hymn did Keith Getty and Kristyn Lennox (later Getty) co-write together in 2003?",
+    "answer": "\"There Is a Higher Throne\"",
+    "person_id": "kristyn-getty",
+    "hymn_id": "there-is-a-higher-throne",
+    "difficulty": 3
+  },
+  {
+    "question": "What honor did Keith Getty receive from Queen Elizabeth II in 2018?",
+    "answer": "An OBE (Officer of the Order of the British Empire)",
+    "person_id": "keith-getty",
+    "difficulty": 3
   }
 ]

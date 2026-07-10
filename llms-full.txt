@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-09. 149 people.
+Generated 2026-07-09. 151 people.
 
 ---
 
@@ -1507,6 +1507,22 @@ Widowed in 1546, she lost much of Luther's estate to legal disputes and fled Wit
 
 ---
 
+## Keith Getty (b. 1974)
+
+URL: https://livesoffaith.org/person.html?id=keith-getty
+Wikipedia: https://en.wikipedia.org/wiki/Keith_Getty
+Nationality: Northern Irish · Tradition: Reformed evangelical · Region: UK/Ireland · Era: 21st Century
+Topics: hymn writing, worship, cross, grace
+Hymns: In Christ Alone, The Power of the Cross, Speak, O Lord, There Is a Higher Throne
+
+Keith Getty was born on 16 December 1974 in Lisburn, Northern Ireland, the eldest of four children of John and Helen Getty, both musicians in the Irish Presbyterian tradition. He trained classically on flute and guitar, studied at Durham University, and by his twenties had begun writing songs for his small Baptist congregation, convinced the church needed new hymns as theologically substantial as the old ones.
+
+In 2001 he wrote the tune for "In Christ Alone," with words by English songwriter Stuart Townend — their first collaboration, and the start of what has become known as the modern hymn movement. Getty went on to co-write "The Power of the Cross" (2005) and "Speak, O Lord" (2006) with Townend, and continues to compose with his wife, Kristyn, and others through Getty Music and the annual Sing! conference. "In Christ Alone" alone is reckoned to be sung by around 100 million people worldwide each year.
+
+When a Presbyterian Church (USA) hymnal committee asked in 2013 to print "In Christ Alone" with an altered line — replacing "the wrath of God was satisfied" with "the love of God was magnified" — Getty and Townend refused permission, and the committee excluded the song rather than change it. The line they defended is the hymn's theological center: that on the cross, God's own justice against sin was fully met in Christ, so that sinners are reconciled to him not by their own effort but by what Christ alone accomplished there.
+
+---
+
 ## Keith Green (1953–1982)
 
 URL: https://livesoffaith.org/person.html?id=keith-green
@@ -1537,6 +1553,22 @@ Taylor and his wife, Margaret, raised ten children, and each evening the family 
 When publishers repeatedly declined the manuscript, Taylor and his wife used their own savings in 1962 to found Tyndale House Publishers and print it themselves as Living Letters, a paraphrase of the New Testament epistles. The complete Living Bible followed in 1971, becoming the best-selling book in the United States in 1972 and 1973 and eventually selling more than forty million copies worldwide.
 
 Taylor never intended the Living Bible to replace careful study of Scripture in its original languages; he described it simply as a paraphrase meant to make the Bible's meaning clear to ordinary readers, especially children — an aim that began, and never really left, his own living room.
+
+---
+
+## Kristyn Getty (b. 1980)
+
+URL: https://livesoffaith.org/person.html?id=kristyn-getty
+Wikipedia: https://en.wikipedia.org/wiki/Kristyn_Getty
+Nationality: Northern Irish · Tradition: Reformed evangelical · Region: UK/Ireland · Era: 21st Century
+Topics: hymn writing, worship, grace, hope
+Hymns: There Is a Higher Throne
+
+Kristyn Getty (née Lennox) was born on 22 May 1980 in Belfast, Northern Ireland, and educated at Ballyclare High School. In 2002 she was introduced to fellow Irish musician Keith Getty by her uncle, the mathematician and Christian apologist John Lennox; the two married on 16 June 2004 and have written and performed together since.
+
+Kristyn is a hymn writer in her own right — she co-wrote "There Is a Higher Throne" with Keith in 2003, drawn from Revelation's vision of the multitude gathered before God's throne, and has since contributed lyrics to dozens more congregational songs. She is also the distinctive vocal lead on the Gettys' recordings, carrying "In Christ Alone" and their other hymns to congregations worldwide; their music is reckoned to be sung around 100 million times a year. Together the Gettys founded Getty Music and the annual Sing! conference in Nashville, aimed at restoring congregational singing to the center of church life, and in 2019 both were named Fellows of the Royal School of Church Music.
+
+"There Is a Higher Throne" pictures every tribe and nation gathered around Christ's throne, "clothed in garments white as snow," their praise offered not on the ground of their own righteousness but because the Lamb who was slain has made them so — grace alone lifting sinners into the presence of a holy God.
 
 ---
 
@@ -2440,7 +2472,7 @@ His faith was not incidental to his political work — it was its source. His li
 
 # Hymn Stories
 
-The documented history behind 63 individual hymns — who wrote them, when, and the Scripture that shaped them.
+The documented history behind 66 individual hymns — who wrote them, when, and the Scripture that shaped them.
 
 ---
 
@@ -2873,6 +2905,22 @@ Charles Albert Tindley, a Methodist pastor born to an enslaved father in Marylan
 Decades later, the hymn's melody and refrain were reworked by labor and civil rights organisers, most directly associated with the Highlander Folk School, into "We Shall Overcome" -- the anthem that became inseparable from the American civil rights movement of the 1950s and 1960s. The transformation changed "I'll" to "We" and shifted register from personal endurance to collective hope, but the root remains Tindley's original hymn of faith under pressure.
 
 Tindley wrote dozens of hymns from the same pastoral concern -- that ordinary, suffering believers needed hymns that named hardship honestly while still pointing to a Christ who overcomes it with them.
+
+---
+
+## In Christ Alone (2001)
+
+URL: https://livesoffaith.org/hymn.html?id=in-christ-alone
+Writer: Keith Getty (https://livesoffaith.org/person.html?id=keith-getty)
+Scripture basis: Romans 3:25-26
+Wikipedia: https://en.wikipedia.org/wiki/In_Christ_Alone_(song)
+Topics: hymn writing, grace, redemption, cross
+
+"In Christ Alone" was written in 2001 by English songwriter Stuart Townend, who wrote the words, and Irish composer Keith Getty, who wrote the music — the first time either man had collaborated with another writer. It was Townend's and Keith Getty's opening statement in what became known as the modern hymn movement: an attempt to write new congregational songs with the theological weight of the old ones.
+
+The hymn is a compressed creed, tracing Christ's life from incarnation ("born of a virgin") through his crucifixion, resurrection, and return, and grounding the singer's confidence entirely in him — "no guilt in life, no fear in death, this is the power of Christ in me." It has since been named the third most popular hymn in Britain by the BBC's Songs of Praise and was sung at Justin Welby's 2013 enthronement as Archbishop of Canterbury.
+
+In 2013, a Presbyterian Church (USA) hymnal committee asked to include the song but wanted the line "till on that cross as Jesus died, the wrath of God was satisfied" changed to "the love of God was magnified." Townend and Getty declined, and the committee left the hymn out of their hymnal rather than alter it. The line they preserved states plainly what the whole hymn is about: that God's own justice against sin was fully answered at the cross, so that everything a sinner needs — forgiveness, righteousness, life itself — is found in Christ alone, not in any work of their own.
 
 ---
 
@@ -3326,6 +3374,22 @@ First sung that evening in Edinburgh, the tune Sankey improvised under pressure 
 
 ---
 
+## The Power of the Cross (2005)
+
+URL: https://livesoffaith.org/hymn.html?id=the-power-of-the-cross
+Writer: Keith Getty (https://livesoffaith.org/person.html?id=keith-getty)
+Scripture basis: Isaiah 53:4-6
+Wikipedia: https://en.wikipedia.org/wiki/Keith_Getty
+Topics: hymn writing, cross, redemption, sacrifice
+
+Keith Getty and Stuart Townend wrote "The Power of the Cross" in 2005, four years after their first collaboration on "In Christ Alone." Where that earlier hymn surveys the whole of Christ's life, death, and resurrection, this one dwells specifically on Good Friday — tracing Jesus's journey to Calvary verse by verse, from Pilate's judgment hall to the nails, the crown of thorns, and his final cry.
+
+Its scripture basis is broad: the Gospel passion narratives (Matthew 27, Mark 15, Luke 23, John 19) read alongside the Old Testament's Suffering Servant prophecy in Isaiah 53 and Paul's teaching on the cross in Romans and 1–2 Corinthians. The refrain names what those passages together declare — "this the power of the cross: Christ became sin for us; took the blame, bore the wrath; we stand forgiven at the cross" — the same substitutionary theology at the heart of "In Christ Alone."
+
+The hymn's closing verse turns from Christ's suffering to his victory — "now the daylight seals him in, silence speaks the peace of God... this the power of the cross, Son of God — slain for us" — refusing to let the cross remain only a scene of horror. It is written, like the rest of Getty and Townend's work, as an act of congregational teaching: ordinary Christians singing the doctrine of the atonement in their own words, on the ground that Christ's finished work, not their own effort, is what forgives them.
+
+---
+
 ## The Servant King (1983)
 
 URL: https://livesoffaith.org/hymn.html?id=the-servant-king
@@ -3387,6 +3451,22 @@ Cecil Frances Alexander wrote "There Is a Green Hill Far Away" in 1848 for Hymns
 The hymn states the doctrine of the atonement in plain terms suited to a child's understanding: "There was no other good enough / To pay the price of sin," and "He died that we might be forgiven, / He died to make us good" — Christ's death as a payment for sin that no other sacrifice, and no effort of the singer's own, could accomplish. The hymn's closing prayer asks not for the child's own merit to be recognised but for love and trust in return: "O dearly, dearly has He loved, / And we must love Him too."
 
 Set most often to William Horsley's 1844 tune "Horsley," it became one of the standard hymns of Passiontide in English-speaking churches. The French composer Charles Gounod, on hearing it in 1871, is reported to have called it the most perfect hymn in the English language — high praise for a hymn written, in the first place, simply to help children understand why Christ died.
+
+---
+
+## There Is a Higher Throne (2003)
+
+URL: https://livesoffaith.org/hymn.html?id=there-is-a-higher-throne
+Writer: Kristyn Getty (https://livesoffaith.org/person.html?id=kristyn-getty)
+Scripture basis: Revelation 7:9-10
+Wikipedia: https://en.wikipedia.org/wiki/Kristyn_Getty
+Topics: hymn writing, hope, worship, grace
+
+"There Is a Higher Throne" was written in 2003 by Keith Getty and Kristyn Getty (then Kristyn Lennox), a year before their marriage and among the earliest hymns to carry both their names as co-writers. Its imagery is drawn directly from the book of Revelation — the throne room visions of chapters 4 and 5, the great multitude of chapter 7 "from every tribe and tongue," and the wedding supper of the Lamb in chapters 19 and 21–22.
+
+The hymn pictures heaven not as a vague reward but as a specific scene: countless people from every nation, "clothed in garments white as snow," gathered around Christ's throne in unbroken worship, their sorrow and struggle finally over. Crucially, the hymn is careful about why they are there and how they are dressed — not through their own righteousness, but because, as Revelation itself says, they have "washed their robes and made them white in the blood of the Lamb."
+
+Written for congregational singing rather than performance, the hymn functions as a hymn of assurance: it gives worshippers, still in the middle of ordinary and often difficult lives, words to anticipate a certain future — one secured entirely by Christ's own sacrifice, held out to all who trust him regardless of nation, status, or record.
 
 ---
 

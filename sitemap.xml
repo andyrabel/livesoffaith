@@ -1407,6 +1407,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://livesoffaith.org/person.html?id=keith-getty</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/person.html?id=kristyn-getty</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://livesoffaith.org/hymn.html?id=amazing-grace</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -1780,6 +1792,24 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=i-bind-unto-myself-today</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=in-christ-alone</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=the-power-of-the-cross</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=there-is-a-higher-throne</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
