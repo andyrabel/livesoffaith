@@ -136,9 +136,11 @@
     "family_story": "John Newton grew up in England. His mother died when he was six, and as a young man he drifted far from God. He worked as part of the cruel slave trade.\n\nOne night, a violent storm nearly sank his ship. Terrified, John cried out to God. Slowly, over months and years, God changed him completely.\n\nJohn became a minister and helped fight to end the slave trade. He wrote a hymn still sung all over the world: Amazing Grace. When he wrote \"a wretch like me,\" he meant it — he knew what he had been, and what grace had done for him.",
     "image": {
       "file": "john-newton.jpg",
+      "prompt_used": "Photorealistic portrait of John Newton, English Anglican minister and hymn writer, late 18th century, wearing dark clerical coat, thoughtful and humble expression, historically accurate to 1780s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:JohnNewtonColour.jpg — contemporary portrait, public domain",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "Contemporary portrait, faithful reproduction of a public-domain artwork — no substantive caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -252,9 +254,11 @@
     "family_story": "When Fanny Crosby was a tiny baby, a doctor made a mistake that left her unable to see for her whole long life.\n\nBut Fanny was not sad about this. She believed God had a plan for her. When she was thirty, she gave her heart to Jesus. After that she started writing hymns — thousands of them! Because she couldn't see, she kept every song in her head and spoke them aloud for someone else to write down.\n\nChurches still sing her hymns today: Blessed Assurance, To God Be the Glory, Safe in the Arms of Jesus. They remind us that we can trust Jesus completely.",
     "image": {
       "file": "fanny-crosby.jpg",
+      "prompt_used": "Photorealistic portrait of Fanny Crosby, American blind hymn writer, late 19th century, wearing Victorian dress, serene and dignified expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Fanny_Crosby.jpg — photograph before 1915, published before 1931, public domain in USA",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "Published before 1931 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -324,9 +328,11 @@
     "family_story": "John Bunyan grew up poor in England. His father mended pots and pans. After years of spiritual struggle, John understood that Jesus had died for his sins, and became a preacher.\n\nBut the King's law said only official ministers were allowed to preach. John refused to stop — and was put in prison for twelve years.\n\nIn prison he wrote The Pilgrim's Progress — a story about a man named Christian who travels from a dangerous city toward a heavenly home. He faces dark valleys and many temptations, but keeps going because Jesus has promised him a place at the end.\n\nPeople have been reading it for three hundred and fifty years.",
     "image": {
       "file": "john-bunyan.jpg",
+      "prompt_used": "Photorealistic portrait of John Bunyan, English Nonconformist preacher and author, 17th century, wearing dark Puritan coat, earnest and weathered expression, historically accurate to 1680s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:John_Bunyan_by_Thomas_Sadler_1684.jpg — portrait by Thomas Sadler, 1684, public domain (author died 1685)",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "Portrait dated 1684 — author died 1685, public domain, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -427,9 +433,11 @@
     "family_story": "Isaac Watts was born in England in 1674. His father had been imprisoned for being a Christian outside the official church.\n\nIsaac noticed that church songs were mostly old Psalms in awkward translations. He thought: shouldn't we also sing about Jesus — the cross, the resurrection?\n\nSo Isaac wrote hymns — over 750 of them. Churches still sing them today: When I Survey the Wondrous Cross, Joy to the World, O God Our Help in Ages Past. His most famous ends with a beautiful surrender: \"Love so amazing, so divine, demands my soul, my life, my all.\"",
     "image": {
       "file": "isaac-watts.jpg",
+      "prompt_used": "Photorealistic portrait of Isaac Watts, English Nonconformist hymn writer, 18th century, wearing dark clerical coat with white cravat, thoughtful and gentle expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Isaac_Watts_from_NPG.jpg — National Portrait Gallery portrait, made available before 1939, public domain",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "National Portrait Gallery portrait made public before 1939 — public domain, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -515,9 +523,11 @@
     "family_story": "Charles Wesley grew up in England, one of nineteen children. His mother [[Susanna|susanna-wesley]] taught all of them carefully about God.\n\nAt university, Charles and his brother [[John|john-wesley]] started a group to study the Bible seriously. But Charles didn't yet truly know Jesus.\n\nThen in 1738, something changed. Charles understood that Jesus had died for him personally, and that he was forgiven. He wrote a hymn about it the very next morning. After that, Charles could not stop — he wrote more than 6,000 hymns! Hark the Herald Angels Sing, O for a Thousand Tongues to Sing, Love Divine All Loves Excelling — still sung today.",
     "image": {
       "file": "charles-wesley.jpg",
+      "prompt_used": "Photorealistic portrait of Charles Wesley, English Methodist hymn writer, 18th century, wearing dark clerical coat, earnest and animated expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Charles_Wesley.jpg — portrait by John Russell, public domain",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "Portrait by John Russell — copyright term (life plus 70 years) long expired, public domain, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -635,9 +645,11 @@
     "family_story": "William Cowper's mother died when he was six, and that sadness stayed with him all his life. As a young man he became deeply ill inside — so ill he nearly ended his life. A kind doctor helped him recover, and reading the Bible brought him to hope in Jesus.\n\nHe moved to Olney, where his friend [[John Newton|john-newton]] was the minister. Together they wrote hymns. William's most famous is God Moves in a Mysterious Way — a song for frightened people, saying: God is doing things we cannot understand, and they will end in blessing.\n\nGod can use even a broken life to bring comfort to others.",
     "image": {
       "file": "william-cowper.jpg",
+      "prompt_used": "Photorealistic portrait of William Cowper, English poet and hymn writer, late 18th century, wearing dark coat, melancholic and gentle expression, historically accurate to 1790s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:William_Cowper_by_Lemuel_Francis_Abbott.jpg — portrait by Lemuel Francis Abbott, 1792, public domain (author died 1803)",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "Portrait dated 1792 — author died 1803, public domain, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -722,9 +734,11 @@
     "family_story": "Augustus Toplady was born in England in 1740. As a teenager in Ireland, he heard a preacher in a barn speak about Jesus — and understood that God saves us by grace, as a free gift, not because of anything we do.\n\nAugustus became a minister and preached with great passion.\n\nHe wrote a hymn called Rock of Ages. A rock is something solid we shelter in during a storm. The most important words: \"Nothing in my hand I bring, simply to Thy cross I cling.\"\n\nAugustus died young at thirty-seven. But his hymn has helped Christians for over 200 years understand that Jesus saves us completely.",
     "image": {
       "file": "augustus-toplady.jpg",
+      "prompt_used": "Photorealistic portrait of Augustus Toplady, English Anglican clergyman and hymn writer, 18th century, wearing dark clerical coat, serious and resolute expression, historically accurate to 1780s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Augustus_Toplady.png — portrait, 1783, published before 1931, public domain in USA",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "Portrait dated 1783, published before 1931 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -809,9 +823,11 @@
     "family_story": "Philip Bliss grew up poor in Pennsylvania. He became a music teacher and later led singing at evangelistic meetings across America.\n\nHe wrote the tune for words a man named [[Horatio Spafford|horatio-spafford]] had written after losing all four of his daughters in a terrible shipwreck: \"It is well, it is well with my soul.\" Those words and that tune became one of the most loved hymns in history — saying that even in the worst suffering, we can trust Jesus.\n\nPhilip died in a train accident at just thirty-eight. But his songs still help people trust Jesus in the hardest times.",
     "image": {
       "file": "philip-bliss.jpg",
+      "prompt_used": "Photorealistic portrait of Philip Paul Bliss, American gospel hymn writer and singer, circa 1870s, wearing dark Victorian suit, warm and earnest expression, historically accurate to 1870s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Ppblisscdv.jpg — carte de visite photograph, published before 1931, public domain in USA",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "Published before 1931 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -906,9 +922,11 @@
     "family_story": "Horatius Bonar grew up in Edinburgh, Scotland, in a family that loved God. He became a minister. When some ministers had to leave the official church to stay true to the gospel, Horatius went with them.\n\nHoratius wrote many hymns — over 600 of them — to help people love Jesus through song.\n\nOne of the most beautiful is I Heard the Voice of Jesus Say. It imagines Jesus giving three invitations: come and rest, come and drink, come into the light. Each time, the person comes to Jesus and finds exactly what was promised.\n\nHoratius spent his whole long life serving his congregation and writing to help people love Jesus more.",
     "image": {
       "file": "horatius-bonar.jpg",
+      "prompt_used": "Photorealistic portrait of Horatius Bonar, Scottish Free Church minister and hymn writer, 19th century, wearing dark clerical coat, dignified and thoughtful expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Horatius_Bonar_from_Disruption_Worthies.png — from Disruption Worthies, 1881, published before 1931, public domain in USA",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "From Disruption Worthies, 1881, published before 1931 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -973,9 +991,11 @@
     "family_story": "Susanna Wesley married a minister and they had nineteen children. Life was often hard — they were poor, and their house burned down once.\n\nBut Susanna was determined to raise each child to know and love Jesus. She spent one hour every week with each child individually — just the two of them — teaching them the Bible and talking about God.\n\nTwo of her sons became very famous: [[John Wesley|john-wesley]], who started the Methodist movement, and [[Charles Wesley|charles-wesley]], who wrote over 6,000 hymns. Both said their mother was the greatest influence on their faith.\n\nSusanna never preached to thousands. She just taught her children faithfully.",
     "image": {
       "file": "susanna-wesley.jpg",
+      "prompt_used": "Photorealistic portrait of Susanna Wesley, English mother of John and Charles Wesley, 18th century, wearing modest Georgian dress, composed and devout expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Susanna_Wesley.jpg — 18th-century portrait, published before 1931, public domain in USA",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "18th-century portrait, published before 1931 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -1047,9 +1067,11 @@
     "family_story": "George Whitefield was born in England in 1714. At university he met the Wesley brothers, and through reading the Bible seriously, George came to understand that Jesus had saved him by grace.\n\nAfter that, George became a preacher. He had a powerful voice and could speak to enormous crowds outdoors — sometimes 20,000 people or more, with no microphone. He travelled back and forth across the Atlantic thirteen times, preaching in England and throughout America. When he preached, people turned to Jesus.\n\nGeorge died in 1770, still preaching right up to the end.",
     "image": {
       "file": "george-whitefield.jpg",
+      "prompt_used": "Photorealistic portrait of George Whitefield, English evangelist and open-air preacher, 18th century, wearing dark clerical coat and academic bands, animated and earnest expression, historically accurate to 1760s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Robert_Hunter_(c.1715-1720-c.1803)_(possibly)_-_Reverend_George_Whitefield_(1714%E2%80%931770),_MA_-_72_-_Mansfield_College.jpg — portrait attributed to Robert Hunter, c. 1760, public domain (author died 1803)",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "Portrait attributed to Robert Hunter, c. 1760 — author died 1803, public domain, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -1152,9 +1174,11 @@
     "family_story": "William Wilberforce was born in England in 1759 and became a Member of Parliament when he was very young. Then he became a Christian and asked: what does God want me to do with this position?\n\nHe decided he had to fight to end the slave trade. Year after year — for twenty years — he argued in Parliament for abolition. Year after year he was defeated. But he did not give up.\n\nIn 1807 the slave trade was abolished. Then in 1833, just before he died, slavery itself was abolished throughout the British Empire.\n\nNever give up doing what is right.",
     "image": {
       "file": "william-wilberforce.jpg",
+      "prompt_used": "Photorealistic portrait of William Wilberforce, English politician and abolitionist, late 18th century, wearing dark formal coat, resolute and compassionate expression, historically accurate to 1790s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:William_wilberforce.jpg — portrait by Anton Hickel, 1794, public domain (author died 1798)",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "Portrait by Anton Hickel, 1794 — author died 1798, public domain, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -1266,9 +1290,11 @@
     "family_story": "George Müller grew up in Germany as a dishonest and selfish young man. But when he was about twenty, he went to a prayer meeting and his life changed. He understood that Jesus had died for his sins and trusted in Him.\n\nGeorge started an orphanage in Bristol, England, and decided he would never ask anyone for money — only ask God.\n\nAgain and again — just when food or money was needed — it arrived. Over sixty years, more than 10,000 children were cared for.\n\nGeorge kept careful records of every prayer and every answer. His life shows not how great George was — but how great God is.",
     "image": {
       "file": "george-muller.jpg",
+      "prompt_used": "Photorealistic portrait of George Müller, Prussian-born English evangelist and orphanage founder, 19th century, wearing dark Victorian coat, kind and resolute expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:George_Muller.jpg — 19th-century photograph, public domain",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "19th-century photograph, public domain — photographer unknown but work long out of copyright, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -1702,9 +1728,11 @@
     "family_story": "Amy Carmichael was born in Ireland in 1867 and went as a missionary to India. There she discovered that some young children were being forced into terrible suffering. Amy decided she would rescue as many as she could.\n\nShe founded the Dohnavur Fellowship — a family home for children who had nowhere safe to go. Hundreds found safety there.\n\nAmy had a serious fall that left her unable to walk well. But she kept writing and leading from her bed. When she died in 1951, the children placed a birdbath on her grave. She had given her life to them, because Jesus had given His life for her.",
     "image": {
       "file": "amy-carmichael.jpg",
+      "prompt_used": "Photorealistic portrait of Amy Carmichael, Irish Protestant missionary to India, early 20th century, wearing simple modest dress, gentle and resolute expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Amy_Carmichael_with_children2.jpg — early 20th-century photograph, published before 1931, public domain in USA",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "Early 20th-century photograph, published before 1931 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -2203,9 +2231,11 @@
     "family_story": "John Hus lived in Bohemia — in what is now the Czech Republic — about 600 years ago. He was a priest who cared deeply about truth.\n\nJohn preached in Czech so ordinary people could understand. He believed the Bible — not the Pope — should be the highest authority in the church. He was put on trial and asked to take back what he had said. He refused, because he believed he was teaching what the Bible taught.\n\nOn 6 July 1415, John Hus was burned at the stake for his faith — a hundred years before the Reformation, one who first carried the torch that others would pick up.",
     "image": {
       "file": "john-hus.jpg",
+      "prompt_used": "Photorealistic portrait of Jan Hus, Bohemian priest and church reformer, early 15th century, wearing dark clerical robes, serious and resolute expression, historically accurate to 1400s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Stimmer_Jan_Hus.jpg — woodcut by Christoph Murer, 1587, public domain (author died over 100 years ago)",
       "caption": "AI-generated image — no copyright claimed",
-      "redistribution_safe": false,
-      "redistribution_note": "No reference image source recorded yet."
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain — author died over 100 years ago, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -10374,7 +10404,7 @@
     ],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Dottie_Rambo",
     "source_summary": "Dottie Rambo (born Joyce Reba Luttrell, 1934-2008) was an American Southern Gospel singer and one of the most prolific hymn writers of the 20th century, credited with over 2,500 songs including \"We Shall Behold Him\" and \"He Looked Beyond My Fault and Saw My Need.\" She died in a tour bus accident in 2008.",
-    "adult_story": "Dottie Rambo was born Joyce Reba Luttrell in 1934 in Madisonville, Kentucky, into a poor family. At twelve she committed her life to Christ against her father's wishes and left home to pursue gospel music. At sixteen she married Buck Rambo at a revival meeting, and together with their daughter Reba they formed The Singing Rambos, touring for decades — including a 1967 tour singing for American troops in Vietnam aboard the carriers USS Kitty Hawk and USS Ticonderoga.\n\nRambo wrote more than 2,500 songs across her lifetime, among them “We Shall Behold Him,” “I Go to the Rock,” and “He Looked Beyond My Fault and Saw My Need” — a hymn whose title states the gospel outright: that Christ does not wait for us to become worthy before loving us. A ruptured disk left her temporarily paralyzed in 1987, and her marriage ended in divorce in 1994, but she kept writing until her final years, releasing new work in her sixties after a long silence.\n\nShe died in 2008 in a tour bus accident on her way to a Mother's Day concert. At her funeral, a flag that had flown over the White House was presented in her honor — a public tribute to a woman whose songs had already told the truer story: that whatever a person's fault, God looks beyond it to the need beneath, and meets that need in Christ.",
+    "adult_story": "Dottie Rambo was born Joyce Reba Luttrell in 1934 in Madisonville, Kentucky, into a poor family. At twelve she committed her life to Christ despite her father's opposition, and as a teenager left home to follow God's call to ministry. At sixteen she married Buck Rambo, and together with their daughter Reba they formed The Singing Rambos, touring for decades — including a 1967 ministry tour to American troops in Vietnam, with performances aboard the aircraft carriers USS Kitty Hawk and USS Ticonderoga.\n\nRambo wrote more than 2,500 gospel songs, among them “We Shall Behold Him,” “I Go to the Rock,” and “He Looked Beyond My Fault and Saw My Need” — a hymn that proclaims the heart of the gospel: Christ does not wait for us to become worthy before loving us. A ruptured disc left her temporarily unable to walk in 1987, and her marriage ended in divorce in 1994, but she continued writing and recording through the later years of her life.\n\nShe died in 2008 in a tour bus accident while travelling to a Mother's Day concert. At her funeral, her family was presented with a flag that had flown over the White House — a fitting tribute to a woman whose songs had already told the greater story: that whatever our fault, God looks beyond it to our deepest need, and meets that need in Christ.",
     "family_story": "Dottie Rambo grew up poor in Kentucky. When she was just twelve, she decided to give her life to Jesus, even though her father didn't want her to. She left home to sing gospel music and never stopped.\n\nShe married young and sang with her husband and daughter as “The Singing Rambos,” even traveling to sing for soldiers during the Vietnam War. Over her life she wrote more than 2,500 songs, including “He Looked Beyond My Fault and Saw My Need.”\n\nThat song says something true about God: he doesn't wait for us to be good enough before he loves us. He looks past our mistakes and meets our need, through Jesus.\n\nDottie died in 2008, but her songs are still sung in churches everywhere.",
     "image": null,
     "memorials": [
@@ -10387,9 +10417,9 @@
       }
     ],
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-09"
     }
   },
   {
