@@ -573,7 +573,7 @@ When building the site proceed in this order:
 - Works well on mobile — worship leaders often use phones or tablets
 - Fast loading — fully static, no external dependencies beyond standard fonts
 - Accessible — good contrast, readable font sizes
-- No advertising, no tracking, no cookies
+- No advertising. Google Analytics is used for page-view tracking (sets analytics cookies); disclosed on the about page — do not describe the site as tracking-free or cookie-free
 - Neutral background, clear typography, portrait images prominent but not dominant
 
 ---
