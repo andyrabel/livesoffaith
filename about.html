@@ -44,14 +44,8 @@
   }
   </script>
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7V501G4W2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-X7V501G4W2');
-  </script>
+  <!-- Google Analytics — gated behind cookie consent, see js/consent.js -->
+  <script src="js/consent.js"></script>
 </head>
 <body>
 
@@ -160,7 +154,11 @@
 
         <h2>No Advertising</h2>
         <p>This site contains no advertising of any kind. It is offered freely for the benefit of the church.</p>
-        <p>We use Google Analytics to understand how many people visit and which pages are most helpful, so we can serve worship leaders and families better. This sets analytics cookies in your browser. We do not sell or share this data, and we do not use it for advertising.</p>
+
+        <h2 id="cookies">Cookies &amp; Analytics</h2>
+        <p>We use Google Analytics to understand how many people visit and which pages are most helpful, so we can serve worship leaders and families better. This sets analytics cookies in your browser. No personally identifiable information is collected or retained, and we do not sell or share this data, or use it for advertising.</p>
+        <p>If your browser indicates you are visiting from the UK, EU, or EEA, you will see a cookie banner on first visit and analytics will only run after you accept. Outside those regions, analytics loads automatically, since prior consent is not legally required there. This region check happens in your browser (via its timezone setting) — no location data is sent anywhere to make the decision.</p>
+        <p>Changed your mind? <button type="button" id="cookie-preferences-link" class="link-button">Manage cookie preferences</button>.</p>
 
       </article>
     </div>
@@ -174,5 +172,13 @@
     </div>
   </footer>
 
+  <script>
+    var cookiePrefsLink = document.getElementById('cookie-preferences-link');
+    if (cookiePrefsLink) {
+      cookiePrefsLink.addEventListener('click', function () {
+        if (window.__lafOpenConsentPreferences) window.__lafOpenConsentPreferences();
+      });
+    }
+  </script>
 </body>
 </html>

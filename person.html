@@ -32,17 +32,12 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="css/style.css">
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7V501G4W2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    // send_page_view disabled here: app.js fires the page_view manually once
-    // the person record loads, so it can attach a stable person_id parameter
-    // for reliable per-person view counts (see injectPersonSeo in app.js).
-    gtag('config', 'G-X7V501G4W2', { send_page_view: false });
-  </script>
+  <!-- Google Analytics — gated behind cookie consent, see js/consent.js.
+       send_page_view disabled: app.js fires the page_view manually once
+       the person record loads, so it can attach a stable person_id parameter
+       for reliable per-person view counts (see injectPersonSeo in app.js). -->
+  <script>window.LAF_GA_CONFIG = { send_page_view: false };</script>
+  <script src="js/consent.js"></script>
 </head>
 <body>
 
