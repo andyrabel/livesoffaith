@@ -343,18 +343,11 @@
     "mutual": true
   },
   {
-    "from": "hugh-latimer",
-    "to": "thomas-cranmer",
-    "label": "imprisoned and tried for heresy together",
-    "type": "martyrdom",
-    "mutual": true
-  },
-  {
     "from": "thomas-cranmer",
     "to": "nicholas-ridley",
-    "label": "appointed as his chaplain (1537); later imprisoned, tried, and martyred together",
-    "type": "martyrdom",
-    "mutual": true
+    "label": "appointed as his chaplain (1537); both later tried for heresy together, though martyred five months apart",
+    "type": "mentorship",
+    "mutual": false
   },
   {
     "from": "augustus-toplady",
