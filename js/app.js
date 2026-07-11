@@ -24,6 +24,26 @@ let allVerses = {};
 let allHymns = [];
 let allHistoricalEvents = [];
 
+// Categorical colour per region, fixed order matching the region filter
+// dropdown (UK/Ireland, North America, Africa, Asia, Latin America, Europe,
+// Oceania) — see the dataviz skill's reference palette; order is the
+// colour-blind-safety mechanism, not cosmetic, so don't re-sort this.
+// Shared by timeline.html (lifespan bars) and person.html (contemporaries).
+const TIMELINE_REGION_COLORS = {
+  'UK/Ireland':    '#2a78d6',
+  'North America': '#1baf7a',
+  'Africa':        '#eda100',
+  'Asia':          '#008300',
+  'Latin America': '#4a3aa7',
+  'Europe':        '#e34948',
+  'Oceania':       '#e87ba4',
+};
+
+const TIMELINE_PX_PER_YEAR = 6;
+const TIMELINE_ROW_HEIGHT = 30;
+const TIMELINE_BAR_HEIGHT = 20;
+const TIMELINE_PRESENT_YEAR = new Date().getFullYear();
+
 const filterState = {
   search: '',
   topic: '',
@@ -238,6 +258,21 @@ function directionsUrl(memorial) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(memorial.address)}`;
 }
 
+function personCardHtml(p) {
+  const years = formatYears(p);
+  const portrait = p.image
+    ? `<img class="related-portrait" src="images/portraits/${escapeHtml(p.image.file)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;related-portrait-placeholder&quot;>${escapeHtml(getInitials(p.name))}</div>'">`
+    : `<div class="related-portrait-placeholder">${escapeHtml(getInitials(p.name))}</div>`;
+  return `
+    <li>
+      <a class="related-person-card" href="person.html?id=${escapeHtml(p.id)}">
+        ${portrait}
+        <span class="related-person-name">${escapeHtml(p.name)}</span>
+        <span class="related-person-dates">${escapeHtml(years)}</span>
+      </a>
+    </li>`;
+}
+
 function relatedPeopleSectionHtml(person) {
   const ids = person.related_people || [];
   if (!ids.length) return '';
@@ -247,25 +282,63 @@ function relatedPeopleSectionHtml(person) {
     .filter(Boolean);
   if (!people.length) return '';
 
-  const items = people.map(p => {
-    const years = formatYears(p);
-    const portrait = p.image
-      ? `<img class="related-portrait" src="images/portraits/${escapeHtml(p.image.file)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;related-portrait-placeholder&quot;>${escapeHtml(getInitials(p.name))}</div>'">`
-      : `<div class="related-portrait-placeholder">${escapeHtml(getInitials(p.name))}</div>`;
-    return `
-      <li>
-        <a class="related-person-card" href="person.html?id=${escapeHtml(p.id)}">
-          ${portrait}
-          <span class="related-person-name">${escapeHtml(p.name)}</span>
-          <span class="related-person-dates">${escapeHtml(years)}</span>
-        </a>
-      </li>`;
-  }).join('');
+  const items = people.map(personCardHtml).join('');
 
   return `
     <div class="person-related">
       <h2 class="person-related-title">&#128279; Related People</h2>
       <ul class="related-list">${items}</ul>
+    </div>
+  `;
+}
+
+// Contemporaries: people whose lifespans overlap this person's, purely by
+// date — no claimed relationship (that's what related_people/Related People
+// is for). Prioritizes same region, then longest overlap, and excludes
+// anyone already surfaced in related_people to avoid duplicating a card.
+function contemporaryCandidates(person, limit) {
+  if (typeof person.born !== 'number') return [];
+  const relatedIds = new Set(person.related_people || []);
+  const pStart = person.born;
+  const pEnd = typeof person.died === 'number' ? person.died : TIMELINE_PRESENT_YEAR;
+
+  return allPeople
+    .filter(p => p.id !== person.id && typeof p.born === 'number' && !relatedIds.has(p.id))
+    .map(p => {
+      const cStart = p.born;
+      const cEnd = typeof p.died === 'number' ? p.died : TIMELINE_PRESENT_YEAR;
+      const overlap = Math.min(pEnd, cEnd) - Math.max(pStart, cStart);
+      return { p, overlap, sameRegion: p.region === person.region };
+    })
+    .filter(x => x.overlap > 0)
+    .sort((a, b) => {
+      if (a.sameRegion !== b.sameRegion) return a.sameRegion ? -1 : 1;
+      return b.overlap - a.overlap;
+    })
+    .slice(0, limit)
+    .map(x => x.p);
+}
+
+function contemporariesSectionHtml(person) {
+  const candidates = contemporaryCandidates(person, 5);
+  if (!candidates.length) return '';
+
+  const pStart = person.born;
+  const pEnd = typeof person.died === 'number' ? person.died : TIMELINE_PRESENT_YEAR;
+  const events = allHistoricalEvents.filter(e => e.year >= pStart && e.year <= pEnd).slice(0, 3);
+  const eventsHtml = events.length
+    ? `<p class="contemporaries-events">Lived through: ${events.map(e => `${escapeHtml(e.label)} (${escapeHtml(e.date)})`).join(', ')}</p>`
+    : '';
+
+  const items = candidates.map(personCardHtml).join('');
+
+  return `
+    <div class="person-related">
+      <h2 class="person-related-title">&#128337; Contemporaries</h2>
+      <p class="contemporaries-note">Others whose lives overlapped in time — not necessarily known connections.</p>
+      ${eventsHtml}
+      <ul class="related-list">${items}</ul>
+      <p class="contemporaries-timeline-link"><a href="timeline.html?year=${pStart}&amp;highlight=${escapeHtml(person.id)}">See ${escapeHtml(person.name)} on the full timeline &rarr;</a></p>
     </div>
   `;
 }
@@ -1278,6 +1351,7 @@ function initPersonPage() {
   const timelineHtml = significantDatesSectionHtml(person);
   const memorialsHtml = memorialsSectionHtml(person);
   const relatedHtml = relatedPeopleSectionHtml(person);
+  const contemporariesHtml = contemporariesSectionHtml(person);
 
   content.innerHTML = `
     <div class="person-header">
@@ -1340,6 +1414,7 @@ function initPersonPage() {
     ${timelineHtml}
     ${memorialsHtml}
     ${relatedHtml}
+    ${contemporariesHtml}
   `;
 
   // Tab switching
@@ -3063,25 +3138,6 @@ function initTourPlanner() {
 // Timeline page (timeline.html) — lifespan comparison chart
 // ============================================================
 
-// Categorical colour per region, fixed order matching the region filter
-// dropdown (UK/Ireland, North America, Africa, Asia, Latin America, Europe,
-// Oceania) — see the dataviz skill's reference palette; order is the
-// colour-blind-safety mechanism, not cosmetic, so don't re-sort this.
-const TIMELINE_REGION_COLORS = {
-  'UK/Ireland':    '#2a78d6',
-  'North America': '#1baf7a',
-  'Africa':        '#eda100',
-  'Asia':          '#008300',
-  'Latin America': '#4a3aa7',
-  'Europe':        '#e34948',
-  'Oceania':       '#e87ba4',
-};
-
-const TIMELINE_PX_PER_YEAR = 6;
-const TIMELINE_ROW_HEIGHT = 30;
-const TIMELINE_BAR_HEIGHT = 20;
-const TIMELINE_PRESENT_YEAR = new Date().getFullYear();
-
 const timelineFilterState = {
   search: '',
   region: '',
@@ -3202,7 +3258,7 @@ function renderTimeline() {
       <a href="person.html?id=${escapeHtml(p.id)}"
          class="timeline-bar${alive ? ' timeline-bar--alive' : ''}"
          style="left:${x}px; top:${top}px; width:${w}px; height:${TIMELINE_BAR_HEIGHT}px; background:${color}"
-         data-tooltip="${escapeHtml(tooltip)}">${showLabel ? `<span class="timeline-bar-label">${escapeHtml(p.name)}</span>` : ''}</a>`;
+         data-tooltip="${escapeHtml(tooltip)}" data-person-id="${escapeHtml(p.id)}">${showLabel ? `<span class="timeline-bar-label">${escapeHtml(p.name)}</span>` : ''}</a>`;
   });
 
   canvas.style.width = `${width}px`;
@@ -3321,6 +3377,32 @@ function initTimelinePage() {
       scrollEl.scrollTo({ left: Math.max(x - 60, 0), behavior: 'smooth' });
     });
   }
+
+  // Arriving from a person page's "See on the full timeline" link —
+  // scroll to and highlight that person's bar, or just jump to a year.
+  const urlParams = new URLSearchParams(window.location.search);
+  const paramHighlight = urlParams.get('highlight');
+  const paramYear = urlParams.get('year');
+  if (paramHighlight || paramYear) {
+    requestAnimationFrame(() => {
+      const scrollEl = document.getElementById('timeline-scroll');
+      const canvas = document.getElementById('timeline-canvas');
+      if (!scrollEl || !canvas) return;
+      const minYear = parseFloat(canvas.dataset.minYear || '0');
+      const targetBar = paramHighlight
+        ? canvas.querySelector(`[data-person-id="${CSS.escape(paramHighlight)}"]`)
+        : null;
+      if (targetBar) {
+        targetBar.classList.add('timeline-bar--highlight');
+        const left = parseFloat(targetBar.style.left) || 0;
+        const top = parseFloat(targetBar.style.top) || 0;
+        scrollEl.scrollTo({ left: Math.max(left - 150, 0), top: Math.max(top - 150, 0) });
+      } else if (paramYear) {
+        const x = (parseInt(paramYear, 10) - minYear) * TIMELINE_PX_PER_YEAR;
+        scrollEl.scrollTo({ left: Math.max(x - 150, 0) });
+      }
+    });
+  }
 }
 
 // ============================================================
@@ -3334,7 +3416,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns()]);
+  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns(), loadHistoricalEvents()]);
 
   if (document.getElementById('person-grid')) {
     initIndexPage();
@@ -3347,7 +3429,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   } else if (document.getElementById('quiz-print-questions')) {
     initQuizPrintPage();
   } else if (document.getElementById('timeline-canvas')) {
-    await loadHistoricalEvents();
     initTimelinePage();
   }
 });
