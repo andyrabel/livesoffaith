@@ -52,11 +52,27 @@
           </span>
         </a>
         <nav class="site-nav" aria-label="Site navigation">
-          <a href="index.html">People</a>
-          <a href="hymns.html">Hymns</a>
-          <a href="timeline.html">Timeline</a>
-          <a href="map.html">Tour Planner</a>
-          <a href="about.html">About</a>
+          <div class="site-nav-links">
+            <a href="index.html">People</a>
+            <a href="hymns.html">Hymns</a>
+            <a href="timeline.html">Timeline</a>
+            <a href="map.html" class="site-nav-cta">Tour Planner</a>
+            <a href="about.html">About</a>
+          </div>
+          <div class="site-nav-mobile">
+            <a href="map.html" class="site-nav-cta">Tour Planner</a>
+            <input type="checkbox" id="nav-menu-toggle" class="site-nav-toggle-input sr-only">
+            <label for="nav-menu-toggle" class="site-nav-hamburger" aria-label="Open menu">
+              <span></span><span></span><span></span>
+            </label>
+            <div class="site-nav-dropdown">
+              <a href="index.html">People</a>
+              <a href="hymns.html">Hymns</a>
+              <a href="timeline.html">Timeline</a>
+              <a href="map.html">Tour Planner</a>
+              <a href="about.html">About</a>
+            </div>
+          </div>
         </nav>
       </div>
     </div>

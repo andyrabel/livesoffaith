@@ -30,7 +30,6 @@
   <link rel="stylesheet" href="css/style.css">
   <style>
     .site-nav { flex-direction: column; align-items: flex-end; gap: 0.2rem; }
-    .site-nav-links { display: flex; gap: 1.5rem; }
     .free-use-notice { text-align: right; }
     .free-use-notice summary {
       display: inline;
@@ -90,8 +89,22 @@
             <a href="index.html" aria-current="page">People</a>
             <a href="hymns.html">Hymns</a>
             <a href="timeline.html">Timeline</a>
-            <a href="map.html">Tour Planner</a>
+            <a href="map.html" class="site-nav-cta">Tour Planner</a>
             <a href="about.html">About</a>
+          </div>
+          <div class="site-nav-mobile">
+            <a href="map.html" class="site-nav-cta">Tour Planner</a>
+            <input type="checkbox" id="nav-menu-toggle" class="site-nav-toggle-input sr-only">
+            <label for="nav-menu-toggle" class="site-nav-hamburger" aria-label="Open menu">
+              <span></span><span></span><span></span>
+            </label>
+            <div class="site-nav-dropdown">
+              <a href="index.html" aria-current="page">People</a>
+              <a href="hymns.html">Hymns</a>
+              <a href="timeline.html">Timeline</a>
+              <a href="map.html">Tour Planner</a>
+              <a href="about.html">About</a>
+            </div>
           </div>
           <details class="free-use-notice">
             <summary>All content is free to use — no attribution required.</summary>

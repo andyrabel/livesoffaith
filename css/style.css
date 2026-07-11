@@ -105,6 +105,7 @@ main {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  flex-shrink: 0;
 }
 
 .site-logo {
@@ -136,7 +137,7 @@ main {
 
 .site-nav {
   display: flex;
-  gap: 1.5rem;
+  align-items: center;
 }
 
 .site-nav a {
@@ -153,6 +154,68 @@ main {
 .site-nav a:hover {
   color: #ffffff;
   border-bottom-color: rgba(255,255,255,0.5);
+}
+
+/* Desktop: full inline link row (includes the Tour Planner CTA pill
+   in place). Hidden on narrow screens in favour of .site-nav-mobile. */
+.site-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Mobile: pinned Tour Planner CTA + hamburger revealing every link
+   (People / Hymns / Timeline / Tour Planner / About). Hidden on
+   desktop — see .site-nav-links above. */
+.site-nav-mobile {
+  display: none;
+  align-items: flex-start;
+  position: relative;
+}
+
+.site-nav-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 32px;
+  height: 32px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.site-nav-hamburger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 1px;
+}
+
+.site-nav-dropdown {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.6rem;
+  background: var(--accent-hover);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius);
+  padding: 0.75rem 1.1rem;
+  gap: 0.65rem;
+  box-shadow: var(--shadow-md);
+  z-index: 30;
+  min-width: 150px;
+}
+
+.site-nav-toggle-input:checked ~ .site-nav-dropdown {
+  display: flex;
+}
+
+.site-nav-toggle-input:focus-visible ~ .site-nav-hamburger {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
 }
 
 /* --- Today Panel (verse / on-this-day / quiz) --------------- */
@@ -2148,6 +2211,33 @@ main {
 
   .site-title__main { font-size: 1.25rem; }
   .site-logo { width: 34px; height: 34px; }
+
+  /* Brand wraps to its own line if needed; nav drops to a full-width
+     row below rather than squeezing both into one row. */
+  .site-header__inner {
+    flex-wrap: wrap;
+    row-gap: 0.6rem;
+  }
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .site-nav-links {
+    display: none;
+  }
+
+  .site-nav-mobile {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .site-nav-hamburger {
+    display: flex;
+  }
 
   .copy-section {
     padding: 1rem;
