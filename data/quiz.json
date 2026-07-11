@@ -2019,5 +2019,35 @@
     "answer": "Jesus to the Communist World, later known as Voice of the Martyrs",
     "person_id": "sabina-wurmbrand",
     "difficulty": 1
+  },
+  {
+    "question": "Who was born first: Martin Luther (1483) or John Calvin (1509)?",
+    "answer": "Martin Luther",
+    "person_id": "martin-luther",
+    "difficulty": 1
+  },
+  {
+    "question": "Who was born first: John Bunyan (1628) or Charles Spurgeon (1834)?",
+    "answer": "John Bunyan",
+    "person_id": "john-bunyan",
+    "difficulty": 1
+  },
+  {
+    "question": "Who was born first: John Newton (1725) or William Wilberforce (1759)?",
+    "answer": "John Newton",
+    "person_id": "john-newton",
+    "difficulty": 1
+  },
+  {
+    "question": "Who was born first: William Carey (1761) or Hudson Taylor (1832)?",
+    "answer": "William Carey",
+    "person_id": "william-carey",
+    "difficulty": 1
+  },
+  {
+    "question": "Who was born first: C.S. Lewis (1898) or Billy Graham (1918)?",
+    "answer": "C.S. Lewis",
+    "person_id": "cs-lewis",
+    "difficulty": 1
   }
 ]
