@@ -10,6 +10,7 @@ const PAGEVIEWS_URL = 'data/pageviews.json';
 const QUIZ_URL = 'data/quiz.json';
 const VERSES_URL = 'data/verses.json';
 const HYMNS_URL = 'data/hymns.json';
+const HISTORICAL_EVENTS_URL = 'data/historical_events.json';
 const STORY_PREF_KEY = 'preferred-story-version';
 const QUIZ_DIFFICULTY_KEY = 'preferred-quiz-difficulty';
 
@@ -21,6 +22,7 @@ let hymnPageviews = {};
 let allQuiz = [];
 let allVerses = {};
 let allHymns = [];
+let allHistoricalEvents = [];
 
 const filterState = {
   search: '',
@@ -656,6 +658,17 @@ async function loadHymns() {
   } catch (err) {
     console.error('Failed to load hymns.json:', err);
     allHymns = [];
+  }
+}
+
+async function loadHistoricalEvents() {
+  try {
+    const res = await fetch(HISTORICAL_EVENTS_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allHistoricalEvents = await res.json();
+  } catch (err) {
+    console.error('Failed to load historical_events.json:', err);
+    allHistoricalEvents = [];
   }
 }
 
@@ -3047,6 +3060,270 @@ function initTourPlanner() {
 }
 
 // ============================================================
+// Timeline page (timeline.html) — lifespan comparison chart
+// ============================================================
+
+// Categorical colour per region, fixed order matching the region filter
+// dropdown (UK/Ireland, North America, Africa, Asia, Latin America, Europe,
+// Oceania) — see the dataviz skill's reference palette; order is the
+// colour-blind-safety mechanism, not cosmetic, so don't re-sort this.
+const TIMELINE_REGION_COLORS = {
+  'UK/Ireland':    '#2a78d6',
+  'North America': '#1baf7a',
+  'Africa':        '#eda100',
+  'Asia':          '#008300',
+  'Latin America': '#4a3aa7',
+  'Europe':        '#e34948',
+  'Oceania':       '#e87ba4',
+};
+
+const TIMELINE_PX_PER_YEAR = 6;
+const TIMELINE_ROW_HEIGHT = 30;
+const TIMELINE_BAR_HEIGHT = 20;
+const TIMELINE_PRESENT_YEAR = new Date().getFullYear();
+
+const timelineFilterState = {
+  search: '',
+  region: '',
+  era: '',
+  topic: '',
+  showEvents: true,
+};
+
+function timelineRegionColor(region) {
+  return TIMELINE_REGION_COLORS[region] || '#6b6360';
+}
+
+function renderTimelineLegend() {
+  const el = document.getElementById('timeline-legend');
+  if (!el) return;
+  const items = Object.entries(TIMELINE_REGION_COLORS).map(([region, color]) => `
+    <span class="timeline-legend__item"><span class="timeline-legend__swatch" style="background:${color}"></span>${escapeHtml(region)}</span>
+  `).join('');
+  el.innerHTML = `${items}<span class="timeline-legend__item"><span class="timeline-legend__swatch timeline-legend__swatch--event"></span>Historical event</span>`;
+}
+
+function timelineFilteredPeople() {
+  const s = timelineFilterState;
+  const search = s.search.toLowerCase();
+  return allPeople.filter(p => {
+    if (typeof p.born !== 'number') return false;
+    if (search && !p.name.toLowerCase().includes(search)) return false;
+    if (s.region && p.region !== s.region) return false;
+    if (s.era && p.era !== s.era) return false;
+    if (s.topic && !(p.topics || []).includes(s.topic)) return false;
+    return true;
+  });
+}
+
+// Greedy interval-scheduling lane assignment: sort by birth year, place each
+// person in the first lane whose previous occupant has already "ended", so
+// overlapping lifespans stack into separate rows instead of colliding.
+function assignTimelineLanes(people) {
+  const sorted = [...people].sort((a, b) => a.born - b.born);
+  const laneEnds = [];
+  const placed = sorted.map(p => {
+    const start = p.born;
+    const end = typeof p.died === 'number' ? p.died : TIMELINE_PRESENT_YEAR;
+    let lane = laneEnds.findIndex(endYear => endYear <= start);
+    if (lane === -1) {
+      lane = laneEnds.length;
+      laneEnds.push(end);
+    } else {
+      laneEnds[lane] = end;
+    }
+    return { person: p, lane, start, end };
+  });
+  return { placed, laneCount: laneEnds.length };
+}
+
+function updateTimelineResultsCount(count) {
+  const el = document.getElementById('timeline-results-count');
+  if (!el) return;
+  el.textContent = `Showing ${count} ${count === 1 ? 'person' : 'people'}`;
+}
+
+function renderTimeline() {
+  const canvas = document.getElementById('timeline-canvas');
+  if (!canvas) return;
+
+  const people = timelineFilteredPeople();
+  updateTimelineResultsCount(people.length);
+
+  if (!people.length) {
+    canvas.style.width = '';
+    canvas.innerHTML = '<p class="timeline-empty">No people match these filters.</p>';
+    return;
+  }
+
+  const { placed, laneCount } = assignTimelineLanes(people);
+  const events = timelineFilterState.showEvents ? allHistoricalEvents : [];
+
+  const born = people.map(p => p.born);
+  const died = people.map(p => typeof p.died === 'number' ? p.died : TIMELINE_PRESENT_YEAR);
+  const eventYears = events.map(e => e.year);
+  const allYears = born.concat(died, eventYears, [TIMELINE_PRESENT_YEAR]);
+
+  const minYear = Math.min(...allYears) - 5;
+  const maxYear = Math.max(...allYears) + 5;
+  const totalYears = maxYear - minYear;
+  const width = Math.round(totalYears * TIMELINE_PX_PER_YEAR);
+  const laneAreaHeight = Math.max(laneCount, 1) * TIMELINE_ROW_HEIGHT + 10;
+
+  const yearToX = y => Math.round((y - minYear) * TIMELINE_PX_PER_YEAR);
+
+  const tickStep = totalYears > 400 ? 50 : totalYears > 150 ? 25 : 10;
+  let ticksHtml = '';
+  for (let y = Math.ceil(minYear / tickStep) * tickStep; y <= maxYear; y += tickStep) {
+    ticksHtml += `<div class="timeline-tick" style="left:${yearToX(y)}px"><span class="timeline-tick-label">${y}</span></div>`;
+  }
+
+  let eventsHtml = '';
+  events.forEach(ev => {
+    if (ev.year < minYear || ev.year > maxYear) return;
+    const x = yearToX(ev.year);
+    const tooltip = `${ev.label} (${ev.date}) — ${ev.description}`;
+    eventsHtml += `
+      <div class="timeline-event-line" style="left:${x}px; height:${laneAreaHeight}px" data-tooltip="${escapeHtml(tooltip)}"></div>
+      <div class="timeline-event-label" style="left:${x}px" data-tooltip="${escapeHtml(tooltip)}">${escapeHtml(ev.label)}</div>
+    `;
+  });
+
+  let barsHtml = '';
+  placed.forEach(({ person: p, lane, start, end }) => {
+    const x = yearToX(start);
+    const w = Math.max(yearToX(end) - x, 4);
+    const top = lane * TIMELINE_ROW_HEIGHT + (TIMELINE_ROW_HEIGHT - TIMELINE_BAR_HEIGHT) / 2;
+    const color = timelineRegionColor(p.region);
+    const alive = typeof p.died !== 'number';
+    const tooltip = `${p.name} — ${formatYears(p)} — ${p.region}, ${p.era}`;
+    const showLabel = w >= 46;
+    barsHtml += `
+      <a href="person.html?id=${escapeHtml(p.id)}"
+         class="timeline-bar${alive ? ' timeline-bar--alive' : ''}"
+         style="left:${x}px; top:${top}px; width:${w}px; height:${TIMELINE_BAR_HEIGHT}px; background:${color}"
+         data-tooltip="${escapeHtml(tooltip)}">${showLabel ? `<span class="timeline-bar-label">${escapeHtml(p.name)}</span>` : ''}</a>`;
+  });
+
+  canvas.style.width = `${width}px`;
+  canvas.dataset.minYear = String(minYear);
+  canvas.innerHTML = `
+    <div class="timeline-axis" style="width:${width}px">${ticksHtml}</div>
+    <div class="timeline-lanes" style="width:${width}px; height:${laneAreaHeight}px">${eventsHtml}${barsHtml}</div>
+  `;
+
+  bindTimelineTooltips();
+}
+
+function bindTimelineTooltips() {
+  const tooltip = document.getElementById('timeline-tooltip');
+  if (!tooltip) return;
+  document.querySelectorAll('#timeline-canvas [data-tooltip]').forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      tooltip.textContent = el.dataset.tooltip;
+      tooltip.hidden = false;
+    });
+    el.addEventListener('mousemove', e => {
+      tooltip.style.left = `${e.clientX + 16}px`;
+      tooltip.style.top = `${e.clientY + 16}px`;
+    });
+    el.addEventListener('mouseleave', () => {
+      tooltip.hidden = true;
+    });
+    el.addEventListener('focus', () => {
+      tooltip.textContent = el.dataset.tooltip;
+      tooltip.hidden = false;
+      const rect = el.getBoundingClientRect();
+      tooltip.style.left = `${rect.left}px`;
+      tooltip.style.top = `${rect.bottom + 8}px`;
+    });
+    el.addEventListener('blur', () => {
+      tooltip.hidden = true;
+    });
+  });
+}
+
+function initTimelinePage() {
+  renderTimelineLegend();
+  renderTimeline();
+
+  const searchInput  = document.getElementById('tl-search-input');
+  const regionSel    = document.getElementById('tl-filter-region');
+  const eraSel       = document.getElementById('tl-filter-era');
+  const topicSel     = document.getElementById('tl-filter-topic');
+  const eventsToggle = document.getElementById('tl-show-events');
+  const jumpSel      = document.getElementById('tl-jump-era');
+  const clearBtn     = document.getElementById('tl-clear-filters');
+
+  let searchTimer;
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        timelineFilterState.search = searchInput.value.trim();
+        renderTimeline();
+      }, 200);
+    });
+  }
+
+  if (regionSel) {
+    regionSel.addEventListener('change', () => {
+      timelineFilterState.region = regionSel.value;
+      renderTimeline();
+    });
+  }
+
+  if (eraSel) {
+    eraSel.addEventListener('change', () => {
+      timelineFilterState.era = eraSel.value;
+      renderTimeline();
+    });
+  }
+
+  if (topicSel) {
+    topicSel.addEventListener('change', () => {
+      timelineFilterState.topic = topicSel.value;
+      renderTimeline();
+    });
+  }
+
+  if (eventsToggle) {
+    eventsToggle.addEventListener('change', () => {
+      timelineFilterState.showEvents = eventsToggle.checked;
+      renderTimeline();
+    });
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      timelineFilterState.search = '';
+      timelineFilterState.region = '';
+      timelineFilterState.era = '';
+      timelineFilterState.topic = '';
+      timelineFilterState.showEvents = true;
+      if (searchInput)  searchInput.value  = '';
+      if (regionSel)    regionSel.value    = '';
+      if (eraSel)       eraSel.value       = '';
+      if (topicSel)     topicSel.value     = '';
+      if (eventsToggle) eventsToggle.checked = true;
+      renderTimeline();
+    });
+  }
+
+  if (jumpSel) {
+    jumpSel.addEventListener('change', () => {
+      const year = parseInt(jumpSel.value, 10);
+      const scrollEl = document.getElementById('timeline-scroll');
+      const canvas = document.getElementById('timeline-canvas');
+      if (!year || !scrollEl || !canvas) return;
+      const minYear = parseFloat(canvas.dataset.minYear || '0');
+      const x = (year - minYear) * TIMELINE_PX_PER_YEAR;
+      scrollEl.scrollTo({ left: Math.max(x - 60, 0), behavior: 'smooth' });
+    });
+  }
+}
+
+// ============================================================
 // Boot
 // ============================================================
 
@@ -3069,5 +3346,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     initHymnPage();
   } else if (document.getElementById('quiz-print-questions')) {
     initQuizPrintPage();
+  } else if (document.getElementById('timeline-canvas')) {
+    await loadHistoricalEvents();
+    initTimelinePage();
   }
 });

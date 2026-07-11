@@ -10,6 +10,7 @@ For worship leaders, Bible teachers, and families seeking Christ-centred biograp
 - [Memorial map](https://livesoffaith.org/map.html): interactive map of gravestones, statues, plaques, and monuments, with a heritage tour planner.
 - [Full plain-text biographies](https://livesoffaith.org/llms-full.txt): every person's full story text in one file, for deep grounding.
 - [Hymn stories](https://livesoffaith.org/hymns.html): the documented history behind individual hymns — who wrote them, when, and the Scripture that shaped them.
+- [Timeline](https://livesoffaith.org/timeline.html): interactive lifespan comparison of every profiled person, set against major events in church and world history.
 
 ## People
 
