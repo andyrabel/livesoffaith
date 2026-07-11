@@ -3152,8 +3152,8 @@ function renderTimelineLegend() {
   if (!el) return;
   const items = Object.entries(TIMELINE_REGION_COLORS).map(([region, color]) => `
     <label class="timeline-legend__item">
-      <input type="checkbox" class="timeline-legend__checkbox" data-region="${escapeHtml(region)}" checked>
-      <span class="timeline-legend__swatch" style="--region-color:${color}"></span>${escapeHtml(region)}
+      <input type="checkbox" class="timeline-legend__checkbox" data-region="${escapeHtml(region)}" style="--region-color:${color}" checked>
+      ${escapeHtml(region)}
     </label>
   `).join('');
   el.innerHTML = `${items}<span class="timeline-legend__item"><span class="timeline-legend__swatch timeline-legend__swatch--event"></span>Historical event</span>`;

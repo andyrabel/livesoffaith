@@ -2409,7 +2409,10 @@ main {
 
 .timeline-legend__checkbox {
   margin: 0;
+  width: 15px;
+  height: 15px;
   cursor: pointer;
+  accent-color: var(--region-color);
 }
 
 .timeline-legend__swatch {
@@ -2420,10 +2423,6 @@ main {
   flex-shrink: 0;
   border: 1px solid rgba(0,0,0,0.15);
   background: transparent;
-}
-
-.timeline-legend__checkbox:checked + .timeline-legend__swatch {
-  background: var(--region-color);
 }
 
 .timeline-legend__swatch--event {
