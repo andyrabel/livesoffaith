@@ -641,7 +641,7 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/William_Cowper",
     "hymnary_url": "https://hymnary.org/person/Cowper_William",
     "source_summary": "William Cowper (1731–1800) was an English poet and hymn writer who co-produced the Olney Hymns (1779) with John Newton. He suffered severe and recurring mental illness throughout his life, including the conviction that he was eternally damned. He came to evangelical faith during a period of recovery in 1764 and contributed sixty-seven hymns to the Olney Hymns collection.",
-    "adult_story": "William Cowper was born in 1731 in Berkhamsted, Hertfordshire. His mother died when he was six. He suffered a severe mental breakdown in 1763 including three suicide attempts and a settled conviction that he was eternally damned. Admitted to an asylum in St Albans, he came to quiet faith through reading Romans 3:25 — finding assurance that the propitiation Christ made was sufficient even for him.\n\nWorking with [[John Newton|john-newton]] at Olney, he contributed sixty-seven hymns to the Olney Hymns (1779), including God Moves in a Mysterious Way and There Is a Fountain Filled with Blood. He never fully escaped the shadow of mental illness.\n\nGod Moves in a Mysterious Way has a remarkable origin: a man on the edge of breakdown writing of God's unfathomable purposes — \"the clouds ye so much dread are big with mercy.\" The truth he expressed, even when he could not feel it, has comforted believers in darkness for two centuries.",
+    "adult_story": "William Cowper was born in 1731 in Berkhamsted, Hertfordshire. His mother died when he was six. He suffered a severe mental breakdown in 1763, including three suicide attempts and a settled conviction that he was eternally damned. Admitted to Dr Nathaniel Cotton's asylum in St Albans, he came to quiet faith through reading Romans 3:25, finding assurance that Christ's propitiation was sufficient even for him.\n\nWorking alongside [[John Newton|john-newton]] at Olney, he contributed sixty-seven hymns to the Olney Hymns (1779), including God Moves in a Mysterious Way and There Is a Fountain Filled with Blood. He never fully escaped the shadow of mental illness.\n\nGod Moves in a Mysterious Way has a remarkable origin: a man on the edge of another breakdown writing of God's unfathomable purposes — \"the clouds ye so much dread are big with mercy.\" The truth he proclaimed, even when he could scarcely grasp it himself, has comforted believers walking through darkness for more than two centuries.",
     "family_story": "William Cowper's mother died when he was six, and that sadness stayed with him all his life. As a young man he became deeply ill inside — so ill he nearly ended his life. A kind doctor helped him recover, and reading the Bible brought him to hope in Jesus.\n\nHe moved to Olney, where his friend [[John Newton|john-newton]] was the minister. Together they wrote hymns. William's most famous is God Moves in a Mysterious Way — a song for frightened people, saying: God is doing things we cannot understand, and they will end in blessing.\n\nGod can use even a broken life to bring comfort to others.",
     "image": {
       "file": "william-cowper.jpg",
@@ -652,9 +652,9 @@
       "redistribution_note": "Portrait dated 1792 — author died 1803, public domain, no caveat."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-10"
     },
     "memorials": [
       {
@@ -12798,9 +12798,9 @@
       }
     ],
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-10"
     }
   }
 ]
