@@ -1382,8 +1382,8 @@ function initPersonPage() {
     </div>
 
     ${timelineHtml}
-    ${memorialsHtml}
     ${connectionsHtml}
+    ${memorialsHtml}
   `;
 
   // Tab switching
