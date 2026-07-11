@@ -399,41 +399,6 @@
     "mutual": true
   },
   {
-    "from": "william-macdonald",
-    "to": "john-nelson-darby",
-    "label": "belonged to the same Plymouth Brethren movement as",
-    "type": "milieu",
-    "mutual": true
-  },
-  {
-    "from": "william-macdonald",
-    "to": "anthony-norris-groves",
-    "label": "belonged to the same Plymouth Brethren movement as",
-    "type": "milieu",
-    "mutual": true
-  },
-  {
-    "from": "william-macdonald",
-    "to": "robert-cleaver-chapman",
-    "label": "belonged to the same Brethren movement as",
-    "type": "milieu",
-    "mutual": true
-  },
-  {
-    "from": "william-macdonald",
-    "to": "george-muller",
-    "label": "belonged to the same Plymouth Brethren movement as",
-    "type": "milieu",
-    "mutual": true
-  },
-  {
-    "from": "ha-ironside",
-    "to": "john-nelson-darby",
-    "label": "belonged to the same Plymouth Brethren movement as",
-    "type": "milieu",
-    "mutual": true
-  },
-  {
     "from": "ha-ironside",
     "to": "william-macdonald",
     "label": "belonged to the same Brethren movement as",
