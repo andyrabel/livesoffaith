@@ -2067,5 +2067,23 @@
     "answer": "Richard Dawkins",
     "person_id": "john-lennox",
     "difficulty": 3
+  },
+  {
+    "question": "What country did Lottie Moon serve as a missionary in for nearly forty years?",
+    "answer": "China",
+    "person_id": "lottie-moon",
+    "difficulty": 1
+  },
+  {
+    "question": "What annual offering, still collected today, grew out of Lottie Moon's advocacy for foreign missions funding?",
+    "answer": "The Lottie Moon Christmas Offering",
+    "person_id": "lottie-moon",
+    "difficulty": 3
+  },
+  {
+    "question": "In what year was the first Christmas Offering for foreign missions collected at Lottie Moon's urging?",
+    "answer": "1888",
+    "person_id": "lottie-moon",
+    "difficulty": 5
   }
 ]

@@ -12855,5 +12855,93 @@
       "reviewed_by": "",
       "reviewed_date": ""
     }
+  },
+  {
+    "id": "lottie-moon",
+    "name": "Lottie Moon",
+    "born": 1840,
+    "born_approximate": false,
+    "died": 1912,
+    "significant_dates": [
+      {
+        "date": "Dec 12, 1840",
+        "event": "birth",
+        "details": "Born in Albemarle County, Virginia"
+      },
+      {
+        "date": "1858",
+        "event": "saved",
+        "details": "Converted during a campus revival led by John Broadus"
+      },
+      {
+        "date": "Jul 7, 1873",
+        "event": "other",
+        "details": "Appointed a foreign missionary to China by the Foreign Mission Board"
+      },
+      {
+        "date": "1888",
+        "event": "other",
+        "details": "First Christmas Offering for foreign missions collected at her urging"
+      },
+      {
+        "date": "Dec 24, 1912",
+        "event": "death",
+        "details": "Died aboard ship in Kobe Harbor, Japan, returning from China"
+      }
+    ],
+    "nationality": "American",
+    "era": "19th Century",
+    "region": "Asia",
+    "tradition": "Southern Baptist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "sacrifice",
+      "perseverance",
+      "faithfulness"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lottie_Moon",
+    "source_summary": "Charlotte 'Lottie' Digges Moon (1840–1912) was a Southern Baptist missionary to China. Born to a wealthy Virginia family, she was converted during a college revival led by John Broadus in 1858 and was appointed a missionary in 1873. She spent nearly forty years in Shandong province, teaching and evangelizing, and pressed the Southern Baptist Convention to support single women missionaries and fund missions adequately. Her advocacy led to the first Christmas Offering for foreign missions in 1888, an offering still collected annually and named for her. During famine and war she shared her own food with starving Chinese neighbours, weakening her health severely. She died in December 1912 aboard a ship bound home from China.",
+    "adult_story": "Lottie Moon was born in 1840 to a wealthy Baptist family in Albemarle County, Virginia, and given one of the finest educations available to a woman in the South. Restless and by her own account resistant to faith, she was converted during a campus revival led by John Broadus in 1858.\n\nIn 1873, at thirty-two, she was appointed by the Foreign Mission Board and sailed for China, where she remained for nearly forty years. She taught in a girls' school at Dengzhou before moving into full-time evangelism across the villages of Shandong province. She pressed the Southern Baptist Convention to send more single women as missionaries and to fund them properly, and in 1888 the first \"Christmas Offering\" for foreign missions was collected at her urging — an offering still taken every year, funding missionaries around the world to this day.\n\nThrough famine, war, and isolation, Moon shared what little she had with the starving people around her, reducing herself to near-starvation in her final year. She died in December 1912 aboard a ship bound for home, her body worn out after a lifetime spent for others.\n\nHer letters return again and again to one conviction: that Christ's command to make disciples of all nations was not a burden she carried to earn favour with God, but the grateful overflow of grace she had already, freely, received.",
+    "family_story": "Lottie Moon grew up wealthy in Virginia. As a young woman she trusted in Jesus at a school revival meeting, and felt God calling her far away.\n\nIn 1873 she sailed to China, and lived there almost forty years, travelling village to village to share the gospel through war and hardship.\n\nShe encouraged churches back home to give money each Christmas so more missionaries could go to people who had never heard of Jesus — an offering still collected every year.\n\nNear the end of her life, Lottie gave away her own food to starving neighbours until she grew very weak. She died on a ship sailing home in 1912, having given her life for others because Jesus first gave His life for her.",
+    "image": {
+      "file": "lottie-moon.jpg",
+      "prompt_used": "Photorealistic portrait of Lottie Moon, American Southern Baptist missionary to China, late 19th century, wearing dark Victorian-era dress with high collar, hair styled up with a ribbon, serious and resolute expression, historically accurate to 1870s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Lottie_Moon-1.jpg — public domain, 19th-century photograph published before 1931",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "19th-century photograph, published before 1931 — clear public-domain claim, no caveat."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Lottie Moon grave — Crewe Cemetery",
+        "address": "Crewe Cemetery, Crewe, Virginia, USA",
+        "lat": 37.1687,
+        "lng": -78.1269
+      },
+      {
+        "type": "plaque",
+        "name": "Lottie Moon historical marker — Cartersville, Georgia",
+        "address": "W Cherokee Ave, Cartersville, Georgia, USA",
+        "lat": 34.1655,
+        "lng": -84.7957
+      },
+      {
+        "type": "archive",
+        "name": "Papers of Lottie Moon — Archives & Special Collections, The Southern Baptist Theological Seminary (Boyce Centennial Library)",
+        "address": "2825 Lexington Road, Louisville, Kentucky 40206, USA",
+        "lat": 38.2385,
+        "lng": -85.6903,
+        "open_to_public": false
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]

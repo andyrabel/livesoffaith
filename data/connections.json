@@ -233,7 +233,7 @@
   {
     "from": "john-lennox",
     "to": "kristyn-getty",
-    "label": "introduced to her future husband and co-writer Keith Getty (uncle)",
+    "label": "is the uncle of",
     "type": "family",
     "mutual": false
   },
@@ -445,6 +445,13 @@
     "to": "william-edwy-vine",
     "label": "belonged to the same Brethren movement as",
     "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "kristyn-getty",
+    "to": "keith-getty",
+    "label": "married (2004), and co-writes hymns with as Getty Music",
+    "type": "family",
     "mutual": true
   }
 ]

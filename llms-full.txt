@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-11. 153 people.
+Generated 2026-07-11. 154 people.
 
 ---
 
@@ -1646,6 +1646,23 @@ Anthony Ashley Cooper, 7th Earl of Shaftesbury (1801–1885), was one of England
 He is best known for the Factory Acts of 1833, 1844, and 1850, which limited working hours for children in mills; the Mines Act of 1842, which prohibited children under ten and all women from working underground; and the Chimney Sweepers Act of 1875, which ended the practice of sending small boys up chimneys. He was President of the Ragged Schools Union from 1844, overseeing free education for thousands of the poorest children in Britain, and championed legislation transforming the treatment of the mentally ill.
 
 As a child, Shaftesbury was largely unloved by his parents. His warmest memory was his family's housekeeper, Maria Millis, who read Scripture with him. When she died she left him her watch, which he wore every day for the rest of his life. When he died in 1885, the streets were lined not by lords but by the working poor, who had come to say goodbye to the man they considered their champion.
+
+---
+
+## Lottie Moon (1840–1912)
+
+URL: https://livesoffaith.org/person.html?id=lottie-moon
+Wikipedia: https://en.wikipedia.org/wiki/Lottie_Moon
+Nationality: American · Tradition: Southern Baptist · Region: Asia · Era: 19th Century
+Topics: missions, sacrifice, perseverance, faithfulness
+
+Lottie Moon was born in 1840 to a wealthy Baptist family in Albemarle County, Virginia, and given one of the finest educations available to a woman in the South. Restless and by her own account resistant to faith, she was converted during a campus revival led by John Broadus in 1858.
+
+In 1873, at thirty-two, she was appointed by the Foreign Mission Board and sailed for China, where she remained for nearly forty years. She taught in a girls' school at Dengzhou before moving into full-time evangelism across the villages of Shandong province. She pressed the Southern Baptist Convention to send more single women as missionaries and to fund them properly, and in 1888 the first "Christmas Offering" for foreign missions was collected at her urging — an offering still taken every year, funding missionaries around the world to this day.
+
+Through famine, war, and isolation, Moon shared what little she had with the starving people around her, reducing herself to near-starvation in her final year. She died in December 1912 aboard a ship bound for home, her body worn out after a lifetime spent for others.
+
+Her letters return again and again to one conviction: that Christ's command to make disciples of all nations was not a burden she carried to earn favour with God, but the grateful overflow of grace she had already, freely, received.
 
 ---
 

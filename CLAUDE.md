@@ -359,7 +359,8 @@ Question" box and the printable quiz generator (`quiz-print.html`). Each entry:
   "What/Who/Where..." questions with a short answer).
 
 When adding a new person, also add 1–3 quiz questions for them to `data/quiz.json`
-as a standard part of the pipeline (see Step 3 below). When adding a new hymn story
+as a standard part of the pipeline, after connections are added (see Step 4 below).
+When adding a new hymn story
 to `data/hymns.json`, also add `hymn_id` to any existing quiz question about that
 hymn (see above).
 
@@ -672,14 +673,14 @@ Claude Code assists at each step when asked.
 pipeline without being asked separately for each step — source and download a
 reference image, generate the AI portrait (Step 6), research and populate
 `memorials`, research and populate `significant_dates` (see Significant Dates
-Schema above), add quiz questions (see Quiz Questions above), update
-cross-references and the connections dataset (Step 4) — not just write the
-JSON skeleton with `"image": null` and `"memorials": []`. If no suitable
-public domain reference image can be found, do not stop the pipeline — leave
-`"image": null` and complete every other step (content, memorials,
-significant_dates, quiz questions, cross-references, connections, sitemap)
-anyway. Image sourcing and portrait generation (Steps 2 and 6) can be
-revisited later once a reference image turns up.
+Schema above), update cross-references and the connections dataset, then add
+quiz questions (Step 4, connections before quiz questions — see Quiz Questions
+above) — not just write the JSON skeleton with `"image": null` and
+`"memorials": []`. If no suitable public domain reference image can be found,
+do not stop the pipeline — leave `"image": null` and complete every other step
+(content, memorials, significant_dates, cross-references, connections, quiz
+questions, sitemap) anyway. Image sourcing and portrait generation (Steps 2
+and 6) can be revisited later once a reference image turns up.
 
 ### Step 1 — Decide and Vet
 1. Choose a person to add
@@ -710,8 +711,6 @@ Claude will:
   Dates Schema above)
 - Add the full JSON entry with `"image": null` and all fields populated
 - Flag the entry if needed and explain why
-- **Add 1–3 quiz questions** for the person to `data/quiz.json` (see Quiz
-  Questions schema above)
 - **Update `sitemap.xml`** to include the new person's URL (run `python3 _build/generate_sitemap.py`)
 - **Update `llms.txt` and `llms-full.txt`** so AI assistants have the new person's
   content (run `python3 _build/generate_llms_txt.py`)
@@ -734,6 +733,9 @@ pages as well as their own:
    edge to `data/connections.json` for every documented relationship the new
    person's story text (or an existing person's story text) reveals with someone
    already on the site
+6. **Add 1–3 quiz questions** for the person to `data/quiz.json` (see Quiz
+   Questions schema above) — do this after connections, since a connection
+   can suggest a good quiz question (e.g. "Who led [X] to faith?")
 
 ### Step 5 — Review Content
 1. Read both stories carefully
