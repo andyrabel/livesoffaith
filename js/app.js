@@ -3139,11 +3139,8 @@ function initTourPlanner() {
 // ============================================================
 
 const timelineFilterState = {
-  search: '',
-  region: '',
-  era: '',
-  topic: '',
   showEvents: true,
+  regions: new Set(Object.keys(TIMELINE_REGION_COLORS)),
 };
 
 function timelineRegionColor(region) {
@@ -3154,20 +3151,30 @@ function renderTimelineLegend() {
   const el = document.getElementById('timeline-legend');
   if (!el) return;
   const items = Object.entries(TIMELINE_REGION_COLORS).map(([region, color]) => `
-    <span class="timeline-legend__item"><span class="timeline-legend__swatch" style="background:${color}"></span>${escapeHtml(region)}</span>
+    <label class="timeline-legend__item">
+      <input type="checkbox" class="timeline-legend__checkbox" data-region="${escapeHtml(region)}" checked>
+      <span class="timeline-legend__swatch" style="--region-color:${color}"></span>${escapeHtml(region)}
+    </label>
   `).join('');
   el.innerHTML = `${items}<span class="timeline-legend__item"><span class="timeline-legend__swatch timeline-legend__swatch--event"></span>Historical event</span>`;
+
+  el.querySelectorAll('.timeline-legend__checkbox').forEach(cb => {
+    cb.addEventListener('change', () => {
+      if (cb.checked) {
+        timelineFilterState.regions.add(cb.dataset.region);
+      } else {
+        timelineFilterState.regions.delete(cb.dataset.region);
+      }
+      renderTimeline();
+    });
+  });
 }
 
 function timelineFilteredPeople() {
   const s = timelineFilterState;
-  const search = s.search.toLowerCase();
   return allPeople.filter(p => {
     if (typeof p.born !== 'number') return false;
-    if (search && !p.name.toLowerCase().includes(search)) return false;
-    if (s.region && p.region !== s.region) return false;
-    if (s.era && p.era !== s.era) return false;
-    if (s.topic && !(p.topics || []).includes(s.topic)) return false;
+    if (!s.regions.has(p.region)) return false;
     return true;
   });
 }
@@ -3217,8 +3224,7 @@ function renderTimeline() {
 
   const born = people.map(p => p.born);
   const died = people.map(p => typeof p.died === 'number' ? p.died : TIMELINE_PRESENT_YEAR);
-  const eventYears = events.map(e => e.year);
-  const allYears = born.concat(died, eventYears, [TIMELINE_PRESENT_YEAR]);
+  const allYears = born.concat(died);
 
   const minYear = Math.min(...allYears) - 5;
   const maxYear = Math.max(...allYears) + 5;
@@ -3303,65 +3309,12 @@ function initTimelinePage() {
   renderTimelineLegend();
   renderTimeline();
 
-  const searchInput  = document.getElementById('tl-search-input');
-  const regionSel    = document.getElementById('tl-filter-region');
-  const eraSel       = document.getElementById('tl-filter-era');
-  const topicSel     = document.getElementById('tl-filter-topic');
   const eventsToggle = document.getElementById('tl-show-events');
-  const jumpSel      = document.getElementById('tl-jump-era');
-  const clearBtn     = document.getElementById('tl-clear-filters');
-
-  let searchTimer;
-  if (searchInput) {
-    searchInput.addEventListener('input', () => {
-      clearTimeout(searchTimer);
-      searchTimer = setTimeout(() => {
-        timelineFilterState.search = searchInput.value.trim();
-        renderTimeline();
-      }, 200);
-    });
-  }
-
-  if (regionSel) {
-    regionSel.addEventListener('change', () => {
-      timelineFilterState.region = regionSel.value;
-      renderTimeline();
-    });
-  }
-
-  if (eraSel) {
-    eraSel.addEventListener('change', () => {
-      timelineFilterState.era = eraSel.value;
-      renderTimeline();
-    });
-  }
-
-  if (topicSel) {
-    topicSel.addEventListener('change', () => {
-      timelineFilterState.topic = topicSel.value;
-      renderTimeline();
-    });
-  }
+  const jumpSel       = document.getElementById('tl-jump-era');
 
   if (eventsToggle) {
     eventsToggle.addEventListener('change', () => {
       timelineFilterState.showEvents = eventsToggle.checked;
-      renderTimeline();
-    });
-  }
-
-  if (clearBtn) {
-    clearBtn.addEventListener('click', () => {
-      timelineFilterState.search = '';
-      timelineFilterState.region = '';
-      timelineFilterState.era = '';
-      timelineFilterState.topic = '';
-      timelineFilterState.showEvents = true;
-      if (searchInput)  searchInput.value  = '';
-      if (regionSel)    regionSel.value    = '';
-      if (eraSel)       eraSel.value       = '';
-      if (topicSel)     topicSel.value     = '';
-      if (eventsToggle) eventsToggle.checked = true;
       renderTimeline();
     });
   }
