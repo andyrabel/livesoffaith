@@ -730,7 +730,7 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Augustus_Toplady",
     "hymnary_url": "https://hymnary.org/person/Toplady_Augustus",
     "source_summary": "Augustus Toplady (1740–1778) was an English Anglican minister and hymn writer. Born in Farnham, Surrey, he was converted as a teenager while hearing an itinerant Irish lay preacher in a barn in County Wexford. A convinced Calvinist, he is remembered chiefly for the hymn Rock of Ages (1776). He died of tuberculosis aged thirty-seven.",
-    "adult_story": "Augustus Toplady was born in Farnham, Surrey in 1740. As a teenager in Ireland, he heard an uneducated lay preacher speak from Ephesians 2:13 in a barn, and the gospel of free grace became real to him.\n\nA convinced Calvinist, he engaged in sharp controversy with [[John Wesley|john-wesley]] — sometimes intemperate in his polemics. But beneath the controversy lay a genuine conviction: salvation is entirely God's work, and any human contribution to it corrupts the gospel.\n\nHe is remembered not for controversies but for one hymn written in 1776: Rock of Ages. It is the dissolution of every form of self-justification: \"Not the labours of my hands can fulfil thy law's demands... thou must save, and thou alone.\" Nothing is brought but need; nothing is received but Christ.\n\nToplandy died of tuberculosis at thirty-seven, leaving a single hymn sung for nearly 250 years.",
+    "adult_story": "Augustus Toplady was born in Farnham, Surrey, in 1740. As a teenager in Ireland, he heard the lay preacher James Morris speak from Ephesians 2:13 in a barn, and the gospel of free grace became real to him.\n\nA convinced Calvinist, Toplady engaged in sharp controversy with [[John Wesley|john-wesley]], sometimes writing with regrettable harshness. Beneath the controversy, however, lay a sincere conviction: salvation is entirely God's work, received by grace alone through faith, and any human contribution to it undermines the gospel.\n\nHe is remembered not for his controversies but for one hymn, written in 1763 and published in 1776: Rock of Ages. It sweeps away every form of self-justification: \"Nothing in my hand I bring, simply to thy cross I cling.\" Nothing is brought but need; nothing is received but Christ.\n\nToplady died of tuberculosis in 1778 at the age of thirty-seven. Though he wrote many hymns and theological works, Rock of Ages has endured for nearly 250 years, reminding generations of believers that their only refuge from sin and judgment is the finished work of Christ alone.",
     "family_story": "Augustus Toplady was born in England in 1740. As a teenager in Ireland, he heard a preacher in a barn speak about Jesus — and understood that God saves us by grace, as a free gift, not because of anything we do.\n\nAugustus became a minister and preached with great passion.\n\nHe wrote a hymn called Rock of Ages. A rock is something solid we shelter in during a storm. The most important words: \"Nothing in my hand I bring, simply to Thy cross I cling.\"\n\nAugustus died young at thirty-seven. But his hymn has helped Christians for over 200 years understand that Jesus saves us completely.",
     "image": {
       "file": "augustus-toplady.jpg",
@@ -741,9 +741,9 @@
       "redistribution_note": "Portrait dated 1783, published before 1931 — clear public-domain claim, no caveat."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-10"
     },
     "memorials": [
       {
@@ -1809,8 +1809,8 @@
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/John_Sung",
     "source_summary": "John Sung (1901–1944) was a Chinese evangelist whose revival campaigns across China and Southeast Asia in the 1930s and early 1940s resulted in an estimated 100,000 conversions. Born in Hinghwa, Fujian province, the son of a Methodist pastor, he earned a PhD in chemistry from Ohio State University before a dramatic reconversion in New York in 1927.",
-    "adult_story": "John Sung was born in 1901 in Hinghwa, Fujian province, China. He earned a PhD in chemistry from Ohio State University in 1926. The years in America saw him drift from faith, engaging seriously with liberal theology.\n\nHis reconversion came in 1927 at a revival meeting in New York. Overwhelmed by a sense of sin and of Christ's forgiveness, he later burned his doctoral diploma as an enacted renunciation of worldly achievement — a testimony to 1 Corinthians 1:21.\n\nHe returned to China and conducted revival campaigns across China, Singapore, Indonesia, Malaya, the Philippines, and Taiwan, preaching with passionate urgency and calling people to genuine repentance and personal faith in Christ. Estimates suggest over 100,000 came to faith. He died in 1944, aged forty-two, exhausted by years of intensive ministry.",
-    "family_story": "John Sung was born in 1901 in China, the son of a Methodist pastor. He went to America and earned a PhD. But during those years he drifted away from faith.\n\nThen John went to a church meeting in New York and truly understood that Jesus had died for him. He burned his PhD certificate as a way of saying: the gospel is worth more than any worldly achievement.\n\nJohn went back and preached across China and Southeast Asia. Tens of thousands came to faith. He worked so hard he died when he was only forty-two — but the churches he left behind are still following Jesus today.",
+    "adult_story": "John Sung 宋尚節 was born in 1901 in Hinghwa, Fujian Province, China. He earned a PhD in chemistry from Ohio State University in 1926, then enrolled at Union Theological Seminary in New York, where he drifted from the evangelical faith of his childhood and engaged seriously with liberal theology.\n\nHis spiritual awakening came in February 1927, after weeks attending revival meetings in New York. Alone in his room, reading of Christ's crucifixion in Luke's Gospel, he was overwhelmed by a sense of sin and of Christ's forgiveness. Returning to China that November, he discarded his academic certificates and awards, casting them into the sea and keeping only his doctoral diploma for his father, as a testimony that knowing Christ was worth more than every earthly achievement.\n\nHe went on to conduct revival campaigns across China, Singapore, Malaya, Indonesia, the Philippines, and Taiwan, preaching with passionate urgency and calling people to genuine repentance and personal faith in Christ. Many thousands professed faith under his ministry. He died in 1944, aged forty-two, exhausted by years of intensive ministry.",
+    "family_story": "John Sung was born in 1901 in China, the son of a Methodist pastor. He went to America and earned a PhD in chemistry, but during those years he drifted away from the faith he grew up with.\n\nThen one night in New York, John read the story of Jesus dying on the cross and truly understood that Jesus had died for him. Back in China, he threw his diplomas and awards into the sea, keeping only one for his father — to show that knowing Jesus mattered more than any achievement.\n\nJohn preached across China and Southeast Asia. Tens of thousands came to faith. He worked so hard that he died aged forty-two — but the churches he left behind still follow Jesus today.",
     "image": {
       "file": "john-sung.jpg",
       "prompt_used": "Photorealistic portrait of John Sung, Chinese Christian evangelist, 1935 Singapore, wearing a plain dark Western suit, fervent and earnest evangelical expression, historically accurate",
@@ -1820,9 +1820,9 @@
       "redistribution_note": "1935 photograph, published before 1952 — explicitly 'public domain in Republic of China and United States'."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-10"
     },
     "memorials": [
       {
