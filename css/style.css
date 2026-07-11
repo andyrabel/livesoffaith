@@ -2408,11 +2408,34 @@ main {
 }
 
 .timeline-legend__checkbox {
+  appearance: none;
+  -webkit-appearance: none;
   margin: 0;
   width: 15px;
   height: 15px;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,0.15);
+  background: transparent;
   cursor: pointer;
-  accent-color: var(--region-color);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.timeline-legend__checkbox:checked {
+  background: var(--region-color);
+  border-color: var(--region-color);
+}
+
+.timeline-legend__checkbox:checked::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 
 .timeline-legend__swatch {
