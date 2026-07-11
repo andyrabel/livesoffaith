@@ -2049,5 +2049,23 @@
     "answer": "C.S. Lewis",
     "person_id": "cs-lewis",
     "difficulty": 1
+  },
+  {
+    "question": "What subject did Christian apologist John Lennox teach as a professor at Oxford?",
+    "answer": "Mathematics",
+    "person_id": "john-lennox",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the title of John Lennox's best-known book responding to the New Atheism?",
+    "answer": "God's Undertaker: Has Science Buried God?",
+    "person_id": "john-lennox",
+    "difficulty": 3
+  },
+  {
+    "question": "Which prominent atheist did John Lennox famously debate at Oxford's Museum of Natural History in 2008?",
+    "answer": "Richard Dawkins",
+    "person_id": "john-lennox",
+    "difficulty": 3
   }
 ]

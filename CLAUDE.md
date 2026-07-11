@@ -365,6 +365,61 @@ hymn (see above).
 
 ---
 
+## Connections Dataset
+
+`data/connections.json` is a flat array of directed, labelled relationships between
+people already on the site — who converted whom, who mentored whom, who married
+whom, who was martyred alongside whom, and so on. It powers the person page's
+**Connections** section (replacing the old date-only "Contemporaries" widget),
+rendered as a chain: `Person A — label — → Person B`.
+
+```json
+{
+  "from": "cesar-malan",
+  "to": "charlotte-elliott",
+  "label": "led to faith in Christ",
+  "type": "conversion",
+  "mutual": false
+}
+```
+
+- `from` / `to` — must match existing `people.json` ids.
+- `label` — a short phrase, worded so `"{From's name} {label} {To's name}"` reads
+  naturally (e.g. "married", "mentored", "led to faith in Christ", "composed the
+  tune for his hymn X"). Grounded strictly in what the two people's `adult_story`/
+  `family_story` text (or the `[[Name|id]]` cross-links within it) already states —
+  do not research or invent a new relationship not already documented on the site.
+- `type` — one of: `"conversion"` (led someone to faith), `"mentorship"`,
+  `"influence"` (inspired/shaped without a direct discipling relationship),
+  `"family"` (marriage, parent/child, siblings), `"collaboration"` (co-wrote,
+  co-laboured, ministry partnership), `"martyrdom"` (died together/alongside),
+  `"rivalry"` (public theological or personal dispute), `"milieu"` (same
+  movement/circle, no specific documented interaction beyond that).
+- `mutual` — `true` when the relationship is inherently two-directional (marriage,
+  co-authorship, shared martyrdom, rivalry) so only one edge is stored instead of
+  both directions; `false` for one-directional relationships (A converted B, A
+  mentored B) where storing the reverse would misstate who acted on whom.
+- Store each unordered relationship once — don't add both `A→B` and `B→A` for the
+  same fact. For a group event (e.g. several missionaries martyred together), pick
+  the best-known person as the hub and add one edge per other member rather than a
+  full pairwise clique.
+
+### Updating Connections When Adding a New Person
+
+As a standard part of Step 4 (Update Cross-References) when adding a new person:
+1. After wrapping mentions of existing people in `[[Name|id]]` links (and updating
+   older pages to link back to the new person), check both directions of story text
+   for any documented relationship — conversion, mentorship, marriage, collaboration,
+   martyrdom, rivalry, or shared movement/circle.
+2. Add one edge per documented relationship to `data/connections.json` following the
+   schema above. Skip incidental mentions that aren't a real relationship (e.g. one
+   person merely using another's hymn generations later).
+3. If the new person has a `related_people` entry, check whether the relationship
+   backing it is specific enough for a typed edge (conversion/mentorship/family/
+   collaboration/martyrdom/rivalry) or only a shared-movement fact (`"milieu"`).
+
+---
+
 ## Hymn Stories
 
 In addition to person biographies, the site publishes standalone **hymn story**
@@ -468,7 +523,8 @@ no server-side code. All data lives in JSON files. All filtering is client-side 
 │   └── app.js             ← filtering, search, clipboard logic
 ├── data/
 │   ├── people.json        ← all person entries
-│   └── hymns.json         ← all hymn story entries (see Hymn Stories above)
+│   ├── hymns.json         ← all hymn story entries (see Hymn Stories above)
+│   └── connections.json   ← relationships between people (see Connections Dataset above)
 └── images/
     └── portraits/         ← all AI-generated portraits
 ```
@@ -616,14 +672,14 @@ Claude Code assists at each step when asked.
 pipeline without being asked separately for each step — source and download a
 reference image, generate the AI portrait (Step 6), research and populate
 `memorials`, research and populate `significant_dates` (see Significant Dates
-Schema above), add quiz questions (see Quiz Questions above), and update
-cross-references (Step 4) — not just write the JSON skeleton with
-`"image": null` and `"memorials": []`. If no suitable public domain reference
-image can be found, do not stop the pipeline — leave `"image": null` and
-complete every other step (content, memorials, significant_dates, quiz
-questions, cross-references, sitemap) anyway. Image sourcing and portrait
-generation (Steps 2 and 6) can be revisited later once a reference image
-turns up.
+Schema above), add quiz questions (see Quiz Questions above), update
+cross-references and the connections dataset (Step 4) — not just write the
+JSON skeleton with `"image": null` and `"memorials": []`. If no suitable
+public domain reference image can be found, do not stop the pipeline — leave
+`"image": null` and complete every other step (content, memorials,
+significant_dates, quiz questions, cross-references, connections, sitemap)
+anyway. Image sourcing and portrait generation (Steps 2 and 6) can be
+revisited later once a reference image turns up.
 
 ### Step 1 — Decide and Vet
 1. Choose a person to add
@@ -674,6 +730,10 @@ pages as well as their own:
    don't over-link
 4. Confirm existing `topics` shared with the new person still make sense (no
    JSON change needed here, just a sanity check)
+5. **Add connections** — see Connections Dataset above: add one typed, labelled
+   edge to `data/connections.json` for every documented relationship the new
+   person's story text (or an existing person's story text) reveals with someone
+   already on the site
 
 ### Step 5 — Review Content
 1. Read both stories carefully
@@ -743,7 +803,7 @@ This regenerates `sitemap.xml`, `llms.txt`, and `llms-full.txt` from
 
 ### Step 10 — Commit and Push
 ```bash
-git add data/people.json data/quiz.json sitemap.xml llms.txt llms-full.txt images/portraits/[person-id].jpg
+git add data/people.json data/quiz.json data/connections.json sitemap.xml llms.txt llms-full.txt images/portraits/[person-id].jpg
 git commit -m "Add [Name]"
 git push
 ```

@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-10. 152 people.
+Generated 2026-07-11. 153 people.
 
 ---
 
@@ -1318,6 +1318,21 @@ John Knox was born around 1514 near Haddington, Scotland, and trained as a Catho
 After his release, Knox ministered in England and studied under John Calvin in Geneva before returning to Scotland in 1559 to lead its Reformation. His preaching helped topple the old order; he co-drafted the Scots Confession of 1560, which abolished papal authority and the Mass, and he is remembered as the founder of Presbyterianism in Scotland.
 
 Through repeated confrontations with the crown, including several tense audiences with Mary, Queen of Scots, Knox held to one unmoving conviction: that a sinner is justified before God through faith in Christ's finished work alone — not through priest, sacrament, or royal favour. He preached at St Giles' in Edinburgh almost to the day he died in 1572. Fittingly for a man who sought no monument to himself, his grave now lies beneath a car park behind the church he served — his legacy resting not in stone, but in the Reformed faith he helped establish across a nation.
+
+---
+
+## John Lennox (b. 1943)
+
+URL: https://livesoffaith.org/person.html?id=john-lennox
+Wikipedia: https://en.wikipedia.org/wiki/John_Lennox
+Nationality: Northern Irish · Tradition: Interdenominational evangelical · Region: UK/Ireland · Era: 20th Century
+Topics: apologetics, faith, gospel, reason
+
+John Lennox was born on 7 November 1943 in Belfast and raised in Armagh, Northern Ireland, where his father kept a shop. He read mathematics at Emmanuel College, Cambridge — attending C.S. Lewis's final lectures there in 1962 — and took a doctorate in group theory. After twenty-nine years teaching at Cardiff, he became Emeritus Professor of Mathematics at Oxford and Emeritus Fellow in Mathematics and Philosophy of Science at Green Templeton College, and serves as President of the Oxford Centre for Christian Apologetics.
+
+Lennox is known chiefly as a Christian apologist arguing that science, rightly understood, points toward a Creator rather than away from one. His book God's Undertaker: Has Science Buried God? (2009) became a touchstone of the case for faith against the "New Atheism" of the 2000s, alongside Seven Days That Divide the World and Gunning for God. He has carried that case into public debate with Richard Dawkins, Christopher Hitchens, and Peter Singer.
+
+In October 2008, Lennox met Dawkins at Oxford's Museum of Natural History for a debate titled "Has Science Buried God?" — one The Spectator called "Huxley–Wilberforce, Round Two," after the Victorian clash over Darwin held in the same city. Lennox argued that a mathematician's regard for evidence leads toward a rational Creator and the risen Christ. His point was never that reason earns anyone a place with God — Scripture is plain that salvation is a gift, received by grace through faith, not works — only that trusting Christ is reasonable.
 
 ---
 

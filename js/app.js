@@ -11,6 +11,7 @@ const QUIZ_URL = 'data/quiz.json';
 const VERSES_URL = 'data/verses.json';
 const HYMNS_URL = 'data/hymns.json';
 const HISTORICAL_EVENTS_URL = 'data/historical_events.json';
+const CONNECTIONS_URL = 'data/connections.json';
 const STORY_PREF_KEY = 'preferred-story-version';
 const QUIZ_DIFFICULTY_KEY = 'preferred-quiz-difficulty';
 
@@ -23,12 +24,13 @@ let allQuiz = [];
 let allVerses = {};
 let allHymns = [];
 let allHistoricalEvents = [];
+let allConnections = [];
 
 // Categorical colour per region, fixed order matching the region filter
 // dropdown (UK/Ireland, North America, Africa, Asia, Latin America, Europe,
 // Oceania) — see the dataviz skill's reference palette; order is the
 // colour-blind-safety mechanism, not cosmetic, so don't re-sort this.
-// Shared by timeline.html (lifespan bars) and person.html (contemporaries).
+// Used by timeline.html (lifespan bars).
 const TIMELINE_REGION_COLORS = {
   'UK/Ireland':    '#2a78d6',
   'North America': '#1baf7a',
@@ -292,53 +294,46 @@ function relatedPeopleSectionHtml(person) {
   `;
 }
 
-// Contemporaries: people whose lifespans overlap this person's, purely by
-// date — no claimed relationship (that's what related_people/Related People
-// is for). Prioritizes same region, then longest overlap, and excludes
-// anyone already surfaced in related_people to avoid duplicating a card.
-function contemporaryCandidates(person, limit) {
-  if (typeof person.born !== 'number') return [];
-  const relatedIds = new Set(person.related_people || []);
-  const pStart = person.born;
-  const pEnd = typeof person.died === 'number' ? person.died : TIMELINE_PRESENT_YEAR;
-
-  return allPeople
-    .filter(p => p.id !== person.id && typeof p.born === 'number' && !relatedIds.has(p.id))
-    .map(p => {
-      const cStart = p.born;
-      const cEnd = typeof p.died === 'number' ? p.died : TIMELINE_PRESENT_YEAR;
-      const overlap = Math.min(pEnd, cEnd) - Math.max(pStart, cStart);
-      return { p, overlap, sameRegion: p.region === person.region };
-    })
-    .filter(x => x.overlap > 0)
-    .sort((a, b) => {
-      if (a.sameRegion !== b.sameRegion) return a.sameRegion ? -1 : 1;
-      return b.overlap - a.overlap;
-    })
-    .slice(0, limit)
-    .map(x => x.p);
+// Connections: documented relationships mined from the story cross-links
+// and related_people curation (data/connections.json), each a directed,
+// labelled edge (e.g. "led to faith in Christ", "married", "mentored").
+// Distinct from Related People (which just cards up related_people with no
+// stated relationship). A person can appear as either side of an edge.
+function personConnections(personId) {
+  return allConnections.filter(c => c.from === personId || c.to === personId);
 }
 
-function contemporariesSectionHtml(person) {
-  const candidates = contemporaryCandidates(person, 5);
-  if (!candidates.length) return '';
+function connectionNodeHtml(p, isCurrent) {
+  if (!p) return '<span class="connection-person">Unknown</span>';
+  const cls = isCurrent ? 'connection-person connection-person-current' : 'connection-person';
+  return `<a class="${cls}" href="person.html?id=${escapeHtml(p.id)}">${escapeHtml(p.name)}</a>`;
+}
 
-  const pStart = person.born;
-  const pEnd = typeof person.died === 'number' ? person.died : TIMELINE_PRESENT_YEAR;
-  const events = allHistoricalEvents.filter(e => e.year >= pStart && e.year <= pEnd).slice(0, 3);
-  const eventsHtml = events.length
-    ? `<p class="contemporaries-events">Lived through: ${events.map(e => `${escapeHtml(e.label)} (${escapeHtml(e.date)})`).join(', ')}</p>`
-    : '';
+function connectionsSectionHtml(person) {
+  const edges = personConnections(person.id);
+  if (!edges.length) return '';
 
-  const items = candidates.map(personCardHtml).join('');
+  const items = edges.map(edge => {
+    const fromP = allPeople.find(p => p.id === edge.from);
+    const toP = allPeople.find(p => p.id === edge.to);
+    const arrow = edge.mutual ? '&harr;' : '&rarr;';
+    return `
+      <li class="connection-row">
+        ${connectionNodeHtml(fromP, edge.from === person.id)}
+        <span class="connection-link" data-type="${escapeHtml(edge.type)}">
+          <span class="connection-label">${escapeHtml(edge.label)}</span>
+          <span class="connection-arrow">${arrow}</span>
+        </span>
+        ${connectionNodeHtml(toP, edge.to === person.id)}
+      </li>
+    `;
+  }).join('');
 
   return `
     <div class="person-related">
-      <h2 class="person-related-title">&#128337; Contemporaries</h2>
-      <p class="contemporaries-note">Others whose lives overlapped in time — not necessarily known connections.</p>
-      ${eventsHtml}
-      <ul class="related-list">${items}</ul>
-      <p class="contemporaries-timeline-link"><a href="timeline.html?year=${pStart}&amp;highlight=${escapeHtml(person.id)}">See ${escapeHtml(person.name)} on the full timeline &rarr;</a></p>
+      <h2 class="person-related-title">&#128279; Connections</h2>
+      <p class="connections-note">Documented relationships between figures on this site, drawn from their biographies.</p>
+      <ul class="connections-list">${items}</ul>
     </div>
   `;
 }
@@ -742,6 +737,17 @@ async function loadHistoricalEvents() {
   } catch (err) {
     console.error('Failed to load historical_events.json:', err);
     allHistoricalEvents = [];
+  }
+}
+
+async function loadConnections() {
+  try {
+    const res = await fetch(CONNECTIONS_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allConnections = await res.json();
+  } catch (err) {
+    console.error('Failed to load connections.json:', err);
+    allConnections = [];
   }
 }
 
@@ -1351,7 +1357,7 @@ function initPersonPage() {
   const timelineHtml = significantDatesSectionHtml(person);
   const memorialsHtml = memorialsSectionHtml(person);
   const relatedHtml = relatedPeopleSectionHtml(person);
-  const contemporariesHtml = contemporariesSectionHtml(person);
+  const connectionsHtml = connectionsSectionHtml(person);
 
   content.innerHTML = `
     <div class="person-header">
@@ -1414,7 +1420,7 @@ function initPersonPage() {
     ${timelineHtml}
     ${memorialsHtml}
     ${relatedHtml}
-    ${contemporariesHtml}
+    ${connectionsHtml}
   `;
 
   // Tab switching
@@ -3369,7 +3375,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns(), loadHistoricalEvents()]);
+  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns(), loadHistoricalEvents(), loadConnections()]);
 
   if (document.getElementById('person-grid')) {
     initIndexPage();
