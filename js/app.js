@@ -260,45 +260,10 @@ function directionsUrl(memorial) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(memorial.address)}`;
 }
 
-function personCardHtml(p) {
-  const years = formatYears(p);
-  const portrait = p.image
-    ? `<img class="related-portrait" src="images/portraits/${escapeHtml(p.image.file)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;related-portrait-placeholder&quot;>${escapeHtml(getInitials(p.name))}</div>'">`
-    : `<div class="related-portrait-placeholder">${escapeHtml(getInitials(p.name))}</div>`;
-  return `
-    <li>
-      <a class="related-person-card" href="person.html?id=${escapeHtml(p.id)}">
-        ${portrait}
-        <span class="related-person-name">${escapeHtml(p.name)}</span>
-        <span class="related-person-dates">${escapeHtml(years)}</span>
-      </a>
-    </li>`;
-}
-
-function relatedPeopleSectionHtml(person) {
-  const ids = person.related_people || [];
-  if (!ids.length) return '';
-
-  const people = ids
-    .map(id => allPeople.find(p => p.id === id))
-    .filter(Boolean);
-  if (!people.length) return '';
-
-  const items = people.map(personCardHtml).join('');
-
-  return `
-    <div class="person-related">
-      <h2 class="person-related-title">&#128279; Related People</h2>
-      <ul class="related-list">${items}</ul>
-    </div>
-  `;
-}
-
 // Connections: documented relationships mined from the story cross-links
-// and related_people curation (data/connections.json), each a directed,
-// labelled edge (e.g. "led to faith in Christ", "married", "mentored").
-// Distinct from Related People (which just cards up related_people with no
-// stated relationship). A person can appear as either side of an edge.
+// (data/connections.json), each a directed, labelled edge (e.g. "led to
+// faith in Christ", "married", "mentored"). A person can appear as either
+// side of an edge.
 function personConnections(personId) {
   return allConnections.filter(c => c.from === personId || c.to === personId);
 }
@@ -1356,7 +1321,6 @@ function initPersonPage() {
   const sourcesHtml = sourceLinksHtml(person);
   const timelineHtml = significantDatesSectionHtml(person);
   const memorialsHtml = memorialsSectionHtml(person);
-  const relatedHtml = relatedPeopleSectionHtml(person);
   const connectionsHtml = connectionsSectionHtml(person);
 
   content.innerHTML = `
@@ -1419,7 +1383,6 @@ function initPersonPage() {
 
     ${timelineHtml}
     ${memorialsHtml}
-    ${relatedHtml}
     ${connectionsHtml}
   `;
 
