@@ -2021,31 +2021,31 @@
     "difficulty": 1
   },
   {
-    "question": "Who was born first: Martin Luther (1483) or John Calvin (1509)?",
+    "question": "Who was born first: Martin Luther or John Calvin?",
     "answer": "Martin Luther",
     "person_id": "martin-luther",
     "difficulty": 1
   },
   {
-    "question": "Who was born first: John Bunyan (1628) or Charles Spurgeon (1834)?",
+    "question": "Who was born first: John Bunyan or Charles Spurgeon?",
     "answer": "John Bunyan",
     "person_id": "john-bunyan",
     "difficulty": 1
   },
   {
-    "question": "Who was born first: John Newton (1725) or William Wilberforce (1759)?",
+    "question": "Who was born first: John Newton or William Wilberforce?",
     "answer": "John Newton",
     "person_id": "john-newton",
     "difficulty": 1
   },
   {
-    "question": "Who was born first: William Carey (1761) or Hudson Taylor (1832)?",
+    "question": "Who was born first: William Carey or Hudson Taylor?",
     "answer": "William Carey",
     "person_id": "william-carey",
     "difficulty": 1
   },
   {
-    "question": "Who was born first: C.S. Lewis (1898) or Billy Graham (1918)?",
+    "question": "Who was born first: C.S. Lewis or Billy Graham?",
     "answer": "C.S. Lewis",
     "person_id": "cs-lewis",
     "difficulty": 1
