@@ -1,0 +1,450 @@
+[
+  {
+    "from": "charles-simeon",
+    "to": "henry-martyn",
+    "label": "mentored",
+    "type": "mentorship",
+    "mutual": false
+  },
+  {
+    "from": "andrew-fuller",
+    "to": "william-carey",
+    "label": "raised support that sent him to India as a missionary",
+    "type": "collaboration",
+    "mutual": false
+  },
+  {
+    "from": "ra-torrey",
+    "to": "dwight-l-moody",
+    "label": "was drawn into the ministry orbit of, and led the Bible institute he founded",
+    "type": "mentorship",
+    "mutual": false
+  },
+  {
+    "from": "dwight-l-moody",
+    "to": "ha-ironside",
+    "label": "was heard preaching by, inspiring him to a life of preaching",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "cesar-malan",
+    "to": "charlotte-elliott",
+    "label": "led to faith in Christ",
+    "type": "conversion",
+    "mutual": false
+  },
+  {
+    "from": "jacob-deshazer",
+    "to": "mitsuo-fuchida",
+    "label": "led to faith in Christ through his written testimony",
+    "type": "conversion",
+    "mutual": false
+  },
+  {
+    "from": "billy-graham",
+    "to": "george-verwer",
+    "label": "led to faith in Christ at a crusade meeting",
+    "type": "conversion",
+    "mutual": false
+  },
+  {
+    "from": "billy-graham",
+    "to": "louis-zamperini",
+    "label": "led to faith in Christ at his 1949 Los Angeles crusade",
+    "type": "conversion",
+    "mutual": false
+  },
+  {
+    "from": "isaac-watts",
+    "to": "samuel-medley",
+    "label": "led to conversion through a sermon read during his recovery from injury",
+    "type": "conversion",
+    "mutual": false
+  },
+  {
+    "from": "john-newton",
+    "to": "william-wilberforce",
+    "label": "mentored by correspondence during his evangelical conversion, and later backed his abolitionist campaign before Parliament",
+    "type": "conversion",
+    "mutual": false
+  },
+  {
+    "from": "anthony-norris-groves",
+    "to": "george-muller",
+    "label": "inspired through his writing on faith and ministry",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "anthony-norris-groves",
+    "to": "hudson-taylor",
+    "label": "inspired the faith-mission principle later shaping the China Inland Mission",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "william-carey",
+    "to": "henry-martyn",
+    "label": "whose missionary example redirected him from academic ambition",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "david-brainerd",
+    "to": "william-carey",
+    "label": "inspired through his missionary diary",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "david-brainerd",
+    "to": "jim-elliot",
+    "label": "inspired through his missionary diary",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "jonathan-edwards",
+    "to": "david-brainerd",
+    "label": "took into his home and cared for through his final illness, then published his diary",
+    "type": "mentorship",
+    "mutual": false
+  },
+  {
+    "from": "john-wycliffe",
+    "to": "john-hus",
+    "label": "influenced through his writings",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "john-wycliffe",
+    "to": "william-tyndale",
+    "label": "opened the path of English Bible translation later followed by",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "george-whitefield",
+    "to": "john-wesley",
+    "label": "pioneered open-air preaching, a practice he then adopted",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "david-livingstone",
+    "to": "mary-slessor",
+    "label": "whose death and example inspired her to missionary service",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "john-lennox",
+    "to": "cs-lewis",
+    "label": "attended the final Cambridge lectures of",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "william-edwy-vine",
+    "to": "william-macdonald",
+    "label": "whose New Testament word studies laid groundwork later built on in his Bible commentary",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "john-wesley",
+    "to": "william-wilberforce",
+    "label": "wrote a final letter (1791) urging him not to abandon the fight against slavery",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "robert-jermain-thomas",
+    "to": "gil-seon-ju",
+    "label": "whose scattered Scriptures are traced as seeds of the revival he helped spark forty years later",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "felix-manz",
+    "to": "huldrych-zwingli",
+    "label": "began as a follower of, then broke with over infant baptism",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "huldrych-zwingli",
+    "to": "martin-luther",
+    "label": "arrived independently at similar reforming convictions to",
+    "type": "influence",
+    "mutual": true
+  },
+  {
+    "from": "susanna-wesley",
+    "to": "john-wesley",
+    "label": "raised and taught the faith to",
+    "type": "family",
+    "mutual": false
+  },
+  {
+    "from": "susanna-wesley",
+    "to": "charles-wesley",
+    "label": "raised and taught the faith to",
+    "type": "family",
+    "mutual": false
+  },
+  {
+    "from": "charles-wesley",
+    "to": "john-wesley",
+    "label": "brother of, and co-founder of the Holy Club with",
+    "type": "family",
+    "mutual": true
+  },
+  {
+    "from": "martin-luther",
+    "to": "katharina-von-bora",
+    "label": "married (1525), after his writings convinced her to leave the convent",
+    "type": "family",
+    "mutual": true
+  },
+  {
+    "from": "john-stam",
+    "to": "betty-stam",
+    "label": "married (1933), and martyred together in China (1934)",
+    "type": "family",
+    "mutual": true
+  },
+  {
+    "from": "richard-wurmbrand",
+    "to": "sabina-wurmbrand",
+    "label": "married (1936); both converted to Christ together (1938)",
+    "type": "family",
+    "mutual": true
+  },
+  {
+    "from": "jim-elliot",
+    "to": "elisabeth-elliot",
+    "label": "married",
+    "type": "family",
+    "mutual": true
+  },
+  {
+    "from": "john-lennox",
+    "to": "kristyn-getty",
+    "label": "introduced to her future husband and co-writer Keith Getty (uncle)",
+    "type": "family",
+    "mutual": false
+  },
+  {
+    "from": "john-newton",
+    "to": "william-cowper",
+    "label": "co-produced the Olney Hymns (1779) with",
+    "type": "collaboration",
+    "mutual": true
+  },
+  {
+    "from": "dwight-l-moody",
+    "to": "ira-sankey",
+    "label": "partnered with as his evangelistic songleader",
+    "type": "collaboration",
+    "mutual": true
+  },
+  {
+    "from": "george-beverly-shea",
+    "to": "billy-graham",
+    "label": "became the lead soloist for his evangelistic crusades",
+    "type": "collaboration",
+    "mutual": false
+  },
+  {
+    "from": "daniel-w-whittle",
+    "to": "philip-bliss",
+    "label": "partnered with, who set his hymn texts to music",
+    "type": "collaboration",
+    "mutual": false
+  },
+  {
+    "from": "philip-bliss",
+    "to": "horatio-spafford",
+    "label": "composed the tune for his hymn 'It Is Well with My Soul'",
+    "type": "collaboration",
+    "mutual": false
+  },
+  {
+    "from": "robert-lowry",
+    "to": "fanny-crosby",
+    "label": "composed tunes for her hymn texts",
+    "type": "collaboration",
+    "mutual": false
+  },
+  {
+    "from": "george-whitefield",
+    "to": "jonathan-edwards",
+    "label": "co-labored with in the First Great Awakening",
+    "type": "collaboration",
+    "mutual": true
+  },
+  {
+    "from": "hudson-taylor",
+    "to": "hsi-shengmo",
+    "label": "ordained as superintendent pastor over a district of opium refuges",
+    "type": "collaboration",
+    "mutual": false
+  },
+  {
+    "from": "tiyo-soga",
+    "to": "john-bunyan",
+    "label": "translated Pilgrim's Progress into Xhosa",
+    "type": "collaboration",
+    "mutual": false
+  },
+  {
+    "from": "ct-studd",
+    "to": "hudson-taylor",
+    "label": "joined the China Inland Mission founded by, sailing for China in 1885",
+    "type": "collaboration",
+    "mutual": false
+  },
+  {
+    "from": "jim-elliot",
+    "to": "ed-mccully",
+    "label": "fellow missionary, martyred together reaching the Waodani people (1956)",
+    "type": "martyrdom",
+    "mutual": true
+  },
+  {
+    "from": "jim-elliot",
+    "to": "nate-saint",
+    "label": "fellow missionary, martyred together reaching the Waodani people (1956)",
+    "type": "martyrdom",
+    "mutual": true
+  },
+  {
+    "from": "jim-elliot",
+    "to": "peter-fleming",
+    "label": "fellow missionary, martyred together reaching the Waodani people (1956)",
+    "type": "martyrdom",
+    "mutual": true
+  },
+  {
+    "from": "jim-elliot",
+    "to": "roger-youderian",
+    "label": "fellow missionary, martyred together reaching the Waodani people (1956)",
+    "type": "martyrdom",
+    "mutual": true
+  },
+  {
+    "from": "hugh-latimer",
+    "to": "nicholas-ridley",
+    "label": "burned at the stake together (Oxford Martyrs, 16 Oct 1555)",
+    "type": "martyrdom",
+    "mutual": true
+  },
+  {
+    "from": "hugh-latimer",
+    "to": "thomas-cranmer",
+    "label": "imprisoned and tried for heresy together",
+    "type": "martyrdom",
+    "mutual": true
+  },
+  {
+    "from": "thomas-cranmer",
+    "to": "nicholas-ridley",
+    "label": "appointed as his chaplain (1537); later imprisoned, tried, and martyred together",
+    "type": "martyrdom",
+    "mutual": true
+  },
+  {
+    "from": "augustus-toplady",
+    "to": "john-wesley",
+    "label": "clashed with in print over Calvinism, sometimes with regrettable harshness",
+    "type": "rivalry",
+    "mutual": true
+  },
+  {
+    "from": "joseph-parker",
+    "to": "charles-spurgeon",
+    "label": "public rival of, sparring in print over doctrine and style",
+    "type": "rivalry",
+    "mutual": true
+  },
+  {
+    "from": "john-nelson-darby",
+    "to": "george-muller",
+    "label": "broke fellowship with in the 1848 Brethren division",
+    "type": "rivalry",
+    "mutual": true
+  },
+  {
+    "from": "ha-ironside",
+    "to": "george-muller",
+    "label": "moved in the same Plymouth Brethren circles as",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "samuel-lamb",
+    "to": "wang-ming-dao",
+    "label": "preached in the same independent-church circles as",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "robert-cleaver-chapman",
+    "to": "george-muller",
+    "label": "close friend of, whom Müller called 'the saintliest man I ever knew'",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "william-macdonald",
+    "to": "john-nelson-darby",
+    "label": "belonged to the same Plymouth Brethren movement as",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "william-macdonald",
+    "to": "anthony-norris-groves",
+    "label": "belonged to the same Plymouth Brethren movement as",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "william-macdonald",
+    "to": "robert-cleaver-chapman",
+    "label": "belonged to the same Brethren movement as",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "william-macdonald",
+    "to": "george-muller",
+    "label": "belonged to the same Plymouth Brethren movement as",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "ha-ironside",
+    "to": "john-nelson-darby",
+    "label": "belonged to the same Plymouth Brethren movement as",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "ha-ironside",
+    "to": "william-macdonald",
+    "label": "belonged to the same Brethren movement as",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "ha-ironside",
+    "to": "william-edwy-vine",
+    "label": "belonged to the same Brethren movement as",
+    "type": "milieu",
+    "mutual": true
+  }
+]
