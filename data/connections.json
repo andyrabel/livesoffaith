@@ -411,5 +411,19 @@
     "label": "married (2004), and co-writes hymns with as Getty Music",
     "type": "family",
     "mutual": true
+  },
+  {
+    "from": "john-calvin",
+    "to": "john-knox",
+    "label": "trained in Geneva, before he returned to lead Scotland's Reformation",
+    "type": "mentorship",
+    "mutual": false
+  },
+  {
+    "from": "billy-graham",
+    "to": "bilquis-sheikh",
+    "label": "hosted the crusades where she shared her testimony of conversion from Islam",
+    "type": "collaboration",
+    "mutual": false
   }
 ]
