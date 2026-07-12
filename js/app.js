@@ -3530,9 +3530,22 @@ const CONNECTIONS_NODE_RADIUS = [24, 18, 15, 13, 11];
 const CONNECTIONS_MARGIN = 60;
 const CONNECTIONS_ARROW_COLOR = '#6b6360'; // matches --text-muted; marker fill can't reliably use var() across browsers
 
+// Depth control is temporarily hidden in the UI — Andrew wants every graph
+// forced to the widest depth for now. The <select>, its change handler, and
+// the ?depth= URL param are all still wired up in initConnectionsPage below
+// so restoring the control is a one-line revert (drop this constant and the
+// `if` that uses it), not a rebuild.
+const CONNECTIONS_FORCE_DEPTH = 4;
+
+// The deepest hop-count the UI ever supports, used for the "network size"
+// figure shown in the person picker — kept separate from
+// CONNECTIONS_FORCE_DEPTH so that constant can change independently without
+// silently redefining what "widest web" means for that figure.
+const CONNECTIONS_MAX_DEPTH = 4;
+
 const connectionsPageState = {
   centerId: null,
-  maxDepth: 2,
+  maxDepth: CONNECTIONS_FORCE_DEPTH,
 };
 
 let connectionsAdjCache = null;
@@ -3560,6 +3573,14 @@ function connectionsRegionColor(person) {
 
 function connectionsPersonLabel(p) {
   return `${p.name} (${formatYears(p)})`;
+}
+
+// Total distinct people reachable within CONNECTIONS_MAX_DEPTH hops (the
+// "widest web"), not just this person's direct edges — shown in the person
+// picker so it hints at how rich a web centering on them will produce.
+function connectionsNetworkSize(personId) {
+  const { nodeIds } = computeConnectionsGraph(personId, CONNECTIONS_MAX_DEPTH);
+  return nodeIds.length - 1; // exclude the person themself
 }
 
 function connectionsTruncateName(name, max) {
@@ -3677,80 +3698,6 @@ function bindConnectionsTooltips(root) {
   });
 }
 
-function highlightConnectionsNode(personId) {
-  const wrap = document.getElementById('connections-graph-wrap');
-  if (!wrap) return;
-  const node = wrap.querySelector(`[data-person-id="${CSS.escape(personId)}"]`);
-  if (!node) return;
-  node.classList.add('graph-node--highlight');
-  node.scrollIntoView({ block: 'center', inline: 'center', behavior: 'smooth' });
-  setTimeout(() => node.classList.remove('graph-node--highlight'), 3200);
-}
-
-// Single-line birth-year plot (no events, unlike timeline.html) for whichever
-// people are currently shown in the graph above.
-function renderConnectionsBirthline(nodeIds) {
-  const wrap = document.getElementById('connections-birthline-wrap');
-  if (!wrap) return;
-
-  const people = nodeIds
-    .map(id => allPeople.find(p => p.id === id))
-    .filter(p => p && typeof p.born === 'number');
-
-  if (!people.length) {
-    wrap.innerHTML = '<p class="timeline-empty">No birth years to plot yet.</p>';
-    return;
-  }
-
-  const years = people.map(p => p.born);
-  const minYear = Math.min(...years) - 10;
-  const maxYear = Math.max(...years) + 10;
-  const span = Math.max(maxYear - minYear, 1);
-  const width = 1000;
-  const axisY = 40;
-  const yearToX = y => Math.round(((y - minYear) / span) * (width - 40)) + 20;
-
-  const tickStep = span > 400 ? 50 : span > 150 ? 25 : span > 60 ? 10 : 5;
-  let ticksHtml = '';
-  for (let y = Math.ceil(minYear / tickStep) * tickStep; y <= maxYear; y += tickStep) {
-    const x = yearToX(y);
-    ticksHtml += `
-      <line class="birthline-tick" x1="${x}" y1="${axisY - 5}" x2="${x}" y2="${axisY + 5}"></line>
-      <text class="birthline-tick-label" x="${x}" y="${axisY + 18}" text-anchor="middle">${y}</text>
-    `;
-  }
-
-  // Collision avoidance: when two people's birth years land too close
-  // together to read as separate dots, stagger them off the line slightly
-  // (up, then down, then back on-line) rather than letting them overlap.
-  const sorted = [...people].sort((a, b) => a.born - b.born);
-  let lastX = -Infinity;
-  let toggle = 0;
-  const dotsHtml = sorted.map(p => {
-    const x = yearToX(p.born);
-    toggle = (x - lastX < 16) ? (toggle === 0 ? 1 : (toggle === 1 ? -1 : 0)) : 0;
-    lastX = x;
-    const y = axisY - toggle * 14;
-    const color = connectionsRegionColor(p);
-    const tooltip = `${p.name} — born ${formatYears(p)}`;
-    return `<circle class="birthline-dot" data-person-id="${escapeHtml(p.id)}" data-tooltip="${escapeHtml(tooltip)}" cx="${x}" cy="${y}" r="6" fill="${color}"></circle>`;
-  }).join('');
-
-  wrap.innerHTML = `
-    <svg viewBox="0 0 ${width} 70" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Birth years of everyone currently shown">
-      <line class="birthline-axis" x1="20" y1="${axisY}" x2="${width - 20}" y2="${axisY}"></line>
-      ${ticksHtml}
-      ${dotsHtml}
-    </svg>
-  `;
-
-  wrap.querySelectorAll('.birthline-dot').forEach(dot => {
-    dot.addEventListener('click', () => highlightConnectionsNode(dot.dataset.personId));
-  });
-
-  bindConnectionsTooltips(wrap);
-}
-
 function renderConnectionsGraph() {
   const wrap = document.getElementById('connections-graph-wrap');
   if (!wrap) return;
@@ -3760,7 +3707,6 @@ function renderConnectionsGraph() {
   if (!centerPerson) {
     wrap.innerHTML = '<p class="timeline-empty">Choose a person above to see their connections.</p>';
     renderConnectionsSidebar(null);
-    renderConnectionsBirthline([]);
     return;
   }
 
@@ -3769,7 +3715,6 @@ function renderConnectionsGraph() {
 
   if (nodeIds.length === 1) {
     wrap.innerHTML = `<p class="timeline-empty">No documented connections yet for ${escapeHtml(centerPerson.name)}.</p>`;
-    renderConnectionsBirthline(nodeIds);
     return;
   }
 
@@ -3790,7 +3735,10 @@ function renderConnectionsGraph() {
     if (!fromPos || !toPos) return;
     const fromP = allPeople.find(p => p.id === edge.from);
     const toP = allPeople.find(p => p.id === edge.to);
-    const tooltip = `${fromP ? fromP.name : edge.from} ${edge.label} ${toP ? toP.name : edge.to}`;
+    const fromName = fromP ? fromP.name : edge.from;
+    const toName = toP ? toP.name : edge.to;
+    const arrow = edge.mutual ? '↔' : '→';
+    const tooltip = `${fromName} ${arrow} ${toName}: ${edge.label}`;
     edgesHtml += `
       <line class="graph-edge" data-tooltip="${escapeHtml(tooltip)}"
         x1="${halfSize + fromPos.x}" y1="${halfSize + fromPos.y}"
@@ -3849,7 +3797,6 @@ function renderConnectionsGraph() {
   });
 
   bindConnectionsTooltips(wrap);
-  renderConnectionsBirthline(nodeIds);
 }
 
 function setConnectionsCenter(id) {
@@ -3858,7 +3805,14 @@ function setConnectionsCenter(id) {
   connectionsPageState.centerId = id;
 
   const input = document.getElementById('conn-person-input');
-  if (input) input.value = connectionsPersonLabel(person);
+  if (input) {
+    input.value = connectionsPersonLabel(person);
+    // Marks the field as holding a "committed" selection rather than
+    // in-progress typing — see the focus/click handlers in
+    // initConnectionsPage, which clear a committed value so the full
+    // person list reappears instead of just the one exact match.
+    input.dataset.committed = '1';
+  }
 
   const url = new URL(window.location.href);
   url.searchParams.set('id', id);
@@ -3884,19 +3838,52 @@ function connectionsConnectedPeople() {
   return allPeople.filter(p => ids.has(p.id));
 }
 
+// Precomputed once at init: every person's network size, cached so filtering
+// the dropdown on every keystroke doesn't re-run BFS from scratch each time.
+let connectionsComboboxData = [];
+
+function connectionsComboboxItemHtml(entry) {
+  const { person, networkSize } = entry;
+  const emptyClass = networkSize === 0 ? ' connections-combobox__item--empty' : '';
+  const countHtml = networkSize > 0
+    ? `<span class="connections-combobox__count">${networkSize} in network</span>`
+    : '';
+  return `
+    <li class="connections-combobox__item${emptyClass}" role="option" data-person-id="${escapeHtml(person.id)}">
+      <span class="connections-combobox__name">${escapeHtml(connectionsPersonLabel(person))}</span>
+      ${countHtml}
+    </li>
+  `;
+}
+
+function renderConnectionsCombobox(filterText) {
+  const list = document.getElementById('conn-person-list');
+  if (!list) return;
+  const lower = filterText.trim().toLowerCase();
+  const matches = lower
+    ? connectionsComboboxData.filter(e => e.person.name.toLowerCase().includes(lower))
+    : connectionsComboboxData;
+
+  list.innerHTML = matches.length
+    ? matches.map(connectionsComboboxItemHtml).join('')
+    : '<li class="connections-combobox__empty-message">No matches</li>';
+  list.hidden = false;
+}
+
+function hideConnectionsCombobox() {
+  const list = document.getElementById('conn-person-list');
+  if (list) list.hidden = true;
+}
+
 function initConnectionsPage() {
   renderConnectionsLegend();
 
-  const datalist = document.getElementById('conn-person-list');
-  if (datalist) {
-    datalist.innerHTML = allPeople
-      .slice()
-      .sort((a, b) => a.name.localeCompare(b.name))
-      .map(p => `<option value="${escapeHtml(connectionsPersonLabel(p))}">`)
-      .join('');
-  }
+  connectionsComboboxData = allPeople
+    .map(p => ({ person: p, networkSize: connectionsNetworkSize(p.id) }))
+    .sort((a, b) => a.person.name.localeCompare(b.person.name));
 
   const input = document.getElementById('conn-person-input');
+  const list = document.getElementById('conn-person-list');
   const depthSelect = document.getElementById('conn-depth-select');
   const randomBtn = document.getElementById('conn-random-btn');
   const connectedPeople = connectionsConnectedPeople();
@@ -3904,7 +3891,10 @@ function initConnectionsPage() {
   const urlParams = new URLSearchParams(window.location.search);
   const paramId = urlParams.get('id');
   const paramDepth = parseInt(urlParams.get('depth'), 10);
-  if (paramDepth >= 1 && paramDepth <= 4) {
+  if (CONNECTIONS_FORCE_DEPTH) {
+    connectionsPageState.maxDepth = CONNECTIONS_FORCE_DEPTH;
+    if (depthSelect) depthSelect.value = String(CONNECTIONS_FORCE_DEPTH);
+  } else if (paramDepth >= 1 && paramDepth <= 4) {
     connectionsPageState.maxDepth = paramDepth;
     if (depthSelect) depthSelect.value = String(paramDepth);
   }
@@ -3916,26 +3906,63 @@ function initConnectionsPage() {
   if (startId) setConnectionsCenter(startId);
 
   if (input) {
-    // Native <datalist> filters its suggestions against whatever text is
-    // currently in the input — once a full "Name (dates)" selection is sat
-    // in the field, only that exact entry matches, so the dropdown appears
-    // to have "just one person" in it. Clearing on focus restores the full
-    // list; blur puts the current center person's label back if nothing new
-    // was picked.
-    input.addEventListener('focus', () => {
-      input.dataset.prevValue = input.value;
-      input.value = '';
+    // Once a person is picked, the field holds a "committed" full label —
+    // focusing or clicking back into it should clear that and show the
+    // whole list again, rather than leaving it filtered down to the one
+    // name already sitting in the field.
+    const openFresh = () => {
+      if (input.dataset.committed === '1') {
+        input.value = '';
+        input.dataset.committed = '';
+      }
+      renderConnectionsCombobox(input.value);
+    };
+    input.addEventListener('focus', openFresh);
+    input.addEventListener('click', openFresh);
+
+    input.addEventListener('input', () => {
+      input.dataset.committed = '';
+      renderConnectionsCombobox(input.value);
     });
 
-    input.addEventListener('blur', () => {
-      if (!input.value.trim()) {
-        input.value = input.dataset.prevValue || '';
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        hideConnectionsCombobox();
+      } else if (e.key === 'Enter') {
+        const match = resolveConnectionsPersonFromInput(input.value);
+        if (match) {
+          setConnectionsCenter(match.id);
+          hideConnectionsCombobox();
+          input.blur();
+        }
       }
     });
 
-    input.addEventListener('change', () => {
-      const match = resolveConnectionsPersonFromInput(input.value);
-      if (match) setConnectionsCenter(match.id);
+    input.addEventListener('blur', () => {
+      hideConnectionsCombobox();
+      // Anything left in the field that wasn't just committed by a pick
+      // (Enter or a list click) — whether empty or unmatched typed text —
+      // reverts to the current center's label rather than being left as-is.
+      if (input.dataset.committed !== '1' && connectionsPageState.centerId) {
+        const person = allPeople.find(p => p.id === connectionsPageState.centerId);
+        if (person) {
+          input.value = connectionsPersonLabel(person);
+          input.dataset.committed = '1';
+        }
+      }
+    });
+  }
+
+  if (list) {
+    // mousedown (not click) + preventDefault so the input never blurs when
+    // a suggestion is picked — otherwise blur would fire and hide the list
+    // before the click event finishes registering on it.
+    list.addEventListener('mousedown', e => {
+      const item = e.target.closest('.connections-combobox__item');
+      if (!item) return;
+      e.preventDefault();
+      setConnectionsCenter(item.dataset.personId);
+      hideConnectionsCombobox();
     });
   }
 

@@ -2716,6 +2716,13 @@ main {
   color: var(--text-muted);
 }
 
+/* The depth field's own [hidden] attribute needs to beat the display:flex
+   above explicitly — an author `display` rule otherwise outranks the UA's
+   default `[hidden]{display:none}` regardless of specificity. */
+.connections-toolbar__field[hidden] {
+  display: none;
+}
+
 .connections-toolbar__field label {
   font-weight: 600;
 }
@@ -2723,6 +2730,69 @@ main {
 #conn-person-input {
   width: 260px;
   max-width: 60vw;
+}
+
+.connections-combobox {
+  position: relative;
+}
+
+.connections-combobox__list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  margin-top: 0.25rem;
+  max-height: 320px;
+  overflow-y: auto;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 0.25rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.85rem;
+}
+
+.connections-combobox__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.connections-combobox__item:hover {
+  background: var(--tag-bg);
+}
+
+/* Greyed out: no documented connections at all, so exploring the graph
+   from here would just show a lone node — still selectable, just deprioritized. */
+.connections-combobox__item--empty {
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+
+.connections-combobox__name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.connections-combobox__count {
+  flex: 0 0 auto;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.connections-combobox__empty-message {
+  padding: 0.5rem 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
 }
 
 .connections-layout {
@@ -2861,59 +2931,6 @@ main {
   stroke: var(--accent);
   opacity: 1;
   stroke-width: 2.5px;
-}
-
-.connections-birthline-title {
-  margin-top: 2rem;
-  font-size: 1.3rem;
-}
-
-.connections-birthline-wrap {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow);
-  padding: 0.5rem 1rem 1rem;
-  margin-bottom: 1.5rem;
-  overflow-x: auto;
-}
-
-.connections-birthline-wrap svg {
-  display: block;
-  width: 100%;
-  min-width: 480px;
-}
-
-.birthline-axis {
-  stroke: var(--border);
-  stroke-width: 1px;
-}
-
-.birthline-tick {
-  stroke: var(--border-light);
-  stroke-width: 1px;
-}
-
-.birthline-tick-label {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 9px;
-  fill: var(--text-muted);
-}
-
-.birthline-dot {
-  cursor: pointer;
-  stroke: var(--surface);
-  stroke-width: 1.5px;
-  transition: filter 0.1s;
-}
-
-.birthline-dot:hover {
-  filter: brightness(1.1);
-  stroke: var(--accent);
-}
-
-.birthline-dot--highlight {
-  animation: graph-pulse 1.6s ease-in-out 2;
 }
 
 @media (max-width: 720px) {
