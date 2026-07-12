@@ -131,14 +131,34 @@
         <button type="button" id="conn-random-btn" class="btn btn-secondary">Surprise me</button>
       </div>
 
-      <div id="connections-legend" class="timeline-legend" aria-label="Region color legend"></div>
-
-      <div class="connections-layout">
-        <div id="connections-graph-wrap" class="connections-graph-wrap" aria-label="Connections graph">
-          <p class="timeline-empty">Choose a person above to see their connections.</p>
+      <div id="connections-stage" class="connections-stage">
+        <div class="connections-graph-toolbar">
+          <div class="connections-zoom-controls" role="group" aria-label="Zoom controls">
+            <button type="button" id="conn-zoom-out" class="btn-icon" aria-label="Zoom out">&minus;</button>
+            <button type="button" id="conn-zoom-reset" class="btn-icon connections-zoom-level" aria-label="Reset zoom">100%</button>
+            <button type="button" id="conn-zoom-in" class="btn-icon" aria-label="Zoom in">+</button>
+          </div>
         </div>
 
-        <aside id="connections-sidebar" class="connections-sidebar" aria-label="Selected person"></aside>
+        <div id="connections-legend" class="timeline-legend" aria-label="Region color legend"></div>
+
+        <div class="connections-layout">
+          <div id="connections-graph-frame" class="connections-graph-frame">
+            <div id="connections-graph-wrap" class="connections-graph-wrap" aria-label="Connections graph">
+              <p class="timeline-empty">Choose a person above to see their connections.</p>
+            </div>
+            <button type="button" id="conn-fullpage-toggle" class="connections-fullpage-btn" aria-label="Full-page view" aria-pressed="false">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 4H4v5"></path>
+                <path d="M15 4h5v5"></path>
+                <path d="M9 20H4v-5"></path>
+                <path d="M15 20h5v-5"></path>
+              </svg>
+            </button>
+          </div>
+
+          <aside id="connections-sidebar" class="connections-sidebar" aria-label="Selected person"></aside>
+        </div>
       </div>
 
       <p id="connections-tooltip" class="timeline-tooltip" role="tooltip" hidden></p>

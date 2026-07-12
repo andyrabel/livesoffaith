@@ -3555,9 +3555,14 @@ const CONNECTIONS_FORCE_DEPTH = 4;
 // silently redefining what "widest web" means for that figure.
 const CONNECTIONS_MAX_DEPTH = 4;
 
+const CONNECTIONS_ZOOM_MIN = 0.5;
+const CONNECTIONS_ZOOM_MAX = 2.5;
+const CONNECTIONS_ZOOM_STEP = 0.2;
+
 const connectionsPageState = {
   centerId: null,
   maxDepth: CONNECTIONS_FORCE_DEPTH,
+  zoom: 1,
 };
 
 let connectionsAdjCache = null;
@@ -3725,6 +3730,50 @@ function bindConnectionsTooltips(root) {
   });
 }
 
+// Rescales the already-rendered SVG in place (no relayout) by writing new
+// width/height attributes while leaving its viewBox untouched — used by the
+// zoom buttons, ctrl/cmd+wheel, and pinch handlers below. A full
+// renderConnectionsGraph() call also reads connectionsPageState.zoom when
+// building the SVG from scratch, so the two stay in sync either way.
+function applyConnectionsZoom() {
+  const svg = document.querySelector('#connections-graph-wrap svg');
+  if (!svg) return;
+  const viewBox = svg.getAttribute('viewBox');
+  if (!viewBox) return;
+  const [, , vbWidth, vbHeight] = viewBox.split(' ').map(Number);
+  const zoom = connectionsPageState.zoom;
+  svg.setAttribute('width', vbWidth * zoom);
+  svg.setAttribute('height', vbHeight * zoom);
+}
+
+function setConnectionsZoom(zoom) {
+  connectionsPageState.zoom = Math.min(CONNECTIONS_ZOOM_MAX, Math.max(CONNECTIONS_ZOOM_MIN, zoom));
+  applyConnectionsZoom();
+  const label = document.getElementById('conn-zoom-reset');
+  if (label) label.textContent = `${Math.round(connectionsPageState.zoom * 100)}%`;
+}
+
+// Corner-brackets pointing outward (enter fullscreen) vs. inward (exit) —
+// an inline SVG rather than a Unicode glyph like ⛶, which came up blank in
+// some fonts during testing.
+const CONNECTIONS_FULLPAGE_ICON_ENTER = '<path d="M9 4H4v5"></path><path d="M15 4h5v5"></path><path d="M9 20H4v-5"></path><path d="M15 20h5v-5"></path>';
+const CONNECTIONS_FULLPAGE_ICON_EXIT = '<path d="M4 9h5V4"></path><path d="M20 9h-5V4"></path><path d="M4 15h5v5"></path><path d="M20 15h-5v5"></path>';
+
+function toggleConnectionsFullpage(forceState) {
+  const frame = document.getElementById('connections-graph-frame');
+  const btn = document.getElementById('conn-fullpage-toggle');
+  if (!frame) return;
+  const isFull = forceState !== undefined ? forceState : !frame.classList.contains('connections-graph-frame--fullpage');
+  frame.classList.toggle('connections-graph-frame--fullpage', isFull);
+  document.body.classList.toggle('connections-fullpage-active', isFull);
+  if (btn) {
+    btn.setAttribute('aria-pressed', String(isFull));
+    btn.setAttribute('aria-label', isFull ? 'Exit full-page view' : 'Full-page view');
+    const svg = btn.querySelector('svg');
+    if (svg) svg.innerHTML = isFull ? CONNECTIONS_FULLPAGE_ICON_EXIT : CONNECTIONS_FULLPAGE_ICON_ENTER;
+  }
+}
+
 function renderConnectionsGraph() {
   const wrap = document.getElementById('connections-graph-wrap');
   if (!wrap) return;
@@ -3816,8 +3865,14 @@ function renderConnectionsGraph() {
     `;
   });
 
+  // The viewBox holds the fixed internal coordinate system that every
+  // position/edge above was computed in; width/height (which the zoom
+  // controls adjust afterwards, see applyConnectionsZoom) are the only
+  // thing that actually changes the rendered size, so zoom never
+  // triggers a relayout.
+  const zoom = connectionsPageState.zoom;
   wrap.innerHTML = `
-    <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Connections graph centered on ${escapeHtml(centerPerson.name)}">
+    <svg width="${width * zoom}" height="${height * zoom}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Connections graph centered on ${escapeHtml(centerPerson.name)}">
       <defs>
         <marker id="graph-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
           <path d="M0,0 L10,5 L0,10 z" fill="${CONNECTIONS_ARROW_COLOR}"></path>
@@ -4034,6 +4089,65 @@ function initConnectionsPage() {
       setConnectionsCenter(pick.id);
     });
   }
+
+  // Zoom controls, wheel/pinch, and full-page toggle are bound once here on
+  // stable elements outside #connections-graph-wrap — that element's
+  // innerHTML is fully replaced on every renderConnectionsGraph() call, so
+  // listeners attached to its contents wouldn't survive a re-center.
+  const graphWrap = document.getElementById('connections-graph-wrap');
+  document.getElementById('conn-zoom-in')?.addEventListener('click', () => {
+    setConnectionsZoom(connectionsPageState.zoom + CONNECTIONS_ZOOM_STEP);
+  });
+  document.getElementById('conn-zoom-out')?.addEventListener('click', () => {
+    setConnectionsZoom(connectionsPageState.zoom - CONNECTIONS_ZOOM_STEP);
+  });
+  document.getElementById('conn-zoom-reset')?.addEventListener('click', () => {
+    setConnectionsZoom(1);
+  });
+
+  if (graphWrap) {
+    // Trackpad pinch and ctrl/cmd+wheel both arrive as a wheel event with
+    // ctrlKey set (that's how Chrome/Firefox represent trackpad pinch) —
+    // plain scrolling is left alone so the wrap's normal horizontal scroll
+    // still works.
+    graphWrap.addEventListener('wheel', e => {
+      if (!e.ctrlKey && !e.metaKey) return;
+      e.preventDefault();
+      setConnectionsZoom(connectionsPageState.zoom - e.deltaY * 0.01);
+    }, { passive: false });
+
+    // Two-finger touch pinch. touch-action: pan-x pan-y (see style.css)
+    // already keeps the browser's own pinch-to-zoom from engaging here, so
+    // this is the only handler driving zoom on touch devices.
+    let pinchStartDist = null;
+    let pinchStartZoom = 1;
+    const touchDist = touches => Math.hypot(
+      touches[0].clientX - touches[1].clientX,
+      touches[0].clientY - touches[1].clientY
+    );
+    graphWrap.addEventListener('touchstart', e => {
+      if (e.touches.length === 2) {
+        pinchStartDist = touchDist(e.touches);
+        pinchStartZoom = connectionsPageState.zoom;
+      }
+    }, { passive: true });
+    graphWrap.addEventListener('touchmove', e => {
+      if (e.touches.length === 2 && pinchStartDist) {
+        e.preventDefault();
+        setConnectionsZoom(pinchStartZoom * (touchDist(e.touches) / pinchStartDist));
+      }
+    }, { passive: false });
+    graphWrap.addEventListener('touchend', e => {
+      if (e.touches.length < 2) pinchStartDist = null;
+    });
+  }
+
+  document.getElementById('conn-fullpage-toggle')?.addEventListener('click', () => {
+    toggleConnectionsFullpage();
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') toggleConnectionsFullpage(false);
+  });
 }
 
 // ============================================================

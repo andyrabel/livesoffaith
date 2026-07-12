@@ -2825,19 +2825,97 @@ main {
   font-style: italic;
 }
 
+.connections-stage {
+  position: relative;
+}
+
+.connections-graph-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.connections-zoom-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--text-muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.btn-icon:hover {
+  background: var(--tag-bg);
+  color: var(--text);
+}
+
+.connections-zoom-level {
+  width: auto;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+body.connections-fullpage-active {
+  overflow: hidden;
+}
+
 .connections-layout {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
 }
 
-.connections-graph-wrap {
+.connections-graph-frame {
+  position: relative;
   flex: 1 1 auto;
   min-width: 0;
+}
+
+/* Full-page view: a fixed overlay on just the graph frame, rather than the
+   native Fullscreen API — iOS Safari doesn't support requestFullscreen() on
+   arbitrary elements, and mobile is the primary reason this graph needed a
+   bigger canvas at all. */
+.connections-graph-frame--fullpage {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  background: var(--surface);
+  padding: 0;
+}
+
+.connections-graph-frame--fullpage .connections-graph-wrap {
+  flex: 1 1 auto;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.connections-graph-wrap {
   /* Vertical tree layout grows downward with the page, not in a boxed-in
      scroll area — a nested vertical scrollbar is the thing that made this
      unusable on mobile. Only pan sideways if a row is wider than the
-     viewport. */
+     viewport. Pinch-to-zoom is handled ourselves in JS (see
+     applyConnectionsZoom), so only single-finger panning is left to the
+     browser's native touch handling. */
+  touch-action: pan-x pan-y;
   overflow-x: auto;
   overflow-y: visible;
   background: var(--surface);
@@ -2850,6 +2928,32 @@ main {
 .connections-graph-wrap svg {
   display: block;
   margin: 0 auto;
+}
+
+/* Fullscreen toggle icon, superimposed on the graph's own corner rather
+   than living in the toolbar, so it stays anchored to the graph itself
+   whether or not the frame is currently in full-page mode. */
+.connections-fullpage-btn {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  z-index: 5;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--text);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.connections-fullpage-btn:hover {
+  background: var(--surface);
+  color: var(--accent);
 }
 
 .connections-sidebar {
@@ -2984,6 +3088,16 @@ main {
 @media (max-width: 720px) {
   .connections-layout {
     flex-direction: column;
+  }
+
+  /* .connections-layout uses align-items: flex-start (so the sidebar
+     doesn't stretch tall on desktop) — but in column direction that same
+     property lets a flex item's cross size (width, here) shrink-to-fit its
+     content instead of filling the container. Without this, the graph
+     frame sizes itself to its wide SVG and blows out not just its own box
+     but the page's mobile viewport entirely. */
+  .connections-graph-frame {
+    width: 100%;
   }
 
   .connections-sidebar {
