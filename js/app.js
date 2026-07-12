@@ -3546,6 +3546,9 @@ const CONNECTIONS_MARGIN = 50;
 // gray line and any node border it landed near (confirmed by cropping in
 // tight on a rendered edge; it was technically painted, just unreadable).
 const CONNECTIONS_ARROW_COLOR = '#1c3d5a';
+// Minimum px an edge label must clear the arrowhead end by, on top of the
+// target node's own radius — keeps the label from landing on the marker.
+const CONNECTIONS_ARROW_CLEARANCE = 22;
 
 // Depth control is temporarily hidden in the UI — Andrew wants every graph
 // forced to the widest depth for now. The <select>, its change handler, and
@@ -3620,6 +3623,27 @@ function connectionsNodeLabel(person, max) {
 // pixel-perfect.
 function connectionsEstimateLabelWidth(label) {
   return label.length * 6.4;
+}
+
+// Greedily wraps a relationship label onto multiple short lines (for the
+// "show all labels" SVG text, rendered as one <tspan> per line) instead of
+// truncating it — these phrases are short enough that showing the whole
+// thing across 2-3 lines reads better than cutting it off with an ellipsis.
+function connectionsWrapLabel(label, maxCharsPerLine) {
+  const words = label.split(' ');
+  const lines = [];
+  let current = '';
+  words.forEach(word => {
+    const candidate = current ? `${current} ${word}` : word;
+    if (candidate.length > maxCharsPerLine && current) {
+      lines.push(current);
+      current = word;
+    } else {
+      current = candidate;
+    }
+  });
+  if (current) lines.push(current);
+  return lines;
 }
 
 // BFS from centerId over the undirected connections graph, up to maxDepth
@@ -3877,10 +3901,29 @@ function renderConnectionsGraph() {
       let t = 0.5;
       if (toPos.depth > fromPos.depth) t = 0.68;
       else if (fromPos.depth > toPos.depth) t = 0.32;
+
+      // The bias above chases tree depth, not which end the arrowhead is
+      // on — the two often coincide (a parent's relationship to a child)
+      // but not always (e.g. a child "attended the lectures of" a
+      // shallower node), so on its own it can still push the label right
+      // into the very arrowhead it's labeling. Clamp it back so the label
+      // always clears the arrow end by the target node's radius plus the
+      // marker's own size.
+      if (!edge.mutual) {
+        const clearanceT = (toR + CONNECTIONS_ARROW_CLEARANCE) / dist;
+        t = Math.min(t, 1 - clearanceT);
+      }
+      t = Math.max(0.15, Math.min(0.85, t));
+
       const labelX = x1 + (x2 - x1) * t;
       const labelY = y1 + (y2 - y1) * t;
-      const shortLabel = connectionsTruncateName(edge.label, 24);
-      edgesHtml += `<text class="graph-edge-label" x="${labelX}" y="${labelY}">${escapeHtml(shortLabel)}</text>`;
+      const lines = connectionsWrapLabel(edge.label, 20);
+      const lineHeight = 11;
+      const tspans = lines.map((line, i) => {
+        const dy = i === 0 ? -((lines.length - 1) * lineHeight) / 2 : lineHeight;
+        return `<tspan x="${labelX}" dy="${dy}">${escapeHtml(line)}</tspan>`;
+      }).join('');
+      edgesHtml += `<text class="graph-edge-label" x="${labelX}" y="${labelY}">${tspans}</text>`;
     }
   });
 
