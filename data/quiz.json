@@ -238,7 +238,7 @@
     "answer": "Horatio Spafford, after his four daughters drowned",
     "person_id": "horatio-spafford",
     "hymn_id": "it-is-well-with-my-soul",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote \"Just As I Am\"?",
@@ -713,7 +713,7 @@
     "answer": "Horatio Spafford",
     "person_id": "horatio-spafford",
     "hymn_id": "it-is-well-with-my-soul",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Which famous London preacher was known as \"the Prince of Preachers\"?",
@@ -762,7 +762,7 @@
     "answer": "Joseph Scriven",
     "person_id": "joseph-scriven",
     "hymn_id": "what-a-friend-we-have-in-jesus",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who ran a huge orphanage in Bristol and relied only on prayer for support?",
@@ -800,7 +800,7 @@
     "question": "Who wrote the hymn \"Rock of Ages\"?",
     "answer": "Augustus Toplady",
     "person_id": "augustus-toplady",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"Glorious Things of Thee Are Spoken\"?",
@@ -1136,20 +1136,20 @@
     "question": "Who wrote the hymn \"Like a River Glorious\"?",
     "answer": "Frances Ridley Havergal",
     "person_id": "frances-ridley-havergal",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"Take My Life, and Let It Be\"?",
     "answer": "Frances Ridley Havergal",
     "person_id": "frances-ridley-havergal",
     "hymn_id": "take-my-life-and-let-it-be",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"Who Is on the Lord's Side?\"?",
     "answer": "Frances Ridley Havergal",
     "person_id": "frances-ridley-havergal",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"Asleep in the Light\"?",
@@ -1261,34 +1261,34 @@
     "answer": "Robert Lowry",
     "person_id": "robert-lowry",
     "hymn_id": "shall-we-gather-at-the-river",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"Nothing But the Blood of Jesus\"?",
     "answer": "Robert Lowry",
     "person_id": "robert-lowry",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"Christ Arose! (Low in the Grave He Lay)\"?",
     "answer": "Robert Lowry",
     "person_id": "robert-lowry",
     "hymn_id": "christ-arose",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"Marching to Zion\"?",
     "answer": "Robert Lowry",
     "person_id": "robert-lowry",
     "hymn_id": "marching-to-zion",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"I Need Thee Every Hour\"?",
     "answer": "Robert Lowry",
     "person_id": "robert-lowry",
     "hymn_id": "i-need-thee-every-hour",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"I'll Overcome Someday\"?",
@@ -1339,19 +1339,19 @@
     "question": "Who wrote the hymn \"Soon and Very Soon\"?",
     "answer": "Andraé Crouch",
     "person_id": "andrae-crouch",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"My Tribute (To God Be the Glory)\"?",
     "answer": "Andraé Crouch",
     "person_id": "andrae-crouch",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"The Blood Will Never Lose Its Power\"?",
     "answer": "Andraé Crouch",
     "person_id": "andrae-crouch",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"I'd Rather Have Jesus\"?",
@@ -1391,7 +1391,7 @@
     "answer": "James Montgomery",
     "person_id": "james-montgomery",
     "hymn_id": "angels-from-the-realms-of-glory",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"Prayer Is the Soul's Sincere Desire\"?",
@@ -1582,31 +1582,31 @@
     "question": "Susanna Wesley was the mother of which two famous preachers?",
     "answer": "John and Charles Wesley",
     "person_id": "susanna-wesley",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Which Chinese Christian teacher wrote The Normal Christian Life and died after twenty years in a Communist prison?",
     "answer": "Watchman Nee",
     "person_id": "watchman-nee",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Which English Reformer was burned at the stake alongside Hugh Latimer as one of the Oxford Martyrs?",
     "answer": "Nicholas Ridley",
     "person_id": "nicholas-ridley",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Whose name is attached to the famous Bible concordance that numbers every Hebrew and Greek word?",
     "answer": "James Strong",
     "person_id": "james-strong",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who wrote the most widely read English Bible commentary in history, his six-volume Exposition of the Old and New Testaments?",
     "answer": "Matthew Henry",
     "person_id": "matthew-henry",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What classic daily devotional, compiled from his teaching by his widow, is Oswald Chambers remembered for?",
@@ -1618,13 +1618,13 @@
     "question": "What professional sport did evangelist Billy Sunday play before his conversion?",
     "answer": "Baseball",
     "person_id": "billy-sunday",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What scientific law, still taught in chemistry classes today, is named after this devout Christian scientist?",
     "answer": "Boyle's Law",
     "person_id": "robert-boyle",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What theological system, teaching distinct ages in God's dealings with humanity, did John Nelson Darby originate?",
@@ -1636,25 +1636,25 @@
     "question": "What country did theologian Abraham Kuyper serve as Prime Minister of?",
     "answer": "The Netherlands",
     "person_id": "abraham-kuyper",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What Swiss city did Huldrych Zwingli lead the Reformation in?",
     "answer": "Zurich",
     "person_id": "huldrych-zwingli",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What country did devotional writer Andrew Murray serve in as a pastor for 35 years?",
     "answer": "South Africa",
     "person_id": "andrew-murray",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What English city did John Charles Ryle become the first bishop of, in 1880?",
     "answer": "Liverpool",
     "person_id": "john-charles-ryle",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What did the Welsh preacher Christmas Evans lose in a youthful brawl?",
@@ -1894,7 +1894,7 @@
     "question": "What is the title of Graham Kendrick's most famous worship song, written in 1987?",
     "answer": "Shine, Jesus, Shine",
     "person_id": "graham-kendrick",
-    "difficulty": 3,
+    "difficulty": 5,
     "hymn_id": "shine-jesus-shine"
   },
   {
@@ -1908,40 +1908,40 @@
     "question": "What movement of mass public worship marches did Graham Kendrick co-found in 1987?",
     "answer": "March for Jesus",
     "person_id": "graham-kendrick",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Which Graham Kendrick hymn is based on the apostle Paul's words in Philippians 3, counting all things as loss for the sake of knowing Christ?",
     "answer": "Knowing You (All I Once Held Dear)",
     "person_id": "graham-kendrick",
-    "difficulty": 3,
+    "difficulty": 5,
     "hymn_id": "knowing-you"
   },
   {
     "question": "Graham Kendrick wrote \"Beauty for Brokenness\" for the 25th anniversary of which Christian relief charity?",
     "answer": "Tearfund",
     "person_id": "graham-kendrick",
-    "difficulty": 3,
+    "difficulty": 5,
     "hymn_id": "beauty-for-brokenness"
   },
   {
     "question": "Cecil Frances Alexander wrote her hymns for children to help them understand which ancient Christian statement of belief?",
     "answer": "The Apostles' Creed",
     "person_id": "cecil-frances-alexander",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What hymn did Cecil Frances Alexander write about Christ's birth, which has opened the King's College Cambridge Christmas Eve carol service since 1919?",
     "answer": "Once in Royal David's City",
     "person_id": "cecil-frances-alexander",
-    "difficulty": 3,
+    "difficulty": 5,
     "hymn_id": "once-in-royal-davids-city"
   },
   {
     "question": "In Cecil Frances Alexander's hymn \"There Is a Green Hill Far Away,\" what event does the \"green hill\" represent?",
     "answer": "The crucifixion of Jesus",
     "person_id": "cecil-frances-alexander",
-    "difficulty": 3,
+    "difficulty": 5,
     "hymn_id": "there-is-a-green-hill-far-away"
   },
   {
@@ -1955,32 +1955,32 @@
     "question": "Why did Kenneth Taylor first start paraphrasing the Bible into simple English in 1954?",
     "answer": "To help his own children understand it during family Bible reading",
     "person_id": "kenneth-taylor",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What publishing company did Kenneth Taylor found in 1962 to print his Bible paraphrase himself?",
     "answer": "Tyndale House Publishers",
     "person_id": "kenneth-taylor",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What is the title of Kenneth Taylor's complete Bible paraphrase, published in 1971?",
     "answer": "The Living Bible",
     "person_id": "kenneth-taylor",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Which two songwriters co-wrote the hymn \"In Christ Alone\" in 2001?",
     "answer": "Keith Getty and Stuart Townend",
     "person_id": "keith-getty",
     "hymn_id": "in-christ-alone",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What country are Keith and Kristyn Getty from?",
     "answer": "Northern Ireland",
     "person_id": "keith-getty",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "In 2013, what line did Keith Getty and Stuart Townend refuse to change in \"In Christ Alone\" for a hymnal committee?",
@@ -2000,25 +2000,25 @@
     "question": "What honor did Keith Getty receive from Queen Elizabeth II in 2018?",
     "answer": "An OBE (Officer of the Order of the British Empire)",
     "person_id": "keith-getty",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What book did Sabina Wurmbrand write about her experiences of Communist persecution in Romania?",
     "answer": "The Pastor's Wife",
     "person_id": "sabina-wurmbrand",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "How many years was Sabina Wurmbrand imprisoned in a labour camp on the Danube-Black Sea Canal?",
     "answer": "Three years (1951-1954)",
     "person_id": "sabina-wurmbrand",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What organization did Sabina and Richard Wurmbrand found in 1967 to support persecuted Christians worldwide?",
     "answer": "Jesus to the Communist World, later known as Voice of the Martyrs",
     "person_id": "sabina-wurmbrand",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Who was born first: Martin Luther or John Calvin?",
@@ -2054,19 +2054,19 @@
     "question": "What subject did Christian apologist John Lennox teach as a professor at Oxford?",
     "answer": "Mathematics",
     "person_id": "john-lennox",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What is the title of John Lennox's best-known book responding to the New Atheism?",
     "answer": "God's Undertaker: Has Science Buried God?",
     "person_id": "john-lennox",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Which prominent atheist did John Lennox famously debate at Oxford's Museum of Natural History in 2008?",
     "answer": "Richard Dawkins",
     "person_id": "john-lennox",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What country did Lottie Moon serve as a missionary in for nearly forty years?",
@@ -2090,13 +2090,13 @@
     "question": "What famous prayer guide did Patrick Johnstone create in 1964 to help Christians pray for every country?",
     "answer": "Operation World",
     "person_id": "patrick-johnstone",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Where was Patrick Johnstone training to become a missionary when he studied for the Dorothea Mission?",
     "answer": "South Africa (Pretoria)",
     "person_id": "patrick-johnstone",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What subject was Patrick Johnstone studying at Bristol University when he was converted to Christ?",
@@ -2108,13 +2108,13 @@
     "question": "What country does Ramez Atallah's Bible Society serve as its largest publisher of Arabic Bibles?",
     "answer": "Egypt",
     "person_id": "ramez-atallah",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What Canadian university group discipled Ramez Atallah after his conversion?",
     "answer": "InterVarsity Christian Fellowship",
     "person_id": "ramez-atallah",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "How many gospel tracts did Ramez Atallah have distributed in Cairo after the 1992 earthquake?",
@@ -2126,31 +2126,31 @@
     "question": "In what city did Jackie Pullinger begin her famous ministry to drug addicts and gang members?",
     "answer": "Hong Kong",
     "person_id": "jackie-pullinger",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What is the name of the rehabilitation society Jackie Pullinger founded in 1981?",
     "answer": "St Stephen's Society",
     "person_id": "jackie-pullinger",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What was the name of the lawless, gang-controlled district of Hong Kong where Jackie Pullinger began her ministry?",
     "answer": "The Kowloon Walled City",
     "person_id": "jackie-pullinger",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What book did Ugandan bishop Festo Kivengere write about forgiving his persecutors?",
     "answer": "I Love Idi Amin",
     "person_id": "festo-kivengere",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "In what year was Festo Kivengere converted to Christ during the East African Revival?",
     "answer": "1941",
     "person_id": "festo-kivengere",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Which archbishop's murder by Idi Amin's regime caused Festo Kivengere to flee Uganda in 1977?",
@@ -2162,7 +2162,7 @@
     "question": "What missionary wife nursed her imprisoned husband Adoniram Judson through the Anglo-Burmese War?",
     "answer": "Ann Judson",
     "person_id": "ann-judson",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "Into what language did Ann Judson become the first Protestant to translate any Scripture?",
@@ -2174,19 +2174,19 @@
     "question": "What illness caused Ann Judson's death in Burma in 1826?",
     "answer": "Smallpox",
     "person_id": "ann-judson",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What country did Ida Scudder serve as a medical missionary?",
     "answer": "India",
     "person_id": "ida-scudder",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What event in 1894 led Ida Scudder to train as a doctor?",
     "answer": "Three women died in one night because no woman doctor was available to treat them",
     "person_id": "ida-scudder",
-    "difficulty": 3
+    "difficulty": 5
   },
   {
     "question": "What medical college did Ida Scudder found in Vellore, India?",

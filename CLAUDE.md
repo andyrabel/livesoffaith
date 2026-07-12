@@ -344,13 +344,17 @@ Question" box and the printable quiz generator (`quiz-print.html`). Each entry:
 ```
 
 - `difficulty` — one of `1` (Easy), `3` (Medium), `5` (Hard). No other values are used.
-  `1` is reserved for household-name figures — someone a worship leader or Bible
-  teacher with no specialist background in that particular era/movement would
-  recognize by name unprompted (e.g. Martin Luther, C.S. Lewis, Billy Graham,
-  John Bunyan). For anyone less broadly known (e.g. Ramez Atallah, Andrew Murray,
-  Watchman Nee, J.C. Ryle), floor the difficulty at `3` even if the question
-  itself is a simple book/name-identification type — an "easy" fact about someone
-  nobody's heard of isn't actually easy. When in doubt, default to `3`.
+  The calibration standard: a well-read Christian should get almost all difficulty-3
+  questions right. `1`/`3` recall-type tiering (see below) only applies to
+  household-name figures — someone a worship leader or Bible teacher with no
+  specialist background in that particular era/movement would recognize by name
+  unprompted (e.g. Martin Luther, C.S. Lewis, Billy Graham, John Bunyan). For
+  anyone less broadly known (e.g. Ramez Atallah, Andrew Murray, Watchman Nee,
+  J.C. Ryle), **every** question about them is difficulty `5`, even a simple
+  book/name-identification type — the bottleneck is recognizing the person exists
+  at all, not the type of fact asked, so it can never be an "easy" or "medium"
+  question for a general reader. When in doubt about whether someone clears the
+  household-name bar, default to `5`.
 - `person_id` must match an existing entry in `people.json`.
 - `hymn_id` — optional. Include it whenever the question is about a specific hymn
   (e.g. "Who wrote the hymn X?") **and** that hymn has its own entry in
