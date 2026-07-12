@@ -3590,6 +3590,11 @@ function connectionsTruncateName(name, max) {
   return name.length > max ? name.slice(0, max - 1) + '…' : name;
 }
 
+function connectionsNodeLabel(person, max) {
+  const born = person.born_approximate ? `c. ${person.born}` : String(person.born);
+  return connectionsTruncateName(`${person.name} (${born})`, max);
+}
+
 // BFS from centerId over the undirected connections graph, up to maxDepth
 // hops. Returns each discovered node's depth plus a BFS-tree parent/children
 // map (first path found) used only for layout — the returned `edges` list
@@ -3759,7 +3764,7 @@ function renderConnectionsGraph() {
     const r = isCenter ? CONNECTIONS_NODE_RADIUS[0] : connectionsNodeRadius(pos.depth);
     const color = connectionsRegionColor(p);
     const tooltip = `${p.name} — ${formatYears(p)} — ${p.region}, ${p.era}`;
-    const label = connectionsTruncateName(p.name, isCenter ? 22 : 16);
+    const label = connectionsNodeLabel(p, isCenter ? 30 : 22);
     nodesHtml += `
       <g class="graph-node${isCenter ? ' graph-node--center' : ''}" tabindex="0" role="button"
          data-person-id="${escapeHtml(id)}" data-tooltip="${escapeHtml(tooltip)}"
