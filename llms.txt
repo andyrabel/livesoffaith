@@ -11,6 +11,7 @@ For worship leaders, Bible teachers, and families seeking Christ-centred biograp
 - [Full plain-text biographies](https://livesoffaith.org/llms-full.txt): every person's full story text in one file, for deep grounding.
 - [Hymn stories](https://livesoffaith.org/hymns.html): the documented history behind individual hymns — who wrote them, when, and the Scripture that shaped them.
 - [Timeline](https://livesoffaith.org/timeline.html): interactive lifespan comparison of every profiled person, set against major events in church and world history.
+- [Connections](https://livesoffaith.org/connections.html): an interactive graph of documented relationships between profiled people — conversions, mentorships, marriages, collaborations, and shared martyrdoms — centered on a person you choose.
 - [Quiz](https://livesoffaith.org/quiz.html): a build-your-own 10-question quiz about the people and hymns on the site, printable for worship, Sunday school, or family use.
 
 ## People

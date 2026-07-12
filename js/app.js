@@ -3519,6 +3519,443 @@ function initTimelinePage() {
 }
 
 // ============================================================
+// Connections page (connections.html) — relationship graph
+// ============================================================
+
+// Radial layout constants: each BFS depth ring sits RING_SPACING px further
+// out from the centered person; node size shrinks with depth so the center
+// person and their direct connections stay visually dominant.
+const CONNECTIONS_RING_SPACING = 120;
+const CONNECTIONS_NODE_RADIUS = [24, 18, 15, 13, 11];
+const CONNECTIONS_MARGIN = 60;
+const CONNECTIONS_ARROW_COLOR = '#6b6360'; // matches --text-muted; marker fill can't reliably use var() across browsers
+
+const connectionsPageState = {
+  centerId: null,
+  maxDepth: 2,
+};
+
+let connectionsAdjCache = null;
+
+function connectionsAdjacency() {
+  if (connectionsAdjCache) return connectionsAdjCache;
+  const adj = new Map();
+  allConnections.forEach(edge => {
+    if (!adj.has(edge.from)) adj.set(edge.from, []);
+    if (!adj.has(edge.to)) adj.set(edge.to, []);
+    adj.get(edge.from).push(edge.to);
+    adj.get(edge.to).push(edge.from);
+  });
+  connectionsAdjCache = adj;
+  return adj;
+}
+
+function connectionsNodeRadius(depth) {
+  return CONNECTIONS_NODE_RADIUS[depth] ?? CONNECTIONS_NODE_RADIUS[CONNECTIONS_NODE_RADIUS.length - 1];
+}
+
+function connectionsRegionColor(person) {
+  return (person && TIMELINE_REGION_COLORS[person.region]) || '#6b6360';
+}
+
+function connectionsPersonLabel(p) {
+  return `${p.name} (${formatYears(p)})`;
+}
+
+function connectionsTruncateName(name, max) {
+  return name.length > max ? name.slice(0, max - 1) + '…' : name;
+}
+
+// BFS from centerId over the undirected connections graph, up to maxDepth
+// hops. Returns each discovered node's depth plus a BFS-tree parent/children
+// map (first path found) used only for layout — the returned `edges` list
+// includes every connections.json edge between two discovered nodes, so
+// non-tree "cross" links (e.g. two siblings who are also directly connected)
+// still get drawn.
+function computeConnectionsGraph(centerId, maxDepth) {
+  const adj = connectionsAdjacency();
+  const depthOf = new Map([[centerId, 0]]);
+  const childrenOf = new Map();
+  const queue = [centerId];
+  let qi = 0;
+  while (qi < queue.length) {
+    const cur = queue[qi++];
+    const d = depthOf.get(cur);
+    if (d >= maxDepth) continue;
+    (adj.get(cur) || []).forEach(other => {
+      if (!depthOf.has(other)) {
+        depthOf.set(other, d + 1);
+        if (!childrenOf.has(cur)) childrenOf.set(cur, []);
+        childrenOf.get(cur).push(other);
+        queue.push(other);
+      }
+    });
+  }
+
+  const nodeSet = new Set(depthOf.keys());
+  const edges = allConnections.filter(e => nodeSet.has(e.from) && nodeSet.has(e.to));
+
+  return { depthOf, childrenOf, edges, nodeIds: [...nodeSet] };
+}
+
+// Tidy radial tree layout: the full circle is divided among the center's
+// BFS-tree children, and each child's slice is recursively subdivided among
+// its own children — so sibling subtrees never overlap. Non-tree edges are
+// drawn wherever their endpoints land, which is what gives the graph its
+// "web" look beyond the plain tree structure.
+function layoutConnectionsRadial(centerId, depthOf, childrenOf) {
+  const positions = new Map();
+  positions.set(centerId, { x: 0, y: 0, depth: 0 });
+
+  function place(id, angleStart, angleEnd) {
+    const kids = childrenOf.get(id) || [];
+    if (!kids.length) return;
+    const slice = (angleEnd - angleStart) / kids.length;
+    kids.forEach((childId, i) => {
+      const start = angleStart + i * slice;
+      const end = start + slice;
+      const angle = (start + end) / 2;
+      const depth = depthOf.get(childId);
+      const r = depth * CONNECTIONS_RING_SPACING;
+      positions.set(childId, { x: r * Math.cos(angle), y: r * Math.sin(angle), depth });
+      place(childId, start, end);
+    });
+  }
+
+  place(centerId, 0, Math.PI * 2);
+  return positions;
+}
+
+function renderConnectionsLegend() {
+  const el = document.getElementById('connections-legend');
+  if (!el) return;
+  el.innerHTML = Object.entries(TIMELINE_REGION_COLORS).map(([region, color]) => `
+    <span class="timeline-legend__item">
+      <span class="timeline-legend__swatch" style="background:${color}; border-color:${color}"></span>
+      ${escapeHtml(region)}
+    </span>
+  `).join('');
+}
+
+function renderConnectionsSidebar(person) {
+  const el = document.getElementById('connections-sidebar');
+  if (!el) return;
+  if (!person) {
+    el.innerHTML = '';
+    return;
+  }
+  const edgeCount = personConnections(person.id).length;
+  const portraitHtml = person.image
+    ? `<img src="images/portraits/${escapeHtml(person.image.file)}" alt="Portrait of ${escapeHtml(person.name)}">`
+    : escapeHtml(getInitials(person.name));
+
+  el.innerHTML = `
+    <div class="connections-sidebar__portrait">${portraitHtml}</div>
+    <div class="connections-sidebar__name">${escapeHtml(person.name)}</div>
+    <div class="connections-sidebar__years">${escapeHtml(formatYears(person))} &middot; ${escapeHtml(person.region)}</div>
+    <div class="connections-sidebar__meta">${escapeHtml(person.era)}</div>
+    <p class="connections-sidebar__count">${edgeCount} documented connection${edgeCount === 1 ? '' : 's'}</p>
+    <a class="btn btn-secondary connections-sidebar__link" href="person.html?id=${escapeHtml(person.id)}">View full profile &rarr;</a>
+  `;
+}
+
+function bindConnectionsTooltips(root) {
+  const tooltip = document.getElementById('connections-tooltip');
+  if (!tooltip) return;
+  root.querySelectorAll('[data-tooltip]').forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      tooltip.textContent = el.dataset.tooltip;
+      tooltip.hidden = false;
+    });
+    el.addEventListener('mousemove', e => {
+      tooltip.style.left = `${e.clientX + 16}px`;
+      tooltip.style.top = `${e.clientY + 16}px`;
+    });
+    el.addEventListener('mouseleave', () => {
+      tooltip.hidden = true;
+    });
+  });
+}
+
+function highlightConnectionsNode(personId) {
+  const wrap = document.getElementById('connections-graph-wrap');
+  if (!wrap) return;
+  const node = wrap.querySelector(`[data-person-id="${CSS.escape(personId)}"]`);
+  if (!node) return;
+  node.classList.add('graph-node--highlight');
+  node.scrollIntoView({ block: 'center', inline: 'center', behavior: 'smooth' });
+  setTimeout(() => node.classList.remove('graph-node--highlight'), 3200);
+}
+
+// Single-line birth-year plot (no events, unlike timeline.html) for whichever
+// people are currently shown in the graph above.
+function renderConnectionsBirthline(nodeIds) {
+  const wrap = document.getElementById('connections-birthline-wrap');
+  if (!wrap) return;
+
+  const people = nodeIds
+    .map(id => allPeople.find(p => p.id === id))
+    .filter(p => p && typeof p.born === 'number');
+
+  if (!people.length) {
+    wrap.innerHTML = '<p class="timeline-empty">No birth years to plot yet.</p>';
+    return;
+  }
+
+  const years = people.map(p => p.born);
+  const minYear = Math.min(...years) - 10;
+  const maxYear = Math.max(...years) + 10;
+  const span = Math.max(maxYear - minYear, 1);
+  const width = 1000;
+  const axisY = 40;
+  const yearToX = y => Math.round(((y - minYear) / span) * (width - 40)) + 20;
+
+  const tickStep = span > 400 ? 50 : span > 150 ? 25 : span > 60 ? 10 : 5;
+  let ticksHtml = '';
+  for (let y = Math.ceil(minYear / tickStep) * tickStep; y <= maxYear; y += tickStep) {
+    const x = yearToX(y);
+    ticksHtml += `
+      <line class="birthline-tick" x1="${x}" y1="${axisY - 5}" x2="${x}" y2="${axisY + 5}"></line>
+      <text class="birthline-tick-label" x="${x}" y="${axisY + 18}" text-anchor="middle">${y}</text>
+    `;
+  }
+
+  // Collision avoidance: when two people's birth years land too close
+  // together to read as separate dots, stagger them off the line slightly
+  // (up, then down, then back on-line) rather than letting them overlap.
+  const sorted = [...people].sort((a, b) => a.born - b.born);
+  let lastX = -Infinity;
+  let toggle = 0;
+  const dotsHtml = sorted.map(p => {
+    const x = yearToX(p.born);
+    toggle = (x - lastX < 16) ? (toggle === 0 ? 1 : (toggle === 1 ? -1 : 0)) : 0;
+    lastX = x;
+    const y = axisY - toggle * 14;
+    const color = connectionsRegionColor(p);
+    const tooltip = `${p.name} — born ${formatYears(p)}`;
+    return `<circle class="birthline-dot" data-person-id="${escapeHtml(p.id)}" data-tooltip="${escapeHtml(tooltip)}" cx="${x}" cy="${y}" r="6" fill="${color}"></circle>`;
+  }).join('');
+
+  wrap.innerHTML = `
+    <svg viewBox="0 0 ${width} 70" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Birth years of everyone currently shown">
+      <line class="birthline-axis" x1="20" y1="${axisY}" x2="${width - 20}" y2="${axisY}"></line>
+      ${ticksHtml}
+      ${dotsHtml}
+    </svg>
+  `;
+
+  wrap.querySelectorAll('.birthline-dot').forEach(dot => {
+    dot.addEventListener('click', () => highlightConnectionsNode(dot.dataset.personId));
+  });
+
+  bindConnectionsTooltips(wrap);
+}
+
+function renderConnectionsGraph() {
+  const wrap = document.getElementById('connections-graph-wrap');
+  if (!wrap) return;
+
+  const { centerId, maxDepth } = connectionsPageState;
+  const centerPerson = allPeople.find(p => p.id === centerId);
+  if (!centerPerson) {
+    wrap.innerHTML = '<p class="timeline-empty">Choose a person above to see their connections.</p>';
+    renderConnectionsSidebar(null);
+    renderConnectionsBirthline([]);
+    return;
+  }
+
+  const { depthOf, childrenOf, edges, nodeIds } = computeConnectionsGraph(centerId, maxDepth);
+  renderConnectionsSidebar(centerPerson);
+
+  if (nodeIds.length === 1) {
+    wrap.innerHTML = `<p class="timeline-empty">No documented connections yet for ${escapeHtml(centerPerson.name)}.</p>`;
+    renderConnectionsBirthline(nodeIds);
+    return;
+  }
+
+  const positions = layoutConnectionsRadial(centerId, depthOf, childrenOf);
+  const maxDepthReached = Math.max(...depthOf.values());
+  const halfSize = maxDepthReached * CONNECTIONS_RING_SPACING + CONNECTIONS_MARGIN;
+  const size = halfSize * 2;
+
+  let ringsHtml = '';
+  for (let d = 1; d <= maxDepthReached; d++) {
+    ringsHtml += `<circle class="graph-ring" cx="${halfSize}" cy="${halfSize}" r="${d * CONNECTIONS_RING_SPACING}"></circle>`;
+  }
+
+  let edgesHtml = '';
+  edges.forEach(edge => {
+    const fromPos = positions.get(edge.from);
+    const toPos = positions.get(edge.to);
+    if (!fromPos || !toPos) return;
+    const fromP = allPeople.find(p => p.id === edge.from);
+    const toP = allPeople.find(p => p.id === edge.to);
+    const tooltip = `${fromP ? fromP.name : edge.from} ${edge.label} ${toP ? toP.name : edge.to}`;
+    edgesHtml += `
+      <line class="graph-edge" data-tooltip="${escapeHtml(tooltip)}"
+        x1="${halfSize + fromPos.x}" y1="${halfSize + fromPos.y}"
+        x2="${halfSize + toPos.x}" y2="${halfSize + toPos.y}"
+        ${!edge.mutual ? 'marker-end="url(#graph-arrow)"' : ''}></line>
+    `;
+  });
+
+  let nodesHtml = '';
+  nodeIds.forEach(id => {
+    const p = allPeople.find(pp => pp.id === id);
+    if (!p) return;
+    const pos = positions.get(id);
+    const isCenter = id === centerId;
+    const r = isCenter ? CONNECTIONS_NODE_RADIUS[0] : connectionsNodeRadius(pos.depth);
+    const color = connectionsRegionColor(p);
+    const tooltip = `${p.name} — ${formatYears(p)} — ${p.region}, ${p.era}`;
+    const label = connectionsTruncateName(p.name, isCenter ? 22 : 16);
+    nodesHtml += `
+      <g class="graph-node${isCenter ? ' graph-node--center' : ''}" tabindex="0" role="button"
+         data-person-id="${escapeHtml(id)}" data-tooltip="${escapeHtml(tooltip)}"
+         transform="translate(${halfSize + pos.x},${halfSize + pos.y})">
+        <circle r="${r}" fill="${color}"></circle>
+        <text text-anchor="middle" y="${r + 12}" font-size="11">${escapeHtml(label)}</text>
+      </g>
+    `;
+  });
+
+  wrap.innerHTML = `
+    <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" role="img" aria-label="Connections graph centered on ${escapeHtml(centerPerson.name)}">
+      <defs>
+        <marker id="graph-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="${CONNECTIONS_ARROW_COLOR}"></path>
+        </marker>
+      </defs>
+      ${ringsHtml}
+      ${edgesHtml}
+      ${nodesHtml}
+    </svg>
+  `;
+
+  wrap.querySelectorAll('.graph-node').forEach(node => {
+    const activate = () => {
+      const id = node.dataset.personId;
+      if (id !== connectionsPageState.centerId) setConnectionsCenter(id);
+    };
+    node.addEventListener('click', activate);
+    node.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
+    });
+  });
+
+  wrap.querySelectorAll('.graph-edge').forEach(line => {
+    line.addEventListener('mouseenter', () => line.classList.add('graph-edge--hover'));
+    line.addEventListener('mouseleave', () => line.classList.remove('graph-edge--hover'));
+  });
+
+  bindConnectionsTooltips(wrap);
+  renderConnectionsBirthline(nodeIds);
+}
+
+function setConnectionsCenter(id) {
+  const person = allPeople.find(p => p.id === id);
+  if (!person) return;
+  connectionsPageState.centerId = id;
+
+  const input = document.getElementById('conn-person-input');
+  if (input) input.value = connectionsPersonLabel(person);
+
+  const url = new URL(window.location.href);
+  url.searchParams.set('id', id);
+  url.searchParams.set('depth', String(connectionsPageState.maxDepth));
+  window.history.replaceState({}, '', url);
+
+  renderConnectionsGraph();
+}
+
+function resolveConnectionsPersonFromInput(value) {
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+  const lower = trimmed.toLowerCase();
+  return allPeople.find(p => connectionsPersonLabel(p) === trimmed)
+    || allPeople.find(p => p.name.toLowerCase() === lower)
+    || allPeople.find(p => p.name.toLowerCase().includes(lower))
+    || null;
+}
+
+function connectionsConnectedPeople() {
+  const ids = new Set();
+  allConnections.forEach(e => { ids.add(e.from); ids.add(e.to); });
+  return allPeople.filter(p => ids.has(p.id));
+}
+
+function initConnectionsPage() {
+  renderConnectionsLegend();
+
+  const datalist = document.getElementById('conn-person-list');
+  if (datalist) {
+    datalist.innerHTML = allPeople
+      .slice()
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .map(p => `<option value="${escapeHtml(connectionsPersonLabel(p))}">`)
+      .join('');
+  }
+
+  const input = document.getElementById('conn-person-input');
+  const depthSelect = document.getElementById('conn-depth-select');
+  const randomBtn = document.getElementById('conn-random-btn');
+  const connectedPeople = connectionsConnectedPeople();
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const paramId = urlParams.get('id');
+  const paramDepth = parseInt(urlParams.get('depth'), 10);
+  if (paramDepth >= 1 && paramDepth <= 4) {
+    connectionsPageState.maxDepth = paramDepth;
+    if (depthSelect) depthSelect.value = String(paramDepth);
+  }
+
+  let startId = (paramId && allPeople.some(p => p.id === paramId)) ? paramId : null;
+  if (!startId && connectedPeople.length) {
+    startId = connectedPeople[Math.floor(Math.random() * connectedPeople.length)].id;
+  }
+  if (startId) setConnectionsCenter(startId);
+
+  if (input) {
+    // Native <datalist> filters its suggestions against whatever text is
+    // currently in the input — once a full "Name (dates)" selection is sat
+    // in the field, only that exact entry matches, so the dropdown appears
+    // to have "just one person" in it. Clearing on focus restores the full
+    // list; blur puts the current center person's label back if nothing new
+    // was picked.
+    input.addEventListener('focus', () => {
+      input.dataset.prevValue = input.value;
+      input.value = '';
+    });
+
+    input.addEventListener('blur', () => {
+      if (!input.value.trim()) {
+        input.value = input.dataset.prevValue || '';
+      }
+    });
+
+    input.addEventListener('change', () => {
+      const match = resolveConnectionsPersonFromInput(input.value);
+      if (match) setConnectionsCenter(match.id);
+    });
+  }
+
+  if (depthSelect) {
+    depthSelect.addEventListener('change', () => {
+      connectionsPageState.maxDepth = parseInt(depthSelect.value, 10);
+      if (connectionsPageState.centerId) setConnectionsCenter(connectionsPageState.centerId);
+    });
+  }
+
+  if (randomBtn) {
+    randomBtn.addEventListener('click', () => {
+      if (!connectedPeople.length) return;
+      const pick = connectedPeople[Math.floor(Math.random() * connectedPeople.length)];
+      setConnectionsCenter(pick.id);
+    });
+  }
+}
+
+// ============================================================
 // Boot
 // ============================================================
 
@@ -3543,5 +3980,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initQuizPage();
   } else if (document.getElementById('timeline-canvas')) {
     initTimelinePage();
+  } else if (document.getElementById('connections-graph-wrap')) {
+    initConnectionsPage();
   }
 });
