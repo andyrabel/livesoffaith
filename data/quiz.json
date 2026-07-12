@@ -2139,5 +2139,59 @@
     "answer": "The Kowloon Walled City",
     "person_id": "jackie-pullinger",
     "difficulty": 3
+  },
+  {
+    "question": "What book did Ugandan bishop Festo Kivengere write about forgiving his persecutors?",
+    "answer": "I Love Idi Amin",
+    "person_id": "festo-kivengere",
+    "difficulty": 1
+  },
+  {
+    "question": "In what year was Festo Kivengere converted to Christ during the East African Revival?",
+    "answer": "1941",
+    "person_id": "festo-kivengere",
+    "difficulty": 3
+  },
+  {
+    "question": "Which archbishop's murder by Idi Amin's regime caused Festo Kivengere to flee Uganda in 1977?",
+    "answer": "Janani Luwum",
+    "person_id": "festo-kivengere",
+    "difficulty": 5
+  },
+  {
+    "question": "What missionary wife nursed her imprisoned husband Adoniram Judson through the Anglo-Burmese War?",
+    "answer": "Ann Judson",
+    "person_id": "ann-judson",
+    "difficulty": 1
+  },
+  {
+    "question": "Into what language did Ann Judson become the first Protestant to translate any Scripture?",
+    "answer": "Thai",
+    "person_id": "ann-judson",
+    "difficulty": 5
+  },
+  {
+    "question": "What illness caused Ann Judson's death in Burma in 1826?",
+    "answer": "Smallpox",
+    "person_id": "ann-judson",
+    "difficulty": 3
+  },
+  {
+    "question": "What country did Ida Scudder serve as a medical missionary?",
+    "answer": "India",
+    "person_id": "ida-scudder",
+    "difficulty": 1
+  },
+  {
+    "question": "What event in 1894 led Ida Scudder to train as a doctor?",
+    "answer": "Three women died in one night because no woman doctor was available to treat them",
+    "person_id": "ida-scudder",
+    "difficulty": 3
+  },
+  {
+    "question": "What medical college did Ida Scudder found in Vellore, India?",
+    "answer": "Christian Medical College",
+    "person_id": "ida-scudder",
+    "difficulty": 5
   }
 ]

@@ -3626,8 +3626,8 @@
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Adoniram_Judson",
     "source_summary": "Adoniram Judson (1788–1850) was an American Baptist missionary, the first American Protestant foreign missionary, sent to Burma (Myanmar). He sailed for Burma with his wife Ann in 1812, converting from Congregationalism to Baptist conviction during the voyage. He was imprisoned for seventeen months during the Anglo-Burmese War of 1824–26. He produced the first Burmese Bible (1835) and a Burmese-English dictionary. He lost two wives and several children to illness. By his death in 1850 at sea, there were approximately 8,000 Burmese Christians and 100 churches.",
-    "adult_story": "Adoniram Judson was born in Massachusetts in 1788, the son of a minister. He sailed for Burma with his wife Ann in 1812 as one of America's first overseas missionaries, converting from Congregationalism to Baptist conviction during the voyage. His first Burmese convert was not baptised until 1819 — six years after arrival.\n\nThe Anglo-Burmese War of 1824 brought catastrophe. Judson was arrested as a suspected spy and imprisoned for seventeen months in Oung-pen-la — Death Prison — where prisoners were chained and suspended from bamboo poles at night. Ann walked to the prison daily, bribing guards for access and nursing their infant daughter Maria through the gates. Ann died in 1826 shortly after his release; Maria died weeks later.\n\nJudson pressed on. He completed the first Burmese Bible in 1835 and compiled a Burmese-English dictionary of 25,000 entries. He lost two more wives in the field. He died at sea in 1850, having never returned to America. By then there were approximately 8,000 Burmese Christians and 100 churches.\n\n\"The future is as bright as the promises of God.\" A man who outlasted every loss not because he was immune to grief but because he had concluded that the gospel was owed to the Burmese regardless of what it cost him.",
-    "family_story": "Adoniram Judson sailed from America to Burma in 1812 — one of the first American overseas missionaries. For six years, no one became a Christian.\n\nThen a war broke out and Judson was thrown into a terrible prison. His wife Ann walked to the prison every day to bring him food. When he was finally released, Ann died. Their baby daughter died soon after.\n\nJudson stayed in Burma. He translated the whole Bible into Burmese so people could read it. By the time he died, there were thousands of Burmese Christians and one hundred churches.\n\nHe waited six years for his first convert — and never stopped trusting God through every loss.",
+    "adult_story": "Adoniram Judson was born in Massachusetts in 1788, the son of a minister. He sailed for Burma with his wife [[Ann Judson|ann-judson]] in 1812 as one of America's first overseas missionaries, converting from Congregationalism to Baptist conviction during the voyage. His first Burmese convert was not baptised until 1819 — six years after arrival.\n\nThe Anglo-Burmese War of 1824 brought catastrophe. Judson was arrested as a suspected spy and imprisoned for seventeen months in Oung-pen-la — Death Prison — where prisoners were chained and suspended from bamboo poles at night. [[Ann Judson|ann-judson]] walked to the prison daily, bribing guards for access and nursing their infant daughter Maria through the gates. Ann died in 1826 shortly after his release; Maria died weeks later.\n\nJudson pressed on. He completed the first Burmese Bible in 1835 and compiled a Burmese-English dictionary of 25,000 entries. He lost two more wives in the field. He died at sea in 1850, having never returned to America. By then there were approximately 8,000 Burmese Christians and 100 churches.\n\n\"The future is as bright as the promises of God.\" A man who outlasted every loss not because he was immune to grief but because he had concluded that the gospel was owed to the Burmese regardless of what it cost him.",
+    "family_story": "Adoniram Judson sailed from America to Burma in 1812 — one of the first American overseas missionaries. For six years, no one became a Christian.\n\nThen a war broke out and Judson was thrown into a terrible prison. His wife [[Ann Judson|ann-judson]] walked to the prison every day to bring him food. When he was finally released, Ann died. Their baby daughter died soon after.\n\nJudson stayed in Burma. He translated the whole Bible into Burmese so people could read it. By the time he died, there were thousands of Burmese Christians and one hundred churches.\n\nHe waited six years for his first convert — and never stopped trusting God through every loss.",
     "image": {
       "file": "adoniram-judson.jpg",
       "prompt_used": "Photorealistic portrait of Adoniram Judson, American Baptist missionary to Burma, circa 1846, wearing a dark 19th-century coat with white collar, serious and resolute expression, slightly gaunt from years of hardship in the field, historically accurate",
@@ -13039,6 +13039,240 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-07-12"
+    }
+  },
+  {
+    "id": "festo-kivengere",
+    "name": "Festo Kivengere",
+    "born": 1919,
+    "born_approximate": true,
+    "died": 1988,
+    "significant_dates": [
+      {
+        "date": "c. 1919",
+        "event": "birth",
+        "details": "Born in Rukungiri district, southwestern Uganda; sources vary between 1918 and 1920."
+      },
+      {
+        "date": "Oct 5, 1941",
+        "event": "saved",
+        "details": "Converted to Christ during an East African Revival meeting, following a friend's testimony."
+      },
+      {
+        "date": "1967",
+        "event": "other",
+        "details": "Ordained priest in Kigezi after a Master of Divinity from Pittsburgh Theological Seminary."
+      },
+      {
+        "date": "1972",
+        "event": "other",
+        "details": "Consecrated Bishop of Kigezi, Uganda."
+      },
+      {
+        "date": "1977",
+        "event": "other",
+        "details": "Fled Uganda after Archbishop Janani Luwum was murdered by Idi Amin's regime."
+      },
+      {
+        "date": "May 18, 1988",
+        "event": "death",
+        "details": "Died of leukemia in Nairobi, Kenya; buried at Kabale, Uganda."
+      }
+    ],
+    "nationality": "Ugandan",
+    "era": "20th Century",
+    "region": "Africa",
+    "tradition": "Anglican (evangelical wing)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "forgiveness",
+      "revival",
+      "reconciliation",
+      "persecution",
+      "evangelism"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Festo_Kivengere",
+    "source_summary": "Festo Kivengere (sources vary between 1918 and 1920 for his birth year; 1919 is most commonly cited) was an Anglican bishop of Kigezi, Uganda, and one of the best-known leaders of the East African Revival. Converted at a revival meeting on 5 October 1941 following a friend's testimony, he trained as a teacher, joined the Church Missionary Society in 1946, and served as a missionary teacher in Tanzania. After a Master of Divinity from Pittsburgh Theological Seminary he was ordained priest in 1967 and consecrated Bishop of Kigezi in 1972. He also worked with Michael Cassidy's African Enterprise as an itinerant evangelist across Africa and beyond, earning the nickname \"the Billy Graham of Africa.\" After Archbishop [[Janani Luwum|janani-luwum]] was murdered by Idi Amin's regime in February 1977, Kivengere fled into exile, later writing I Love Idi Amin (1977), a widely read account of Christian forgiveness toward his persecutors. He returned to Uganda after Amin's fall and served as bishop until his death from leukemia in Nairobi in 1988.",
+    "adult_story": "Festo Kivengere was born in 1919 in the Rukungiri district of southwestern Uganda. As a teenager at school he drifted from his childhood faith into heavy drinking, until on 5 October 1941 a friend rushed to him on a bicycle, breathless: \"Three hours ago Jesus became a living reality to me. I know my sins are forgiven.\" That same weekend, at an ordinary Anglican prayer service, Kivengere was overwhelmed by the same assurance and gave his life to Christ, one of thousands swept up in the East African Revival.\n\nHe trained as a teacher, then in 1946 joined the Church Missionary Society and taught in Tanzania. After further study, including a Master of Divinity at Pittsburgh Theological Seminary, he was ordained priest in 1967 and consecrated Bishop of Kigezi in 1972. Alongside Michael Cassidy's African Enterprise, he became one of Africa's best-known evangelists, preaching across the continent and beyond, earning the name \"the Billy Graham of Africa.\"\n\nIn February 1977 Kivengere was summoned, with fellow bishops, before dictator Idi Amin; that night Archbishop [[Janani Luwum|janani-luwum]] was murdered, and Kivengere fled on foot into Rwanda. Rather than nurse hatred, he wrote I Love Idi Amin, insisting forgiveness was not a suggestion but Christ's own command: \"On the cross, Jesus said, 'Father, forgive them, for they know not what they do.' As evil as Idi Amin is, how can I do less toward him?\" For Kivengere, forgiveness was never his own achievement, but grace received from Christ and given away.",
+    "family_story": "Festo Kivengere grew up in Uganda. As a teenager he drifted from God and drank heavily. One weekend in 1941, a friend rushed to him and said, \"Jesus has forgiven my sins!\" That weekend at church, Festo gave his life to Jesus too, with thousands of others.\n\nHe became a teacher, then a pastor, and in 1972 a bishop in Uganda. He became known worldwide as a preacher, sometimes called \"the Billy Graham of Africa.\"\n\nIn 1977, when Idi Amin had Archbishop [[Janani Luwum|janani-luwum]] killed, Festo fled the country on foot. But instead of hating Amin, Festo forgave him, just as Jesus forgave those who killed him. Forgiveness, Festo taught, isn't something we earn; it's a gift from Jesus we pass on, even to enemies.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "church",
+        "name": "St Peter's Cathedral, Rugarama Hill — Kigezi Diocese",
+        "address": "Rugarama Hill, Kabale, Uganda",
+        "lat": -1.2486,
+        "lng": 29.9899
+      },
+      {
+        "type": "museum",
+        "name": "Rotunda of Witnesses — Billy Graham Museum, Wheaton College",
+        "address": "500 College Avenue, Wheaton, IL 60187, USA",
+        "lat": 41.8661,
+        "lng": -88.1067,
+        "open_to_public": true
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "ann-judson",
+    "name": "Ann Judson",
+    "born": 1789,
+    "born_approximate": false,
+    "died": 1826,
+    "significant_dates": [
+      {
+        "date": "Dec 22, 1789",
+        "event": "birth",
+        "details": "Born in Bradford, Massachusetts."
+      },
+      {
+        "date": "Sep 14, 1806",
+        "event": "saved",
+        "details": "Made a public profession of faith, aged sixteen, during a revival at Bradford Academy."
+      },
+      {
+        "date": "Feb 5, 1812",
+        "event": "other",
+        "details": "Married [[Adoniram Judson|adoniram-judson]] in Bradford, days before sailing for the mission field."
+      },
+      {
+        "date": "1819",
+        "event": "other",
+        "details": "Became the first Protestant to translate Scripture into Thai, rendering the Gospel of Matthew."
+      },
+      {
+        "date": "1824",
+        "event": "other",
+        "details": "Sustained her imprisoned husband through seventeen months' captivity in the Anglo-Burmese War."
+      },
+      {
+        "date": "Oct 24, 1826",
+        "event": "death",
+        "details": "Died of smallpox at Amherst (Kyaikkami), Lower Burma, aged 36."
+      }
+    ],
+    "nationality": "American",
+    "era": "19th Century",
+    "region": "Asia",
+    "tradition": "Baptist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "suffering",
+      "perseverance",
+      "faithfulness",
+      "translation"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ann_Hasseltine_Judson",
+    "source_summary": "Ann Hasseltine Judson (1789-1826) was an American Baptist missionary to Burma, one of the first American women to serve as an overseas missionary, and wife of Adoniram Judson. Converted at sixteen during an 1806 revival at Bradford Academy, she married Judson in 1812 and sailed with him to Asia, adopting Baptist convictions during the voyage. In Burma she became fluent in Burmese, wrote a catechism, and in 1819 became the first Protestant to translate any Scripture into Thai (the Gospel of Matthew). During the Anglo-Burmese War (1824-26) she sustained her imprisoned husband and their infant daughter through seventeen months of his captivity, before dying of smallpox in October 1826 at Amherst (Kyaikkami), aged 36. Her widely read letters and journals helped establish the missionary calling as a vocation open to women.",
+    "adult_story": "Ann Hasseltine was born in Bradford, Massachusetts, in 1789, the daughter of a church deacon. At sixteen, moved by a reading of Hannah More's writing on female usefulness, she made a public profession of faith during a revival at Bradford Academy. In 1812 she married the missionary [[Adoniram Judson|adoniram-judson]]; within two weeks the couple sailed for Asia, adopting Baptist convictions on the voyage after studying the question of baptism.\n\nIn Burma, Ann quickly outpaced her husband in learning the language, writing a Burmese catechism and, in 1819, becoming the first Protestant to translate any Scripture into Thai when she rendered the Gospel of Matthew. When the Anglo-Burmese War broke out in 1824, Adoniram was arrested as a suspected spy and imprisoned for seventeen months in brutal conditions. Ann, though pregnant and unwell herself, moved near the prison gates, bribed guards for access, and carried food and pleas for mercy to her husband and his fellow captives.\n\nAdoniram was finally released, but Ann's health, already broken by years of privation, did not recover. She died of smallpox in October 1826, aged thirty-six, and was buried beneath a hopia tree in Amherst; her infant daughter Maria died weeks later. Ann's letters home, read across America, taught a generation that suffering for Christ was not tragedy wasted but the ordinary cost of a gospel worth every loss, grace sufficient not because trial was avoided, but because Christ was present within it.",
+    "family_story": "Ann Hasseltine grew up in Massachusetts. At sixteen she gave her life to Jesus during a school revival. In 1812 she married missionary [[Adoniram Judson|adoniram-judson]], and two weeks later they sailed to Asia to share the gospel.\n\nIn Burma, Ann quickly learned the language and helped translate the Bible. In 1824 war broke out, and Adoniram was thrown into a harsh prison for over a year. Though sick herself, Ann walked to the prison daily, bringing food and begging for his life.\n\nAdoniram was finally freed, but Ann never recovered. She died in 1826 and was buried under a tree in Burma. Her letters home taught many Americans that following Jesus is always worth the cost.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Ann Judson",
+        "address": "Kyaikkami (formerly Amherst), Mon State, Myanmar",
+        "lat": 16.08,
+        "lng": 97.5675
+      },
+      {
+        "type": "archive",
+        "name": "Papers of Ann Hasseltine Judson — American Baptist Historical Society (RG1108)",
+        "address": "3001 Mercer University Drive, Atlanta, GA 30341, USA",
+        "lat": 33.8733,
+        "lng": -84.2625,
+        "open_to_public": false
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
+  },
+  {
+    "id": "ida-scudder",
+    "name": "Ida Scudder",
+    "born": 1870,
+    "born_approximate": false,
+    "died": 1960,
+    "significant_dates": [
+      {
+        "date": "Dec 9, 1870",
+        "event": "birth",
+        "details": "Born in Ranipet, India, into a family of medical missionaries."
+      },
+      {
+        "date": "1894",
+        "event": "other",
+        "details": "Resolved to train in medicine after three women died in one night because custom forbade male doctors from treating them."
+      },
+      {
+        "date": "1899",
+        "event": "other",
+        "details": "Graduated from Cornell University Medical College, among its first class to admit women."
+      },
+      {
+        "date": "1918",
+        "event": "other",
+        "details": "Opened the Union Mission Medical School for Women in Vellore, forerunner of Christian Medical College."
+      },
+      {
+        "date": "May 24, 1960",
+        "event": "death",
+        "details": "Died near Kodaikanal, India, aged 89; buried in Vellore Christian Cemetery."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Reformed (Dutch Reformed Church in America)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "healing",
+      "missions",
+      "compassion",
+      "service",
+      "women"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ida_S._Scudder",
+    "source_summary": "Ida Sophia Scudder (1870-1960) was an American medical missionary in India and founder of the Christian Medical College, Vellore. Born into a third-generation family of Reformed Church missionaries, she initially resisted following them into missions. In 1894, three men from different faiths came separately to her door in one night pleading for help with their wives' difficult labors; because custom forbade male doctors from treating them, and Scudder herself was untrained, all three women died. Convicted by the experience, she trained at Cornell University Medical College (graduating 1899, in one of its first classes to admit women), then returned to Vellore, where she opened a small dispensary, built the Mary Taber Schell Hospital (1902), and founded the Union Mission Medical School for Women (1918), which grew into the Christian Medical College and Hospital, among the largest Christian hospitals in the world. She died in 1960, aged 89, mourned by people of every faith in Vellore.",
+    "adult_story": "Ida Sophia Scudder was born in 1870 in Ranipet, India, the daughter and granddaughter of medical missionaries in the Reformed Church tradition. Weary of a mission field she had not chosen, she resisted the family calling and returned to a comfortable social life in America. A single night in 1894 changed everything: three men, a Hindu, a Muslim, and a Christian, came separately to her door pleading for help delivering their wives, but custom forbade any male doctor from touching them. Untrained, Ida could only send them away. By morning all three women had died.\n\nConvicted that no woman should die for want of a woman doctor, Scudder enrolled at Cornell University Medical College, graduating in 1899 in one of its first classes to admit women. Returning to Vellore, she opened a one-bed dispensary that treated thousands within two years, then in 1902 built the Mary Taber Schell Hospital. In 1918 she founded a medical school for women that grew into the Christian Medical College, now among the largest Christian hospitals in the world.\n\nScudder gave sixty years to Vellore, training generations of Indian women as doctors and nurses regardless of the faith or caste of the patients who came to her. When she died in 1960, aged eighty-nine, Hindus, Muslims, and Christians alike lined the streets of Vellore to mourn her. Her life answered the question three dying women had posed: the gospel's compassion is for whoever knocks, and grace, once received, is meant to be given away.",
+    "family_story": "Ida Scudder grew up in India in a family of missionary doctors, though reluctant to follow. One night in 1894, three men begged her to save their wives in childbirth. No woman doctor was allowed to help, and Ida wasn't trained. All three women died by morning.\n\nIda decided no woman should die again for lack of a doctor. She trained as a doctor in America, then returned to India and opened a tiny hospital. In 1918 she started a medical school for women that grew into a large Christian hospital.\n\nIda healed people in Vellore for sixty years, whatever their religion. When she died in 1960, people of every faith lined the streets to say goodbye, showing Jesus's love reaches whoever asks for help.",
+    "image": null,
+    "memorials": [
+      {
+        "type": "other",
+        "name": "Christian Medical College, Vellore — founded by Ida Scudder",
+        "address": "Ida Scudder Road, Thottapalayam, Vellore, Tamil Nadu 632004, India",
+        "lat": 12.9246,
+        "lng": 79.1349
+      },
+      {
+        "type": "gravestone",
+        "name": "Grave of Ida Scudder",
+        "address": "Vellore Christian Cemetery, Vellore, Tamil Nadu, India",
+        "lat": 12.9165,
+        "lng": 79.1325
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
     }
   }
 ]

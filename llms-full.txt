@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-11. 157 people.
+Generated 2026-07-12. 160 people.
 
 ---
 
@@ -43,9 +43,9 @@ Wikipedia: https://en.wikipedia.org/wiki/Adoniram_Judson
 Nationality: American · Tradition: Baptist · Region: Asia · Era: 19th Century
 Topics: missions, suffering, perseverance, faithfulness, translation, prayer
 
-Adoniram Judson was born in Massachusetts in 1788, the son of a minister. He sailed for Burma with his wife Ann in 1812 as one of America's first overseas missionaries, converting from Congregationalism to Baptist conviction during the voyage. His first Burmese convert was not baptised until 1819 — six years after arrival.
+Adoniram Judson was born in Massachusetts in 1788, the son of a minister. He sailed for Burma with his wife Ann Judson in 1812 as one of America's first overseas missionaries, converting from Congregationalism to Baptist conviction during the voyage. His first Burmese convert was not baptised until 1819 — six years after arrival.
 
-The Anglo-Burmese War of 1824 brought catastrophe. Judson was arrested as a suspected spy and imprisoned for seventeen months in Oung-pen-la — Death Prison — where prisoners were chained and suspended from bamboo poles at night. Ann walked to the prison daily, bribing guards for access and nursing their infant daughter Maria through the gates. Ann died in 1826 shortly after his release; Maria died weeks later.
+The Anglo-Burmese War of 1824 brought catastrophe. Judson was arrested as a suspected spy and imprisoned for seventeen months in Oung-pen-la — Death Prison — where prisoners were chained and suspended from bamboo poles at night. Ann Judson walked to the prison daily, bribing guards for access and nursing their infant daughter Maria through the gates. Ann died in 1826 shortly after his release; Maria died weeks later.
 
 Judson pressed on. He completed the first Burmese Bible in 1835 and compiled a Burmese-English dictionary of 25,000 entries. He lost two more wives in the field. He died at sea in 1850, having never returned to America. By then there were approximately 8,000 Burmese Christians and 100 churches.
 
@@ -163,6 +163,21 @@ Andrew Murray was born in 1828 in Graaff-Reinet, Cape Colony, son of a Scottish-
 Ordained in 1848, Murray became the first minister of the newly formed congregation at Bloemfontein at just twenty. He went on to pastor at Worcester, at Cape Town’s Groote Kerk, and finally at Wellington for thirty-five years, and was a central figure in South Africa’s 1860 revival. He founded the Huguenot Seminary for women and helped begin what became the South African General Mission, and wrote more than two hundred books and devotional works — among them Abide in Christ, With Christ in the School of Prayer, and Waiting on God — pressing believers toward daily surrender to Christ and constant, dependent prayer.
 
 Murray’s own testimony ran through everything he taught: religious upbringing, ministerial office, and disciplined habit are not the same as new life in Christ. What saves is not a minister’s son doing a minister’s duties, but a sinner brought, by grace through faith, to abide in Christ — the message he pressed on others for seventy years because he had first needed it himself.
+
+---
+
+## Ann Judson (1789–1826)
+
+URL: https://livesoffaith.org/person.html?id=ann-judson
+Wikipedia: https://en.wikipedia.org/wiki/Ann_Hasseltine_Judson
+Nationality: American · Tradition: Baptist · Region: Asia · Era: 19th Century
+Topics: missions, suffering, perseverance, faithfulness, translation
+
+Ann Hasseltine was born in Bradford, Massachusetts, in 1789, the daughter of a church deacon. At sixteen, moved by a reading of Hannah More's writing on female usefulness, she made a public profession of faith during a revival at Bradford Academy. In 1812 she married the missionary Adoniram Judson; within two weeks the couple sailed for Asia, adopting Baptist convictions on the voyage after studying the question of baptism.
+
+In Burma, Ann quickly outpaced her husband in learning the language, writing a Burmese catechism and, in 1819, becoming the first Protestant to translate any Scripture into Thai when she rendered the Gospel of Matthew. When the Anglo-Burmese War broke out in 1824, Adoniram was arrested as a suspected spy and imprisoned for seventeen months in brutal conditions. Ann, though pregnant and unwell herself, moved near the prison gates, bribed guards for access, and carried food and pleas for mercy to her husband and his fellow captives.
+
+Adoniram was finally released, but Ann's health, already broken by years of privation, did not recover. She died of smallpox in October 1826, aged thirty-six, and was buried beneath a hopia tree in Amherst; her infant daughter Maria died weeks later. Ann's letters home, read across America, taught a generation that suffering for Christ was not tragedy wasted but the ordinary cost of a gospel worth every loss, grace sufficient not because trial was avoided, but because Christ was present within it.
 
 ---
 
@@ -731,6 +746,21 @@ The Zurich council, unwilling to tolerate a rival form of the church, made adult
 
 ---
 
+## Festo Kivengere (c. 1919–1988)
+
+URL: https://livesoffaith.org/person.html?id=festo-kivengere
+Wikipedia: https://en.wikipedia.org/wiki/Festo_Kivengere
+Nationality: Ugandan · Tradition: Anglican (evangelical wing) · Region: Africa · Era: 20th Century
+Topics: forgiveness, revival, reconciliation, persecution, evangelism
+
+Festo Kivengere was born in 1919 in the Rukungiri district of southwestern Uganda. As a teenager at school he drifted from his childhood faith into heavy drinking, until on 5 October 1941 a friend rushed to him on a bicycle, breathless: "Three hours ago Jesus became a living reality to me. I know my sins are forgiven." That same weekend, at an ordinary Anglican prayer service, Kivengere was overwhelmed by the same assurance and gave his life to Christ, one of thousands swept up in the East African Revival.
+
+He trained as a teacher, then in 1946 joined the Church Missionary Society and taught in Tanzania. After further study, including a Master of Divinity at Pittsburgh Theological Seminary, he was ordained priest in 1967 and consecrated Bishop of Kigezi in 1972. Alongside Michael Cassidy's African Enterprise, he became one of Africa's best-known evangelists, preaching across the continent and beyond, earning the name "the Billy Graham of Africa."
+
+In February 1977 Kivengere was summoned, with fellow bishops, before dictator Idi Amin; that night Archbishop Janani Luwum was murdered, and Kivengere fled on foot into Rwanda. Rather than nurse hatred, he wrote I Love Idi Amin, insisting forgiveness was not a suggestion but Christ's own command: "On the cross, Jesus said, 'Father, forgive them, for they know not what they do.' As evil as Idi Amin is, how can I do less toward him?" For Kivengere, forgiveness was never his own achievement, but grace received from Christ and given away.
+
+---
+
 ## Frances Ridley Havergal (1836–1879)
 
 URL: https://livesoffaith.org/person.html?id=frances-ridley-havergal
@@ -1067,6 +1097,21 @@ Huldrych Zwingli was born in 1484 in Wildhaus, Switzerland, and ordained a Catho
 Independently of Martin Luther, Zwingli arrived at many of the same convictions: salvation by grace through faith, Scripture as the final authority, and a rejection of practices he judged unscriptural, including the veneration of images and the doctrine that the Mass re-offered Christ's sacrifice. He argued instead that the Lord's Supper was a memorial of a sacrifice completed once for all — a disagreement with Luther over the nature of Christ's presence in the meal that split the two reformers permanently and, with them, the wider Reformation.
 
 In 1531, war broke out between Zurich's Protestant cantons and their Catholic neighbors. Zwingli accompanied Zurich's forces as chaplain and was killed at the Battle of Kappel, one of about five hundred dead in an hour of fighting. He had written years earlier, after surviving the plague, of submitting entirely to God's purpose — words that outlasted him, along with a conviction that had already reshaped Swiss Christianity: that the church's authority is Scripture alone, and its foundation is Christ's finished work, not man's.
+
+---
+
+## Ida Scudder (1870–1960)
+
+URL: https://livesoffaith.org/person.html?id=ida-scudder
+Wikipedia: https://en.wikipedia.org/wiki/Ida_S._Scudder
+Nationality: American · Tradition: Reformed (Dutch Reformed Church in America) · Region: Asia · Era: 20th Century
+Topics: healing, missions, compassion, service, women
+
+Ida Sophia Scudder was born in 1870 in Ranipet, India, the daughter and granddaughter of medical missionaries in the Reformed Church tradition. Weary of a mission field she had not chosen, she resisted the family calling and returned to a comfortable social life in America. A single night in 1894 changed everything: three men, a Hindu, a Muslim, and a Christian, came separately to her door pleading for help delivering their wives, but custom forbade any male doctor from touching them. Untrained, Ida could only send them away. By morning all three women had died.
+
+Convicted that no woman should die for want of a woman doctor, Scudder enrolled at Cornell University Medical College, graduating in 1899 in one of its first classes to admit women. Returning to Vellore, she opened a one-bed dispensary that treated thousands within two years, then in 1902 built the Mary Taber Schell Hospital. In 1918 she founded a medical school for women that grew into the Christian Medical College, now among the largest Christian hospitals in the world.
+
+Scudder gave sixty years to Vellore, training generations of Indian women as doctors and nurses regardless of the faith or caste of the patients who came to her. When she died in 1960, aged eighty-nine, Hindus, Muslims, and Christians alike lined the streets of Vellore to mourn her. Her life answered the question three dying women had posed: the gospel's compassion is for whoever knocks, and grace, once received, is meant to be given away.
 
 ---
 
@@ -2008,7 +2053,7 @@ In 1978 Sproul helped draft the Chicago Statement on Biblical Inerrancy, defendi
 
 ---
 
-## Ramez Atallah (dates unknown)
+## Ramez Atallah (b. 1945)
 
 URL: https://livesoffaith.org/person.html?id=ramez-atallah
 Wikipedia: https://bethelcommunity.ca/about-us/our-missionaries/atallah
@@ -2017,9 +2062,9 @@ Topics: Scripture, evangelism, missions, perseverance
 
 Ramez Atallah was born in Cairo into a wealthy Christian Egyptian family. When Nasser's socialist government nationalised the family's businesses, they fled to Canada while Ramez was a teenager. Though he had attended church all his life, he had never grasped the gospel — until an evangelistic meeting in Montreal, where, as he later put it, he finally understood "the wonder of the Gospel" and gave his life to Christ. He was discipled through InterVarsity Christian Fellowship at McGill University, later directing its Quebec ministry and training at Gordon-Conwell Theological Seminary.
 
-In 1980 Atallah returned to Egypt as IFES Regional Secretary for the Middle East, and in 1990 became General Secretary of the Bible Society of Egypt, a post he still holds. Under his leadership the Society has grown into the largest publisher of Arabic Bibles in the world, selling Scripture at reduced prices so it stays within reach of ordinary Egyptians. After the 1992 Cairo earthquake, he had 300,000 gospel tracts distributed to a shaken city. He has also served for decades within the Lausanne Movement, including as Program Chairman for its Cape Town 2010 congress.
+In 1980 Atallah returned to Egypt as IFES Regional Secretary for the Middle East, and in 1990 became General Secretary of the Bible Society of Egypt. Under his leadership the Society has grown into the largest publisher of Arabic Bibles in the world, selling Scripture at reduced prices so it stays within reach of ordinary Egyptians. After the 1992 Cairo earthquake, he had 300,000 gospel tracts distributed to a shaken city. He has also served for decades within the Lausanne Movement, including as Program Chairman for its Cape Town 2010 congress.
 
-Atallah's own testimony is that lifelong church attendance is no substitute for grasping the gospel itself: sinners are reconciled to God not by heritage or religious observance but by grace alone, through faith in Christ. That conviction has driven his life's work of putting Scripture, in the plainest and most affordable form possible, into Egyptian hands.
+Atallah's own testimony is that lifelong church attendance is no substitute for grasping the gospel itself: sinners are reconciled to God by grace alone, through faith in Christ, not by heritage or religious observance. That same grace had already taken root generations earlier in his family: his paternal great-grandfather, Athanasius ("Tanassa") Ghobrial el-Assiuty (b. 1825), was a pioneer of indigenous evangelical Christianity in Egypt.
 
 ---
 

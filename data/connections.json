@@ -425,5 +425,33 @@
     "label": "hosted the crusades where she shared her testimony of conversion from Islam",
     "type": "collaboration",
     "mutual": false
+  },
+  {
+    "from": "festo-kivengere",
+    "to": "janani-luwum",
+    "label": "co-signed the bishops' protest against Idi Amin's killings with",
+    "type": "collaboration",
+    "mutual": true
+  },
+  {
+    "from": "festo-kivengere",
+    "to": "billy-graham",
+    "label": "joined the evangelistic team of",
+    "type": "collaboration",
+    "mutual": false
+  },
+  {
+    "from": "adoniram-judson",
+    "to": "ann-judson",
+    "label": "married",
+    "type": "family",
+    "mutual": true
+  },
+  {
+    "from": "dwight-l-moody",
+    "to": "ida-scudder",
+    "label": "invited to study at Northfield Seminary",
+    "type": "influence",
+    "mutual": false
   }
 ]
