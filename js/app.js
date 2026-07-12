@@ -3527,12 +3527,19 @@ function initTimelinePage() {
 // Connections page (connections.html) — relationship graph
 // ============================================================
 
-// Radial layout constants: each BFS depth ring sits RING_SPACING px further
-// out from the centered person; node size shrinks with depth so the center
-// person and their direct connections stay visually dominant.
-const CONNECTIONS_RING_SPACING = 120;
+// Vertical tree layout constants: each BFS depth is a horizontal row
+// ROW_SPACING px below the last, with the centered person's row on top —
+// this reads top-to-bottom on mobile instead of needing to pan around a
+// circle. Node size shrinks with depth so the center person and their
+// direct connections stay visually dominant.
+const CONNECTIONS_ROW_SPACING = 110;
+// Gap between two adjacent sibling labels, on top of their own measured
+// width — leaf slots are sized per-label (see layoutConnectionsVertical)
+// rather than a fixed spacing, since name+year labels vary a lot in length
+// and a fixed slot either overlaps long names or wastes room on short ones.
+const CONNECTIONS_LABEL_GAP = 20;
 const CONNECTIONS_NODE_RADIUS = [24, 18, 15, 13, 11];
-const CONNECTIONS_MARGIN = 60;
+const CONNECTIONS_MARGIN = 50;
 const CONNECTIONS_ARROW_COLOR = '#6b6360'; // matches --text-muted; marker fill can't reliably use var() across browsers
 
 // Depth control is temporarily hidden in the UI — Andrew wants every graph
@@ -3597,6 +3604,13 @@ function connectionsNodeLabel(person, max) {
   return connectionsTruncateName(`${person.name} (${born})`, max);
 }
 
+// Rough px width for an 11px system-sans label — good enough to size
+// horizontal spacing so sibling labels don't collide; not meant to be
+// pixel-perfect.
+function connectionsEstimateLabelWidth(label) {
+  return label.length * 6.4;
+}
+
 // BFS from centerId over the undirected connections graph, up to maxDepth
 // hops. Returns each discovered node's depth plus a BFS-tree parent/children
 // map (first path found) used only for layout — the returned `edges` list
@@ -3629,31 +3643,34 @@ function computeConnectionsGraph(centerId, maxDepth) {
   return { depthOf, childrenOf, edges, nodeIds: [...nodeSet] };
 }
 
-// Tidy radial tree layout: the full circle is divided among the center's
-// BFS-tree children, and each child's slice is recursively subdivided among
-// its own children — so sibling subtrees never overlap. Non-tree edges are
-// drawn wherever their endpoints land, which is what gives the graph its
-// "web" look beyond the plain tree structure.
-function layoutConnectionsRadial(centerId, depthOf, childrenOf) {
+// Tidy top-down tree layout: each BFS-tree leaf claims the next horizontal
+// slot left-to-right — sized to its own label's width plus a gap, so long
+// names don't collide with their neighbours the way a fixed-width slot
+// would — and each parent is centered over the midpoint of its first and
+// last child, the standard non-overlapping dendrogram approach, applied
+// downward (y = depth) instead of outward (radius = depth). Non-tree edges
+// are drawn wherever their endpoints land, which is what gives the graph
+// its "web" look beyond the plain tree structure.
+function layoutConnectionsVertical(centerId, childrenOf, labelWidthOf) {
   const positions = new Map();
-  positions.set(centerId, { x: 0, y: 0, depth: 0 });
+  let cursorX = 0;
 
-  function place(id, angleStart, angleEnd) {
+  function place(id, depth) {
     const kids = childrenOf.get(id) || [];
-    if (!kids.length) return;
-    const slice = (angleEnd - angleStart) / kids.length;
-    kids.forEach((childId, i) => {
-      const start = angleStart + i * slice;
-      const end = start + slice;
-      const angle = (start + end) / 2;
-      const depth = depthOf.get(childId);
-      const r = depth * CONNECTIONS_RING_SPACING;
-      positions.set(childId, { x: r * Math.cos(angle), y: r * Math.sin(angle), depth });
-      place(childId, start, end);
-    });
+    let x;
+    if (!kids.length) {
+      const w = labelWidthOf(id);
+      x = cursorX + w / 2;
+      cursorX += w + CONNECTIONS_LABEL_GAP;
+    } else {
+      const childXs = kids.map(childId => place(childId, depth + 1));
+      x = (childXs[0] + childXs[childXs.length - 1]) / 2;
+    }
+    positions.set(id, { x, y: depth * CONNECTIONS_ROW_SPACING, depth });
+    return x;
   }
 
-  place(centerId, 0, Math.PI * 2);
+  place(centerId, 0);
   return positions;
 }
 
@@ -3728,14 +3745,34 @@ function renderConnectionsGraph() {
     return;
   }
 
-  const positions = layoutConnectionsRadial(centerId, depthOf, childrenOf);
-  const maxDepthReached = Math.max(...depthOf.values());
-  const halfSize = maxDepthReached * CONNECTIONS_RING_SPACING + CONNECTIONS_MARGIN;
-  const size = halfSize * 2;
+  // Labels are measured before layout so leaf slot widths (and the final
+  // canvas bounds below) can be sized to the actual text instead of a
+  // fixed guess.
+  const nodeLabels = new Map();
+  nodeIds.forEach(id => {
+    const p = allPeople.find(pp => pp.id === id);
+    if (!p) return;
+    nodeLabels.set(id, connectionsNodeLabel(p, id === centerId ? 30 : 22));
+  });
+  const labelWidthOf = id => connectionsEstimateLabelWidth(nodeLabels.get(id) || '');
 
-  let ringsHtml = '';
+  const positions = layoutConnectionsVertical(centerId, childrenOf, labelWidthOf);
+  const maxDepthReached = Math.max(...depthOf.values());
+  let minEdge = Infinity;
+  let maxEdge = -Infinity;
+  positions.forEach((pos, id) => {
+    const halfLabel = labelWidthOf(id) / 2;
+    minEdge = Math.min(minEdge, pos.x - halfLabel);
+    maxEdge = Math.max(maxEdge, pos.x + halfLabel);
+  });
+  const offsetX = CONNECTIONS_MARGIN - minEdge;
+  const width = (maxEdge - minEdge) + CONNECTIONS_MARGIN * 2;
+  const height = maxDepthReached * CONNECTIONS_ROW_SPACING + CONNECTIONS_MARGIN * 2;
+
+  let rowsHtml = '';
   for (let d = 1; d <= maxDepthReached; d++) {
-    ringsHtml += `<circle class="graph-ring" cx="${halfSize}" cy="${halfSize}" r="${d * CONNECTIONS_RING_SPACING}"></circle>`;
+    const y = d * CONNECTIONS_ROW_SPACING + CONNECTIONS_MARGIN;
+    rowsHtml += `<line class="graph-ring" x1="0" y1="${y}" x2="${width}" y2="${y}"></line>`;
   }
 
   let edgesHtml = '';
@@ -3751,8 +3788,8 @@ function renderConnectionsGraph() {
     const tooltip = `${fromName} ${arrow} ${toName}: ${edge.label}`;
     edgesHtml += `
       <line class="graph-edge" data-tooltip="${escapeHtml(tooltip)}"
-        x1="${halfSize + fromPos.x}" y1="${halfSize + fromPos.y}"
-        x2="${halfSize + toPos.x}" y2="${halfSize + toPos.y}"
+        x1="${offsetX + fromPos.x}" y1="${fromPos.y + CONNECTIONS_MARGIN}"
+        x2="${offsetX + toPos.x}" y2="${toPos.y + CONNECTIONS_MARGIN}"
         ${!edge.mutual ? 'marker-end="url(#graph-arrow)"' : ''}></line>
     `;
   });
@@ -3766,11 +3803,11 @@ function renderConnectionsGraph() {
     const r = isCenter ? CONNECTIONS_NODE_RADIUS[0] : connectionsNodeRadius(pos.depth);
     const color = connectionsRegionColor(p);
     const tooltip = `${p.name} — ${formatYears(p)} — ${p.region}, ${p.era}`;
-    const label = connectionsNodeLabel(p, isCenter ? 30 : 22);
+    const label = nodeLabels.get(id) || '';
     nodesHtml += `
       <g class="graph-node${isCenter ? ' graph-node--center' : ''}" tabindex="0" role="button"
          data-person-id="${escapeHtml(id)}" data-tooltip="${escapeHtml(tooltip)}"
-         transform="translate(${halfSize + pos.x},${halfSize + pos.y})">
+         transform="translate(${offsetX + pos.x},${pos.y + CONNECTIONS_MARGIN})">
         <circle r="${r}" fill="${color}"></circle>
         <text text-anchor="middle" y="${r + 12}" font-size="11">${escapeHtml(label)}</text>
       </g>
@@ -3778,13 +3815,13 @@ function renderConnectionsGraph() {
   });
 
   wrap.innerHTML = `
-    <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" role="img" aria-label="Connections graph centered on ${escapeHtml(centerPerson.name)}">
+    <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Connections graph centered on ${escapeHtml(centerPerson.name)}">
       <defs>
         <marker id="graph-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
           <path d="M0,0 L10,5 L0,10 z" fill="${CONNECTIONS_ARROW_COLOR}"></path>
         </marker>
       </defs>
-      ${ringsHtml}
+      ${rowsHtml}
       ${edgesHtml}
       ${nodesHtml}
     </svg>

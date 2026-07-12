@@ -2834,8 +2834,12 @@ main {
 .connections-graph-wrap {
   flex: 1 1 auto;
   min-width: 0;
-  overflow: auto;
-  max-height: 68vh;
+  /* Vertical tree layout grows downward with the page, not in a boxed-in
+     scroll area — a nested vertical scrollbar is the thing that made this
+     unusable on mobile. Only pan sideways if a row is wider than the
+     viewport. */
+  overflow-x: auto;
+  overflow-y: visible;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
