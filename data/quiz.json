@@ -2193,5 +2193,53 @@
     "answer": "Christian Medical College",
     "person_id": "ida-scudder",
     "difficulty": 5
+  },
+  {
+    "question": "What movement, now a worldwide denomination, did John Wesley found?",
+    "answer": "Methodism",
+    "person_id": "john-wesley",
+    "difficulty": 1
+  },
+  {
+    "question": "At an Aldersgate Street meeting in 1738, what did John Wesley famously say happened to his heart?",
+    "answer": "He felt it \"strangely warmed\"",
+    "person_id": "john-wesley",
+    "difficulty": 3
+  },
+  {
+    "question": "What university did George Whitefield attend, alongside John and Charles Wesley?",
+    "answer": "Oxford",
+    "person_id": "george-whitefield",
+    "difficulty": 1
+  },
+  {
+    "question": "What famous American statesman attended a George Whitefield sermon determined not to give money, but ended up emptying his pockets?",
+    "answer": "Benjamin Franklin",
+    "person_id": "george-whitefield",
+    "difficulty": 3
+  },
+  {
+    "question": "What is the title of John Calvin's most famous and influential theological work?",
+    "answer": "Institutes of the Christian Religion",
+    "person_id": "john-calvin",
+    "difficulty": 1
+  },
+  {
+    "question": "What seminary did John Calvin found in Geneva in 1559 to train ministers?",
+    "answer": "The Geneva Academy",
+    "person_id": "john-calvin",
+    "difficulty": 3
+  },
+  {
+    "question": "What church movement is John Knox regarded as the founder of in Scotland?",
+    "answer": "Presbyterianism",
+    "person_id": "john-knox",
+    "difficulty": 1
+  },
+  {
+    "question": "Which Scottish martyr's preaching first turned John Knox toward the Reformation?",
+    "answer": "George Wishart",
+    "person_id": "john-knox",
+    "difficulty": 3
   }
 ]
