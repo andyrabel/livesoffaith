@@ -3540,7 +3540,12 @@ const CONNECTIONS_ROW_SPACING = 110;
 const CONNECTIONS_LABEL_GAP = 20;
 const CONNECTIONS_NODE_RADIUS = [24, 18, 15, 13, 11];
 const CONNECTIONS_MARGIN = 50;
-const CONNECTIONS_ARROW_COLOR = '#6b6360'; // matches --text-muted; marker fill can't reliably use var() across browsers
+// Matches --accent; marker fill can't reliably use var() across browsers.
+// Deliberately darker/higher-contrast than the muted edge line itself —
+// at --text-muted the arrowhead all but disappeared against the thin
+// gray line and any node border it landed near (confirmed by cropping in
+// tight on a rendered edge; it was technically painted, just unreadable).
+const CONNECTIONS_ARROW_COLOR = '#1c3d5a';
 
 // Depth control is temporarily hidden in the UI — Andrew wants every graph
 // forced to the widest depth for now. The <select>, its change handler, and
@@ -3563,6 +3568,7 @@ const connectionsPageState = {
   centerId: null,
   maxDepth: CONNECTIONS_FORCE_DEPTH,
   zoom: 1,
+  showLabels: false,
 };
 
 let connectionsAdjCache = null;
@@ -3835,12 +3841,47 @@ function renderConnectionsGraph() {
     const toName = toP ? toP.name : edge.to;
     const arrow = edge.mutual ? '↔' : '→';
     const tooltip = `${fromName} ${arrow} ${toName}: ${edge.label}`;
+    const x1 = offsetX + fromPos.x;
+    const y1 = fromPos.y + CONNECTIONS_MARGIN;
+    const x2 = offsetX + toPos.x;
+    const y2 = toPos.y + CONNECTIONS_MARGIN;
+
+    // Trim the line back from each node's center to its circle's edge —
+    // nodes are painted after edges (see nodesHtml below), so a
+    // center-to-center line's marker-end arrowhead would land exactly on
+    // the target node's center and be completely hidden under its circle.
+    const dx = x2 - x1;
+    const dy = y2 - y1;
+    const dist = Math.hypot(dx, dy) || 1;
+    const ux = dx / dist;
+    const uy = dy / dist;
+    const fromR = connectionsNodeRadius(fromPos.depth);
+    const toR = connectionsNodeRadius(toPos.depth);
+    const lineX1 = x1 + ux * fromR;
+    const lineY1 = y1 + uy * fromR;
+    const lineX2 = x2 - ux * toR;
+    const lineY2 = y2 - uy * toR;
+
     edgesHtml += `
-      <line class="graph-edge" data-tooltip="${escapeHtml(tooltip)}"
-        x1="${offsetX + fromPos.x}" y1="${fromPos.y + CONNECTIONS_MARGIN}"
-        x2="${offsetX + toPos.x}" y2="${toPos.y + CONNECTIONS_MARGIN}"
+      <line class="graph-edge${connectionsPageState.showLabels ? ' graph-edge--labeled' : ''}" data-tooltip="${escapeHtml(tooltip)}"
+        x1="${lineX1}" y1="${lineY1}" x2="${lineX2}" y2="${lineY2}"
         ${!edge.mutual ? 'marker-end="url(#graph-arrow)"' : ''}></line>
     `;
+    if (connectionsPageState.showLabels) {
+      // Biased toward whichever end sits deeper in the tree rather than
+      // the exact midpoint — several edges from the same parent to many
+      // siblings all share that parent's point, so a plain midpoint bunches
+      // their labels together; the sibling ends are already spread apart
+      // by the label-width-aware layout, so labels placed nearer them stay
+      // legible instead of overlapping into a single smear.
+      let t = 0.5;
+      if (toPos.depth > fromPos.depth) t = 0.68;
+      else if (fromPos.depth > toPos.depth) t = 0.32;
+      const labelX = x1 + (x2 - x1) * t;
+      const labelY = y1 + (y2 - y1) * t;
+      const shortLabel = connectionsTruncateName(edge.label, 24);
+      edgesHtml += `<text class="graph-edge-label" x="${labelX}" y="${labelY}">${escapeHtml(shortLabel)}</text>`;
+    }
   });
 
   let nodesHtml = '';
@@ -3874,7 +3915,12 @@ function renderConnectionsGraph() {
   wrap.innerHTML = `
     <svg width="${width * zoom}" height="${height * zoom}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Connections graph centered on ${escapeHtml(centerPerson.name)}">
       <defs>
-        <marker id="graph-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <!-- markerUnits="userSpaceOnUse" so the arrowhead's size is fixed
+             in graph coordinates rather than scaled by the edge line's own
+             1.5px stroke-width (the SVG default, which shrank it to ~10px
+             — already too small to read, and darker fill alone wasn't
+             enough once it was that size). -->
+        <marker id="graph-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
           <path d="M0,0 L10,5 L0,10 z" fill="${CONNECTIONS_ARROW_COLOR}"></path>
         </marker>
       </defs>
@@ -4147,6 +4193,12 @@ function initConnectionsPage() {
   });
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') toggleConnectionsFullpage(false);
+  });
+
+  document.getElementById('conn-labels-toggle')?.addEventListener('click', e => {
+    connectionsPageState.showLabels = !connectionsPageState.showLabels;
+    e.currentTarget.setAttribute('aria-pressed', String(connectionsPageState.showLabels));
+    renderConnectionsGraph();
   });
 }
 

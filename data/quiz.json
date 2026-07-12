@@ -846,6 +846,7 @@
     "question": "Who wrote the hymn \"Near the Cross\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "near-the-cross",
     "difficulty": 3
   },
   {
@@ -880,18 +881,21 @@
     "question": "Who wrote the hymn \"He Hideth My Soul\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "he-hideth-my-soul",
     "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"My Savior First of All\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "my-savior-first-of-all",
     "difficulty": 5
   },
   {
     "question": "Who wrote the hymn \"Praise Him! Praise Him!\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "praise-him-praise-him",
     "difficulty": 3
   },
   {
@@ -905,6 +909,7 @@
     "question": "Who wrote the hymn \"Tell Me the Story of Jesus\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "tell-me-the-story-of-jesus",
     "difficulty": 3
   },
   {

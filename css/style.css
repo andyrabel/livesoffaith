@@ -2934,14 +2934,19 @@ body.connections-fullpage-active {
   margin: 0 auto;
 }
 
-/* Fullscreen toggle icon, superimposed on the graph's own corner rather
-   than living in the toolbar, so it stays anchored to the graph itself
-   whether or not the frame is currently in full-page mode. */
-.connections-fullpage-btn {
+/* Fullscreen and show-all-labels toggles, superimposed on the graph's own
+   corner rather than living in the toolbar, so they stay anchored to the
+   graph itself whether or not the frame is currently in full-page mode. */
+.connections-graph-controls {
   position: absolute;
   right: 0.75rem;
   bottom: 0.75rem;
   z-index: 5;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.connections-fullpage-btn {
   width: 2.25rem;
   height: 2.25rem;
   display: flex;
@@ -2958,6 +2963,12 @@ body.connections-fullpage-active {
 .connections-fullpage-btn:hover {
   background: var(--surface);
   color: var(--accent);
+}
+
+.connections-fullpage-btn[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
 }
 
 .connections-sidebar {
@@ -3083,10 +3094,25 @@ body.connections-fullpage-active {
   transition: stroke 0.1s, opacity 0.1s, stroke-width 0.1s;
 }
 
-.graph-edge--hover {
+.graph-edge--hover,
+.graph-edge--labeled {
   stroke: var(--accent);
   opacity: 1;
   stroke-width: 2.5px;
+}
+
+/* Shown only when the "show all labels" toggle is on (see
+   conn-labels-toggle) — a stroked halo behind the fill stands in for a
+   background box without needing to measure text width per label. */
+.graph-edge-label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 9px;
+  fill: var(--text-muted);
+  stroke: var(--surface);
+  stroke-width: 3px;
+  paint-order: stroke fill;
+  text-anchor: middle;
+  pointer-events: none;
 }
 
 @media (max-width: 720px) {
