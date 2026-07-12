@@ -529,6 +529,13 @@ main {
   padding-left: 1.4rem;
 }
 
+/* Not the `disabled` attribute — stays clickable so a click while at the
+   10-question cap can still show a warning in .quiz-print-status. */
+.quiz-print-add-row .btn.is-disabled-look {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .quiz-print-question {
   position: relative;
   margin-bottom: 1.1rem;

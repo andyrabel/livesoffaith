@@ -605,7 +605,11 @@ function renderQuizBuilder() {
   if (addBtn) {
     const maxDifficulty = parseInt(document.getElementById('quiz-print-difficulty').value, 10);
     const pool = allQuiz.filter(q => q.difficulty <= maxDifficulty && !currentQuizQuestions.includes(q));
-    addBtn.disabled = currentQuizQuestions.length >= QUIZ_PRINT_COUNT || !pool.length;
+    // Styled as disabled but left clickable (not the `disabled` attribute) so
+    // addRandomQuizQuestion() can still fire and explain why nothing happened.
+    const blocked = currentQuizQuestions.length >= QUIZ_PRINT_COUNT || !pool.length;
+    addBtn.classList.toggle('is-disabled-look', blocked);
+    addBtn.setAttribute('aria-disabled', String(blocked));
   }
 
   attachQuizBuilderEvents(questionsList);
@@ -656,9 +660,20 @@ function attachQuizBuilderEvents(questionsList) {
 }
 
 function addRandomQuizQuestion() {
+  const status = document.getElementById('quiz-print-status');
+
+  if (currentQuizQuestions.length >= QUIZ_PRINT_COUNT) {
+    if (status) status.textContent = `You already have ${QUIZ_PRINT_COUNT} questions — remove one before adding another.`;
+    return;
+  }
+
   const maxDifficulty = parseInt(document.getElementById('quiz-print-difficulty').value, 10);
   const pool = allQuiz.filter(q => q.difficulty <= maxDifficulty && !currentQuizQuestions.includes(q));
-  if (!pool.length || currentQuizQuestions.length >= QUIZ_PRINT_COUNT) return;
+  if (!pool.length) {
+    if (status) status.textContent = 'No more questions available at this difficulty.';
+    return;
+  }
+
   currentQuizQuestions.push(pool[Math.floor(Math.random() * pool.length)]);
   renderQuizBuilder();
 }
