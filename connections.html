@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the documented web of relationships between Christians profiled on Lives of Faith — who converted, mentored, married, or was martyred alongside whom — plotted alongside their birth years.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Lives of Faith">
+  <title>Connections — Lives of Faith</title>
+  <link rel="canonical" href="https://livesoffaith.org/connections.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://livesoffaith.org/connections.html">
+  <meta property="og:title" content="Connections — Lives of Faith">
+  <meta property="og:description" content="Explore the documented web of relationships between Christians profiled on Lives of Faith — who converted, mentored, married, or was martyred alongside whom.">
+  <meta property="og:site_name" content="Lives of Faith">
+  <meta property="og:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Connections — Lives of Faith">
+  <meta name="twitter:description" content="Explore the documented web of relationships between Christians profiled on Lives of Faith.">
+  <meta name="twitter:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "url": "https://livesoffaith.org/connections.html",
+    "name": "Connections — Lives of Faith",
+    "description": "An interactive graph of documented relationships between Christians profiled on Lives of Faith.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Lives of Faith",
+      "url": "https://livesoffaith.org/"
+    },
+    "inLanguage": "en"
+  }
+  </script>
+
+  <!-- Google Analytics — gated behind cookie consent, see js/consent.js -->
+  <script src="js/consent.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a href="/" class="site-title" aria-label="Lives of Faith — Home">
+          <img src="images/logos/livesoffaith_logo_128.png" alt="" class="site-logo" width="44" height="44">
+          <span class="site-title__text">
+            <span class="site-title__main">Lives of Faith</span>
+            <span class="site-title__sub">Christians Throughout History</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Site navigation">
+          <div class="site-nav-links">
+            <a href="index.html">People</a>
+            <a href="hymns.html">Hymns</a>
+            <a href="timeline.html">Timeline</a>
+            <a href="connections.html" aria-current="page">Connections</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="map.html" class="site-nav-cta">Tour Planner</a>
+            <a href="about.html">About</a>
+          </div>
+          <div class="site-nav-mobile">
+            <a href="map.html" class="site-nav-cta">Tour Planner</a>
+            <input type="checkbox" id="nav-menu-toggle" class="site-nav-toggle-input sr-only">
+            <label for="nav-menu-toggle" class="site-nav-hamburger" aria-label="Open menu">
+              <span></span><span></span><span></span>
+            </label>
+            <div class="site-nav-dropdown">
+              <a href="index.html">People</a>
+              <a href="hymns.html">Hymns</a>
+              <a href="timeline.html">Timeline</a>
+              <a href="connections.html" aria-current="page">Connections</a>
+              <a href="quiz.html">Quiz</a>
+              <a href="map.html">Tour Planner</a>
+              <a href="about.html">About</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <a href="index.html" class="back-link">&#8592; Back to all people</a>
+
+      <section class="intro" aria-label="Connections description">
+        <p>Choose a person to see the documented web of relationships around them — conversions, mentorships, marriages, collaborations, and shared martyrdoms — drawn from their biographies, several people deep.</p>
+      </section>
+
+      <div class="connections-toolbar">
+        <div class="connections-toolbar__field">
+          <label for="conn-person-input">Center on</label>
+          <div class="connections-combobox">
+            <input
+              type="text"
+              id="conn-person-input"
+              class="search-input"
+              placeholder="Type a name…"
+              autocomplete="off"
+              role="combobox"
+              aria-expanded="false"
+              aria-controls="conn-person-list"
+              aria-label="Choose a person to center the graph on"
+            >
+            <ul id="conn-person-list" class="connections-combobox__list" role="listbox" hidden></ul>
+          </div>
+        </div>
+
+        <div class="connections-toolbar__field" hidden>
+          <label for="conn-depth-select">Depth</label>
+          <select id="conn-depth-select" class="filter-select" aria-label="How many connections deep to show">
+            <option value="1">1 — direct connections only</option>
+            <option value="2">2 — connections of connections</option>
+            <option value="3">3 — deeper web</option>
+            <option value="4" selected>4 — widest web</option>
+          </select>
+        </div>
+
+        <button type="button" id="conn-random-btn" class="btn btn-secondary">Surprise me</button>
+      </div>
+
+      <div id="connections-legend" class="timeline-legend" aria-label="Region color legend"></div>
+
+      <div class="connections-layout">
+        <div id="connections-graph-wrap" class="connections-graph-wrap" aria-label="Connections graph">
+          <p class="timeline-empty">Choose a person above to see their connections.</p>
+        </div>
+
+        <aside id="connections-sidebar" class="connections-sidebar" aria-label="Selected person"></aside>
+      </div>
+
+      <p id="connections-tooltip" class="timeline-tooltip" role="tooltip" hidden></p>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Lives of Faith — Christ-centred biographies for worship and teaching.</p>
+      <p>Connections are documented relationships drawn from each person's profile, not an exhaustive genealogy of influence. <a href="about.html">Read about our methodology</a>.</p>
+      <p class="footer-social"><a href="https://www.facebook.com/profile.php?id=61591251525310" aria-label="Follow us on Facebook"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94z"/></svg></a></p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -296,7 +296,10 @@ function connectionsSectionHtml(person) {
 
   return `
     <div class="person-related">
-      <h2 class="person-related-title">&#128279; Connections</h2>
+      <div class="person-related-header">
+        <h2 class="person-related-title">&#128279; Connections</h2>
+        <a class="connections-graph-link" href="connections.html?id=${escapeHtml(person.id)}">See ${escapeHtml(person.name)}'s full connections web</a>
+      </div>
       <p class="connections-note">Documented relationships between figures on this site, drawn from their biographies.</p>
       <ul class="connections-list">${items}</ul>
     </div>

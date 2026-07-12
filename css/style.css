@@ -1839,9 +1839,18 @@ main {
   box-shadow: var(--shadow);
 }
 
+.person-related-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+}
+
 .person-related-title {
   font-size: 1.1rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
 }
 
 
@@ -1910,6 +1919,27 @@ main {
   flex: 0 0 auto;
   font-size: 1rem;
   color: var(--text-muted);
+}
+
+.connections-graph-link {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  background: var(--accent);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.connections-graph-link:hover {
+  background: var(--accent-hover);
+  color: #fff;
 }
 
 @media (max-width: 640px) {
