@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-12. 160 people.
+Generated 2026-07-12. 161 people.
 
 ---
 
@@ -2195,6 +2195,21 @@ Rosetta Sherwood Hall was born in 1865 in Liberty, New York, and trained as a do
 Her infant daughter Edith died of dysentery soon after their return. Rather than retreat, Rosetta founded a children's medical ward in Edith's name, then went on to establish the Pyongyang School for the Deaf and Blind in 1909, pioneering Korean Braille, and in 1928 co-founded Korea's first women's medical school. She served Korea for forty-four years. Her son Sherwood Hall later became a missionary doctor himself, launching Korea's first Christmas Seals campaign against tuberculosis.
 
 Rosetta could have called her husband's death, and her daughter's, reasons to stop. Instead she turned grief into decades of gospel-shaped service, trusting that the God who had not spared her losses was still worth giving her whole life to — not because service earns His favor, but because grace received is grace given away.
+
+---
+
+## Rudolf Alfred Bosshardt (1897–1993)
+
+URL: https://livesoffaith.org/person.html?id=rudolf-bosshardt
+Wikipedia: https://en.wikipedia.org/wiki/Rudolf_Alfred_Bosshardt
+Nationality: British / Swiss · Tradition: Interdenominational evangelical · Region: Asia · Era: 20th Century
+Topics: missions, perseverance, suffering, prayer, trust
+
+Rudolf Alfred Bosshardt was born on 1 January 1897 in Manchester, England, to Swiss parents. Accepted for training with the China Inland Mission in 1920, he sailed for China and arrived in 1922, serving among the villages of Guizhou province. In 1931 he married fellow missionary Rose Piaget in Guiyang.
+
+Bosshardt is remembered chiefly for what followed. On 1 October 1934, while returning from a prayer conference, he and Rose were seized by soldiers of the Communist Red Army under General Xiao Ke. Rose was released separately, but Bosshardt, together with fellow CIM missionary Arnolis Hayman, was forced to accompany the Red Army for 560 days across roughly 2,500 miles of the Long March — one of only two Westerners known to have done so for such a length. He later told the story in The Restraining Hand (1936) and The Guiding Hand: Captivity and Answered Prayer in China (1973); General Xiao Ke himself later called it the most accurate foreign account of the march.
+
+Bosshardt was finally freed on Easter morning, 1936. Through eighteen months of forced marching, illness, and uncertainty, he clung not to his own resourcefulness but to prayer, trusting that his life lay in God's hands alone — the same undeserved grace, not earned by any effort of his own, that had first called him from England to China. He continued serving in China until expelled in 1951, then worked among Chinese communities in Laos, before settling in Manchester, where he died in 1993, aged 96.
 
 ---
 

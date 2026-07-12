@@ -2241,5 +2241,23 @@
     "answer": "George Wishart",
     "person_id": "john-knox",
     "difficulty": 3
+  },
+  {
+    "question": "What historic Communist military campaign was missionary Rudolf Bosshardt forced to accompany as a captive from 1934 to 1936?",
+    "answer": "The Long March",
+    "person_id": "rudolf-bosshardt",
+    "difficulty": 5
+  },
+  {
+    "question": "How many days was Rudolf Bosshardt held captive by the Red Army during the Long March?",
+    "answer": "560 days",
+    "person_id": "rudolf-bosshardt",
+    "difficulty": 5
+  },
+  {
+    "question": "On what day of the Christian calendar was missionary Rudolf Bosshardt finally released from Red Army captivity in 1936?",
+    "answer": "Easter morning",
+    "person_id": "rudolf-bosshardt",
+    "difficulty": 5
   }
 ]

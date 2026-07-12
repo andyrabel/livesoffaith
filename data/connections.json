@@ -425,5 +425,12 @@
     "label": "invited to study at Northfield Seminary",
     "type": "influence",
     "mutual": false
+  },
+  {
+    "from": "rudolf-bosshardt",
+    "to": "hudson-taylor",
+    "label": "served with the China Inland Mission founded by",
+    "type": "milieu",
+    "mutual": false
   }
 ]
