@@ -524,6 +524,11 @@ main {
   margin: 0;
 }
 
+.quiz-print-add-row {
+  margin-top: 0.75rem;
+  padding-left: 1.4rem;
+}
+
 .quiz-print-question {
   position: relative;
   margin-bottom: 1.1rem;

@@ -89,7 +89,6 @@
           <option value="5">Hard</option>
         </select>
         <button type="button" id="quiz-print-reset" class="btn btn-secondary">&#8635; Reset to Today's Quiz</button>
-        <button type="button" id="quiz-print-add" class="btn btn-secondary">&#43; Add Question</button>
         <button type="button" id="quiz-print-btn" class="btn btn-primary" onclick="window.print()">&#128438; Print</button>
         <p id="quiz-print-status" class="quiz-print-status" aria-live="polite"></p>
       </section>
@@ -98,6 +97,9 @@
         <h1 class="quiz-print-title">Lives of Faith — Quiz</h1>
         <p class="quiz-print-fields">Name: <span class="quiz-print-blank"></span> &nbsp; Date: <span class="quiz-print-blank quiz-print-blank--short"></span></p>
         <ol id="quiz-print-questions" class="quiz-print-questions"></ol>
+        <div class="quiz-print-add-row no-print">
+          <button type="button" id="quiz-print-add" class="btn btn-secondary">&#43; Add Question</button>
+        </div>
       </section>
 
       <section class="quiz-print-answers" aria-label="Answer key">
