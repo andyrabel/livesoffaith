@@ -12922,24 +12922,30 @@
     ],
     "hymns": [],
     "wikipedia_url": "https://operationworld.org/2026/01/12/gods-world-to-win/",
+    "source_label": "Operation World",
     "source_summary": "Patrick Johnstone (b. 1938) is a British missionary and the founding author of Operation World, the country-by-country prayer guide first produced in 1964 and now continued by Jason Mandryk of WEC International. Converted at Bristol University in 1959, he trained with the Dorothea Mission in South Africa and served as a missionary evangelist in Kenya, South Africa, and Rhodesia (Zimbabwe) before later joining WEC International's leadership team in the UK. No Wikipedia article exists for Johnstone himself; this entry is sourced from WEC/Operation World's own published history and interviews (operationworld.org, Missio Nexus) rather than Wikipedia, per site-owner approval, since he is not a hymn writer and none of the site's other approved supplementary sources cover him. He appears to be still living as of 2026 publicity for his autobiography God's World to Win; no death date could be confirmed.",
     "adult_story": "Patrick Johnstone was born in England in 1938, the eldest of six children. Converted to Christ in 1959 during his first year at Bristol University, he abandoned a career in chemistry after hearing of the Dorothea Mission's evangelistic work in southern Africa. In 1962 he sailed for South Africa, trained at the Dorothea Mission Bible College in Pretoria, and served his first missionary term preaching the gospel in Kenya, South Africa, and Rhodesia, now Zimbabwe.\n\nJohnstone is known worldwide as the founding author of Operation World, the prayer handbook that has shaped how evangelicals pray for the nations for sixty years. Invited to compile information for a 1964 conference, he produced a 32-page booklet on thirty countries, hand-cranked on a mission Gestetner machine, piecing together data by courier under South Africa's postal sanctions. Six editions followed, eventually covering every nation and translated into nineteen languages, mobilising prayer for unreached peoples worldwide. He went on to serve with Operation Mobilisation and WEC International's UK leadership team.\n\nOperation World rests on a simple conviction: God graciously works through his people's prayers, though no prayer earns anything from him. Johnstone's own path, a chemistry student redirected by one missionary's testimony, later compiling statistics on hidden peoples, points to the same gospel he asked the church to pray toward: salvation belongs to the Lord, offered freely to all who trust in Christ.",
     "family_story": "Patrick Johnstone grew up in England, one of six children. At university, training to be a scientist, he heard a missionary describe the gospel's need in southern Africa — and it changed his life. In 1962 he sailed to South Africa as a missionary.\n\nLater, Patrick was asked to gather facts about countries so Christians could pray for them by name. He typed a tiny 32-page booklet on a hand-cranked machine — the first Operation World. Over sixty years it grew into a book used worldwide to pray for every nation.\n\nPatrick believed God works through his people's prayers to bring good news to places that had never heard it. He turned facts into simple prayers, so Christians could ask God to save the lost.",
     "image": null,
     "memorials": [],
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-12"
     }
   },
   {
     "id": "ramez-atallah",
     "name": "Ramez Atallah",
-    "born": null,
+    "born": 1945,
     "born_approximate": false,
     "died": null,
     "significant_dates": [
+      {
+        "date": "1945",
+        "event": "birth",
+        "details": "Born in Cairo, Egypt, into a wealthy Christian family."
+      },
       {
         "date": "1980",
         "event": "other",
@@ -12970,15 +12976,16 @@
     ],
     "hymns": [],
     "wikipedia_url": "https://bethelcommunity.ca/about-us/our-missionaries/atallah",
-    "source_summary": "Ramez Atallah has served as General Secretary of the Bible Society of Egypt since 1990, building it into the largest publisher of Arabic Scripture in the world. Born in Cairo into a wealthy Christian family whose property was nationalised under Nasser's socialist government, he emigrated to Canada as a teenager, where he was converted and discipled through InterVarsity Christian Fellowship at McGill University. He returned to Egypt in 1980 as IFES Regional Secretary for the Middle East, and served the Lausanne Movement for decades, including as Program Chairman for the Cape Town 2010 congress and Deputy Chair from 2006 to 2015. No Wikipedia article exists for Atallah; this entry is sourced from published missionary-agency biographies (Bethel Community Church, Christian Post, World Wide Mission, IFES-affiliated sites) per site-owner approval, since he is not a hymn writer. His exact birth year could not be confirmed in any available source and has been left blank rather than estimated.",
-    "adult_story": "Ramez Atallah was born in Cairo into a wealthy Christian Egyptian family. When Nasser's socialist government nationalised the family's businesses, they fled to Canada while Ramez was a teenager. Though he had attended church all his life, he had never grasped the gospel — until an evangelistic meeting in Montreal, where, as he later put it, he finally understood \"the wonder of the Gospel\" and gave his life to Christ. He was discipled through InterVarsity Christian Fellowship at McGill University, later directing its Quebec ministry and training at Gordon-Conwell Theological Seminary.\n\nIn 1980 Atallah returned to Egypt as IFES Regional Secretary for the Middle East, and in 1990 became General Secretary of the Bible Society of Egypt, a post he still holds. Under his leadership the Society has grown into the largest publisher of Arabic Bibles in the world, selling Scripture at reduced prices so it stays within reach of ordinary Egyptians. After the 1992 Cairo earthquake, he had 300,000 gospel tracts distributed to a shaken city. He has also served for decades within the Lausanne Movement, including as Program Chairman for its Cape Town 2010 congress.\n\nAtallah's own testimony is that lifelong church attendance is no substitute for grasping the gospel itself: sinners are reconciled to God not by heritage or religious observance but by grace alone, through faith in Christ. That conviction has driven his life's work of putting Scripture, in the plainest and most affordable form possible, into Egyptian hands.",
+    "source_label": "Bethel Community Church",
+    "source_summary": "Ramez Atallah has served as General Secretary of the Bible Society of Egypt since 1990, building it into the largest publisher of Arabic Scripture in the world. Born in Cairo in 1945 into a wealthy Christian family whose property was nationalised under Nasser's socialist government, he emigrated to Canada as a teenager, where he was converted and discipled through InterVarsity Christian Fellowship at McGill University. He returned to Egypt in 1980 as IFES Regional Secretary for the Middle East, and served the Lausanne Movement for decades, including as Program Chairman for the Cape Town 2010 congress and Deputy Chair from 2006 to 2015. His paternal great-grandfather, Athanasius (\"Tanassa\") Ghobrial el-Assiuty (b. 1825), was a pioneer of indigenous evangelical Christianity in Egypt. No Wikipedia article exists for Atallah; this entry is sourced from published missionary-agency biographies (Bethel Community Church, Christian Post, World Wide Mission, IFES-affiliated sites) and Ramez Atallah's own blog (rameza.wordpress.com), per site-owner approval, since he is not a hymn writer.",
+    "adult_story": "Ramez Atallah was born in Cairo into a wealthy Christian Egyptian family. When Nasser's socialist government nationalised the family's businesses, they fled to Canada while Ramez was a teenager. Though he had attended church all his life, he had never grasped the gospel — until an evangelistic meeting in Montreal, where, as he later put it, he finally understood \"the wonder of the Gospel\" and gave his life to Christ. He was discipled through InterVarsity Christian Fellowship at McGill University, later directing its Quebec ministry and training at Gordon-Conwell Theological Seminary.\n\nIn 1980 Atallah returned to Egypt as IFES Regional Secretary for the Middle East, and in 1990 became General Secretary of the Bible Society of Egypt. Under his leadership the Society has grown into the largest publisher of Arabic Bibles in the world, selling Scripture at reduced prices so it stays within reach of ordinary Egyptians. After the 1992 Cairo earthquake, he had 300,000 gospel tracts distributed to a shaken city. He has also served for decades within the Lausanne Movement, including as Program Chairman for its Cape Town 2010 congress.\n\nAtallah's own testimony is that lifelong church attendance is no substitute for grasping the gospel itself: sinners are reconciled to God by grace alone, through faith in Christ, not by heritage or religious observance. That same grace had already taken root generations earlier in his family: his paternal great-grandfather, Athanasius (\"Tanassa\") Ghobrial el-Assiuty (b. 1825), was a pioneer of indigenous evangelical Christianity in Egypt.",
     "family_story": "Ramez Atallah was born in Cairo, Egypt, into a wealthy family. When the government took away his family's businesses, they fled to Canada while he was a teenager.\n\nRamez had gone to church his whole life, but he never really understood the gospel — until one day at a meeting in Canada, it suddenly became clear, and he gave his life to Jesus. He later went back to Egypt to serve God.\n\nSince 1990, Ramez has led the Bible Society of Egypt, making sure Egyptians can afford their own Bibles. After an earthquake shook Cairo in 1992, he had thousands of gospel leaflets given out. Ramez always says going to church isn't enough — what matters is trusting Jesus, the only way anyone is saved.",
     "image": null,
     "memorials": [],
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-12"
     }
   },
   {
@@ -13029,9 +13036,9 @@
     "image": null,
     "memorials": [],
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-12"
     }
   }
 ]

@@ -164,7 +164,8 @@ function buildAttributionHtml(image) {
 function sourceLinksHtml(person) {
   const links = [];
   if (person.wikipedia_url) {
-    links.push(`<a href="${escapeHtml(person.wikipedia_url)}" target="_blank" rel="noopener noreferrer">Wikipedia</a>`);
+    const label = person.source_label || 'Wikipedia';
+    links.push(`<a href="${escapeHtml(person.wikipedia_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`);
   }
   if (person.hymnary_url) {
     links.push(`<a href="${escapeHtml(person.hymnary_url)}" target="_blank" rel="noopener noreferrer">Hymnary.org</a>`);
