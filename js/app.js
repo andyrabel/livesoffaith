@@ -3809,7 +3809,9 @@ function renderConnectionsGraph() {
          data-person-id="${escapeHtml(id)}" data-tooltip="${escapeHtml(tooltip)}"
          transform="translate(${offsetX + pos.x},${pos.y + CONNECTIONS_MARGIN})">
         <circle r="${r}" fill="${color}"></circle>
-        <text text-anchor="middle" y="${r + 12}" font-size="11">${escapeHtml(label)}</text>
+        <a href="person.html?id=${escapeHtml(id)}" class="graph-node-link" data-tooltip="View ${escapeHtml(p.name)}'s profile">
+          <text text-anchor="middle" y="${r + 12}" font-size="11">${escapeHtml(label)}</text>
+        </a>
       </g>
     `;
   });
@@ -3832,7 +3834,12 @@ function renderConnectionsGraph() {
       const id = node.dataset.personId;
       if (id !== connectionsPageState.centerId) setConnectionsCenter(id);
     };
-    node.addEventListener('click', activate);
+    node.addEventListener('click', e => {
+      // The name label is its own link to the person's page — let it
+      // navigate instead of re-centering the graph on click.
+      if (e.target.closest('a')) return;
+      activate();
+    });
     node.addEventListener('keydown', e => {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
     });

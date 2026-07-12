@@ -2920,6 +2920,20 @@ main {
   pointer-events: none;
 }
 
+/* The name label is its own link to the person's page, separate from the
+   circle (which re-centers the graph) — re-enable pointer events just for
+   it and give it a distinct hover state so that's discoverable. */
+.graph-node .graph-node-link text {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.graph-node .graph-node-link:hover text,
+.graph-node .graph-node-link:focus text {
+  fill: var(--accent);
+  text-decoration: underline;
+}
+
 .graph-node circle {
   stroke: var(--surface);
   stroke-width: 2px;
