@@ -2085,5 +2085,59 @@
     "answer": "1888",
     "person_id": "lottie-moon",
     "difficulty": 5
+  },
+  {
+    "question": "What famous prayer guide did Patrick Johnstone create in 1964 to help Christians pray for every country?",
+    "answer": "Operation World",
+    "person_id": "patrick-johnstone",
+    "difficulty": 1
+  },
+  {
+    "question": "Where was Patrick Johnstone training to become a missionary when he studied for the Dorothea Mission?",
+    "answer": "South Africa (Pretoria)",
+    "person_id": "patrick-johnstone",
+    "difficulty": 3
+  },
+  {
+    "question": "What subject was Patrick Johnstone studying at Bristol University when he was converted to Christ?",
+    "answer": "Chemistry",
+    "person_id": "patrick-johnstone",
+    "difficulty": 5
+  },
+  {
+    "question": "What country does Ramez Atallah's Bible Society serve as its largest publisher of Arabic Bibles?",
+    "answer": "Egypt",
+    "person_id": "ramez-atallah",
+    "difficulty": 1
+  },
+  {
+    "question": "What Canadian university group discipled Ramez Atallah after his conversion?",
+    "answer": "InterVarsity Christian Fellowship",
+    "person_id": "ramez-atallah",
+    "difficulty": 3
+  },
+  {
+    "question": "How many gospel tracts did Ramez Atallah have distributed in Cairo after the 1992 earthquake?",
+    "answer": "300,000",
+    "person_id": "ramez-atallah",
+    "difficulty": 5
+  },
+  {
+    "question": "In what city did Jackie Pullinger begin her famous ministry to drug addicts and gang members?",
+    "answer": "Hong Kong",
+    "person_id": "jackie-pullinger",
+    "difficulty": 1
+  },
+  {
+    "question": "What is the name of the rehabilitation society Jackie Pullinger founded in 1981?",
+    "answer": "St Stephen's Society",
+    "person_id": "jackie-pullinger",
+    "difficulty": 3
+  },
+  {
+    "question": "What was the name of the lawless, gang-controlled district of Hong Kong where Jackie Pullinger began her ministry?",
+    "answer": "The Kowloon Walled City",
+    "person_id": "jackie-pullinger",
+    "difficulty": 3
   }
 ]

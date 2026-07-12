@@ -70,6 +70,7 @@ function getInitials(name) {
 }
 
 function formatYears(person) {
+  if (!person.born) return person.died ? `d. ${person.died}` : 'dates unknown';
   const born = person.born_approximate ? `c. ${person.born}` : String(person.born);
   const died = person.died ? String(person.died) : 'present';
   return `${born}–${died}`;
@@ -1166,9 +1167,9 @@ function truncateSummary(text, maxLen) {
 
 function injectPersonSeo(person) {
   const pageUrl = `${SITE_URL}/person.html?id=${encodeURIComponent(person.id)}`;
-  const born = person.born_approximate ? `c. ${person.born}` : String(person.born);
+  const born = person.born ? (person.born_approximate ? `c. ${person.born}` : String(person.born)) : undefined;
   const died = person.died ? String(person.died) : undefined;
-  const dates = died ? `${born}–${died}` : `b. ${born}`;
+  const dates = born ? (died ? `${born}–${died}` : `b. ${born}`) : (died ? `d. ${died}` : 'dates unknown');
 
   // Description: use source_summary snippet if available, else generic fallback
   const summarySnippet = person.source_summary
@@ -3591,7 +3592,7 @@ function connectionsTruncateName(name, max) {
 }
 
 function connectionsNodeLabel(person, max) {
-  const born = person.born_approximate ? `c. ${person.born}` : String(person.born);
+  const born = person.born ? (person.born_approximate ? `c. ${person.born}` : String(person.born)) : '?';
   return connectionsTruncateName(`${person.name} (${born})`, max);
 }
 

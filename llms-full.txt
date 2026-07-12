@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-11. 154 people.
+Generated 2026-07-11. 157 people.
 
 ---
 
@@ -1132,6 +1132,21 @@ He died suddenly of pneumonia in North Dakota in January 1937, on a winter preac
 
 ---
 
+## Jackie Pullinger (b. 1944)
+
+URL: https://livesoffaith.org/person.html?id=jackie-pullinger
+Wikipedia: https://en.wikipedia.org/wiki/Jackie_Pullinger
+Nationality: British · Tradition: Charismatic evangelical · Region: Asia · Era: 20th Century
+Topics: compassion, gospel, perseverance, redemption
+
+Jackie Pullinger trained as a musician at the Royal College of Music before, at 22, sensing a call to missionary service. Turned down by every missionary society she approached, she sailed alone to Hong Kong in 1966 with $10, trusting God to open a door. She found her way into the Kowloon Walled City, an ungoverned warren controlled by Triad gangs and one of the world's most notorious opium and heroin markets, and began a youth club offering local boys an alternative to the gangs and drugs around them.
+
+Her ministry became known for a striking pattern: addicts coming to faith in Christ and going through heroin withdrawal without the agony normally involved, an outcome she and those she worked among attributed simply to answered prayer. In 1981 she founded the St Stephen's Society, a network of residential homes that has rehabilitated thousands of addicts, sex workers, and gang members, several of whom went on to lead the ministry themselves. She was appointed MBE in 1988, and later received an honorary doctorate from the University of Hong Kong. She wrote of her early years in Chasing the Dragon (1980) and the Walled City's demolition in Crack in the Wall (1989).
+
+What Pullinger has consistently pointed to, across sixty years in Hong Kong's poorest corners, is not her own compassion but the gospel: men and women enslaved to sin are set free not by willpower alone but by grace, through faith in a Christ who meets people in their worst need.
+
+---
+
 ## Jacob DeShazer (1912–2008)
 
 URL: https://livesoffaith.org/person.html?id=jacob-deshazer
@@ -1899,6 +1914,21 @@ Her life proclaimed what the gospel insists: that in Christ there is no Brahmin 
 
 ---
 
+## Patrick Johnstone (b. 1938)
+
+URL: https://livesoffaith.org/person.html?id=patrick-johnstone
+Wikipedia: https://operationworld.org/2026/01/12/gods-world-to-win/
+Nationality: British · Tradition: Interdenominational evangelical · Region: UK/Ireland · Era: 20th Century
+Topics: missions, prayer, perseverance, faithfulness
+
+Patrick Johnstone was born in England in 1938, the eldest of six children. Converted to Christ in 1959 during his first year at Bristol University, he abandoned a career in chemistry after hearing of the Dorothea Mission's evangelistic work in southern Africa. In 1962 he sailed for South Africa, trained at the Dorothea Mission Bible College in Pretoria, and served his first missionary term preaching the gospel in Kenya, South Africa, and Rhodesia, now Zimbabwe.
+
+Johnstone is known worldwide as the founding author of Operation World, the prayer handbook that has shaped how evangelicals pray for the nations for sixty years. Invited to compile information for a 1964 conference, he produced a 32-page booklet on thirty countries, hand-cranked on a mission Gestetner machine, piecing together data by courier under South Africa's postal sanctions. Six editions followed, eventually covering every nation and translated into nineteen languages, mobilising prayer for unreached peoples worldwide. He went on to serve with Operation Mobilisation and WEC International's UK leadership team.
+
+Operation World rests on a simple conviction: God graciously works through his people's prayers, though no prayer earns anything from him. Johnstone's own path, a chemistry student redirected by one missionary's testimony, later compiling statistics on hidden peoples, points to the same gospel he asked the church to pray toward: salvation belongs to the Lord, offered freely to all who trust in Christ.
+
+---
+
 ## Peter Fleming (1928–1956)
 
 URL: https://livesoffaith.org/person.html?id=peter-fleming
@@ -1975,6 +2005,21 @@ R.C. Sproul was born in 1939 in Pittsburgh, Pennsylvania. As a student at Westmi
 After theological study, including under G.C. Berkouwer in the Netherlands, Sproul devoted himself to teaching ordinary Christians the doctrines that had gripped him: the holiness and sovereignty of God, the authority of Scripture, and justification by faith alone. In 1971 he founded a small study centre in rural Pennsylvania that grew into Ligonier Ministries, reaching a global audience through books, radio, and recorded teaching. His best-known book, The Holiness of God (1985), retold his own realization that a right view of who God is exposes exactly how little any person could ever deserve God's favour.
 
 In 1978 Sproul helped draft the Chicago Statement on Biblical Inerrancy, defending the trustworthiness of Scripture as the foundation for knowing Christ rightly at all. Until his death in 2017, he insisted that sinners are not saved by their own goodness, however sincere, but by grace alone, through faith alone, in Christ alone — the same conviction that had taken hold of him as a young student decades before.
+
+---
+
+## Ramez Atallah (dates unknown)
+
+URL: https://livesoffaith.org/person.html?id=ramez-atallah
+Wikipedia: https://bethelcommunity.ca/about-us/our-missionaries/atallah
+Nationality: Egyptian · Tradition: Interdenominational evangelical · Region: Africa · Era: 20th Century
+Topics: Scripture, evangelism, missions, perseverance
+
+Ramez Atallah was born in Cairo into a wealthy Christian Egyptian family. When Nasser's socialist government nationalised the family's businesses, they fled to Canada while Ramez was a teenager. Though he had attended church all his life, he had never grasped the gospel — until an evangelistic meeting in Montreal, where, as he later put it, he finally understood "the wonder of the Gospel" and gave his life to Christ. He was discipled through InterVarsity Christian Fellowship at McGill University, later directing its Quebec ministry and training at Gordon-Conwell Theological Seminary.
+
+In 1980 Atallah returned to Egypt as IFES Regional Secretary for the Middle East, and in 1990 became General Secretary of the Bible Society of Egypt, a post he still holds. Under his leadership the Society has grown into the largest publisher of Arabic Bibles in the world, selling Scripture at reduced prices so it stays within reach of ordinary Egyptians. After the 1992 Cairo earthquake, he had 300,000 gospel tracts distributed to a shaken city. He has also served for decades within the Lausanne Movement, including as Program Chairman for its Cape Town 2010 congress.
+
+Atallah's own testimony is that lifelong church attendance is no substitute for grasping the gospel itself: sinners are reconciled to God not by heritage or religious observance but by grace alone, through faith in Christ. That conviction has driven his life's work of putting Scripture, in the plainest and most affordable form possible, into Egyptian hands.
 
 ---
 
