@@ -866,6 +866,7 @@
     "question": "Who wrote the hymn \"Draw Me Nearer\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "draw-me-nearer",
     "difficulty": 3
   },
   {
@@ -897,6 +898,7 @@
     "question": "Who wrote the hymn \"Redeemed\"?",
     "answer": "Fanny Crosby",
     "person_id": "fanny-crosby",
+    "hymn_id": "redeemed",
     "difficulty": 3
   },
   {

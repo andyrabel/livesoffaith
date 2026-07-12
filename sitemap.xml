@@ -1503,6 +1503,10 @@
     <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://livesoffaith.org/images/portraits/rudolf-bosshardt.jpg</image:loc>
+      <image:caption>Portrait of Rudolf Alfred Bosshardt</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=amazing-grace</loc>
@@ -1896,6 +1900,18 @@
   </url>
   <url>
     <loc>https://livesoffaith.org/hymn.html?id=there-is-a-higher-throne</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=draw-me-nearer</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://livesoffaith.org/hymn.html?id=redeemed</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

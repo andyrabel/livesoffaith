@@ -2696,7 +2696,11 @@ main {
 
 .timeline-tooltip {
   position: fixed;
-  z-index: 50;
+  /* Above .connections-graph-frame--fullpage (z-index: 1000) — otherwise
+     the tooltip still shows/positions correctly on hover or tap, but
+     renders behind the full-page graph's opaque background and is
+     invisible. */
+  z-index: 1010;
   background: var(--accent);
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
