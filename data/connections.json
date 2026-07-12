@@ -371,37 +371,9 @@
     "mutual": true
   },
   {
-    "from": "ha-ironside",
-    "to": "george-muller",
-    "label": "moved in the same Plymouth Brethren circles as",
-    "type": "milieu",
-    "mutual": true
-  },
-  {
-    "from": "samuel-lamb",
-    "to": "wang-ming-dao",
-    "label": "preached in the same independent-church circles as",
-    "type": "milieu",
-    "mutual": true
-  },
-  {
     "from": "robert-cleaver-chapman",
     "to": "george-muller",
     "label": "close friend of, whom Müller called 'the saintliest man I ever knew'",
-    "type": "milieu",
-    "mutual": true
-  },
-  {
-    "from": "ha-ironside",
-    "to": "william-macdonald",
-    "label": "belonged to the same Brethren movement as",
-    "type": "milieu",
-    "mutual": true
-  },
-  {
-    "from": "ha-ironside",
-    "to": "william-edwy-vine",
-    "label": "belonged to the same Brethren movement as",
     "type": "milieu",
     "mutual": true
   },
