@@ -406,12 +406,38 @@ function getOnThisDayCandidates(people, month, day) {
 
 // Deterministic (not Math.random) so every visitor sees the same pick for
 // the day and it doesn't change on refresh.
-function seededIndex(seedStr, length) {
+function hashString(str) {
   let hash = 0;
-  for (let i = 0; i < seedStr.length; i++) {
-    hash = (hash * 31 + seedStr.charCodeAt(i)) >>> 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = (hash * 31 + str.charCodeAt(i)) >>> 0;
   }
-  return hash % length;
+  return hash;
+}
+
+function seededIndex(seedStr, length) {
+  return hashString(seedStr) % length;
+}
+
+// Seeded PRNG (mulberry32) so a whole list can be shuffled deterministically
+// from a string seed, not just a single index.
+function mulberry32(seed) {
+  return function () {
+    seed |= 0;
+    seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function seededShuffle(arr, seedStr) {
+  const rand = mulberry32(hashString(seedStr));
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 
 function withPeriod(text) {
@@ -506,7 +532,7 @@ function renderQuizQuestion() {
       <span class="quiz-box__question">${escapeHtml(q.question)}</span>
       <button class="quiz-box__reveal-btn" type="button" aria-expanded="false">Reveal Answer</button>
       <span class="quiz-box__answer" hidden><strong>${escapeHtml(q.answer)}</strong>${answerLinkHtml}</span>
-      <a class="quiz-box__print-link" href="quiz-print.html">&#128438; Print a quiz &#8594;</a>
+      <a class="quiz-box__print-link" href="quiz.html">&#128438; Take the quiz &#8594;</a>
     </div>
   `;
 
@@ -521,28 +547,48 @@ function renderQuizQuestion() {
 }
 
 // ============================================================
-// Printable quiz page (quiz-print.html)
+// Quiz builder page (quiz.html)
 // ============================================================
 
 const QUIZ_PRINT_COUNT = 10;
 
-function renderPrintQuiz(maxDifficulty) {
-  const pool = allQuiz.filter(q => q.difficulty <= maxDifficulty);
-  const questions = shuffleArray(pool).slice(0, QUIZ_PRINT_COUNT);
+// The set of questions currently on the sheet, in display order. Rebuilt
+// from scratch on difficulty change / reset; mutated in place by drag,
+// remove and add.
+let currentQuizQuestions = [];
+let quizDragSrcIndex = null;
 
+// Same 10 questions for everyone on a given day at a given difficulty —
+// seeded shuffle (not Math.random) keyed by date + difficulty.
+function dailyDefaultQuizQuestions(maxDifficulty) {
+  const pool = allQuiz.filter(q => q.difficulty <= maxDifficulty);
+  if (!pool.length) return [];
+  const today = new Date();
+  const seed = `quiz-page-${today.getFullYear()}-${today.getMonth()}-${today.getDate()}-${maxDifficulty}`;
+  return seededShuffle(pool, seed).slice(0, QUIZ_PRINT_COUNT);
+}
+
+function renderQuizBuilder() {
   const questionsList = document.getElementById('quiz-print-questions');
   const answerList = document.getElementById('quiz-print-answer-list');
   const status = document.getElementById('quiz-print-status');
+  const addBtn = document.getElementById('quiz-print-add');
   if (!questionsList || !answerList) return;
 
-  questionsList.innerHTML = questions.map(q => `
-    <li class="quiz-print-question">
+  questionsList.innerHTML = currentQuizQuestions.map((q, i) => `
+    <li class="quiz-print-question" draggable="true" data-index="${i}">
+      <span class="quiz-print-question__drag no-print" aria-hidden="true" title="Drag to reorder">&#9776;</span>
       <span class="quiz-print-question__text">${escapeHtml(q.question)}</span>
       <span class="quiz-print-question__rule"></span>
+      <span class="quiz-print-question__controls no-print">
+        <button type="button" class="quiz-print-question__move" data-dir="up" data-index="${i}" aria-label="Move question up" ${i === 0 ? 'disabled' : ''}>&#9650;</button>
+        <button type="button" class="quiz-print-question__move" data-dir="down" data-index="${i}" aria-label="Move question down" ${i === currentQuizQuestions.length - 1 ? 'disabled' : ''}>&#9660;</button>
+        <button type="button" class="quiz-print-question__remove" data-index="${i}" aria-label="Remove this question">&times;</button>
+      </span>
     </li>
   `).join('');
 
-  answerList.innerHTML = questions.map(q => {
+  answerList.innerHTML = currentQuizQuestions.map(q => {
     const person = allPeople.find(p => p.id === q.person_id);
     const nameSuffix = person && person.name.toLowerCase() !== q.answer.toLowerCase()
       ? ` (${escapeHtml(person.name)})`
@@ -551,34 +597,97 @@ function renderPrintQuiz(maxDifficulty) {
   }).join('');
 
   if (status) {
-    status.textContent = questions.length < QUIZ_PRINT_COUNT
-      ? `Only ${questions.length} questions available at this difficulty.`
+    status.textContent = currentQuizQuestions.length < QUIZ_PRINT_COUNT
+      ? `${currentQuizQuestions.length} question${currentQuizQuestions.length === 1 ? '' : 's'} on this quiz — add more or lower the difficulty.`
       : '';
   }
+
+  if (addBtn) {
+    const maxDifficulty = parseInt(document.getElementById('quiz-print-difficulty').value, 10);
+    const pool = allQuiz.filter(q => q.difficulty <= maxDifficulty && !currentQuizQuestions.includes(q));
+    addBtn.disabled = currentQuizQuestions.length >= QUIZ_PRINT_COUNT || !pool.length;
+  }
+
+  attachQuizBuilderEvents(questionsList);
 }
 
-function initQuizPrintPage() {
+function moveQuizQuestion(index, dir) {
+  const target = dir === 'up' ? index - 1 : index + 1;
+  if (target < 0 || target >= currentQuizQuestions.length) return;
+  [currentQuizQuestions[index], currentQuizQuestions[target]] = [currentQuizQuestions[target], currentQuizQuestions[index]];
+  renderQuizBuilder();
+}
+
+function attachQuizBuilderEvents(questionsList) {
+  questionsList.querySelectorAll('.quiz-print-question__remove').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentQuizQuestions.splice(parseInt(btn.dataset.index, 10), 1);
+      renderQuizBuilder();
+    });
+  });
+
+  questionsList.querySelectorAll('.quiz-print-question__move').forEach(btn => {
+    btn.addEventListener('click', () => {
+      moveQuizQuestion(parseInt(btn.dataset.index, 10), btn.dataset.dir);
+    });
+  });
+
+  questionsList.querySelectorAll('.quiz-print-question').forEach(li => {
+    li.addEventListener('dragstart', () => {
+      quizDragSrcIndex = parseInt(li.dataset.index, 10);
+      li.classList.add('is-dragging');
+    });
+    li.addEventListener('dragend', () => {
+      li.classList.remove('is-dragging');
+    });
+    li.addEventListener('dragover', (e) => {
+      e.preventDefault();
+    });
+    li.addEventListener('drop', (e) => {
+      e.preventDefault();
+      const targetIndex = parseInt(li.dataset.index, 10);
+      if (quizDragSrcIndex === null || quizDragSrcIndex === targetIndex) return;
+      const [moved] = currentQuizQuestions.splice(quizDragSrcIndex, 1);
+      currentQuizQuestions.splice(targetIndex, 0, moved);
+      quizDragSrcIndex = null;
+      renderQuizBuilder();
+    });
+  });
+}
+
+function addRandomQuizQuestion() {
+  const maxDifficulty = parseInt(document.getElementById('quiz-print-difficulty').value, 10);
+  const pool = allQuiz.filter(q => q.difficulty <= maxDifficulty && !currentQuizQuestions.includes(q));
+  if (!pool.length || currentQuizQuestions.length >= QUIZ_PRINT_COUNT) return;
+  currentQuizQuestions.push(pool[Math.floor(Math.random() * pool.length)]);
+  renderQuizBuilder();
+}
+
+function initQuizPage() {
   const difficultySel = document.getElementById('quiz-print-difficulty');
-  const generateBtn = document.getElementById('quiz-print-generate');
-  if (!difficultySel || !generateBtn) return;
+  const resetBtn = document.getElementById('quiz-print-reset');
+  const addBtn = document.getElementById('quiz-print-add');
+  if (!difficultySel) return;
 
   const urlParams = new URLSearchParams(window.location.search);
   const paramMax = urlParams.get('max');
   difficultySel.value = (paramMax && ['1', '3', '5'].includes(paramMax)) ? paramMax : getQuizPrintDifficulty();
 
-  const generate = () => {
+  const loadDefaults = () => {
     const maxDifficulty = parseInt(difficultySel.value, 10);
     setQuizPrintDifficulty(difficultySel.value);
     const url = new URL(window.location.href);
     url.searchParams.set('max', String(maxDifficulty));
     history.replaceState(null, '', url);
-    renderPrintQuiz(maxDifficulty);
+    currentQuizQuestions = dailyDefaultQuizQuestions(maxDifficulty);
+    renderQuizBuilder();
   };
 
-  generateBtn.addEventListener('click', generate);
-  difficultySel.addEventListener('change', generate);
+  difficultySel.addEventListener('change', loadDefaults);
+  if (resetBtn) resetBtn.addEventListener('click', loadDefaults);
+  if (addBtn) addBtn.addEventListener('click', addRandomQuizQuestion);
 
-  generate();
+  loadDefaults();
 }
 
 function memorialsSectionHtml(person) {
@@ -1366,7 +1475,10 @@ function initPersonPage() {
         ${sourcesHtml}
         <div class="story-panel-footer">
           ${badge}
-          <button class="btn btn-copy" data-copy-version="adult">Copy</button>
+          <div class="story-panel-actions">
+            <button class="btn btn-copy btn-read" data-read-version="adult">&#128266; Read Aloud</button>
+            <button class="btn btn-copy" data-copy-version="adult">Copy</button>
+          </div>
         </div>
       </div>
 
@@ -1376,7 +1488,10 @@ function initPersonPage() {
         ${sourcesHtml}
         <div class="story-panel-footer">
           ${badge}
-          <button class="btn btn-copy" data-copy-version="family">Copy</button>
+          <div class="story-panel-actions">
+            <button class="btn btn-copy btn-read" data-read-version="family">&#128266; Read Aloud</button>
+            <button class="btn btn-copy" data-copy-version="family">Copy</button>
+          </div>
         </div>
       </div>
     </div>
@@ -1408,6 +1523,15 @@ function initPersonPage() {
       const story = v === 'adult' ? person.adult_story : person.family_story;
       const text = `${person.name} (${formatYears(person)})\n\n${stripLinks(story)}`;
       copyText(text, btn, 'Copied!');
+    });
+  });
+
+  // Read aloud buttons
+  content.querySelectorAll('[data-read-version]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const v = btn.dataset.readVersion;
+      const story = v === 'adult' ? person.adult_story : person.family_story;
+      readAloud(story, `${person.name}, ${formatYears(person)}`, btn);
     });
   });
 
@@ -1812,7 +1936,10 @@ function initHymnPage() {
         ${sourcesHtml}
         <div class="story-panel-footer">
           ${badge}
-          <button class="btn btn-copy" data-copy-version="adult">Copy</button>
+          <div class="story-panel-actions">
+            <button class="btn btn-copy btn-read" data-read-version="adult">&#128266; Read Aloud</button>
+            <button class="btn btn-copy" data-copy-version="adult">Copy</button>
+          </div>
         </div>
       </div>
 
@@ -1822,7 +1949,10 @@ function initHymnPage() {
         ${sourcesHtml}
         <div class="story-panel-footer">
           ${badge}
-          <button class="btn btn-copy" data-copy-version="family">Copy</button>
+          <div class="story-panel-actions">
+            <button class="btn btn-copy btn-read" data-read-version="family">&#128266; Read Aloud</button>
+            <button class="btn btn-copy" data-copy-version="family">Copy</button>
+          </div>
         </div>
       </div>
     </div>
@@ -1848,6 +1978,14 @@ function initHymnPage() {
       const story = v === 'adult' ? hymn.adult_story : hymn.family_story;
       const text = `${hymn.title} (${hymn.year})\n\n${stripLinks(story)}`;
       copyText(text, btn, 'Copied!');
+    });
+  });
+
+  content.querySelectorAll('[data-read-version]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const v = btn.dataset.readVersion;
+      const story = v === 'adult' ? hymn.adult_story : hymn.family_story;
+      readAloud(story, `${hymn.title}, ${hymn.year}`, btn);
     });
   });
 
@@ -1894,6 +2032,44 @@ function flashButton(button, msg, isError) {
     button.classList.remove('copied');
     button.style.background = '';
   }, 2400);
+}
+
+// ============================================================
+// Read Aloud (browser's built-in Web Speech API — free, no
+// server or API key; voice quality depends on the visitor's
+// browser/OS)
+// ============================================================
+
+let currentReadButton = null;
+
+function resetReadButton(button) {
+  button.textContent = button.dataset.originalLabel || button.textContent;
+  button.classList.remove('reading');
+  if (currentReadButton === button) currentReadButton = null;
+}
+
+function readAloud(story, label, button) {
+  if (!('speechSynthesis' in window)) {
+    flashButton(button, 'Not supported in this browser', true);
+    return;
+  }
+
+  const wasReadingThis = currentReadButton === button;
+  if (currentReadButton) resetReadButton(currentReadButton);
+  window.speechSynthesis.cancel();
+  if (wasReadingThis) return;
+
+  const utterance = new SpeechSynthesisUtterance(`${label}. ${stripLinks(story)}`);
+  utterance.rate = 0.95;
+  utterance.onend = () => resetReadButton(button);
+  utterance.onerror = () => resetReadButton(button);
+
+  button.dataset.originalLabel = button.dataset.originalLabel || button.textContent;
+  button.textContent = '⏹ Stop Reading';
+  button.classList.add('reading');
+  currentReadButton = button;
+
+  window.speechSynthesis.speak(utterance);
 }
 
 // ============================================================
@@ -3349,7 +3525,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   } else if (document.getElementById('hymn-content')) {
     initHymnPage();
   } else if (document.getElementById('quiz-print-questions')) {
-    initQuizPrintPage();
+    initQuizPage();
   } else if (document.getElementById('timeline-canvas')) {
     initTimelinePage();
   }

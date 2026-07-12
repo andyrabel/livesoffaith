@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Generate and print a 10-question quiz about Christians throughout history — pick a difficulty level for worship, Sunday school, or family use.">
+  <meta name="description" content="Build and print a quiz about Christians throughout history — today's 10 questions are picked for you, or reorder, remove, and add your own for worship, Sunday school, or family use.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Lives of Faith">
-  <title>Printable Quiz — Lives of Faith</title>
-  <link rel="canonical" href="https://livesoffaith.org/quiz-print.html">
+  <title>Quiz — Lives of Faith</title>
+  <link rel="canonical" href="https://livesoffaith.org/quiz.html">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://livesoffaith.org/quiz-print.html">
-  <meta property="og:title" content="Printable Quiz — Lives of Faith">
-  <meta property="og:description" content="Generate and print a 10-question quiz about Christians throughout history — pick a difficulty level for worship, Sunday school, or family use.">
+  <meta property="og:url" content="https://livesoffaith.org/quiz.html">
+  <meta property="og:title" content="Quiz — Lives of Faith">
+  <meta property="og:description" content="Today's 10 questions are picked for you — reorder, remove, and add your own, then print for worship, Sunday school, or family use.">
   <meta property="og:site_name" content="Lives of Faith">
   <meta property="og:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
   <meta property="og:image:width" content="1024">
@@ -21,8 +21,8 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Printable Quiz — Lives of Faith">
-  <meta name="twitter:description" content="Generate and print a 10-question quiz about Christians throughout history.">
+  <meta name="twitter:title" content="Quiz — Lives of Faith">
+  <meta name="twitter:description" content="Today's 10 questions are picked for you — reorder, remove, and add your own, then print.">
   <meta name="twitter:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -48,6 +48,7 @@
             <a href="index.html">People</a>
             <a href="hymns.html">Hymns</a>
             <a href="timeline.html">Timeline</a>
+            <a href="quiz.html" aria-current="page">Quiz</a>
             <a href="map.html" class="site-nav-cta">Tour Planner</a>
             <a href="about.html">About</a>
           </div>
@@ -61,6 +62,7 @@
               <a href="index.html">People</a>
               <a href="hymns.html">Hymns</a>
               <a href="timeline.html">Timeline</a>
+              <a href="quiz.html" aria-current="page">Quiz</a>
               <a href="map.html">Tour Planner</a>
               <a href="about.html">About</a>
             </div>
@@ -75,8 +77,8 @@
 
       <a href="index.html" class="back-link no-print">&#8592; Back to all people</a>
 
-      <section class="intro no-print" aria-label="Printable quiz description">
-        <p>Generate a 10-question quiz for worship, Sunday school, or family devotions — pick a difficulty and print.</p>
+      <section class="intro no-print" aria-label="Quiz description">
+        <p>Today's 10 questions are picked for you. Drag to reorder, remove any you don't want, or add another at random — then print.</p>
       </section>
 
       <section class="quiz-print-controls no-print" aria-label="Quiz options">
@@ -86,8 +88,9 @@
           <option value="3" selected>Medium</option>
           <option value="5">Hard</option>
         </select>
-        <button type="button" id="quiz-print-generate" class="btn btn-primary">New Questions</button>
-        <button type="button" id="quiz-print-btn" class="btn btn-secondary" onclick="window.print()">&#128438; Print</button>
+        <button type="button" id="quiz-print-reset" class="btn btn-secondary">&#8635; Reset to Today's Quiz</button>
+        <button type="button" id="quiz-print-add" class="btn btn-secondary">&#43; Add Question</button>
+        <button type="button" id="quiz-print-btn" class="btn btn-primary" onclick="window.print()">&#128438; Print</button>
         <p id="quiz-print-status" class="quiz-print-status" aria-live="polite"></p>
       </section>
 

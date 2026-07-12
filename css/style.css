@@ -463,7 +463,7 @@ main {
   white-space: nowrap;
 }
 
-/* --- Printable Quiz (quiz-print.html) ------------------------ */
+/* --- Quiz builder (quiz.html) --------------------------------- */
 .quiz-print-controls {
   display: flex;
   flex-wrap: wrap;
@@ -525,9 +525,27 @@ main {
 }
 
 .quiz-print-question {
+  position: relative;
   margin-bottom: 1.1rem;
+  padding-right: 5.5rem;
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+.quiz-print-question[draggable="true"] {
+  cursor: grab;
+}
+
+.quiz-print-question.is-dragging {
+  opacity: 0.4;
+}
+
+.quiz-print-question__drag {
+  position: absolute;
+  right: 5.4rem;
+  top: 0.1rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
 }
 
 .quiz-print-question__text {
@@ -540,6 +558,50 @@ main {
   width: 100%;
   height: 1.4rem;
   border-bottom: 1px solid var(--border);
+}
+
+.quiz-print-question__controls {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.quiz-print-question__move,
+.quiz-print-question__remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  font-size: 0.7rem;
+  line-height: 1;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.quiz-print-question__remove {
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.quiz-print-question__move:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.quiz-print-question__move:not(:disabled):hover,
+.quiz-print-question__remove:hover {
+  background: var(--gold-light);
+  border-color: var(--gold);
+  color: var(--gold);
 }
 
 .quiz-print-answers {
@@ -1091,6 +1153,19 @@ main {
   background: var(--success-bg);
   color: var(--success);
   border-color: #a3cdb5;
+}
+
+.story-panel-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-copy.reading {
+  background: var(--gold);
+  color: #fff;
+  border-color: var(--gold);
 }
 
 /* --- Toolbar Row (results summary + search/filter toggle) --- */
@@ -2333,7 +2408,7 @@ main {
   }
 }
 
-/* --- Print Handout (quiz-print.html) ------------------------- */
+/* --- Print Handout (quiz.html) --------------------------------- */
 @media print {
   body {
     background: #fff;
@@ -2354,6 +2429,10 @@ main {
 
   .quiz-print-blank {
     border-bottom-color: #000;
+  }
+
+  .quiz-print-question {
+    padding-right: 0;
   }
 
   .quiz-print-question__rule {
