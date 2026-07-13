@@ -2284,5 +2284,61 @@
     "answer": "Medicine (she had trained as a doctor)",
     "person_id": "dora-yu",
     "difficulty": 5
+  },
+  {
+    "question": "Isaac Watts wrote \"When I Survey the Wondrous Cross\" to be sung during which church service?",
+    "answer": "Communion (the Lord's Supper)",
+    "person_id": "isaac-watts",
+    "hymn_id": "when-i-survey-the-wondrous-cross",
+    "difficulty": 1
+  },
+  {
+    "question": "Charles Wesley wrote \"And Can It Be\" just days after what event in his own life?",
+    "answer": "His own conversion to Christ",
+    "person_id": "charles-wesley",
+    "hymn_id": "amazing-love",
+    "difficulty": 1
+  },
+  {
+    "question": "John Newton wrote \"Amazing Grace\" to go along with a sermon for which day?",
+    "answer": "New Year's Day",
+    "person_id": "john-newton",
+    "hymn_id": "amazing-grace",
+    "difficulty": 1
+  },
+  {
+    "question": "According to Charlotte Elliott, what did evangelist Henri Malan tell her that led her to write \"Just As I Am\"?",
+    "answer": "To come to God just as she was, without trying to make herself ready first",
+    "person_id": "charlotte-elliott",
+    "hymn_id": "just-as-i-am-without-one-plea",
+    "difficulty": 1
+  },
+  {
+    "question": "Which Psalm did Martin Luther base \"A Mighty Fortress Is Our God\" on?",
+    "answer": "Psalm 46",
+    "person_id": "martin-luther",
+    "hymn_id": "a-mighty-fortress-is-our-god",
+    "difficulty": 3
+  },
+  {
+    "question": "Which Psalm did Isaac Watts base \"Joy to the World\" on?",
+    "answer": "Psalm 98",
+    "person_id": "isaac-watts",
+    "hymn_id": "joy-to-the-world",
+    "difficulty": 3
+  },
+  {
+    "question": "Which well-known evangelist changed the opening words of Charles Wesley's \"Hark, the Herald Angels Sing\"?",
+    "answer": "George Whitefield",
+    "person_id": "charles-wesley",
+    "hymn_id": "hark-the-herald-angels-sing",
+    "difficulty": 3
+  },
+  {
+    "question": "Fanny Crosby wrote \"Blessed Assurance\" after her friend Phoebe Knapp did what at the piano?",
+    "answer": "Played a new tune and asked Crosby what it said",
+    "person_id": "fanny-crosby",
+    "hymn_id": "blessed-assurance",
+    "difficulty": 3
   }
 ]
