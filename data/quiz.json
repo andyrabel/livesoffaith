@@ -2340,5 +2340,119 @@
     "person_id": "fanny-crosby",
     "hymn_id": "blessed-assurance",
     "difficulty": 3
+  },
+  {
+    "question": "Who was Charles Wesley's older brother, with whom he co-founded the Holy Club at Oxford and who went on to found the Methodist movement?",
+    "answer": "John Wesley",
+    "person_id": "charles-wesley",
+    "difficulty": 1
+  },
+  {
+    "question": "Which evangelist pioneered open-air preaching, a practice John Wesley later adopted?",
+    "answer": "George Whitefield",
+    "person_id": "john-wesley",
+    "difficulty": 1
+  },
+  {
+    "question": "Which English pastor mentored William Wilberforce by correspondence during his evangelical conversion, and later backed his campaign to end the slave trade?",
+    "answer": "John Newton",
+    "person_id": "william-wilberforce",
+    "difficulty": 1
+  },
+  {
+    "question": "Who was Martin Luther's wife, a former nun who left her convent after reading his writings?",
+    "answer": "Katharina von Bora",
+    "person_id": "martin-luther",
+    "difficulty": 3
+  },
+  {
+    "question": "Who was Jim Elliot's wife, who continued missionary work in Ecuador after his death and became a well-known Christian author?",
+    "answer": "Elisabeth Elliot",
+    "person_id": "jim-elliot",
+    "difficulty": 1
+  },
+  {
+    "question": "Which missionary pilot flew Jim Elliot and his companions on their fatal 1956 flight to reach the Waodani people?",
+    "answer": "Nate Saint",
+    "person_id": "jim-elliot",
+    "difficulty": 3
+  },
+  {
+    "question": "Who served as Billy Graham's crusade soloist for decades?",
+    "answer": "George Beverly Shea",
+    "person_id": "billy-graham",
+    "difficulty": 1
+  },
+  {
+    "question": "John Bunyan was the son of a man in what trade, in Elstow, Bedfordshire?",
+    "answer": "A tinker (mender of pots and pans)",
+    "person_id": "john-bunyan",
+    "difficulty": 5
+  },
+  {
+    "question": "What field did John Calvin train in before turning to theology and the Reformation?",
+    "answer": "Law",
+    "person_id": "john-calvin",
+    "difficulty": 1
+  },
+  {
+    "question": "What did Martin Luther's father want him to study, before Luther vowed to become a monk instead?",
+    "answer": "Law",
+    "person_id": "martin-luther",
+    "difficulty": 1
+  },
+  {
+    "question": "What country was John Calvin born in?",
+    "answer": "France",
+    "person_id": "john-calvin",
+    "difficulty": 1
+  },
+  {
+    "question": "What country was Martin Luther born in?",
+    "answer": "Germany",
+    "person_id": "martin-luther",
+    "difficulty": 1
+  },
+  {
+    "question": "What city was C.S. Lewis born in?",
+    "answer": "Belfast",
+    "person_id": "cs-lewis",
+    "difficulty": 1
+  },
+  {
+    "question": "What organization, still active worldwide, did Billy Graham found in 1950?",
+    "answer": "The Billy Graham Evangelistic Association",
+    "person_id": "billy-graham",
+    "difficulty": 1
+  },
+  {
+    "question": "What prison ministry, now the world's largest of its kind, did Chuck Colson found in 1976?",
+    "answer": "Prison Fellowship",
+    "person_id": "chuck-colson",
+    "difficulty": 3
+  },
+  {
+    "question": "What were William Tyndale's last recorded words as he was strangled and burned in 1536?",
+    "answer": "\"Lord, open the King of England's eyes.\"",
+    "person_id": "william-tyndale",
+    "difficulty": 5
+  },
+  {
+    "question": "What famous words did Hugh Latimer speak to fellow martyr Nicholas Ridley as they were about to be burned at the stake together in 1555?",
+    "answer": "\"Play the man, Master Ridley; we shall this day light such a candle, by God's grace, in England, as I trust shall never be put out.\"",
+    "person_id": "hugh-latimer",
+    "difficulty": 5
+  },
+  {
+    "question": "What were Thomas Cranmer's last words as he held the hand that had signed his recantations steady in the flames in 1556?",
+    "answer": "\"Lord Jesus, receive my spirit. I see the heavens open and Jesus standing at the right hand of God.\"",
+    "person_id": "thomas-cranmer",
+    "difficulty": 5
+  },
+  {
+    "question": "What did the camp doctor who witnessed Dietrich Bonhoeffer's execution at Flossenbürg later say about his death?",
+    "answer": "That he had never seen anyone die so entirely submissive to the will of God",
+    "person_id": "dietrich-bonhoeffer",
+    "difficulty": 5
   }
 ]
