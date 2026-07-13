@@ -3550,18 +3550,14 @@ const CONNECTIONS_ARROW_COLOR = '#1c3d5a';
 // target node's own radius — keeps the label from landing on the marker.
 const CONNECTIONS_ARROW_CLEARANCE = 22;
 
-// Depth control is temporarily hidden in the UI — Andrew wants every graph
-// forced to the widest depth for now. The <select>, its change handler, and
-// the ?depth= URL param are all still wired up in initConnectionsPage below
-// so restoring the control is a one-line revert (drop this constant and the
-// `if` that uses it), not a rebuild.
-const CONNECTIONS_FORCE_DEPTH = 4;
+// Depth shown on first load (and on the ?depth= URL param's absence) —
+// the depth <select> lets a visitor go deeper, up to CONNECTIONS_MAX_DEPTH.
+const CONNECTIONS_DEFAULT_DEPTH = 4;
 
-// The deepest hop-count the UI ever supports, used for the "network size"
-// figure shown in the person picker — kept separate from
-// CONNECTIONS_FORCE_DEPTH so that constant can change independently without
-// silently redefining what "widest web" means for that figure.
-const CONNECTIONS_MAX_DEPTH = 4;
+// The deepest hop-count the UI supports at all, used both to validate the
+// ?depth= URL param and for the "network size" figure shown in the person
+// picker (reachable-within-N-hops).
+const CONNECTIONS_MAX_DEPTH = 5;
 
 const CONNECTIONS_ZOOM_MIN = 0.5;
 const CONNECTIONS_ZOOM_MAX = 2.5;
@@ -3569,7 +3565,7 @@ const CONNECTIONS_ZOOM_STEP = 0.2;
 
 const connectionsPageState = {
   centerId: null,
-  maxDepth: CONNECTIONS_FORCE_DEPTH,
+  maxDepth: CONNECTIONS_DEFAULT_DEPTH,
   zoom: 1,
   showLabels: false,
 };
@@ -4089,13 +4085,10 @@ function initConnectionsPage() {
   const urlParams = new URLSearchParams(window.location.search);
   const paramId = urlParams.get('id');
   const paramDepth = parseInt(urlParams.get('depth'), 10);
-  if (CONNECTIONS_FORCE_DEPTH) {
-    connectionsPageState.maxDepth = CONNECTIONS_FORCE_DEPTH;
-    if (depthSelect) depthSelect.value = String(CONNECTIONS_FORCE_DEPTH);
-  } else if (paramDepth >= 1 && paramDepth <= 4) {
-    connectionsPageState.maxDepth = paramDepth;
-    if (depthSelect) depthSelect.value = String(paramDepth);
-  }
+  connectionsPageState.maxDepth = (paramDepth >= 1 && paramDepth <= CONNECTIONS_MAX_DEPTH)
+    ? paramDepth
+    : CONNECTIONS_DEFAULT_DEPTH;
+  if (depthSelect) depthSelect.value = String(connectionsPageState.maxDepth);
 
   let startId = (paramId && allPeople.some(p => p.id === paramId)) ? paramId : null;
   if (!startId && connectedPeople.length) {

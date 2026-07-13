@@ -2750,13 +2750,6 @@ main {
   color: var(--text-muted);
 }
 
-/* The depth field's own [hidden] attribute needs to beat the display:flex
-   above explicitly — an author `display` rule otherwise outranks the UA's
-   default `[hidden]{display:none}` regardless of specificity. */
-.connections-toolbar__field[hidden] {
-  display: none;
-}
-
 .connections-toolbar__field label {
   font-weight: 600;
 }

@@ -432,5 +432,82 @@
     "label": "served with the China Inland Mission founded by",
     "type": "milieu",
     "mutual": false
+  },
+  {
+    "from": "samuel-lamb",
+    "to": "wang-ming-dao",
+    "label": "preached in the same independent house-church circles as, both refusing the state-controlled Three-Self Patriotic Movement",
+    "type": "milieu",
+    "mutual": false
+  },
+  {
+    "from": "wang-ming-dao",
+    "to": "watchman-nee",
+    "label": "publicly rebuked the ecclesiology and conduct of, while Nee in turn cooperated with the Three-Self Patriotic Movement Wang refused to join",
+    "type": "rivalry",
+    "mutual": false
+  },
+  {
+    "from": "george-verwer",
+    "to": "patrick-johnstone",
+    "label": "whose Operation Mobilisation Johnstone went on to serve with",
+    "type": "collaboration",
+    "mutual": false
+  },
+  {
+    "from": "cs-lewis",
+    "to": "chuck-colson",
+    "label": "whose book Mere Christianity, read just before his Watergate trial, led him to faith in Christ",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "brother-andrew",
+    "to": "richard-wurmbrand",
+    "label": "became a lifelong friend and fellow labourer for the persecuted church behind the Iron Curtain",
+    "type": "collaboration",
+    "mutual": true
+  },
+  {
+    "from": "ff-bruce",
+    "to": "leon-morris",
+    "label": "fellow architect of the Tyndale Fellowship for Biblical Research, and contributor to his 60th-birthday festschrift",
+    "type": "collaboration",
+    "mutual": true
+  },
+  {
+    "from": "dietrich-bonhoeffer",
+    "to": "manche-masemola",
+    "label": "honoured together as one of the ten twentieth-century martyrs whose statues stand above the west door of Westminster Abbey",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "dietrich-bonhoeffer",
+    "to": "janani-luwum",
+    "label": "honoured together as one of the ten twentieth-century martyrs whose statues stand above the west door of Westminster Abbey",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "dietrich-bonhoeffer",
+    "to": "esther-john",
+    "label": "honoured together as one of the ten twentieth-century martyrs whose statues stand above the west door of Westminster Abbey",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "dietrich-bonhoeffer",
+    "to": "lucian-tapiedi",
+    "label": "honoured together as one of the ten twentieth-century martyrs whose statues stand above the west door of Westminster Abbey",
+    "type": "milieu",
+    "mutual": true
+  },
+  {
+    "from": "dietrich-bonhoeffer",
+    "to": "wang-zhiming",
+    "label": "honoured together as one of the ten twentieth-century martyrs whose statues stand above the west door of Westminster Abbey",
+    "type": "milieu",
+    "mutual": true
   }
 ]
