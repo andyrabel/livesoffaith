@@ -365,6 +365,12 @@
     "difficulty": 5
   },
   {
+    "question": "Who read Mere Christianity by C.S. Lewis before his Watergate trial?",
+    "answer": "Chuck Colson",
+    "person_id": "chuck-colson",
+    "difficulty": 3
+  },
+  {
     "question": "What street gang did Nicky Cruz lead before his conversion?",
     "answer": "The Mau Maus",
     "person_id": "nicky-cruz",
