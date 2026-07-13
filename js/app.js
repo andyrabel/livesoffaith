@@ -504,6 +504,165 @@ function renderHymnOfDay() {
 }
 
 // ============================================================
+// "Featured Person" home page section
+// ============================================================
+
+// The opening paragraph only (per the Two Story Versions structure in
+// CLAUDE.md, paragraph 1 is "who they are") — a concise extract rather
+// than the full story, which lives on the person's own page.
+function firstStoryParagraph(text) {
+  if (!text) return '';
+  const para = (text.split(/\n\n+/)[0] || '').trim();
+  return storyToHtml(para);
+}
+
+// Same seeded-pick approach as Verse/Hymn/On-this-day, with its own seed
+// prefix. Prefers people with a portrait but falls back to the full
+// roster if none have one yet.
+function renderFeaturedPerson() {
+  const container = document.getElementById('featured-person');
+  if (!container) return;
+
+  const pool = allPeople.filter(p => p.adult_story && p.family_story);
+  if (!pool.length) return;
+  const withImages = pool.filter(p => p.image);
+  const usePool = withImages.length ? withImages : pool;
+
+  const today = new Date();
+  const seed = `featured-${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
+  const person = usePool[seededIndex(seed, usePool.length)];
+
+  const years = escapeHtml(formatYears(person));
+  const initials = escapeHtml(getInitials(person.name));
+  const portraitHtml = person.image
+    ? `<img class="featured-person__portrait" src="images/portraits/${escapeHtml(person.image.file)}" alt="" loading="lazy" width="160" height="213" onerror="this.outerHTML='<div class=&quot;featured-person__portrait featured-person__portrait--placeholder&quot;>${initials}</div>'">`
+    : `<div class="featured-person__portrait featured-person__portrait--placeholder">${initials}</div>`;
+
+  const version = getStoryVersion();
+
+  container.innerHTML = `
+    <div class="featured-person">
+      <a class="featured-person__portrait-link" href="person.html?id=${escapeHtml(person.id)}" aria-label="View ${escapeHtml(person.name)}'s profile">
+        ${portraitHtml}
+      </a>
+      <div class="featured-person__body">
+        <span class="featured-person__label">Featured Person</span>
+        <h2 class="featured-person__name"><a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a></h2>
+        <p class="featured-person__dates">${years}</p>
+        <div class="story-tabs-nav featured-person__tabs" role="tablist" aria-label="Story version">
+          <button class="story-tab${version === 'adult' ? ' active' : ''}"
+                  role="tab" aria-selected="${version === 'adult'}"
+                  aria-controls="featured-panel-adult" id="featured-tab-adult" data-version="adult">
+            For Worship &amp; Teaching
+          </button>
+          <button class="story-tab${version === 'family' ? ' active' : ''}"
+                  role="tab" aria-selected="${version === 'family'}"
+                  aria-controls="featured-panel-family" id="featured-tab-family" data-version="family">
+            Family Version
+          </button>
+        </div>
+        <div class="story-panel featured-person__panel${version === 'adult' ? '' : ' hidden'}"
+             role="tabpanel" aria-labelledby="featured-tab-adult" id="featured-panel-adult">
+          <div class="story-text">${firstStoryParagraph(person.adult_story)}</div>
+        </div>
+        <div class="story-panel featured-person__panel${version === 'family' ? '' : ' hidden'}"
+             role="tabpanel" aria-labelledby="featured-tab-family" id="featured-panel-family">
+          <div class="story-text">${firstStoryParagraph(person.family_story)}</div>
+        </div>
+        <a class="featured-person__link" href="person.html?id=${escapeHtml(person.id)}">Read ${escapeHtml(person.name)}&rsquo;s full story &#8594;</a>
+      </div>
+    </div>
+  `;
+
+  container.querySelectorAll('.featured-person__tabs .story-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const v = btn.dataset.version;
+      setStoryVersion(v);
+      container.querySelectorAll('.featured-person__tabs .story-tab').forEach(b => {
+        b.classList.toggle('active', b.dataset.version === v);
+        b.setAttribute('aria-selected', String(b.dataset.version === v));
+      });
+      container.querySelectorAll('.featured-person__panel').forEach(p => {
+        p.classList.toggle('hidden', p.id !== `featured-panel-${v}`);
+      });
+    });
+  });
+}
+
+// ============================================================
+// "Explore More Lives" home page section
+// ============================================================
+
+const EXPLORE_MORE_LIVES_COUNT = 16;
+
+// Ranked by real pageviews.json view counts (people with a portrait only).
+// If there isn't enough view-count data yet to fill the section, the rest
+// is padded out alphabetically rather than inventing view numbers.
+function renderExploreMoreLives() {
+  const container = document.getElementById('explore-more-lives');
+  if (!container) return;
+
+  const withImages = allPeople.filter(p => p.image);
+  if (!withImages.length) return;
+
+  const ranked = withImages
+    .filter(p => (pageviews[p.id] || 0) > 0)
+    .sort((a, b) => (pageviews[b.id] || 0) - (pageviews[a.id] || 0));
+
+  const rankedIds = new Set(ranked.map(p => p.id));
+  const rest = withImages
+    .filter(p => !rankedIds.has(p.id))
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  const pool = ranked.concat(rest).slice(0, EXPLORE_MORE_LIVES_COUNT);
+
+  const items = pool.map(p => {
+    const initials = escapeHtml(getInitials(p.name));
+    return `
+      <li class="explore-more-lives__item">
+        <a class="explore-more-lives__link" href="person.html?id=${escapeHtml(p.id)}">
+          <img class="explore-more-lives__portrait" src="images/portraits/${escapeHtml(p.image.file)}" alt="" loading="lazy" width="72" height="72" onerror="this.outerHTML='<div class=&quot;explore-more-lives__portrait explore-more-lives__portrait--placeholder&quot;>${initials}</div>'">
+          <span class="explore-more-lives__name">${escapeHtml(p.name)}</span>
+        </a>
+      </li>
+    `;
+  }).join('');
+
+  container.innerHTML = `
+    <h2 class="explore-more-lives__title">Explore More Lives</h2>
+    <ul class="explore-more-lives__grid">${items}</ul>
+    <a class="explore-more-lives__view-all" href="people.html">View all ${allPeople.length} people &#8594;</a>
+  `;
+}
+
+// ============================================================
+// Collection summary (home page footer strip)
+// ============================================================
+
+function renderCollectionSummary() {
+  const container = document.getElementById('collection-summary');
+  if (!container) return;
+
+  container.innerHTML = `
+    <p><strong>${allPeople.length.toLocaleString()}</strong> people &middot; <strong>${allHymns.length.toLocaleString()}</strong> hymn stories &middot; <strong>${allQuiz.length.toLocaleString()}</strong> quiz questions</p>
+  `;
+}
+
+// ============================================================
+// Home page (index.html) — daily digest
+// ============================================================
+
+function initHomePage() {
+  renderOnThisDay();
+  renderVerseOfDay();
+  renderHymnOfDay();
+  renderFeaturedPerson();
+  renderQuizQuestion();
+  renderExploreMoreLives();
+  renderCollectionSummary();
+}
+
+// ============================================================
 // Quiz question home page box
 // ============================================================
 
@@ -984,12 +1143,8 @@ function applyFilters() {
   renderCards(applySortOrder(filtered));
 }
 
-function initIndexPage() {
-  injectIndexSeo(allPeople);
-  renderOnThisDay();
-  renderVerseOfDay();
-  renderHymnOfDay();
-  renderQuizQuestion();
+function initPeoplePage() {
+  injectPeopleSeo(allPeople);
 
   const searchInput  = document.getElementById('search-input');
   const regionSel    = document.getElementById('filter-region');
@@ -1304,13 +1459,15 @@ function injectPersonSeo(person) {
   });
 }
 
-function injectIndexSeo(people) {
+function injectPeopleSeo(people) {
+  const pageUrl = `${SITE_URL}/people.html`;
+
   const itemList = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     'name': 'Notable Christians Throughout History',
     'description': 'Christ-centred biographies of Christians from every era and region — for worship, teaching, and family devotion.',
-    'url': `${SITE_URL}/`,
+    'url': pageUrl,
     'numberOfItems': people.length,
     'itemListElement': people.map((p, i) => ({
       '@type': 'ListItem',
@@ -1318,6 +1475,15 @@ function injectIndexSeo(people) {
       'url': `${SITE_URL}/person.html?id=${encodeURIComponent(p.id)}`,
       'name': p.name,
     })),
+  };
+
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'name': 'Lives of Faith', 'item': `${SITE_URL}/` },
+      { '@type': 'ListItem', 'position': 2, 'name': 'All People', 'item': pageUrl },
+    ],
   };
 
   const websiteLd = {
@@ -1330,13 +1496,13 @@ function injectIndexSeo(people) {
       '@type': 'SearchAction',
       'target': {
         '@type': 'EntryPoint',
-        'urlTemplate': `${SITE_URL}/?search={search_term_string}`,
+        'urlTemplate': `${pageUrl}?search={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
   };
 
-  [itemList, websiteLd].forEach(ld => {
+  [itemList, breadcrumbLd, websiteLd].forEach(ld => {
     const script = document.createElement('script');
     script.type = 'application/ld+json';
     script.textContent = JSON.stringify(ld);
@@ -1394,7 +1560,7 @@ function initPersonPage() {
   if (!person) {
     content.innerHTML = `
       <div class="error-message">
-        <p>Person not found. <a href="index.html">Return to all people</a>.</p>
+        <p>Person not found. <a href="people.html">Return to all people</a>.</p>
       </div>
     `;
     return;
@@ -4251,8 +4417,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns(), loadHistoricalEvents(), loadConnections()]);
 
-  if (document.getElementById('person-grid')) {
-    initIndexPage();
+  if (document.getElementById('home-digest')) {
+    initHomePage();
+  } else if (document.getElementById('person-grid')) {
+    initPeoplePage();
   } else if (document.getElementById('person-content')) {
     initPersonPage();
   } else if (document.getElementById('hymn-grid')) {

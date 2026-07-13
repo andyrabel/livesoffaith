@@ -6,6 +6,7 @@ For worship leaders, Bible teachers, and families seeking Christ-centred biograp
 
 ## Site
 
+- [All people](https://livesoffaith.org/people.html): the full searchable, filterable directory of every person profiled on the site.
 - [About & methodology](https://livesoffaith.org/about.html): purpose, sourcing, image process, human review system, and exclusions explained.
 - [Memorial map](https://livesoffaith.org/map.html): interactive map of gravestones, statues, plaques, and monuments, with a heritage tour planner.
 - [Full plain-text biographies](https://livesoffaith.org/llms-full.txt): every person's full story text in one file, for deep grounding.

@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Christ-centred biographies of Christians throughout history — hymn writers, missionaries, martyrs, and faithful believers from every era and region. For worship leaders, Bible teachers, and families.">
+  <meta name="description" content="Daily Christian history, biographies, hymns, Scripture, and quizzes — a new On This Day story, Verse of the Day, Hymn of the Day, Featured Person, and Quiz Question every day. For worship leaders, Bible teachers, and families.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Lives of Faith">
   <meta name="keywords" content="Christian biography, church history, hymn writers, missionaries, martyrs, reformation, Amazing Grace, William Wilberforce, John Newton, Dietrich Bonhoeffer, Hudson Taylor, David Livingstone, Amy Carmichael, Fanny Crosby, Wang Ming Dao, Samuel Ajayi Crowther, Sadhu Sundar Singh, John Sung, faith, grace, worship, global church history">
-  <title>Lives of Faith — Christians Throughout History</title>
+  <title>Lives of Faith — Daily Christian History, Biographies &amp; Hymns</title>
   <link rel="canonical" href="https://livesoffaith.org/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://livesoffaith.org/">
-  <meta property="og:title" content="Lives of Faith — Christians Throughout History">
-  <meta property="og:description" content="Christ-centred biographies of Christians throughout history — hymn writers, missionaries, martyrs, and faithful believers from every era and region. For worship leaders, Bible teachers, and families.">
+  <meta property="og:title" content="Lives of Faith — Daily Christian History, Biographies &amp; Hymns">
+  <meta property="og:description" content="Daily Christian history, biographies, hymns, Scripture, and quizzes — a new On This Day story, Verse of the Day, Hymn of the Day, Featured Person, and Quiz Question every day.">
   <meta property="og:site_name" content="Lives of Faith">
   <meta property="og:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
   <meta property="og:image:width" content="1024">
@@ -22,8 +22,8 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Lives of Faith — Christians Throughout History">
-  <meta name="twitter:description" content="Christ-centred biographies of Christians throughout history — for worship, teaching, and family devotion.">
+  <meta name="twitter:title" content="Lives of Faith — Daily Christian History, Biographies &amp; Hymns">
+  <meta name="twitter:description" content="Daily Christian history, biographies, hymns, Scripture, and quizzes — for worship, teaching, and family devotion.">
   <meta name="twitter:image" content="https://livesoffaith.org/images/logos/livesoffaith_logo_1024.png">
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -57,13 +57,13 @@
     "@type": "WebSite",
     "name": "Lives of Faith",
     "url": "https://livesoffaith.org/",
-    "description": "Christ-centred biographies of Christians throughout history — for worship leaders, Bible teachers, and families.",
+    "description": "Daily Christian history, biographies, hymns, Scripture, and quizzes — for worship leaders, Bible teachers, and families.",
     "inLanguage": "en",
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://livesoffaith.org/?q={search_term_string}"
+        "urlTemplate": "https://livesoffaith.org/people.html?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     }
@@ -86,7 +86,8 @@
         </a>
         <nav class="site-nav" aria-label="Site navigation">
           <div class="site-nav-links">
-            <a href="index.html" aria-current="page">People</a>
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="people.html">People</a>
             <a href="hymns.html">Hymns</a>
             <a href="timeline.html">Timeline</a>
             <a href="connections.html">Connections</a>
@@ -101,7 +102,8 @@
               <span></span><span></span><span></span>
             </label>
             <div class="site-nav-dropdown">
-              <a href="index.html" aria-current="page">People</a>
+              <a href="index.html" aria-current="page">Home</a>
+              <a href="people.html">People</a>
               <a href="hymns.html">Hymns</a>
               <a href="timeline.html">Timeline</a>
               <a href="connections.html">Connections</a>
@@ -122,122 +124,37 @@
   <main>
     <div class="container">
 
-      <div class="today-panel">
-        <section class="intro" aria-label="Site description">
-          <p>Lives of Faith — Christ-centred biographies for worship and teaching.</p>
-        </section>
+      <div id="home-digest">
 
-        <div id="verse-of-day"></div>
-
-        <div id="hymn-of-day"></div>
-
-        <div id="quiz-question"></div>
-      </div>
-
-      <div class="toolbar-row">
-        <div class="results-summary" aria-live="polite">
-          <p id="results-count"></p>
-        </div>
-
-        <details id="search-filter-details" class="search-filter-toggle">
-          <summary class="search-filter-summary">
-            <span class="search-filter-summary__icon" aria-hidden="true">🔍</span>
-            Search &amp; Filter
-          </summary>
-          <section class="search-filter" aria-label="Search and filter">
-          <div class="search-row">
-          <label for="search-input" class="sr-only">Search by name</label>
-          <input
-            type="search"
-            id="search-input"
-            class="search-input"
-            placeholder="Search by name…"
-            autocomplete="off"
-            aria-label="Search by name"
-          >
-        </div>
-        <div class="filter-row">
-          <label for="filter-region" class="sr-only">Filter by region</label>
-          <select id="filter-region" class="filter-select" aria-label="Filter by region">
-            <option value="">All Regions</option>
-            <option value="UK/Ireland">UK / Ireland</option>
-            <option value="North America">North America</option>
-            <option value="Africa">Africa</option>
-            <option value="Asia">Asia</option>
-            <option value="Latin America">Latin America</option>
-            <option value="Europe">Europe</option>
-            <option value="Oceania">Oceania</option>
-          </select>
-
-          <label for="filter-era" class="sr-only">Filter by era</label>
-          <select id="filter-era" class="filter-select" aria-label="Filter by era">
-            <option value="">All Eras</option>
-            <option value="Early Church">Early Church</option>
-            <option value="Medieval">Medieval</option>
-            <option value="Reformation">Reformation</option>
-            <option value="17th Century">17th Century</option>
-            <option value="18th Century">18th Century</option>
-            <option value="19th Century">19th Century</option>
-            <option value="20th Century">20th Century</option>
-            <option value="21st Century">21st Century</option>
-          </select>
-
-          <label for="filter-topic" class="sr-only">Filter by topic</label>
-          <select id="filter-topic" class="filter-select" aria-label="Filter by topic">
-            <option value="">All Topics</option>
-            <option value="grace">Grace</option>
-            <option value="suffering">Suffering</option>
-            <option value="perseverance">Perseverance</option>
-            <option value="faithfulness">Faithfulness</option>
-            <option value="prayer">Prayer</option>
-            <option value="cross">Cross</option>
-            <option value="resurrection">Resurrection</option>
-            <option value="missions">Missions</option>
-            <option value="martyrdom">Martyrdom</option>
-            <option value="persecution">Persecution</option>
-            <option value="redemption">Redemption</option>
-            <option value="conversion">Conversion</option>
-            <option value="praise">Praise</option>
-            <option value="worship">Worship</option>
-            <option value="gospel">Gospel</option>
-          </select>
-
-          <label for="filter-hymn" class="sr-only">Search by hymn title</label>
-          <input
-            type="search"
-            id="filter-hymn"
-            class="filter-input"
-            placeholder="Hymn title…"
-            autocomplete="off"
-            aria-label="Search by hymn title"
-          >
-
-          <label for="filter-reviewed" class="sr-only">Filter by review status</label>
-          <select id="filter-reviewed" class="filter-select" aria-label="Filter by review status">
-            <option value="">All Content</option>
-            <option value="reviewed">Reviewed Only</option>
-            <option value="unreviewed">Unreviewed Only</option>
-          </select>
-
-          <label for="sort-order" class="sr-only">Sort order</label>
-          <select id="sort-order" class="filter-select" aria-label="Sort order">
-            <option value="popularity" selected>Most Viewed</option>
-            <option value="random">Random order</option>
-            <option value="name-az">Name A–Z</option>
-            <option value="name-za">Name Z–A</option>
-            <option value="born-asc">Born (oldest first)</option>
-            <option value="born-desc">Born (newest first)</option>
-          </select>
-
-          <button id="clear-filters" class="btn btn-secondary" type="button">Clear Filters</button>
-        </div>
+        <div class="today-panel">
+          <section class="intro" aria-label="Site description">
+            <p>Lives of Faith — daily Christian history, biographies, hymns, Scripture, and quizzes for worship and teaching.</p>
           </section>
-        </details>
+
+          <div id="verse-of-day"></div>
+
+          <div id="hymn-of-day"></div>
+        </div>
+
+        <section id="featured-person" class="featured-person-section" aria-label="Featured person of the day"></section>
+
+        <div class="today-panel">
+          <div id="quiz-question"></div>
+        </div>
+
+        <section id="explore-more-lives" class="explore-more-lives" aria-label="Explore more lives"></section>
+
+        <p id="collection-summary" class="collection-summary" aria-label="Collection summary"></p>
+
+        <p class="home-cta">
+          <a class="btn btn-secondary" href="people.html">Browse the Full Directory &#8594;</a>
+        </p>
+
       </div>
 
-      <div id="person-grid" class="person-grid" role="list" aria-label="People profiles">
-        <div class="loading">Loading…</div>
-      </div>
+      <noscript>
+        <p class="error-message">This page needs JavaScript for the daily content. Please enable JavaScript, or visit the <a href="people.html">full people directory</a> and <a href="hymns.html">hymn stories</a> directly.</p>
+      </noscript>
 
     </div>
   </main>
