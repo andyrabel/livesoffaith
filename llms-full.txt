@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-12. 161 people.
+Generated 2026-07-12. 162 people.
 
 ---
 
@@ -490,7 +490,7 @@ Note: In 1994 Colson co-authored 'Evangelicals and Catholics Together' with Rich
 
 Charles 'Chuck' Colson was born in 1931 in Boston, Massachusetts, and rose to become Special Counsel to President Richard Nixon from 1969 to 1973, earning a reputation as Nixon's toughest and most ruthless aide — his self-described 'hatchet man.'
 
-When the Watergate scandal broke, Colson was named among the 'Watergate Seven' and faced prosecution. Shortly before he was due to appear in court, a friend gave him a copy of C. S. Lewis's Mere Christianity. Reading it, Colson broke down and gave his life to Christ. In June 1974 he pleaded guilty to obstruction of justice and served seven months in federal prison. His conversion was so unexpected that commentators later remarked it was proof Watergate had really happened — no one, they said, could have invented a story in which even Colson turned to Christ.
+When the Watergate scandal broke, Colson was named among the 'Watergate Seven' and faced prosecution. Shortly before he was due to appear in court, a friend gave him a copy of C.S. Lewis's Mere Christianity. Reading it, Colson broke down and gave his life to Christ. In June 1974 he pleaded guilty to obstruction of justice and served seven months in federal prison. His conversion was so unexpected that commentators later remarked it was proof Watergate had really happened — no one, they said, could have invented a story in which even Colson turned to Christ.
 
 After his release, Colson founded Prison Fellowship in 1976, and it grew into the world's largest ministry to prisoners and their families. He spent the rest of his life writing, broadcasting, and advocating for those the world had written off — the same grace that had reached him in disgrace, offered freely to men and women in cells much like the one he had occupied. Colson was always careful to say that nothing he built afterward had earned his forgiveness; it had only followed it.
 
@@ -594,6 +594,21 @@ He directed an illegal seminary at Finkenwalde from 1935 until the Gestapo close
 He was arrested in April 1943 and executed at Flossenbürg concentration camp on 9 April 1945, three weeks before Germany's surrender. The camp doctor who witnessed his death wrote that he had never seen anyone die so entirely submissive to the will of God.
 
 "When Christ calls a man," he wrote, "he bids him come and die."
+
+---
+
+## Dora Yu 余慈度 (1873–1931)
+
+URL: https://livesoffaith.org/person.html?id=dora-yu
+Wikipedia: https://en.wikipedia.org/wiki/Dora_Yu
+Nationality: Chinese · Tradition: Independent evangelical · Region: Asia · Era: 20th Century
+Topics: evangelism, revival, grace, women, missions
+
+Dora Yu (余慈度) was born in 1873 at a Presbyterian mission compound in Zhejiang, China, daughter of a former military surgeon turned Presbyterian pastor. Raised with daily prayer, she nonetheless came under deep conviction of sin as a young woman in 1895, later writing that after weeks of anguish, "God suddenly opened the heavens to me and I was filled with the love of God Himself" — grace, not her own effort, was what finally settled her soul.
+
+Trained in Western medicine at Suzhou, she became one of China's first female medical graduates, then in 1897 travelled with missionary Josephine Campbell to Korea as one of the earliest female medical missionaries there. In 1904, back in China, she gave up medicine to become a full-time evangelist, trusting God alone for support — a rare step for the time — and later founded a Bible school in Shanghai to train Chinese Christian workers. She preached across China and, in 1927, at the Keswick Convention in England, always stressing a holy, consistent life over dramatic spiritual gifts.
+
+Her most far-reaching legacy came in 1920, during revival meetings in Fuzhou. Her preaching brought a woman named Lin Heping to faith in Christ; months later Lin's teenage son, having heard Yu preach, gave his life entirely to Jesus. That son was Watchman Nee, who would shape Chinese church life for decades — a reminder that the gospel Yu proclaimed outlasted her own ministry many times over.
 
 ---
 
@@ -2480,13 +2495,13 @@ Nationality: Chinese · Tradition: Independent evangelical (Little Flock) · Reg
 Topics: suffering, persecution, faithfulness, gospel
 Note: Nee's later ecclesiology and some teachings on church authority are not universally accepted among evangelical believers. His insistence on a strict 'one church per city' principle and related authority structures have been viewed with concern by many in the broader evangelical tradition. His gospel teaching and core devotional writings are widely valued.
 
-Henry Nee Shu-Tsu, known as Watchman Nee, was born in Shantou, Guangdong, China in 1903. He came to faith at seventeen and devoted himself to intensive study of Scripture across Reformed, Keswick, and Brethren traditions.
+Henry Nee Shu-Tsu, known as Watchman Nee, was born in Shantou, Guangdong, China, in 1903. At seventeen he came to faith through the evangelistic ministry of Dora Yu and devoted himself to studying Scripture, drawing on Reformed, Keswick, Plymouth Brethren, and other evangelical writers.
 
-In the 1920s and 1930s he developed the Little Flock movement — house church assemblies seeking to recover the New Testament pattern of church life. His writings, particularly The Normal Christian Life and Sit Walk Stand, have been widely valued for their exposition of the believer's union with Christ.
+During the 1920s and 1930s he helped establish what became known as the Little Flock movement — house church assemblies seeking to recover the New Testament pattern of church life. His teachings, published in books such as The Normal Christian Life and Sit, Walk, Stand, have been widely valued for their exposition of the believer's union with Christ and the practical Christian life.
 
-Note: Nee's ecclesiology — particularly his insistence on one church per city — is viewed with concern by many evangelical believers.
+Nee's ecclesiology — particularly his insistence on one church in each city and aspects of his teaching on church authority — has been viewed with concern by many evangelical believers, though his gospel teaching and devotional writings remain widely appreciated.
 
-In 1952 he was arrested by the Communist authorities and spent the last twenty years of his life in prison. A note found by his pillow read: "Christ is the Son of God who died for the redemption of sinners and resurrected after three days. This is the greatest truth in the universe. I die because of my belief in Christ."
+Arrested by the Communist authorities in 1952, he spent the rest of his life in prison. According to those who recovered his belongings after his death in 1972, a note found by his pillow declared his faith in Christ's death and resurrection as "the greatest truth in the universe."
 
 ---
 

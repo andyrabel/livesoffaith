@@ -2272,5 +2272,17 @@
     "answer": "Easter morning",
     "person_id": "rudolf-bosshardt",
     "difficulty": 5
+  },
+  {
+    "question": "Which Chinese evangelist's 1920 preaching in Fuzhou led to the conversion of Watchman Nee and his mother?",
+    "answer": "Dora Yu",
+    "person_id": "dora-yu",
+    "difficulty": 5
+  },
+  {
+    "question": "What profession did Dora Yu give up in 1904 to become a full-time, faith-supported evangelist?",
+    "answer": "Medicine (she had trained as a doctor)",
+    "person_id": "dora-yu",
+    "difficulty": 5
   }
 ]

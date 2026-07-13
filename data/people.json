@@ -1895,7 +1895,7 @@
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Watchman_Nee",
     "source_summary": "Watchman Nee (1903–1972), born Henry Nee Shu-Tsu, was a Chinese Christian teacher and founder of the Little Flock movement. He came to faith aged seventeen and developed a network of independent house churches in China. His writings, including The Normal Christian Life, have been widely read in evangelical circles. Arrested by the Communist government in 1952, he spent the last twenty years of his life in prison, dying there in 1972.",
-    "adult_story": "Henry Nee Shu-Tsu, known as Watchman Nee, was born in Shantou, Guangdong, China, in 1903. At seventeen he came to faith through the evangelistic ministry of Dora Yu and devoted himself to studying Scripture, drawing on Reformed, Keswick, Plymouth Brethren, and other evangelical writers.\n\nDuring the 1920s and 1930s he helped establish what became known as the Little Flock movement — house church assemblies seeking to recover the New Testament pattern of church life. His teachings, published in books such as The Normal Christian Life and Sit, Walk, Stand, have been widely valued for their exposition of the believer's union with Christ and the practical Christian life.\n\nNee's ecclesiology — particularly his insistence on one church in each city and aspects of his teaching on church authority — has been viewed with concern by many evangelical believers, though his gospel teaching and devotional writings remain widely appreciated.\n\nArrested by the Communist authorities in 1952, he spent the rest of his life in prison. According to those who recovered his belongings after his death in 1972, a note found by his pillow declared his faith in Christ's death and resurrection as \"the greatest truth in the universe.\"",
+    "adult_story": "Henry Nee Shu-Tsu, known as Watchman Nee, was born in Shantou, Guangdong, China, in 1903. At seventeen he came to faith through the evangelistic ministry of [[Dora Yu|dora-yu]] and devoted himself to studying Scripture, drawing on Reformed, Keswick, Plymouth Brethren, and other evangelical writers.\n\nDuring the 1920s and 1930s he helped establish what became known as the Little Flock movement — house church assemblies seeking to recover the New Testament pattern of church life. His teachings, published in books such as The Normal Christian Life and Sit, Walk, Stand, have been widely valued for their exposition of the believer's union with Christ and the practical Christian life.\n\nNee's ecclesiology — particularly his insistence on one church in each city and aspects of his teaching on church authority — has been viewed with concern by many evangelical believers, though his gospel teaching and devotional writings remain widely appreciated.\n\nArrested by the Communist authorities in 1952, he spent the rest of his life in prison. According to those who recovered his belongings after his death in 1972, a note found by his pillow declared his faith in Christ's death and resurrection as \"the greatest truth in the universe.\"",
     "family_story": "Watchman Nee was born in China in 1903. When he was seventeen, he heard a Christian preacher and gave his life to Jesus.\n\nWatchman became a teacher and writer, helping Christians understand what it means to live for Jesus. His book The Normal Christian Life is still widely read.\n\nIn 1952 he was arrested by the Communist government. He spent twenty years in prison until he died in 1972. He left a short note beside his bed: \"Christ is the Son of God who died for the redemption of sinners and resurrected after three days. This is the greatest truth in the universe. I die because of my belief in Christ.\"",
     "image": {
       "file": "watchman-nee.jpg",
@@ -13348,6 +13348,70 @@
       "human_reviewed": true,
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-07-12"
+    }
+  },
+  {
+    "id": "dora-yu",
+    "name": "Dora Yu 余慈度",
+    "born": 1873,
+    "born_approximate": false,
+    "died": 1931,
+    "significant_dates": [
+      {
+        "date": "1873",
+        "event": "birth",
+        "details": "Born at an American Presbyterian mission compound in Zhejiang, China."
+      },
+      {
+        "date": "1895",
+        "event": "saved",
+        "details": "Came to saving faith in Christ after weeks of deep conviction of sin."
+      },
+      {
+        "date": "1897",
+        "event": "other",
+        "details": "Sailed to Korea as one of the first female medical missionaries there."
+      },
+      {
+        "date": "1904",
+        "event": "other",
+        "details": "Gave up medicine to become a full-time, faith-supported evangelist."
+      },
+      {
+        "date": "1920",
+        "event": "other",
+        "details": "Preaching in Fuzhou led to Lin Heping's, then Watchman Nee's, conversion."
+      },
+      {
+        "date": "1931",
+        "event": "death",
+        "details": "Died in Shanghai after decades of evangelistic ministry across China."
+      }
+    ],
+    "nationality": "Chinese",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Independent evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "evangelism",
+      "revival",
+      "grace",
+      "women",
+      "missions"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dora_Yu",
+    "source_summary": "Dora Yu (余慈度, Yu Cidu, 1873–1931) was a pioneering Chinese evangelist. Born at a Presbyterian mission compound in Zhejiang, she trained in Western medicine at Suzhou, becoming one of China's first female medical graduates. In 1895 she experienced a decisive conversion after a period of deep conviction of sin. In 1897 she and American Methodist missionary Josephine Campbell became early female medical missionaries in Korea, where Yu also preached. Returning to China in 1903, she abandoned medicine in 1904 to become a full-time, faith-supported itinerant evangelist — reportedly the first twentieth-century Chinese church worker to do so — and founded a Bible school in Shanghai (from 1916, Jiangwan Bible School) to train Chinese Christian workers. She preached widely across China and at the 1927 Keswick Convention in England. Her 1920 revival preaching in Fuzhou led to the conversion of Lin Heping and then Lin's teenage son, Watchman Nee. Yu died in Shanghai in 1931.",
+    "adult_story": "Dora Yu (余慈度) was born in 1873 at a Presbyterian mission compound in Zhejiang, China, daughter of a former military surgeon turned Presbyterian pastor. Raised with daily prayer, she nonetheless came under deep conviction of sin as a young woman in 1895, later writing that after weeks of anguish, \"God suddenly opened the heavens to me and I was filled with the love of God Himself\" — grace, not her own effort, was what finally settled her soul.\n\nTrained in Western medicine at Suzhou, she became one of China's first female medical graduates, then in 1897 travelled with missionary Josephine Campbell to Korea as one of the earliest female medical missionaries there. In 1904, back in China, she gave up medicine to become a full-time evangelist, trusting God alone for support — a rare step for the time — and later founded a Bible school in Shanghai to train Chinese Christian workers. She preached across China and, in 1927, at the Keswick Convention in England, always stressing a holy, consistent life over dramatic spiritual gifts.\n\nHer most far-reaching legacy came in 1920, during revival meetings in Fuzhou. Her preaching brought a woman named Lin Heping to faith in Christ; months later Lin's teenage son, having heard Yu preach, gave his life entirely to Jesus. That son was [[Watchman Nee|watchman-nee]], who would shape Chinese church life for decades — a reminder that the gospel Yu proclaimed outlasted her own ministry many times over.",
+    "family_story": "Dora Yu was born in China in 1873. Her father was a pastor, and she grew up praying daily. But as she grew older, she realized being good was not enough to make her right with God. After a hard time feeling far from God, she trusted in Jesus, and said heaven seemed to open up as God's love filled her heart.\n\nDora trained as a doctor but gave it up to tell people about Jesus, trusting God to provide for her. She preached across China and started a school to train Christians for service.\n\nIn 1920, her preaching helped a mother named Lin Heping come to faith — and soon after, Lin's son did too. That son, [[Watchman Nee|watchman-nee]], became a well-known Christian teacher.",
+    "image": null,
+    "memorials": [],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
     }
   }
 ]

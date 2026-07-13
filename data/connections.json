@@ -509,5 +509,12 @@
     "label": "honoured together as one of the ten twentieth-century martyrs whose statues stand above the west door of Westminster Abbey",
     "type": "milieu",
     "mutual": true
+  },
+  {
+    "from": "dora-yu",
+    "to": "watchman-nee",
+    "label": "led to faith in Christ",
+    "type": "conversion",
+    "mutual": false
   }
 ]
