@@ -130,7 +130,7 @@ function setStoryVersion(v) {
 // ============================================================
 
 function getQuizPrintDifficulty() {
-  return localStorage.getItem(QUIZ_DIFFICULTY_KEY) || '3';
+  return localStorage.getItem(QUIZ_DIFFICULTY_KEY) || '1';
 }
 
 function setQuizPrintDifficulty(v) {
@@ -514,7 +514,7 @@ function renderQuizQuestion() {
   const container = document.getElementById('quiz-question');
   if (!container || !allQuiz.length) return;
 
-  // Defaults to Medium until the visitor picks a difficulty on the print-quiz page.
+  // Defaults to Easy until the visitor picks a difficulty on the print-quiz page.
   const maxDifficulty = parseInt(getQuizPrintDifficulty(), 10);
   const pool = allQuiz.filter(q => q.difficulty <= maxDifficulty);
   if (!pool.length) return;

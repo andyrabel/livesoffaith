@@ -601,12 +601,6 @@
     "difficulty": 3
   },
   {
-    "question": "What did Brother Andrew smuggle across closed borders to help persecuted Christians?",
-    "answer": "Bibles",
-    "person_id": "brother-andrew",
-    "difficulty": 3
-  },
-  {
     "question": "Who was John Newton's close friend and fellow hymn writer at Olney?",
     "answer": "William Cowper",
     "person_id": "john-newton",
@@ -2028,13 +2022,13 @@
     "difficulty": 5
   },
   {
-    "question": "Who was born first: Martin Luther or John Calvin?",
+    "question": "Who was born first: John Calvin or Martin Luther?",
     "answer": "Martin Luther",
     "person_id": "martin-luther",
     "difficulty": 1
   },
   {
-    "question": "Who was born first: John Bunyan or Charles Spurgeon?",
+    "question": "Who was born first: Charles Spurgeon or John Bunyan?",
     "answer": "John Bunyan",
     "person_id": "john-bunyan",
     "difficulty": 1
@@ -2072,6 +2066,12 @@
   {
     "question": "Which prominent atheist did John Lennox famously debate at Oxford's Museum of Natural History in 2008?",
     "answer": "Richard Dawkins",
+    "person_id": "john-lennox",
+    "difficulty": 5
+  },
+  {
+    "question": "Who is Kristyn Getty's uncle, the Christian apologist who introduced her to her future husband, Keith Getty?",
+    "answer": "John Lennox",
     "person_id": "john-lennox",
     "difficulty": 5
   },
