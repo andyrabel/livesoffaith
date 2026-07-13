@@ -920,6 +920,13 @@
     "difficulty": 1
   },
   {
+    "question": "What season of the church year is \"Joy to the World\" most associated with, even though Isaac Watts actually wrote it about Christ's second coming?",
+    "answer": "Christmas",
+    "person_id": "isaac-watts",
+    "hymn_id": "joy-to-the-world",
+    "difficulty": 1
+  },
+  {
     "question": "Who wrote the hymn \"Jesus Shall Reign\"?",
     "answer": "Isaac Watts",
     "person_id": "isaac-watts",
@@ -1901,7 +1908,7 @@
     "question": "What is the title of Graham Kendrick's most famous worship song, written in 1987?",
     "answer": "Shine, Jesus, Shine",
     "person_id": "graham-kendrick",
-    "difficulty": 5,
+    "difficulty": 1,
     "hymn_id": "shine-jesus-shine"
   },
   {
@@ -1930,6 +1937,13 @@
     "person_id": "graham-kendrick",
     "difficulty": 5,
     "hymn_id": "beauty-for-brokenness"
+  },
+  {
+    "question": "What refrain follows every verse of Graham Kendrick's \"Meekness and Majesty\"?",
+    "answer": "\"Bow down and worship, for this is your God.\"",
+    "person_id": "graham-kendrick",
+    "difficulty": 1,
+    "hymn_id": "meekness-and-majesty"
   },
   {
     "question": "Cecil Frances Alexander wrote her hymns for children to help them understand which ancient Christian statement of belief?",
