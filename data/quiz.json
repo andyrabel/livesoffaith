@@ -9,7 +9,7 @@
     "question": "What country did Hudson Taylor devote his life to reaching?",
     "answer": "China",
     "person_id": "hudson-taylor",
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "question": "What continent did David Livingstone explore as a missionary?",
@@ -57,7 +57,7 @@
     "question": "What country did Eric Liddell return to as a missionary after the Olympics?",
     "answer": "China",
     "person_id": "eric-liddell",
-    "difficulty": 5
+    "difficulty": 3
   },
   {
     "question": "What people group did Isobel Kuhn serve among in China?",
@@ -171,7 +171,7 @@
     "question": "What Swiss city did John Calvin minister in?",
     "answer": "Geneva",
     "person_id": "john-calvin",
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "question": "What language did William Tyndale translate the New Testament from?",
@@ -251,7 +251,7 @@
     "answer": "Martin Luther",
     "person_id": "martin-luther",
     "hymn_id": "a-mighty-fortress-is-our-god",
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "question": "Who wrote \"The Ninety and Nine\"?",
@@ -502,7 +502,7 @@
     "question": "What country did Hudson Taylor spend most of his life serving in?",
     "answer": "China",
     "person_id": "hudson-taylor",
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "question": "What trade did William Carey work at before becoming a missionary?",
