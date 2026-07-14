@@ -5306,9 +5306,9 @@
       "redistribution_note": "Explicitly 'public domain in USA', published 1887, before 1931."
     },
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-13"
     },
     "memorials": [
       {
@@ -12656,9 +12656,9 @@
     "image": null,
     "memorials": [],
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-13"
     }
   },
   {
@@ -12875,9 +12875,9 @@
       }
     ],
     "review": {
-      "human_reviewed": false,
-      "reviewed_by": "",
-      "reviewed_date": ""
+      "human_reviewed": true,
+      "reviewed_by": "Andrew",
+      "reviewed_date": "2026-07-13"
     }
   },
   {
