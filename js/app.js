@@ -53,7 +53,7 @@ const filterState = {
   region: '',
   era: '',
   reviewed: '',
-  sort: 'popularity',
+  sort: 'random',
 };
 
 // ============================================================
@@ -937,7 +937,12 @@ function applySortOrder(people) {
   const { sort } = filterState;
   if (sort === 'random') {
     const idxMap = new Map(randomOrder.map((p, i) => [p.id, i]));
-    return people.slice().sort((a, b) => (idxMap.get(a.id) ?? 9999) - (idxMap.get(b.id) ?? 9999));
+    return people.slice().sort((a, b) => {
+      const aHasImage = a.image ? 0 : 1;
+      const bHasImage = b.image ? 0 : 1;
+      if (aHasImage !== bHasImage) return aHasImage - bHasImage;
+      return (idxMap.get(a.id) ?? 9999) - (idxMap.get(b.id) ?? 9999);
+    });
   }
   if (sort === 'name-az') return people.slice().sort((a, b) => a.name.localeCompare(b.name));
   if (sort === 'name-za') return people.slice().sort((a, b) => b.name.localeCompare(a.name));
@@ -1269,14 +1274,14 @@ function initPeoplePage() {
       filterState.region = '';
       filterState.era = '';
       filterState.reviewed = '';
-      filterState.sort = 'popularity';
+      filterState.sort = 'random';
       if (searchInput)  searchInput.value  = '';
       if (hymnInput)    hymnInput.value    = '';
       if (regionSel)    regionSel.value    = '';
       if (eraSel)       eraSel.value       = '';
       if (topicSel)     topicSel.value     = '';
       if (reviewedSel)  reviewedSel.value  = '';
-      if (sortSel)      sortSel.value      = 'popularity';
+      if (sortSel)      sortSel.value      = 'random';
       applyFilters();
     });
   }
