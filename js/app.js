@@ -593,7 +593,12 @@ function renderFeaturedPerson() {
 // "Explore More Lives" home page section
 // ============================================================
 
-const EXPLORE_MORE_LIVES_COUNT = 9;
+// Upper bound on how many candidates get shuffled in for the day — the actual
+// number shown is trimmed to whatever fits on one row (see layoutExploreMoreLives).
+const EXPLORE_MORE_LIVES_MAX = 20;
+
+let exploreMoreLivesPool = null;
+let exploreMoreLivesResizeBound = false;
 
 // Same seeded-shuffle approach as Verse/Hymn/On-this-day/Featured Person, with
 // its own seed prefix, so the row changes once a day (same for every visitor
@@ -607,9 +612,35 @@ function renderExploreMoreLives() {
 
   const today = new Date();
   const seed = `explore-${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
-  const pool = seededShuffle(withImages, seed).slice(0, EXPLORE_MORE_LIVES_COUNT);
+  exploreMoreLivesPool = seededShuffle(withImages, seed).slice(0, EXPLORE_MORE_LIVES_MAX);
 
-  const items = pool.map(p => {
+  container.innerHTML = `
+    <h2 class="explore-more-lives__title">Explore More Lives</h2>
+    <ul class="explore-more-lives__grid" id="explore-more-lives-grid"></ul>
+    <a class="explore-more-lives__view-all" href="people.html">View all ${allPeople.length} people &#8594;</a>
+  `;
+
+  layoutExploreMoreLives();
+
+  if (!exploreMoreLivesResizeBound) {
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(layoutExploreMoreLives, 150);
+    });
+    exploreMoreLivesResizeBound = true;
+  }
+}
+
+// Renders the full candidate pool, then removes whatever wraps past the first
+// row — so the visible count adapts to the container's actual width instead
+// of a hardcoded number of portraits.
+function layoutExploreMoreLives() {
+  const grid = document.getElementById('explore-more-lives-grid');
+  if (!grid || !exploreMoreLivesPool) return;
+
+  grid.style.visibility = 'hidden';
+  grid.innerHTML = exploreMoreLivesPool.map(p => {
     const initials = escapeHtml(getInitials(p.name));
     return `
       <li class="explore-more-lives__item">
@@ -621,11 +652,16 @@ function renderExploreMoreLives() {
     `;
   }).join('');
 
-  container.innerHTML = `
-    <h2 class="explore-more-lives__title">Explore More Lives</h2>
-    <ul class="explore-more-lives__grid">${items}</ul>
-    <a class="explore-more-lives__view-all" href="people.html">View all ${allPeople.length} people &#8594;</a>
-  `;
+  requestAnimationFrame(() => {
+    const items = Array.from(grid.children);
+    if (items.length) {
+      const firstTop = items[0].offsetTop;
+      items.forEach(item => {
+        if (item.offsetTop > firstTop) item.remove();
+      });
+    }
+    grid.style.visibility = 'visible';
+  });
 }
 
 // ============================================================
