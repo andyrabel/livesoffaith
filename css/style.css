@@ -242,14 +242,15 @@ main {
 /* --- Intro Section ----------------------------------------- */
 .intro {
   margin: 0;
-  padding: 0.45rem 0.9rem;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  font-style: italic;
+  padding: 0.7rem 0.9rem;
 }
 
-.intro p {
+.intro h1 {
   margin: 0;
+  font-size: 1.15rem;
+  font-weight: normal;
+  line-height: 1.4;
+  color: var(--accent);
 }
 
 .verse-of-day {
