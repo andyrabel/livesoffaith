@@ -593,11 +593,11 @@ function renderFeaturedPerson() {
 // "Explore More Lives" home page section
 // ============================================================
 
-const EXPLORE_MORE_LIVES_COUNT = 16;
+const EXPLORE_MORE_LIVES_COUNT = 9;
 
-// Ranked by real pageviews.json view counts (people with a portrait only).
-// If there isn't enough view-count data yet to fill the section, the rest
-// is padded out alphabetically rather than inventing view numbers.
+// Same seeded-shuffle approach as Verse/Hymn/On-this-day/Featured Person, with
+// its own seed prefix, so the row changes once a day (same for every visitor
+// that day, doesn't reshuffle on refresh) rather than being a fixed top-views list.
 function renderExploreMoreLives() {
   const container = document.getElementById('explore-more-lives');
   if (!container) return;
@@ -605,16 +605,9 @@ function renderExploreMoreLives() {
   const withImages = allPeople.filter(p => p.image);
   if (!withImages.length) return;
 
-  const ranked = withImages
-    .filter(p => (pageviews[p.id] || 0) > 0)
-    .sort((a, b) => (pageviews[b.id] || 0) - (pageviews[a.id] || 0));
-
-  const rankedIds = new Set(ranked.map(p => p.id));
-  const rest = withImages
-    .filter(p => !rankedIds.has(p.id))
-    .sort((a, b) => a.name.localeCompare(b.name));
-
-  const pool = ranked.concat(rest).slice(0, EXPLORE_MORE_LIVES_COUNT);
+  const today = new Date();
+  const seed = `explore-${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
+  const pool = seededShuffle(withImages, seed).slice(0, EXPLORE_MORE_LIVES_COUNT);
 
   const items = pool.map(p => {
     const initials = escapeHtml(getInitials(p.name));

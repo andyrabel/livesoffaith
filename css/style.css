@@ -709,6 +709,46 @@ main {
   color: var(--accent);
 }
 
+/* --- Home Page Magazine Layout ------------------------------- */
+/* On mobile, .home-main and .home-sidebar simply stack in source
+   order (today-panel, featured person, explore more, then the
+   sidebar's what's-new / summary). On wider screens they become
+   two side-by-side columns like a newspaper front page, with the
+   sidebar pinned so it stays in view while the main column scrolls. */
+@media (min-width: 880px) {
+  #home-digest {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    align-items: start;
+    gap: 0 1.75rem;
+  }
+
+  .home-main {
+    min-width: 0;
+  }
+
+  .home-sidebar {
+    position: sticky;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .home-sidebar .whats-new,
+  .home-sidebar .collection-summary {
+    margin: 0;
+  }
+
+  .home-sidebar .collection-summary {
+    text-align: left;
+    padding: 0.7rem 0.9rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+}
+
 /* --- Quiz builder (quiz.html) --------------------------------- */
 .quiz-print-controls {
   display: flex;
