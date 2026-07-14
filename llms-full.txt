@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-12. 162 people.
+Generated 2026-07-13. 162 people.
 
 ---
 
@@ -2116,17 +2116,17 @@ In The Christian Virtuoso he argued that scientific inquiry was an act of worshi
 ## Robert Cleaver Chapman (1803–1902)
 
 URL: https://livesoffaith.org/person.html?id=robert-cleaver-chapman
-Wikipedia: https://en.wikipedia.org/wiki/Robert_Cleaver_Chapman
+Wikipedia: https://en.wikipedia.org/wiki/Robert_Chapman_(pastor)
 Nationality: British · Tradition: Open Brethren · Region: UK/Ireland · Era: 19th Century
 Topics: love, holiness, prayer, generosity, missions
 
 Robert Cleaver Chapman was born in 1803 in Elsinore, Denmark, to an English merchant family. Converted in his early twenties, he trained as a solicitor, gave up a promising legal career, and in 1832 settled in Barnstaple, Devon, where he would minister for the next seventy years.
 
-He became associated with the Open Brethren and was known across the evangelical world for a rare combination of doctrinal solidity and extraordinary love. George Müller, who knew him well, called him "the saintliest man I ever knew." Men travelled to Barnstaple simply to observe how he lived. His home was open to all — he fed the hungry, housed the homeless, and corresponded with missionaries across the globe.
+Associated with the Open Brethren, Chapman became known across the evangelical world for a rare combination of doctrinal conviction and extraordinary love. Charles Spurgeon, who greatly admired him, called him "the saintliest man I ever knew." Visitors came to Barnstaple from across Britain and beyond, drawn as much by his Christlike character as by his preaching. His home was open to all—he fed the hungry, welcomed strangers, and maintained a wide correspondence with missionaries around the world.
 
-Chapman lived to 99 and never retired from ministry. He was a poet, an evangelist, and a letter-writer whose counsel was sought by leaders across denominations. His maxim was that love is the greatest apologetic: "Let your life preach, then let your lips, if necessary, also speak."
+Chapman lived to the age of ninety-nine and never retired from ministry. He was a poet, an evangelist, and a gifted letter-writer whose counsel was sought by Christians from many denominations. One of his best-known sayings was, "My business is to love others, not to seek that they should love me."
 
-His life pointed to the grace that produces unhurried, unboastful, enduring love — not a love manufactured by duty, but one rooted in a sight of Christ he had been cultivating for eight decades.
+His life pointed to the grace that produces humble, patient, enduring love. Rather than seeking prominence, Chapman devoted himself to living Christ before others, convinced that a holy life gives credibility to the gospel it proclaims.
 
 ---
 

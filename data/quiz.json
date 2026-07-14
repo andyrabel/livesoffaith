@@ -1680,7 +1680,13 @@
     "question": "What English town did Robert Cleaver Chapman serve as a minister in for seventy years?",
     "answer": "Barnstaple, Devon",
     "person_id": "robert-cleaver-chapman",
-    "difficulty": 3
+    "difficulty": 5
+  },
+  {
+    "question": "Which famous preacher called Robert Cleaver Chapman \"the saintliest man I ever knew\"?",
+    "answer": "Charles Spurgeon",
+    "person_id": "robert-cleaver-chapman",
+    "difficulty": 5
   },
   {
     "question": "What words did Cesar Malan speak to Charlotte Elliott that she later turned into a hymn?",

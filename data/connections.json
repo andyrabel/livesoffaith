@@ -372,10 +372,10 @@
   },
   {
     "from": "robert-cleaver-chapman",
-    "to": "george-muller",
-    "label": "close friend of, whom Müller called 'the saintliest man I ever knew'",
-    "type": "milieu",
-    "mutual": true
+    "to": "charles-spurgeon",
+    "label": "was called 'the saintliest man I ever knew' by",
+    "type": "influence",
+    "mutual": false
   },
   {
     "from": "kristyn-getty",
