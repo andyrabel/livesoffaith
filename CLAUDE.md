@@ -99,13 +99,13 @@ The Wikipedia link on each page provides further context — the story itself ne
 - Richer theological and historical context
 - May reference doctrine, historical setting, church history
 - Suitable for use in adult Bible study or worship service
-- **Maximum 250 words**
+- **Preferred length ~200 words; hard cap 250 words**
 
 ### Family Version
 - Simpler vocabulary, narrative-focused
 - Engaging for children aged 8–14
 - Avoids complex theology but retains the gospel thread clearly
-- **Maximum 125 words**
+- **Preferred length ~100 words; hard cap 125 words**
 
 Both versions must:
 - Be factually accurate to the sourced material
@@ -492,10 +492,11 @@ sole authorship where none exists.
   when one exists and has been confirmed to load (many famous hymns have
   one); otherwise fall back to the writer's Wikipedia URL rather than guess
   at an article slug that may not exist.
-- Same `adult_story` (≤250 words) / `family_story` (≤125 words) two-tier
-  system and `review` block as person entries — see Two Story Versions Per
-  Person and Human Review System above; the same rules apply (grounded in
-  sources, Christ-centred, no invented dialogue).
+- Same `adult_story` (~200 words preferred, 250 hard cap) / `family_story`
+  (~100 words preferred, 125 hard cap) two-tier system and `review` block as
+  person entries — see Two Story Versions Per Person and Human Review System
+  above; the same rules apply (grounded in sources, Christ-centred, no
+  invented dialogue).
 - Hymns do not have portrait images, `flagged`/`footnote`, `memorials`, or
   `significant_dates` fields — those are person-specific.
 
@@ -715,7 +716,7 @@ Ask Claude Code:
 Claude will:
 - Fetch biographical facts from Wikipedia
 - Run the vetting checklist
-- Write the adult story (≤250 words) and family story (≤125 words)
+- Write the adult story (~200 words, 250 hard cap) and family story (~100 words, 125 hard cap)
 - Write the image generation prompt
 - Research and populate `significant_dates` (birth, death or martyred, saved
   if dated, up to 3 other well-documented dated events — see Significant
