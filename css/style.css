@@ -223,7 +223,7 @@ main {
    divided rows, so they read as one compact unit instead of
    three separately-margined cards stacking up the page. */
 .today-panel {
-  margin: 0.75rem 0;
+  margin: 0 0 0.75rem;
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   background: var(--surface);
@@ -655,11 +655,31 @@ main {
   color: var(--gold);
 }
 
+/* --- Sidebar Panel (home page) ----------------------------------
+   Wraps Explore (Tour Planner / Connections) and What's New in a
+   single bordered surface so the sidebar reads as one module rather
+   than several unrelated floating widgets. */
+.sidebar-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 0.9rem;
+}
+
+.sidebar-panel__title {
+  margin: 0 0 0.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
 /* --- Explore Features (home page) ------------------------------ */
 .explore-features {
   display: flex;
   gap: 0.6rem;
-  margin: 0 0 0.6rem;
 }
 
 .explore-features__card {
@@ -669,9 +689,9 @@ main {
   gap: 0.4rem;
   text-decoration: none;
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
+  border-radius: 8px;
   padding: 0.5rem;
-  background: var(--surface);
+  background: var(--bg);
   transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
 }
 
@@ -703,7 +723,7 @@ main {
 
 /* --- What's New (home page) ------------------------------------ */
 .whats-new {
-  margin: 1.1rem 0 0.6rem;
+  margin: 0.9rem 0 0;
   padding: 0.7rem 0.9rem;
   background: var(--gold-light);
   border-radius: 8px;
@@ -782,7 +802,7 @@ main {
     gap: 0.9rem;
   }
 
-  .home-sidebar .whats-new,
+  .home-sidebar .sidebar-panel,
   .home-sidebar .collection-summary {
     margin: 0;
   }
