@@ -1491,8 +1491,32 @@
     "difficulty": 5
   },
   {
+    "question": "What worldwide missions organization did George Verwer found?",
+    "answer": "Operation Mobilisation",
+    "person_id": "george-verwer",
+    "difficulty": 1
+  },
+  {
+    "question": "Which famous evangelist's meeting did George Verwer attend when he came to faith in Christ at age sixteen?",
+    "answer": "Billy Graham",
+    "person_id": "george-verwer",
+    "difficulty": 1
+  },
+  {
     "question": "What country did George Verwer begin distributing Gospel literature in, before founding Operation Mobilisation?",
     "answer": "Mexico",
+    "person_id": "george-verwer",
+    "difficulty": 3
+  },
+  {
+    "question": "What was the name of the ship Operation Mobilisation purchased in 1970 to use as a floating bookshop reaching ports worldwide?",
+    "answer": "MV Logos",
+    "person_id": "george-verwer",
+    "difficulty": 3
+  },
+  {
+    "question": "In what year did George Verwer hand over international leadership of Operation Mobilisation to Peter Maiden?",
+    "answer": "2003",
     "person_id": "george-verwer",
     "difficulty": 5
   },
@@ -2473,6 +2497,96 @@
     "question": "What did the camp doctor who witnessed Dietrich Bonhoeffer's execution at Flossenbürg later say about his death?",
     "answer": "That he had never seen anyone die so entirely submissive to the will of God",
     "person_id": "dietrich-bonhoeffer",
+    "difficulty": 5
+  },
+  {
+    "question": "What kind of children did Thomas Barnardo devote his life to caring for?",
+    "answer": "Destitute/homeless children",
+    "person_id": "thomas-barnardo",
+    "difficulty": 1
+  },
+  {
+    "question": "What famous notice did Thomas Barnardo place above the door of his children's homes?",
+    "answer": "\"No destitute child ever refused admission\"",
+    "person_id": "thomas-barnardo",
+    "difficulty": 3
+  },
+  {
+    "question": "What country had Thomas Barnardo originally planned to serve in as a missionary before staying to care for London's homeless children?",
+    "answer": "China",
+    "person_id": "thomas-barnardo",
+    "difficulty": 5
+  },
+  {
+    "question": "What is W. E. Vine's best-known reference work, still used by preachers and Bible teachers today?",
+    "answer": "Vine's Expository Dictionary of New Testament Words",
+    "person_id": "william-edwy-vine",
+    "difficulty": 3
+  },
+  {
+    "question": "What Christian tradition did W. E. Vine belong to throughout his adult life?",
+    "answer": "The Open Brethren",
+    "person_id": "william-edwy-vine",
+    "difficulty": 5
+  },
+  {
+    "question": "What is the title of William MacDonald's single-volume commentary covering every book of the Bible?",
+    "answer": "Believer's Bible Commentary",
+    "person_id": "william-macdonald",
+    "difficulty": 3
+  },
+  {
+    "question": "What Bible college did William MacDonald serve as president of from 1959 to 1965?",
+    "answer": "Emmaus Bible School (Emmaus Bible College)",
+    "person_id": "william-macdonald",
+    "difficulty": 5
+  },
+  {
+    "question": "What famous Chicago church did H. A. Ironside pastor for nineteen years?",
+    "answer": "Moody Church",
+    "person_id": "ha-ironside",
+    "difficulty": 3
+  },
+  {
+    "question": "At what age did young Harry Ironside start his own Sunday school under a homemade canvas tent in Los Angeles?",
+    "answer": "Eleven",
+    "person_id": "ha-ironside",
+    "difficulty": 3
+  },
+  {
+    "question": "What missions organization did H. A. Ironside serve as president of from 1942?",
+    "answer": "Africa Inland Mission",
+    "person_id": "ha-ironside",
+    "difficulty": 5
+  },
+  {
+    "question": "What influential 1943 book by F. F. Bruce argued that historical scrutiny only strengthens confidence in the Gospels?",
+    "answer": "Are the New Testament Documents Reliable?",
+    "person_id": "ff-bruce",
+    "difficulty": 3
+  },
+  {
+    "question": "At which university was F. F. Bruce Rylands Professor of Biblical Criticism from 1959 to 1978?",
+    "answer": "Manchester",
+    "person_id": "ff-bruce",
+    "difficulty": 5
+  },
+  {
+    "question": "What is A. W. Tozer's best-known book on knowing and pursuing intimacy with God?",
+    "answer": "The Pursuit of God",
+    "person_id": "aw-tozer",
+    "difficulty": 3
+  },
+  {
+    "question": "At what age did A. W. Tozer come to faith after hearing a street preacher on his way home from work?",
+    "answer": "Seventeen",
+    "person_id": "aw-tozer",
+    "difficulty": 3
+  },
+  {
+    "question": "What denomination did A. W. Tozer serve as a pastor and magazine editor for?",
+    "answer": "The Christian and Missionary Alliance",
+    "person_id": "aw-tozer",
     "difficulty": 5
   }
 ]
