@@ -2762,5 +2762,145 @@
     "answer": "Joni and Friends",
     "person_id": "joni-eareckson-tada",
     "difficulty": 1
+  },
+  {
+    "question": "Complete this line from \"Amazing Grace\": \"Amazing grace, how sweet the sound, that saved a wretch like ___\"",
+    "answer": "me",
+    "person_id": "john-newton",
+    "hymn_id": "amazing-grace",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from \"It Is Well with My Soul\": \"When peace like a river attendeth my way, when sorrows like sea billows ___\"",
+    "answer": "roll",
+    "person_id": "horatio-spafford",
+    "hymn_id": "it-is-well-with-my-soul",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from Martin Luther's hymn \"A Mighty Fortress Is Our God\": \"A mighty fortress is our God, a bulwark never ___\"",
+    "answer": "failing",
+    "person_id": "martin-luther",
+    "hymn_id": "a-mighty-fortress-is-our-god",
+    "difficulty": 3
+  },
+  {
+    "question": "Complete this line from \"What a Friend We Have in Jesus\": \"What a friend we have in Jesus, all our sins and griefs to ___\"",
+    "answer": "bear",
+    "person_id": "joseph-scriven",
+    "hymn_id": "what-a-friend-we-have-in-jesus",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from Isaac Watts's hymn \"When I Survey the Wondrous Cross\": \"When I survey the wondrous cross, on which the Prince of glory ___\"",
+    "answer": "died",
+    "person_id": "isaac-watts",
+    "hymn_id": "when-i-survey-the-wondrous-cross",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from \"Joy to the World\": \"Joy to the world, the Lord is come; let earth receive her ___\"",
+    "answer": "King",
+    "person_id": "isaac-watts",
+    "hymn_id": "joy-to-the-world",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from \"O God, Our Help in Ages Past\": \"O God, our help in ages past, our hope for years to ___\"",
+    "answer": "come",
+    "person_id": "isaac-watts",
+    "hymn_id": "o-god-our-help-in-ages-past",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from \"Hark, the Herald Angels Sing\": \"Hark! The herald angels sing, glory to the newborn ___\"",
+    "answer": "King",
+    "person_id": "charles-wesley",
+    "hymn_id": "hark-the-herald-angels-sing",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from \"Love Divine, All Loves Excelling\": \"Fix in us thy humble dwelling, all thy faithful mercies ___\"",
+    "answer": "crown",
+    "person_id": "charles-wesley",
+    "hymn_id": "love-divine-all-loves-excelling",
+    "difficulty": 3
+  },
+  {
+    "question": "Complete this line from \"Christ the Lord Is Risen Today\": \"Christ the Lord is risen today, ___!\"",
+    "answer": "Alleluia",
+    "person_id": "charles-wesley",
+    "hymn_id": "christ-the-lord-is-risen-today",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from \"Oh, for a Thousand Tongues to Sing\": \"O for a thousand tongues to sing my great Redeemer's ___\"",
+    "answer": "praise",
+    "person_id": "charles-wesley",
+    "hymn_id": "oh-for-a-thousand-tongues-to-sing",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from Charles Wesley's hymn \"And Can It Be\": \"And can it be that I should gain an interest in the Savior's ___\"",
+    "answer": "blood",
+    "person_id": "charles-wesley",
+    "hymn_id": "amazing-love",
+    "difficulty": 3
+  },
+  {
+    "question": "Complete this line from \"Blessed Assurance\": \"Blessed assurance, Jesus is mine! Oh, what a foretaste of glory ___\"",
+    "answer": "divine",
+    "person_id": "fanny-crosby",
+    "hymn_id": "blessed-assurance",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from \"Just As I Am\": \"Just as I am, without one plea, but that thy blood was shed for ___\"",
+    "answer": "me",
+    "person_id": "charlotte-elliott",
+    "hymn_id": "just-as-i-am-without-one-plea",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from William Cowper's hymn \"There Is a Fountain Filled with Blood\": \"There is a fountain filled with blood, drawn from Immanuel's ___\"",
+    "answer": "veins",
+    "person_id": "william-cowper",
+    "hymn_id": "there-is-a-fountain-filled-with-blood",
+    "difficulty": 3
+  },
+  {
+    "question": "Complete this line from \"God Moves in a Mysterious Way\": \"God moves in a mysterious way, his wonders to ___\"",
+    "answer": "perform",
+    "person_id": "william-cowper",
+    "hymn_id": "god-moves-in-a-mysterious-way",
+    "difficulty": 3
+  },
+  {
+    "question": "Complete this line from \"In Christ Alone\": \"In Christ alone my hope is found, he is my light, my strength, my ___\"",
+    "answer": "song",
+    "person_id": "keith-getty",
+    "hymn_id": "in-christ-alone",
+    "difficulty": 3
+  },
+  {
+    "question": "Complete this line from \"Shine, Jesus, Shine\": \"Shine, Jesus, shine, fill this land with the Father's ___\"",
+    "answer": "glory",
+    "person_id": "graham-kendrick",
+    "hymn_id": "shine-jesus-shine",
+    "difficulty": 3
+  },
+  {
+    "question": "Complete this line from \"Once in Royal David's City\": \"Once in royal David's city stood a lowly cattle ___\"",
+    "answer": "shed",
+    "person_id": "cecil-frances-alexander",
+    "hymn_id": "once-in-royal-davids-city",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete this line from \"All Things Bright and Beautiful\": \"All things bright and beautiful, all creatures great and ___\"",
+    "answer": "small",
+    "person_id": "cecil-frances-alexander",
+    "hymn_id": "all-things-bright-and-beautiful",
+    "difficulty": 1
   }
 ]
