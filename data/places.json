@@ -14,7 +14,15 @@
     "website": "https://www.museumofthebible.org/",
     "source_url": "https://en.wikipedia.org/wiki/Museum_of_the_Bible",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Bible_(53839146587).jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Museum_of_the_Bible_%2853839146587%29.jpg",
+      "license": "CC BY 2.0",
+      "credit": "ajay_suresh, CC BY 2.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY 2.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "billy-graham-center-museum",
@@ -31,7 +39,15 @@
     "website": "https://www.wheaton.edu/about-wheaton/museums-library-and-collections/billy-graham-museum/",
     "source_url": "https://en.wikipedia.org/wiki/Billy_Graham_Center",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Billy_Graham_Center.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Billy_Graham_Center.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Sea Cow, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "bob-jones-university-museum-gallery",
@@ -48,7 +64,16 @@
     "website": "https://museumandgallery.org/",
     "source_url": "https://en.wikipedia.org/wiki/Bob_Jones_University_Museum_%26_Gallery",
     "status": "Closed to walk-in visitors as of 2026 while relocating to a new site in downtown Greenville; group tours available by reservation",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Greenville_-_Campus_of_Bob_Jones_University.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Greenville_-_Campus_of_Bob_Jones_University.jpg",
+      "license": "Public domain",
+      "credit": "Curt Teich & Co., Public domain, via Wikimedia Commons",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain — no attribution required.",
+      "note": "General BJU campus photo — no free photo of the museum building specifically was found."
+    }
   },
   {
     "id": "creation-museum",
@@ -65,7 +90,15 @@
     "website": "https://creationmuseum.org/",
     "source_url": "https://en.wikipedia.org/wiki/Creation_Museum",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Creation_Museum,_Kentucky-1.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Creation_Museum%2C_Kentucky-1.jpg",
+      "license": "CC BY 2.0",
+      "credit": "David Berkowitz, CC BY 2.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY 2.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "ark-encounter",
@@ -82,7 +115,15 @@
     "website": "https://arkencounter.com/",
     "source_url": "https://en.wikipedia.org/wiki/Ark_Encounter",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Ark_Encounter_Exterior_2022.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ark_Encounter_Exterior_2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "1990'sguy, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "icr-discovery-center",
@@ -99,7 +140,15 @@
     "website": "https://discoverycenter.icr.org/",
     "source_url": "https://en.wikipedia.org/wiki/ICR_Discovery_Center_for_Science_%26_Earth_History",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:ICR_Discovery_Center_-_Exterior.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/ICR_Discovery_Center_-_Exterior.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "1990'sguy, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "mennonite-heritage-center",
@@ -116,7 +165,16 @@
     "website": "https://mhep.org/",
     "source_url": "https://en.wikipedia.org/wiki/Mennonite_Heritage_Center",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Bibles_and_hymnals_at_Mennonite_Heritage_Center,_Harleysville,_Pennsylvania.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bibles_and_hymnals_at_Mennonite_Heritage_Center%2C_Harleysville%2C_Pennsylvania.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Keizers, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim.",
+      "note": "Interior exhibit photo — no free exterior building photo was found."
+    }
   },
   {
     "id": "library-of-congress-gutenberg-bible",
@@ -133,7 +191,16 @@
     "website": "https://www.loc.gov/visit/maps-and-floor-plans/exhibitions-and-visit-highlights/gutenberg-bible/",
     "source_url": "https://en.wikipedia.org/wiki/Library_of_Congress",
     "status": "Open to the public, free admission",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:LOC_Main_Reading_Room_Highsmith.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/LOC_Main_Reading_Room_Highsmith.jpg",
+      "license": "Public domain",
+      "credit": "Carol M. Highsmith, Public domain, via Wikimedia Commons",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain — no attribution required.",
+      "note": "General Library of Congress reading room — no free photo of the Gutenberg Bible display case specifically was found."
+    }
   },
   {
     "id": "morgan-library-museum",
@@ -150,7 +217,15 @@
     "website": "https://www.themorgan.org/",
     "source_url": "https://en.wikipedia.org/wiki/Morgan_Library_%26_Museum",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Morgan_Library_&_Museum,_New_York_2017_02.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Morgan_Library_%26_Museum%2C_New_York_2017_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Photograph by Mike Peel (www.mikepeel.net)., CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "beinecke-rare-book-library",
@@ -167,7 +242,15 @@
     "website": "https://beinecke.library.yale.edu/",
     "source_url": "https://en.wikipedia.org/wiki/Beinecke_Rare_Book_%26_Manuscript_Library",
     "status": "Open to the public, free admission",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Beinecke_Rare_Book_&_Manuscript_Library_(54106261813).jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Beinecke_Rare_Book_%26_Manuscript_Library_%2854106261813%29.jpg",
+      "license": "CC BY 2.0",
+      "credit": "ajay_suresh, CC BY 2.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY 2.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "nypl-polonsky-exhibition",
@@ -184,7 +267,15 @@
     "website": "https://www.nypl.org/events/exhibitions/treasures",
     "source_url": "https://en.wikipedia.org/wiki/New_York_Public_Library",
     "status": "Open to the public, free admission",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
+      "license": "CC BY-SA 2.0",
+      "credit": "NYC Wanderer (Kevin Eng), CC BY-SA 2.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 2.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "huntington-library",
@@ -201,7 +292,15 @@
     "website": "https://www.huntington.org/",
     "source_url": "https://en.wikipedia.org/wiki/Huntington_Library",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:The_Huntington_Library_(3052306180).jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Huntington_Library_%283052306180%29.jpg",
+      "license": "CC BY 2.0",
+      "credit": "Rennett Stowe from USA, CC BY 2.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY 2.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "nmaahc",
@@ -218,7 +317,15 @@
     "website": "https://nmaahc.si.edu/",
     "source_url": "https://en.wikipedia.org/wiki/National_Museum_of_African_American_History_and_Culture",
     "status": "Open to the public, free admission (timed passes required)",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_African_American_History_and_Culture_building.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/National_Museum_of_African_American_History_and_Culture_building.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "DestinationFearFan, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "national-civil-rights-museum",
@@ -235,7 +342,15 @@
     "website": "https://civilrightsmuseum.org/",
     "source_url": "https://en.wikipedia.org/wiki/National_Civil_Rights_Museum",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:National_Civil_Rights_Museum_2022a.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/National_Civil_Rights_Museum_2022a.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Antony-22, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "british-library-treasures-gallery",
@@ -252,7 +367,16 @@
     "website": "https://www.bl.uk/",
     "source_url": "https://en.wikipedia.org/wiki/British_Library",
     "status": "Open to the public, free admission",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:British_library_(2825447785).jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/British_library_%282825447785%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "credit": "fsse8info from UK, CC BY-SA 2.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 2.0 — requires attribution if used; not an unrestricted public-domain claim.",
+      "note": "General British Library building — no free photo of the Treasures Gallery interior specifically was found."
+    }
   },
   {
     "id": "bodleian-weston-library-treasury",
@@ -269,7 +393,15 @@
     "website": "https://visit.bodleian.ox.ac.uk/treasured",
     "source_url": "https://en.wikipedia.org/wiki/Weston_Library",
     "status": "Open to the public, free admission; displays rotate",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Weston_Library_Blackwell_Hall,_Oxford,_July_25,_2023.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Weston_Library_Blackwell_Hall%2C_Oxford%2C_July_25%2C_2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Jps3, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "huguenot-museum-rochester",
@@ -286,7 +418,15 @@
     "website": "https://huguenotmuseum.org/",
     "source_url": "https://en.wikipedia.org/wiki/Huguenot_Museum",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Rochester_Huguenot_Museum_95_High_Street_5318.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Rochester_Huguenot_Museum_95_High_Street_5318.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "ClemRutter, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "hereford-cathedral-chained-library",
@@ -303,7 +443,16 @@
     "website": "https://www.herefordcathedral.org/mappa-mundi-and-chained-library-exhibition",
     "source_url": "https://en.wikipedia.org/wiki/Hereford_Cathedral",
     "status": "Open to the public (paid entry)",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hereford_Cathedral_Exterior_from_NW,_Herefordshire,_UK_-_Diliff.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Hereford_Cathedral_Exterior_from_NW%2C_Herefordshire%2C_UK_-_Diliff.jpg",
+      "license": "CC BY-SA 3.0",
+      "credit": "Diliff, CC BY-SA 3.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 3.0 — requires attribution if used; not an unrestricted public-domain claim.",
+      "note": "General cathedral exterior — no free photo of the Mappa Mundi & Chained Library room specifically was found."
+    }
   },
   {
     "id": "international-museum-of-the-reformation-geneva",
@@ -320,7 +469,15 @@
     "website": "https://www.musee-reforme.ch/en/",
     "source_url": "https://en.wikipedia.org/wiki/International_Museum_of_the_Reformation",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Entree_MiR_2023.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Entree_MiR_2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "AbrahamdeBaptista, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "gutenberg-museum-mainz",
@@ -337,7 +494,15 @@
     "website": "https://www.mainz.de/en/microsite/gutenberg-museum/",
     "source_url": "https://en.wikipedia.org/wiki/Gutenberg_Museum",
     "status": "Main Liebfrauenplatz building closed for rebuilding as of 2026; interim exhibition 'Gutenberg Museum MOVED' at the Natural History Museum Mainz, Reichklarastraße 1",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Gutenberg-Museum_Mainz_585-vh.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Gutenberg-Museum_Mainz_585-vh.jpg",
+      "license": "CC BY-SA 3.0",
+      "credit": "Pedelecs, CC BY-SA 3.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 3.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "musee-du-desert-mialet",
@@ -354,7 +519,15 @@
     "website": "https://museedudesert.com/",
     "source_url": "https://en.wikipedia.org/wiki/Camisards",
     "status": "Open to the public (seasonal hours)",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Mialet-Mas_Soubeyran-Musée_du_désert-20120901.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Mialet-Mas_Soubeyran-Mus%C3%A9e_du_d%C3%A9sert-20120901.jpg",
+      "license": "CC BY-SA 3.0",
+      "credit": "Daniel VILLAFRUELA., CC BY-SA 3.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 3.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "museo-valdese-torre-pellice",
@@ -371,7 +544,15 @@
     "website": "https://museovaldese.org/",
     "source_url": "https://en.wikipedia.org/wiki/Waldensians",
     "status": "Open to the public (seasonal hours)",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Centro_Culturale_Valdese_di_Torre_Pellice,_Museo_Valdese_01.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Centro_Culturale_Valdese_di_Torre_Pellice%2C_Museo_Valdese_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Mastrocom, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "melanchthonhaus-wittenberg",
@@ -388,7 +569,15 @@
     "website": "https://www.luthermuseen.de/en/museen/melanchthon-house",
     "source_url": "https://en.wikipedia.org/wiki/Melanchthonhaus_(Wittenberg)",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Wittenberg_-_Melanchthonhaus_(Gartenseite).jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Wittenberg_-_Melanchthonhaus_%28Gartenseite%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Horst Pomplun, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "hussite-museum-tabor",
@@ -405,7 +594,16 @@
     "website": "https://www.husitskemuzeum.cz/en/",
     "source_url": "https://en.wikipedia.org/wiki/Hussites",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Radnice_-_Husitské_muzeum_-_Tábor.JPG",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Radnice_-_Husitsk%C3%A9_muzeum_-_T%C3%A1bor.JPG",
+      "license": "CC BY-SA 4.0",
+      "credit": "Pohled 111, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim.",
+      "note": "The museum occupies Tábor's historic town hall (Radnice)."
+    }
   },
   {
     "id": "john-rylands-library-manchester",
@@ -422,7 +620,15 @@
     "website": "https://www.library.manchester.ac.uk/rylands/special-collections/subject-areas/dr-williams-library/",
     "source_url": "https://en.wikipedia.org/wiki/John_Rylands_Research_Institute_and_Library",
     "status": "Building open to the public, free admission; Special Collections reading room access by registration",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:2025-06-07_John_Rylands_Library_01.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/2025-06-07_John_Rylands_Library_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Burkhard Mücke, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "christian-brethren-archive-manchester",
@@ -439,7 +645,16 @@
     "website": "https://www.library.manchester.ac.uk/rylands/special-collections/subject-areas/christian-brethren-collections/",
     "source_url": "https://www.brethrenhistory.org/archive/",
     "status": "Housed within the John Rylands Library; archive access to researchers by appointment through Special Collections",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:2025-06-07_John_Rylands_Library_01.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/2025-06-07_John_Rylands_Library_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Burkhard Mücke, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim.",
+      "note": "The archive is housed inside the John Rylands Library building — same building photo as that entry."
+    }
   },
   {
     "id": "angus-library-and-archive",
@@ -456,7 +671,16 @@
     "website": "https://theangus.rpc.ox.ac.uk/",
     "source_url": "https://en.wikipedia.org/wiki/Angus_Library_and_Archive",
     "status": "Research visits by appointment only; photo ID and a letter of reference required",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Regent’s_Park_College_Dining_Hall.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Regent%E2%80%99s_Park_College_Dining_Hall.jpg",
+      "license": "CC0",
+      "credit": "Honcques Laus, CC0, via Wikimedia Commons",
+      "redistribution_safe": true,
+      "redistribution_note": "CC0 — no attribution required.",
+      "note": "General Regent's Park College building — no free photo of the Angus Library room specifically was found."
+    }
   },
   {
     "id": "virginia-baptist-historical-society",
@@ -473,7 +697,16 @@
     "website": "https://baptistheritage.org/",
     "source_url": "https://baptistheritage.org/location/",
     "status": "Research by appointment; primary research hours 1–4pm, Monday–Friday",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:BoatwrightTower.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/BoatwrightTower.jpg",
+      "license": "Public domain",
+      "credit": "Public domain, via Wikimedia Commons",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain — no attribution required.",
+      "note": "Boatwright Memorial Library tower, University of Richmond, where the society is housed."
+    }
   },
   {
     "id": "schleitheim-museum",
@@ -490,7 +723,16 @@
     "website": "https://www.museum-schleitheim.ch/",
     "source_url": "https://en.wikipedia.org/wiki/Schleitheim_Confession",
     "status": "Open to the public on scheduled open days (\"offene Sonntage\"); check the museum website for current dates",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:8226_Schleitheim,_Switzerland_-_panoramio.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/8226_Schleitheim%2C_Switzerland_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "credit": "Rene Nueesch, CC BY 3.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY 3.0 — requires attribution if used; not an unrestricted public-domain claim.",
+      "note": "General village photo — no free photo of the museum building itself was found."
+    }
   },
   {
     "id": "evangelical-library-london",
@@ -507,7 +749,8 @@
     "website": "https://www.evangelical-library.org.uk/",
     "source_url": "https://en.wikipedia.org/wiki/Evangelical_Library",
     "status": "Open to the public, Monday–Saturday 10am–5pm, closed Sunday",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": null
   },
   {
     "id": "smithfield-martyrs-memorial",
@@ -524,7 +767,16 @@
     "website": "",
     "source_url": "https://www.londonremembers.com/memorials/st-bartholomew-s-hospital-marian-martyrs",
     "status": "Open to the public, freely visible on the hospital's exterior wall",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:London_(Smithfield)_,_St_Bartholomew's_Hospital_-_geograph.org.uk_-_6156798.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/London_%28Smithfield%29_%2C_St_Bartholomew%27s_Hospital_-_geograph.org.uk_-_6156798.jpg",
+      "license": "CC BY-SA 2.0",
+      "credit": "Jim Osley, CC BY-SA 2.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 2.0 — requires attribution if used; not an unrestricted public-domain claim.",
+      "note": "St Bartholomew's Hospital gate at Smithfield, near the memorial plaque — no free photo of the plaque itself was found."
+    }
   },
   {
     "id": "lewes-martyrs-memorial",
@@ -541,7 +793,15 @@
     "website": "",
     "source_url": "https://en.wikipedia.org/wiki/Lewes_Martyrs",
     "status": "Open to the public, outdoor monument",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:The_Martyrs'_Memorial,_Lewes_-_geograph.org.uk_-_3120221.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/The_Martyrs%27_Memorial%2C_Lewes_-_geograph.org.uk_-_3120221.jpg",
+      "license": "CC BY-SA 2.0",
+      "credit": "Marathon, CC BY-SA 2.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 2.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "cms-archive-cadbury-research-library",
@@ -558,7 +818,15 @@
     "website": "https://www.birmingham.ac.uk/facilities/cadbury",
     "source_url": "https://archiveshub.jisc.ac.uk/data/gb150-cms",
     "status": "Research visits by appointment; booking required in advance",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Muirhead_Tower,_University_of_Birmingham_-_geograph.org.uk_-_2746488.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Muirhead_Tower%2C_University_of_Birmingham_-_geograph.org.uk_-_2746488.jpg",
+      "license": "CC BY-SA 2.0",
+      "credit": "Phil Champion, CC BY-SA 2.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 2.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "bible-society-archive-cambridge",
@@ -575,7 +843,16 @@
     "website": "https://www.lib.cam.ac.uk/collections/departments/bible-societys-library",
     "source_url": "https://www.biblesociety.org.uk/about-us/our-history/archives-at-cambridge",
     "status": "Research visits via the Manuscripts Reading Room; Cambridge University Library reader's ticket required",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Main_UL_building.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Main_UL_building.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Cambridge University Library, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim.",
+      "note": "Cambridge University Library, where the archive is held."
+    }
   },
   {
     "id": "keswick-convention",
@@ -592,7 +869,15 @@
     "website": "https://keswickministries.org/",
     "source_url": "https://en.wikipedia.org/wiki/Keswick_Convention",
     "status": "St John's Church is a working parish church, open to visitors; the Keswick Convention Centre on Skiddaw Street is in active use only during the July convention and is not a year-round walk-in heritage site",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:1144666_Church_of_St_John,_St_John's_Street_Keswick_20240527_0034.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/1144666_Church_of_St_John%2C_St_John%27s_Street_Keswick_20240527_0034.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Tilman2007, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "billy-graham-center-archives",
@@ -609,7 +894,16 @@
     "website": "https://www.wheaton.edu/about-wheaton/museum-and-collections/billy-graham-center-archives/",
     "source_url": "https://archives.wheaton.edu/repositories/4/resources/1208",
     "status": "Research visits by appointment through Wheaton College Archives & Special Collections",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Billy_Graham_Center.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Billy_Graham_Center.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Sea Cow, CC BY-SA 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 4.0 — requires attribution if used; not an unrestricted public-domain claim.",
+      "note": "The archives are housed inside the Billy Graham Center — same building photo as the museum entry."
+    }
   },
   {
     "id": "southern-baptist-historical-library-archives",
@@ -626,7 +920,8 @@
     "website": "https://sbhla.org/",
     "source_url": "https://sbhla.org/",
     "status": "Research access; contact the archives to arrange a visit",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": null
   },
   {
     "id": "fuller-seminary-archives",
@@ -643,7 +938,15 @@
     "website": "https://library.fuller.edu/",
     "source_url": "https://oac.cdlib.org/institutions/Fuller+Theological+Seminary-David+Allan+Hubbard+Library+Archives",
     "status": "Research access via the Hubbard Library; contact archives staff to arrange a visit",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:2008-1226-Pasadena-005-FullerTS.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/2008-1226-Pasadena-005-FullerTS.jpg",
+      "license": "CC BY 3.0",
+      "credit": "Bobak Ha'Eri, CC BY 3.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY 3.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "pilgrim-hall-museum",
@@ -660,7 +963,15 @@
     "website": "https://www.pilgrimhall.org/",
     "source_url": "https://en.wikipedia.org/wiki/Pilgrim_Hall_Museum",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Pilgrim_Hall_Museum_-_Plymouth,_Massachusetts,_USA_-_August_13,_2015.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Pilgrim_Hall_Museum_-_Plymouth%2C_Massachusetts%2C_USA_-_August_13%2C_2015.jpg",
+      "license": "CC BY 4.0",
+      "credit": "Giorgio Galeotti, CC BY 4.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY 4.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "whitman-mission-national-historic-site",
@@ -677,7 +988,15 @@
     "website": "https://www.nps.gov/whmi/",
     "source_url": "https://en.wikipedia.org/wiki/Whitman_Mission_National_Historic_Site",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Oregon_Trail_Whitman_Mission_WA_NPS.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Oregon_Trail_Whitman_Mission_WA_NPS.jpg",
+      "license": "Public domain",
+      "credit": "National Park Service, Public domain, via Wikimedia Commons",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain — no attribution required."
+    }
   },
   {
     "id": "fourah-bay-college",
@@ -694,7 +1013,15 @@
     "website": "",
     "source_url": "https://en.wikipedia.org/wiki/Fourah_Bay_College",
     "status": "Working university campus; visits by arrangement",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Old_building_of_Fourah_Bay_College._Cline_Town,_Freetown,_Sierra_Leone.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Old_building_of_Fourah_Bay_College._Cline_Town%2C_Freetown%2C_Sierra_Leone.jpg",
+      "license": "CC BY 2.0",
+      "credit": "Jared & Melanie & Huxley Ponchot, CC BY 2.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY 2.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "yanghwajin-foreign-missionary-cemetery",
@@ -711,7 +1038,15 @@
     "website": "",
     "source_url": "https://en.wikipedia.org/wiki/Yanghwajin_Foreign_Missionary_Cemetery",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Yanghwajin.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Yanghwajin.jpg",
+      "license": "CC BY-SA 3.0",
+      "credit": "Matthew smith 254, CC BY-SA 3.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 3.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "kuruman-moffat-mission",
@@ -728,7 +1063,15 @@
     "website": "",
     "source_url": "https://en.wikipedia.org/wiki/Kuruman_Moffat_Mission",
     "status": "Open to the public as a heritage site",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hamilton_House,_Moffat_Mission,_Kuruman.JPG",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hamilton_House%2C_Moffat_Mission%2C_Kuruman.JPG",
+      "license": "CC BY-SA 3.0",
+      "credit": "Andrew Hall, CC BY-SA 3.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 3.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "cape-coast-castle",
@@ -745,7 +1088,15 @@
     "website": "",
     "source_url": "https://en.wikipedia.org/wiki/Cape_Coast_Castle",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Cape_Coast_Castle,_Cape_Coast,_Ghana.JPG",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Cape_Coast_Castle%2C_Cape_Coast%2C_Ghana.JPG",
+      "license": "CC BY-SA 3.0",
+      "credit": "Rjruiziii, CC BY-SA 3.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 3.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "hcjb-voice-of-the-andes",
@@ -762,7 +1113,8 @@
     "website": "https://hcjb.org/",
     "source_url": "https://en.wikipedia.org/wiki/HCJB",
     "status": "Working radio studio, not a visitor site; no public museum or tours",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": null
   },
   {
     "id": "cane-ridge-meeting-house",
@@ -779,7 +1131,15 @@
     "website": "http://www.caneridge.org/",
     "source_url": "https://en.wikipedia.org/wiki/Cane_Ridge_Revival",
     "status": "Open to the public seasonally, April–November; contact the site for current hours",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Historic_Cane_Ridge_Meeting_House_Interior.JPG",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Historic_Cane_Ridge_Meeting_House_Interior.JPG",
+      "license": "CC BY-SA 3.0",
+      "credit": "Chris Light (talk), CC BY-SA 3.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 3.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "jeam-ri-massacre-memorial",
@@ -796,7 +1156,16 @@
     "website": "",
     "source_url": "https://en.wikipedia.org/wiki/Jeamni_massacre",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:JeamniMassacre.png",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/JeamniMassacre.png",
+      "license": "Public domain",
+      "credit": "Frank William Schofield, Public domain, via Wikimedia Commons",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain — no attribution required.",
+      "note": "Historical 1919 photograph of the massacre site (\"only one house remains intact\"), not the modern memorial hall — no free photo of the current building was found."
+    }
   },
   {
     "id": "taiyuan-massacre-memorial",
@@ -813,7 +1182,15 @@
     "website": "",
     "source_url": "https://en.wikipedia.org/wiki/Taiyuan_massacre",
     "status": "Open to the public",
-    "open_to_public": true
+    "open_to_public": true,
+    "image_source": {
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Immaculate_Conception_in_Taiyuan_02_2012-09.JPG",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Cathedral_of_the_Immaculate_Conception_in_Taiyuan_02_2012-09.JPG",
+      "license": "CC BY-SA 3.0",
+      "credit": "猫猫的日记本, CC BY-SA 3.0, via Wikimedia Commons",
+      "redistribution_safe": false,
+      "redistribution_note": "CC BY-SA 3.0 — requires attribution if used; not an unrestricted public-domain claim."
+    }
   },
   {
     "id": "immanuel-general-mission-tokyo",
@@ -830,6 +1207,7 @@
     "website": "https://www.immanuel.or.jp/",
     "source_url": "https://en.wikipedia.org/wiki/David_Tsugio_Tsutada",
     "status": "Working denominational headquarters",
-    "open_to_public": false
+    "open_to_public": false,
+    "image_source": null
   }
 ]
