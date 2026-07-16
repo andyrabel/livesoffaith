@@ -2588,5 +2588,113 @@
     "answer": "The Christian and Missionary Alliance",
     "person_id": "aw-tozer",
     "difficulty": 5
+  },
+  {
+    "question": "What famous line did Leon Morris coin to summarize penal substitutionary atonement?",
+    "answer": "\"Either we die, or He dies\"",
+    "person_id": "leon-morris",
+    "difficulty": 5
+  },
+  {
+    "question": "What book did Australian scholar Leon Morris write defending Christ's death as a real substitution for sinners?",
+    "answer": "The Apostolic Preaching of the Cross",
+    "person_id": "leon-morris",
+    "difficulty": 5
+  },
+  {
+    "question": "What London church was built for Joseph Parker because of the crowds his preaching drew?",
+    "answer": "The City Temple",
+    "person_id": "joseph-parker",
+    "difficulty": 5
+  },
+  {
+    "question": "Which famous London preacher did Joseph Parker publicly spar with in print, before the two later reconciled?",
+    "answer": "Charles Haddon Spurgeon",
+    "person_id": "joseph-parker",
+    "difficulty": 5
+  },
+  {
+    "question": "What teaching did Andrew Fuller oppose in his book The Gospel Worthy of All Acceptation?",
+    "answer": "Hyper-Calvinism",
+    "person_id": "andrew-fuller",
+    "difficulty": 5
+  },
+  {
+    "question": "What missionary society did Andrew Fuller help found in 1792 to send William Carey to India?",
+    "answer": "The Baptist Missionary Society",
+    "person_id": "andrew-fuller",
+    "difficulty": 5
+  },
+  {
+    "question": "What museum near the National Mall in Washington, D.C., founded in 2017 by the family behind Hobby Lobby, is dedicated to the history and impact of the Bible?",
+    "answer": "Museum of the Bible",
+    "person_id": null,
+    "difficulty": 3
+  },
+  {
+    "question": "What young-earth creationist ministry operates the Creation Museum in Kentucky?",
+    "answer": "Answers in Genesis",
+    "person_id": null,
+    "difficulty": 5
+  },
+  {
+    "question": "What full-scale wooden replica, built by Answers in Genesis near Cincinnati, forms the centerpiece of the Ark Encounter attraction?",
+    "answer": "Noah's Ark",
+    "person_id": null,
+    "difficulty": 3
+  },
+  {
+    "question": "What library in Washington, D.C. permanently displays one of only three complete vellum copies of the Gutenberg Bible in the United States?",
+    "answer": "The Library of Congress",
+    "person_id": null,
+    "difficulty": 5
+  },
+  {
+    "question": "Which library and museum in New York, founded on financier J. Pierpont Morgan's personal collection, holds three copies of the Gutenberg Bible — more than any other institution in the world?",
+    "answer": "The Morgan Library & Museum",
+    "person_id": null,
+    "difficulty": 5
+  },
+  {
+    "question": "The British Library's Treasures Gallery displays a leaf of which manuscript, one of the two earliest surviving Christian Bibles?",
+    "answer": "Codex Sinaiticus",
+    "person_id": null,
+    "difficulty": 5
+  },
+  {
+    "question": "The National Museum of African American History and Culture holds a Bible once owned by the leader of an 1831 Virginia slave rebellion. Who was he?",
+    "answer": "Nat Turner",
+    "person_id": null,
+    "difficulty": 5
+  },
+  {
+    "question": "The National Civil Rights Museum in Memphis is built around the former motel where which civil rights leader was assassinated in 1968?",
+    "answer": "Dr. Martin Luther King Jr.",
+    "person_id": null,
+    "difficulty": 1
+  },
+  {
+    "question": "What West African country is home to Cape Coast Castle, whose dungeons held enslaved Africans awaiting transport across the Atlantic?",
+    "answer": "Ghana",
+    "person_id": null,
+    "difficulty": 3
+  },
+  {
+    "question": "The Gutenberg Museum, located in the German city where Johannes Gutenberg lived, holds two original copies of what landmark printed work from around 1454-55?",
+    "answer": "Gutenberg's 42-line Bible",
+    "person_id": null,
+    "difficulty": 3
+  },
+  {
+    "question": "The International Museum of the Reformation in Geneva stands beside which cathedral, closely associated with John Calvin's ministry?",
+    "answer": "Cathédrale Saint-Pierre (St. Pierre Cathedral)",
+    "person_id": null,
+    "difficulty": 5
+  },
+  {
+    "question": "The Smithfield Martyrs' Memorial in London marks the site where dozens of Protestants, including John Rogers and John Bradford, were executed by what method during the Marian persecutions?",
+    "answer": "Burned at the stake",
+    "person_id": null,
+    "difficulty": 3
   }
 ]
