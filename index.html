@@ -49,6 +49,20 @@
       text-align: right;
       line-height: 1.4;
     }
+
+    /* On mobile the header is a single compact row (brand left, CTA +
+       hamburger right) — the free-use notice sits below that row, confined
+       to the same narrow right-hand column so it wraps instead of forcing
+       the nav (and therefore the brand) to squeeze. */
+    @media (max-width: 640px) {
+      .site-nav { gap: 0.35rem; }
+      .free-use-notice summary {
+        display: block;
+        max-width: 150px;
+        white-space: normal;
+        line-height: 1.3;
+      }
+    }
   </style>
 
   <script type="application/ld+json">
