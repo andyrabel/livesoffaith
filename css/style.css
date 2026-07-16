@@ -2692,8 +2692,11 @@ main {
   .site-title__sub { font-size: 0.72rem; }
   .site-logo { width: 32px; height: 32px; }
 
-  /* Brand and nav share a single compact row. The brand text truncates
-     rather than wraps so the CTA + hamburger always stay put on the right. */
+  /* Brand and nav share a single compact row, CTA + hamburger pinned to
+     the right. The brand name truncates if truly squeezed, but the
+     tagline wraps onto a second line instead of losing words to an
+     ellipsis — the CTA + hamburger row alone caps the title column below
+     the tagline's natural single-line width, so wrapping is unavoidable. */
   .site-header__inner {
     flex-wrap: nowrap;
   }
@@ -2707,11 +2710,15 @@ main {
     min-width: 0;
   }
 
-  .site-title__main,
-  .site-title__sub {
+  .site-title__main {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+
+  .site-title__sub {
+    white-space: normal;
+    line-height: 1.3;
   }
 
   .site-nav {
