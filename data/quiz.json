@@ -2732,5 +2732,35 @@
     "answer": "Switzerland",
     "person_id": "john-calvin",
     "difficulty": 1
+  },
+  {
+    "question": "What country was missionary Mary Slessor originally from?",
+    "answer": "Scotland",
+    "person_id": "mary-slessor",
+    "difficulty": 1
+  },
+  {
+    "question": "What did C.T. Studd give away within three years of his conversion?",
+    "answer": "His entire inheritance (£29,000)",
+    "person_id": "ct-studd",
+    "difficulty": 1
+  },
+  {
+    "question": "What job did Gladys Aylward do in London before becoming a missionary?",
+    "answer": "She worked as a parlour maid",
+    "person_id": "gladys-aylward",
+    "difficulty": 1
+  },
+  {
+    "question": "Which martyred missionary was Elisabeth Elliot married to?",
+    "answer": "Jim Elliot",
+    "person_id": "elisabeth-elliot",
+    "difficulty": 1
+  },
+  {
+    "question": "What ministry did Joni Eareckson Tada found to serve people with disabilities?",
+    "answer": "Joni and Friends",
+    "person_id": "joni-eareckson-tada",
+    "difficulty": 1
   }
 ]
