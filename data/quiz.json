@@ -2696,5 +2696,41 @@
     "answer": "Burned at the stake",
     "person_id": null,
     "difficulty": 3
+  },
+  {
+    "question": "What country is the Theses Door — the church door where Martin Luther posted his 95 Theses — located in?",
+    "answer": "Germany",
+    "person_id": "martin-luther",
+    "difficulty": 1
+  },
+  {
+    "question": "What country is the bronze statue of John Bunyan on St Peter's Green, Bedford, located in?",
+    "answer": "England",
+    "person_id": "john-bunyan",
+    "difficulty": 1
+  },
+  {
+    "question": "What country is the Billy Graham statue in the National Statuary Hall located in?",
+    "answer": "The United States",
+    "person_id": "billy-graham",
+    "difficulty": 1
+  },
+  {
+    "question": "What country is The Kilns, C.S. Lewis's home marked with a memorial blue plaque, located in?",
+    "answer": "England",
+    "person_id": "cs-lewis",
+    "difficulty": 1
+  },
+  {
+    "question": "What country is the Wilberforce Monument in Hull located in?",
+    "answer": "England",
+    "person_id": "william-wilberforce",
+    "difficulty": 1
+  },
+  {
+    "question": "What country is the statue of John Calvin at the International Monument to the Reformation located in?",
+    "answer": "Switzerland",
+    "person_id": "john-calvin",
+    "difficulty": 1
   }
 ]
