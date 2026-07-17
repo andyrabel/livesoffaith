@@ -745,11 +745,87 @@ function renderQuizQuestion() {
 
 const QUIZ_PRINT_COUNT = 10;
 
+// Chinese names in people.json are stored as "English Name 漢字" (see
+// CLAUDE.md Chinese name format) — quiz question text only ever uses the
+// English portion, so strip the trailing CJK before matching against it.
+function quizMatchName(person) {
+  return person.name.replace(/[㐀-鿿豈-﫿가-힣]+\s*$/, '').trim();
+}
+
+// A person's `name` field is their full formal name (e.g. "Charles Haddon
+// Spurgeon"), but quiz question text often uses a shorter everyday form
+// (e.g. "Charles Spurgeon") — so also try dropping any middle name(s).
+// Longest candidate first, since quizQuestionLinkSpans prefers longer spans.
+function quizNameCandidates(person) {
+  const full = quizMatchName(person);
+  const words = full.split(/\s+/);
+  return words.length > 2 ? [full, `${words[0]} ${words[words.length - 1]}`] : [full];
+}
+
+function escapeRegExp(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// Matches a candidate name against text tolerating whitespace differences
+// around initials ("C.T. Studd" in a question vs "C. T. Studd" in the data).
+function findNameSpan(text, name) {
+  if (!name) return null;
+  const pattern = escapeRegExp(name).replace(/ /g, '\\s?');
+  const m = new RegExp(pattern).exec(text);
+  return m ? { start: m.index, end: m.index + m[0].length } : null;
+}
+
+// Finds the (at most one) hymn-title mention and every person-name mention
+// within a quiz question's raw text, so they can be turned into links
+// without ever linking text that isn't already visible in the question —
+// that would give the answer away for questions like "What Chinese pastor
+// spent 20 years in prison...?" where the person's name IS the answer and
+// never appears above. Scans *all* people, not just q.person_id, because
+// "Who was born first: John Calvin or Martin Luther?" style questions name
+// two people in the text but the JSON only records one as the answer —
+// both names are already visible, so linking both can't spoil anything.
+function quizQuestionLinkSpans(text, hymn) {
+  const spans = [];
+  if (hymn) {
+    const m = text.match(/"([^"]+)"/);
+    if (m) spans.push({ start: m.index, end: m.index + m[0].length, href: `hymn.html?id=${hymn.id}` });
+  }
+
+  const personSpans = [];
+  allPeople.forEach(p => {
+    for (const name of quizNameCandidates(p)) {
+      const found = findNameSpan(text, name);
+      if (found) { personSpans.push({ ...found, href: `person.html?id=${p.id}` }); break; }
+    }
+  });
+  personSpans
+    .sort((a, b) => (b.end - b.start) - (a.end - a.start))
+    .forEach(s => {
+      const overlaps = spans.some(x => s.start < x.end && s.end > x.start);
+      if (!overlaps) spans.push(s);
+    });
+
+  return spans.sort((a, b) => a.start - b.start);
+}
+
+function quizQuestionHtml(question, hymn) {
+  const spans = quizQuestionLinkSpans(question, hymn);
+  if (!spans.length) return escapeHtml(question);
+  let html = '';
+  let pos = 0;
+  spans.forEach(s => {
+    html += escapeHtml(question.slice(pos, s.start));
+    html += `<a class="quiz-print-question__link" href="${escapeHtml(s.href)}">${escapeHtml(question.slice(s.start, s.end))}</a>`;
+    pos = s.end;
+  });
+  html += escapeHtml(question.slice(pos));
+  return html;
+}
+
 // The set of questions currently on the sheet, in display order. Rebuilt
 // from scratch on difficulty change / reset; mutated in place by drag,
 // remove and add.
 let currentQuizQuestions = [];
-let quizDragSrcIndex = null;
 
 // Same 10 questions for everyone on a given day at a given difficulty —
 // seeded shuffle (not Math.random) keyed by date + difficulty.
@@ -768,10 +844,12 @@ function renderQuizBuilder() {
   const addBtn = document.getElementById('quiz-print-add');
   if (!questionsList || !answerList) return;
 
-  questionsList.innerHTML = currentQuizQuestions.map((q, i) => `
-    <li class="quiz-print-question" draggable="true" data-index="${i}">
+  questionsList.innerHTML = currentQuizQuestions.map((q, i) => {
+    const hymn = allHymns.find(h => h.id === q.hymn_id);
+    return `
+    <li class="quiz-print-question" data-index="${i}">
       <span class="quiz-print-question__drag no-print" aria-hidden="true" title="Drag to reorder">&#9776;</span>
-      <span class="quiz-print-question__text">${escapeHtml(q.question)}</span>
+      <span class="quiz-print-question__text">${quizQuestionHtml(q.question, hymn)}</span>
       <span class="quiz-print-question__rule"></span>
       <span class="quiz-print-question__controls no-print">
         <button type="button" class="quiz-print-question__move" data-dir="up" data-index="${i}" aria-label="Move question up" ${i === 0 ? 'disabled' : ''}>&#9650;</button>
@@ -779,14 +857,21 @@ function renderQuizBuilder() {
         <button type="button" class="quiz-print-question__remove" data-index="${i}" aria-label="Remove this question">&times;</button>
       </span>
     </li>
-  `).join('');
+  `;
+  }).join('');
 
   answerList.innerHTML = currentQuizQuestions.map(q => {
     const person = allPeople.find(p => p.id === q.person_id);
-    const nameSuffix = person && person.name.toLowerCase() !== q.answer.toLowerCase()
-      ? ` (${escapeHtml(person.name)})`
-      : '';
-    return `<li>${escapeHtml(q.answer)}${nameSuffix}</li>`;
+    const hymn = allHymns.find(h => h.id === q.hymn_id);
+    const matchesPersonName = person && quizMatchName(person).toLowerCase() === q.answer.toLowerCase();
+    const answerHtml = matchesPersonName
+      ? `<a class="quiz-print-answer__link" href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(q.answer)}</a>`
+      : escapeHtml(q.answer);
+    const extras = [];
+    if (hymn) extras.push(`<a class="quiz-print-answer__link" href="hymn.html?id=${escapeHtml(hymn.id)}">&ldquo;${escapeHtml(hymn.title)}&rdquo;</a>`);
+    if (person && !matchesPersonName) extras.push(`<a class="quiz-print-answer__link" href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a>`);
+    const suffix = extras.length ? ` (${extras.join(' &middot; ')})` : '';
+    return `<li>${answerHtml}${suffix}</li>`;
   }).join('');
 
   if (status) {
@@ -829,25 +914,58 @@ function attachQuizBuilderEvents(questionsList) {
     });
   });
 
+  // Pointer Events (not native HTML5 drag/drop) so reordering works the
+  // same way with mouse, touch, and pen — the native drag API doesn't fire
+  // on touch-only browsers, which matters since worship leaders often use
+  // this page from a phone or tablet. Move/up listeners go on `document`,
+  // not the row itself: setPointerCapture looked like the textbook approach
+  // but Chromium was observed releasing capture (a `lostpointercapture`
+  // fires) within a step or two of the drag starting, well before the
+  // pointer leaves the row — capture can't be trusted here, so track the
+  // gesture globally instead.
+  const getDragAfterElement = (y) => {
+    const els = [...questionsList.querySelectorAll('.quiz-print-question:not(.is-dragging)')];
+    return els.reduce((closest, child) => {
+      const box = child.getBoundingClientRect();
+      const offset = y - box.top - box.height / 2;
+      if (offset < 0 && offset > closest.offset) {
+        return { offset, element: child };
+      }
+      return closest;
+    }, { offset: -Infinity, element: null }).element;
+  };
+
+  // Grabbable from anywhere on the row (matching the old native-drag
+  // behaviour, where the whole <li> was draggable="true") — not just the
+  // small handle icon, which is too small a target on its own. The handle
+  // still gets its own touch-action: none in CSS so a touch drag started
+  // there can't be hijacked by the browser as a page-scroll gesture.
   questionsList.querySelectorAll('.quiz-print-question').forEach(li => {
-    li.addEventListener('dragstart', () => {
-      quizDragSrcIndex = parseInt(li.dataset.index, 10);
+    li.addEventListener('pointerdown', (e) => {
+      if (e.target.closest('.quiz-print-question__controls, .quiz-print-question__link')) return;
+      e.preventDefault();
       li.classList.add('is-dragging');
-    });
-    li.addEventListener('dragend', () => {
-      li.classList.remove('is-dragging');
-    });
-    li.addEventListener('dragover', (e) => {
-      e.preventDefault();
-    });
-    li.addEventListener('drop', (e) => {
-      e.preventDefault();
-      const targetIndex = parseInt(li.dataset.index, 10);
-      if (quizDragSrcIndex === null || quizDragSrcIndex === targetIndex) return;
-      const [moved] = currentQuizQuestions.splice(quizDragSrcIndex, 1);
-      currentQuizQuestions.splice(targetIndex, 0, moved);
-      quizDragSrcIndex = null;
-      renderQuizBuilder();
+
+      const onMove = (ev) => {
+        const afterElement = getDragAfterElement(ev.clientY);
+        if (afterElement == null) {
+          questionsList.appendChild(li);
+        } else if (afterElement !== li) {
+          questionsList.insertBefore(li, afterElement);
+        }
+      };
+      const onEnd = () => {
+        document.removeEventListener('pointermove', onMove);
+        document.removeEventListener('pointerup', onEnd);
+        document.removeEventListener('pointercancel', onEnd);
+        li.classList.remove('is-dragging');
+        currentQuizQuestions = [...questionsList.querySelectorAll('.quiz-print-question')]
+          .map(row => currentQuizQuestions[parseInt(row.dataset.index, 10)]);
+        renderQuizBuilder();
+      };
+      document.addEventListener('pointermove', onMove);
+      document.addEventListener('pointerup', onEnd);
+      document.addEventListener('pointercancel', onEnd);
     });
   });
 }
