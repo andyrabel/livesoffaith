@@ -507,13 +507,15 @@ function renderHymnOfDay() {
 // "Featured Person" home page section
 // ============================================================
 
-// The opening paragraph only (per the Two Story Versions structure in
-// CLAUDE.md, paragraph 1 is "who they are") — a concise extract rather
-// than the full story, which lives on the person's own page.
-function firstStoryParagraph(text) {
+// The opening two paragraphs (per the Two Story Versions structure in
+// CLAUDE.md: paragraph 1 is "who they are", paragraph 2 is "what they're
+// known for") — a concise extract rather than the full story, which lives
+// on the person's own page. Paragraph 1 alone often omits what actually
+// made the person notable, so both are included.
+function firstStoryParagraphs(text) {
   if (!text) return '';
-  const para = (text.split(/\n\n+/)[0] || '').trim();
-  return storyToHtml(para);
+  const paras = text.split(/\n\n+/).map(p => p.trim()).filter(Boolean).slice(0, 2);
+  return storyToHtml(paras.join('\n\n'));
 }
 
 // Same seeded-pick approach as Verse/Hymn/On-this-day, with its own seed
@@ -563,11 +565,11 @@ function renderFeaturedPerson() {
         </div>
         <div class="story-panel featured-person__panel${version === 'adult' ? '' : ' hidden'}"
              role="tabpanel" aria-labelledby="featured-tab-adult" id="featured-panel-adult">
-          <div class="story-text">${firstStoryParagraph(person.adult_story)}</div>
+          <div class="story-text">${firstStoryParagraphs(person.adult_story)}</div>
         </div>
         <div class="story-panel featured-person__panel${version === 'family' ? '' : ' hidden'}"
              role="tabpanel" aria-labelledby="featured-tab-family" id="featured-panel-family">
-          <div class="story-text">${firstStoryParagraph(person.family_story)}</div>
+          <div class="story-text">${firstStoryParagraphs(person.family_story)}</div>
         </div>
         <a class="featured-person__link" href="person.html?id=${escapeHtml(person.id)}">Read ${escapeHtml(person.name)}&rsquo;s full story &#8594;</a>
       </div>
@@ -994,6 +996,11 @@ function initQuizPage() {
   const resetBtn = document.getElementById('quiz-print-reset');
   const addBtn = document.getElementById('quiz-print-add');
   if (!difficultySel) return;
+
+  const dateEl = document.getElementById('quiz-date');
+  if (dateEl) {
+    dateEl.textContent = `Today's quiz — ${new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
+  }
 
   const urlParams = new URLSearchParams(window.location.search);
   const paramMax = urlParams.get('max');

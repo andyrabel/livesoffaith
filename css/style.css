@@ -848,6 +848,12 @@ main {
   margin: 0;
 }
 
+.quiz-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0.25rem 0 0;
+}
+
 .quiz-print-sheet {
   background: var(--surface);
   border: 1px solid var(--border);
