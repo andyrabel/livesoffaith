@@ -540,8 +540,6 @@ function renderFeaturedPerson() {
     ? `<img class="featured-person__portrait" src="images/portraits/${escapeHtml(person.image.file)}" alt="" loading="lazy" width="160" height="213" onerror="this.outerHTML='<div class=&quot;featured-person__portrait featured-person__portrait--placeholder&quot;>${initials}</div>'">`
     : `<div class="featured-person__portrait featured-person__portrait--placeholder">${initials}</div>`;
 
-  const version = getStoryVersion();
-
   container.innerHTML = `
     <div class="featured-person">
       <a class="featured-person__portrait-link" href="person.html?id=${escapeHtml(person.id)}" aria-label="View ${escapeHtml(person.name)}'s profile">
@@ -551,44 +549,13 @@ function renderFeaturedPerson() {
         <span class="featured-person__label">Featured Person</span>
         <h2 class="featured-person__name"><a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a></h2>
         <p class="featured-person__dates">${years}</p>
-        <div class="story-tabs-nav featured-person__tabs" role="tablist" aria-label="Story version">
-          <button class="story-tab${version === 'adult' ? ' active' : ''}"
-                  role="tab" aria-selected="${version === 'adult'}"
-                  aria-controls="featured-panel-adult" id="featured-tab-adult" data-version="adult">
-            For Worship &amp; Teaching
-          </button>
-          <button class="story-tab${version === 'family' ? ' active' : ''}"
-                  role="tab" aria-selected="${version === 'family'}"
-                  aria-controls="featured-panel-family" id="featured-tab-family" data-version="family">
-            Family Version
-          </button>
-        </div>
-        <div class="story-panel featured-person__panel${version === 'adult' ? '' : ' hidden'}"
-             role="tabpanel" aria-labelledby="featured-tab-adult" id="featured-panel-adult">
-          <div class="story-text">${firstStoryParagraphs(person.adult_story)}</div>
-        </div>
-        <div class="story-panel featured-person__panel${version === 'family' ? '' : ' hidden'}"
-             role="tabpanel" aria-labelledby="featured-tab-family" id="featured-panel-family">
+        <div class="story-panel featured-person__panel">
           <div class="story-text">${firstStoryParagraphs(person.family_story)}</div>
         </div>
         <a class="featured-person__link" href="person.html?id=${escapeHtml(person.id)}">Read ${escapeHtml(person.name)}&rsquo;s full story &#8594;</a>
       </div>
     </div>
   `;
-
-  container.querySelectorAll('.featured-person__tabs .story-tab').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const v = btn.dataset.version;
-      setStoryVersion(v);
-      container.querySelectorAll('.featured-person__tabs .story-tab').forEach(b => {
-        b.classList.toggle('active', b.dataset.version === v);
-        b.setAttribute('aria-selected', String(b.dataset.version === v));
-      });
-      container.querySelectorAll('.featured-person__panel').forEach(p => {
-        p.classList.toggle('hidden', p.id !== `featured-panel-${v}`);
-      });
-    });
-  });
 }
 
 // ============================================================
