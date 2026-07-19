@@ -2264,6 +2264,15 @@ main {
   font-weight: 600;
 }
 
+.book-row-title[data-tooltip] {
+  cursor: help;
+  border-bottom: 1px dotted var(--text-muted);
+}
+
+.book-tooltip {
+  max-width: 360px;
+}
+
 .book-row-meta,
 .book-row-isbn {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;

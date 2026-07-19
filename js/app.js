@@ -1065,14 +1065,40 @@ function bookCardHtml(book, authorName) {
   const isbnHtml = book.isbn
     ? `<span class="book-row-isbn">ISBN ${escapeHtml(book.isbn)}</span>`
     : '';
+  const titleAttrs = book.fb_summary
+    ? ` tabindex="0" data-tooltip="${escapeHtml(book.fb_summary)}"`
+    : '';
   return `
     <div class="book-row">
-      <span class="book-row-title">${escapeHtml(book.title)}</span>
+      <span class="book-row-title"${titleAttrs}>${escapeHtml(book.title)}</span>
       <span class="book-row-meta">${escapeHtml(book.year)} &middot; ${escapeHtml(book.format)}</span>
       ${isbnHtml}
       <a class="btn btn-primary book-row-buy" href="${escapeHtml(bookBuyUrl(book, authorName))}" target="_blank" rel="noopener noreferrer nofollow">Buy</a>
     </div>
   `;
+}
+
+// Shared hover/focus tooltip for book titles, showing the fuller summary
+// held in book.fb_summary (written for the Facebook book posts) that the
+// compact one-line book list itself has no room to display.
+function bindBookTooltips(section) {
+  const tooltip = document.getElementById('book-tooltip');
+  if (!tooltip) return;
+  section.querySelectorAll('.book-row-title[data-tooltip]').forEach(el => {
+    const show = () => {
+      tooltip.textContent = el.dataset.tooltip;
+      tooltip.hidden = false;
+      const rect = el.getBoundingClientRect();
+      const maxWidth = tooltip.offsetWidth || 340;
+      const left = Math.min(rect.left, window.innerWidth - maxWidth - 12);
+      tooltip.style.left = `${Math.max(12, left)}px`;
+      tooltip.style.top = `${rect.bottom + 8}px`;
+    };
+    el.addEventListener('mouseenter', show);
+    el.addEventListener('focus', show);
+    el.addEventListener('mouseleave', () => { tooltip.hidden = true; });
+    el.addEventListener('blur', () => { tooltip.hidden = true; });
+  });
 }
 
 // Renders one page of `books` into `section` (a `.person-books` element)
@@ -1085,6 +1111,7 @@ function renderBooksPage(section, books, authorName, page) {
   const pageBooks = books.slice(start, start + BOOKS_PER_PAGE);
 
   section.querySelector('.books-grid').innerHTML = pageBooks.map(b => bookCardHtml(b, authorName)).join('');
+  bindBookTooltips(section);
 
   const pager = section.querySelector('.books-pagination');
   if (totalPages <= 1) {
