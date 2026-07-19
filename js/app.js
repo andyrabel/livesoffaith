@@ -12,6 +12,7 @@ const VERSES_URL = 'data/verses.json';
 const HYMNS_URL = 'data/hymns.json';
 const HISTORICAL_EVENTS_URL = 'data/historical_events.json';
 const CONNECTIONS_URL = 'data/connections.json';
+const BOOKS_URL = 'data/books.json';
 const STORY_PREF_KEY = 'preferred-story-version';
 const QUIZ_DIFFICULTY_KEY = 'preferred-quiz-difficulty';
 
@@ -25,6 +26,7 @@ let allVerses = {};
 let allHymns = [];
 let allHistoricalEvents = [];
 let allConnections = [];
+let allBooks = [];
 
 // Categorical colour per region, fixed order matching the region filter
 // dropdown (UK/Ireland, North America, Africa, Asia, Latin America, Europe,
@@ -990,6 +992,126 @@ function initQuizPage() {
   loadDefaults();
 }
 
+// ============================================================
+// Books — person page "Books" grid with buy links
+// ============================================================
+
+const BOOKS_PER_PAGE = 8;
+
+// Amazon marketplace domain by ISO country code, keyed off the visitor's
+// browser locale (navigator.languages) rather than any geo-IP lookup —
+// this is a static site with no backend to do that. Falls back to
+// amazon.com for any country without a local Amazon storefront.
+const AMAZON_DOMAIN_BY_COUNTRY = {
+  US: 'amazon.com', GB: 'amazon.co.uk', IE: 'amazon.co.uk', CA: 'amazon.ca',
+  AU: 'amazon.com.au', NZ: 'amazon.com.au', DE: 'amazon.de', AT: 'amazon.de',
+  CH: 'amazon.de', FR: 'amazon.fr', BE: 'amazon.fr', IT: 'amazon.it',
+  ES: 'amazon.es', NL: 'amazon.nl', SE: 'amazon.se', PL: 'amazon.pl',
+  JP: 'amazon.co.jp', IN: 'amazon.in', BR: 'amazon.com.br', MX: 'amazon.com.mx',
+  SG: 'amazon.sg', AE: 'amazon.ae', SA: 'amazon.sa', EG: 'amazon.eg',
+  TR: 'amazon.com.tr',
+};
+
+// Fallback keyed off bare language subtag, for locales reported without a
+// region (e.g. "de" rather than "de-DE").
+const AMAZON_DOMAIN_BY_LANGUAGE = {
+  en: 'amazon.com', de: 'amazon.de', fr: 'amazon.fr', it: 'amazon.it',
+  es: 'amazon.es', nl: 'amazon.nl', sv: 'amazon.se', pl: 'amazon.pl',
+  ja: 'amazon.co.jp', pt: 'amazon.com.br', tr: 'amazon.com.tr', ar: 'amazon.ae',
+};
+
+function amazonDomainForVisitor() {
+  const locales = (navigator.languages && navigator.languages.length)
+    ? navigator.languages
+    : [navigator.language || 'en-US'];
+
+  for (const locale of locales) {
+    const country = locale.split('-')[1];
+    if (country && AMAZON_DOMAIN_BY_COUNTRY[country.toUpperCase()]) {
+      return AMAZON_DOMAIN_BY_COUNTRY[country.toUpperCase()];
+    }
+  }
+  for (const locale of locales) {
+    const lang = locale.split('-')[0].toLowerCase();
+    if (AMAZON_DOMAIN_BY_LANGUAGE[lang]) return AMAZON_DOMAIN_BY_LANGUAGE[lang];
+  }
+  return 'amazon.com';
+}
+
+// Links to an Amazon search rather than a specific /dp/ product page —
+// ISBN-13 doesn't reliably map to the ASIN Amazon uses for older or
+// region-specific editions, but their search-by-ISBN always resolves to
+// the right book, and it degrades gracefully to a title search when no
+// ISBN was found for a pre-ISBN-era work.
+function bookBuyUrl(book, author) {
+  const domain = amazonDomainForVisitor();
+  const query = book.isbn ? book.isbn.replace(/-/g, '') : `${book.title} ${author}`;
+  return `https://${domain}/s?k=${encodeURIComponent(query)}&i=stripbooks`;
+}
+
+function parseBookYear(year) {
+  const match = /\d{4}/.exec(year || '');
+  return match ? parseInt(match[0], 10) : 0;
+}
+
+function personBooksSorted(personId) {
+  return allBooks
+    .filter(b => b.person_id === personId)
+    .slice()
+    .sort((a, b) => parseBookYear(a.year) - parseBookYear(b.year));
+}
+
+function bookCardHtml(book, authorName) {
+  const isbnHtml = book.isbn
+    ? `<span class="book-row-isbn">ISBN ${escapeHtml(book.isbn)}</span>`
+    : '';
+  return `
+    <div class="book-row">
+      <span class="book-row-title">${escapeHtml(book.title)}</span>
+      <span class="book-row-meta">${escapeHtml(book.year)} &middot; ${escapeHtml(book.format)}</span>
+      ${isbnHtml}
+      <a class="btn btn-primary book-row-buy" href="${escapeHtml(bookBuyUrl(book, authorName))}" target="_blank" rel="noopener noreferrer nofollow">Buy</a>
+    </div>
+  `;
+}
+
+// Renders one page of `books` into `section` (a `.person-books` element)
+// and wires up its Prev/Next buttons to re-render further pages in place,
+// so pagination doesn't require re-rendering the whole person page.
+function renderBooksPage(section, books, authorName, page) {
+  const totalPages = Math.max(1, Math.ceil(books.length / BOOKS_PER_PAGE));
+  const current = Math.min(Math.max(page, 0), totalPages - 1);
+  const start = current * BOOKS_PER_PAGE;
+  const pageBooks = books.slice(start, start + BOOKS_PER_PAGE);
+
+  section.querySelector('.books-grid').innerHTML = pageBooks.map(b => bookCardHtml(b, authorName)).join('');
+
+  const pager = section.querySelector('.books-pagination');
+  if (totalPages <= 1) {
+    pager.innerHTML = '';
+    return;
+  }
+  pager.innerHTML = `
+    <button type="button" class="books-page-btn books-page-prev"${current === 0 ? ' disabled' : ''} aria-label="Previous page of books">&#8592; Prev</button>
+    <span class="books-page-status">Page ${current + 1} of ${totalPages}</span>
+    <button type="button" class="books-page-btn books-page-next"${current === totalPages - 1 ? ' disabled' : ''} aria-label="Next page of books">Next &#8594;</button>
+  `;
+  pager.querySelector('.books-page-prev').addEventListener('click', () => renderBooksPage(section, books, authorName, current - 1));
+  pager.querySelector('.books-page-next').addEventListener('click', () => renderBooksPage(section, books, authorName, current + 1));
+}
+
+function booksSectionHtml(person) {
+  const books = personBooksSorted(person.id);
+  if (!books.length) return '';
+  return `
+    <div class="person-books" id="person-books-section">
+      <h2 class="person-books-title">&#128214; Books <span class="person-books-note">books they authored &mdash; a representative few, not exhaustive</span></h2>
+      <div class="books-grid"></div>
+      <div class="books-pagination" role="navigation" aria-label="Books pagination"></div>
+    </div>
+  `;
+}
+
 function memorialsSectionHtml(person) {
   const memorials = person.memorials || [];
   if (!memorials.length) return '';
@@ -1105,6 +1227,17 @@ async function loadHymns() {
   } catch (err) {
     console.error('Failed to load hymns.json:', err);
     allHymns = [];
+  }
+}
+
+async function loadBooks() {
+  try {
+    const res = await fetch(BOOKS_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allBooks = await res.json();
+  } catch (err) {
+    console.error('Failed to load books.json:', err);
+    allBooks = [];
   }
 }
 
@@ -1743,6 +1876,7 @@ function initPersonPage() {
   const timelineHtml = significantDatesSectionHtml(person);
   const memorialsHtml = memorialsSectionHtml(person);
   const connectionsHtml = connectionsSectionHtml(person);
+  const booksHtml = booksSectionHtml(person);
 
   content.innerHTML = `
     <div class="person-header">
@@ -1810,6 +1944,7 @@ function initPersonPage() {
 
     ${timelineHtml}
     ${connectionsHtml}
+    ${booksHtml}
     ${memorialsHtml}
   `;
 
@@ -1846,6 +1981,13 @@ function initPersonPage() {
       readAloud(story, `${person.name}, ${formatYears(person)}`, btn);
     });
   });
+
+  // Books grid (initial page) — subsequent pages are rendered in place by
+  // the Prev/Next handlers wired up inside renderBooksPage itself.
+  const booksSection = content.querySelector('#person-books-section');
+  if (booksSection) {
+    renderBooksPage(booksSection, personBooksSorted(person.id), person.name, 0);
+  }
 
   renderPersonNav(person);
 }
@@ -4541,7 +4683,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns(), loadHistoricalEvents(), loadConnections()]);
+  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns(), loadHistoricalEvents(), loadConnections(), loadBooks()]);
 
   if (document.getElementById('home-digest')) {
     initHomePage();

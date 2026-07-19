@@ -2217,6 +2217,107 @@ main {
   }
 }
 
+/* --- Person Books -------------------------------------------- */
+.person-books {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.person-books-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.person-books-note {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text-muted);
+  margin-left: 0.5rem;
+}
+
+.books-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.book-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.6rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius);
+}
+
+.book-row-title {
+  font-size: 0.92rem;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.book-row-meta,
+.book-row-isbn {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+}
+
+.book-row-buy {
+  margin-left: auto;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.76rem;
+}
+
+@media (max-width: 520px) {
+  .book-row-buy { margin-left: 0; }
+}
+
+.books-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.books-page-btn {
+  padding: 0.4rem 0.8rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  background: var(--border-light);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.books-page-btn:hover:not(:disabled) {
+  background: var(--border);
+  color: var(--text);
+}
+
+.books-page-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.books-page-status {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
 /* --- Connections widget (person page) ------------------------ */
 .person-related {
   background: var(--surface);
