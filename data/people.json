@@ -137,10 +137,10 @@
     "image": {
       "file": "john-newton.jpg",
       "prompt_used": "Photorealistic portrait of John Newton, English Anglican minister and hymn writer, late 18th century, wearing dark clerical coat, thoughtful and humble expression, historically accurate to 1780s dress",
-      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:JohnNewtonColour.jpg — contemporary portrait, public domain",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:John_Newton_(NYPL_Hades-255734-EM12244).jpg — NYPL Public Domain Archive, engraving of contemporary portrait, 1880, public domain",
       "caption": "AI-generated image — no copyright claimed",
       "redistribution_safe": true,
-      "redistribution_note": "Contemporary portrait, faithful reproduction of a public-domain artwork — no substantive caveat."
+      "redistribution_note": "NYPL Public Domain Archive engraving, 1880 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -992,10 +992,10 @@
     "image": {
       "file": "susanna-wesley.jpg",
       "prompt_used": "Photorealistic portrait of Susanna Wesley, English mother of John and Charles Wesley, 18th century, wearing modest Georgian dress, composed and devout expression, historically accurate",
-      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Susanna_Wesley.jpg — 18th-century portrait, published before 1931, public domain in USA",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Susannah_Wesley_(5349092).jpg — National Library of Wales portrait archive, photomechanical print, 1902, public domain",
       "caption": "AI-generated image — no copyright claimed",
       "redistribution_safe": true,
-      "redistribution_note": "18th-century portrait, published before 1931 — clear public-domain claim, no caveat."
+      "redistribution_note": "National Library of Wales portrait archive, 1902 photomechanical print — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -2055,10 +2055,10 @@
     "image": {
       "file": "sadhu-sundar-singh.jpg",
       "prompt_used": "Photorealistic portrait of Sadhu Sundar Singh, Indian Christian evangelist and sadhu from Punjab, circa 1920s, wearing a saffron robe in traditional sadhu style, serene and devout expression, historically accurate",
-      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:SadhuSundarSingh.jpg — public domain, published before January 1 1931, Creative Commons Public Domain Mark 1.0",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Sadhu_Sundar_Sing_in_1922.png — photograph by Emil Finn, 1922, public domain",
       "caption": "AI-generated image — no copyright claimed",
       "redistribution_safe": true,
-      "redistribution_note": "Published before Jan 1 1931, Creative Commons Public Domain Mark 1.0 — clear claim, no caveat."
+      "redistribution_note": "1922 photograph credited to a named photographer (Emil Finn) — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": false,
@@ -3076,10 +3076,10 @@
     "image": {
       "file": "thomas-watson.jpg",
       "prompt_used": "Portrait of Thomas Watson, English Puritan minister and theologian, mid-17th century, wearing typical Puritan dark coat with plain white collar bands, serious and devout expression, historically accurate to 1660s",
-      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Thomas_Watson_(Puritan).jpg — public domain, traditional print after engraving by James Hopwood the Elder (c.1750–1819)",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Watson-thomas-3a6a8c-1024.jpg — 17th-century engraving, public domain",
       "caption": "AI-generated image — no copyright claimed",
       "redistribution_safe": true,
-      "redistribution_note": "Engraving c.1750-1819 — clear public-domain claim, no caveat."
+      "redistribution_note": "17th-century engraving, public domain — clear claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -4403,10 +4403,10 @@
     "image": {
       "file": "ct-studd.jpg",
       "prompt_used": "Portrait of C. T. Studd, British cricketer turned missionary, late 19th century, wearing dark Victorian gentleman’s clothing, earnest and resolute expression, young man in his twenties, historically accurate to 1880s",
-      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Charles_Studd_c1882.jpg — photograph c.1882, public domain",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Charles_Thomas_Studd_circa_1880.jpg — 600x847, portrait circa 1880, public domain",
       "caption": "AI-generated image — no copyright claimed",
       "redistribution_safe": true,
-      "redistribution_note": "Photograph c.1882 — clear public-domain claim, no caveat."
+      "redistribution_note": "Portrait circa 1880, from the 1944 biography cover — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -4478,10 +4478,10 @@
     "image": {
       "file": "thomas-barnardo.jpg",
       "prompt_used": "Portrait of Thomas Barnardo, Victorian Irish-born Christian philanthropist and founder of children’s homes, late 19th century, wearing a dark Victorian frock coat, compassionate and determined expression, historically accurate to 1880s",
-      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Thomas_John_Barnardo.jpg — Victorian photograph, public domain",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Thomas_John_Barnardo_by_Boys_Home_Studio.jpg — CC0 public domain dedication",
       "caption": "AI-generated image — no copyright claimed",
       "redistribution_safe": true,
-      "redistribution_note": "Victorian photograph — clear public-domain claim, no caveat."
+      "redistribution_note": "CC0 public domain dedication — explicit no-rights-reserved release, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -5798,10 +5798,10 @@
     "image": {
       "file": "dwight-l-moody.jpg",
       "prompt_used": "Photorealistic portrait of Dwight L. Moody, American evangelical preacher, circa 1880s-1890s, wearing a dark Victorian suit, stocky build with full beard, warm and earnest expression, historically accurate",
-      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Dwight_Lyman_Moody_c.1900.jpg — Library of Congress (digital ID cph.3c22752), published before 1931, public domain",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Dwight_Lyman_Moody,_bust_portrait,_facing_front_LCCN99401105.jpg — Library of Congress, bust portrait, 1900, public domain",
       "caption": "AI-generated image — no copyright claimed",
       "redistribution_safe": true,
-      "redistribution_note": "Library of Congress, published before 1931 — clear public-domain claim, no caveat."
+      "redistribution_note": "Library of Congress bust portrait, 1900 — clear public-domain claim, no caveat."
     },
     "review": {
       "human_reviewed": true,
@@ -11181,10 +11181,10 @@
     "image": {
       "file": "toyohiko-kagawa.jpg",
       "prompt_used": "Photorealistic portrait of Toyohiko Kagawa, Japanese Christian evangelist and social reformer, circa 1920s, wearing a plain dark Western suit, thoughtful and compassionate expression, historically accurate",
-      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:KAGAWA_Toyohiko_young.JPG — circa 1920 photograph, source: Kagawa Toyohiko Memorial and Matsuzawa Materials Museum; public domain (Japan/US copyright expired)",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Toyohiko_Kagawa_by_Shigeru_Tamura.jpg — published in 'Gendai Nihon no Hyakunin' (100 People in Modern Japan), Bungei Shunjū Shinsha, 1953, public domain",
       "caption": "AI-generated image — no copyright claimed",
       "redistribution_safe": true,
-      "redistribution_note": "Circa 1920 photograph with expired Japan/US copyright — clear public-domain claim, held by the Kagawa Memorial Museum."
+      "redistribution_note": "Published 1953 in a Japanese biographical anthology — clear public-domain claim, no caveat."
     },
     "memorials": [
       {
