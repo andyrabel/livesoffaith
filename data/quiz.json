@@ -2896,5 +2896,47 @@
     "person_id": "cecil-frances-alexander",
     "hymn_id": "all-things-bright-and-beautiful",
     "difficulty": 1
+  },
+  {
+    "question": "Who said, \"I am a great sinner, and Christ is a great Saviour\"?",
+    "answer": "John Newton",
+    "person_id": "john-newton",
+    "difficulty": 3
+  },
+  {
+    "question": "Complete Carey's 1792 missionary watchword: \"Expect great things from God; attempt great things for ___\"",
+    "answer": "God",
+    "person_id": "william-carey",
+    "difficulty": 3
+  },
+  {
+    "question": "Complete Corrie ten Boom's words to the former SS guard who extended his hand to her after the war: \"I forgive you, ___! With all my heart.\"",
+    "answer": "brother",
+    "person_id": "corrie-ten-boom",
+    "difficulty": 5
+  },
+  {
+    "question": "Complete Martin Luther's words before the Diet of Worms: \"Here I stand; I can do no ___.\"",
+    "answer": "other",
+    "person_id": "martin-luther",
+    "difficulty": 3
+  },
+  {
+    "question": "What did Brother Andrew pray at every border crossing while smuggling Bibles behind the Iron Curtain: \"Lord, you made blind eyes see. Now make seeing eyes ___\"?",
+    "answer": "blind",
+    "person_id": "brother-andrew",
+    "difficulty": 5
+  },
+  {
+    "question": "What Bible verse was being preached on the snowy day a teenage Charles Spurgeon was converted?",
+    "answer": "Isaiah 45:22, \"Look unto me, and be ye saved\"",
+    "person_id": "charles-spurgeon",
+    "difficulty": 5
+  },
+  {
+    "question": "Complete Harriet Tubman's own words about her escape: \"God set the North Star in the heavens; he gave me the strength in my limbs; he meant I should be ___.\"",
+    "answer": "free",
+    "person_id": "harriet-tubman",
+    "difficulty": 3
   }
 ]
