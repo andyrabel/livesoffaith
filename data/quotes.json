@@ -1,0 +1,687 @@
+[
+  {
+    "id": "john-newton-1",
+    "person_id": "john-newton",
+    "quote": "Once an infidel and libertine, a servant of slaves in Africa, was, by the rich mercy of our Lord and Saviour Jesus Christ, preserved, restored, pardoned, and appointed to preach the faith he had long laboured to destroy.",
+    "source": "Self-composed epitaph, his tomb at Olney parish church",
+    "source_url": "https://historicengland.org.uk/listing/the-list/list-entry/1392852",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "grace",
+      "conversion"
+    ]
+  },
+  {
+    "id": "john-newton-2",
+    "person_id": "john-newton",
+    "quote": "I am not what I ought to be, I am not what I want to be, I am not what I hope to be, but I thank God I am not what I once was, and I can say with the great apostle, \"By the grace of God I am what I am.\"",
+    "source": "Popular one-sentence paraphrase of a longer passage in a letter of 2 June 1772 (printed in The Christian Pioneer, 1856, p. 84); the original letter renders this as several shorter sentences",
+    "source_url": "https://en.wikiquote.org/wiki/John_Newton",
+    "confidence": "medium",
+    "renown": "iconic",
+    "topics": [
+      "grace",
+      "sanctification",
+      "conversion"
+    ]
+  },
+  {
+    "id": "charles-spurgeon-1",
+    "person_id": "charles-spurgeon",
+    "quote": "The practice of truth is the most profitable reading of it.",
+    "source": "Morning and Evening (1866), June 20 entry",
+    "source_url": "https://en.wikiquote.org/wiki/Charles_Spurgeon",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "scripture",
+      "obedience"
+    ]
+  },
+  {
+    "id": "charles-spurgeon-2",
+    "person_id": "charles-spurgeon",
+    "quote": "Soul-winning is the chief business of the Christian minister.",
+    "source": "The Soul-Winner (1895)",
+    "source_url": "https://en.wikiquote.org/wiki/Charles_Spurgeon",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "evangelism",
+      "preaching"
+    ]
+  },
+  {
+    "id": "charles-spurgeon-3",
+    "person_id": "charles-spurgeon",
+    "quote": "Every generation needs regeneration.",
+    "source": "The Salt-Cellars (1885), Vol. 1",
+    "source_url": "https://en.wikiquote.org/wiki/Charles_Spurgeon",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "conversion",
+      "gospel"
+    ]
+  },
+  {
+    "id": "charles-spurgeon-4",
+    "person_id": "charles-spurgeon",
+    "quote": "Care more for a grain of faith than a ton of excitement.",
+    "source": "Lectures to My Students (1870)",
+    "source_url": "https://en.wikiquote.org/wiki/Charles_Spurgeon",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "faith",
+      "revival"
+    ]
+  },
+  {
+    "id": "john-bunyan-1",
+    "person_id": "john-bunyan",
+    "quote": "So I awoke, and behold it was a dream.",
+    "source": "The Pilgrim's Progress (1678), closing line",
+    "source_url": "https://www.gutenberg.org/files/131/131-h/131-h.htm",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "perseverance"
+    ]
+  },
+  {
+    "id": "john-bunyan-2",
+    "person_id": "john-bunyan",
+    "quote": "He that is down needs fear no fall, he that is low no pride.",
+    "source": "The Pilgrim's Progress, Part II, Ch. VI (Shepherd Boy's Song)",
+    "source_url": "https://en.wikiquote.org/wiki/John_Bunyan",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "humility",
+      "suffering"
+    ]
+  },
+  {
+    "id": "william-wilberforce-1",
+    "person_id": "william-wilberforce",
+    "quote": "God Almighty has set before me two great objects: the suppression of the Slave Trade and the reformation of manners.",
+    "source": "Diary entry, 28 October 1787",
+    "source_url": "https://christianhistoryinstitute.org/study/module/wilberforce",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "abolition",
+      "justice",
+      "consecration"
+    ]
+  },
+  {
+    "id": "william-wilberforce-2",
+    "person_id": "william-wilberforce",
+    "quote": "Let us not despair; it is a blessed cause, and success, ere long, will crown our exertions.",
+    "source": "Speech to the House of Commons, 18 April 1791",
+    "source_url": "https://en.wikiquote.org/wiki/William_Wilberforce",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "perseverance",
+      "abolition"
+    ]
+  },
+  {
+    "id": "william-wilberforce-3",
+    "person_id": "william-wilberforce",
+    "quote": "If to be feelingly alive to the sufferings of my fellow-creatures is to be a fanatic, I am one of the most incurable fanatics ever permitted to be at large.",
+    "source": "Attributed on accepting leadership of the anti-slave-trade campaign",
+    "source_url": "https://en.wikiquote.org/wiki/William_Wilberforce",
+    "confidence": "medium",
+    "renown": "well_known",
+    "topics": [
+      "compassion",
+      "abolition",
+      "justice"
+    ]
+  },
+  {
+    "id": "william-wilberforce-4",
+    "person_id": "william-wilberforce",
+    "quote": "Thank God that I should have lived to witness a day in which England is willing to give twenty millions sterling for the abolition of slavery.",
+    "source": "House of Commons, 26 July 1833",
+    "source_url": "https://en.wikiquote.org/wiki/William_Wilberforce",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "abolition",
+      "justice"
+    ]
+  },
+  {
+    "id": "cs-lewis-1",
+    "person_id": "cs-lewis",
+    "quote": "I believe in Christianity as I believe that the sun has risen, not only because I see it, but because by it I see everything else.",
+    "source": "\"Is Theology Poetry?\" (1945)",
+    "source_url": "https://en.wikiquote.org/wiki/C._S._Lewis",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "faith",
+      "doctrine"
+    ]
+  },
+  {
+    "id": "cs-lewis-2",
+    "person_id": "cs-lewis",
+    "quote": "God whispers to us in our pleasures, speaks in our conscience, but shouts in our pains: it is His megaphone to rouse a deaf world.",
+    "source": "The Problem of Pain (1940)",
+    "source_url": "https://en.wikiquote.org/wiki/C._S._Lewis",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "suffering"
+    ]
+  },
+  {
+    "id": "cs-lewis-3",
+    "person_id": "cs-lewis",
+    "quote": "Either this man was, and is, the Son of God: or else a madman or something worse.",
+    "source": "Mere Christianity (1952), Book II, Ch. 3",
+    "source_url": "https://en.wikiquote.org/wiki/C._S._Lewis",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "doctrine",
+      "faith"
+    ]
+  },
+  {
+    "id": "cs-lewis-4",
+    "person_id": "cs-lewis",
+    "quote": "Aim at heaven and you will get earth thrown in; aim at earth and you get neither.",
+    "source": "Mere Christianity (1952), Book III, Ch. 10",
+    "source_url": "https://www.brainyquote.com/quotes/c_s_lewis_115352",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "hope",
+      "surrender"
+    ]
+  },
+  {
+    "id": "cs-lewis-5",
+    "person_id": "cs-lewis",
+    "quote": "It is Christ Himself, not the Bible, who is the true Word of God.",
+    "source": "Letter, 8 November 1952; published in Letters of C. S. Lewis (1966)",
+    "source_url": "https://en.wikiquote.org/wiki/C._S._Lewis",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "doctrine",
+      "scripture"
+    ]
+  },
+  {
+    "id": "hudson-taylor-1",
+    "person_id": "hudson-taylor",
+    "quote": "I have found that there are three stages in every great work of God: first, it is impossible, then it is difficult, then it is done.",
+    "source": "Quoted in A Passion for the Impossible (1965)",
+    "source_url": "https://en.wikiquote.org/wiki/Hudson_Taylor",
+    "confidence": "medium",
+    "renown": "iconic",
+    "topics": [
+      "missions",
+      "perseverance",
+      "trust"
+    ]
+  },
+  {
+    "id": "hudson-taylor-2",
+    "person_id": "hudson-taylor",
+    "quote": "Christ is either Lord of all, or is not Lord at all.",
+    "source": "Quoted in Hudson Taylor: Lessons in Discipleship (1995)",
+    "source_url": "https://en.wikiquote.org/wiki/Hudson_Taylor",
+    "confidence": "medium",
+    "renown": "iconic",
+    "topics": [
+      "discipleship",
+      "obedience"
+    ]
+  },
+  {
+    "id": "hudson-taylor-3",
+    "person_id": "hudson-taylor",
+    "quote": "All God's giants have been weak men, who did great things for God because they reckoned on His being with them.",
+    "source": "Quoted in Hudson Taylor and the China Inland Mission (1918)",
+    "source_url": "https://en.wikiquote.org/wiki/Hudson_Taylor",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "faith",
+      "missions"
+    ]
+  },
+  {
+    "id": "hudson-taylor-4",
+    "person_id": "hudson-taylor",
+    "quote": "You do not need a great faith, but faith in a great God.",
+    "source": "Quoted in Hudson Taylor: Lessons in Discipleship (1995)",
+    "source_url": "https://en.wikiquote.org/wiki/Hudson_Taylor",
+    "confidence": "medium",
+    "renown": "well_known",
+    "topics": [
+      "faith",
+      "trust"
+    ]
+  },
+  {
+    "id": "hudson-taylor-5",
+    "person_id": "hudson-taylor",
+    "quote": "A little thing is a little thing, but faithfulness in little things is a great thing.",
+    "source": "Hudson Taylor and China's Open Century, Book Four",
+    "source_url": "https://en.wikiquote.org/wiki/Hudson_Taylor",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "faithfulness"
+    ]
+  },
+  {
+    "id": "george-muller-1",
+    "person_id": "george-muller",
+    "quote": "There was a day when I died, utterly died, died to George Muller, his opinions, preferences, tastes, and will; died to the world, its approval or censure; died to the approval or blame even of my brethren and friends.",
+    "source": "Quoted in George Muller of Bristol: His Life of Prayer and Faith by A. T. Pierson (1899)",
+    "source_url": "https://en.wikiquote.org/wiki/George_M%C3%BCller",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "surrender",
+      "consecration"
+    ]
+  },
+  {
+    "id": "george-muller-2",
+    "person_id": "george-muller",
+    "quote": "The beginning of anxiety is the end of faith, and the beginning of true faith is the end of anxiety.",
+    "source": "Widely attributed to Muller (e.g. The Churchman, 1897); no confirmed original source in his own writings establishes his authorship",
+    "source_url": "https://en.wikiquote.org/wiki/George_M%C3%BCller",
+    "confidence": "low",
+    "renown": "iconic",
+    "topics": [
+      "faith",
+      "trust"
+    ]
+  },
+  {
+    "id": "george-muller-3",
+    "person_id": "george-muller",
+    "quote": "Prayer and faith, the universal remedies against every want and every difficulty.",
+    "source": "A Narrative of Some of the Lord's Dealings with George Muller, Written by Himself, Third Part",
+    "source_url": "https://en.wikiquote.org/wiki/George_M%C3%BCller",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "prayer",
+      "faith"
+    ]
+  },
+  {
+    "id": "martin-luther-1",
+    "person_id": "martin-luther",
+    "quote": "Faith is a living, daring confidence in God's grace, so sure and certain that the believer would stake his life on it a thousand times.",
+    "source": "Preface to the Epistle of St. Paul to the Romans (1522)",
+    "source_url": "https://www.azquotes.com/quote/780493",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "faith",
+      "grace"
+    ]
+  },
+  {
+    "id": "martin-luther-2",
+    "person_id": "martin-luther",
+    "quote": "Here I stand, I can do no other.",
+    "source": "Popularly attributed to Luther's response at the Diet of Worms (1521) — Wikiquote notes no eyewitness transcript records him saying this exact line",
+    "source_url": "https://en.wikiquote.org/wiki/Martin_Luther",
+    "confidence": "low",
+    "renown": "iconic",
+    "topics": [
+      "courage",
+      "doctrine"
+    ]
+  },
+  {
+    "id": "martin-luther-3",
+    "person_id": "martin-luther",
+    "quote": "Be a sinner and sin boldly, but believe and rejoice in Christ even more boldly, for he is victorious over sin, death, and the world.",
+    "source": "Letter to Philip Melanchthon, 1 August 1521; Luther's Works, Vol. 48, pp. 281-282",
+    "source_url": "https://www.1517.org/articles/sin-boldly",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "grace",
+      "sin and grace"
+    ]
+  },
+  {
+    "id": "john-wesley-1",
+    "person_id": "john-wesley",
+    "quote": "I look on all the world as my parish.",
+    "source": "Journal, 11 June 1739",
+    "source_url": "https://en.wikiquote.org/wiki/John_Wesley",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "missions",
+      "evangelism"
+    ]
+  },
+  {
+    "id": "john-wesley-2",
+    "person_id": "john-wesley",
+    "quote": "Though I am always in haste, I am never in a hurry.",
+    "source": "Letter, 10 December 1777",
+    "source_url": "https://en.wikiquote.org/wiki/John_Wesley",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "trust"
+    ]
+  },
+  {
+    "id": "john-wesley-3",
+    "person_id": "john-wesley",
+    "quote": "An ounce of love is worth a pound of knowledge.",
+    "source": "Letter to Joseph Benson, 7 November 1768",
+    "source_url": "https://en.wikiquote.org/wiki/John_Wesley",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "love",
+      "doctrine"
+    ]
+  },
+  {
+    "id": "john-wesley-4",
+    "person_id": "john-wesley",
+    "quote": "Do all the good you can, by all the means you can, in all the ways you can, in all the places you can, at all the times you can, to all the people you can, as long as ever you can.",
+    "source": "Widely attributed to Wesley, but historian Richard Heitzenrater (Duke Divinity School) notes no document in his writings confirms this exact wording",
+    "source_url": "https://en.wikiquote.org/wiki/John_Wesley",
+    "confidence": "low",
+    "renown": "iconic",
+    "topics": [
+      "service",
+      "generosity"
+    ]
+  },
+  {
+    "id": "jonathan-edwards-1",
+    "person_id": "jonathan-edwards",
+    "quote": "Resolved, never to do anything which I should be afraid to do if it were the last hour of my life.",
+    "source": "The Resolutions, No. 7 (1722-1723)",
+    "source_url": "https://en.wikiquote.org/wiki/Jonathan_Edwards",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "holiness",
+      "commitment"
+    ]
+  },
+  {
+    "id": "jonathan-edwards-2",
+    "person_id": "jonathan-edwards",
+    "quote": "Resolved, never to lose one moment of time, but improve it the most profitable way I possibly can.",
+    "source": "The Resolutions, No. 5 (1722-1723)",
+    "source_url": "https://en.wikiquote.org/wiki/Jonathan_Edwards",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "stewardship",
+      "consecration"
+    ]
+  },
+  {
+    "id": "jonathan-edwards-3",
+    "person_id": "jonathan-edwards",
+    "quote": "The God that holds you over the pit of hell, much as one holds a spider or some loathsome insect over the fire, abhors you, and is dreadfully provoked.",
+    "source": "Sinners in the Hands of an Angry God (1741)",
+    "source_url": "https://en.wikiquote.org/wiki/Jonathan_Edwards",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "repentance",
+      "doctrine"
+    ]
+  },
+  {
+    "id": "corrie-ten-boom-1",
+    "person_id": "corrie-ten-boom",
+    "quote": "Forgiveness is an act of the will, and the will can function regardless of the temperature of the heart.",
+    "source": "Tramp for the Lord (1974)",
+    "source_url": "https://libquotes.com/corrie-ten-boom",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "corrie-ten-boom-2",
+    "person_id": "corrie-ten-boom",
+    "quote": "Any concern too small to be turned into a prayer is too small to be made into a burden.",
+    "source": "Widely attributed in her published talks and writings; exact original publication unconfirmed",
+    "source_url": "https://www.goodreads.com/quotes/101245-any-concern-too-small-to-be-turned-into-a-prayer",
+    "confidence": "medium",
+    "renown": "iconic",
+    "topics": [
+      "prayer",
+      "trust"
+    ]
+  },
+  {
+    "id": "corrie-ten-boom-3",
+    "person_id": "corrie-ten-boom",
+    "quote": "It is not on our forgiveness any more than on our goodness that the world's healing hinges, but on His.",
+    "source": "The Hiding Place (1971)",
+    "source_url": "https://libquotes.com/corrie-ten-boom",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "forgiveness",
+      "grace"
+    ]
+  },
+  {
+    "id": "dietrich-bonhoeffer-1",
+    "person_id": "dietrich-bonhoeffer",
+    "quote": "Cheap grace is the deadly enemy of our Church.",
+    "source": "The Cost of Discipleship (1937)",
+    "source_url": "https://en.wikiquote.org/wiki/Dietrich_Bonhoeffer",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "grace",
+      "discipleship"
+    ]
+  },
+  {
+    "id": "dietrich-bonhoeffer-2",
+    "person_id": "dietrich-bonhoeffer",
+    "quote": "Costly grace is the gospel which must be sought again and again.",
+    "source": "The Cost of Discipleship (1937)",
+    "source_url": "https://en.wikiquote.org/wiki/Dietrich_Bonhoeffer",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "grace",
+      "gospel"
+    ]
+  },
+  {
+    "id": "dietrich-bonhoeffer-3",
+    "person_id": "dietrich-bonhoeffer",
+    "quote": "When Christ calls a man, he bids him come and die.",
+    "source": "The Cost of Discipleship (1937)",
+    "source_url": "https://en.wikiquote.org/wiki/Dietrich_Bonhoeffer",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "discipleship",
+      "sacrifice"
+    ]
+  },
+  {
+    "id": "dietrich-bonhoeffer-4",
+    "person_id": "dietrich-bonhoeffer",
+    "quote": "Time is the most precious gift in our possession, for it is the most irrevocable.",
+    "source": "Discipleship (1937)",
+    "source_url": "https://en.wikiquote.org/wiki/Dietrich_Bonhoeffer",
+    "confidence": "medium",
+    "renown": "well_known",
+    "topics": [
+      "stewardship"
+    ]
+  },
+  {
+    "id": "amy-carmichael-1",
+    "person_id": "amy-carmichael",
+    "quote": "If I have not compassion on my fellow-servant even as my Lord had pity on me, then I know nothing of Calvary love.",
+    "source": "If (1938)",
+    "source_url": "https://www.liveatthewell.org/calvary-love.html",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "compassion",
+      "Christ's love"
+    ]
+  },
+  {
+    "id": "amy-carmichael-2",
+    "person_id": "amy-carmichael",
+    "quote": "If I say, \"Yes, I forgive, but I cannot forget,\" as though the God who twice a day washes all the sands on all the shores of all the world, could not wash such memories from my mind, then I know nothing of Calvary love.",
+    "source": "If (1938)",
+    "source_url": "https://www.liveatthewell.org/calvary-love.html",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "forgiveness",
+      "Christ's love"
+    ]
+  },
+  {
+    "id": "amy-carmichael-3",
+    "person_id": "amy-carmichael",
+    "quote": "In acceptance lieth peace.",
+    "source": "Poem, \"In Acceptance Lieth Peace\" (1915)",
+    "source_url": "https://www.vaneetha.com/journal/the-enduring-legacy-of-amy-carmichael-a-life-of-surrender",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "surrender",
+      "suffering",
+      "trust"
+    ]
+  },
+  {
+    "id": "amy-carmichael-4",
+    "person_id": "amy-carmichael",
+    "quote": "One can give without loving, but one cannot love without giving.",
+    "source": "Quoted in A Chance to Die: The Life and Legacy of Amy Carmichael by Elisabeth Elliot (1987)",
+    "source_url": "https://en.wikiquote.org/wiki/Amy_Carmichael",
+    "confidence": "medium",
+    "renown": "well_known",
+    "topics": [
+      "generosity",
+      "love"
+    ]
+  },
+  {
+    "id": "aw-tozer-1",
+    "person_id": "aw-tozer",
+    "quote": "What comes into our minds when we think about God is the most important thing about us.",
+    "source": "The Knowledge of the Holy (1961)",
+    "source_url": "https://en.wikiquote.org/wiki/A._W._Tozer",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "doctrine",
+      "worship"
+    ]
+  },
+  {
+    "id": "aw-tozer-2",
+    "person_id": "aw-tozer",
+    "quote": "It is doubtful whether God can bless a man greatly until He has hurt him deeply.",
+    "source": "The Root of the Righteous (1955), Ch. 39",
+    "source_url": "https://en.wikiquote.org/wiki/A._W._Tozer",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "suffering",
+      "sanctification"
+    ]
+  },
+  {
+    "id": "aw-tozer-3",
+    "person_id": "aw-tozer",
+    "quote": "Let a man set his heart only on doing the will of God and he is instantly free.",
+    "source": "The Pursuit of God (1948)",
+    "source_url": "https://en.wikiquote.org/wiki/A._W._Tozer",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "surrender",
+      "obedience"
+    ]
+  },
+  {
+    "id": "aw-tozer-4",
+    "person_id": "aw-tozer",
+    "quote": "Worship is the missing jewel of the evangelical church.",
+    "source": "Worship: The Missing Jewel, compiled in Whatever Happened to Worship? ed. Gerald B. Smith (1985)",
+    "source_url": "https://www.nextlevelworship.com/worship-the-missing-jewel/",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "worship"
+    ]
+  },
+  {
+    "id": "billy-graham-1",
+    "person_id": "billy-graham",
+    "quote": "Life is short, and every day is a gift from God.",
+    "source": "Just As I Am: The Autobiography of Billy Graham (1997)",
+    "source_url": "https://en.wikiquote.org/wiki/Billy_Graham",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "stewardship"
+    ]
+  },
+  {
+    "id": "billy-graham-2",
+    "person_id": "billy-graham",
+    "quote": "God has given us two hands, one to receive with and the other to give with.",
+    "source": "Widely attributed in his published sermons and writings; exact original publication unconfirmed",
+    "source_url": "https://www.brainyquote.com/authors/billy-graham-quotes",
+    "confidence": "medium",
+    "renown": "well_known",
+    "topics": [
+      "generosity",
+      "stewardship"
+    ]
+  },
+  {
+    "id": "billy-graham-3",
+    "person_id": "billy-graham",
+    "quote": "When a brave man takes a stand, the spines of others are often stiffened.",
+    "source": "Reader's Digest, July 1964",
+    "source_url": "https://en.wikiquote.org/wiki/Billy_Graham",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "courage"
+    ]
+  }
+]
