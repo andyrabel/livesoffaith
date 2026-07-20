@@ -254,16 +254,16 @@
     "family_story": "When Fanny Crosby was a tiny baby, a doctor made a mistake that left her unable to see for her whole long life.\n\nBut Fanny was not sad about this. She believed God had a plan for her. When she was thirty, she gave her heart to Jesus. After that she started writing hymns — thousands of them! Because she couldn't see, she kept every song in her head and spoke them aloud for someone else to write down.\n\nChurches still sing her hymns today: Blessed Assurance, To God Be the Glory, Safe in the Arms of Jesus. They remind us that we can trust Jesus completely.",
     "image": {
       "file": "fanny-crosby.jpg",
-      "prompt_used": "Photorealistic portrait of Fanny Crosby, American blind hymn writer, late 19th century, wearing Victorian dress, serene and dignified expression, historically accurate",
-      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Fanny_Crosby.jpg — photograph before 1915, published before 1931, public domain in USA",
+      "prompt_used": "Photorealistic portrait of Fanny Crosby, American blind hymn writer, late 19th century, wearing small round tinted glasses (she was blind from infancy), Victorian dress with lace collar, serene and dignified expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Fannie_Crosby_LCCN2014686806.jpg — Library of Congress, George Grantham Bain Collection, photo by Bain News Service, c. 1900, published before 1931, public domain",
       "caption": "AI-generated image — no copyright claimed",
       "redistribution_safe": true,
-      "redistribution_note": "Published before 1931 — clear public-domain claim, no caveat."
+      "redistribution_note": "Library of Congress Bain Collection photo, published before 1931 — clear public-domain claim, no caveat, resolvable to a direct Commons file."
     },
     "review": {
       "human_reviewed": true,
       "reviewed_by": "Andrew",
-      "reviewed_date": "2026-07-03"
+      "reviewed_date": "2026-07-20"
     },
     "memorials": [
       {
