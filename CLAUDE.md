@@ -516,6 +516,30 @@ sole authorship where none exists.
 
 ---
 
+## Hymn Audio in Facebook Posts (Small Church Music)
+
+Dianne Shapiro (Hymnary.org, Calvin University) granted written permission on
+2026-07-20 to use **Small Church Music (SCM)** hymn recordings (organ/piano,
+performed by Rev. Clyde McLennan, indexed at `hymnary.org/hymnal/scm`) in
+videos posted to the Lives of Faith **Facebook page**
+(facebook.com/profile.php?id=61591251525310) — e.g. a person's portrait paired
+with the SCM recording of their hymn. Condition: **credit Small Church Music
+and Hymnary.org** on the video/post.
+
+This permission is scoped to Facebook only. It does **not** extend to
+publishing SCM audio (or any third-party audio) on the website itself —
+`livesoffaith.org` stays 100% AI-generated / copyright-free content per the
+Image Requirements policy above, and Andrew has decided not to make an
+exception for hymn audio even though permission exists. Do not add an audio
+field to `hymns.json` or embed SCM recordings on any site page.
+
+As of 2026-07-20 this Facebook hymn-video feature has not been built —
+permission was secured but the `_build/fb/` pipeline has no audio/video
+posting yet. See `_build/fb/CLAUDE.md` for scheduler architecture if this is
+picked up later.
+
+---
+
 ## Site Architecture
 
 The site is a **flat static site** hosted on GitHub Pages. No backend, no database,
