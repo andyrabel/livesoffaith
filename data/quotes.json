@@ -13,20 +13,6 @@
     ]
   },
   {
-    "id": "john-newton-2",
-    "person_id": "john-newton",
-    "quote": "I am not what I ought to be, I am not what I want to be, I am not what I hope to be, but I thank God I am not what I once was, and I can say with the great apostle, \"By the grace of God I am what I am.\"",
-    "source": "Popular one-sentence paraphrase of a longer passage in a letter of 2 June 1772 (printed in The Christian Pioneer, 1856, p. 84); the original letter renders this as several shorter sentences",
-    "source_url": "https://en.wikiquote.org/wiki/John_Newton",
-    "confidence": "medium",
-    "renown": "iconic",
-    "topics": [
-      "grace",
-      "sanctification",
-      "conversion"
-    ]
-  },
-  {
     "id": "charles-spurgeon-1",
     "person_id": "charles-spurgeon",
     "quote": "The practice of truth is the most profitable reading of it.",
@@ -131,20 +117,6 @@
     ]
   },
   {
-    "id": "william-wilberforce-3",
-    "person_id": "william-wilberforce",
-    "quote": "If to be feelingly alive to the sufferings of my fellow-creatures is to be a fanatic, I am one of the most incurable fanatics ever permitted to be at large.",
-    "source": "Attributed on accepting leadership of the anti-slave-trade campaign",
-    "source_url": "https://en.wikiquote.org/wiki/William_Wilberforce",
-    "confidence": "medium",
-    "renown": "well_known",
-    "topics": [
-      "compassion",
-      "abolition",
-      "justice"
-    ]
-  },
-  {
     "id": "william-wilberforce-4",
     "person_id": "william-wilberforce",
     "quote": "Thank God that I should have lived to witness a day in which England is willing to give twenty millions sterling for the abolition of slavery.",
@@ -222,33 +194,6 @@
     ]
   },
   {
-    "id": "hudson-taylor-1",
-    "person_id": "hudson-taylor",
-    "quote": "I have found that there are three stages in every great work of God: first, it is impossible, then it is difficult, then it is done.",
-    "source": "Quoted in A Passion for the Impossible (1965)",
-    "source_url": "https://en.wikiquote.org/wiki/Hudson_Taylor",
-    "confidence": "medium",
-    "renown": "iconic",
-    "topics": [
-      "missions",
-      "perseverance",
-      "trust"
-    ]
-  },
-  {
-    "id": "hudson-taylor-2",
-    "person_id": "hudson-taylor",
-    "quote": "Christ is either Lord of all, or is not Lord at all.",
-    "source": "Quoted in Hudson Taylor: Lessons in Discipleship (1995)",
-    "source_url": "https://en.wikiquote.org/wiki/Hudson_Taylor",
-    "confidence": "medium",
-    "renown": "iconic",
-    "topics": [
-      "discipleship",
-      "obedience"
-    ]
-  },
-  {
     "id": "hudson-taylor-3",
     "person_id": "hudson-taylor",
     "quote": "All God's giants have been weak men, who did great things for God because they reckoned on His being with them.",
@@ -259,19 +204,6 @@
     "topics": [
       "faith",
       "missions"
-    ]
-  },
-  {
-    "id": "hudson-taylor-4",
-    "person_id": "hudson-taylor",
-    "quote": "You do not need a great faith, but faith in a great God.",
-    "source": "Quoted in Hudson Taylor: Lessons in Discipleship (1995)",
-    "source_url": "https://en.wikiquote.org/wiki/Hudson_Taylor",
-    "confidence": "medium",
-    "renown": "well_known",
-    "topics": [
-      "faith",
-      "trust"
     ]
   },
   {
@@ -300,19 +232,6 @@
     ]
   },
   {
-    "id": "george-muller-2",
-    "person_id": "george-muller",
-    "quote": "The beginning of anxiety is the end of faith, and the beginning of true faith is the end of anxiety.",
-    "source": "Widely attributed to Muller (e.g. The Churchman, 1897); no confirmed original source in his own writings establishes his authorship",
-    "source_url": "https://en.wikiquote.org/wiki/George_M%C3%BCller",
-    "confidence": "low",
-    "renown": "iconic",
-    "topics": [
-      "faith",
-      "trust"
-    ]
-  },
-  {
     "id": "george-muller-3",
     "person_id": "george-muller",
     "quote": "Prayer and faith, the universal remedies against every want and every difficulty.",
@@ -336,19 +255,6 @@
     "topics": [
       "faith",
       "grace"
-    ]
-  },
-  {
-    "id": "martin-luther-2",
-    "person_id": "martin-luther",
-    "quote": "Here I stand, I can do no other.",
-    "source": "Popularly attributed to Luther's response at the Diet of Worms (1521) — Wikiquote notes no eyewitness transcript records him saying this exact line",
-    "source_url": "https://en.wikiquote.org/wiki/Martin_Luther",
-    "confidence": "low",
-    "renown": "iconic",
-    "topics": [
-      "courage",
-      "doctrine"
     ]
   },
   {
@@ -403,19 +309,6 @@
     ]
   },
   {
-    "id": "john-wesley-4",
-    "person_id": "john-wesley",
-    "quote": "Do all the good you can, by all the means you can, in all the ways you can, in all the places you can, at all the times you can, to all the people you can, as long as ever you can.",
-    "source": "Widely attributed to Wesley, but historian Richard Heitzenrater (Duke Divinity School) notes no document in his writings confirms this exact wording",
-    "source_url": "https://en.wikiquote.org/wiki/John_Wesley",
-    "confidence": "low",
-    "renown": "iconic",
-    "topics": [
-      "service",
-      "generosity"
-    ]
-  },
-  {
     "id": "jonathan-edwards-1",
     "person_id": "jonathan-edwards",
     "quote": "Resolved, never to do anything which I should be afraid to do if it were the last hour of my life.",
@@ -464,19 +357,6 @@
     "renown": "iconic",
     "topics": [
       "forgiveness"
-    ]
-  },
-  {
-    "id": "corrie-ten-boom-2",
-    "person_id": "corrie-ten-boom",
-    "quote": "Any concern too small to be turned into a prayer is too small to be made into a burden.",
-    "source": "Widely attributed in her published talks and writings; exact original publication unconfirmed",
-    "source_url": "https://www.goodreads.com/quotes/101245-any-concern-too-small-to-be-turned-into-a-prayer",
-    "confidence": "medium",
-    "renown": "iconic",
-    "topics": [
-      "prayer",
-      "trust"
     ]
   },
   {
@@ -532,18 +412,6 @@
     ]
   },
   {
-    "id": "dietrich-bonhoeffer-4",
-    "person_id": "dietrich-bonhoeffer",
-    "quote": "Time is the most precious gift in our possession, for it is the most irrevocable.",
-    "source": "Discipleship (1937)",
-    "source_url": "https://en.wikiquote.org/wiki/Dietrich_Bonhoeffer",
-    "confidence": "medium",
-    "renown": "well_known",
-    "topics": [
-      "stewardship"
-    ]
-  },
-  {
     "id": "amy-carmichael-1",
     "person_id": "amy-carmichael",
     "quote": "If I have not compassion on my fellow-servant even as my Lord had pity on me, then I know nothing of Calvary love.",
@@ -581,19 +449,6 @@
       "surrender",
       "suffering",
       "trust"
-    ]
-  },
-  {
-    "id": "amy-carmichael-4",
-    "person_id": "amy-carmichael",
-    "quote": "One can give without loving, but one cannot love without giving.",
-    "source": "Quoted in A Chance to Die: The Life and Legacy of Amy Carmichael by Elisabeth Elliot (1987)",
-    "source_url": "https://en.wikiquote.org/wiki/Amy_Carmichael",
-    "confidence": "medium",
-    "renown": "well_known",
-    "topics": [
-      "generosity",
-      "love"
     ]
   },
   {
@@ -660,19 +515,6 @@
     ]
   },
   {
-    "id": "billy-graham-2",
-    "person_id": "billy-graham",
-    "quote": "God has given us two hands, one to receive with and the other to give with.",
-    "source": "Widely attributed in his published sermons and writings; exact original publication unconfirmed",
-    "source_url": "https://www.brainyquote.com/authors/billy-graham-quotes",
-    "confidence": "medium",
-    "renown": "well_known",
-    "topics": [
-      "generosity",
-      "stewardship"
-    ]
-  },
-  {
     "id": "billy-graham-3",
     "person_id": "billy-graham",
     "quote": "When a brave man takes a stand, the spines of others are often stiffened.",
@@ -682,6 +524,898 @@
     "renown": "well_known",
     "topics": [
       "courage"
+    ]
+  },
+  {
+    "id": "fanny-crosby-1",
+    "person_id": "fanny-crosby",
+    "quote": "If perfect earthly sight were offered me to-morrow, I would not accept it.",
+    "source": "Fanny Crosby's Life-Story (1903)",
+    "source_url": "https://www.azquotes.com/quote/763828",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "disability",
+      "faith"
+    ]
+  },
+  {
+    "id": "isaac-watts-1",
+    "person_id": "isaac-watts",
+    "quote": "Once a day, especially in the early years of life and study, call yourselves to an account what new ideas, what new proposition or truth you have gained.",
+    "source": "The Improvement of the Mind (1727)",
+    "source_url": "https://en.wikiquote.org/wiki/Isaac_Watts",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "teaching"
+    ]
+  },
+  {
+    "id": "isaac-watts-2",
+    "person_id": "isaac-watts",
+    "quote": "Do not hover always on the surface of things, nor take up suddenly with mere appearances, but penetrate into the depth of matters.",
+    "source": "The Improvement of the Mind (1727)",
+    "source_url": "https://en.wikiquote.org/wiki/Isaac_Watts",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "teaching"
+    ]
+  },
+  {
+    "id": "william-cowper-1",
+    "person_id": "william-cowper",
+    "quote": "I believe no man was ever scolded out of his sins.",
+    "source": "Letter to John Newton, 17 June 1783",
+    "source_url": "https://en.wikiquote.org/wiki/William_Cowper",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "grace",
+      "repentance"
+    ]
+  },
+  {
+    "id": "john-calvin-1",
+    "person_id": "john-calvin",
+    "quote": "Without knowledge of self there is no knowledge of God.",
+    "source": "Institutes of the Christian Religion, Book 1, Ch. 1",
+    "source_url": "https://en.wikiquote.org/wiki/John_Calvin",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "doctrine"
+    ]
+  },
+  {
+    "id": "john-calvin-2",
+    "person_id": "john-calvin",
+    "quote": "It is better to limp in the way, than run with the greatest swiftness out of it.",
+    "source": "Institutes of the Christian Religion, Book 1, Ch. 6",
+    "source_url": "https://en.wikiquote.org/wiki/John_Calvin",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "perseverance",
+      "obedience"
+    ]
+  },
+  {
+    "id": "john-calvin-3",
+    "person_id": "john-calvin",
+    "quote": "There is not one little blade of grass, there is no color in this world, that is not intended to make men rejoice.",
+    "source": "Sermon on I Corinthians",
+    "source_url": "https://en.wikiquote.org/wiki/John_Calvin",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "creation",
+      "praise"
+    ]
+  },
+  {
+    "id": "william-carey-1",
+    "person_id": "william-carey",
+    "quote": "Expect great things from God; attempt great things for God.",
+    "source": "Attributed to Carey's 1792 sermon at Nottingham (the \"Deathless Sermon\"); earliest print citations appear in missionary periodicals of the 1840s",
+    "source_url": "https://en.wikiquote.org/wiki/William_Carey",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "missions",
+      "faith"
+    ]
+  },
+  {
+    "id": "david-livingstone-1",
+    "person_id": "david-livingstone",
+    "quote": "I am immortal till my work is accomplished.",
+    "source": "Private journal entry, 1853 (wording varies slightly across published editions of his journals)",
+    "source_url": "https://en.wikiquote.org/wiki/David_Livingstone",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "missions",
+      "trust"
+    ]
+  },
+  {
+    "id": "william-booth-1",
+    "person_id": "william-booth",
+    "quote": "Go for souls and go for the worst.",
+    "source": "Quoted in The Life of General Booth (1913) by Hulda Friedrichs",
+    "source_url": "https://en.wikiquote.org/wiki/William_Booth",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "evangelism"
+    ]
+  },
+  {
+    "id": "william-booth-2",
+    "person_id": "william-booth",
+    "quote": "My business is to get the world saved.",
+    "source": "\"The Risks,\" The War Cry, 20 December 1884 (excerpted from a longer sentence)",
+    "source_url": "https://en.wikiquote.org/wiki/William_Booth",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "evangelism",
+      "mission"
+    ]
+  },
+  {
+    "id": "dwight-l-moody-1",
+    "person_id": "dwight-l-moody",
+    "quote": "Character is what you are in the dark.",
+    "source": "Attributed by his son, William R. Moody, in his biography of Moody",
+    "source_url": "https://en.wikiquote.org/wiki/Dwight_L._Moody",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "holiness"
+    ]
+  },
+  {
+    "id": "harriet-tubman-1",
+    "person_id": "harriet-tubman",
+    "quote": "Oh Lord! You've been wid me in six troubles, don't desert me in the seventh!",
+    "source": "Harriet, the Moses of Her People (1886) by Sarah Hopkins Bradford",
+    "source_url": "https://en.wikiquote.org/wiki/Harriet_Tubman",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "faith",
+      "trust",
+      "prayer"
+    ]
+  },
+  {
+    "id": "thomas-cranmer-1",
+    "person_id": "thomas-cranmer",
+    "quote": "This hand hath offended.",
+    "source": "Reported by eyewitnesses at his execution, Oxford, 21 March 1556",
+    "source_url": "https://christianhistoryinstitute.org/magazine/article/courage-when-it-counted/",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "martyrdom",
+      "courage",
+      "repentance"
+    ]
+  },
+  {
+    "id": "matthew-henry-1",
+    "person_id": "matthew-henry",
+    "quote": "The woman was made of a rib out of the side of Adam; not made out of his head to rule over him, nor out of his feet to be trampled upon by him, but out of his side to be equal with him, under his arm to be protected, and near his heart to be beloved.",
+    "source": "Commentary on the Whole Bible, Genesis 2:21",
+    "source_url": "https://en.wikiquote.org/wiki/Matthew_Henry",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "marriage and family"
+    ]
+  },
+  {
+    "id": "matthew-henry-2",
+    "person_id": "matthew-henry",
+    "quote": "Whatever we have, the property of it is God's; we have only the use of it, according to the direction of our great Lord, and for his honour.",
+    "source": "Commentary on the Whole Bible, Luke 16",
+    "source_url": "https://en.wikiquote.org/wiki/Matthew_Henry",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "stewardship"
+    ]
+  },
+  {
+    "id": "samuel-rutherford-1",
+    "person_id": "samuel-rutherford",
+    "quote": "I bless the Lord that he gave me counsel.",
+    "source": "Reported last words, 1661",
+    "source_url": "https://en.wikiquote.org/wiki/Samuel_Rutherford",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "faithfulness"
+    ]
+  },
+  {
+    "id": "samuel-rutherford-2",
+    "person_id": "samuel-rutherford",
+    "quote": "I hang by a thread, but it is, if I may so speak, of Christ's spinning.",
+    "source": "Letter 56, to Lady Kenmure",
+    "source_url": "https://en.wikiquote.org/wiki/Samuel_Rutherford",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "trust",
+      "suffering"
+    ]
+  },
+  {
+    "id": "samuel-rutherford-3",
+    "person_id": "samuel-rutherford",
+    "quote": "I see grace groweth best in winter.",
+    "source": "Letter 74, to Lady Culross",
+    "source_url": "https://en.wikiquote.org/wiki/Samuel_Rutherford",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "grace",
+      "suffering"
+    ]
+  },
+  {
+    "id": "oswald-chambers-1",
+    "person_id": "oswald-chambers",
+    "quote": "Certainty is the mark of the common-sense life: gracious uncertainty is the mark of the spiritual life.",
+    "source": "My Utmost for His Highest (1956), April 30 entry",
+    "source_url": "https://en.wikiquote.org/wiki/Oswald_Chambers",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "faith",
+      "trust"
+    ]
+  },
+  {
+    "id": "oswald-chambers-2",
+    "person_id": "oswald-chambers",
+    "quote": "Let the past sleep, but let it sleep on the bosom of Christ.",
+    "source": "My Utmost for His Highest (1956), December 31 entry",
+    "source_url": "https://en.wikiquote.org/wiki/Oswald_Chambers",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "grace",
+      "comfort"
+    ]
+  },
+  {
+    "id": "francis-schaeffer-1",
+    "person_id": "francis-schaeffer",
+    "quote": "The direction in which science will move is set by the philosophic world view of the scientists.",
+    "source": "How Should We Then Live? (1976), Ch. 1",
+    "source_url": "https://en.wikiquote.org/wiki/Francis_Schaeffer",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "apologetics",
+      "reason"
+    ]
+  },
+  {
+    "id": "francis-schaeffer-2",
+    "person_id": "francis-schaeffer",
+    "quote": "If society gives the rights, it can take them away, they're not inalienable.",
+    "source": "A Christian Manifesto (1982)",
+    "source_url": "https://en.wikiquote.org/wiki/Francis_Schaeffer",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "justice"
+    ]
+  },
+  {
+    "id": "ra-torrey-1",
+    "person_id": "ra-torrey",
+    "quote": "There can be no mistake more inexcusable and fatal than to doubt, disobey, or neglect the Bible.",
+    "source": "The Divine Origin of the Bible (1899)",
+    "source_url": "https://en.wikiquote.org/wiki/R._A._Torrey",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "scripture"
+    ]
+  },
+  {
+    "id": "ra-torrey-2",
+    "person_id": "ra-torrey",
+    "quote": "He is cunning, he is mighty, he never rests, he is ever plotting the downfall of the child of God; and if the child of God relaxes in prayer the Devil will succeed in ensnaring him.",
+    "source": "Power and Peace in Prayer (1924)",
+    "source_url": "https://en.wikiquote.org/wiki/R._A._Torrey",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "prayer"
+    ]
+  },
+  {
+    "id": "abraham-kuyper-1",
+    "person_id": "abraham-kuyper",
+    "quote": "Oh, no single piece of our mental world is to be hermetically sealed off from the rest, and there is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: \"Mine!\"",
+    "source": "Sphere Sovereignty (1880), p. 488; cited in Abraham Kuyper: A Centennial Reader, ed. James D. Bratt (1998)",
+    "source_url": "https://en.wikiquote.org/wiki/Abraham_Kuyper",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "sovereignty of God"
+    ]
+  },
+  {
+    "id": "john-charles-ryle-1",
+    "person_id": "john-charles-ryle",
+    "quote": "Salvation in Christ to the very uttermost, but out of Christ no salvation at all.",
+    "source": "Only One Way (1850)",
+    "source_url": "https://en.wikiquote.org/wiki/John_Charles_Ryle",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "grace",
+      "gospel"
+    ]
+  },
+  {
+    "id": "john-charles-ryle-2",
+    "person_id": "john-charles-ryle",
+    "quote": "Ignorance of Scripture is the root of every error in religion.",
+    "source": "Expository Thoughts on the Gospels: St. John (1865-1873)",
+    "source_url": "https://en.wikiquote.org/wiki/John_Charles_Ryle",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "scripture",
+      "doctrine"
+    ]
+  },
+  {
+    "id": "john-charles-ryle-3",
+    "person_id": "john-charles-ryle",
+    "quote": "Prayer will consume sin, or sin will choke prayer.",
+    "source": "A Call to Prayer (1867)",
+    "source_url": "https://en.wikiquote.org/wiki/John_Charles_Ryle",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "prayer",
+      "sin and grace"
+    ]
+  },
+  {
+    "id": "henry-martyn-1",
+    "person_id": "henry-martyn",
+    "quote": "Now let me burn out for God.",
+    "source": "Journal and Letters of the Rev. Henry Martyn (1837), p. 447",
+    "source_url": "https://www.azquotes.com/author/32976-Henry_Martyn",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "consecration",
+      "missions",
+      "sacrifice"
+    ]
+  },
+  {
+    "id": "billy-sunday-1",
+    "person_id": "billy-sunday",
+    "quote": "Going to church on Sunday does not make you a Christian any more than going into a garage makes you an automobile!",
+    "source": "Quoted in Press, Radio, Television, Periodicals, Public Relations, and Advertising (1967), ed. John Eldridge Drewry",
+    "source_url": "https://en.wikiquote.org/wiki/Billy_Sunday",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "doctrine",
+      "conversion"
+    ]
+  },
+  {
+    "id": "billy-sunday-2",
+    "person_id": "billy-sunday",
+    "quote": "I have no interest in a God who does not smite.",
+    "source": "Quoted in Billy Sunday Was His Real Name (1955), University of Chicago Press, p. 179",
+    "source_url": "https://en.wikiquote.org/wiki/Billy_Sunday",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "justice",
+      "sovereignty"
+    ]
+  },
+  {
+    "id": "rc-sproul-1",
+    "person_id": "rc-sproul",
+    "quote": "To live coram Deo is to live one's entire life in the presence of God, under the authority of God, to the glory of God.",
+    "source": "In the Presence of God: Devotional Readings on the Attributes of God (2003)",
+    "source_url": "https://www.goodreads.com/quotes/3233781-to-live-in-coram-deo-is-to-live-in-the",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "worship",
+      "doctrine"
+    ]
+  },
+  {
+    "id": "j-gresham-machen-1",
+    "person_id": "j-gresham-machen",
+    "quote": "I'm so thankful for the active obedience of Christ; no hope without it.",
+    "source": "Telegram to Prof. John Murray, 1 January 1937 (his last words)",
+    "source_url": "https://www.critlarge.com/articles/2019/11/28/so-thankful-for-the-active-obedience-of-christ-no-hope-without-it",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "doctrine",
+      "hope"
+    ]
+  },
+  {
+    "id": "jim-elliot-1",
+    "person_id": "jim-elliot",
+    "quote": "Wherever you are, be all there.",
+    "source": "Journal entry, quoted in Shadow of the Almighty by Elisabeth Elliot (1958), p. 47",
+    "source_url": "https://www.goodreads.com/quotes/12747-wherever-you-are-be-all-there-live-to-the-hilt",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "consecration",
+      "commitment"
+    ]
+  },
+  {
+    "id": "elisabeth-elliot-1",
+    "person_id": "elisabeth-elliot",
+    "quote": "Suffering is never for nothing.",
+    "source": "Suffering Is Never for Nothing (2019)",
+    "source_url": "https://elisabethelliot.org/resource-library/books/suffering-is-never-for-nothing/",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "suffering",
+      "trust"
+    ]
+  },
+  {
+    "id": "joni-eareckson-tada-1",
+    "person_id": "joni-eareckson-tada",
+    "quote": "He has chosen not to heal me, but to hold me.",
+    "source": "A Place of Healing: Wrestling with the Mysteries of Suffering, Pain, and God's Sovereignty (2010)",
+    "source_url": "https://www.brainyquote.com/authors/joni-eareckson-tada-quotes",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "suffering",
+      "disability",
+      "trust"
+    ]
+  },
+  {
+    "id": "richard-wurmbrand-1",
+    "person_id": "richard-wurmbrand",
+    "quote": "A faith that can be destroyed by suffering is not faith.",
+    "source": "If Prison Walls Could Speak (1972)",
+    "source_url": "https://en.wikiquote.org/wiki/Richard_Wurmbrand",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "faith",
+      "suffering",
+      "persecution"
+    ]
+  },
+  {
+    "id": "richard-wurmbrand-2",
+    "person_id": "richard-wurmbrand",
+    "quote": "It was in prison that we found the hope of salvation for the Communists.",
+    "source": "Tortured for Christ (1967), p. 58",
+    "source_url": "https://en.wikiquote.org/wiki/Richard_Wurmbrand",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "persecution",
+      "hope",
+      "prison ministry"
+    ]
+  },
+  {
+    "id": "william-tyndale-1",
+    "person_id": "william-tyndale",
+    "quote": "If God spare my life, ere many years I will cause a boy that driveth the plough to know more of the Scripture than thou dost.",
+    "source": "Reported response to a clergyman, quoted in Foxe's Book of Martyrs",
+    "source_url": "https://en.wikiquote.org/wiki/William_Tyndale",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "scripture",
+      "translation"
+    ]
+  },
+  {
+    "id": "john-hus-1",
+    "person_id": "john-hus",
+    "quote": "Truth prevails above all.",
+    "source": "Letter to Christian of Prachatice; later adopted as the Hussite motto (\"Veritas vincit\")",
+    "source_url": "https://en.wikiquote.org/wiki/Jan_Hus",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "courage",
+      "doctrine"
+    ]
+  },
+  {
+    "id": "john-hus-2",
+    "person_id": "john-hus",
+    "quote": "O sancta simplicitas!",
+    "source": "Reportedly spoken while burning at the stake, upon seeing an elderly peasant add wood to his pyre, 6 July 1415",
+    "source_url": "https://en.wikiquote.org/wiki/Jan_Hus",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "martyrdom",
+      "courage"
+    ]
+  },
+  {
+    "id": "chuck-colson-1",
+    "person_id": "chuck-colson",
+    "quote": "It is not what we do that matters, but what a sovereign God chooses to do through us.",
+    "source": "Loving God (1997)",
+    "source_url": "https://www.goodreads.com/work/quotes/889069-loving-god",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "sovereignty",
+      "grace"
+    ]
+  },
+  {
+    "id": "louis-zamperini-1",
+    "person_id": "louis-zamperini",
+    "quote": "If you hate somebody, you're not hurting the person you hate, you're hurting yourself.",
+    "source": "Devil at My Heels: A Heroic Olympian's Astonishing Story of Survival as a Japanese POW in World War II",
+    "source_url": "https://internationalforgiveness.com/2015/01/15/forgiveness-saved-life-says-world-war-ii-army-veteran-louis-zamperini-immortalized-bookmovie-unbroken/",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "ct-studd-1",
+    "person_id": "ct-studd",
+    "quote": "Only one life, 'twill soon be past, only what's done for Christ will last.",
+    "source": "From his poem \"Only One Life, 'Twill Soon Be Past\"",
+    "source_url": "https://iblp.org/c-t-studd-only-one-life-twill-soon-be-past/",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "sacrifice",
+      "missions",
+      "consecration"
+    ]
+  },
+  {
+    "id": "andrew-murray-1",
+    "person_id": "andrew-murray",
+    "quote": "Humility is the displacement of self by the enthronement of God.",
+    "source": "Humility (1895)",
+    "source_url": "https://www.goodreads.com/author/quotes/13326.Andrew_Murray",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "humility",
+      "surrender"
+    ]
+  },
+  {
+    "id": "andrew-murray-2",
+    "person_id": "andrew-murray",
+    "quote": "Humility, the place of entire dependence on God, is the first duty and the highest virtue of the creature, and the root of every virtue.",
+    "source": "Humility (1895)",
+    "source_url": "https://www.goodreads.com/author/quotes/13326.Andrew_Murray",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "humility"
+    ]
+  },
+  {
+    "id": "lottie-moon-1",
+    "person_id": "lottie-moon",
+    "quote": "Why should we not... do something that will prove that we are really in earnest in claiming to be followers of him who, though he was rich, for our sake became poor?",
+    "source": "Letter to the Foreign Mission Journal, 15 September 1887, Tungchow, China",
+    "source_url": "https://www.imb.org/about/lottie-moon/",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "generosity",
+      "missions",
+      "sacrifice"
+    ]
+  },
+  {
+    "id": "john-g-paton-1",
+    "person_id": "john-g-paton",
+    "quote": "Mr. Dickson, you are advanced in years now, and your own prospect is soon to be laid in the grave, there to be eaten by worms; I confess to you, that if I can but live and die serving and honoring the Lord Jesus, it will make no difference to me whether I am eaten by Cannibals or by worms; and in the Great Day my resurrection body will arise as fair as yours in the likeness of our risen Redeemer.",
+    "source": "John G. Paton, Missionary to the New Hebrides: An Autobiography (1889)",
+    "source_url": "https://theoldguys.org/2011/04/25/john-paton-on-worms-and-cannibals/",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "missions",
+      "courage",
+      "sacrifice"
+    ]
+  },
+  {
+    "id": "john-wycliffe-1",
+    "person_id": "john-wycliffe",
+    "quote": "I believe that in the end the truth will conquer.",
+    "source": "Statement to the Duke of Lancaster, 1381",
+    "source_url": "https://en.wikiquote.org/wiki/John_Wycliffe",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "doctrine",
+      "courage"
+    ]
+  },
+  {
+    "id": "susanna-wesley-1",
+    "person_id": "susanna-wesley",
+    "quote": "Whatever weakens your reason, impairs the tenderness of your conscience, obscures your sense of God, takes off your relish for spiritual things, whatever increases the authority of the body over the mind, that thing is sin to you, however innocent it may seem in itself.",
+    "source": "Letter to John Wesley, 8 June 1725",
+    "source_url": "https://en.wikiquote.org/wiki/Susanna_Wesley",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "holiness",
+      "sin and grace"
+    ]
+  },
+  {
+    "id": "janani-luwum-1",
+    "person_id": "janani-luwum",
+    "quote": "I am prepared to die in the army of Jesus.",
+    "source": "Spoken as a vow at his conversion, 1948; quoted in Janani: The Making of a Martyr by Margaret Ford (1978)",
+    "source_url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/janani-luwum",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "martyrdom",
+      "courage",
+      "consecration"
+    ]
+  },
+  {
+    "id": "helen-roseveare-1",
+    "person_id": "helen-roseveare",
+    "quote": "One word became unbelievably clear, and that word was privilege.",
+    "source": "Address at Urbana Missionary Conference, 1976",
+    "source_url": "https://www.reviveourhearts.com/blog/helen-roseveare-the-permanence-and-privilege-of-se/",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "suffering",
+      "sacrifice"
+    ]
+  },
+  {
+    "id": "festo-kivengere-1",
+    "person_id": "festo-kivengere",
+    "quote": "I may not like Idi Amin but if I am a Christian believer I am obliged to forgive him, love him with Christ's love, and want the highest and best for his life.",
+    "source": "Press conference remark on the title of I Love Idi Amin (1977)",
+    "source_url": "https://christianhistoryinstitute.org/dailystory/permalink/what-made-bishop-kivengere-love-cruel-idi-amin",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "forgiveness",
+      "love"
+    ]
+  },
+  {
+    "id": "brother-andrew-1",
+    "person_id": "brother-andrew",
+    "quote": "The bigger the darkness, the easier it is to spot your little light.",
+    "source": "God's Smuggler (1967)",
+    "source_url": "https://www.goodreads.com/work/quotes/2296068-god-s-smuggler",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "courage",
+      "hope"
+    ]
+  },
+  {
+    "id": "brother-andrew-2",
+    "person_id": "brother-andrew",
+    "quote": "People are never the enemy, only the devil.",
+    "source": "God's Smuggler (1967)",
+    "source_url": "https://www.goodreads.com/work/quotes/2296068-god-s-smuggler",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "compassion"
+    ]
+  },
+  {
+    "id": "toyohiko-kagawa-1",
+    "person_id": "toyohiko-kagawa",
+    "quote": "Love is positive, is eternal: violence is degeneracy, it is its own destruction.",
+    "source": "The Religion of Jesus (1931 ed.)",
+    "source_url": "https://www.paper-research.com/quotes/authors/toyohiko_kagawa/",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "love"
+    ]
+  },
+  {
+    "id": "ida-scudder-1",
+    "person_id": "ida-scudder",
+    "quote": "God, if You want me to, I will spend the rest of my life in India trying to help these women.",
+    "source": "Her recorded prayer, 1898, following the deaths of three women in one night; widely documented in biographical accounts of her decision to become a medical missionary",
+    "source_url": "https://christianhistoryinstitute.org/dailystory/permalink/ida-scudder-and-the-hospital-faith-built-in-vellore",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "missions",
+      "service",
+      "prayer"
+    ]
+  },
+  {
+    "id": "ann-judson-1",
+    "person_id": "ann-judson",
+    "quote": "I desire no higher enjoyment in this life, than to be instrumental of leading some poor, ignorant heathen females, to the knowledge of the Savior.",
+    "source": "Memoir of Mrs. Ann H. Judson, ed. James D. Knowles (1830)",
+    "source_url": "https://christianhistoryinstitute.org/dailyquote/3/14",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "missions",
+      "evangelism"
+    ]
+  },
+  {
+    "id": "hugh-latimer-1",
+    "person_id": "hugh-latimer",
+    "quote": "We shall this day light such a candle, by God's grace, in England, as I trust shall never be put out.",
+    "source": "Said to Nicholas Ridley at their execution, Oxford, 16 October 1555; recorded in Foxe's Book of Martyrs (1563)",
+    "source_url": "https://en.wikiquote.org/wiki/Hugh_Latimer",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "martyrdom",
+      "courage"
+    ]
+  },
+  {
+    "id": "menno-simons-1",
+    "person_id": "menno-simons",
+    "quote": "True faith or true knowledge begets love, and love begets obedience to the commandments of God.",
+    "source": "The Complete Works of Menno Simons (1871 ed.), p. 246",
+    "source_url": "https://en.wikiquote.org/wiki/Menno_Simons",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "faith",
+      "obedience"
+    ]
+  },
+  {
+    "id": "jacob-deshazer-1",
+    "person_id": "jacob-deshazer",
+    "quote": "And now from the depths of my heart, I too prayed for God to forgive my torturers, and I determined by the aid of Christ to do my best to acquaint the Japanese people with the message of salvation that they might become as other believing Christians.",
+    "source": "\"I Was a Prisoner of Japan,\" as told to Don R. Falkenberg, The Bible Meditation League (1950)",
+    "source_url": "https://christianhistoryinstitute.org/blog/post/former-pow-jacob-deshazer-returns-to-japan",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "forgiveness",
+      "missions"
+    ]
+  },
+  {
+    "id": "bilquis-sheikh-1",
+    "person_id": "bilquis-sheikh",
+    "quote": "Talk to Him as if He were your father.",
+    "source": "I Dared to Call Him Father (1978)",
+    "source_url": "https://www.goodreads.com/work/quotes/95143-i-dared-to-call-him-father-the-miraculous-story-of-a-muslim-woman-s-enc",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "prayer",
+      "faith"
+    ]
+  },
+  {
+    "id": "george-williams-1",
+    "person_id": "george-williams",
+    "quote": "Our object is the improvement of the spiritual condition of the young men engaged in houses of business, by the formation of Bible classes, family and social prayer meetings, mutual improvement societies, or any other spiritual agency.",
+    "source": "Founding statement of the YMCA, 6 June 1844",
+    "source_url": "https://christianhistoryinstitute.org/dailystory/permalink/george-williams-created-the-ymca-to-give-young-men-clean-and-useful-fun",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "mission",
+      "evangelism"
+    ]
+  },
+  {
+    "id": "jeremiah-lanphier-1",
+    "person_id": "jeremiah-lanphier",
+    "quote": "A Day Prayer Meeting is held every Wednesday from 12 to 1 o'clock in the Consistory building of the North Dutch Church, corner of Fulton and William Streets.",
+    "source": "Handbill announcing the prayer meeting that sparked the 1857 Prayer Revival",
+    "source_url": "https://prayer.tsc.nyc/wp-content/uploads/jeremiah-lanphier-prayer-revival_paul-jehle_092016.pdf",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "prayer",
+      "revival"
+    ]
+  },
+  {
+    "id": "kenneth-taylor-1",
+    "person_id": "kenneth-taylor",
+    "quote": "I had a strong conviction that the ability to write Living Letters was a special gift from God.",
+    "source": "Quoted in Today's Christian Living and God Reports",
+    "source_url": "https://todayschristianliving.org/ken-taylor-making-scripture-clear/",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "stewardship",
+      "generosity"
+    ]
+  },
+  {
+    "id": "keith-getty-1",
+    "person_id": "keith-getty",
+    "quote": "We must have something of substance to say in our worship [services] that reminds us why Christ's story is so unique and so utterly essential.",
+    "source": "Interview with John W. Kennedy, Beliefnet, 5 December 2014",
+    "source_url": "https://www.baptistpress.com/resource-library/news/qa-keith-kristyn-getty-on-why-hymns-matter/",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "worship"
+    ]
+  },
+  {
+    "id": "anthony-norris-groves-1",
+    "person_id": "anthony-norris-groves",
+    "quote": "My earnest desire is to re-model the whole plan of missionary operations so as to bring them to the simple standard of God's word.",
+    "source": "Christian Devotedness (1834), p. 214",
+    "source_url": "https://christianhistoryinstitute.org/magazine/article/anthony-norris-groves-simple-standard",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "missions",
+      "scripture"
+    ]
+  },
+  {
+    "id": "leon-morris-1",
+    "person_id": "leon-morris",
+    "quote": "To put it bluntly and plainly, if Christ is not my Substitute, I still occupy the place of a condemned sinner.",
+    "source": "The Apostolic Preaching of the Cross (1955), p. 410",
+    "source_url": "https://www.booksataglance.com/book-summaries/apostolic-preaching-cross-leon-morris/",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "doctrine",
+      "cross",
+      "redemption"
     ]
   }
 ]
