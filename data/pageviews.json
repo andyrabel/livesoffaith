@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T14:39:35+00:00",
+  "generated_at": "2026-07-22T14:00:10+00:00",
   "views": {
     "philip-bliss": 16,
     "rudolf-bosshardt": 16,
@@ -7,15 +7,18 @@
     "jim-elliot": 12,
     "frances-ridley-havergal": 10,
     "lilias-trotter": 10,
+    "tiyo-soga": 10,
+    "ira-sankey": 9,
     "george-muller": 8,
     "robert-cleaver-chapman": 8,
     "cs-lewis": 7,
     "ct-studd": 7,
+    "augustus-toplady": 6,
     "oswald-chambers": 6,
     "charles-albert-tindley": 5,
     "david-brainerd": 5,
     "fanny-crosby": 5,
-    "ira-sankey": 5,
+    "james-strong": 5,
     "manche-masemola": 5,
     "susanna-wesley": 5,
     "eric-liddell": 4,
@@ -23,7 +26,7 @@
     "john-lennox": 4,
     "ramez-atallah": 4,
     "thomas-watson": 4,
-    "tiyo-soga": 4,
+    "toyohiko-kagawa": 4,
     "william-wilberforce": 4,
     "brother-andrew": 3,
     "christmas-evans": 3,
@@ -34,9 +37,7 @@
     "leon-morris": 3,
     "lottie-moon": 3,
     "patrick-johnstone": 3,
-    "toyohiko-kagawa": 3,
     "allen-gardiner": 2,
-    "augustus-toplady": 2,
     "bakht-singh": 2,
     "chuck-colson": 2,
     "esther-john": 2,
@@ -74,7 +75,9 @@
     "william-carey": 1
   },
   "hymn_views": {
+    "god-moves-in-a-mysterious-way": 3,
     "amazing-grace": 1,
+    "hail-to-the-lords-anointed": 1,
     "redeemed": 1
   }
 }
