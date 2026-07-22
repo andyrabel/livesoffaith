@@ -4061,7 +4061,7 @@ const connectionsPageState = {
   centerId: null,
   maxDepth: CONNECTIONS_DEFAULT_DEPTH,
   zoom: 1,
-  showLabels: false,
+  showLabels: true,
 };
 
 let connectionsAdjCache = null;
