@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-07-21",
+    "label": "Jul 21, 2026",
+    "title": "What's New",
+    "href": "index.html",
+    "text": "the home page bulletin list now updates from a shared data file automatically."
+  },
+  {
     "date": "2026-07-19",
     "label": "Jul 19, 2026",
     "title": "Books",
