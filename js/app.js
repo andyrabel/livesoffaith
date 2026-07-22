@@ -13,8 +13,10 @@ const HYMNS_URL = 'data/hymns.json';
 const HISTORICAL_EVENTS_URL = 'data/historical_events.json';
 const CONNECTIONS_URL = 'data/connections.json';
 const BOOKS_URL = 'data/books.json';
+const WHATS_NEW_URL = 'data/whats-new.json';
 const STORY_PREF_KEY = 'preferred-story-version';
 const QUIZ_DIFFICULTY_KEY = 'preferred-quiz-difficulty';
+const WHATS_NEW_DISPLAY_COUNT = 4;
 
 let allPeople = [];
 let allPlaces = [];
@@ -27,6 +29,7 @@ let allHymns = [];
 let allHistoricalEvents = [];
 let allConnections = [];
 let allBooks = [];
+let allWhatsNew = [];
 
 // Categorical colour per region, fixed order matching the region filter
 // dropdown (UK/Ireland, North America, Africa, Asia, Latin America, Europe,
@@ -649,6 +652,24 @@ function renderCollectionSummary() {
 }
 
 // ============================================================
+// What's New (home page sidebar) — sourced from data/whats-new.json,
+// kept current by _build/generate_whats_new.py (see CLAUDE.md)
+// ============================================================
+
+function renderWhatsNew() {
+  const list = document.querySelector('.whats-new__list');
+  if (!list) return;
+
+  const entries = [...allWhatsNew]
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, WHATS_NEW_DISPLAY_COUNT);
+
+  list.innerHTML = entries.map(entry => `
+    <li><span class="whats-new__date">${escapeHtml(entry.label)}</span> <a href="${escapeHtml(entry.href)}">${escapeHtml(entry.title)}</a> — ${escapeHtml(entry.text)}</li>
+  `).join('');
+}
+
+// ============================================================
 // Home page (index.html) — daily digest
 // ============================================================
 
@@ -660,6 +681,7 @@ function initHomePage() {
   renderQuizQuestion();
   renderExploreMoreLives();
   renderCollectionSummary();
+  renderWhatsNew();
 }
 
 // ============================================================
@@ -1265,6 +1287,17 @@ async function loadBooks() {
   } catch (err) {
     console.error('Failed to load books.json:', err);
     allBooks = [];
+  }
+}
+
+async function loadWhatsNew() {
+  try {
+    const res = await fetch(WHATS_NEW_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allWhatsNew = await res.json();
+  } catch (err) {
+    console.error('Failed to load whats-new.json:', err);
+    allWhatsNew = [];
   }
 }
 
@@ -4710,7 +4743,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns(), loadHistoricalEvents(), loadConnections(), loadBooks()]);
+  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns(), loadHistoricalEvents(), loadConnections(), loadBooks(), loadWhatsNew()]);
 
   if (document.getElementById('home-digest')) {
     initHomePage();

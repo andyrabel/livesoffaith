@@ -516,6 +516,69 @@ sole authorship where none exists.
 
 ---
 
+## What's New Feed
+
+`data/whats-new.json` is a flat array powering the home page "What's New"
+sidebar box (`js/app.js` `renderWhatsNew()`), replacing what used to be a
+hardcoded `<ul>` in `index.html`. Only the 4 most recent entries (by `date`)
+are displayed; older entries stay in the file as history.
+
+```json
+{
+  "date": "2026-07-19",
+  "label": "Jul 19, 2026",
+  "title": "Books",
+  "href": "people.html",
+  "text": "browse the books each person wrote, right from their profile."
+}
+```
+
+- `date` — ISO `YYYY-MM-DD`, used for sorting.
+- `label` — display string, e.g. `"Jul 19, 2026"`.
+- `title` — 1-3 words naming the feature.
+- `href` — the page a visitor would click through to.
+- `text` — one short factual sentence (lowercase start, ~7-12 words) of what
+  changed. No marketing language.
+
+### Kept Current Automatically
+
+`_build/generate_whats_new.py` drafts new entries from git history instead
+of from commit messages — Andrew's commit messages are frequently one word
+("Quiz", "Header", "Approvals") and occasionally describe work that isn't
+actually live yet (e.g. the 2026-07-18/19 "Hymn Tunes" and "Quotes" commits
+added new `data/hymns.json` / `data/quotes.json` fields that no page renders).
+The script instead inspects which files a commit actually touched:
+
+- Any commit touching `js/app.js`, `css/style.css`, or a root `*.html` file
+  is treated as a live, user-facing change.
+- A commit touching only `data/*.json` is checked two ways before being
+  trusted as live: (1) is that JSON file even fetched by `app.js` at all
+  (catches `data/quotes.json`, which nothing loads), and (2) do the specific
+  new keys it added appear anywhere in `app.js`/the HTML templates (catches
+  a new field added to an *already-loaded* file, like `hymns.json`'s
+  `audio` field, that still isn't rendered anywhere).
+
+It drafts each new live entry via the Claude API (same `Anthropic` client
+pattern as `_build/fb/content.py`) and writes `data/whats-new.json` directly
+— no human review gate, per Andrew's instruction (2026-07-21) — then commits
+and pushes that one file, the same scoped-commit pattern as
+`fetch_pageviews.py`. State (last processed commit, and topics seen but not
+yet live) lives in `_build/whats_new_state.json`, which is machine-local and
+gitignored like the rest of `_build/`.
+
+Set up (2026-07-21): task "Lives of Faith - Whats New" runs weekly, Mondays
+at 7:05 AM, via `C:\Users\andya\lives-of-faith-whats-new.bat`, which shells
+into WSL the same way `lives-of-faith-fetch-pageviews.bat` does (see
+`_build/PAGEVIEWS.md`'s Windows Task Scheduler section for the pattern).
+Output logs to `_build/whats_new.log` (gitignored). Recreate or change the
+schedule from a WSL shell:
+
+```bash
+schtasks.exe /Create /TN "Lives of Faith - Whats New" /TR "C:\Users\andya\lives-of-faith-whats-new.bat" /SC WEEKLY /D MON /ST 07:05 /F
+```
+
+---
+
 ## Hymn Audio in Facebook Posts (Small Church Music)
 
 Dianne Shapiro (Hymnary.org, Calvin University) granted written permission on
@@ -561,7 +624,8 @@ no server-side code. All data lives in JSON files. All filtering is client-side 
 ├── data/
 │   ├── people.json        ← all person entries
 │   ├── hymns.json         ← all hymn story entries (see Hymn Stories above)
-│   └── connections.json   ← relationships between people (see Connections Dataset above)
+│   ├── connections.json   ← relationships between people (see Connections Dataset above)
+│   └── whats-new.json     ← home page "What's New" feed (see What's New Feed above)
 └── images/
     └── portraits/         ← all AI-generated portraits
 ```
@@ -578,6 +642,7 @@ _build/
 ├── generate_prompts.py    ← builds image generation prompts per person
 ├── generate_sitemap.py    ← regenerates sitemap.xml from data/people.json and data/hymns.json (run after adding any person or hymn)
 ├── generate_llms_txt.py   ← regenerates llms.txt and llms-full.txt from data/people.json and data/hymns.json (run after adding any person or hymn)
+├── generate_whats_new.py  ← drafts data/whats-new.json entries from git history (see What's New Feed above)
 ├── vetting.py             ← runs exclusion checklist before content generation
 └── prompts/
     ├── adult_story.txt    ← master prompt template for adult stories

@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-07-19",
+    "label": "Jul 19, 2026",
+    "title": "Books",
+    "href": "people.html",
+    "text": "browse the books each person wrote, right from their profile."
+  },
+  {
+    "date": "2026-07-16",
+    "label": "Jul 16, 2026",
+    "title": "Quiz",
+    "href": "quiz.html",
+    "text": "names and hymns in quiz questions now link to their story."
+  },
+  {
+    "date": "2026-07-12",
+    "label": "Jul 12, 2026",
+    "title": "Featured Person",
+    "href": "index.html",
+    "text": "a different life featured on the home page daily."
+  },
+  {
+    "date": "2026-07-11",
+    "label": "Jul 11, 2026",
+    "title": "Connections",
+    "href": "connections.html",
+    "text": "trace who mentored, or influenced whom across history."
+  },
+  {
+    "date": "2026-07-10",
+    "label": "Jul 10, 2026",
+    "title": "Interactive Timeline",
+    "href": "timeline.html",
+    "text": "see every life placed on a single scrollable timeline."
+  },
+  {
+    "date": "2026-07-07",
+    "label": "Jul 7, 2026",
+    "title": "Hymn Stories",
+    "href": "hymns.html",
+    "text": "the documented history behind favourite hymns, separate from their writers' biographies."
+  },
+  {
+    "date": "2026-06-30",
+    "label": "Jun 30, 2026",
+    "title": "Memorials Map",
+    "href": "map.html",
+    "text": "plan a visit to statues, memorials, and churches around the world."
+  }
+]
