@@ -368,6 +368,19 @@ Question" box and the printable quiz generator (`quiz-print.html`). Each entry:
 - Most people have 1–3 questions; vary the difficulty rather than making them all
   Medium. Keep the phrasing style consistent with existing entries (short, factual,
   "What/Who/Where..." questions with a short answer).
+- Don't let one question's text give away another question's answer for the same
+  hymn/person. The recurring case: a "Who wrote the hymn X?" question (answer: the
+  author's name) paired with any other question about the same hymn that names the
+  author in its own text (e.g. "Complete this line from William Cowper's hymn X..."
+  or "Isaac Watts wrote X to be sung during which service?"). Phrase companion
+  questions without the author's name ("Complete this line from the hymn X...",
+  "X was written to be sung during which service?") whenever a "who wrote"
+  question for that hymn exists or might reasonably be added later. No JSON
+  change is needed to surface the author elsewhere: `renderQuizQuestion()` in
+  `js/app.js` looks up `person_id` and, whenever the answer text isn't already
+  the person's name, shows "(Author Name)" hyperlinked to their page next to
+  the revealed answer on the home page quiz box — the same pattern
+  `quiz.html`'s printable answer key already used.
 
 When adding a new person, also add 1–3 quiz questions for them to `data/quiz.json`
 as a standard part of the pipeline, after connections are added (see Step 4 below).

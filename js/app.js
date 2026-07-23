@@ -706,6 +706,15 @@ function renderQuizQuestion() {
   const person = allPeople.find(p => p.id === q.person_id);
   const hymn = allHymns.find(h => h.id === q.hymn_id);
 
+  // When the answer isn't already the writer's name (e.g. a "complete this
+  // line" or fact question), surface who wrote the hymn in parentheses —
+  // the question text itself deliberately avoids naming them (see Quiz
+  // Questions in CLAUDE.md) so this is the only place it's disclosed.
+  const matchesPersonName = person && quizMatchName(person).toLowerCase() === q.answer.trim().toLowerCase();
+  const authorHtml = person && !matchesPersonName
+    ? ` <span class="quiz-box__answer-author">(<a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a>)</span>`
+    : '';
+
   const answerLinkHtml = hymn
     ? `<a class="quiz-box__answer-link" href="hymn.html?id=${escapeHtml(hymn.id)}">The story behind &ldquo;${escapeHtml(hymn.title)}&rdquo; &#8594;</a>`
     : person
@@ -717,7 +726,7 @@ function renderQuizQuestion() {
       <span class="quiz-box__label">Quiz Question:</span>
       <span class="quiz-box__question">${escapeHtml(q.question)}</span>
       <button class="quiz-box__reveal-btn" type="button" aria-expanded="false">Reveal Answer</button>
-      <span class="quiz-box__answer" hidden><strong>${escapeHtml(q.answer)}</strong>${answerLinkHtml}</span>
+      <span class="quiz-box__answer" hidden><strong>${escapeHtml(q.answer)}</strong>${authorHtml}${answerLinkHtml}</span>
       <a class="quiz-box__print-link" href="quiz.html">&#128438; Take the quiz &#8594;</a>
     </div>
   `;
