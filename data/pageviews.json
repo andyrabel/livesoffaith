@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T14:00:10+00:00",
+  "generated_at": "2026-07-23T14:00:13+00:00",
   "views": {
     "philip-bliss": 16,
     "rudolf-bosshardt": 16,
@@ -7,10 +7,10 @@
     "jim-elliot": 12,
     "frances-ridley-havergal": 10,
     "lilias-trotter": 10,
-    "tiyo-soga": 10,
     "ira-sankey": 9,
     "george-muller": 8,
     "robert-cleaver-chapman": 8,
+    "tiyo-soga": 8,
     "cs-lewis": 7,
     "ct-studd": 7,
     "augustus-toplady": 6,
@@ -43,6 +43,7 @@
     "esther-john": 2,
     "george-whitefield": 2,
     "john-hus": 2,
+    "jonathan-edwards": 2,
     "louis-zamperini": 2,
     "pandita-ramabai": 2,
     "sabina-wurmbrand": 2,
@@ -67,7 +68,6 @@
     "john-nelson-darby": 1,
     "john-stam": 1,
     "john-sung": 1,
-    "jonathan-edwards": 1,
     "joseph-scriven": 1,
     "nate-saint": 1,
     "robert-lowry": 1,
@@ -75,9 +75,10 @@
     "william-carey": 1
   },
   "hymn_views": {
-    "god-moves-in-a-mysterious-way": 3,
+    "god-moves-in-a-mysterious-way": 5,
     "amazing-grace": 1,
     "hail-to-the-lords-anointed": 1,
-    "redeemed": 1
+    "redeemed": 1,
+    "when-i-survey-the-wondrous-cross": 1
   }
 }
