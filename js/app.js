@@ -830,13 +830,37 @@ function quizQuestionHtml(question, hymn) {
 let currentQuizQuestions = [];
 
 // Same 10 questions for everyone on a given day at a given difficulty —
-// seeded shuffle (not Math.random) keyed by date + difficulty.
+// seeded shuffle (not Math.random) keyed by date + difficulty. Walks the
+// shuffled pool taking the first question per person/hymn so the sheet
+// doesn't ask about the same person (or hymn) twice; if that leaves fewer
+// than QUIZ_PRINT_COUNT (small pool at high difficulty), a second pass
+// fills the remaining slots from whatever's left over, repeats allowed.
 function dailyDefaultQuizQuestions(maxDifficulty) {
   const pool = allQuiz.filter(q => q.difficulty <= maxDifficulty);
   if (!pool.length) return [];
   const today = new Date();
   const seed = `quiz-page-${today.getFullYear()}-${today.getMonth()}-${today.getDate()}-${maxDifficulty}`;
-  return seededShuffle(pool, seed).slice(0, QUIZ_PRINT_COUNT);
+  const shuffled = seededShuffle(pool, seed);
+
+  const picked = [];
+  const usedPeople = new Set();
+  const usedHymns = new Set();
+  shuffled.forEach(q => {
+    if (picked.length >= QUIZ_PRINT_COUNT) return;
+    if (q.person_id && usedPeople.has(q.person_id)) return;
+    if (q.hymn_id && usedHymns.has(q.hymn_id)) return;
+    picked.push(q);
+    if (q.person_id) usedPeople.add(q.person_id);
+    if (q.hymn_id) usedHymns.add(q.hymn_id);
+  });
+  if (picked.length < QUIZ_PRINT_COUNT) {
+    shuffled.forEach(q => {
+      if (picked.length >= QUIZ_PRINT_COUNT || picked.includes(q)) return;
+      picked.push(q);
+    });
+  }
+
+  return picked;
 }
 
 function renderQuizBuilder() {
