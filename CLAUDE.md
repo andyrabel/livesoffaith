@@ -368,19 +368,18 @@ Question" box and the printable quiz generator (`quiz-print.html`). Each entry:
 - Most people have 1–3 questions; vary the difficulty rather than making them all
   Medium. Keep the phrasing style consistent with existing entries (short, factual,
   "What/Who/Where..." questions with a short answer).
-- Don't let one question's text give away another question's answer for the same
-  hymn/person. The recurring case: a "Who wrote the hymn X?" question (answer: the
-  author's name) paired with any other question about the same hymn that names the
-  author in its own text (e.g. "Complete this line from William Cowper's hymn X..."
-  or "Isaac Watts wrote X to be sung during which service?"). Phrase companion
-  questions without the author's name ("Complete this line from the hymn X...",
-  "X was written to be sung during which service?") whenever a "who wrote"
-  question for that hymn exists or might reasonably be added later. No JSON
-  change is needed to surface the author elsewhere: `renderQuizQuestion()` in
-  `js/app.js` looks up `person_id` and, whenever the answer text isn't already
-  the person's name, shows "(Author Name)" hyperlinked to their page next to
-  the revealed answer on the home page quiz box — the same pattern
-  `quiz.html`'s printable answer key already used.
+- Companion questions about the same hymn/person **may** name the author in
+  their own text (e.g. "Complete this line from William Cowper's hymn X...").
+  This used to be disallowed, because a "Who wrote the hymn X?" question
+  (answer: the author's name) sitting on the same sheet as another question
+  that named the author in its own text would give away the first question's
+  answer before it was revealed. That's no longer a risk: both quiz-generation
+  paths in `js/app.js` — `dailyDefaultQuizQuestions()` (the auto-picked 10 on
+  `quiz.html`) and `addRandomQuizQuestion()` (the manual "add a question"
+  button) — dedupe by `person_id`/`hymn_id`, so at most one question about a
+  given hymn or person can ever appear on a generated sheet together. Reverted
+  2026-07-23; see git history on `data/quiz.json` for the pre-2026-07-22
+  phrasing if this policy changes again.
 
 When adding a new person, also add 1–3 quiz questions for them to `data/quiz.json`
 as a standard part of the pipeline, after connections are added (see Step 4 below).

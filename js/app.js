@@ -1011,7 +1011,18 @@ function addRandomQuizQuestion() {
     return;
   }
 
-  currentQuizQuestions.push(pool[Math.floor(Math.random() * pool.length)]);
+  // Same person/hymn dedup as dailyDefaultQuizQuestions — prefer a question
+  // about someone not already on the sheet; fall back to the full pool only
+  // if that would leave nothing to add.
+  const usedPeople = new Set(currentQuizQuestions.map(q => q.person_id).filter(Boolean));
+  const usedHymns = new Set(currentQuizQuestions.map(q => q.hymn_id).filter(Boolean));
+  const freshPool = pool.filter(q =>
+    !(q.person_id && usedPeople.has(q.person_id)) &&
+    !(q.hymn_id && usedHymns.has(q.hymn_id))
+  );
+  const finalPool = freshPool.length ? freshPool : pool;
+
+  currentQuizQuestions.push(finalPool[Math.floor(Math.random() * finalPool.length)]);
   renderQuizBuilder();
 }
 
