@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-13. 162 people.
+Generated 2026-07-26. 163 people.
 
 ---
 
@@ -221,13 +221,13 @@ Wikipedia: https://en.wikipedia.org/wiki/Bakht_Singh
 Nationality: Indian · Tradition: Independent evangelical · Region: Asia · Era: 20th Century
 Topics: missions, revival, church planting, prayer, discipleship
 
-Bakht Singh was born in 1903 into a Sikh family in Punjab, India. He left for England to study engineering, then moved to Canada. Bitter, restless, and far from home, he was given a New Testament by a stranger in Winnipeg in 1929 and was converted after reading it through the night.
+Bakht Singh was born in 1903 into a Sikh family in Punjab, India. He travelled to England to study agricultural engineering before continuing his studies in Canada. Restless and far from home, he was introduced to the New Testament by Christian friends in Winnipeg in 1929. Reading it through the night, he came to a living faith in Christ.
 
-He returned to India and began preaching in a country resistant to Christianity as a colonial religion. He founded assemblies on simple New Testament principles — no Western denominational structures, no paid clergy, daily prayer, breaking of bread, and Scripture. He is estimated to have planted more than two hundred churches across India, Sri Lanka, and beyond.
+Returning to India, he preached in a land where Christianity was often dismissed as a colonial religion. He established indigenous assemblies founded on simple New Testament principles: the authority of Scripture, daily prayer, the breaking of bread, shared leadership, and dependence on God rather than paid clergy or Western denominational structures. His ministry helped establish hundreds of assemblies across India, Sri Lanka, and beyond.
 
-His preaching drew vast crowds — thousands gathering across south India for conventions at which he would preach for hours. He was known for fasting, long night-watches of prayer, and direct, uncompromising proclamation of the cross.
+His preaching drew vast crowds, particularly at conventions in south India where he would expound the Scriptures for hours. He was known for fasting, long night-watches of prayer, and an uncompromising proclamation of the cross.
 
-He died in 2000, aged 96, still active in ministry. He had sought to show that Christianity was not the white man's religion imported from the West, but the faith of a risen Lord who belonged to every nation — including India.
+He died in 2000, aged 97, after more than six decades of ministry. His life bore witness that Christianity was not the white man's religion imported from the West, but the gospel of the risen Christ, who calls people from every nation—including India—to himself.
 
 ---
 
@@ -245,6 +245,22 @@ She had made her commitment clear before she went. As a student she had written:
 In December 1934 she and John were captured by Communist soldiers in Anhui province with their two-month-old daughter Helen Priscilla. On 8 December they were beheaded. Their baby was found alive.
 
 Betty was 28. She and John had served in China for little more than a year as a married couple. Yet the account of their death, published immediately and distributed worldwide, became one of the most powerful missionary testimonies of the twentieth century — not because it ended in victory by human measure, but because it showed two young lives held loosely, offered freely, and not found wanting when the moment came.
+
+---
+
+## Bill Bright (1921–2003)
+
+URL: https://livesoffaith.org/person.html?id=bill-bright
+Wikipedia: https://en.wikipedia.org/wiki/Bill_Bright
+Nationality: American · Tradition: Interdenominational evangelical · Region: North America · Era: 20th Century
+Topics: evangelism, missions, consecration, surrender, discipleship
+Note: In 1994 Bright was among the signatories of ‘Evangelicals and Catholics Together,’ an ecumenical statement affirming shared mission with Roman Catholic leaders, alongside [[Chuck Colson|chuck-colson]] and others. The document drew significant criticism from Reformed and other evangelicals for blurring the doctrinal differences — particularly justification by faith alone — that divide evangelical and Catholic teaching; Bright defended his signature by arguing it would help reach Catholics with the gospel. This is noted so readers can weigh the ecumenical judgment call alongside his own clear teaching on salvation by grace through faith found in the Four Spiritual Laws.
+
+William "Bill" Bright was born October 19, 1921, in Coweta, Oklahoma, and moved to Los Angeles as a young man to build a candy business. Attending Hollywood's First Presbyterian Church, he came under the teaching of Henrietta Mears and the preaching of Billy Graham, and in the spring of 1945, at twenty-three, he trusted Christ alone for his salvation — not his own ambition or effort, but Christ's finished work on the cross.
+
+Bright is best known as the founder, with his wife Vonette, of Campus Crusade for Christ (now Cru), launched among students at UCLA in 1951. In 1965 he distilled the gospel into a short tract, "The Four Spiritual Laws," which, printed in over 200 languages and some 2.5 billion copies, became the most widely distributed presentation of the gospel in history. In 1979 he produced the JESUS film, later translated into more languages than any film ever made. In 1996 he was awarded the Templeton Prize, giving the entire $1.1 million toward promoting prayer and fasting.
+
+Soon after his conversion, Bill and Vonette wrote out a formal "contract," surrendering their ambitions and possessions to God and describing themselves as Christ's slaves. It was a deliberate renunciation of the very success he had once pursued — proof that the grace which had reached him asked, in return, nothing less than everything.
 
 ---
 
@@ -604,11 +620,11 @@ Wikipedia: https://en.wikipedia.org/wiki/Dora_Yu
 Nationality: Chinese · Tradition: Independent evangelical · Region: Asia · Era: 20th Century
 Topics: evangelism, revival, grace, women, missions
 
-Dora Yu (余慈度) was born in 1873 at a Presbyterian mission compound in Zhejiang, China, daughter of a former military surgeon turned Presbyterian pastor. Raised with daily prayer, she nonetheless came under deep conviction of sin as a young woman in 1895, later writing that after weeks of anguish, "God suddenly opened the heavens to me and I was filled with the love of God Himself" — grace, not her own effort, was what finally settled her soul.
+Dora Yu (余慈度) was born in 1873 at the American Presbyterian Mission in Hangzhou, Zhejiang, daughter of a former military surgeon turned Presbyterian pastor. Raised with daily prayer, she nonetheless came under deep conviction of sin as a young woman in 1895, later writing that after weeks of anguish, "God suddenly opened the heavens to me and I was filled with the love of God Himself" — grace, not her own effort, was what finally settled her soul.
 
-Trained in Western medicine at Suzhou, she became one of China's first female medical graduates, then in 1897 travelled with missionary Josephine Campbell to Korea as one of the earliest female medical missionaries there. In 1904, back in China, she gave up medicine to become a full-time evangelist, trusting God alone for support — a rare step for the time — and later founded a Bible school in Shanghai to train Chinese Christian workers. She preached across China and, in 1927, at the Keswick Convention in England, always stressing a holy, consistent life over dramatic spiritual gifts.
+Trained in Western medicine at Suzhou, she became one of the earliest Chinese women to receive Western medical training. In 1897 she travelled with missionary Josephine Campbell to Korea as one of the first Chinese female medical missionaries. After returning to China in 1903, she gave up medicine to become a full-time evangelist, trusting God alone for support, and later founded the Bible Study and Prayer House in Shanghai to train Chinese Christian workers. She preached across China and, in 1927, spoke at the Keswick Convention in England, urging believers to pursue holy, Christlike lives.
 
-Her most far-reaching legacy came in 1920, during revival meetings in Fuzhou. Her preaching brought a woman named Lin Heping to faith in Christ; months later Lin's teenage son, having heard Yu preach, gave his life entirely to Jesus. That son was Watchman Nee, who would shape Chinese church life for decades — a reminder that the gospel Yu proclaimed outlasted her own ministry many times over.
+Her most far-reaching legacy came in 1920 during revival meetings in Fuzhou. Her preaching brought Watchman Nee's mother, Lin Heping, to faith, and a few months later her teenage son dedicated his life wholly to Christ after hearing Yu preach. That son was Watchman Nee, whose influence on the Chinese church would extend around the world — a reminder that the gospel she proclaimed bore fruit long after her own ministry had ended.
 
 ---
 
@@ -2270,11 +2286,11 @@ Wikipedia: https://en.wikipedia.org/wiki/Samuel_Ajayi_Crowther
 Nationality: Nigerian (Yoruba) · Tradition: Anglican (Church Missionary Society) · Region: Africa · Era: 19th Century
 Topics: freedom, missions, translation, perseverance
 
-Samuel Ajayi Crowther was born around 1809 in Osogun, in what is now Nigeria. Around age twelve he was captured during a raid, separated from his mother, and sold into slavery. The Portuguese ship carrying him was intercepted by a Royal Navy anti-slavery patrol, and he was landed at Freetown, Sierra Leone, where Church Missionary Society schools gave him an education he had never expected to receive. He was baptized in 1825.
+Samuel Ajayi Crowther was born around 1809 in Osogun, in what is now Nigeria. Around the age of twelve he was captured during a raid, separated from his mother, and sold into slavery. The Portuguese ship carrying him was intercepted by a Royal Navy anti-slavery patrol, and he was landed at Freetown, Sierra Leone, where Church Missionary Society schools gave him an education he had never expected to receive. He was baptized in 1825.
 
-Crowther became the first student at Fourah Bay College, was ordained, and gave himself to translating Scripture into his native Yoruba, completing the full Bible in 1884 alongside a Yoruba grammar and prayer book. In 1864 he was consecrated the first African bishop of the Anglican Church, at Canterbury Cathedral, and led the CMS Niger Mission for decades — though in his final year, younger European missionaries undermined his authority in ways historians now recognize as racially motivated.
+Crowther became one of the first students at Fourah Bay College, was ordained, and gave himself to translating Scripture into his native Yoruba, completing the full Bible in 1884 alongside a Yoruba grammar and prayer book. In 1864 he was consecrated at Canterbury Cathedral as the first African bishop of the Anglican Church and led the CMS Niger Mission for decades, though in his final years younger European missionaries undermined his authority in ways historians now recognize as racially motivated.
 
-In 1846, returning as a missionary to the region of his childhood, Crowther was reunited with his mother, twenty-five years after the raid that had torn them apart. She and other family members subsequently believed in Christ. The boy stolen from his home became, by grace alone, the means by which his own family was found by the God he had come to know in exile.
+Returning as a missionary to the region of his childhood, Crowther was reunited with his mother more than twenty years after the raid that had torn them apart. She and other members of his family later came to faith in Christ. The boy stolen from his home became, by grace alone, the means by which his own family was found by the God he had come to know in exile.
 
 ---
 

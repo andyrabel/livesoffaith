@@ -516,5 +516,12 @@
     "label": "led to faith in Christ",
     "type": "conversion",
     "mutual": false
+  },
+  {
+    "from": "billy-graham",
+    "to": "bill-bright",
+    "label": "was a preaching influence on",
+    "type": "influence",
+    "mutual": false
   }
 ]

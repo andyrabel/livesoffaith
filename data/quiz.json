@@ -2938,5 +2938,23 @@
     "answer": "free",
     "person_id": "harriet-tubman",
     "difficulty": 3
+  },
+  {
+    "question": "What ministry did Bill Bright found among students at UCLA in 1951?",
+    "answer": "Campus Crusade for Christ (now called Cru)",
+    "person_id": "bill-bright",
+    "difficulty": 3
+  },
+  {
+    "question": "What evangelistic tract did Bill Bright write in 1965, later printed in over 200 languages?",
+    "answer": "The Four Spiritual Laws",
+    "person_id": "bill-bright",
+    "difficulty": 5
+  },
+  {
+    "question": "Whose preaching at Hollywood First Presbyterian Church led Bill Bright to trust Christ in 1945?",
+    "answer": "Henrietta Mears",
+    "person_id": "bill-bright",
+    "difficulty": 5
   }
 ]

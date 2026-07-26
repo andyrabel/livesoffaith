@@ -13413,5 +13413,83 @@
       "reviewed_by": "Andrew",
       "reviewed_date": "2026-07-15"
     }
+  },
+  {
+    "id": "bill-bright",
+    "name": "Bill Bright",
+    "born": 1921,
+    "died": 2003,
+    "significant_dates": [
+      {
+        "date": "Oct 19, 1921",
+        "event": "birth",
+        "details": "Born in Coweta, Oklahoma."
+      },
+      {
+        "date": "1945",
+        "event": "saved",
+        "details": "Trusted Christ for salvation after hearing Henrietta Mears preach at Hollywood First Presbyterian Church."
+      },
+      {
+        "date": "1951",
+        "event": "other",
+        "details": "Founded Campus Crusade for Christ (now Cru) at UCLA with his wife, Vonette."
+      },
+      {
+        "date": "1965",
+        "event": "other",
+        "details": "Wrote the evangelistic tract “The Four Spiritual Laws,” later printed in over 200 languages."
+      },
+      {
+        "date": "1979",
+        "event": "other",
+        "details": "Produced the JESUS film, later translated into more languages than any film in history."
+      },
+      {
+        "date": "Jul 19, 2003",
+        "event": "death",
+        "details": "Died in Orlando, Florida, aged 81."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Interdenominational evangelical",
+    "flagged": true,
+    "footnote": "In 1994 Bright was among the signatories of ‘Evangelicals and Catholics Together,’ an ecumenical statement affirming shared mission with Roman Catholic leaders, alongside Chuck Colson and others. The document drew significant criticism from Reformed and other evangelicals for blurring the doctrinal differences — particularly justification by faith alone — that divide evangelical and Catholic teaching; Bright defended his signature by arguing it would help reach Catholics with the gospel. This is noted so readers can weigh the ecumenical judgment call alongside his own clear teaching on salvation by grace through faith found in the Four Spiritual Laws.",
+    "topics": [
+      "evangelism",
+      "missions",
+      "consecration",
+      "surrender",
+      "discipleship"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bill_Bright",
+    "source_summary": "William \"Bill\" Bright (1921–2003) was an American evangelist born in Coweta, Oklahoma. Converted in 1945 under the ministry of Henrietta Mears at Hollywood's First Presbyterian Church, he founded Campus Crusade for Christ (now Cru) at UCLA in 1951 with his wife, Vonette Zachary Bright, whom he married in 1948. He wrote the widely distributed evangelistic tract \"The Four Spiritual Laws\" (1965), produced the JESUS film (1979), and received the $1.1 million Templeton Prize in 1996, which he donated to promote prayer and fasting. He signed the 1994 ecumenical statement \"Evangelicals and Catholics Together.\" He stepped down as president of Campus Crusade in 2001 and died in Orlando, Florida, in 2003.",
+    "adult_story": "William \"Bill\" Bright was born October 19, 1921, in Coweta, Oklahoma, and moved to Los Angeles as a young man to build a candy business. Attending Hollywood's First Presbyterian Church, he came under the teaching of Henrietta Mears and the preaching of [[Billy Graham|billy-graham]], and in the spring of 1945, at twenty-three, he trusted Christ alone for his salvation — not his own ambition or effort, but Christ's finished work on the cross.\n\nBright is best known as the founder, with his wife Vonette, of Campus Crusade for Christ (now Cru), launched among students at UCLA in 1951. In 1965 he distilled the gospel into a short tract, \"The Four Spiritual Laws,\" which, printed in over 200 languages and some 2.5 billion copies, became the most widely distributed presentation of the gospel in history. In 1979 he produced the JESUS film, later translated into more languages than any film ever made. In 1996 he was awarded the Templeton Prize, giving the entire $1.1 million toward promoting prayer and fasting.\n\nSoon after his conversion, Bill and Vonette wrote out a formal \"contract,\" surrendering their ambitions and possessions to God and describing themselves as Christ's slaves. It was a deliberate renunciation of the very success he had once pursued — proof that the grace which had reached him asked, in return, nothing less than everything.",
+    "family_story": "Bill Bright was born in Oklahoma in 1921. As a young man, he moved to California to start a candy business. At church, he heard a Bible teacher explain that Jesus had already done everything needed to save him — Bill just needed to trust him. In 1945, he did.\n\nBill and his wife, Vonette, wanted to give God everything, so they wrote a promise to live only for him. In 1951 they started a ministry called Campus Crusade for Christ to tell college students about Jesus. Bill later wrote a small booklet explaining the good news simply — it has been given to billions of people, still pointing them to the same Savior Bill trusted as a young man.",
+    "image": {
+      "file": "bill-bright.jpg",
+      "prompt_used": "Photorealistic portrait of Bill Bright, American evangelist and founder of Campus Crusade for Christ, 1970s, wearing a light-colored suit and tie, dark hair combed back, warm and earnest expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:William_R._Bright_e_Laudo_Natel_(1974).jpg — Arquivo Público do Estado de São Paulo, public domain under Brazilian law (government work published before 1983)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Brazilian state archive photo, public domain as a pre-1983 government work under Brazilian law — clear public-domain claim, no caveat, resolvable to a direct Commons file."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Bright Memorial Garden — Cru International Headquarters",
+        "address": "100 Lake Hart Drive, Orlando, FL 32832, USA",
+        "lat": 28.4066528,
+        "lng": -81.2014091
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]
