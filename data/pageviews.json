@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T14:00:05+00:00",
+  "generated_at": "2026-07-26T14:41:46+00:00",
   "views": {
     "philip-bliss": 16,
     "rudolf-bosshardt": 16,
@@ -15,11 +15,12 @@
     "cs-lewis": 7,
     "ct-studd": 7,
     "augustus-toplady": 6,
+    "charles-albert-tindley": 6,
     "james-strong": 6,
     "susanna-wesley": 6,
-    "charles-albert-tindley": 5,
     "david-brainerd": 5,
     "fanny-crosby": 5,
+    "leon-morris": 5,
     "manche-masemola": 5,
     "eric-liddell": 4,
     "horatius-bonar": 4,
@@ -34,7 +35,6 @@
     "dottie-rambo": 3,
     "john-calvin": 3,
     "kristyn-getty": 3,
-    "leon-morris": 3,
     "lottie-moon": 3,
     "patrick-johnstone": 3,
     "allen-gardiner": 2,
@@ -77,10 +77,12 @@
   },
   "hymn_views": {
     "god-moves-in-a-mysterious-way": 5,
+    "jesus-shall-reign": 3,
+    "i-know-that-my-redeemer-lives": 2,
     "amazing-grace": 1,
     "hail-to-the-lords-anointed": 1,
-    "jesus-shall-reign": 1,
     "redeemed": 1,
+    "rescue-the-perishing": 1,
     "when-i-survey-the-wondrous-cross": 1
   }
 }
