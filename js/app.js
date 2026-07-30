@@ -547,6 +547,13 @@ function renderFeaturedPerson() {
   const seed = `featured-${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
   const person = usePool[seededIndex(seed, usePool.length)];
 
+  // Default to the adult ("for worship and teaching") version; a person can
+  // record a preference for the family version instead via
+  // featured_story_preference in people.json.
+  const storyText = person.featured_story_preference === 'family'
+    ? person.family_story
+    : person.adult_story;
+
   const years = escapeHtml(formatYears(person));
   const initials = escapeHtml(getInitials(person.name));
   const portraitHtml = person.image
@@ -563,7 +570,7 @@ function renderFeaturedPerson() {
         <h2 class="featured-person__name"><a href="person.html?id=${escapeHtml(person.id)}">${escapeHtml(person.name)}</a></h2>
         <p class="featured-person__dates">${years}</p>
         <div class="story-panel featured-person__panel">
-          <div class="story-text">${firstStoryParagraphs(person.family_story)}</div>
+          <div class="story-text">${firstStoryParagraphs(storyText)}</div>
         </div>
         <a class="featured-person__link" href="person.html?id=${escapeHtml(person.id)}">Read ${escapeHtml(person.name)}&rsquo;s full story &#8594;</a>
       </div>

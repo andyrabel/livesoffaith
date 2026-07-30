@@ -112,6 +112,15 @@ Both versions must:
 - Point to Christ and contain a salvation-by-faith thread
 - Avoid invented dialogue or unverified anecdotes
 
+### Home Page Featured Person
+
+The home page's daily "Featured Person" box (`renderFeaturedPerson()` in
+`js/app.js`) shows an excerpt of one of the two story versions. Default to
+the **adult ("for worship and teaching") version**. A person can be given a
+recorded preference for the family version instead by setting
+`"featured_story_preference": "family"` on their JSON entry — omit the field
+entirely for the (default) adult version.
+
 ---
 
 ## Image Requirements
