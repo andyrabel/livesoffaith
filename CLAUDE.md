@@ -269,15 +269,27 @@ Each entry in the `significant_dates` array has:
   - Only month + year known: `"Jan 1976"`
   - Only year known: `"1976"`
   - Approximate/disputed per the source: prefix with `"c. "`, e.g. `"c. 1725"`
-- `event` — one of: `"birth"`, `"death"`, `"martyred"`, `"saved"` (conversion/salvation experience), `"other"`
+- `event` — one of: `"birth"`, `"death"`, `"martyred"`, `"saved"` (conversion/salvation experience), `"ordained"`, `"founded"` (founded/co-founded a church, mission, org, or school), `"published"` (a book, hymn, translation, or other written work), `"marriage"`, `"engagement"`, `"missionary travel"` (departed/arrived/settled as a missionary), `"baptism"`, `"other"`
 - `details` — short (under 20 words) factual phrase, neutral tone, no invented dialogue. Can be `""` if nothing more needs to be said.
+- `exclude_from_on_this_day` — optional boolean, omit unless `true`. Set on an individual event (not the whole person) to keep an otherwise-eligible full-precision date out of both "on this day" pickers (`app.js`'s homepage banner and `_build/fb/selector.py`'s FB scheduler) while still keeping the fact in the person's own timeline. See the exclusion policy below.
 
 Rules:
 - Every entry gets a `birth` event and either a `death` event **or** a `martyred` event — never both. Use `martyred` only for a violent death suffered specifically for the faith (executed, burned, beheaded, hanged for resistance to persecution, etc.) — imprisonment, torture, or persecution survived to a natural death (e.g. Richard Wurmbrand, Corrie ten Boom) still gets a normal `death` event.
 - Include a `saved` event only if the source gives a reasonably specific date (at least a year) for the conversion/salvation experience — omit if the source is vague ("as a young man") with no date.
-- Include up to 3 `other` events, only for clearly-dated, well-documented events central to why the person matters (e.g. a famous hymn's composition date, ordination, founding of a ministry, a famous incident). Zero `other` events is fine if nothing solid exists — don't pad.
+- Use `"ordained"`, `"founded"`, `"published"`, `"marriage"`, `"engagement"`, `"missionary travel"`, or `"baptism"` when an event matches that category cleanly. Episcopal consecration (becoming a bishop) is not the same rite as ordination — keep it under `"other"` rather than `"ordained"` unless it's genuinely the person's ordination to the priesthood/ministry.
+- Include up to 3 events beyond `birth`/`death`/`martyred`/`saved` — combining `"ordained"`, `"founded"`, `"published"`, `"marriage"`, `"engagement"`, `"missionary travel"`, `"baptism"`, and `"other"` together, not 3 of `"other"` specifically — only for clearly-dated, well-documented events central to why the person matters (e.g. a famous hymn's composition date, ordination, founding of a ministry, a famous incident). Zero such events is fine if nothing solid exists — don't pad.
 - Ground every date in Wikipedia (or another approved source) — never invent or guess a date. If uncertain, omit the event.
 - Order the array chronologically.
+
+**`exclude_from_on_this_day` policy** — "on this day" is meant to reverently commemorate a person's life and faith, not to relitigate church conflict or spotlight a person's ethically fraught actions toward someone else. Set the flag on a full-precision event when it falls into one of these categories, even though the fact itself still belongs in the timeline:
+- An execution, persecution, or comparable act the featured person inflicted or was complicit in (e.g. John Calvin's role in Michael Servetus's execution — this is literally the concern behind Calvin's own `flagged`/`footnote`, so it must never be the thing the site celebrates on a given day).
+- An excommunication (by Rome or otherwise) — factual and belongs in the timeline, but spotlighting it reads as anti-Catholic point-scoring rather than Christ-centered content.
+- A denominational secession or schism (e.g. Abraham Kuyper's Doleantie secession, J. Gresham Machen founding a new denomination after being pushed out of the PCUSA) — celebrating a split, even a doctrinally-defensible one, looks like the site taking a side in ecclesiology.
+- A public dispute or controversy between named, still-followed Christian figures or camps (e.g. Martyn Lloyd-Jones's 1966 call for separation, publicly opposed by John Stott) — spotlighting it looks like picking a side in a live debate rather than remembering history.
+
+By contrast, martyrdom deaths (Hus, Cranmer, Tyndale, Lin Zhao, Wang Zhiming, etc.) are exactly what "on this day" should surface — reverent commemoration of suffering for the faith is core to the site's mission, not something to flag.
+
+When adding a new person (or new `significant_dates` to an existing one), check any full-precision `"other"` event against this list as a standard part of the pipeline, alongside vetting and flagging the person themselves.
 
 ### Memorials Schema
 

@@ -318,6 +318,13 @@ const SIGNIFICANT_DATE_LABELS = {
   death: 'Died',
   martyred: 'Martyred',
   saved: 'Saved',
+  ordained: 'Ordained',
+  founded: 'Founded',
+  published: 'Published',
+  marriage: 'Married',
+  engagement: 'Engaged',
+  'missionary travel': 'Missionary Travel',
+  baptism: 'Baptized',
   other: ''
 };
 
@@ -405,6 +412,7 @@ function getOnThisDayCandidates(people, month, day) {
   const candidates = [];
   people.forEach(person => {
     (person.significant_dates || []).forEach(dateEntry => {
+      if (dateEntry.exclude_from_on_this_day) return;
       const parsed = parseFullDate(dateEntry.date);
       if (parsed && parsed.month === month && parsed.day === day) {
         candidates.push({ person, dateEntry });
