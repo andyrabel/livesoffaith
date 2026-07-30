@@ -13655,5 +13655,66 @@
       "reviewed_by": "",
       "reviewed_date": ""
     }
+  },
+  {
+    "id": "makoto-fujimura",
+    "name": "Makoto Fujimura",
+    "born": 1960,
+    "born_approximate": false,
+    "died": null,
+    "significant_dates": [
+      {
+        "date": "1960",
+        "event": "birth",
+        "details": "Born in Boston, Massachusetts; raised mainly in Japan."
+      },
+      {
+        "date": "1991",
+        "event": "founded",
+        "details": "Founded the International Arts Movement (now IAMCultureCare) in New York City."
+      },
+      {
+        "date": "Sep 11, 2001",
+        "event": "other",
+        "details": "His studio, three blocks from the World Trade Center, became a place of prayer and community after the attacks."
+      },
+      {
+        "date": "2009",
+        "event": "published",
+        "details": "Illuminated The Four Holy Gospels for Crossway, the first single-artist illustration of all four Gospels in centuries."
+      }
+    ],
+    "nationality": "Japanese-American",
+    "era": "21st Century",
+    "region": "North America",
+    "tradition": "Reformed evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "beauty of God",
+      "creation",
+      "grace",
+      "redemption",
+      "suffering"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Makoto_Fujimura",
+    "source_summary": "Makoto Fujimura (b. 1960, Boston) is a Japanese-American painter working in nihonga, a traditional Japanese technique using pigments ground from gold, silver, and minerals. Raised largely in Japan, he earned his MFA at Tokyo University of the Arts and became the first non-Japanese citizen admitted to its doctoral painting program. A Reformed evangelical Christian, his faith was renewed through reading William Blake's poetry while in Japan. He founded the International Arts Movement (1991), was appointed to the National Council on the Arts by President George W. Bush (2003), and was commissioned by Crossway to illuminate The Four Holy Gospels (2009). His studio stood three blocks from the World Trade Center on September 11, 2001. He has written several books on faith and art, including Silence and Beauty (2016) and Art+Faith: A Theology of Making (2021), and served as Vision Director of Fuller Seminary's Brehm Center (2015-2020).",
+    "adult_story": "Makoto Fujimura was born in Boston in 1960 and raised mostly in Japan, where he trained in nihonga, a centuries-old painting technique using pigments ground from gold, silver, and crushed minerals. At Tokyo University of the Arts he became the first non-Japanese citizen admitted to its doctoral painting program. It was there, unexpectedly, that reading William Blake's poetry drew him back toward Christianity, and he came to a Reformed evangelical faith grounded in grace rather than achievement — no small thing for an artist trained to prize technical mastery.\n\nFujimura has spent his career arguing that making art is itself an act of worship, coining the phrase \"Culture Care\" for cultivating beauty rather than reacting against cultural decline. In 2009 Crossway commissioned him to illuminate The Four Holy Gospels, the first time in nearly five hundred years one artist illustrated all four Gospels together. His books, including Silence and Beauty and Art+Faith, explore how suffering can become the very site of grace.\n\nOn September 11, 2001, Fujimura's studio stood three blocks from the World Trade Center. Rather than close it, he opened its doors to grieving artists and neighbours as a place of prayer and fellowship — a small picture of the gospel he paints: God does not discard what is broken, but, as in the Japanese art of kintsugi, mends it with gold.",
+    "family_story": "Makoto Fujimura is an artist who grew up in Japan, where he learned nihonga, an old way of painting using real gold, silver, and crushed minerals instead of ordinary paint. While studying there, some poems he read reminded him of the Bible, and he found his way back to trusting Jesus — not because he had earned it, but because God's grace was a free gift.\n\nFujimura believes making beautiful things is one way to thank God for making us. When terrorists attacked New York on September 11, 2001, his art studio stood only blocks away. Instead of locking the doors, he opened them to frightened neighbours — a picture of how God takes broken things and makes them beautiful again.",
+    "image": {
+      "file": "makoto-fujimura.jpg",
+      "prompt_used": "Photorealistic portrait of Makoto Fujimura, Japanese-American painter and writer, contemporary (2020s), grey hair, wire-framed glasses, dark blazer, warm and thoughtful expression, likeness accurate to his later career appearance",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Makoto_Fujimara_explains_Kintsugi_ceramic_art_during_a_speech,_in_London,_November_2023.jpg — CC0 1.0 public domain dedication, photo by ARC Forum/Flickr user \"Dom\"",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "CC0 public-domain dedication via a direct commons.wikimedia.org file page — no caveat."
+    },
+    "memorials": [],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]

@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-29. 165 people.
+Generated 2026-07-30. 166 people.
 
 ---
 
@@ -1814,6 +1814,21 @@ Lucian Tapiedi was born around 1921 in Taupota village on Papua's north coast. R
 As Japanese forces invaded Papua during the Second World War, foreign missionaries and Papuan church workers alike faced sudden danger. Tapiedi continued his work at Sangara as the invasion swept the region, one of hundreds of local Christians and missionaries who would be killed in Papua before the war's end.
 
 On 4 January 1942, while fleeing with a small group near Kurumbo village, Tapiedi was killed with an axe by a man named Hivijapa. He was about twenty years old. The story did not end there: years later, Hivijapa himself came to faith in the same Christ that Tapiedi had died proclaiming, and built a church in his memory. A young teacher's death became, in time, the ground of his own killer's salvation — a sign that grace in Christ reaches even those who least deserve it, received by faith and not by any merit of their own. In 1998 Tapiedi's statue was placed among ten twentieth-century martyrs above the west door of Westminster Abbey.
+
+---
+
+## Makoto Fujimura (b. 1960)
+
+URL: https://livesoffaith.org/person.html?id=makoto-fujimura
+Wikipedia: https://en.wikipedia.org/wiki/Makoto_Fujimura
+Nationality: Japanese-American · Tradition: Reformed evangelical · Region: North America · Era: 21st Century
+Topics: beauty of God, creation, grace, redemption, suffering
+
+Makoto Fujimura was born in Boston in 1960 and raised mostly in Japan, where he trained in nihonga, a centuries-old painting technique using pigments ground from gold, silver, and crushed minerals. At Tokyo University of the Arts he became the first non-Japanese citizen admitted to its doctoral painting program. It was there, unexpectedly, that reading William Blake's poetry drew him back toward Christianity, and he came to a Reformed evangelical faith grounded in grace rather than achievement — no small thing for an artist trained to prize technical mastery.
+
+Fujimura has spent his career arguing that making art is itself an act of worship, coining the phrase "Culture Care" for cultivating beauty rather than reacting against cultural decline. In 2009 Crossway commissioned him to illuminate The Four Holy Gospels, the first time in nearly five hundred years one artist illustrated all four Gospels together. His books, including Silence and Beauty and Art+Faith, explore how suffering can become the very site of grace.
+
+On September 11, 2001, Fujimura's studio stood three blocks from the World Trade Center. Rather than close it, he opened its doors to grieving artists and neighbours as a place of prayer and fellowship — a small picture of the gospel he paints: God does not discard what is broken, but, as in the Japanese art of kintsugi, mends it with gold.
 
 ---
 
