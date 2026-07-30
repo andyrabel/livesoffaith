@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-26. 163 people.
+Generated 2026-07-29. 164 people.
 
 ---
 
@@ -254,7 +254,7 @@ URL: https://livesoffaith.org/person.html?id=bill-bright
 Wikipedia: https://en.wikipedia.org/wiki/Bill_Bright
 Nationality: American · Tradition: Interdenominational evangelical · Region: North America · Era: 20th Century
 Topics: evangelism, missions, consecration, surrender, discipleship
-Note: In 1994 Bright was among the signatories of ‘Evangelicals and Catholics Together,’ an ecumenical statement affirming shared mission with Roman Catholic leaders, alongside [[Chuck Colson|chuck-colson]] and others. The document drew significant criticism from Reformed and other evangelicals for blurring the doctrinal differences — particularly justification by faith alone — that divide evangelical and Catholic teaching; Bright defended his signature by arguing it would help reach Catholics with the gospel. This is noted so readers can weigh the ecumenical judgment call alongside his own clear teaching on salvation by grace through faith found in the Four Spiritual Laws.
+Note: In 1994 Bright was among the signatories of ‘Evangelicals and Catholics Together,’ an ecumenical statement affirming shared mission with Roman Catholic leaders, alongside Chuck Colson and others. The document drew significant criticism from Reformed and other evangelicals for blurring the doctrinal differences — particularly justification by faith alone — that divide evangelical and Catholic teaching; Bright defended his signature by arguing it would help reach Catholics with the gospel. This is noted so readers can weigh the ecumenical judgment call alongside his own clear teaching on salvation by grace through faith found in the Four Spiritual Laws.
 
 William "Bill" Bright was born October 19, 1921, in Coweta, Oklahoma, and moved to Los Angeles as a young man to build a candy business. Attending Hollywood's First Presbyterian Church, he came under the teaching of Henrietta Mears and the preaching of Billy Graham, and in the spring of 1945, at twenty-three, he trusted Christ alone for his salvation — not his own ambition or effort, but Christ's finished work on the cross.
 
@@ -1510,6 +1510,21 @@ John Wesley was born in Epworth, Lincolnshire in 1703, the fifteenth child of Sa
 The turning point came on 24 May 1738. At a Moravian meeting in Aldersgate Street, London, Wesley heard Luther's preface to Romans read aloud. He wrote afterwards: “I felt my heart strangely warmed. I felt I did trust in Christ, Christ alone for salvation.” From that evening he preached the grace he had previously only theorised. With the open fields as his pulpit — following George Whitefield’s example — he preached more than 40,000 sermons over fifty years, travelling 250,000 miles on horseback throughout Britain and Ireland. His Methodist societies became the seed of a global movement.
 
 A week before his death in 1791 he wrote his final letter to William Wilberforce, urging him not to abandon the fight against slavery. He died at eighty-seven, still trusting the Christ whose grace had warmed his heart fifty-three years before. For all his formidable organisation and energy, the thing that drove him was a single conviction: that a grace sufficient for John Wesley was sufficient for anyone.
+
+---
+
+## John Williams (1796–1839)
+
+URL: https://livesoffaith.org/person.html?id=john-williams
+Wikipedia: https://en.wikipedia.org/wiki/John_Williams_(missionary)
+Nationality: English · Tradition: Congregationalist (London Missionary Society) · Region: Oceania · Era: 19th Century
+Topics: missions, martyrdom, perseverance, faithfulness
+
+John Williams was born on 29 June 1796 near London, the son of Welsh parents. Apprenticed to an ironmonger as a young man, he was drawn to Christ after being invited to hear a sermon by Matthew Wilks, and soon offered himself to the London Missionary Society. Ordained at Surrey Chapel in September 1816, he sailed for the South Seas with his young wife, Mary, that November, at just twenty years old.
+
+For over two decades Williams carried the gospel across the Pacific — planting a church on Raiatea, translating the New Testament into Rarotongan, and building the ship Messenger of Peace with his own hands to reach islands no European had yet visited. In August 1830 he landed at Sapapali’i on Samoa’s Savai’i island, opening a mission that in time saw almost the whole Samoan nation profess Christ. He held that no island, however remote, should be left without the testimony of its Maker.
+
+That conviction carried him, in November 1839, to Erromango in the New Hebrides — an island where no missionary had ever set foot, and where Williams was entirely unknown. Within hours of stepping ashore, he and his companion James Harris were killed. Williams had spent his life urging that Christ’s name reach every people; he died carrying that gospel to a people who had not yet heard it — his death, like his life, pointing not to his own courage but to the Saviour he had crossed oceans to proclaim.
 
 ---
 

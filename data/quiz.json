@@ -2956,5 +2956,23 @@
     "answer": "Henrietta Mears",
     "person_id": "bill-bright",
     "difficulty": 5
+  },
+  {
+    "question": "Which Pacific island nation did John Williams bring Christianity to for the first time, landing in 1830?",
+    "answer": "Samoa",
+    "person_id": "john-williams",
+    "difficulty": 5
+  },
+  {
+    "question": "What was the name of the ship John Williams built by hand to reach islands no missionary had visited before?",
+    "answer": "The Messenger of Peace",
+    "person_id": "john-williams",
+    "difficulty": 5
+  },
+  {
+    "question": "On what island was missionary John Williams killed in 1839, earning him the title \"Martyr of Erromanga\"?",
+    "answer": "Erromango, in the New Hebrides (modern Vanuatu)",
+    "person_id": "john-williams",
+    "difficulty": 5
   }
 ]

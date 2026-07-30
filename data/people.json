@@ -13491,5 +13491,79 @@
       "reviewed_by": "",
       "reviewed_date": ""
     }
+  },
+  {
+    "id": "john-williams",
+    "name": "John Williams",
+    "born": 1796,
+    "died": 1839,
+    "significant_dates": [
+      {
+        "date": "Jun 29, 1796",
+        "event": "birth",
+        "details": "Born at Tottenham High Cross, Middlesex, England."
+      },
+      {
+        "date": "Sep 1816",
+        "event": "other",
+        "details": "Ordained and commissioned as a London Missionary Society missionary at Surrey Chapel, London."
+      },
+      {
+        "date": "Aug 24, 1830",
+        "event": "other",
+        "details": "Landed at Sapapali’i, Savai’i, bringing Christianity to Samoa for the first time."
+      },
+      {
+        "date": "Nov 20, 1839",
+        "event": "martyred",
+        "details": "Killed with fellow missionary James Harris by islanders at Dillon’s Bay, Erromango, New Hebrides."
+      }
+    ],
+    "nationality": "English",
+    "era": "19th Century",
+    "region": "Oceania",
+    "tradition": "Congregationalist (London Missionary Society)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "martyrdom",
+      "perseverance",
+      "faithfulness"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Williams_(missionary)",
+    "source_summary": "John Williams (1796–1839) was an English missionary with the London Missionary Society. Ordained in 1816, he sailed with his wife Mary to the South Pacific, establishing mission work on Raiatea and translating the New Testament into Rarotongan. He built the ship Messenger of Peace to reach previously unvisited islands, and in August 1830 became the first missionary to bring Christianity to Samoa, landing at Sapapali’i. On 20 November 1839, while attempting to open mission work on the previously unreached island of Erromango in the New Hebrides (Vanuatu), he and fellow missionary James Harris were killed by islanders. His remains were later returned to Samoa and buried at the LMS church in Apia.",
+    "adult_story": "John Williams was born on 29 June 1796 near London, the son of Welsh parents. Apprenticed to an ironmonger as a young man, he came under the preaching of Matthew Wilks and there trusted Christ’s finished work alone for his salvation, not any merit of his own. He soon offered himself to the London Missionary Society and, ordained at Surrey Chapel in September 1816, sailed for the South Seas with his wife, Mary, that November, at just twenty years old.\n\nFor over two decades Williams carried the gospel across the Pacific — planting a church on Raiatea, translating the New Testament into Rarotongan, and building the ship Messenger of Peace to reach islands no European had visited. In August 1830 he landed at Sapapali’i on Samoa’s Savai’i island, opening a mission that in time saw almost the whole nation profess Christ. He held that no island, however remote, should be left without the testimony of its Maker.\n\nThat conviction carried him, in November 1839, to Erromango in the New Hebrides — an island where no missionary had ever set foot, and where Williams was entirely unknown. Within hours of stepping ashore, he and his companion James Harris were killed. Williams had spent his life urging that Christ’s name reach every people; he died carrying that gospel to a people who had not yet heard it — his death, like his life, pointing not to his own courage, but to the grace of the Saviour he had crossed oceans to proclaim.",
+    "family_story": "John Williams grew up near London and became a missionary with one big dream: he wanted people on every island in the Pacific Ocean to hear about Jesus. He built his own ship, the Messenger of Peace, so he could reach islands no missionary had visited before. In 1830 he brought the good news of Jesus to Samoa for the very first time, and many people there put their trust in Christ.\n\nNine years later, Williams sailed to a small island called Erromango, where nobody had ever been told about Jesus. Only hours after he stepped onto the beach, he was killed. John Williams gave his whole life so that people who had never heard of Jesus finally could.",
+    "image": {
+      "file": "john-williams.jpg",
+      "prompt_used": "Photorealistic portrait of John Williams, English missionary to the South Pacific, 1830s, wearing a dark clerical coat with high white collar, dark hair swept to one side, serious and resolute expression, historically accurate to early Victorian dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:The_Rev._John_Williams,_by_George_Baxter,_1837.jpg — public domain (artist George Baxter died 1867; published 1837, before 1931)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Published 1837, artist died 1867 — clear public-domain claim, no caveat, resolvable to a direct Commons file."
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave and Memorial of John Williams",
+        "address": "Congregational Christian Church of Samoa (EFKS), Beach Road, Apia, Samoa",
+        "lat": -13.8328,
+        "lng": -171.7642
+      },
+      {
+        "type": "monument",
+        "name": "John Williams Memorial",
+        "address": "Sapapali’i, Savai’i, Samoa",
+        "lat": -13.68917,
+        "lng": -172.18639
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]
