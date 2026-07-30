@@ -2974,5 +2974,23 @@
     "answer": "Erromango, in the New Hebrides (modern Vanuatu)",
     "person_id": "john-williams",
     "difficulty": 5
+  },
+  {
+    "question": "What name did the islanders of Rarotonga give to missionary James Chalmers?",
+    "answer": "Tamate",
+    "person_id": "james-chalmers",
+    "difficulty": 5
+  },
+  {
+    "question": "Which Pacific island group did James Chalmers serve on for a decade before moving to New Guinea?",
+    "answer": "Rarotonga, in the Cook Islands",
+    "person_id": "james-chalmers",
+    "difficulty": 5
+  },
+  {
+    "question": "On what island was missionary James Chalmers killed in 1901?",
+    "answer": "Goaribari Island, in the Gulf of Papua, New Guinea",
+    "person_id": "james-chalmers",
+    "difficulty": 5
   }
 ]

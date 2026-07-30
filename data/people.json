@@ -13565,5 +13565,90 @@
       "reviewed_by": "",
       "reviewed_date": ""
     }
+  },
+  {
+    "id": "james-chalmers",
+    "name": "James Chalmers",
+    "born": 1841,
+    "died": 1901,
+    "significant_dates": [
+      {
+        "date": "Aug 4, 1841",
+        "event": "birth",
+        "details": "Born in Ardrishaig, Argyllshire, Scotland."
+      },
+      {
+        "date": "Nov 1859",
+        "event": "saved",
+        "details": "Converted at a revival meeting after Christ's invitation in Revelation 22:17 pierced his heart."
+      },
+      {
+        "date": "Oct 19, 1865",
+        "event": "other",
+        "details": "Ordained as a London Missionary Society missionary after training at Cheshunt College."
+      },
+      {
+        "date": "May 20, 1867",
+        "event": "other",
+        "details": "Arrived at Avarua, Rarotonga, beginning a decade training island teachers."
+      },
+      {
+        "date": "Oct 22, 1877",
+        "event": "other",
+        "details": "Arrived at Port Moresby, New Guinea, to begin the LMS mission there."
+      },
+      {
+        "date": "Apr 8, 1901",
+        "event": "martyred",
+        "details": "Clubbed and killed with Oliver Tomkins by islanders on Goaribari Island, Gulf of Papua."
+      }
+    ],
+    "nationality": "Scottish",
+    "era": "19th Century",
+    "region": "Oceania",
+    "tradition": "Congregationalist (London Missionary Society)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "martyrdom",
+      "perseverance",
+      "faithfulness"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/James_Chalmers_(missionary)",
+    "source_summary": "James Chalmers (1841-1901) was a Scottish missionary with the London Missionary Society. Converted at a revival meeting in 1859, he trained at Cheshunt College, was ordained in 1865, and served a decade in Rarotonga (Cook Islands) from 1867 training native teachers. In 1877 he moved to New Guinea, where he established a network of local teachers along the coast, explored previously unreached areas, and publicly opposed the exploitation of Papuans by traders and colonists. On 8 April 1901, while visiting the unreached Goaribari Island with colleague Oliver Fellows Tomkins and twelve native Christian companions, he was ambushed, clubbed to death, and eaten by islanders.",
+    "adult_story": "James Chalmers was born on 4 August 1841 in Ardrishaig, Scotland, the son of a stonemason, and grew up from age seven in nearby Inveraray. At thirteen, a missionary's letter read aloud in Sunday school stirred a private longing to serve overseas, but it was a revival meeting in November 1859 that changed him: Christ's own invitation — “let him that is athirst come” (Revelation 22:17) — pierced him, and he found peace not in his own effort but in Christ's finished work alone. Trained by the London Missionary Society, he married Jane Hercus, was ordained in October 1865, and sailed for the South Seas.\n\nFrom 1867 Chalmers spent a decade in Rarotonga training island teachers, known there as “Tamate.” In 1877 he moved to New Guinea, where he remained the rest of his life, planting a network of local teachers along its coast, exploring where no missionary had gone before, and publicly opposing the exploitation of its people by traders. Widowed in 1879, he remarried in 1888.\n\nOn 8 April 1901, visiting the unreached Goaribari Island with young colleague Oliver Tomkins and twelve native Christian companions, Chalmers went ashore despite evident danger and was clubbed and killed within minutes. He had spent his life urging that no people be left without the gospel; his death testified not to his own courage, but to the grace of the Christ he had crossed the world to proclaim.",
+    "family_story": "James Chalmers grew up in Scotland. As a boy he heard a missionary's letter read in Sunday school and secretly hoped to be one too. At a meeting some years later, he understood that Jesus offers forgiveness as a free gift to anyone who trusts him — and he did.\n\nChalmers became a missionary and spent ten years on Rarotonga, where islanders named him “Tamate.” He then moved to New Guinea, training local teachers to share the gospel along its coast.\n\nIn 1901 Chalmers visited an island where no missionary had ever been. He and his friend Oliver Tomkins went ashore to tell the people about Jesus, and were killed. Chalmers gave his life so people who had never heard of Jesus finally could.",
+    "image": {
+      "file": "james-chalmers.jpg",
+      "prompt_used": "Photorealistic portrait of James Chalmers, Scottish missionary to Rarotonga and New Guinea, c. 1880s, full beard and moustache, curly dark hair, wearing a dark Victorian suit with white collar and tie, serious and resolute expression, historically accurate to Victorian dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Picturesque_New_Guinea_Plate_III_(c)_-_Portraits_of_the_Missionaries_-_Rev_James_Chalmers.jpg — public domain (published 1885 in J. W. Lindt's Picturesque New Guinea; photographer Lindt died 1926, published before 1931)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Published 1885, photographer J. W. Lindt died 1926 — clear public-domain claim, no caveat, resolvable to a direct Commons file."
+    },
+    "memorials": [
+      {
+        "type": "archive",
+        "name": "Papers of James Chalmers — SOAS Library (Council for World Mission / London Missionary Society Archive)",
+        "address": "SOAS Library Special Collections, 10 Thornhaugh Street, Russell Square, London WC1H 0XG, UK",
+        "lat": 51.5219,
+        "lng": -0.128,
+        "open_to_public": false
+      },
+      {
+        "type": "monument",
+        "name": "Chalmers–Tomkins Memorial Font",
+        "address": "All Souls and St Bartholomew's Quetta Memorial Cathedral, Douglas Street, Thursday Island, Queensland, Australia",
+        "lat": -10.5838,
+        "lng": 142.2149
+      }
+    ],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]

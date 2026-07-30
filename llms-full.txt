@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-29. 164 people.
+Generated 2026-07-29. 165 people.
 
 ---
 
@@ -1238,6 +1238,21 @@ DeShazer never described his transformation as something he achieved through wil
 
 ---
 
+## James Chalmers (1841–1901)
+
+URL: https://livesoffaith.org/person.html?id=james-chalmers
+Wikipedia: https://en.wikipedia.org/wiki/James_Chalmers_(missionary)
+Nationality: Scottish · Tradition: Congregationalist (London Missionary Society) · Region: Oceania · Era: 19th Century
+Topics: missions, martyrdom, perseverance, faithfulness
+
+James Chalmers was born on 4 August 1841 in Ardrishaig, Scotland, the son of a stonemason, and grew up from age seven in nearby Inveraray. At thirteen, a missionary's letter read aloud in Sunday school stirred a private longing to serve overseas, but it was a revival meeting in November 1859 that changed him: Christ's own invitation — “let him that is athirst come” (Revelation 22:17) — pierced him, and he found peace not in his own effort but in Christ's finished work alone. Trained by the London Missionary Society, he married Jane Hercus, was ordained in October 1865, and sailed for the South Seas.
+
+From 1867 Chalmers spent a decade in Rarotonga training island teachers, known there as “Tamate.” In 1877 he moved to New Guinea, where he remained the rest of his life, planting a network of local teachers along its coast, exploring where no missionary had gone before, and publicly opposing the exploitation of its people by traders. Widowed in 1879, he remarried in 1888.
+
+On 8 April 1901, visiting the unreached Goaribari Island with young colleague Oliver Tomkins and twelve native Christian companions, Chalmers went ashore despite evident danger and was clubbed and killed within minutes. He had spent his life urging that no people be left without the gospel; his death testified not to his own courage, but to the grace of the Christ he had crossed the world to proclaim.
+
+---
+
 ## James Montgomery (1771–1854)
 
 URL: https://livesoffaith.org/person.html?id=james-montgomery
@@ -1520,11 +1535,11 @@ Wikipedia: https://en.wikipedia.org/wiki/John_Williams_(missionary)
 Nationality: English · Tradition: Congregationalist (London Missionary Society) · Region: Oceania · Era: 19th Century
 Topics: missions, martyrdom, perseverance, faithfulness
 
-John Williams was born on 29 June 1796 near London, the son of Welsh parents. Apprenticed to an ironmonger as a young man, he was drawn to Christ after being invited to hear a sermon by Matthew Wilks, and soon offered himself to the London Missionary Society. Ordained at Surrey Chapel in September 1816, he sailed for the South Seas with his young wife, Mary, that November, at just twenty years old.
+John Williams was born on 29 June 1796 near London, the son of Welsh parents. Apprenticed to an ironmonger as a young man, he came under the preaching of Matthew Wilks and there trusted Christ’s finished work alone for his salvation, not any merit of his own. He soon offered himself to the London Missionary Society and, ordained at Surrey Chapel in September 1816, sailed for the South Seas with his wife, Mary, that November, at just twenty years old.
 
-For over two decades Williams carried the gospel across the Pacific — planting a church on Raiatea, translating the New Testament into Rarotongan, and building the ship Messenger of Peace with his own hands to reach islands no European had yet visited. In August 1830 he landed at Sapapali’i on Samoa’s Savai’i island, opening a mission that in time saw almost the whole Samoan nation profess Christ. He held that no island, however remote, should be left without the testimony of its Maker.
+For over two decades Williams carried the gospel across the Pacific — planting a church on Raiatea, translating the New Testament into Rarotongan, and building the ship Messenger of Peace to reach islands no European had visited. In August 1830 he landed at Sapapali’i on Samoa’s Savai’i island, opening a mission that in time saw almost the whole nation profess Christ. He held that no island, however remote, should be left without the testimony of its Maker.
 
-That conviction carried him, in November 1839, to Erromango in the New Hebrides — an island where no missionary had ever set foot, and where Williams was entirely unknown. Within hours of stepping ashore, he and his companion James Harris were killed. Williams had spent his life urging that Christ’s name reach every people; he died carrying that gospel to a people who had not yet heard it — his death, like his life, pointing not to his own courage but to the Saviour he had crossed oceans to proclaim.
+That conviction carried him, in November 1839, to Erromango in the New Hebrides — an island where no missionary had ever set foot, and where Williams was entirely unknown. Within hours of stepping ashore, he and his companion James Harris were killed. Williams had spent his life urging that Christ’s name reach every people; he died carrying that gospel to a people who had not yet heard it — his death, like his life, pointing not to his own courage, but to the grace of the Saviour he had crossed oceans to proclaim.
 
 ---
 
