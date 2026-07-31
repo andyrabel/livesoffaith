@@ -1,5 +1,20 @@
 # Faith Heritage Website — Claude Code Instructions
 
+## Scope
+
+This file governs the public site itself: the content rules, JSON schemas
+(people, hymns, quiz, connections, what's new), site architecture, search/
+filter behaviour, and the human workflow for adding a new person or hymn. It
+is checked into the repo and pushed to GitHub.
+
+It does **not** cover the private `_build/` pipeline's internals in detail —
+those live in their own gitignored docs, cross-referenced from here:
+`_build/PAGEVIEWS.md` (GA4 pageview tracking setup), `_build/REVIEW.md`
+(the local human-review tool), `_build/FACEBOOK_SCHEDULING.md` (operating
+instructions for the Facebook scheduler), and `_build/fb/CLAUDE.md` (the
+Facebook pipeline's architecture). This file references what those systems
+do only where it affects public data (e.g. `image.redistribution_safe`).
+
 ## Project Overview
 
 Build a static GitHub Pages website profiling notable Christians throughout history —
@@ -353,7 +368,9 @@ confirm a dedicated archive exists.
 ## Quiz Questions
 
 `data/quiz.json` is a flat array of trivia questions that power the homepage "Quiz
-Question" box and the printable quiz generator (`quiz-print.html`). Each entry:
+Question" box and the printable quiz generator (the print-quiz section of
+`quiz.html`, driven by `js/app.js`'s `quiz-print-*` DOM ids — there is no
+separate `quiz-print.html` file). Each entry:
 
 ```json
 {
@@ -644,24 +661,45 @@ no server-side code. All data lives in JSON files. All filtering is client-side 
 ### Directory Structure
 
 ```
-/                          ← site root
-├── index.html             ← home page + search/filter UI
-├── person.html            ← single person template page
-├── hymns.html             ← hymn story index + search/filter UI
-├── hymn.html              ← single hymn story template page
-├── about.html             ← about the site, methodology, disclaimer
+/                        ← site root
+├── index.html           ← home page: search/filter UI, featured person, quiz box, what's new
+├── people.html          ← full person directory with search/filter
+├── person.html          ← single person template page
+├── hymns.html           ← hymn story index + search/filter UI
+├── hymn.html            ← single hymn story template page
+├── connections.html     ← relationship graph UI
+├── timeline.html        ← chronological timeline of significant_dates across people
+├── map.html             ← memorials + places map
+├── quiz.html            ← quiz box + printable quiz generator
+├── about.html           ← about the site, methodology, disclaimer
+├── list_people.py       ← standalone CLI helper, not part of the live site (see below)
 ├── css/
 │   └── style.css
 ├── js/
-│   └── app.js             ← filtering, search, clipboard logic
+│   ├── app.js           ← filtering, search, rendering, clipboard logic for every page above
+│   └── consent.js       ← cookie-consent banner for Google Analytics
 ├── data/
-│   ├── people.json        ← all person entries
-│   ├── hymns.json         ← all hymn story entries (see Hymn Stories above)
-│   ├── connections.json   ← relationships between people (see Connections Dataset above)
-│   └── whats-new.json     ← home page "What's New" feed (see What's New Feed above)
+│   ├── people.json             ← all person entries
+│   ├── hymns.json              ← all hymn story entries (see Hymn Stories above)
+│   ├── connections.json        ← relationships between people (see Connections Dataset above)
+│   ├── quiz.json                ← trivia questions (see Quiz Questions above)
+│   ├── places.json              ← museums/libraries/archives not tied to one person
+│   ├── books.json               ← books by/about people on the site, rendered on person pages
+│   ├── historical_events.json   ← general church-history events shown alongside people on timeline.html
+│   ├── whats-new.json           ← home page "What's New" feed (see What's New Feed above)
+│   ├── pageviews.json           ← GA4 view counts per person/hymn (see _build/PAGEVIEWS.md)
+│   ├── verses.json              ← Scripture text keyed by reference, used for topic/verse lookups
+│   └── quotes.json              ← standalone quotes by person id (see note below)
 └── images/
-    └── portraits/         ← all AI-generated portraits
+    ├── portraits/       ← all AI-generated portraits
+    └── logos/           ← site/social branding assets (favicon source, FB cover/profile images)
 ```
+
+`list_people.py` just prints all people sorted by surname — a standalone
+debugging helper, not called by `app.js` or any page. `quotes.json` isn't
+currently fetched by any page (see `generate_whats_new.py`'s "is it live"
+check, which uses exactly this kind of gap to decide what counts as a live
+feature).
 
 ### Build/Process Scripts (Private — Never Pushed to GitHub)
 
@@ -670,17 +708,29 @@ A separate private GitHub repo backs up the build scripts.
 
 ```
 _build/
-├── fetch_wikipedia.py     ← fetches and caches Wikipedia summaries
-├── generate_stories.py    ← calls Claude API to generate adult + family stories
-├── generate_prompts.py    ← builds image generation prompts per person
-├── generate_sitemap.py    ← regenerates sitemap.xml from data/people.json and data/hymns.json (run after adding any person or hymn)
-├── generate_llms_txt.py   ← regenerates llms.txt and llms-full.txt from data/people.json and data/hymns.json (run after adding any person or hymn)
-├── generate_whats_new.py  ← drafts data/whats-new.json entries from git history (see What's New Feed above)
-├── vetting.py             ← runs exclusion checklist before content generation
-└── prompts/
-    ├── adult_story.txt    ← master prompt template for adult stories
-    └── family_story.txt   ← master prompt template for family stories
+├── lineart.py            ← generates AI portrait engravings via Replicate ControlNet (Step 6 below)
+├── generate_images.py    ← legacy DALL-E 3 portrait generator, superseded by lineart.py
+├── stamp_portraits.py    ← backfill helper: burns the caption strip onto portraits already on disk
+├── generate_sitemap.py   ← regenerates sitemap.xml (run after adding any person or hymn)
+├── generate_llms_txt.py  ← regenerates llms.txt / llms-full.txt (run after adding any person or hymn)
+├── generate_whats_new.py ← drafts data/whats-new.json entries from git history
+├── fetch_pageviews.py    ← pulls GA4 view counts into data/pageviews.json (see _build/PAGEVIEWS.md)
+├── review_server.py      ← local human-review tool backing review.html (see _build/REVIEW.md)
+├── count_event_days.py   ← reports how many calendar days have a significant_dates match
+├── animate.py            ← prototype: animates a portrait into a short looping video, unshipped
+└── fb/                   ← private Facebook post-scheduling pipeline
 ```
+
+`generate_images.py` is not part of the current add-person workflow — kept
+for reference only. `animate.py` has not been promoted into the standard
+add-person pipeline. `fb/` is documented separately in `_build/fb/CLAUDE.md`
+(architecture) and `_build/FACEBOOK_SCHEDULING.md` (operating instructions).
+
+There is no longer a separate `fetch_wikipedia.py` / `generate_stories.py` /
+`generate_prompts.py` / `vetting.py` pipeline or `prompts/` template
+directory — in current practice Claude Code performs vetting, Wikipedia
+research, story drafting, and image-prompt writing directly in conversation
+per the Step 1–10 workflow below, rather than through standalone scripts.
 
 ---
 
