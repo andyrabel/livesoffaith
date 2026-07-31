@@ -11,9 +11,10 @@ It does **not** cover the private `_build/` pipeline's internals in detail —
 those live in their own gitignored docs, cross-referenced from here:
 `_build/PAGEVIEWS.md` (GA4 pageview tracking setup), `_build/REVIEW.md`
 (the local human-review tool), `_build/FACEBOOK_SCHEDULING.md` (operating
-instructions for the Facebook scheduler), and `_build/fb/CLAUDE.md` (the
-Facebook pipeline's architecture). This file references what those systems
-do only where it affects public data (e.g. `image.redistribution_safe`).
+instructions for the Facebook scheduler, including Instagram cross-posting),
+and `_build/fb/CLAUDE.md` (the Facebook/Instagram pipeline's architecture).
+This file references what those systems do only where it affects public data
+(e.g. `image.redistribution_safe`).
 
 ## Project Overview
 
@@ -718,7 +719,7 @@ _build/
 ├── review_server.py      ← local human-review tool backing review.html (see _build/REVIEW.md)
 ├── count_event_days.py   ← reports how many calendar days have a significant_dates match
 ├── animate.py            ← prototype: animates a portrait into a short looping video, unshipped
-└── fb/                   ← private Facebook post-scheduling pipeline
+└── fb/                   ← private Facebook post-scheduling + Instagram cross-posting pipeline
 ```
 
 `generate_images.py` is not part of the current add-person workflow — kept
