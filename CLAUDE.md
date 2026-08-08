@@ -211,10 +211,18 @@ Every person entry has a review status stored in JSON:
 
 On the rendered page this displays as a badge:
 - ✅ Reviewed for accuracy — when `human_reviewed: true`
-- ⚠️ AI-generated content — not yet human reviewed — when `human_reviewed: false`
+- No badge at all — when `human_reviewed: false`
 
-The ⚠️ badge must be prominent and honest. Do not suppress or minimise it.
-No content is ever published without one badge or the other being displayed.
+As of 2026-08-07, the site no longer displays a "⚠️ AI-generated — not yet
+human reviewed" warning badge for unreviewed entries (`reviewBadgeHtml()` in
+`js/app.js`, plus the equivalent inline logic for hymn cards/pages, now
+returns `''` when `human_reviewed` is `false`). This is a deliberate choice
+to de-emphasise the AI-generation angle in the site's public presentation —
+it is not a change to the underlying editorial process. `human_reviewed`
+still exists on every entry, still gates the ✅ badge, and still drives the
+`review-status` filter on `people.html`/`hymns.html` — content should still
+go through the same human review pass before Step 8 sets it `true`; the
+change only affects whether the unreviewed state is surfaced to visitors.
 
 ---
 

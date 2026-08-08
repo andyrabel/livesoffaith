@@ -115,7 +115,7 @@ function reviewBadgeHtml(person) {
     const by = person.review.reviewed_by ? ` by ${escapeHtml(person.review.reviewed_by)}` : '';
     return `<span class="badge badge-reviewed" title="Reviewed${by}">&#10003; Reviewed for accuracy</span>`;
   }
-  return `<span class="badge badge-unreviewed">&#9888; AI-generated — not yet human reviewed</span>`;
+  return '';
 }
 
 // ============================================================
@@ -2144,7 +2144,7 @@ function hymnCardHtml(hymn) {
   const writerName = writer ? writer.name : '';
   const badge = hymn.review.human_reviewed
     ? `<span class="badge badge-reviewed" title="Reviewed">&#10003; Reviewed for accuracy</span>`
-    : `<span class="badge badge-unreviewed">&#9888; AI-generated — not yet human reviewed</span>`;
+    : '';
   const tags = (hymn.topics || [])
     .map(t => `<span class="topic-tag">${escapeHtml(t)}</span>`)
     .join('');
@@ -2456,7 +2456,7 @@ function initHymnPage() {
 
   const badge = hymn.review.human_reviewed
     ? `<span class="badge badge-reviewed" title="Reviewed${hymn.review.reviewed_by ? ' by ' + escapeHtml(hymn.review.reviewed_by) : ''}">&#10003; Reviewed for accuracy</span>`
-    : `<span class="badge badge-unreviewed">&#9888; AI-generated — not yet human reviewed</span>`;
+    : '';
 
   const writerHtml = writer
     ? `<a href="person.html?id=${escapeHtml(writer.id)}" class="person-link">${escapeHtml(writer.name)}</a>`
