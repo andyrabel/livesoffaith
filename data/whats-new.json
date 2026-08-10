@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-07",
+    "label": "Aug 7, 2026",
+    "title": "Review Badges",
+    "href": "about.html",
+    "text": "profiles now show a reviewed checkmark only, no unreviewed warning badge."
+  },
+  {
+    "date": "2026-07-30",
+    "label": "Jul 30, 2026",
+    "title": "People",
+    "href": "person.html",
+    "text": "read the newly added profile of painter Makoto Fujimura and his story."
+  },
+  {
+    "date": "2026-07-29",
+    "label": "Jul 29, 2026",
+    "title": "Timeline",
+    "href": "person.html",
+    "text": "life events now show specific labels like ordained, published, and married."
+  },
+  {
     "date": "2026-07-21",
     "label": "Jul 21, 2026",
     "title": "What's New",
