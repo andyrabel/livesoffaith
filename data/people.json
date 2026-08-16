@@ -13716,5 +13716,168 @@
       "reviewed_by": "",
       "reviewed_date": ""
     }
+  },
+  {
+    "id": "gipsy-smith",
+    "name": "Rodney \"Gipsy\" Smith",
+    "born": 1860,
+    "born_approximate": false,
+    "died": 1947,
+    "significant_dates": [
+      {
+        "date": "Mar 31, 1860",
+        "event": "birth",
+        "details": "Born to Romani parents in a bender tent in Epping Forest, England."
+      },
+      {
+        "date": "c. 1876",
+        "event": "saved",
+        "details": "Converted to Christ at sixteen through his father's testimony, Ira Sankey's singing, and a visit to John Bunyan's home."
+      },
+      {
+        "date": "Jun 25, 1877",
+        "event": "other",
+        "details": "Accepted William Booth's invitation to become an evangelist with the Christian Mission, later the Salvation Army."
+      },
+      {
+        "date": "Dec 17, 1879",
+        "event": "marriage",
+        "details": "Married Annie E. Pennock, one of his converts."
+      },
+      {
+        "date": "Jun 1882",
+        "event": "other",
+        "details": "Dismissed from the Salvation Army for accepting a gift from a grateful convert."
+      },
+      {
+        "date": "Aug 4, 1947",
+        "event": "death",
+        "details": "Died of a heart attack aboard RMS Queen Mary, en route to America to preach."
+      }
+    ],
+    "nationality": "English",
+    "era": "20th Century",
+    "region": "UK/Ireland",
+    "tradition": "Methodist / Independent evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "evangelism",
+      "conversion",
+      "perseverance",
+      "grace",
+      "revival",
+      "faithfulness"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gipsy_Smith",
+    "source_summary": "Rodney \"Gipsy\" Smith (1860–1947) was an English evangelist born to Romani parents in a tent in Epping Forest. Converted at sixteen, he preached for William Booth's Christian Mission (later the Salvation Army) from 1877 until his dismissal in 1882, then conducted independent evangelistic campaigns across Britain, the United States, and beyond for more than seventy years. He ministered to troops during the First World War and was appointed MBE. He died in 1947 aboard RMS Queen Mary, still travelling to preach.",
+    "adult_story": "Rodney Smith was born in 1860 in a Romani tent in Epping Forest, England, one of five children raised by a father who sold baskets and clothes-pegs after his mother died of smallpox. He never attended school and taught himself to read. At sixteen, his father's own testimony, the singing of [[Ira Sankey|ira-sankey]], and a visit to [[John Bunyan|john-bunyan]]'s home in Bedford together brought him to trust Christ.\n\nIn 1877 he accepted [[William Booth|william-booth]]'s invitation to preach with the Christian Mission, soon renamed the Salvation Army, and for six years drew large crowds on street corners across Britain. In 1882 he was abruptly dismissed after accepting a small gift from a grateful convert — a decision he never fully understood but bore without bitterness.\n\nRather than end his ministry, the dismissal opened seventy years of independent evangelism on five continents. Known simply as \"Gipsy Smith,\" he preached to hundreds of thousands across Britain and America, sang the old hymns as readily as he preached, and ministered to troops in the trenches of the First World War, for which he was appointed MBE. He never wrote a sermon in advance, trusting instead to prayer and the plain gospel.\n\nHe died at eighty-seven, still travelling to preach, aboard the Queen Mary in 1947. A man born to a homeless and despised people became one of the most beloved evangelists of his age — proof that no background disqualifies anyone whom Christ has called and grace has changed.",
+    "family_story": "Rodney Smith was born in a tent in a forest in England. His family were Romani people, sometimes called \"gypsies,\" who travelled from place to place selling baskets and clothes-pegs. Rodney never went to school, but he loved to sing, and people called him \"the singing gypsy boy.\"\n\nAt sixteen, his father's example and a visit to the home of [[John Bunyan|john-bunyan]] helped him decide to follow Jesus. He began preaching on street corners, and soon he was travelling the world telling people about Christ — for seventy years!\n\nEven though he grew up with nothing, God used Rodney \"Gipsy\" Smith to bring the good news of Jesus to hundreds of thousands of people. His life shows that God can use anyone who trusts him.",
+    "image": {
+      "file": "gipsy-smith.jpg",
+      "prompt_used": "Photorealistic portrait of Rodney \"Gipsy\" Smith, English Romani evangelist, early 20th century, wearing a dark three-piece suit and tie, thick moustache, serious and dignified expression, historically accurate to 1920s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Gypsy_Smith,_4-26-22_LOC_npcc.06113.jpg — National Photo Company Collection, Library of Congress, 1922; Wikimedia Commons states no known copyright restrictions",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": false,
+      "redistribution_note": "Source note hedges (\"no known copyright restrictions\"), not an unambiguous public-domain claim, so not cleared for off-site redistribution."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "monument",
+        "name": "The Gypsy Stone — Rodney 'Gipsy' Smith memorial, Epping Forest",
+        "address": "Woodford, Epping Forest, near Waterworks Roundabout, Woodford New Road (A104), London, England",
+        "lat": 51.5967,
+        "lng": 0.0069
+      },
+      {
+        "type": "museum",
+        "name": "Museum of Methodism, Wesley's Chapel — Gipsy Smith portrait and personal effects",
+        "address": "49 City Road, London EC1Y 1AU, England",
+        "lat": 51.5266,
+        "lng": -0.0879,
+        "open_to_public": true
+      }
+    ]
+  },
+  {
+    "id": "silas-fowler-fox",
+    "name": "Silas Fowler Fox",
+    "born": 1893,
+    "born_approximate": false,
+    "died": 1982,
+    "significant_dates": [
+      {
+        "date": "Dec 22, 1893",
+        "event": "birth",
+        "details": "Born near Medicine Hat, Alberta, Canada."
+      },
+      {
+        "date": "c. 1913",
+        "event": "saved",
+        "details": "Converted to Christ in Toronto at nineteen, prompted by an alcoholic man's warning not to end up \"a good for nothing.\""
+      },
+      {
+        "date": "Nov 1916",
+        "event": "marriage",
+        "details": "Married Emma Grau in Toronto."
+      },
+      {
+        "date": "Jan 1917",
+        "event": "missionary travel",
+        "details": "Sailed for India with the Ceylon and India General Mission."
+      },
+      {
+        "date": "c. 1921",
+        "event": "published",
+        "details": "Founded a Telugu-language gospel newspaper, later renamed Kristava Nirikshina."
+      },
+      {
+        "date": "May 1982",
+        "event": "death",
+        "details": "Died in Canada after fifty-one years of missionary service in India."
+      }
+    ],
+    "nationality": "Canadian",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Plymouth Brethren / Independent evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "perseverance",
+      "evangelism",
+      "gospel",
+      "faithfulness",
+      "conversion"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://uplook.org/2001/10/the-white-fox-of-andhra/",
+    "source_label": "Uplook Ministries",
+    "source_summary": "Silas Fowler Fox (1893–1982), the \"White Fox of Andhra,\" was a Canadian missionary and independent evangelist in Telugu-speaking Andhra Pradesh, India, for over fifty years. Converted in Toronto at nineteen, he trained at Toronto Bible College, married Emma Grau, and sailed for India in 1917 under the Ceylon and India General Mission. After leaving the mission board in the mid-1920s, he continued as a faith-supported evangelist, preaching in marketplaces and villages, founding a Telugu gospel newspaper, and helping plant dozens of churches, before returning to Canada in 1968. No Wikipedia article exists for Fox; this entry is sourced from Uplook Ministries' \"The White Fox of Andhra\" (2001) and Gospel Fellowship Association Missions' biographical page, cross-checked against each other for consistency.",
+    "adult_story": "Silas Fowler Fox was born near Medicine Hat, Alberta, in 1893. His father died while Silas was still an infant, and his mother's second marriage brought poverty and an abusive, alcoholic stepfather; the family eventually fled together one winter. Fox left school before he was twelve to work, eventually as a factory riveter. In Toronto he attended a Baptist church, but it was the plain warning of an alcoholic man — take Christ as your Saviour, and don't end up like me — that brought him to genuine faith in Christ at nineteen.\n\nHe trained at Toronto Bible College, married Emma Grau in 1916, and sailed with her for India the following January under the Ceylon and India General Mission. In the Telugu-speaking villages of Andhra Pradesh he preached in marketplaces and along roadsides, using magic-lantern slides and sandwich boards to gather a crowd for the gospel. After leaving the mission board in the mid-1920s, he continued as an independent, faith-supported missionary and evangelist for over fifty years, founding a Telugu gospel newspaper and helping plant dozens of churches.\n\nKnown locally as the \"White Fox of Andhra,\" Fox insisted his ministry depended wholly on Christ: \"I'm not independent of God, of Christ, the Holy Spirit, or the Bible!\" He returned to Canada in 1968 and died in 1982, having given his life to declare Christ to a people he had come to love as his own.",
+    "family_story": "Silas Fox grew up poor in Canada. His father died when Silas was just a baby, and his stepfather was unkind, so his family had a hard childhood. Silas had to leave school and go to work when he was only eleven.\n\nAs a young man, an alcoholic man once warned him not to end up like himself — and that warning helped lead Silas to trust in Jesus as his Saviour.\n\nSilas studied the Bible, married Emma, and sailed to India to tell people about Jesus. He preached in village marketplaces, using picture slides to gather a crowd. He served in India for over fifty years. People there called him the \"White Fox of Andhra\" because he loved and served them so faithfully.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "archive",
+        "name": "Papers of Silas F. Fox — Wheaton College Archives & Special Collections (Evangelism & Missions Archives)",
+        "address": "Buswell Memorial Library, Wheaton College, 501 College Ave, Wheaton, IL 60187, USA",
+        "lat": 41.8709,
+        "lng": -88.0836,
+        "open_to_public": false
+      }
+    ]
   }
 ]

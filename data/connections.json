@@ -523,5 +523,26 @@
     "label": "was a preaching influence on",
     "type": "influence",
     "mutual": false
+  },
+  {
+    "from": "william-booth",
+    "to": "gipsy-smith",
+    "label": "recruited as an evangelist for the Christian Mission",
+    "type": "mentorship",
+    "mutual": false
+  },
+  {
+    "from": "ira-sankey",
+    "to": "gipsy-smith",
+    "label": "whose gospel singing helped bring him to conversion",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "john-bunyan",
+    "to": "gipsy-smith",
+    "label": "whose Bedford home he visited shortly before his conversion",
+    "type": "influence",
+    "mutual": false
   }
 ]

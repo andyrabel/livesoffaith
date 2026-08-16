@@ -3010,5 +3010,35 @@
     "answer": "Makoto Fujimura",
     "person_id": "makoto-fujimura",
     "difficulty": 5
+  },
+  {
+    "question": "What people group was evangelist Rodney \"Gipsy\" Smith born into?",
+    "answer": "The Romani people (\"gypsies\")",
+    "person_id": "gipsy-smith",
+    "difficulty": 5
+  },
+  {
+    "question": "Which organization did Gipsy Smith preach for from 1877 to 1882, before becoming an independent evangelist?",
+    "answer": "The Salvation Army (then called the Christian Mission)",
+    "person_id": "gipsy-smith",
+    "difficulty": 5
+  },
+  {
+    "question": "Whose singing was one of the influences that led Gipsy Smith to trust Christ at sixteen?",
+    "answer": "Ira Sankey",
+    "person_id": "gipsy-smith",
+    "difficulty": 5
+  },
+  {
+    "question": "What was Silas Fowler Fox's nickname as a missionary in Andhra Pradesh, India?",
+    "answer": "The \"White Fox of Andhra\"",
+    "person_id": "silas-fowler-fox",
+    "difficulty": 5
+  },
+  {
+    "question": "What mission board did Silas Fowler Fox first sail to India with in 1917?",
+    "answer": "The Ceylon and India General Mission",
+    "person_id": "silas-fowler-fox",
+    "difficulty": 5
   }
 ]

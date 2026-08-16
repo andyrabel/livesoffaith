@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-07-30. 166 people.
+Generated 2026-08-16. 168 people.
 
 ---
 
@@ -2242,6 +2242,23 @@ M'Cheyne's life is a rebuke and a comfort — a rebuke to the idea that long yea
 
 ---
 
+## Rodney "Gipsy" Smith (1860–1947)
+
+URL: https://livesoffaith.org/person.html?id=gipsy-smith
+Wikipedia: https://en.wikipedia.org/wiki/Gipsy_Smith
+Nationality: English · Tradition: Methodist / Independent evangelical · Region: UK/Ireland · Era: 20th Century
+Topics: evangelism, conversion, perseverance, grace, revival, faithfulness
+
+Rodney Smith was born in 1860 in a Romani tent in Epping Forest, England, one of five children raised by a father who sold baskets and clothes-pegs after his mother died of smallpox. He never attended school and taught himself to read. At sixteen, his father's own testimony, the singing of Ira Sankey, and a visit to John Bunyan's home in Bedford together brought him to trust Christ.
+
+In 1877 he accepted William Booth's invitation to preach with the Christian Mission, soon renamed the Salvation Army, and for six years drew large crowds on street corners across Britain. In 1882 he was abruptly dismissed after accepting a small gift from a grateful convert — a decision he never fully understood but bore without bitterness.
+
+Rather than end his ministry, the dismissal opened seventy years of independent evangelism on five continents. Known simply as "Gipsy Smith," he preached to hundreds of thousands across Britain and America, sang the old hymns as readily as he preached, and ministered to troops in the trenches of the First World War, for which he was appointed MBE. He never wrote a sermon in advance, trusting instead to prayer and the plain gospel.
+
+He died at eighty-seven, still travelling to preach, aboard the Queen Mary in 1947. A man born to a homeless and despised people became one of the most beloved evangelists of his age — proof that no background disqualifies anyone whom Christ has called and grace has changed.
+
+---
+
 ## Roger Youderian (1924–1956)
 
 URL: https://livesoffaith.org/person.html?id=roger-youderian
@@ -2383,6 +2400,21 @@ Samuel Rutherford was born around 1600 in the Scottish Borders and rose to becom
 In 1636 he was formally barred from ministry and banished to Aberdeen “during the King's pleasure” — an open-ended exile for nonconformity. It was there, cut off from his congregation, that he wrote most of the devotional Letters for which he is remembered: intimate, Christ-absorbed reflections on suffering that Charles Spurgeon later called “the nearest thing to inspiration...in all the writings of mere men.” Restored to ministry after 1638, he went on to represent Scotland at the Westminster Assembly and to write Lex, Rex (1644), a defense of constitutional government that was publicly burned after the Restoration.
 
 Cited to face a charge of treason for that book, Rutherford died in St Andrews in 1661 before the case could proceed, reportedly answering the summons: “I have got a summons already before a superior Judge, and I behove to answer my first summons.” His life's whole direction, like his last recorded words, turned away from his own record toward Christ alone — “Acquainted with Emmanuel's love” is carved on his grave.
+
+---
+
+## Silas Fowler Fox (1893–1982)
+
+URL: https://livesoffaith.org/person.html?id=silas-fowler-fox
+Wikipedia: https://uplook.org/2001/10/the-white-fox-of-andhra/
+Nationality: Canadian · Tradition: Plymouth Brethren / Independent evangelical · Region: Asia · Era: 20th Century
+Topics: missions, perseverance, evangelism, gospel, faithfulness, conversion
+
+Silas Fowler Fox was born near Medicine Hat, Alberta, in 1893. His father died while Silas was still an infant, and his mother's second marriage brought poverty and an abusive, alcoholic stepfather; the family eventually fled together one winter. Fox left school before he was twelve to work, eventually as a factory riveter. In Toronto he attended a Baptist church, but it was the plain warning of an alcoholic man — take Christ as your Saviour, and don't end up like me — that brought him to genuine faith in Christ at nineteen.
+
+He trained at Toronto Bible College, married Emma Grau in 1916, and sailed with her for India the following January under the Ceylon and India General Mission. In the Telugu-speaking villages of Andhra Pradesh he preached in marketplaces and along roadsides, using magic-lantern slides and sandwich boards to gather a crowd for the gospel. After leaving the mission board in the mid-1920s, he continued as an independent, faith-supported missionary and evangelist for over fifty years, founding a Telugu gospel newspaper and helping plant dozens of churches.
+
+Known locally as the "White Fox of Andhra," Fox insisted his ministry depended wholly on Christ: "I'm not independent of God, of Christ, the Holy Spirit, or the Bible!" He returned to Canada in 1968 and died in 1982, having given his life to declare Christ to a people he had come to love as his own.
 
 ---
 
