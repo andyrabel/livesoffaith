@@ -728,6 +728,37 @@ main {
   color: var(--text-muted);
 }
 
+/* --- Home CTA row (Suggest / Subscribe) ------------------------- */
+.home-cta-row {
+  display: flex;
+  gap: 0.6rem;
+  margin: 0.6rem 0 0;
+}
+
+.home-cta-row__btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.45rem 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.home-cta-row__btn:hover,
+.home-cta-row__btn:focus-visible {
+  border-color: var(--gold);
+  box-shadow: var(--shadow);
+  transform: translateY(-1px);
+}
+
 /* --- What's New (home page) ------------------------------------ */
 .whats-new {
   margin: 0.9rem 0 0;
