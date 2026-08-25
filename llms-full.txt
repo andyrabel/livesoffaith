@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-08-24. 170 people.
+Generated 2026-08-25. 171 people.
 
 ---
 
@@ -178,6 +178,21 @@ Ann Hasseltine was born in Bradford, Massachusetts, in 1789, the daughter of a c
 In Burma, Ann quickly outpaced her husband in learning the language, writing a Burmese catechism and, in 1819, becoming the first Protestant to translate any Scripture into Thai when she rendered the Gospel of Matthew. When the Anglo-Burmese War broke out in 1824, Adoniram was arrested as a suspected spy and imprisoned for seventeen months in brutal conditions. Ann, though pregnant and unwell herself, moved near the prison gates, bribed guards for access, and carried food and pleas for mercy to her husband and his fellow captives.
 
 Adoniram was finally released, but Ann's health, already broken by years of privation, did not recover. She died of smallpox in October 1826, aged thirty-six, and was buried beneath a hopia tree in Amherst; her infant daughter Maria died weeks later. Ann's letters home, read across America, taught a generation that suffering for Christ was not tragedy wasted but the ordinary cost of a gospel worth every loss, grace sufficient not because trial was avoided, but because Christ was present within it.
+
+---
+
+## Anna Strikwerda (1921–1974)
+
+URL: https://livesoffaith.org/person.html?id=anna-strikwerda
+Wikipedia: https://opc.org/nh.html?article_id=1164
+Nationality: Dutch · Tradition: Reformed Presbyterian / Orthodox Presbyterian · Region: Africa · Era: 20th Century
+Topics: martyrdom, missions, faithfulness, sacrifice, suffering
+
+Anna Strikwerda was born on September 7, 1921, in Winsum, Friesland, the sixth of fourteen children in a Dutch Christian Reformed family. Poverty forced her to leave school at fourteen for domestic work, but after the Second World War she trained as a nurse, worked seven years at a district hospital, then studied further before settling in Hobart, Tasmania, where she joined the Reformed Presbyterian Church.
+
+In the late 1950s Anna read that the Orthodox Presbyterian Church needed a nurse for its Mihireta Yesus ("Compassion of Jesus") Hospital in Ghinda, Eritrea, and applied. She arrived in 1966 and, especially after 1968, kept the hospital running almost single-handed alongside one colleague, seeing dozens of patients daily, delivering babies, and leading staff devotions and Bible classes. She also cared for an orphaned boy she tried to adopt as her own son.
+
+On May 27, 1974, Eritrean Liberation Front fighters stormed the hospital and seized Anna and a fellow nurse at gunpoint, forcing them on a march into the hills. Hindered by unsuitable footwear, Anna fell behind and was shot within half an hour. Moments before, she had told her companion, "Don't be afraid... The Lord is with us." Some two thousand people attended her burial in the hospital garden, testimony that to the end her trust was in Christ's grace, not her own strength.
 
 ---
 

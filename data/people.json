@@ -14047,5 +14047,63 @@
         "lng": -3.5971
       }
     ]
+  },
+  {
+    "id": "anna-strikwerda",
+    "name": "Anna Strikwerda",
+    "born": 1921,
+    "born_approximate": false,
+    "died": 1974,
+    "significant_dates": [
+      {
+        "date": "Sep 7, 1921",
+        "event": "birth",
+        "details": "Born in Winsum, Friesland, the Netherlands, sixth of fourteen children."
+      },
+      {
+        "date": "Jan 1966",
+        "event": "missionary travel",
+        "details": "Arrived in Eritrea as a nurse at Mihireta Yesus Hospital, Ghinda."
+      },
+      {
+        "date": "May 27, 1974",
+        "event": "martyred",
+        "details": "Shot by Eritrean Liberation Front fighters during a hostage-taking raid on the hospital."
+      }
+    ],
+    "nationality": "Dutch",
+    "era": "20th Century",
+    "region": "Africa",
+    "tradition": "Reformed Presbyterian / Orthodox Presbyterian",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "martyrdom",
+      "missions",
+      "faithfulness",
+      "sacrifice",
+      "suffering"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://opc.org/nh.html?article_id=1164",
+    "source_label": "OPC New Horizons",
+    "source_summary": "Anna Strikwerda (1921-1974) was a Dutch-born nurse and Reformed Presbyterian missionary who served for eight years at the Orthodox Presbyterian Church's Mihireta Yesus (\"Compassion of Jesus\") Hospital in Ghinda, Eritrea, effectively running the hospital's daily operations alongside one colleague after 1968. On May 27, 1974, Eritrean Liberation Front fighters seized her and a fellow nurse at gunpoint during a hostage-taking raid; she was shot and killed within the hour when unsuitable footwear slowed her during the forced march. She is remembered within the Orthodox Presbyterian Church as its first martyr.",
+    "adult_story": "Anna Strikwerda was born on September 7, 1921, in Winsum, Friesland, the sixth of fourteen children in a Dutch Christian Reformed family. Poverty forced her to leave school at fourteen for domestic work, but after the Second World War she trained as a nurse, worked seven years at a district hospital, then studied further before settling in Hobart, Tasmania, where she joined the Reformed Presbyterian Church.\n\nIn the late 1950s Anna read that the Orthodox Presbyterian Church needed a nurse for its Mihireta Yesus (\"Compassion of Jesus\") Hospital in Ghinda, Eritrea, and applied. She arrived in 1966 and, especially after 1968, kept the hospital running almost single-handed alongside one colleague, seeing dozens of patients daily, delivering babies, and leading staff devotions and Bible classes. She also cared for an orphaned boy she tried to adopt as her own son.\n\nOn May 27, 1974, Eritrean Liberation Front fighters stormed the hospital and seized Anna and a fellow nurse at gunpoint, forcing them on a march into the hills. Hindered by unsuitable footwear, Anna fell behind and was shot within half an hour. Moments before, she had told her companion, \"Don't be afraid... The Lord is with us.\" Some two thousand people attended her burial in the hospital garden, testimony that to the end her trust was in Christ's grace, not her own strength.",
+    "family_story": "Anna Strikwerda grew up poor in the Netherlands, one of fourteen children. She left school at fourteen to help her family, but never gave up on becoming a nurse.\n\nYears later, Anna became a missionary nurse at \"Compassion of Jesus\" Hospital in Ghinda, Eritrea, in Africa. She cared for sick people, delivered babies, and taught the Bible to the hospital staff, trusting God for everyone there, including an orphan boy she tried to adopt.\n\nIn 1974, armed men broke into the hospital and forced Anna to march into the hills. She was not afraid, because she trusted Jesus. Just before she died, she told her friend, \"Don't be afraid... The Lord is with us.\" Anna's life, and her death, showed how deeply she trusted Christ.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Anna Strikwerda",
+        "address": "Hospital garden, former Mihireta Yesus (Compassion of Jesus) Hospital site, Ghinda, Eritrea",
+        "lat": 15.4492,
+        "lng": 39.0886
+      }
+    ]
   }
 ]
