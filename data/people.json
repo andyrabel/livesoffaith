@@ -13879,5 +13879,173 @@
         "open_to_public": false
       }
     ]
+  },
+  {
+    "id": "mary-jones",
+    "name": "Mary Jones",
+    "born": 1784,
+    "born_approximate": false,
+    "died": 1864,
+    "significant_dates": [
+      {
+        "date": "Dec 16, 1784",
+        "event": "birth",
+        "details": "Born at Tŷ'n-y-Ddôl, Llanfihangel-y-Pennant, near Abergynolwyn, Wales."
+      },
+      {
+        "date": "c. 1793",
+        "event": "saved",
+        "details": "Professed faith in Christ at the age of eight."
+      },
+      {
+        "date": "1800",
+        "event": "other",
+        "details": "Walked 26 miles, aged fifteen, to buy a Welsh Bible from Thomas Charles in Bala."
+      },
+      {
+        "date": "Dec 28, 1864",
+        "event": "death",
+        "details": "Died in Wales, aged 80; buried at Capel Bethlehem, Bryncrug."
+      }
+    ],
+    "nationality": "Welsh",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Calvinistic Methodist",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "scripture",
+      "faith",
+      "perseverance",
+      "devotion"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mary_Jones_(Bible)",
+    "source_summary": "Mary Jones (1784-1864) was a Welsh Calvinistic Methodist known for saving for six years and walking 26 miles barefoot in 1800, aged fifteen, to buy a Welsh Bible from the Reverend Thomas Charles in Bala. Her devotion moved Charles to press the Religious Tract Society for a society devoted to supplying Bibles in the language of the people, leading directly to the founding of the British and Foreign Bible Society in 1804. She married a weaver, Thomas Jones, and lived quietly in Wales until her death in 1864.",
+    "adult_story": "Mary Jones was born in 1784 in a small stone cottage at Llanfihangel-y-Pennant, at the foot of Cader Idris in North Wales, the daughter of a poor weaver. Her parents were devout Calvinistic Methodists in the congregation gathered under [[Thomas Charles|thomas-charles]] at Bala, and Mary herself professed faith in Christ at the age of eight.\n\nNo Bible existed in her home, and printed Welsh Bibles were scarce and expensive. From the age of ten she saved every penny she could earn for six years. In the spring of 1800, aged fifteen, she walked twenty-six miles across mountain tracks — by most accounts barefoot — from her home to Bala to buy a Bible from Thomas Charles. Deeply moved, Charles later used her story to press the Religious Tract Society for a society devoted to supplying Scripture to the Welsh poor. The result, in 1804, was the founding of the British and Foreign Bible Society, which has since distributed Scripture in more than two thousand languages.\n\nMary married a weaver, Thomas Jones, and lived out her long life quietly in Wales, dying in 1864 aged eighty. What she sought at the end of that walk was not a book to own but a Saviour to know — proof that the grace of Christ, freely offered to all who seek Him, is no less real for the poor and unlettered than for the rich and learned.",
+    "family_story": "Mary Jones was a poor girl who lived in Wales long ago. She loved Jesus and wanted her very own Bible, but her family could not afford one, and no Bible was for sale nearby. So Mary saved every coin she earned for six whole years.\n\nWhen she was fifteen, Mary walked twenty-six miles — some say barefoot — over mountains to the town of Bala to buy a Bible from a kind minister named [[Thomas Charles|thomas-charles]]. Her long walk touched so many hearts that it helped start a society that has given Bibles to people all around the world ever since.\n\nMary's story reminds us that Jesus welcomes anyone who truly seeks Him — rich or poor, young or old.",
+    "image": {
+      "file": "mary-jones.jpg",
+      "prompt_used": "Photorealistic portrait of Mary Jones, Welsh Christian girl, circa 1800, aged about fifteen, wearing simple Welsh rural dress with a dark hat, plain background, earnest and gentle expression, historically accurate to early 19th-century rural Wales",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Mary_Jones_dwfrliw_1800_-_1840.jpg — public domain (CC PD Mark 1.0; artist unknown, life+70 years expired)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain — CC PD Mark 1.0, artist unknown, direct Commons file URL, no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "monument",
+        "name": "Mary Jones Memorial (ruins of Tŷ'n-y-Ddôl cottage)",
+        "address": "Tŷ'n-y-Ddôl, Llanfihangel-y-Pennant, near Abergynolwyn, Gwynedd, Wales",
+        "lat": 52.6672,
+        "lng": -3.9627
+      },
+      {
+        "type": "gravestone",
+        "name": "Grave of Mary Jones",
+        "address": "Capel Bethlehem chapelyard, Bryncrug, Gwynedd, Wales",
+        "lat": 52.61,
+        "lng": -4.0539
+      },
+      {
+        "type": "museum",
+        "name": "Mary Jones World (Byd Mary Jones World)",
+        "address": "Llanycil, Bala, Gwynedd, LL23 7YF, Wales",
+        "lat": 52.9003,
+        "lng": -3.615,
+        "open_to_public": true
+      }
+    ]
+  },
+  {
+    "id": "thomas-charles",
+    "name": "Thomas Charles",
+    "born": 1755,
+    "born_approximate": false,
+    "died": 1814,
+    "significant_dates": [
+      {
+        "date": "Oct 14, 1755",
+        "event": "birth",
+        "details": "Born in Llanfihangel Abercywyn, near St Clears, Carmarthenshire, Wales."
+      },
+      {
+        "date": "c. 1773",
+        "event": "saved",
+        "details": "Converted through the preaching of Daniel Rowland at about seventeen."
+      },
+      {
+        "date": "1780",
+        "event": "ordained",
+        "details": "Ordained priest in the Church of England after training under John Newton at Olney."
+      },
+      {
+        "date": "1787",
+        "event": "founded",
+        "details": "Founded his first Sunday School for poor children in Bala, Wales."
+      },
+      {
+        "date": "Mar 7, 1804",
+        "event": "founded",
+        "details": "Helped found the British and Foreign Bible Society, prompted by Mary Jones's walk to buy a Bible."
+      },
+      {
+        "date": "Oct 5, 1814",
+        "event": "death",
+        "details": "Died in Bala, Wales, nine days before his fifty-ninth birthday."
+      }
+    ],
+    "nationality": "Welsh",
+    "era": "18th Century",
+    "region": "UK/Ireland",
+    "tradition": "Anglican evangelical (Calvinist Methodist)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "scripture",
+      "education",
+      "evangelism",
+      "missions"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Charles",
+    "source_summary": "Thomas Charles (1755-1814) was a Welsh Calvinistic Methodist clergyman, trained at Jesus College, Oxford, and under John Newton at Olney. Settling in Bala from 1783, he became a leading figure of Welsh Calvinistic Methodism, founded a network of circulating Sunday schools from 1787, and edited the Bible Society's first Welsh New Testament and Bible. Moved by fifteen-year-old Mary Jones's 26-mile walk to buy a Bible from him in 1800, he pressed the Religious Tract Society for a dedicated Bible society, leading to the founding of the British and Foreign Bible Society in 1804. He also wrote a four-volume Biblical Dictionary that became the standard Welsh reference work of its kind.",
+    "adult_story": "Thomas Charles was born in 1755 near St Clears, Carmarthenshire, Wales, and trained for the Anglican ministry at Jesus College, Oxford, and under [[John Newton|john-newton]] at Olney. Converted through the preaching of Welsh revivalist Daniel Rowland at about seventeen, he was ordained priest in 1780 but found his evangelical convictions unwelcome in his Anglican parishes. In 1783 he settled in Bala, North Wales, married Sarah Jones, and joined the Calvinistic Methodists, becoming one of the movement's leading figures.\n\nCharles gave himself to teaching the Welsh poor to read the Bible in their own tongue, founding a network of circulating Sunday schools from 1787. In 1800 fifteen-year-old [[Mary Jones|mary-jones]] walked twenty-six miles to buy a Bible from him, having saved six years to afford one. Moved by her devotion, Charles used her story to press the Religious Tract Society for a society to supply Wales — and eventually the world — with Scripture. The result, in 1804, was the British and Foreign Bible Society. He went on to edit its first Welsh Testament and Bible, and wrote a four-volume Biblical Dictionary that remained the standard Welsh reference work for generations.\n\nCharles never treated Scripture as a possession for the educated few to guard. His life's work — schools, translation, a Bible society spanning nations — flowed from one conviction: that the grace of Christ is offered freely to all who receive it by faith, and that none, however poor or unlettered, should be kept from the Word that reveals Him.",
+    "family_story": "Thomas Charles was a minister in Wales who loved teaching people to read the Bible. He started small schools to teach poor children and grown-ups to read God's Word for themselves.\n\nOne day in 1800, a fifteen-year-old girl named [[Mary Jones|mary-jones]] walked twenty-six miles — a whole day's journey — to buy a Bible from him. She had saved her pennies for six years! Her long walk inspired Thomas Charles to help start a Bible Society that has given Bibles to people all around the world ever since.\n\nThomas believed everyone — rich or poor — needs God's Word to know Jesus, who freely offers His grace to all who trust Him.",
+    "image": {
+      "file": "thomas-charles.jpg",
+      "prompt_used": "Photorealistic portrait of Thomas Charles of Bala, Welsh Calvinistic Methodist minister, early 19th century, wearing black clerical coat with white clerical bands, balding with grey hair at the sides, serious and dignified expression, historically accurate to Georgian-era Wales",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Thomas_Charles,_Bala.jpg — public domain (oil portrait by William Roos, c. 1840, National Library of Wales; published before 1931)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Public domain — published before 1931, direct Commons file URL, no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Thomas Charles",
+        "address": "Churchyard of the former St Beuno's Church (now Mary Jones World), Llanycil, Bala, Gwynedd, Wales",
+        "lat": 52.9003,
+        "lng": -3.615
+      },
+      {
+        "type": "statue",
+        "name": "Statue of Thomas Charles",
+        "address": "Outside Capel Tegid, High Street, Bala, Gwynedd, LL23 7AB, Wales",
+        "lat": 52.9097,
+        "lng": -3.5971
+      }
+    ]
   }
 ]

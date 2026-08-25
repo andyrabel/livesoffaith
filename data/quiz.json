@@ -3040,5 +3040,35 @@
     "answer": "The Ceylon and India General Mission",
     "person_id": "silas-fowler-fox",
     "difficulty": 5
+  },
+  {
+    "question": "How far did Mary Jones walk, at age fifteen, to buy her own Welsh Bible?",
+    "answer": "26 miles, to Bala",
+    "person_id": "mary-jones",
+    "difficulty": 5
+  },
+  {
+    "question": "How many years did Mary Jones save her earnings before she had enough to buy a Bible?",
+    "answer": "Six years",
+    "person_id": "mary-jones",
+    "difficulty": 5
+  },
+  {
+    "question": "What Welsh minister sold Mary Jones a Bible after her walk to Bala in 1800?",
+    "answer": "Thomas Charles",
+    "person_id": "thomas-charles",
+    "difficulty": 5
+  },
+  {
+    "question": "What organisation did Thomas Charles help found in 1804, prompted partly by Mary Jones's story?",
+    "answer": "The British and Foreign Bible Society",
+    "person_id": "thomas-charles",
+    "difficulty": 5
+  },
+  {
+    "question": "What did Thomas Charles begin founding in Bala from 1787 to teach the Welsh poor to read the Bible?",
+    "answer": "Circulating Sunday schools",
+    "person_id": "thomas-charles",
+    "difficulty": 5
   }
 ]

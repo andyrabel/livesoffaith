@@ -544,5 +544,19 @@
     "label": "whose Bedford home he visited shortly before his conversion",
     "type": "influence",
     "mutual": false
+  },
+  {
+    "from": "john-newton",
+    "to": "thomas-charles",
+    "label": "mentored",
+    "type": "mentorship",
+    "mutual": false
+  },
+  {
+    "from": "mary-jones",
+    "to": "thomas-charles",
+    "label": "whose walk to buy a Bible inspired him to help found the British and Foreign Bible Society",
+    "type": "influence",
+    "mutual": false
   }
 ]

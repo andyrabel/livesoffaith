@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-08-16. 168 people.
+Generated 2026-08-24. 170 people.
 
 ---
 
@@ -1883,6 +1883,21 @@ In 1966 he controversially urged evangelicals to leave denominations that no lon
 
 ---
 
+## Mary Jones (1784–1864)
+
+URL: https://livesoffaith.org/person.html?id=mary-jones
+Wikipedia: https://en.wikipedia.org/wiki/Mary_Jones_(Bible)
+Nationality: Welsh · Tradition: Calvinistic Methodist · Region: UK/Ireland · Era: 19th Century
+Topics: scripture, faith, perseverance, devotion
+
+Mary Jones was born in 1784 in a small stone cottage at Llanfihangel-y-Pennant, at the foot of Cader Idris in North Wales, the daughter of a poor weaver. Her parents were devout Calvinistic Methodists in the congregation gathered under Thomas Charles at Bala, and Mary herself professed faith in Christ at the age of eight.
+
+No Bible existed in her home, and printed Welsh Bibles were scarce and expensive. From the age of ten she saved every penny she could earn for six years. In the spring of 1800, aged fifteen, she walked twenty-six miles across mountain tracks — by most accounts barefoot — from her home to Bala to buy a Bible from Thomas Charles. Deeply moved, Charles later used her story to press the Religious Tract Society for a society devoted to supplying Scripture to the Welsh poor. The result, in 1804, was the founding of the British and Foreign Bible Society, which has since distributed Scripture in more than two thousand languages.
+
+Mary married a weaver, Thomas Jones, and lived out her long life quietly in Wales, dying in 1864 aged eighty. What she sought at the end of that walk was not a book to own but a Saviour to know — proof that the grace of Christ, freely offered to all who seek Him, is no less real for the poor and unlettered than for the rich and learned.
+
+---
+
 ## Mary Slessor (1848–1915)
 
 URL: https://livesoffaith.org/person.html?id=mary-slessor
@@ -2466,6 +2481,21 @@ He founded a village home for girls at Barkingside in 1876 and eventually ran mo
 He never reached China. But he understood his life’s work as no less a mission: the destitute children of Britain’s cities were as much a calling from God as any foreign field.
 
 The gospel drove his philanthropy. Grace received expressed itself in mercy given — and the door was never closed.
+
+---
+
+## Thomas Charles (1755–1814)
+
+URL: https://livesoffaith.org/person.html?id=thomas-charles
+Wikipedia: https://en.wikipedia.org/wiki/Thomas_Charles
+Nationality: Welsh · Tradition: Anglican evangelical (Calvinist Methodist) · Region: UK/Ireland · Era: 18th Century
+Topics: scripture, education, evangelism, missions
+
+Thomas Charles was born in 1755 near St Clears, Carmarthenshire, Wales, and trained for the Anglican ministry at Jesus College, Oxford, and under John Newton at Olney. Converted through the preaching of Welsh revivalist Daniel Rowland at about seventeen, he was ordained priest in 1780 but found his evangelical convictions unwelcome in his Anglican parishes. In 1783 he settled in Bala, North Wales, married Sarah Jones, and joined the Calvinistic Methodists, becoming one of the movement's leading figures.
+
+Charles gave himself to teaching the Welsh poor to read the Bible in their own tongue, founding a network of circulating Sunday schools from 1787. In 1800 fifteen-year-old Mary Jones walked twenty-six miles to buy a Bible from him, having saved six years to afford one. Moved by her devotion, Charles used her story to press the Religious Tract Society for a society to supply Wales — and eventually the world — with Scripture. The result, in 1804, was the British and Foreign Bible Society. He went on to edit its first Welsh Testament and Bible, and wrote a four-volume Biblical Dictionary that remained the standard Welsh reference work for generations.
+
+Charles never treated Scripture as a possession for the educated few to guard. His life's work — schools, translation, a Bible society spanning nations — flowed from one conviction: that the grace of Christ is offered freely to all who receive it by faith, and that none, however poor or unlettered, should be kept from the Word that reveals Him.
 
 ---
 
