@@ -558,5 +558,12 @@
     "label": "whose walk to buy a Bible inspired him to help found the British and Foreign Bible Society",
     "type": "influence",
     "mutual": false
+  },
+  {
+    "from": "james-o-fraser",
+    "to": "isobel-kuhn",
+    "label": "whose account of the Lisu's need drew her to missionary work among them",
+    "type": "influence",
+    "mutual": false
   }
 ]

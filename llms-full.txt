@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-08-25. 171 people.
+Generated 2026-08-26. 172 people.
 
 ---
 
@@ -1281,6 +1281,21 @@ James Montgomery was born in 1771 in Irvine, Scotland, the son of Moravian missi
 Montgomery used his platform to campaign against slavery and against the exploitation of child chimney sweeps, convictions rooted in the same faith that shaped his poetry. Over his lifetime he wrote some four hundred hymns, several of which remain in wide use: “Angels from the Realms of Glory,” “Prayer Is the Soul's Sincere Desire,” and “Hail to the Lord's Anointed.” His hymns pair lyrical craft with plain doctrine — grace freely given, prayer as dependence rather than achievement, Christ as the anointed king before whom every human throne must eventually bow.
 
 Montgomery never married, devoting himself instead to his writing and to Sheffield's charitable and religious causes until his death in 1854. He was honored with a public funeral, and the city later raised a monument over his grave — a tribute, fittingly, to a man whose own hymns insisted that lasting honor belongs to Christ, not to the poet who sings of him.
+
+---
+
+## James O. Fraser (1886–1938)
+
+URL: https://livesoffaith.org/person.html?id=james-o-fraser
+Wikipedia: https://en.wikipedia.org/wiki/James_O._Fraser
+Nationality: English · Tradition: China Inland Mission (interdenominational evangelical) · Region: Asia · Era: 20th Century
+Topics: missions, prayer, perseverance, faithfulness, evangelism
+
+James Outram Fraser was born in London in 1886 and trained as an engineer at Imperial College, a gifted pianist who seemed set for a comfortable career. In 1908, at twenty-two, he gave that up to join Hudson Taylor's China Inland Mission, and by 1910 he had reached the mountains of western Yunnan, near the border with Burma.
+
+There he found the Lisu, a people scattered across steep ridges above the Salween River, bound by fear of evil spirits and untouched by the gospel. Fraser learned their language and, with the Karen evangelist Ba Thaw, reduced it to writing in a script that still bears his name, then began translating Scripture and hymns. Progress was slow, and for a season he sank into deep depression, fighting despair with the promises of God.
+
+The turning point, he always insisted, was prayer. He gathered a circle of friends in England to pray for the Lisu by name, and from about 1916 whole families began to turn to Christ — thousands within a few years. Fraser refused to build a mission-funded church, insisting that the Lisu support and lead their own congregations. He married Roxie Dymond in 1929, saw the completed Lisu New Testament in 1936, and died of malaria in 1938. To the end he pointed the Lisu not to himself but to the grace of Christ, received by faith.
 
 ---
 
