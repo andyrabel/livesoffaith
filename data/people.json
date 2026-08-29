@@ -14187,5 +14187,351 @@
         "lng": 99.2877
       }
     ]
+  },
+  {
+    "id": "elizabeth-payson-prentiss",
+    "name": "Elizabeth Payson Prentiss",
+    "born": 1818,
+    "born_approximate": false,
+    "died": 1878,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Oct 26, 1818",
+        "event": "birth",
+        "details": "Born in Portland, Maine."
+      },
+      {
+        "date": "May 1831",
+        "event": "saved",
+        "details": "Professed faith in Christ and joined a Presbyterian church in New York City."
+      },
+      {
+        "date": "1845",
+        "event": "marriage",
+        "details": "Married George Lewis Prentiss, later a Presbyterian minister and seminary professor."
+      },
+      {
+        "date": "1856",
+        "event": "other",
+        "details": "Wrote 'More Love to Thee, O Christ' in one evening during illness and grief; kept it private for 13 years."
+      },
+      {
+        "date": "1869",
+        "event": "published",
+        "details": "Stepping Heavenward, her best-known devotional novel, was published."
+      },
+      {
+        "date": "Aug 13, 1878",
+        "event": "death",
+        "details": "Died at Dorset, Vermont, aged 59."
+      }
+    ],
+    "nationality": "American",
+    "era": "19th Century",
+    "region": "North America",
+    "tradition": "Presbyterian (raised Congregationalist)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "devotion",
+      "suffering",
+      "prayer",
+      "faithfulness",
+      "hymn writing"
+    ],
+    "hymns": [
+      "More Love to Thee, O Christ"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Elizabeth_Prentiss",
+    "source_summary": "Elizabeth Payson Prentiss (1818-1878) was an American author and hymn writer, daughter of the Congregationalist preacher Edward Payson of Portland, Maine. She professed faith as a girl, taught school, and in 1845 married George Lewis Prentiss, a Presbyterian pastor who later taught at Union Theological Seminary in New York. She wrote more than thirty books, mostly for children, plus a volume of hymns; her devotional novel Stepping Heavenward (1869) sold widely and has never gone out of print. After years of chronic illness and the deaths of two of her children within one year, she wrote the hymn 'More Love to Thee, O Christ' one evening in 1856, considered it too personal to show anyone, and kept it in a drawer for thirteen years. It was first published in 1870 and sung at her funeral in 1878. She died at the family's summer home in Dorset, Vermont, and is buried there.",
+    "adult_story": "Elizabeth Payson Prentiss was born in Portland, Maine, in 1818, the daughter of Edward Payson, a Congregationalist preacher whose devotion marked her deeply; he died when she was nine. She professed faith in Christ as a girl, taught school as a young woman, and in 1845 married George Lewis Prentiss, a Presbyterian pastor who later taught at Union Theological Seminary in New York.\n\nPrentiss is best remembered for her 1869 novel Stepping Heavenward, the fictional journal of a woman learning, through disappointment and loss, to want God more than comfort. It sold widely on both sides of the Atlantic and has never gone out of print. She wrote more than thirty books in all, most of them for children, along with a volume of hymns.\n\nHer own life supplied the material. In 1856, worn down by illness, low spirits, and the earlier deaths of two of her children within a single year, she sat down one evening and wrote four stanzas of a prayer: \"More love to Thee, O Christ, more love to Thee.\" She thought it too personal to show anyone and kept it in a drawer for thirteen years. It was finally published in 1870 and was sung at her funeral in 1878. Its plea is not for strength to achieve, but for a heart drawn nearer to the Saviour who first loved her.",
+    "family_story": "Elizabeth Prentiss grew up in Maine. Her father, a preacher, died when she was only nine, but his love for Jesus stayed with her all her life.\n\nWhen she grew up she wrote books. Her most famous one, Stepping Heavenward, is about a woman who slowly learns to love God more than she loves an easy life.\n\nIn 1856, after a very hard year in which two of her children died, Elizabeth wrote a prayer as a poem one evening: \"More love to Thee, O Christ.\" She kept it hidden for thirteen years before anyone else saw it. It was sung at her own funeral, still asking God for one thing — a heart that loves Jesus more.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Elizabeth Payson Prentiss",
+        "address": "Maple Hill Cemetery, Dorset, Vermont, USA",
+        "lat": 43.2461,
+        "lng": -73.0949
+      }
+    ]
+  },
+  {
+    "id": "cleland-boyd-mcafee",
+    "name": "Cleland Boyd McAfee",
+    "born": 1866,
+    "born_approximate": false,
+    "died": 1944,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Sep 25, 1866",
+        "event": "birth",
+        "details": "Born in Ashley, Missouri."
+      },
+      {
+        "date": "Aug 10, 1892",
+        "event": "marriage",
+        "details": "Married Harriet 'Hattie' Lawson Brown."
+      },
+      {
+        "date": "1901",
+        "event": "other",
+        "details": "Wrote 'Near to the Heart of God' after two of his nieces died of diphtheria within days of each other."
+      },
+      {
+        "date": "1929",
+        "event": "other",
+        "details": "Elected Moderator of the General Assembly of the Presbyterian Church in the U.S.A."
+      },
+      {
+        "date": "Feb 4, 1944",
+        "event": "death",
+        "details": "Died at Asheville, North Carolina, aged 77."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Presbyterian",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "suffering",
+      "prayer",
+      "grace",
+      "faithfulness",
+      "hymn writing"
+    ],
+    "hymns": [
+      "Near to the Heart of God"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cleland_Boyd_McAfee",
+    "source_summary": "Cleland Boyd McAfee (1866-1944) was an American Presbyterian minister, theologian, and hymn writer. His father founded Park College in Parkville, Missouri, where McAfee taught philosophy and directed the choir before entering the pastorate. He served First Presbyterian Church of Chicago (1901-1904) and Lafayette Avenue Presbyterian Church in Brooklyn (1904-1912), taught systematic theology at McCormick Theological Seminary (1912-1930), was elected Moderator of the Presbyterian General Assembly in 1929, and directed the Board of Foreign Missions (1930-1936). He is often credited with coining the acronym TULIP for the five points of Calvinism. In 1901, after two of his young nieces died of diphtheria within days of each other while their home was under quarantine, he wrote both the words and tune of 'Near to the Heart of God,' based on Psalm 73:28; his church choir first sang it standing outside the quarantined house. He died at Asheville, North Carolina.",
+    "adult_story": "Cleland Boyd McAfee was born in Ashley, Missouri, in 1866, into a family devoted to Christian education — his father founded Park College in Parkville, where Cleland taught philosophy and led the choir. Ordained in the Presbyterian Church, he served congregations in Chicago and Brooklyn, taught systematic theology at McCormick Theological Seminary for eighteen years, and in 1929 was elected Moderator of his denomination's General Assembly. He is often credited with coining the acronym TULIP for the five points of Calvinism.\n\nIn 1901, while pastoring in Chicago, McAfee received word that two of his young nieces had died of diphtheria within days of each other. The house was under quarantine, and he could not go in. That week he wrote both the words and the tune of a hymn built on Psalm 73:28 — \"it is good for me to draw near to God\" — and titled it \"Near to the Heart of God.\" On the Saturday night his church choir learned it at rehearsal, then walked to his brother's darkened, quarantined house and sang it softly outside in the open air.\n\nThe hymn speaks of \"a place of quiet rest, near to the heart of God,\" reached not by effort or merit but by the blood of Christ shed for sinners. McAfee had found, in the worst week of his family's life, that the nearness was real.",
+    "family_story": "Cleland McAfee was a Presbyterian pastor and teacher in America. His family loved Jesus and even started a college to train Christian workers.\n\nIn 1901 something terrible happened: two of his little nieces caught an illness called diphtheria and died within a few days of each other. Their house had to be sealed off so the sickness would not spread, and McAfee was not allowed inside.\n\nThat week he wrote a hymn called \"Near to the Heart of God.\" His church choir learned it, then walked to the quiet, darkened house where his family was grieving and sang it outside in the dark. The song says there is a place of rest close to God — and Jesus is the way in.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "church",
+        "name": "Lafayette Avenue Presbyterian Church",
+        "address": "85 South Oxford Street, Brooklyn, New York, USA",
+        "lat": 40.6863,
+        "lng": -73.9737
+      }
+    ]
+  },
+  {
+    "id": "j-edwin-orr",
+    "name": "J. Edwin Orr",
+    "born": 1912,
+    "born_approximate": false,
+    "died": 1987,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Jan 15, 1912",
+        "event": "birth",
+        "details": "Born in Belfast, Ireland."
+      },
+      {
+        "date": "1936",
+        "event": "other",
+        "details": "Wrote 'Cleanse Me' at an Easter convention in Ngaruawahia, New Zealand, setting Psalm 139 to a Maori melody."
+      },
+      {
+        "date": "Jan 15, 1940",
+        "event": "ordained",
+        "details": "Ordained a Baptist minister at Emmanuel Baptist Church, Newark, New Jersey."
+      },
+      {
+        "date": "1948",
+        "event": "other",
+        "details": "Awarded a doctorate by Oxford University for research on the British awakening of 1859."
+      },
+      {
+        "date": "Apr 22, 1987",
+        "event": "death",
+        "details": "Died at Ridgecrest, North Carolina, shortly after preaching, aged 75."
+      }
+    ],
+    "nationality": "Northern Irish",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Baptist (itinerant evangelist)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "revival",
+      "prayer",
+      "evangelism",
+      "repentance",
+      "faithfulness"
+    ],
+    "hymns": [
+      "Cleanse Me"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/J._Edwin_Orr",
+    "source_summary": "James Edwin Orr (1912-1987) was a Belfast-born American Baptist minister, evangelist, hymn writer, and the twentieth century's foremost historian of Christian revival. After working as a baker he began itinerant evangelism around 1930, travelling with almost no money through Britain, Europe, North America, Australia, and southern Africa, and later served as a U.S. Army Air Forces chaplain in the Pacific. He was ordained a Baptist minister in 1940, earned a Th.D. from Northern Baptist Seminary (1943) and a D.Phil. from Oxford (1948) for work on the 1859 awakening, wrote more than forty books on revivals, and taught at Fuller Theological Seminary's School of World Mission (1966-1981). He was one of the founding board members of Campus Crusade for Christ, and his preaching on united prayer helped prepare the 1949 Los Angeles campaign that brought Billy Graham to national attention. In 1936, at an Easter convention in Ngaruawahia, New Zealand, he wrote 'Cleanse Me' ('Search Me, O God'), based on Psalm 139:23-24, set to the Maori tune 'Po Atarau.'",
+    "adult_story": "James Edwin Orr was born in Belfast in 1912 and worked as a baker before setting out, around 1930, to preach wherever a door opened. With almost no money he travelled through Britain, Europe, North America, Australia, and southern Africa holding revival meetings, and during the Second World War served as a U.S. Army Air Forces chaplain in the Pacific. He was ordained a Baptist minister in 1940.\n\nOrr became the twentieth century's foremost historian of Christian revival. He earned a doctorate from Oxford for research on the awakening of 1859, wrote more than forty books tracing revivals across the world, and taught for fifteen years at Fuller Theological Seminary. He was one of the founding board members of Campus Crusade for Christ alongside [[Billy Graham|billy-graham]] and [[Bill Bright|bill-bright]], and his preaching on united prayer helped prepare the 1949 Los Angeles campaign that first brought Graham to national attention. His lifelong conviction was that no great awakening has ever begun apart from extraordinary, concerted prayer.\n\nIn 1936, at an Easter convention in Ngaruawahia, New Zealand, Orr set words from Psalm 139 to a Maori melody: \"Search me, O God, and know my heart today.\" The hymn asks God to expose and cleanse sin — the very thing Orr believed revival always begins with, and which the blood of Christ alone can accomplish.",
+    "family_story": "J. Edwin Orr grew up in Belfast and worked as a baker. Then, with hardly any money, he began travelling the world to preach — Britain, Australia, Africa, America, and about 150 countries in all.\n\nOrr spent his life studying revivals: times when huge numbers of people suddenly turned to God. He was sure of one thing — every revival began when Christians started praying seriously together.\n\nIn 1936, in New Zealand, he wrote a hymn using words from Psalm 139: \"Search me, O God, and know my heart today.\" It asks God to show us our sin and wash it away. Orr knew that only Jesus can make a heart clean, and that this is where every fresh start with God begins.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "archive",
+        "name": "Papers of J. Edwin Orr — Wheaton College (Buswell Library Special Collections)",
+        "address": "Wheaton College, 501 College Avenue, Wheaton, Illinois, USA",
+        "lat": 41.8698,
+        "lng": -88.0995,
+        "open_to_public": false
+      }
+    ]
+  },
+  {
+    "id": "doris-akers",
+    "name": "Doris Akers",
+    "born": 1923,
+    "born_approximate": false,
+    "died": 1995,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "May 21, 1923",
+        "event": "birth",
+        "details": "Born in Brookfield, Missouri."
+      },
+      {
+        "date": "1958",
+        "event": "other",
+        "details": "Co-wrote 'Lord, Don't Move the Mountain' with Mahalia Jackson."
+      },
+      {
+        "date": "1962",
+        "event": "published",
+        "details": "'Sweet, Sweet Spirit' was published, written after a time of prayer with her choir before a service."
+      },
+      {
+        "date": "Jul 26, 1995",
+        "event": "death",
+        "details": "Died in Edina, Minnesota, aged 72."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "African Methodist Episcopal / gospel music",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "gospel music",
+      "prayer",
+      "worship",
+      "praise",
+      "hymn writing"
+    ],
+    "hymns": [
+      "Sweet, Sweet Spirit"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Doris_Akers",
+    "source_summary": "Doris Mae Akers (1923-1995) was an American gospel songwriter, singer, pianist, arranger, and choir director, raised in the African Methodist Episcopal church in Missouri. She wrote her first song at ten and eventually composed more than three hundred, working across every part of gospel-music production. The Smithsonian Institution called her the foremost Black gospel songwriter in the United States. In 1958 she co-wrote 'Lord, Don't Move the Mountain' with Mahalia Jackson. For years she directed the racially integrated Sky Pilot Choir in Los Angeles; her best-known song, 'Sweet, Sweet Spirit' (published 1962), came out of a prayer time with that choir before a service. Her songs, including 'Lead Me, Guide Me,' are sung across the church today. She was named Gospel Music Composer of the Year in 1960 and 1961 and was inducted into the Gospel Music Hall of Fame in 2001.",
+    "adult_story": "Doris Mae Akers was born in Brookfield, Missouri, in 1923, and learned gospel music as a child in the African Methodist Episcopal church. She wrote her first song at ten and eventually composed more than three hundred, working as singer, pianist, arranger, choir director, and publisher. The Smithsonian Institution later called her the foremost Black gospel songwriter in the United States, and in 1958 she co-wrote \"Lord, Don't Move the Mountain\" with Mahalia Jackson.\n\nFor years Akers directed the racially integrated Sky Pilot Choir in Los Angeles, and her best-known song came out of that work. One Sunday, gathered with the choir to pray before the service, she sensed they were not yet ready to sing and kept them praying until, as she put it, the room seemed full of the sweetness of God's presence. Reluctant to break the moment to walk out and sing, she thought, \"this is the sweet, sweet Spirit,\" and wrote the song afterward.\n\n\"Sweet, Sweet Spirit,\" published in 1962, and \"Lead Me, Guide Me\" are sung today across every part of the church. Both point away from the singer and toward the Holy Spirit given by Christ — the presence Akers cared about far more than any performance.",
+    "family_story": "Doris Akers was born in Missouri in 1923 and grew up singing in church. She wrote her first gospel song when she was ten years old, and in the end she wrote more than three hundred.\n\nIn Los Angeles she led a big choir. One Sunday, before the service, she gathered the singers to pray — and the praying felt so full of God that she didn't want to stop it to go and sing. Afterward she wrote a song about that moment: \"Sweet, Sweet Spirit.\"\n\nHer songs are still sung all over the world. They are not about the singers — they are about the Holy Spirit, whom Jesus sends to be close to his people.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": []
+  },
+  {
+    "id": "anna-bartlett-warner",
+    "name": "Anna Bartlett Warner",
+    "born": 1824,
+    "born_approximate": false,
+    "died": 1915,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Aug 31, 1824",
+        "event": "birth",
+        "details": "Born near New York City."
+      },
+      {
+        "date": "1852",
+        "event": "published",
+        "details": "Dollars and Cents, her first novel, published under the name 'Amy Lothrop.'"
+      },
+      {
+        "date": "1860",
+        "event": "published",
+        "details": "'Jesus Loves Me' first appeared, as a poem in her sister Susan's novel Say and Seal."
+      },
+      {
+        "date": "Jan 22, 1915",
+        "event": "death",
+        "details": "Died at Constitution Island, Highland Falls, New York, aged 90; buried at West Point with military honours."
+      }
+    ],
+    "nationality": "American",
+    "era": "19th Century",
+    "region": "North America",
+    "tradition": "Presbyterian",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "grace",
+      "children",
+      "faith",
+      "faithfulness",
+      "hymn writing"
+    ],
+    "hymns": [
+      "Jesus Loves Me"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Anna_Bartlett_Warner",
+    "source_summary": "Anna Bartlett Warner (1824-1915) was an American author and hymn writer who lived most of her life with her older sister Susan on Constitution Island in the Hudson River, opposite the West Point military academy. After the family lost its money in the panic of 1837, the sisters wrote to support the household: Susan became a bestselling novelist, and Anna wrote about thirty novels of her own (under the name 'Amy Lothrop'), plus books on gardening and hymns. In 1860, for a scene in Susan's novel Say and Seal in which a Sunday-school teacher comforts a dying child, Anna wrote the poem 'Jesus loves me, this I know, for the Bible tells me so'; William Bradbury set it to music in 1862 and added the refrain, and it became one of the most widely translated hymns in the world. For more than forty years the sisters crossed to West Point on Sundays to teach the Bible to cadets. Both were buried at West Point Cemetery with military honours, the only civilians so honoured. The family home is now the Warner House museum.",
+    "adult_story": "Anna Bartlett Warner was born near New York City in 1824 and spent most of her life with her older sister Susan on Constitution Island, in the Hudson River opposite the West Point military academy. The family lost its money in the financial panic of 1837, and the two sisters turned to writing to support the household. Susan became a bestselling novelist; Anna wrote some thirty novels of her own, along with books on gardening and hymns.\n\nIn 1860 Susan was writing a novel, Say and Seal, and needed words for a scene in which a Sunday-school teacher comforts a dying child. She asked Anna, who supplied a simple poem beginning \"Jesus loves me, this I know, for the Bible tells me so.\" Two years later the composer William Bradbury set it to music and added the familiar refrain. It became perhaps the most widely translated hymn in the world.\n\nFor more than forty years the Warner sisters rowed across to West Point on Sundays to teach the Bible to cadets; both were buried there with military honours, the only civilians granted that distinction. Anna's hymn holds a child's whole theology: not \"I love Jesus\" but \"Jesus loves me\" — the weak held safe by the strong, on the authority of God's own Word.",
+    "family_story": "Anna Warner and her sister Susan lived on a small island in the Hudson River, across from the West Point army school. After their family lost its money, the sisters wrote books to earn a living.\n\nIn 1860 Susan needed words for a story about a teacher singing to a sick child. Anna wrote them: \"Jesus loves me, this I know, for the Bible tells me so.\" A musician named William Bradbury later added the tune and the \"Yes, Jesus loves me\" chorus.\n\nFor over forty years the sisters rowed to West Point every Sunday to teach the Bible to the cadets. Anna's song has since been sung by children in more languages than almost any other hymn.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "museum",
+        "name": "Warner House, Constitution Island",
+        "address": "Constitution Island, West Point, New York, USA",
+        "lat": 41.3925,
+        "lng": -73.9556,
+        "open_to_public": true
+      },
+      {
+        "type": "gravestone",
+        "name": "Graves of Anna and Susan Warner",
+        "address": "West Point Cemetery, West Point, New York, USA",
+        "lat": 41.3945,
+        "lng": -73.9585
+      }
+    ]
   }
 ]

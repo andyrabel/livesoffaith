@@ -565,5 +565,19 @@
     "label": "whose account of the Lisu's need drew her to missionary work among them",
     "type": "influence",
     "mutual": false
+  },
+  {
+    "from": "j-edwin-orr",
+    "to": "bill-bright",
+    "label": "was a founding board member of Campus Crusade for Christ alongside",
+    "type": "collaboration",
+    "mutual": true
+  },
+  {
+    "from": "j-edwin-orr",
+    "to": "billy-graham",
+    "label": "helped prepare, through his preaching on prayer, the 1949 Los Angeles campaign that brought national fame to",
+    "type": "influence",
+    "mutual": false
   }
 ]

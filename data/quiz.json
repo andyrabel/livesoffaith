@@ -3100,5 +3100,70 @@
     "answer": "Prayer (the organized prayer support of friends in England)",
     "person_id": "james-o-fraser",
     "difficulty": 5
+  },
+  {
+    "question": "Which devotional novel, written as a fictional journal, is Elizabeth Prentiss best known for?",
+    "answer": "Stepping Heavenward",
+    "person_id": "elizabeth-payson-prentiss",
+    "difficulty": 5
+  },
+  {
+    "question": "Elizabeth Prentiss kept the words of which hymn in a drawer for thirteen years before letting them be published?",
+    "answer": "More Love to Thee, O Christ",
+    "person_id": "elizabeth-payson-prentiss",
+    "hymn_id": "more-love-to-thee-o-christ",
+    "difficulty": 5
+  },
+  {
+    "question": "Cleland McAfee wrote 'Near to the Heart of God' the week that which sorrow struck his family?",
+    "answer": "Two of his young nieces died of diphtheria within days of each other",
+    "person_id": "cleland-boyd-mcafee",
+    "hymn_id": "near-to-the-heart-of-god",
+    "difficulty": 5
+  },
+  {
+    "question": "Which acronym for the five points of Calvinism is Cleland McAfee often credited with coining?",
+    "answer": "TULIP",
+    "person_id": "cleland-boyd-mcafee",
+    "difficulty": 5
+  },
+  {
+    "question": "J. Edwin Orr was the twentieth century's foremost historian of what?",
+    "answer": "Christian revival (spiritual awakenings)",
+    "person_id": "j-edwin-orr",
+    "difficulty": 5
+  },
+  {
+    "question": "Which hymn did J. Edwin Orr write in 1936, setting words from Psalm 139 to a Maori melody?",
+    "answer": "Cleanse Me (Search Me, O God)",
+    "person_id": "j-edwin-orr",
+    "hymn_id": "cleanse-me",
+    "difficulty": 5
+  },
+  {
+    "question": "Doris Akers wrote 'Sweet, Sweet Spirit' after an unusually deep time of what, with her choir before a service?",
+    "answer": "Prayer",
+    "person_id": "doris-akers",
+    "hymn_id": "sweet-sweet-spirit",
+    "difficulty": 5
+  },
+  {
+    "question": "The Smithsonian Institution called Doris Akers the foremost what in the United States?",
+    "answer": "Black gospel songwriter",
+    "person_id": "doris-akers",
+    "difficulty": 5
+  },
+  {
+    "question": "Anna Warner's poem 'Jesus Loves Me' first appeared in a novel written by whom?",
+    "answer": "Her sister, Susan Warner",
+    "person_id": "anna-bartlett-warner",
+    "hymn_id": "jesus-loves-me",
+    "difficulty": 5
+  },
+  {
+    "question": "For more than forty years, Anna Warner and her sister rowed across the Hudson River to teach the Bible to whom?",
+    "answer": "The cadets at West Point",
+    "person_id": "anna-bartlett-warner",
+    "difficulty": 5
   }
 ]

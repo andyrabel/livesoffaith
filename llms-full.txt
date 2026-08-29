@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-08-26. 172 people.
+Generated 2026-08-29. 177 people.
 
 ---
 
@@ -178,6 +178,22 @@ Ann Hasseltine was born in Bradford, Massachusetts, in 1789, the daughter of a c
 In Burma, Ann quickly outpaced her husband in learning the language, writing a Burmese catechism and, in 1819, becoming the first Protestant to translate any Scripture into Thai when she rendered the Gospel of Matthew. When the Anglo-Burmese War broke out in 1824, Adoniram was arrested as a suspected spy and imprisoned for seventeen months in brutal conditions. Ann, though pregnant and unwell herself, moved near the prison gates, bribed guards for access, and carried food and pleas for mercy to her husband and his fellow captives.
 
 Adoniram was finally released, but Ann's health, already broken by years of privation, did not recover. She died of smallpox in October 1826, aged thirty-six, and was buried beneath a hopia tree in Amherst; her infant daughter Maria died weeks later. Ann's letters home, read across America, taught a generation that suffering for Christ was not tragedy wasted but the ordinary cost of a gospel worth every loss, grace sufficient not because trial was avoided, but because Christ was present within it.
+
+---
+
+## Anna Bartlett Warner (1824–1915)
+
+URL: https://livesoffaith.org/person.html?id=anna-bartlett-warner
+Wikipedia: https://en.wikipedia.org/wiki/Anna_Bartlett_Warner
+Nationality: American · Tradition: Presbyterian · Region: North America · Era: 19th Century
+Topics: grace, children, faith, faithfulness, hymn writing
+Hymns: Jesus Loves Me
+
+Anna Bartlett Warner was born near New York City in 1824 and spent most of her life with her older sister Susan on Constitution Island, in the Hudson River opposite the West Point military academy. The family lost its money in the financial panic of 1837, and the two sisters turned to writing to support the household. Susan became a bestselling novelist; Anna wrote some thirty novels of her own, along with books on gardening and hymns.
+
+In 1860 Susan was writing a novel, Say and Seal, and needed words for a scene in which a Sunday-school teacher comforts a dying child. She asked Anna, who supplied a simple poem beginning "Jesus loves me, this I know, for the Bible tells me so." Two years later the composer William Bradbury set it to music and added the familiar refrain. It became perhaps the most widely translated hymn in the world.
+
+For more than forty years the Warner sisters rowed across to West Point on Sundays to teach the Bible to cadets; both were buried there with military honours, the only civilians granted that distinction. Anna's hymn holds a child's whole theology: not "I love Jesus" but "Jesus loves me" — the weak held safe by the strong, on the authority of God's own Word.
 
 ---
 
@@ -527,6 +543,22 @@ After his release, Colson founded Prison Fellowship in 1976, and it grew into th
 
 ---
 
+## Cleland Boyd McAfee (1866–1944)
+
+URL: https://livesoffaith.org/person.html?id=cleland-boyd-mcafee
+Wikipedia: https://en.wikipedia.org/wiki/Cleland_Boyd_McAfee
+Nationality: American · Tradition: Presbyterian · Region: North America · Era: 20th Century
+Topics: suffering, prayer, grace, faithfulness, hymn writing
+Hymns: Near to the Heart of God
+
+Cleland Boyd McAfee was born in Ashley, Missouri, in 1866, into a family devoted to Christian education — his father founded Park College in Parkville, where Cleland taught philosophy and led the choir. Ordained in the Presbyterian Church, he served congregations in Chicago and Brooklyn, taught systematic theology at McCormick Theological Seminary for eighteen years, and in 1929 was elected Moderator of his denomination's General Assembly. He is often credited with coining the acronym TULIP for the five points of Calvinism.
+
+In 1901, while pastoring in Chicago, McAfee received word that two of his young nieces had died of diphtheria within days of each other. The house was under quarantine, and he could not go in. That week he wrote both the words and the tune of a hymn built on Psalm 73:28 — "it is good for me to draw near to God" — and titled it "Near to the Heart of God." On the Saturday night his church choir learned it at rehearsal, then walked to his brother's darkened, quarantined house and sang it softly outside in the open air.
+
+The hymn speaks of "a place of quiet rest, near to the heart of God," reached not by effort or merit but by the blood of Christ shed for sinners. McAfee had found, in the worst week of his family's life, that the nearness was real.
+
+---
+
 ## Corrie ten Boom (1892–1983)
 
 URL: https://livesoffaith.org/person.html?id=corrie-ten-boom
@@ -643,6 +675,22 @@ Her most far-reaching legacy came in 1920 during revival meetings in Fuzhou. Her
 
 ---
 
+## Doris Akers (1923–1995)
+
+URL: https://livesoffaith.org/person.html?id=doris-akers
+Wikipedia: https://en.wikipedia.org/wiki/Doris_Akers
+Nationality: American · Tradition: African Methodist Episcopal / gospel music · Region: North America · Era: 20th Century
+Topics: gospel music, prayer, worship, praise, hymn writing
+Hymns: Sweet, Sweet Spirit
+
+Doris Mae Akers was born in Brookfield, Missouri, in 1923, and learned gospel music as a child in the African Methodist Episcopal church. She wrote her first song at ten and eventually composed more than three hundred, working as singer, pianist, arranger, choir director, and publisher. The Smithsonian Institution later called her the foremost Black gospel songwriter in the United States, and in 1958 she co-wrote "Lord, Don't Move the Mountain" with Mahalia Jackson.
+
+For years Akers directed the racially integrated Sky Pilot Choir in Los Angeles, and her best-known song came out of that work. One Sunday, gathered with the choir to pray before the service, she sensed they were not yet ready to sing and kept them praying until, as she put it, the room seemed full of the sweetness of God's presence. Reluctant to break the moment to walk out and sing, she thought, "this is the sweet, sweet Spirit," and wrote the song afterward.
+
+"Sweet, Sweet Spirit," published in 1962, and "Lead Me, Guide Me" are sung today across every part of the church. Both point away from the singer and toward the Holy Spirit given by Christ — the presence Akers cared about far more than any performance.
+
+---
+
 ## Dottie Rambo (1934–2008)
 
 URL: https://livesoffaith.org/person.html?id=dottie-rambo
@@ -709,6 +757,22 @@ She did not go home. In 1958, with Rachel Saint — sister of pilot Nate Saint, 
 She left Ecuador in 1963 and spent the rest of her long life writing and speaking. Through Gates of Splendour told the story of the five missionaries. Shadow of the Almighty preserved Jim's letters and journals. A Path Through Suffering drew on all she had lived.
 
 She died in 2015. Her most quoted words: "God is God. Because he is God, he is worthy of my trust and obedience. I will find rest nowhere but in his will."
+
+---
+
+## Elizabeth Payson Prentiss (1818–1878)
+
+URL: https://livesoffaith.org/person.html?id=elizabeth-payson-prentiss
+Wikipedia: https://en.wikipedia.org/wiki/Elizabeth_Prentiss
+Nationality: American · Tradition: Presbyterian (raised Congregationalist) · Region: North America · Era: 19th Century
+Topics: devotion, suffering, prayer, faithfulness, hymn writing
+Hymns: More Love to Thee, O Christ
+
+Elizabeth Payson Prentiss was born in Portland, Maine, in 1818, the daughter of Edward Payson, a Congregationalist preacher whose devotion marked her deeply; he died when she was nine. She professed faith in Christ as a girl, taught school as a young woman, and in 1845 married George Lewis Prentiss, a Presbyterian pastor who later taught at Union Theological Seminary in New York.
+
+Prentiss is best remembered for her 1869 novel Stepping Heavenward, the fictional journal of a woman learning, through disappointment and loss, to want God more than comfort. It sold widely on both sides of the Atlantic and has never gone out of print. She wrote more than thirty books in all, most of them for children, along with a volume of hymns.
+
+Her own life supplied the material. In 1856, worn down by illness, low spirits, and the earlier deaths of two of her children within a single year, she sat down one evening and wrote four stanzas of a prayer: "More love to Thee, O Christ, more love to Thee." She thought it too personal to show anyone and kept it in a drawer for thirteen years. It was finally published in 1870 and was sung at her funeral in 1878. Its plea is not for strength to achieve, but for a heart drawn nearer to the Saviour who first loved her.
 
 ---
 
@@ -1203,6 +1267,22 @@ Topics: missions, perseverance, grace, faithfulness, conversion
 Isobel Miller Kuhn was born in Toronto in 1901 and raised in a Presbyterian home, but by her last year at the University of British Columbia she had drifted into agnosticism, abandoning prayer and church. In 1921, undone by a broken engagement and at the edge of despair, she prayed a desperate bargain: ‘God, if there be a God... if You will give me peace, I will give You my whole life.’ The peace came, and so did the surrender.
 
 Three years later, hearing missionary J. O. Fraser describe the Lisu people of Yunnan, China, bound by fear of spirits, Isobel knew where that surrendered life was headed. She sailed with the China Inland Mission in 1928 and married fellow missionary John Kuhn the following year in Kunming. From 1934 to 1950 the Kuhns lived among the Lisu, where Isobel pioneered the ‘Rainy Season Bible School,’ timed to the farming calendar so Lisu believers could be trained as evangelists to their own people. When Communist forces swept through in 1950, the family fled over a mountain pass into Burma, leaving behind a growing church. From 1952 she and John continued the same work among Lisu communities in northern Thailand, until illness forced her retirement in 1954. She spent her last years writing books that still carry her testimony that grace, once truly received, cannot be kept to oneself.
+
+---
+
+## J. Edwin Orr (1912–1987)
+
+URL: https://livesoffaith.org/person.html?id=j-edwin-orr
+Wikipedia: https://en.wikipedia.org/wiki/J._Edwin_Orr
+Nationality: Northern Irish · Tradition: Baptist (itinerant evangelist) · Region: North America · Era: 20th Century
+Topics: revival, prayer, evangelism, repentance, faithfulness
+Hymns: Cleanse Me
+
+James Edwin Orr was born in Belfast in 1912 and worked as a baker before setting out, around 1930, to preach wherever a door opened. With almost no money he travelled through Britain, Europe, North America, Australia, and southern Africa holding revival meetings, and during the Second World War served as a U.S. Army Air Forces chaplain in the Pacific. He was ordained a Baptist minister in 1940.
+
+Orr became the twentieth century's foremost historian of Christian revival. He earned a doctorate from Oxford for research on the awakening of 1859, wrote more than forty books tracing revivals across the world, and taught for fifteen years at Fuller Theological Seminary. He was one of the founding board members of Campus Crusade for Christ alongside Billy Graham and Bill Bright, and his preaching on united prayer helped prepare the 1949 Los Angeles campaign that first brought Graham to national attention. His lifelong conviction was that no great awakening has ever begun apart from extraordinary, concerted prayer.
+
+In 1936, at an Easter convention in Ngaruawahia, New Zealand, Orr set words from Psalm 139 to a Maori melody: "Search me, O God, and know my heart today." The hymn asks God to expose and cleanse sin — the very thing Orr believed revival always begins with, and which the blood of Christ alone can accomplish.
 
 ---
 
@@ -2792,7 +2872,7 @@ His faith was not incidental to his political work — it was its source. His li
 
 # Hymn Stories
 
-The documented history behind 73 individual hymns — who wrote them, when, and the Scripture that shaped them.
+The documented history behind 78 individual hymns — who wrote them, when, and the Scripture that shaped them.
 
 ---
 
@@ -3001,6 +3081,22 @@ Charles Wesley wrote "Christ the Lord Is Risen Today" in 1739, publishing it in 
 The hymn's repeated "Alleluia!" -- absent from Wesley's original text and added later by editors -- has become one of its most recognisable features, but the theology is Wesley's own: Christ's resurrection is declared as victory over "death's dark shadow" and the grave itself, "where thy victory, O grave?" Wesley draws directly on Paul's resurrection argument in 1 Corinthians 15, that Christ's rising guarantees the believer's own future resurrection -- "made like him, like him we rise."
 
 Sung to the tune "Easter Hymn," it has become one of the most widely used Easter hymns in English-language worship, its confident declaration of a bodily, historical resurrection standing at the centre of the Christian gospel it announces.
+
+---
+
+## Cleanse Me (1936)
+
+URL: https://livesoffaith.org/hymn.html?id=cleanse-me
+Writer: J. Edwin Orr (https://livesoffaith.org/person.html?id=j-edwin-orr)
+Scripture basis: Psalm 139:23-24
+Wikipedia: https://en.wikipedia.org/wiki/J._Edwin_Orr
+Topics: revival, prayer, repentance, holiness
+
+J. Edwin Orr wrote "Cleanse Me" — also known by its first line, "Search Me, O God" — in 1936, during an Easter convention at Ngaruawahia, on New Zealand's North Island. He had seen genuine spiritual awakening among Maori Christians there, and set the words almost directly from the closing verses of Psalm 139: "Search me, O God, and know my heart today; try me, O Saviour, know my thoughts, I pray."
+
+He fitted the text to "Po Atarau," a well-known Maori farewell melody later famous in English as "Now Is the Hour." The choice of a local tune was deliberate — the hymn was written for the people in front of him, not for export.
+
+The four stanzas move from self-examination to confession ("I now confess, Thou art the only one who can help me now") to a plea for revival: "send a revival — start the work in me." Orr spent his life as a historian of revival, and his settled conclusion was that awakening always begins with Christians asking God to expose and forgive their own sin. The hymn is that conviction in miniature: cleansing the singer cannot perform, asked of the God who alone can grant it through Christ.
 
 ---
 
@@ -3292,6 +3388,22 @@ Set to Philip Bliss's tune "Ville du Havre," named for the wrecked ship, it rema
 
 ---
 
+## Jesus Loves Me (1860)
+
+URL: https://livesoffaith.org/hymn.html?id=jesus-loves-me
+Writer: Anna Bartlett Warner (https://livesoffaith.org/person.html?id=anna-bartlett-warner)
+Scripture basis: John 15:13
+Wikipedia: https://en.wikipedia.org/wiki/Jesus_Loves_Me
+Topics: grace, children, faith
+
+"Jesus Loves Me" began as a few lines in a novel. In 1860 Susan Warner was writing Say and Seal and needed words for a scene in which a Sunday-school teacher named John Linden holds a dying boy and sings to comfort him. She asked her younger sister, Anna Bartlett Warner, who supplied the poem: "Jesus loves me, this I know, for the Bible tells me so."
+
+Two years later the American composer William Bradbury set the verses to music and added the refrain now sung everywhere — "Yes, Jesus loves me, the Bible tells me so" — publishing it in a Sunday-school songbook in 1862.
+
+The hymn's theology is deliberately small enough for a child and deep enough for anyone. It does not begin with the believer's love for Christ but with Christ's love for the believer, demonstrated at the cross ("He who died heaven's gate to open wide") and known not by feeling but on the authority of Scripture — "the Bible tells me so." Carried by missionaries into hundreds of languages, it has become one of the most widely translated hymns in the world, still teaching the same first lesson of the gospel: the weak are loved and kept by the strong Son of God.
+
+---
+
 ## Jesus Shall Reign (1719)
 
 URL: https://livesoffaith.org/hymn.html?id=jesus-shall-reign
@@ -3452,6 +3564,22 @@ First sung at Spring Harvest, "Meekness and Majesty" became one of the most endu
 
 ---
 
+## More Love to Thee, O Christ (1856)
+
+URL: https://livesoffaith.org/hymn.html?id=more-love-to-thee-o-christ
+Writer: Elizabeth Payson Prentiss (https://livesoffaith.org/person.html?id=elizabeth-payson-prentiss)
+Scripture basis: Psalm 73:25-26
+Wikipedia: https://en.wikipedia.org/wiki/Elizabeth_Prentiss
+Topics: devotion, suffering, prayer, surrender
+
+Elizabeth Payson Prentiss wrote "More Love to Thee, O Christ" one evening in 1856. She was worn down by illness and low spirits, and had lost two of her children within a single year not long before. Reflecting on the older hymn "Nearer, My God, to Thee," she found herself wanting to pray something more specific — not merely to be nearer to God in general, but to love Christ more — and wrote four stanzas as a prayer in one sitting.
+
+She thought the lines far too personal to show anyone, and kept them in a drawer for thirteen years. Only in 1869 did she let the poem be printed on a leaflet; it first appeared in a hymnal in 1870, set to a tune written for it by William Howard Doane.
+
+The hymn asks for nothing the singer can achieve. Each stanza narrows to the same petition — "more love, O Christ, to Thee" — and traces it through "sorrow's path" and even to the last breath, when "this shall be my parting cry." Its echo of Psalm 73 ("whom have I in heaven but Thee?") makes the point plain: the believer's treasure is a Person, and the deepest prayer is simply to want Him more. It was sung at Prentiss's funeral in 1878.
+
+---
+
 ## Move On Up a Little Higher (1946)
 
 URL: https://livesoffaith.org/hymn.html?id=move-on-up-a-little-higher
@@ -3497,6 +3625,22 @@ Topics: grace, worship, redemption
 Crosby grounded the hymn in Galatians 6:14 — “God forbid that I should glory, save in the cross of our Lord Jesus Christ” — and the refrain makes that boast concrete: “In the cross, in the cross, be my glory ever, till my raptured soul shall find rest beyond the river.” The opening stanza calls the cross “a precious fountain, free to all, a healing stream,” picturing the atonement not as a place to visit occasionally but as the site every believer needs to stay nearest to.
 
 The hymn asks for nothing the singer must earn — only nearness to what Christ has already accomplished there. Translated into Arabic, German, Russian, Haitian Creole, and Spanish, “Near the Cross” has carried Crosby’s plea across languages and generations: that whatever else changes, the believer’s constant place is at the foot of the cross.
+
+---
+
+## Near to the Heart of God (1901)
+
+URL: https://livesoffaith.org/hymn.html?id=near-to-the-heart-of-god
+Writer: Cleland Boyd McAfee (https://livesoffaith.org/person.html?id=cleland-boyd-mcafee)
+Scripture basis: Psalm 73:28
+Wikipedia: https://en.wikipedia.org/wiki/Cleland_Boyd_McAfee
+Topics: suffering, prayer, grace, faithfulness
+
+In 1901 Cleland Boyd McAfee was pastoring in Chicago when word came that two of his young nieces, the daughters of his brother Howard, had died of diphtheria within days of each other. The house was under quarantine and McAfee could not go inside.
+
+That week he wrote both the words and the music of a hymn, taking its theme from Psalm 73:28 — "it is good for me to draw near to God." His church choir learned it at the regular Saturday-night rehearsal, and afterward walked together to the darkened, quarantined house and sang it in the open air outside, so that the grieving family could hear. It was published two years later, in 1903.
+
+The hymn names "a place of quiet rest," "a place of comfort sweet," and "a place of full release," each one "near to the heart of God." That place is not reached by effort or by deserving; the refrain locates it plainly — "held by the hand of His dear Son." Written in the worst week of his family's life, McAfee's hymn testifies that the nearness of God to a sorrowing believer, through Christ, is not a sentiment but a fact.
 
 ---
 
@@ -3755,6 +3899,22 @@ William Herbert Brewster wrote "Surely, God Is Able" out of his own preaching, d
 Made famous by the gospel singer Clara Ward and the Ward Singers, whose recording became a bestseller, the song's steady, declarative refrain -- "surely, surely, surely, God is able" -- was sung across Black congregations in the mid-twentieth century as an affirmation of faith that did not depend on immediate proof, echoing the same trust Brewster preached from the pulpit each week.
 
 Brewster wrote from a context of real hardship and injustice under segregation, and the hymn's insistence on God's ability to deliver carried force for congregations who had good reason to wonder whether help would ever come.
+
+---
+
+## Sweet, Sweet Spirit (1962)
+
+URL: https://livesoffaith.org/hymn.html?id=sweet-sweet-spirit
+Writer: Doris Akers (https://livesoffaith.org/person.html?id=doris-akers)
+Scripture basis: Matthew 18:20
+Wikipedia: https://en.wikipedia.org/wiki/Doris_Akers
+Topics: prayer, worship, praise
+
+Doris Akers wrote "Sweet, Sweet Spirit" out of her years directing the Sky Pilot Choir in Los Angeles. It was the choir's practice to pray together before a service. One Sunday the prayer time was unusually deep, and when it was time to go and sing, Akers did not want to leave it — she felt, she later said, that the room was full of the sweetness of God's presence, and that going out to perform would be an interruption. She told the choir, "we've prayed ourselves happy, but we've prayed too long," and only then led them out. The song came afterward, and was published in 1962.
+
+Its refrain names what she had sensed: "Sweet Holy Spirit, sweet heavenly Dove, stay right here with us, filling us with Your love." The verses ask for that presence to remain and to make the gathered believers "strong and pure and free."
+
+The hymn is not about a feeling for its own sake. It rests on Christ's promise that where two or three gather in His name He is present among them, and it asks the Spirit He sends to do what no choir rehearsal can — to make the worship real.
 
 ---
 
