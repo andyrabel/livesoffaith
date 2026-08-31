@@ -9689,7 +9689,7 @@
     "hymns": [],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Billy_Sunday",
     "source_summary": "Billy Sunday (1862–1935) was an American professional baseball player turned evangelist, converted around 1886–87 at Chicago's Pacific Garden Mission. He became the most prominent American revivalist of the early 20th century, preaching an estimated 20,000 sermons to over 100 million people with an athletic, theatrical style that gave rise to the phrase 'hitting the sawdust trail.'",
-    "adult_story": "Billy Sunday was born in 1862 near Ames, Iowa, and grew up to become a fast, popular outfielder in Major League Baseball during the 1880s. Around 1886–87, invited into Chicago's Pacific Garden Mission by hymns he remembered from childhood, Sunday committed his life to Christ. In 1891 he turned down a lucrative baseball contract to take a modest job with the YMCA instead.\n\nAfter several years learning the evangelist's trade as an advance man for preacher J. Wilbur Chapman, Sunday began holding his own campaigns in 1896. His preaching was unlike anything American congregations had seen — athletic, plain-spoken, delivered at a run, often ending with Sunday sliding across the stage as if stealing a base. Over the following decades he preached an estimated twenty thousand sermons to more than one hundred million people, with vast crowds coming forward across the sawdust-covered floors of his temporary wooden tabernacles — an experience that gave rise to the phrase 'hitting the sawdust trail.'\n\nSunday's central message never changed, however plain its delivery: that no one, however respectable or however far gone, is saved by their own effort, but only by turning from sin to trust in Christ. Days before his death in 1935, his final sermon still asked the same question he had spent his life answering: 'What must I do to be saved?' His answer, then as always, was simply — believe.",
+    "adult_story": "Billy Sunday was born in 1862 near Ames, Iowa, and grew up to become a fast, popular outfielder in Major League Baseball during the 1880s. Around 1886–87, invited into Chicago's Pacific Garden Mission by hymns he remembered from childhood, Sunday committed his life to Christ. In 1891 he turned down a lucrative baseball contract to take a modest job with the YMCA instead.\n\nAfter several years learning the evangelist's trade as an advance man for preacher [J. Wilbur Chapman|j-wilbur-chapman], Sunday began holding his own campaigns in 1896. His preaching was unlike anything American congregations had seen — athletic, plain-spoken, delivered at a run, often ending with Sunday sliding across the stage as if stealing a base. Over the following decades he preached an estimated twenty thousand sermons to more than one hundred million people, with vast crowds coming forward across the sawdust-covered floors of his temporary wooden tabernacles — an experience that gave rise to the phrase 'hitting the sawdust trail.'\n\nSunday's central message never changed, however plain its delivery: that no one, however respectable or however far gone, is saved by their own effort, but only by turning from sin to trust in Christ. Days before his death in 1935, his final sermon still asked the same question he had spent his life answering: 'What must I do to be saved?' His answer, then as always, was simply — believe.",
     "family_story": "Billy Sunday used to be a fast, famous baseball player. But one day he heard some old hymns being sung outside a mission in Chicago, and they reminded him of God. Billy decided to follow Jesus — and gave up baseball to do it.\n\nBilly became a preacher instead, and he was very unusual — he ran and jumped around on stage while he preached. Big crowds came to hear him everywhere he went.\n\nBut underneath the excitement, Billy's message was always simple: nobody is good enough to save themselves. Everybody needs Jesus. Right up until he died in 1935, Billy kept telling people that Jesus was the only way to be saved.",
     "image": {
       "file": "billy-sunday.jpg",
@@ -14599,6 +14599,85 @@
         "address": "Moss Ridge Cemetery, Carthage, Illinois, USA",
         "lat": 40.4261,
         "lng": -91.1423
+      }
+    ]
+  },
+  {
+    "id": "j-wilbur-chapman",
+    "name": "J. Wilbur Chapman",
+    "born": 1859,
+    "born_approximate": false,
+    "died": 1918,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Jun 17, 1859",
+        "event": "birth",
+        "details": "Born in Richmond, Indiana."
+      },
+      {
+        "date": "Apr 13, 1881",
+        "event": "ordained",
+        "details": "Ordained to the Presbyterian ministry while still a student at Lane Theological Seminary."
+      },
+      {
+        "date": "Mar 1908",
+        "event": "other",
+        "details": "Opened the first Chapman–Alexander Simultaneous Campaign in Philadelphia with the singer Charles Alexander."
+      },
+      {
+        "date": "May 1918",
+        "event": "other",
+        "details": "Elected Moderator of the Presbyterian Church in the U.S.A. General Assembly."
+      },
+      {
+        "date": "Dec 25, 1918",
+        "event": "death",
+        "details": "Died in New York City after gallstone surgery, aged 59."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "North America",
+    "tradition": "Presbyterian (Presbyterian Church in the U.S.A.)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "evangelism",
+      "assurance",
+      "grace",
+      "hymn writing",
+      "preaching"
+    ],
+    "hymns": [
+      "One Day!",
+      "Our Great Saviour"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Wilbur_Chapman",
+    "source_summary": "John Wilbur Chapman (1859–1918) was an American Presbyterian evangelist and hymn writer. Born in Richmond, Indiana, he studied at Lake Forest College and Lane Theological Seminary and was ordained in 1881. After pastorates in Indiana, New York, Philadelphia (John Wanamaker's Bethany Presbyterian Church), and New York City (Fourth Presbyterian Church), he devoted himself to full-time evangelism, working for a time alongside D.L. Moody. Chapman developed the “Simultaneous Campaign,” a coordinated citywide method in which meetings were held in dozens of churches at once by a team of evangelists and musicians; his best-known effort was Philadelphia in 1908 with the gospel singer Charles Alexander, and in 1909 a Chapman–Alexander campaign travelled through Australia and Asia. The young Billy Sunday served as his advance man before beginning his own campaigns. Chapman directed the Winona Lake Bible Conference in Indiana and helped establish conference centres at Montreat, North Carolina, and Stony Brook, New York. He was elected Moderator of the Presbyterian Church in the U.S.A. General Assembly in 1918 and died in New York City on 25 December 1918 following gallstone surgery. His hymns include “One Day!” (words c. 1908, tune by Charles H. Marsh) and “Our Great Saviour” (“Jesus! what a Friend for sinners,” 1910). As a young man he credited Moody with helping him to assurance of salvation through John 5:24. A collection of his papers is held at the Presbyterian Historical Society, Philadelphia (RG 2), with related material at Grace College and the Billy Graham Center Archives.",
+    "adult_story": "John Wilbur Chapman was born in Richmond, Indiana, in 1859 and raised in a Presbyterian home. He studied at Lake Forest College and Lane Theological Seminary and was ordained in 1881. After twenty years pastoring churches in Indiana, New York, Philadelphia, and New York City — including John Wanamaker's Bethany Presbyterian Church — he left settled ministry for full-time evangelism, for a time alongside [D.L. Moody|dwight-l-moody].\n\nChapman is remembered for organising evangelism on a citywide scale. His “Simultaneous Campaign” divided a city into districts and held meetings in dozens of a city's churches at once, staffed by teams of preachers and musicians. The best known was Philadelphia in 1908, with the singer Charles Alexander; in 1909 a Chapman–Alexander campaign travelled through Australia and Asia. The young [Billy Sunday|billy-sunday] served as his advance man, learning the work at his side. In 1918 Chapman was elected Moderator of the Presbyterian General Assembly. He also wrote hymns still sung today, among them “One Day!” and “Our Great Saviour.”\n\nAs a student, unsure after a meeting whether he was truly saved, Chapman was handed an open Bible at John 5:24 by Moody and asked to read it aloud, then, “Do you believe it?” He said he did, and never again doubted his standing with God. He spent his life preaching that one truth: sinners are received by grace, on the strength of Christ's word, not their own feelings or work.",
+    "family_story": "John Wilbur Chapman grew up in Indiana and became a Presbyterian preacher. He had a bold plan for telling a whole city about Jesus at once: hold meetings in dozens of churches on the same nights. He tried it in Philadelphia, and later in cities around the world. A former baseball player named [Billy Sunday|billy-sunday] worked for him and learned to preach by watching him.\n\nWhen Chapman was young, he wasn’t sure he belonged to God. A preacher named [Mr. Moody|dwight-l-moody] showed him a verse and asked, “Do you believe it?” Chapman said yes — and never doubted again. He spent his life telling people that God saves us because of Jesus, not because we are good.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of J. Wilbur Chapman",
+        "address": "Woodlawn Cemetery, Bronx, New York, USA",
+        "lat": 40.8896,
+        "lng": -73.8737
+      },
+      {
+        "type": "archive",
+        "name": "Papers of J. Wilbur Chapman — Presbyterian Historical Society (RG 2, John Wilbur Chapman Papers)",
+        "address": "425 Lombard Street, Philadelphia, PA 19147, USA",
+        "lat": 39.9427,
+        "lng": -75.149,
+        "open_to_public": false
       }
     ]
   }

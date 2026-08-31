@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-08-31. 178 people.
+Generated 2026-08-31. 179 people.
 
 ---
 
@@ -321,7 +321,7 @@ Note: At several campaign meetings in the 1920s, Sunday accepted public support 
 
 Billy Sunday was born in 1862 near Ames, Iowa, and grew up to become a fast, popular outfielder in Major League Baseball during the 1880s. Around 1886–87, invited into Chicago's Pacific Garden Mission by hymns he remembered from childhood, Sunday committed his life to Christ. In 1891 he turned down a lucrative baseball contract to take a modest job with the YMCA instead.
 
-After several years learning the evangelist's trade as an advance man for preacher J. Wilbur Chapman, Sunday began holding his own campaigns in 1896. His preaching was unlike anything American congregations had seen — athletic, plain-spoken, delivered at a run, often ending with Sunday sliding across the stage as if stealing a base. Over the following decades he preached an estimated twenty thousand sermons to more than one hundred million people, with vast crowds coming forward across the sawdust-covered floors of his temporary wooden tabernacles — an experience that gave rise to the phrase 'hitting the sawdust trail.'
+After several years learning the evangelist's trade as an advance man for preacher [J. Wilbur Chapman|j-wilbur-chapman], Sunday began holding his own campaigns in 1896. His preaching was unlike anything American congregations had seen — athletic, plain-spoken, delivered at a run, often ending with Sunday sliding across the stage as if stealing a base. Over the following decades he preached an estimated twenty thousand sermons to more than one hundred million people, with vast crowds coming forward across the sawdust-covered floors of his temporary wooden tabernacles — an experience that gave rise to the phrase 'hitting the sawdust trail.'
 
 Sunday's central message never changed, however plain its delivery: that no one, however respectable or however far gone, is saved by their own effort, but only by turning from sin to trust in Christ. Days before his death in 1935, his final sermon still asked the same question he had spent his life answering: 'What must I do to be saved?' His answer, then as always, was simply — believe.
 
@@ -1300,6 +1300,22 @@ Machen taught New Testament at Princeton Theological Seminary from 1906. His 192
 When Princeton's governance was reorganized in 1929 to accommodate more liberal leadership, Machen and several colleagues left to found Westminster Theological Seminary in Philadelphia, determined to keep training ministers in the historic faith. Suspended from Presbyterian ministry in 1935 for his continued opposition to Liberalism in the denomination's mission board, Machen helped establish a new denomination the following year, later renamed the Orthodox Presbyterian Church.
 
 He died suddenly of pneumonia in North Dakota in January 1937, on a winter preaching tour. His gravestone bears a single Greek phrase: 'Faithful unto death' — the conviction, uncompromised to the end, that Christ alone saves, and that this good news is worth defending at any cost.
+
+---
+
+## J. Wilbur Chapman (1859–1918)
+
+URL: https://livesoffaith.org/person.html?id=j-wilbur-chapman
+Wikipedia: https://en.wikipedia.org/wiki/John_Wilbur_Chapman
+Nationality: American · Tradition: Presbyterian (Presbyterian Church in the U.S.A.) · Region: North America · Era: 20th Century
+Topics: evangelism, assurance, grace, hymn writing, preaching
+Hymns: One Day!, Our Great Saviour
+
+John Wilbur Chapman was born in Richmond, Indiana, in 1859 and raised in a Presbyterian home. He studied at Lake Forest College and Lane Theological Seminary and was ordained in 1881. After twenty years pastoring churches in Indiana, New York, Philadelphia, and New York City — including John Wanamaker's Bethany Presbyterian Church — he left settled ministry for full-time evangelism, for a time alongside [D.L. Moody|dwight-l-moody].
+
+Chapman is remembered for organising evangelism on a citywide scale. His “Simultaneous Campaign” divided a city into districts and held meetings in dozens of a city's churches at once, staffed by teams of preachers and musicians. The best known was Philadelphia in 1908, with the singer Charles Alexander; in 1909 a Chapman–Alexander campaign travelled through Australia and Asia. The young [Billy Sunday|billy-sunday] served as his advance man, learning the work at his side. In 1918 Chapman was elected Moderator of the Presbyterian General Assembly. He also wrote hymns still sung today, among them “One Day!” and “Our Great Saviour.”
+
+As a student, unsure after a meeting whether he was truly saved, Chapman was handed an open Bible at John 5:24 by Moody and asked to read it aloud, then, “Do you believe it?” He said he did, and never again doubted his standing with God. He spent his life preaching that one truth: sinners are received by grace, on the strength of Christ's word, not their own feelings or work.
 
 ---
 

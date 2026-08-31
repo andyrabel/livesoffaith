@@ -579,5 +579,26 @@
     "label": "helped prepare, through his preaching on prayer, the 1949 Los Angeles campaign that brought national fame to",
     "type": "influence",
     "mutual": false
+  },
+  {
+    "from": "dwight-l-moody",
+    "to": "j-wilbur-chapman",
+    "label": "counselled to assurance of salvation from John 5:24, and later ministered alongside",
+    "type": "mentorship",
+    "mutual": false
+  },
+  {
+    "from": "j-wilbur-chapman",
+    "to": "billy-sunday",
+    "label": "trained as his advance man before Sunday began his own campaigns",
+    "type": "mentorship",
+    "mutual": false
+  },
+  {
+    "from": "john-nelson-hyde",
+    "to": "j-wilbur-chapman",
+    "label": "took part in the 1911 British campaign meetings of",
+    "type": "collaboration",
+    "mutual": false
   }
 ]
