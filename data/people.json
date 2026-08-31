@@ -14533,5 +14533,73 @@
         "lng": -73.9585
       }
     ]
+  },
+  {
+    "id": "john-nelson-hyde",
+    "name": "John Nelson Hyde",
+    "born": 1865,
+    "born_approximate": false,
+    "died": 1912,
+    "died_approximate": false,
+    "significant_dates": [
+      {
+        "date": "Nov 9, 1865",
+        "event": "birth",
+        "details": "Born in Carthage, Illinois, the son of a Presbyterian minister."
+      },
+      {
+        "date": "1892",
+        "event": "missionary travel",
+        "details": "Sailed for India to serve as a Presbyterian missionary in the Punjab."
+      },
+      {
+        "date": "1904",
+        "event": "founded",
+        "details": "Helped form the Punjab Prayer Union at the Sialkot Convention, pledging members to pray daily for revival."
+      },
+      {
+        "date": "Apr 1911",
+        "event": "other",
+        "details": "Took part in evangelistic meetings in England with the evangelist J. Wilbur Chapman, including at Shrewsbury."
+      },
+      {
+        "date": "Feb 17, 1912",
+        "event": "death",
+        "details": "Died of a brain tumour at Northampton, Massachusetts, aged 46."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Presbyterian (American Presbyterian Mission)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "prayer",
+      "revival",
+      "missions",
+      "perseverance",
+      "evangelism"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Nelson_Hyde",
+    "source_summary": "John Nelson Hyde (1865-1912), known as 'Praying Hyde,' was an American Presbyterian missionary to the Punjab region of India. Born in Carthage, Illinois, the son of a Presbyterian minister, he studied at McCormick Theological Seminary and sailed for India in 1892. Partly deaf, he made slow progress with the languages and devoted himself to Scripture and to prayer, from about 1899 spending entire nights in intercession. At the Sialkot Convention, beginning in 1904, he helped found the Punjab Prayer Union, whose members pledged to pray daily for revival; an awakening spread through the Punjab in the years that followed. In April 1911 he took part in evangelistic meetings in England with the evangelist J. Wilbur Chapman. His health failing, he returned to the United States, where a brain tumour was found, and he died at Northampton, Massachusetts, on 17 February 1912, aged 46. He was buried at Moss Ridge Cemetery in Carthage, Illinois. Francis McGaw's short biography 'Praying Hyde' (1923) and E. G. Carre's 'Praying Hyde: Apostle of Prayer' later spread his reputation as an intercessor.",
+    "adult_story": "John Nelson Hyde was born in Carthage, Illinois, in 1865, the son of a Presbyterian minister who prayed openly for God to raise up more missionaries. Hyde taught briefly on his college faculty, then entered McCormick Theological Seminary. When his older brother Edmund, who was preparing for the ministry, died suddenly, John wondered whether he should take his brother's place. In his final year he settled the question and offered himself for foreign mission work, sailing for India in 1892.\n\nHe was sent to the Punjab, in the north. Partly deaf, Hyde found the languages hard and gave himself instead to the Scriptures and to prayer. Converts were few and opposition was constant, and from about 1899 he began to spend whole nights in prayer for the people among whom he worked. At the Sialkot Convention, held from 1904, he helped form the Punjab Prayer Union, which pledged its members to pray daily for a spiritual awakening. In the years that followed, revival spread through the Punjab, and Hyde became known simply as \"Praying Hyde.\"\n\nThose who knew him said he carried the lost condition of the Punjab as a weight on his own heart, pleading with God for individual men and women by name. The strain broke his health, and he returned to America, where he died of a brain tumour in 1912, aged forty-six. His reported last words were, \"Shout the victory of Jesus Christ!\" — the same Christ he had begged others to receive by faith.",
+    "family_story": "John Hyde grew up in Illinois, the son of a pastor who prayed for more missionaries. When he was grown, John sailed to India to tell people in the Punjab about Jesus.\n\nHe was hard of hearing and found the language difficult, and for a long time very few people believed. So John prayed — sometimes all night long — and asked other Christians to pray every day that God would work. In time, many people across the Punjab turned to trust in Jesus, and Hyde became known as \"Praying Hyde.\"\n\nHe wore himself out with praying, and he died still sure that Jesus had won the victory.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of John Nelson Hyde",
+        "address": "Moss Ridge Cemetery, Carthage, Illinois, USA",
+        "lat": 40.4261,
+        "lng": -91.1423
+      }
+    ]
   }
 ]

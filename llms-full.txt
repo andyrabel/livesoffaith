@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-08-29. 177 people.
+Generated 2026-08-31. 178 people.
 
 ---
 
@@ -1567,6 +1567,21 @@ He became a key figure in the early Plymouth Brethren, gathering believers aroun
 Darby developed what became known as dispensationalist theology — a structured reading of biblical history that shaped much of later evangelical eschatology, particularly in North America. He believed Scripture was the church's only authority and that Christ's return was imminent.
 
 His conviction that all denominations were irreparably corrupted led to painful divisions, including a rupture with George Müller and the Open Brethren in 1848. His legacy is contested, but his devotion to Scripture and his missionary energy were genuine. He died in 1882 having translated the Bible into three languages and planted churches across the world.
+
+---
+
+## John Nelson Hyde (1865–1912)
+
+URL: https://livesoffaith.org/person.html?id=john-nelson-hyde
+Wikipedia: https://en.wikipedia.org/wiki/John_Nelson_Hyde
+Nationality: American · Tradition: Presbyterian (American Presbyterian Mission) · Region: Asia · Era: 20th Century
+Topics: prayer, revival, missions, perseverance, evangelism
+
+John Nelson Hyde was born in Carthage, Illinois, in 1865, the son of a Presbyterian minister who prayed openly for God to raise up more missionaries. Hyde taught briefly on his college faculty, then entered McCormick Theological Seminary. When his older brother Edmund, who was preparing for the ministry, died suddenly, John wondered whether he should take his brother's place. In his final year he settled the question and offered himself for foreign mission work, sailing for India in 1892.
+
+He was sent to the Punjab, in the north. Partly deaf, Hyde found the languages hard and gave himself instead to the Scriptures and to prayer. Converts were few and opposition was constant, and from about 1899 he began to spend whole nights in prayer for the people among whom he worked. At the Sialkot Convention, held from 1904, he helped form the Punjab Prayer Union, which pledged its members to pray daily for a spiritual awakening. In the years that followed, revival spread through the Punjab, and Hyde became known simply as "Praying Hyde."
+
+Those who knew him said he carried the lost condition of the Punjab as a weight on his own heart, pleading with God for individual men and women by name. The strain broke his health, and he returned to America, where he died of a brain tumour in 1912, aged forty-six. His reported last words were, "Shout the victory of Jesus Christ!" — the same Christ he had begged others to receive by faith.
 
 ---
 

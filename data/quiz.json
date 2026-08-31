@@ -3165,5 +3165,23 @@
     "answer": "The cadets at West Point",
     "person_id": "anna-bartlett-warner",
     "difficulty": 5
+  },
+  {
+    "question": "By what nickname was the American missionary John Nelson Hyde known?",
+    "answer": "Praying Hyde",
+    "person_id": "john-nelson-hyde",
+    "difficulty": 5
+  },
+  {
+    "question": "In which region of India did John Nelson Hyde serve as a missionary?",
+    "answer": "The Punjab",
+    "person_id": "john-nelson-hyde",
+    "difficulty": 5
+  },
+  {
+    "question": "What prayer group did John Nelson Hyde help form at the Sialkot Convention?",
+    "answer": "The Punjab Prayer Union",
+    "person_id": "john-nelson-hyde",
+    "difficulty": 5
   }
 ]
