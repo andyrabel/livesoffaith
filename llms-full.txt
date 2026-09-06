@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-08-31. 179 people.
+Generated 2026-09-06. 181 people.
 
 ---
 
@@ -147,6 +147,21 @@ Fuller grew up under the shadow of 'hyper-Calvinism' — a teaching, common amon
 That conviction bore fruit directly: in 1792, Fuller helped found the Baptist Missionary Society at Kettering, and became its first secretary, tirelessly raising support so that his friend William Carey could sail for India as its first missionary.
 
 Fuller buried eight of his eleven children and his first wife, and was worn down by decades of unpaid, exhausting labour for the Society. He died in 1815, having spent his life insisting that the gospel is genuinely good news — for everyone who will simply believe it.
+
+---
+
+## Andrew Melville (1545–1622)
+
+URL: https://livesoffaith.org/person.html?id=andrew-melville
+Wikipedia: https://en.wikipedia.org/wiki/Andrew_Melville
+Nationality: Scottish · Tradition: Presbyterian · Region: UK/Ireland · Era: Reformation
+Topics: Reformation, courage, preaching, grace, perseverance, persecution
+
+Andrew Melville was born on 1 August 1545 at Baldovie, near Montrose, the youngest of nine sons and orphaned as a small child. A gifted linguist, he studied at St Andrews, Paris and Poitiers, then taught for several years in Geneva alongside Theodore Beza, John Calvin's successor. In 1574 he returned to a Scotland still shaping its Reformation after John Knox, resolved to see the work through.
+
+Melville reformed the Scottish universities and, as principal first of Glasgow and then of St Mary's College, St Andrews, trained a generation of ministers, among them Robert Bruce. He was the chief architect of the Second Book of Discipline (1578), which set out Presbyterian church government under elders rather than bishops, with Christ alone as head of the Church.
+
+That conviction brought him into open collision with King James VI. At Falkland in 1596 Melville took hold of the king's sleeve and called him "God's silly vassal," insisting there were two kingdoms in Scotland: James ruled the realm, but in Christ's Church he was merely a member, a sinner saved by grace like any other. James never forgave him. Summoned south, Melville was held in the Tower of London for four years and then exiled to France, where he taught until his death at Sedan in 1622, spent for the truth that the Church belongs to Christ alone.
 
 ---
 
@@ -2327,6 +2342,22 @@ Robert Boyle (1627–1691) was an Anglo-Irish natural philosopher and one of the
 What distinguished Boyle from many contemporaries was the depth of his Christian conviction. He was not a deist. He believed in the God of Scripture — personal, providential, revealed in Christ — and spent years learning Hebrew and Greek to read the Bible in its original languages. He financed translations of the New Testament into Irish, Turkish, and Malay, and the Old Testament into Welsh, so that more people might read it.
 
 In The Christian Virtuoso he argued that scientific inquiry was an act of worship: the natural world was a second book written by God, and to study it was to trace the mind of the Creator. He endowed the Boyle Lectures — an annual series defending Christianity against unbelief — which continued for three centuries. Boyle demonstrated by his life the argument he made in his writing: the more carefully he examined creation, the more clearly he saw the Creator.
+
+---
+
+## Robert Bruce of Kinnaird (c. 1554–1631)
+
+URL: https://livesoffaith.org/person.html?id=robert-bruce-kinnaird
+Wikipedia: https://en.wikipedia.org/wiki/Robert_Bruce_of_Kinnaird
+Nationality: Scottish · Tradition: Presbyterian · Region: UK/Ireland · Era: Reformation
+Topics: preaching, grace, conversion, perseverance, Reformation, revival
+Note: In 1591 Bruce was named to a royal commission empowered to examine, and if necessary torture, people accused of witchcraft, and in 1596 he questioned an accused woman, Christian Stewart, who was afterwards convicted and burned. Judicial witch-hunting was widely practised and sanctioned by church and state across Reformation Europe, but it inflicted grievous injustice and suffering, and Bruce's part in it is recorded here plainly alongside his ministry.
+
+Robert Bruce was born about 1554 at Airth in Stirlingshire, a younger son of a landed family with distant royal blood. He trained as a lawyer in Paris and seemed set for a judge's seat, until a night of spiritual anguish on 31 August 1581 left him certain of his guilt before God and able to rest only in the mercy of Christ. He gave up the law, studied divinity at St Andrews under Andrew Melville, and in 1587 was called to St Giles' in Edinburgh.
+
+Bruce became the most compelling preacher in Scotland. He was twice Moderator of the General Assembly, and in 1590 he crowned and anointed Anne of Denmark as queen. His Sermons upon the Sacrament of the Lord's Supper, published that same year and still in print, drive the hearer again and again to Christ crucified, received by faith alone, never to any merit or worthiness of one's own.
+
+Faithful preaching cost him. When he would not publicly vouch for King James VI's account of the 1600 Gowrie conspiracy, he was banished, spending years exiled in Inverness. There crowds walked for miles and crossed ferries to hear him, and many were converted. Restored at last to his estate at Kinnaird, he preached until his death in 1631, his confidence resting to the end on the grace of God in Christ and not on the favour of kings.
 
 ---
 

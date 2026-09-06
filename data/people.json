@@ -14687,5 +14687,174 @@
         "open_to_public": false
       }
     ]
+  },
+  {
+    "id": "robert-bruce-kinnaird",
+    "name": "Robert Bruce of Kinnaird",
+    "born": 1554,
+    "born_approximate": true,
+    "died": 1631,
+    "significant_dates": [
+      {
+        "date": "c. 1554",
+        "event": "birth",
+        "details": "Born at Airth, Stirlingshire, Scotland, a younger son of the Bruce of Airth family."
+      },
+      {
+        "date": "Aug 31, 1581",
+        "event": "saved",
+        "details": "A night of spiritual anguish ended in assurance of forgiveness through Christ; he left the law for the ministry."
+      },
+      {
+        "date": "1590",
+        "event": "published",
+        "details": "Sermons upon the Sacrament of the Lord's Supper published in Edinburgh."
+      },
+      {
+        "date": "Oct 26, 1591",
+        "event": "other",
+        "exclude_from_on_this_day": true,
+        "details": "Named to a royal commission to examine and try people accused of witchcraft."
+      },
+      {
+        "date": "1600",
+        "event": "other",
+        "details": "Refused to publicly endorse James VI's account of the Gowrie conspiracy; banished from Edinburgh, later to Inverness."
+      },
+      {
+        "date": "Jul 27, 1631",
+        "event": "death",
+        "details": "Died at his estate of Kinnaird, near Larbert, Stirlingshire, aged about 77."
+      }
+    ],
+    "nationality": "Scottish",
+    "era": "Reformation",
+    "region": "UK/Ireland",
+    "tradition": "Presbyterian",
+    "flagged": true,
+    "footnote": "In 1591 Bruce was named to a royal commission empowered to examine, and if necessary torture, people accused of witchcraft, and in 1596 he questioned an accused woman, Christian Stewart, who was afterwards convicted and burned. Judicial witch-hunting was widely practised and sanctioned by church and state across Reformation Europe, but it inflicted grievous injustice and suffering, and Bruce's part in it is recorded here plainly alongside his ministry.",
+    "topics": [
+      "preaching",
+      "grace",
+      "conversion",
+      "perseverance",
+      "Reformation",
+      "revival"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Bruce_of_Kinnaird",
+    "source_summary": "Robert Bruce of Kinnaird (c. 1554-1631) was a Scottish minister, trained first as a lawyer, who after a decisive conversion in 1581 studied divinity under Andrew Melville and became the leading preacher of the post-Reformation Church of Scotland. Minister of St Giles', Edinburgh, twice Moderator of the General Assembly, he crowned Anne of Denmark in 1590 and published his enduring Sermons upon the Sacrament of the Lord's Supper. His refusal to endorse James VI's account of the 1600 Gowrie conspiracy led to years of banishment in Inverness, where his preaching brought revival.",
+    "adult_story": "Robert Bruce was born about 1554 at Airth in Stirlingshire, a younger son of a landed family with distant royal blood. He trained as a lawyer in Paris and seemed set for a judge's seat, until a night of spiritual anguish on 31 August 1581 left him certain of his guilt before God and able to rest only in the mercy of Christ. He gave up the law, studied divinity at St Andrews under [[Andrew Melville|andrew-melville]], and in 1587 was called to St Giles' in Edinburgh.\n\nBruce became the most compelling preacher in Scotland. He was twice Moderator of the General Assembly, and in 1590 he crowned and anointed Anne of Denmark as queen. His Sermons upon the Sacrament of the Lord's Supper, published that same year and still in print, drive the hearer again and again to Christ crucified, received by faith alone, never to any merit or worthiness of one's own.\n\nFaithful preaching cost him. When he would not publicly vouch for King James VI's account of the 1600 Gowrie conspiracy, he was banished, spending years exiled in Inverness. There crowds walked for miles and crossed ferries to hear him, and many were converted. Restored at last to his estate at Kinnaird, he preached until his death in 1631, his confidence resting to the end on the grace of God in Christ and not on the favour of kings.",
+    "family_story": "Robert Bruce was born in Scotland around 1554 and trained to be a lawyer. He was clever and successful, but one night in 1581 he could not sleep. He felt the weight of his sins until he trusted that Jesus had died to forgive him, and after that everything changed.\n\nBruce gave up the law and became a preacher in Edinburgh. He spoke so clearly about trusting Christ that huge crowds came to listen, and he even placed the crown on Scotland's new queen.\n\nWhen Bruce refused to say something untrue to please the king, he was sent far away to Inverness. He kept preaching there, and many people came to love Jesus. Bruce trusted Christ alone, right up until he died in 1631.",
+    "image": {
+      "file": "robert-bruce-kinnaird.jpg",
+      "prompt_used": "Photorealistic portrait of Robert Bruce of Kinnaird, Scottish Presbyterian minister, early 17th century, wearing a dark Geneva preaching gown with a broad white lace collar, long hair and a pointed beard, grave and resolute expression, historically accurate to 1600s Scotland",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Robert-bruce-of-kinnaird-1554-1631-scottish-presby.png — stipple engraving by J. Stewart after a lost original miniature, National Galleries of Scotland; public domain (PD-old)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "PD-old stipple engraving by J. Stewart (late 18th/early 19th century) after a lost miniature; Commons file page carries an unqualified public-domain claim and resolves to a direct Commons file."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Robert Bruce of Kinnaird, Larbert Old Parish Churchyard",
+        "address": "Larbert Old Parish Church, Main Street, Larbert FK5 3BW, Scotland",
+        "lat": 56.019,
+        "lng": -3.8382
+      },
+      {
+        "type": "church",
+        "name": "Larbert Old Parish Church — Bruce rebuilt the kirk here in 1617 and preached from its pulpit in his last years",
+        "address": "Main Street, Larbert FK5 3BW, Scotland",
+        "lat": 56.0191,
+        "lng": -3.8379
+      },
+      {
+        "type": "church",
+        "name": "St Giles' Cathedral (High Kirk of Edinburgh) — Bruce's pulpit from 1587",
+        "address": "High Street, Edinburgh EH1 1RE, Scotland",
+        "lat": 55.9494,
+        "lng": -3.1908
+      }
+    ]
+  },
+  {
+    "id": "andrew-melville",
+    "name": "Andrew Melville",
+    "born": 1545,
+    "died": 1622,
+    "significant_dates": [
+      {
+        "date": "Aug 1, 1545",
+        "event": "birth",
+        "details": "Born at Baldovie, near Montrose, Angus, Scotland."
+      },
+      {
+        "date": "1578",
+        "event": "published",
+        "details": "Chief architect of the Second Book of Discipline, Scotland's charter of Presbyterian church government."
+      },
+      {
+        "date": "Aug 1596",
+        "event": "other",
+        "details": "Confronted James VI at Falkland, calling him \"God's silly vassal\" and declaring Christ the only head of the Church."
+      },
+      {
+        "date": "Apr 26, 1607",
+        "event": "other",
+        "details": "Committed to the Tower of London over a Latin epigram mocking Anglican worship; held about four years."
+      },
+      {
+        "date": "1622",
+        "event": "death",
+        "details": "Died in exile at Sedan, France, aged 76; the exact date is unrecorded."
+      }
+    ],
+    "nationality": "Scottish",
+    "era": "Reformation",
+    "region": "UK/Ireland",
+    "tradition": "Presbyterian",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "Reformation",
+      "courage",
+      "preaching",
+      "grace",
+      "perseverance",
+      "persecution"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Melville",
+    "source_summary": "Andrew Melville (1545-1622) was a Scottish scholar and reformer who succeeded John Knox as the leading figure of the Church of Scotland. After studying under Theodore Beza in Geneva, he returned to Scotland in 1574, reorganised its universities as principal of Glasgow and then St Mary's College, St Andrews, and was the chief architect of the Second Book of Discipline (1578), which established Presbyterian church government. His insistence that Christ alone is head of the Church, voiced in his 1596 confrontation with James VI at Falkland, led to four years in the Tower of London and exile in France, where he died.",
+    "adult_story": "Andrew Melville was born on 1 August 1545 at Baldovie, near Montrose, the youngest of nine sons and orphaned as a small child. A gifted linguist, he studied at St Andrews, Paris and Poitiers, then taught for several years in Geneva alongside Theodore Beza, [[John Calvin|john-calvin]]'s successor. In 1574 he returned to a Scotland still shaping its Reformation after [[John Knox|john-knox]], resolved to see the work through.\n\nMelville reformed the Scottish universities and, as principal first of Glasgow and then of St Mary's College, St Andrews, trained a generation of ministers, among them [[Robert Bruce|robert-bruce-kinnaird]]. He was the chief architect of the Second Book of Discipline (1578), which set out Presbyterian church government under elders rather than bishops, with Christ alone as head of the Church.\n\nThat conviction brought him into open collision with King James VI. At Falkland in 1596 Melville took hold of the king's sleeve and called him \"God's silly vassal,\" insisting there were two kingdoms in Scotland: James ruled the realm, but in Christ's Church he was merely a member, a sinner saved by grace like any other. James never forgave him. Summoned south, Melville was held in the Tower of London for four years and then exiled to France, where he taught until his death at Sedan in 1622, spent for the truth that the Church belongs to Christ alone.",
+    "family_story": "Andrew Melville was born in Scotland in 1545. His parents died when he was young, and his oldest brother raised him. Andrew loved learning and grew up to be one of Europe's cleverest scholars.\n\nBack home, he helped build Scotland's churches and schools and trained many young men as ministers. He taught that Jesus, not any king or bishop, is the true head of the Church, and that God saves people by his kindness when they trust in Christ.\n\nThis made King James angry. Melville once took hold of the king's sleeve and told him he was only an ordinary member of God's Church. The king locked him in the Tower of London, then sent him away to France, where he died in 1622.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "statue",
+        "name": "Statue of Andrew Melville, Old Town Cemetery (Valley Cemetery)",
+        "address": "Old Town Cemetery, Castle Wynd, Stirling FK8 1EJ, Scotland",
+        "lat": 56.1219,
+        "lng": -3.9466
+      },
+      {
+        "type": "other",
+        "name": "St Mary's College, University of St Andrews — Melville was Principal 1580–1607",
+        "address": "St Mary's College, South Street, St Andrews KY16 9JU, Scotland",
+        "lat": 56.3391,
+        "lng": -2.7946
+      }
+    ]
   }
 ]
