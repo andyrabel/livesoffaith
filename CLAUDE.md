@@ -682,11 +682,15 @@ no server-side code. All data lives in JSON files. All filtering is client-side 
 ├── quiz.html            ← quiz box + printable quiz generator
 ├── about.html           ← about the site, methodology, disclaimer
 ├── list_people.py       ← standalone CLI helper, not part of the live site (see below)
+├── manifest.webmanifest ← PWA web app manifest (name, icons, theme colour) — see PWA below
+├── sw.js                ← PWA service worker (offline caching) — see PWA below
+├── apple-touch-icon.png ← 180px opaque home-screen icon for iOS
 ├── css/
 │   └── style.css
 ├── js/
 │   ├── app.js           ← filtering, search, rendering, clipboard logic for every page above
-│   └── consent.js       ← cookie-consent banner for Google Analytics
+│   ├── consent.js       ← cookie-consent banner for Google Analytics
+│   └── pwa.js           ← registers sw.js + "new version available" refresh prompt
 ├── data/
 │   ├── people.json             ← all person entries
 │   ├── hymns.json              ← all hymn story entries (see Hymn Stories above)
@@ -701,6 +705,7 @@ no server-side code. All data lives in JSON files. All filtering is client-side 
 │   └── quotes.json              ← standalone quotes by person id (see note below)
 └── images/
     ├── portraits/       ← all AI-generated portraits
+    ├── icons/           ← PWA app icons (192/512, plus maskable variants)
     └── logos/           ← site/social branding assets (favicon source, FB cover/profile images)
 ```
 
@@ -709,6 +714,40 @@ debugging helper, not called by `app.js` or any page. `quotes.json` isn't
 currently fetched by any page (see `generate_whats_new.py`'s "is it live"
 check, which uses exactly this kind of gap to decide what counts as a live
 feature).
+
+### Progressive Web App (PWA)
+
+The site is installable to a phone/desktop home screen and works offline.
+Three checked-in files provide this, plus a small tag block in every page's
+`<head>` (manifest link, `theme-color`, apple-touch-icon, `apple-mobile-web-app-*`
+meta, and `<script src="js/pwa.js" defer>`):
+
+- **`manifest.webmanifest`** — app name, `start_url`, `display: standalone`,
+  `background_color` (`#f9f8f5`), `theme_color` (`#1c3d5a`), the icon set, and
+  four `shortcuts` (Today / People / Hymns / Quiz). All URLs are relative to the
+  site root.
+- **`sw.js`** — the service worker. Precaches the app shell (all 10 HTML pages,
+  `css/style.css`, the three `js/*.js` files, header logo, app icons) on install.
+  At runtime: HTML navigations are **network-first** (so daily content stays
+  current, falling back to cache then to the cached home page when offline);
+  `data/*.json` and CSS/JS are **stale-while-revalidate**; portraits are
+  **cache-first** with a 120-item cap. Cross-origin requests (Google Analytics,
+  Leaflet/OpenStreetMap tiles on `map.html`) are passed straight through and
+  never cached. **Bump `CACHE_VERSION` in `sw.js` whenever the precached shell
+  list changes** — otherwise ordinary content/JS/CSS deploys still propagate on
+  their own within a visit or two via stale-while-revalidate.
+- **`js/pwa.js`** — registers `sw.js` on `load`; when a new worker has been
+  installed it shows a small bottom-centre "new version available / Refresh"
+  toast that calls `postMessage('SKIP_WAITING')` and reloads. No-ops on browsers
+  without service-worker support.
+- **`images/icons/`** + **`apple-touch-icon.png`** — regenerate from
+  `images/logos/livesoffaith_logo_1024.png` if the logo changes; the maskable
+  variants sit on a `#1e2a38` square (the logo disc's own fill colour) so the
+  safe-zone crop is seamless.
+
+The service worker only ever caches same-origin `GET`s, so it does not affect
+the private `_build/` automation (Facebook scheduler, pageview fetcher, etc.),
+which is all server-side.
 
 ### Build/Process Scripts (Private — Never Pushed to GitHub)
 

@@ -35,10 +35,14 @@ in `js/app.js`.
 index.html, people.html, person.html, hymns.html, hymn.html,
 connections.html, timeline.html, map.html, quiz.html, about.html
 css/style.css
-js/app.js, js/consent.js
+js/app.js, js/consent.js, js/pwa.js
 data/*.json
-images/portraits/, images/logos/
+images/portraits/, images/logos/, images/icons/
+manifest.webmanifest, sw.js, apple-touch-icon.png   (installable PWA + offline)
 ```
+
+The site is an installable Progressive Web App — see the PWA section of
+`CLAUDE.md`. Bump `CACHE_VERSION` in `sw.js` when the precached shell changes.
 
 ## Local development
 
