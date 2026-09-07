@@ -3201,5 +3201,41 @@
     "answer": "“One Day!” (also sung as “Glorious Day”)",
     "person_id": "j-wilbur-chapman",
     "difficulty": 5
+  },
+  {
+    "question": "Which minister crowned and anointed Anne of Denmark as Queen of Scots in 1590?",
+    "answer": "Robert Bruce of Kinnaird",
+    "person_id": "robert-bruce-kinnaird",
+    "difficulty": 5
+  },
+  {
+    "question": "Robert Bruce of Kinnaird preached a celebrated series of sermons on which sacrament?",
+    "answer": "The Lord's Supper (Holy Communion)",
+    "person_id": "robert-bruce-kinnaird",
+    "difficulty": 5
+  },
+  {
+    "question": "After refusing to endorse King James VI's account of the Gowrie conspiracy, Robert Bruce was banished to which Highland town, where his preaching brought revival?",
+    "answer": "Inverness",
+    "person_id": "robert-bruce-kinnaird",
+    "difficulty": 5
+  },
+  {
+    "question": "Which Scottish reformer seized King James VI's sleeve and called him “God's silly vassal,” insisting Christ alone is head of the Church?",
+    "answer": "Andrew Melville",
+    "person_id": "andrew-melville",
+    "difficulty": 5
+  },
+  {
+    "question": "Andrew Melville was the chief architect of which 1578 document setting out Presbyterian church government in Scotland?",
+    "answer": "The Second Book of Discipline",
+    "person_id": "andrew-melville",
+    "difficulty": 5
+  },
+  {
+    "question": "Andrew Melville died in 1622 in exile in which country, after four years in the Tower of London?",
+    "answer": "France (at Sedan)",
+    "person_id": "andrew-melville",
+    "difficulty": 5
   }
 ]

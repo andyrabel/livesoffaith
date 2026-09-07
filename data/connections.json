@@ -600,5 +600,19 @@
     "label": "took part in the 1911 British campaign meetings of",
     "type": "collaboration",
     "mutual": false
+  },
+  {
+    "from": "john-knox",
+    "to": "andrew-melville",
+    "label": "was succeeded as leader of the Scottish church by",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "andrew-melville",
+    "to": "robert-bruce-kinnaird",
+    "label": "taught divinity to",
+    "type": "mentorship",
+    "mutual": false
   }
 ]
