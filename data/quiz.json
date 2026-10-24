@@ -3257,5 +3257,49 @@
     "person_id": "reginald-heber",
     "hymn_id": "from-greenlands-icy-mountains",
     "difficulty": 5
+  },
+  {
+    "question": "Which English chaplain's preaching at Cawnpore led the Muslim scholar Sheikh Salih to faith in Christ, after which he took the name Abdul Masih?",
+    "answer": "Henry Martyn",
+    "person_id": "abdul-masih",
+    "difficulty": 5
+  },
+  {
+    "question": "What does the name Abdul Masih, taken at his baptism in Calcutta in 1811, mean?",
+    "answer": "Servant of the Messiah",
+    "person_id": "abdul-masih",
+    "difficulty": 5
+  },
+  {
+    "question": "Who became the first Protestant missionary to India when he landed at Tranquebar in 1706?",
+    "answer": "Bartholomäus Ziegenbalg",
+    "person_id": "bartholomaus-ziegenbalg",
+    "difficulty": 5
+  },
+  {
+    "question": "Into which language did Bartholomäus Ziegenbalg make the first complete New Testament translation in any Indian language?",
+    "answer": "Tamil",
+    "person_id": "bartholomaus-ziegenbalg",
+    "difficulty": 5
+  },
+  {
+    "question": "Which Tamil Christian poet, taught as a boy by Christian Friedrich Schwarz, wrote more than 400 hymns and the gospel drama Bethlehem Kuravanji?",
+    "answer": "Vedanayagam Sastriar",
+    "person_id": "vedanayagam-sastriar",
+    "difficulty": 5
+  },
+  {
+    "question": "Which hymn, opening with words from Luke 24:29, did Henry Francis Lyte write in 1847, the year he died?",
+    "answer": "Abide with Me",
+    "person_id": "henry-francis-lyte",
+    "hymn_id": "abide-with-me",
+    "difficulty": 5
+  },
+  {
+    "question": "Which psalm did Henry Francis Lyte paraphrase in \"Praise, My Soul, the King of Heaven\"?",
+    "answer": "Psalm 103",
+    "person_id": "henry-francis-lyte",
+    "hymn_id": "praise-my-soul-the-king-of-heaven",
+    "difficulty": 5
   }
 ]

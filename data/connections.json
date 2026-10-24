@@ -628,5 +628,33 @@
     "label": "inspired the hymn writing of",
     "type": "influence",
     "mutual": false
+  },
+  {
+    "from": "henry-martyn",
+    "to": "abdul-masih",
+    "label": "led to faith in Christ",
+    "type": "conversion",
+    "mutual": false
+  },
+  {
+    "from": "reginald-heber",
+    "to": "abdul-masih",
+    "label": "received into Anglican orders",
+    "type": "collaboration",
+    "mutual": false
+  },
+  {
+    "from": "reginald-heber",
+    "to": "vedanayagam-sastriar",
+    "label": "sent to the British Museum the Tamil hymns of",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "bartholomaus-ziegenbalg",
+    "to": "vedanayagam-sastriar",
+    "label": "founded the Tranquebar mission whose seminary later trained",
+    "type": "influence",
+    "mutual": false
   }
 ]

@@ -14960,5 +14960,330 @@
         "open_to_public": false
       }
     ]
+  },
+  {
+    "id": "abdul-masih",
+    "name": "Abdul Masih",
+    "born": 1776,
+    "born_approximate": true,
+    "died": 1827,
+    "significant_dates": [
+      {
+        "date": "c. 1776",
+        "event": "birth",
+        "details": "Born Sheikh Salih into a devout Muslim family in Delhi."
+      },
+      {
+        "date": "1811",
+        "event": "baptism",
+        "details": "Baptised by David Brown at the Old Church, Calcutta, taking the name Abdul Masih."
+      },
+      {
+        "date": "Dec 1825",
+        "event": "ordained",
+        "details": "Received into Anglican orders by Bishop Reginald Heber, after earlier Lutheran ordination."
+      },
+      {
+        "date": "Mar 4, 1827",
+        "event": "death",
+        "details": "Died at Lucknow after several years of illness."
+      }
+    ],
+    "nationality": "Indian",
+    "era": "19th Century",
+    "region": "Asia",
+    "tradition": "Anglican (Church Missionary Society)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "conversion",
+      "evangelism",
+      "missions",
+      "Scripture",
+      "grace"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Abdul_Masih_(missionary)",
+    "source_summary": "Abdul Masih (c. 1776–1827), born Sheikh Salih in Delhi, was a respected Muslim scholar in Lucknow who came to faith in Christ through the preaching of Henry Martyn at Cawnpore and was baptised in Calcutta in 1811. He served as a catechist for the Church Missionary Society, was ordained by Lutheran missionaries and received into Anglican orders by Bishop Reginald Heber in 1825. He wrote commentaries on Matthew, Romans and Hebrews, evangelised among Muslims across north India, and opened a dispensary at Agra. He died in 1827.",
+    "adult_story": "Abdul Masih was born Sheikh Salih in Delhi around 1776, into a devout Muslim family, and was taught Persian and Arabic by his father. He became a respected Muslim scholar and teacher in Lucknow. On a visit to Cawnpore he began listening to [[Henry Martyn|henry-martyn]], the East India Company chaplain who preached each Sunday to the poor gathered at his door. Martyn's preaching on the Ten Commandments is said to have been his first introduction to the gospel.\n\nHe came to faith in Christ, studied Martyn's Urdu New Testament, and in 1811 was baptised in Calcutta, taking the name Abdul Masih, \"servant of the Messiah.\" He served as a catechist for the Church Missionary Society, was ordained by Lutheran missionaries, and in December 1825 was received into Anglican orders by [[Reginald Heber|reginald-heber]], who called him \"a most sincere Christian.\" He wrote commentaries on Matthew, Romans and Hebrews, travelled to discuss the faith with Muslims of every rank, and opened a dispensary at Agra with his own money. About fifty Muslim adults were baptised through his work alongside Daniel Corrie in 1813–14.\n\nIn his last illness he declared that death had lost its sting because of his Saviour's redeeming work. Dying on 4 March 1827, he asked for John 4 to be read, said \"Thanks be to God!\", and asked for his own hymn to be sung: \"Beloved Saviour, let not me in thy kind heart forgotten be!\"",
+    "family_story": "Abdul Masih grew up in Delhi, India, as a Muslim, and became a respected teacher. One day he heard an English chaplain, [[Henry Martyn|henry-martyn]], preaching to poor people outside his house. He kept coming back to listen, and he came to trust in Jesus.\n\nWhen he was baptised in 1811 he took a new name, Abdul Masih, which means \"servant of the Messiah.\" He spent the rest of his life telling others about Jesus, writing Bible commentaries and caring for sick people.\n\nAs he was dying, he said he was not afraid, because Jesus had saved him. He asked his friends to sing his own hymn: \"Beloved Saviour, let not me in thy kind heart forgotten be!\"",
+    "image": {
+      "file": "abdul-masih.jpg",
+      "prompt_used": "Portrait of Abdul Masih, Indian Christian missionary and former Muslim scholar, early 19th century, elderly man with long full grey beard and white turban, loose white robe, calm and dignified expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Portret_van_Abdool_Mesee,_RP-P-OB-76.115.jpg — 19th-century engraving \"Engraved for the Calcutta Journal\", Rijksmuseum, CC0 public domain dedication",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "19th-century engraving released by the Rijksmuseum under CC0 — no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": []
+  },
+  {
+    "id": "bartholomaus-ziegenbalg",
+    "name": "Bartholomäus Ziegenbalg",
+    "born": 1682,
+    "born_approximate": true,
+    "died": 1719,
+    "significant_dates": [
+      {
+        "date": "c. 1682",
+        "event": "birth",
+        "details": "Born in Pulsnitz, Saxony; sources differ on the exact date (1682 or 1683)."
+      },
+      {
+        "date": "Jul 9, 1706",
+        "event": "missionary travel",
+        "details": "Landed at Danish Tranquebar with Heinrich Plütschau, the first Protestant missionaries in India."
+      },
+      {
+        "date": "1714",
+        "event": "published",
+        "details": "His Tamil New Testament, the first in any Indian language, was printed at Tranquebar."
+      },
+      {
+        "date": "1718",
+        "event": "founded",
+        "details": "Built the New Jerusalem Church at Tranquebar, where he is buried."
+      },
+      {
+        "date": "Feb 23, 1719",
+        "event": "death",
+        "details": "Died at Tranquebar, aged about 36, after years of ill health."
+      }
+    ],
+    "nationality": "German",
+    "era": "18th Century",
+    "region": "Asia",
+    "tradition": "Lutheran Pietist (Danish-Halle Mission)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "missions",
+      "translation",
+      "Scripture",
+      "perseverance",
+      "persecution"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bartholom%C3%A4us_Ziegenbalg",
+    "source_summary": "Bartholomäus Ziegenbalg (c. 1682–1719) was a German Lutheran Pietist trained at Halle under August Hermann Francke. Sent by Frederick IV of Denmark, he and Heinrich Plütschau arrived at Tranquebar in 1706 as the first Protestant missionaries to India, founding the Danish-Halle Mission. He mastered Tamil, translated the New Testament (printed 1714, the first in an Indian language), introduced printing to Protestant missions in India, founded schools, built the New Jerusalem Church (1718), and died at Tranquebar in 1719.",
+    "adult_story": "Bartholomäus Ziegenbalg was born in Pulsnitz, Saxony, in 1682 or 1683 (sources differ), and studied at Halle under August Hermann Francke, the leading figure of German Pietism. Sent by King Frederick IV of Denmark, he and his fellow student Heinrich Plütschau landed at the Danish colony of Tranquebar, on India's south-east coast, on 9 July 1706, the first Protestant missionaries to India.\n\nWith no grammar book to help him, Ziegenbalg mastered Tamil and translated the New Testament between 1708 and 1711. Printed in 1714 on a press sent out by the Anglican SPCK, it was the first complete New Testament in any Indian language. He founded schools, wrote many books in Tamil, introduced the singing of Tamil lyrics to Indian melodies alongside translated German hymns, and in 1718 built the New Jerusalem Church, where he is buried. His Old Testament translation had reached the book of Ruth when he died.\n\nThe work cost him dearly. In 1708 the Danish commander of Tranquebar imprisoned him for four months, and ill health dogged him throughout. He died on 23 February 1719, aged about 36. Like the Reformers he thanked God for, he was convinced that people come to Christ through God's Word in their own language, and he spent his short life putting the gospel of grace into Tamil hands.",
+    "family_story": "Bartholomäus Ziegenbalg grew up in Germany and became the first Protestant missionary to India, arriving at the town of Tranquebar in 1706.\n\nThere were no grammar books to help him learn Tamil, the local language, so he worked it out for himself by reading Tamil books. Then he translated the New Testament into Tamil, so Tamil-speaking people could read the good news about Jesus in their own language. He also started schools and taught churches to praise God with Indian tunes.\n\nHe was put in prison for four months and was often sick, and he died when he was only about 36. The church he built at Tranquebar still stands today.",
+    "image": {
+      "file": "bartholomaus-ziegenbalg.jpg",
+      "prompt_used": "Portrait of Bartholomäus Ziegenbalg, German Lutheran missionary to India, early 18th century, full curled powdered wig, black clerical gown with white preaching bands, round face, serious gentle expression, historically accurate to 1710s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Portret_van_Bartholom%C3%A4us_Ziegenbalg,_RP-P-1914-1905.jpg — 18th-century engraving by Johann Conrad Krüger, Rijksmuseum, CC0 public domain dedication",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "18th-century engraving released by the Rijksmuseum under CC0 — no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Bartholomäus Ziegenbalg — New Jerusalem Church, Tharangambadi (Tranquebar)",
+        "address": "New Jerusalem Church, King Street, Tharangambadi, Tamil Nadu 609307, India",
+        "lat": 11.0256,
+        "lng": 79.854
+      },
+      {
+        "type": "statue",
+        "name": "Statue of Bartholomäus Ziegenbalg — Tharangambadi (Tranquebar)",
+        "address": "Castle Street, Tharangambadi, Tamil Nadu 609307, India",
+        "lat": 11.0258,
+        "lng": 79.8549
+      },
+      {
+        "type": "museum",
+        "name": "Ziegenbalg House — A Museum for Intercultural Dialogue, Tharangambadi",
+        "address": "Admiral Street, Tharangambadi, Tamil Nadu 609307, India",
+        "lat": 11.0276,
+        "lng": 79.854,
+        "open_to_public": true
+      },
+      {
+        "type": "archive",
+        "name": "Papers of Bartholomäus Ziegenbalg — Archive of the Francke Foundations, Halle (Danish-Halle Mission records)",
+        "address": "Franckeplatz 1, 06110 Halle (Saale), Germany",
+        "lat": 51.4764,
+        "lng": 11.973,
+        "open_to_public": false
+      }
+    ]
+  },
+  {
+    "id": "vedanayagam-sastriar",
+    "name": "Vedanayagam Sastriar",
+    "born": 1774,
+    "born_approximate": false,
+    "died": 1864,
+    "significant_dates": [
+      {
+        "date": "Sep 7, 1774",
+        "event": "birth",
+        "details": "Born in Tirunelveli, south India, son of a Catholic catechist."
+      },
+      {
+        "date": "1800",
+        "event": "published",
+        "details": "Wrote the Tamil gospel drama Bethlehem Kuravanji."
+      },
+      {
+        "date": "Jun 18, 1815",
+        "event": "other",
+        "details": "Given the title Veda Sastriar by the Christians of Tiruchirappalli."
+      },
+      {
+        "date": "1829",
+        "event": "other",
+        "details": "Appointed court poet to King Serfoji II of Thanjavur."
+      },
+      {
+        "date": "Jan 24, 1864",
+        "event": "death",
+        "details": "Died at Thanjavur, aged 89, after daily prayers with his family."
+      }
+    ],
+    "nationality": "Indian (Tamil)",
+    "era": "19th Century",
+    "region": "Asia",
+    "tradition": "Lutheran (Thanjavur mission)",
+    "flagged": true,
+    "footnote": "During a caste dispute in the Thanjavur congregation after 1827, Vedanayagam urged that the separate seating of higher- and lower-caste Christians in church not be abolished suddenly; the missionary L. P. Haubroe excommunicated him and other Vellalar members over the dispute, and decades later G. U. Pope accused him of caste prejudice, a charge his family's history disputes. Scripture is plain that all believers are one in Christ (Galatians 3:28); this is noted so readers can weigh his legacy honestly.",
+    "topics": [
+      "worship",
+      "hymn writing",
+      "evangelism",
+      "gospel",
+      "cross"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vedanayagam_Sastriar",
+    "source_summary": "Vedanayagam Sastriar (1774–1864) was a Tamil Christian poet, dramatist and hymn writer. Born in Tirunelveli, he embraced Protestant faith with his family under Christian Friedrich Schwarz, was educated at Thanjavur alongside the future King Serfoji II, and trained at the Lutheran seminary in Tranquebar. He wrote 133 books and more than 400 hymns, including the play Bethlehem Kuravanji (1800) and the hymn collection Jebamalai, preached across south India and Jaffna, served as Serfoji's court poet (1829–32), and died at Thanjavur.",
+    "adult_story": "Vedanayagam was born on 7 September 1774 in Tirunelveli, in south India, the son of a Catholic catechist. In 1785 the family embraced Protestant faith under the German missionary Christian Friedrich Schwarz, who took the boy to Thanjavur to be educated alongside Prince Serfoji, later the city's king and Vedanayagam's lifelong friend. He trained at the Lutheran seminary in Tranquebar, in the mission founded by [[Bartholomäus Ziegenbalg|bartholomaus-ziegenbalg]], and became a teacher in the Thanjavur mission schools.\n\nHe became the great Tamil Christian poet of his age, writing 133 books and more than 400 hymns in Tamil musical forms, many still sung in Tamil churches. His play Bethlehem Kuravanji (1800) and his hymn collection Jebamalai carried the gospel in forms Tamil hearers loved, and in 1815 the Christians of Tiruchirappalli gave him the title \"Veda Sastriar,\" equivalent to a Doctor of Divinity. When [[Reginald Heber|reginald-heber]] visited Thanjavur in 1826, he bought copies of his hymns and sent them to the British Museum.\n\nVedanayagam travelled with his family and a choir to preach in towns and villages, and at Lent and Christmas held services expounding the Bible, especially the passion of Christ. He died on 24 January 1864, aged 89, after daily prayers with his family. Three of his hymns were placed in his hand as he lay at rest, and he was buried at St Peter's Church, Thanjavur.",
+    "family_story": "Vedanayagam Sastriar was born in south India in 1774. When he was a boy, a German missionary named Christian Friedrich Schwarz took him to the city of Thanjavur to go to school, where he became friends with a prince who later became king.\n\nVedanayagam grew up to be a wonderful Tamil poet. He wrote more than 400 hymns and Christian plays, using Tamil music and storytelling so people could understand the good news about Jesus. Many Tamil churches still sing his songs.\n\nHe travelled with his family and a choir from village to village, singing and telling people about Jesus' death on the cross for sinners. He lived to be 89.",
+    "image": null,
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Vedanayagam Sastriar — CSI St Peter's Church, Thanjavur",
+        "address": "St Peter's Church, Old Rameshwaram Road, Thanjavur, Tamil Nadu, India",
+        "lat": 10.782,
+        "lng": 79.1469
+      }
+    ]
+  },
+  {
+    "id": "henry-francis-lyte",
+    "name": "Henry Francis Lyte",
+    "born": 1793,
+    "born_approximate": false,
+    "died": 1847,
+    "significant_dates": [
+      {
+        "date": "Jun 1, 1793",
+        "event": "birth",
+        "details": "Born at Ednam, near Kelso, Roxburghshire, Scotland."
+      },
+      {
+        "date": "1815",
+        "event": "ordained",
+        "details": "Took Anglican holy orders; curate at Taghmon, County Wexford."
+      },
+      {
+        "date": "c. 1816",
+        "event": "saved",
+        "details": "Evangelical conversion while attending a dying fellow clergyman."
+      },
+      {
+        "date": "Jan 21, 1818",
+        "event": "marriage",
+        "details": "Married Anne Maxwell at Walcot, Bath."
+      },
+      {
+        "date": "1834",
+        "event": "published",
+        "details": "Published The Spirit of the Psalms, including \"Praise, My Soul, the King of Heaven.\""
+      },
+      {
+        "date": "Nov 20, 1847",
+        "event": "death",
+        "details": "Died at Nice, aged 54, weeks after writing \"Abide with Me.\""
+      }
+    ],
+    "nationality": "British",
+    "era": "19th Century",
+    "region": "UK/Ireland",
+    "tradition": "Anglican evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "worship",
+      "praise",
+      "suffering",
+      "perseverance",
+      "hymn writing"
+    ],
+    "hymns": [
+      "Abide with Me",
+      "Praise, My Soul, the King of Heaven",
+      "Jesus, I My Cross Have Taken",
+      "Pleasant Are Thy Courts Above",
+      "God of Mercy, God of Grace"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Francis_Lyte",
+    "hymnary_url": "https://hymnary.org/person/Lyte_Henry",
+    "source_summary": "Henry Francis Lyte (1793–1847) was a Scottish-born Anglican clergyman, poet and hymn writer. Ordained in 1815, he experienced an evangelical conversion about 1816 and from 1824 served the fishing parish of Lower Brixham, Devon, for over twenty years. His Spirit of the Psalms (1834) included \"Praise, My Soul, the King of Heaven.\" Chronically ill with lung disease, he wrote \"Abide with Me\" in 1847 and died at Nice that November.",
+    "adult_story": "Henry Francis Lyte was born on 1 June 1793 at Ednam, near Kelso in Scotland. Deserted by his father as a boy, he was taken in by the headmaster of Portora Royal School in Enniskillen, who paid his fees and treated him as a son. He was ordained in 1815 with only a vague sense of calling. About 1816, attending a dying fellow clergyman, he became convinced with him that they had both failed to take Paul's epistles \"in their plain and literal sense.\" Lyte began to study the Bible and to preach in another manner, as an evangelical.\n\nFrom 1824 he served the fishing parish of Lower Brixham in Devon for over twenty years, founding Sunday schools, supplying every vessel with a Bible and visiting sailors on their ships. His Spirit of the Psalms (1834) included \"Praise, My Soul, the King of Heaven\" (Psalm 103) and \"Pleasant Are Thy Courts Above\"; he also wrote \"Jesus, I My Cross Have Taken.\"\n\nLyte struggled all his life with asthma and lung disease. In September 1847, against his family's pleading, he preached a last sermon on the Lord's Supper, and by his daughter's account handed a relative \"Abide with Me\" that evening: a prayer asking Christ to stay through life and death. \"Where is death's sting? Where, grave, thy victory? I triumph still, if thou abide with me.\" He died at Nice on 20 November 1847. His last words were \"Peace! Joy!\"",
+    "family_story": "Henry Francis Lyte was born in Scotland in 1793. His father left the family when Henry was young, but a kind headmaster paid for his school and treated him like a son.\n\nHenry became a minister, and as a young man he came to trust Jesus in a new and real way and began to preach the Bible with fresh joy. For over twenty years he cared for a fishing town called Brixham, giving every fishing boat a Bible.\n\nHenry was often ill. Shortly before he died in 1847, he wrote \"Abide with Me,\" asking Jesus to stay close through life and death. His last words were \"Peace! Joy!\"",
+    "image": {
+      "file": "henry-francis-lyte.jpg",
+      "prompt_used": "Portrait of Henry Francis Lyte, Anglican clergyman and hymn writer, 1830s-1840s, dark wavy hair, clean-shaven with side-whiskers, black clerical gown with white preaching bands, thoughtful gentle expression, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:HenryLute.jpg — portrait made before Lyte's death in 1847, author unknown, public domain",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Portrait from Lyte's lifetime (d. 1847), author unknown — public domain on Commons, no caveat. Only 281x366, below the FB size floor unless exempted."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "church",
+        "name": "All Saints Church, Brixham — Lyte's parish 1824–1847",
+        "address": "All Saints Church, Church Street, Brixham, Devon TQ5 8HG, England",
+        "lat": 50.3954,
+        "lng": -3.5162
+      },
+      {
+        "type": "other",
+        "name": "Berry Head House, Brixham — Lyte's home and library in his Brixham years (now a hotel)",
+        "address": "Berry Head House, Berry Head Road, Brixham, Devon, England",
+        "lat": 50.3985,
+        "lng": -3.4979
+      },
+      {
+        "type": "plaque",
+        "name": "Memorial tablet to Henry Francis Lyte — Westminster Abbey (south choir aisle, 1947)",
+        "address": "Westminster Abbey, 20 Dean's Yard, London SW1P 3PA, England",
+        "lat": 51.4994,
+        "lng": -0.1273
+      }
+    ]
   }
 ]

@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-10-23. 182 people.
+Generated 2026-10-23. 186 people.
 
 ---
 
@@ -18,6 +18,21 @@ Aiden Wilson Tozer was born in rural Pennsylvania in 1897 and grew up in Akron, 
 He never attended seminary, teaching himself theology instead through relentless reading in libraries and secondhand bookshops. Entering ministry with the Christian and Missionary Alliance in 1919, he became pastor of Southside Alliance Church in Chicago in 1928, where his Sunday evening services drew students from across the city's colleges for thirty-one years. From 1950 he also edited the denomination's magazine. His books, especially The Pursuit of God (1948) and The Knowledge of the Holy (1961), pressed one relentless question on comfortable Christians: did they actually know the God they claimed to worship, or merely know about him?
 
 Tozer's answer always returned to that Akron attic — that nearness to God is not achieved by religious performance but received, like his own conversion, as a gift simply asked for and simply given.
+
+---
+
+## Abdul Masih (c. 1776–1827)
+
+URL: https://livesoffaith.org/person.html?id=abdul-masih
+Wikipedia: https://en.wikipedia.org/wiki/Abdul_Masih_(missionary)
+Nationality: Indian · Tradition: Anglican (Church Missionary Society) · Region: Asia · Era: 19th Century
+Topics: conversion, evangelism, missions, Scripture, grace
+
+Abdul Masih was born Sheikh Salih in Delhi around 1776, into a devout Muslim family, and was taught Persian and Arabic by his father. He became a respected Muslim scholar and teacher in Lucknow. On a visit to Cawnpore he began listening to Henry Martyn, the East India Company chaplain who preached each Sunday to the poor gathered at his door. Martyn's preaching on the Ten Commandments is said to have been his first introduction to the gospel.
+
+He came to faith in Christ, studied Martyn's Urdu New Testament, and in 1811 was baptised in Calcutta, taking the name Abdul Masih, "servant of the Messiah." He served as a catechist for the Church Missionary Society, was ordained by Lutheran missionaries, and in December 1825 was received into Anglican orders by Reginald Heber, who called him "a most sincere Christian." He wrote commentaries on Matthew, Romans and Hebrews, travelled to discuss the faith with Muslims of every rank, and opened a dispensary at Agra with his own money. About fifty Muslim adults were baptised through his work alongside Daniel Corrie in 1813–14.
+
+In his last illness he declared that death had lost its sting because of his Saviour's redeeming work. Dying on 4 March 1827, he asked for John 4 to be read, said "Thanks be to God!", and asked for his own hymn to be sung: "Beloved Saviour, let not me in thy kind heart forgotten be!"
 
 ---
 
@@ -274,6 +289,21 @@ Returning to India, he preached in a land where Christianity was often dismissed
 His preaching drew vast crowds, particularly at conventions in south India where he would expound the Scriptures for hours. He was known for fasting, long night-watches of prayer, and an uncompromising proclamation of the cross.
 
 He died in 2000, aged 97, after more than six decades of ministry. His life bore witness that Christianity was not the white man's religion imported from the West, but the gospel of the risen Christ, who calls people from every nation—including India—to himself.
+
+---
+
+## Bartholomäus Ziegenbalg (c. 1682–1719)
+
+URL: https://livesoffaith.org/person.html?id=bartholomaus-ziegenbalg
+Wikipedia: https://en.wikipedia.org/wiki/Bartholom%C3%A4us_Ziegenbalg
+Nationality: German · Tradition: Lutheran Pietist (Danish-Halle Mission) · Region: Asia · Era: 18th Century
+Topics: missions, translation, Scripture, perseverance, persecution
+
+Bartholomäus Ziegenbalg was born in Pulsnitz, Saxony, in 1682 or 1683 (sources differ), and studied at Halle under August Hermann Francke, the leading figure of German Pietism. Sent by King Frederick IV of Denmark, he and his fellow student Heinrich Plütschau landed at the Danish colony of Tranquebar, on India's south-east coast, on 9 July 1706, the first Protestant missionaries to India.
+
+With no grammar book to help him, Ziegenbalg mastered Tamil and translated the New Testament between 1708 and 1711. Printed in 1714 on a press sent out by the Anglican SPCK, it was the first complete New Testament in any Indian language. He founded schools, wrote many books in Tamil, introduced the singing of Tamil lyrics to Indian melodies alongside translated German hymns, and in 1718 built the New Jerusalem Church, where he is buried. His Old Testament translation had reached the book of Ruth when he died.
+
+The work cost him dearly. In 1708 the Danish commander of Tranquebar imprisoned him for four months, and ill health dogged him throughout. He died on 23 February 1719, aged about 36. Like the Reformers he thanked God for, he was convinced that people come to Christ through God's Word in their own language, and he spent his short life putting the gospel of grace into Tamil hands.
 
 ---
 
@@ -1111,6 +1141,22 @@ Helen Roseveare was born in England in 1925 and came to faith in Christ in 1945 
 At Ibambi, and later at a former leprosy camp called Nebobongo, she built a hospital and training school from nothing, training generations of Congolese paramedics. In 1964, during the violent Simba Rebellion, Roseveare was taken prisoner by rebel soldiers and held for months, suffering brutal assault. She later said her survival owed much to villagers she had previously cared for, who intervened on her behalf. Remarkably, she returned to Congo in 1966 to found another medical centre at Nyankunde, serving until 1973, and then spent decades travelling and writing about what she had learned of God in the midst of suffering.
 
 One story she told often: a Congolese girl named Ruth prayed simply and specifically for a hot water bottle and a doll, to comfort a dying baby and its grieving young sister — and both arrived, unexpectedly, in a parcel that same day. Roseveare’s whole life testified to that same childlike confidence: that grace, not our strength or worthiness, is what God delights to give those who simply ask.
+
+---
+
+## Henry Francis Lyte (1793–1847)
+
+URL: https://livesoffaith.org/person.html?id=henry-francis-lyte
+Wikipedia: https://en.wikipedia.org/wiki/Henry_Francis_Lyte
+Nationality: British · Tradition: Anglican evangelical · Region: UK/Ireland · Era: 19th Century
+Topics: worship, praise, suffering, perseverance, hymn writing
+Hymns: Abide with Me, Praise, My Soul, the King of Heaven, Jesus, I My Cross Have Taken, Pleasant Are Thy Courts Above, God of Mercy, God of Grace
+
+Henry Francis Lyte was born on 1 June 1793 at Ednam, near Kelso in Scotland. Deserted by his father as a boy, he was taken in by the headmaster of Portora Royal School in Enniskillen, who paid his fees and treated him as a son. He was ordained in 1815 with only a vague sense of calling. About 1816, attending a dying fellow clergyman, he became convinced with him that they had both failed to take Paul's epistles "in their plain and literal sense." Lyte began to study the Bible and to preach in another manner, as an evangelical.
+
+From 1824 he served the fishing parish of Lower Brixham in Devon for over twenty years, founding Sunday schools, supplying every vessel with a Bible and visiting sailors on their ships. His Spirit of the Psalms (1834) included "Praise, My Soul, the King of Heaven" (Psalm 103) and "Pleasant Are Thy Courts Above"; he also wrote "Jesus, I My Cross Have Taken."
+
+Lyte struggled all his life with asthma and lung disease. In September 1847, against his family's pleading, he preached a last sermon on the Lord's Supper, and by his daughter's account handed a relative "Abide with Me" that evening: a prayer asking Christ to stay through life and death. "Where is death's sting? Where, grave, thy victory? I triumph still, if thou abide with me." He died at Nice on 20 November 1847. His last words were "Peace! Joy!"
 
 ---
 
@@ -2749,6 +2795,22 @@ Kagawa insisted that Christianity had to be lived, not merely believed — but t
 
 ---
 
+## Vedanayagam Sastriar (1774–1864)
+
+URL: https://livesoffaith.org/person.html?id=vedanayagam-sastriar
+Wikipedia: https://en.wikipedia.org/wiki/Vedanayagam_Sastriar
+Nationality: Indian (Tamil) · Tradition: Lutheran (Thanjavur mission) · Region: Asia · Era: 19th Century
+Topics: worship, hymn writing, evangelism, gospel, cross
+Note: During a caste dispute in the Thanjavur congregation after 1827, Vedanayagam urged that the separate seating of higher- and lower-caste Christians in church not be abolished suddenly; the missionary L. P. Haubroe excommunicated him and other Vellalar members over the dispute, and decades later G. U. Pope accused him of caste prejudice, a charge his family's history disputes. Scripture is plain that all believers are one in Christ (Galatians 3:28); this is noted so readers can weigh his legacy honestly.
+
+Vedanayagam was born on 7 September 1774 in Tirunelveli, in south India, the son of a Catholic catechist. In 1785 the family embraced Protestant faith under the German missionary Christian Friedrich Schwarz, who took the boy to Thanjavur to be educated alongside Prince Serfoji, later the city's king and Vedanayagam's lifelong friend. He trained at the Lutheran seminary in Tranquebar, in the mission founded by Bartholomäus Ziegenbalg, and became a teacher in the Thanjavur mission schools.
+
+He became the great Tamil Christian poet of his age, writing 133 books and more than 400 hymns in Tamil musical forms, many still sung in Tamil churches. His play Bethlehem Kuravanji (1800) and his hymn collection Jebamalai carried the gospel in forms Tamil hearers loved, and in 1815 the Christians of Tiruchirappalli gave him the title "Veda Sastriar," equivalent to a Doctor of Divinity. When Reginald Heber visited Thanjavur in 1826, he bought copies of his hymns and sent them to the British Museum.
+
+Vedanayagam travelled with his family and a choir to preach in towns and villages, and at Lent and Christmas held services expounding the Bible, especially the passion of Christ. He died on 24 January 1864, aged 89, after daily prayers with his family. Three of his hymns were placed in his hand as he lay at rest, and he was buried at St Peter's Church, Thanjavur.
+
+---
+
 ## W. E. Vine (1873–1949)
 
 URL: https://livesoffaith.org/person.html?id=william-edwy-vine
@@ -2950,7 +3012,7 @@ His faith was not incidental to his political work — it was its source. His li
 
 # Hymn Stories
 
-The documented history behind 80 individual hymns — who wrote them, when, and the Scripture that shaped them.
+The documented history behind 82 individual hymns — who wrote them, when, and the Scripture that shaped them.
 
 ---
 
@@ -2967,6 +3029,22 @@ Martin Luther wrote "A Mighty Fortress Is Our God" sometime around 1527 to 1529,
 Popular legend has sometimes tied the hymn to Luther's journey to the Diet of Worms in 1521, but this cannot be confirmed and the hymn's actual composition is dated later. What is certain is its content: Luther names "the old evil foe" as a real and "cruel" enemy, yet insists that "one little word shall fell him" -- a reference to Christ, against whom no earthly power ultimately prevails.
 
 The hymn became, within Luther's own lifetime, an anthem of the Reformation movement, sung by congregations asserting that their stand rested not on human strength -- "did we in our own strength confide, our striving would be losing" -- but on Christ himself. It remains one of the most translated and sung hymns in Protestant history.
+
+---
+
+## Abide with Me (1847)
+
+URL: https://livesoffaith.org/hymn.html?id=abide-with-me
+Writer: Henry Francis Lyte (https://livesoffaith.org/person.html?id=henry-francis-lyte)
+Scripture basis: Luke 24:29; 1 Corinthians 15:55
+Wikipedia: https://en.wikipedia.org/wiki/Abide_with_Me
+Topics: prayer, suffering, faith
+
+Henry Francis Lyte wrote "Abide with Me" in the last months of his life, as lung disease closed in on him. According to his daughter's account, after preaching a final sermon on the Lord's Supper at Lower Brixham in September 1847, against his family's wishes, he gave a near relative that evening "the little hymn, 'Abide with Me', with an air of his own composing." His biographers think the text was more likely written in July or August that year. A story published in 1925, that he first drafted the lines in 1820 beside a dying friend in County Wexford, has never been confirmed.
+
+The hymn takes its opening from Luke 24:29, where two disciples on the Emmaus road urge the risen Jesus, "Abide with us: for it is toward evening, and the day is far spent." Lyte turns that evening into the evening of life. Its confidence rests not on the singer's strength but on Christ's presence: "Change and decay in all around I see; O thou who changest not, abide with me." Echoing 1 Corinthians 15:55, it asks, "Where is death's sting? Where, grave, thy victory? I triumph still, if thou abide with me."
+
+Lyte died at Nice on 20 November 1847, and the hymn was first sung at his funeral. In 1861 William Henry Monk, whose young daughter had just died, wrote the tune "Eventide" for it, and the two have been sung together ever since.
 
 ---
 
@@ -3895,6 +3973,22 @@ Topics: praise, worship, redemption
 The hymn is built entirely around the command to praise, echoing the Psalms' repeated call to “praise the Lord” (Psalm 150) and the crowds who praised Jesus as “Redeemer” and “King” throughout the Gospels. Crosby’s text moves from Christ’s suffering — “Jesus, Redeemer, hail Him! ... Wide as the world is His command” — to His present reign, urging singers to “tell of His excellent greatness” without pause: “sing, O earth, His wonderful love proclaim.”
 
 There is no plea for the singer’s own merit anywhere in the hymn; every line assumes the redemption has already been accomplished by Christ, and the only fitting response left to the believer is praise. Crosby wrote thousands of Sunday School songs in this vein, aiming to fix simple, singable doctrine in children’s minds early. Nearly a century and a half later, “Praise Him! Praise Him!” is still sung for exactly that purpose: to turn a redeemed heart toward wonder rather than self.
+
+---
+
+## Praise, My Soul, the King of Heaven (1834)
+
+URL: https://livesoffaith.org/hymn.html?id=praise-my-soul-the-king-of-heaven
+Writer: Henry Francis Lyte (https://livesoffaith.org/person.html?id=henry-francis-lyte)
+Scripture basis: Psalm 103
+Wikipedia: https://en.wikipedia.org/wiki/Praise,_my_soul,_the_King_of_heaven
+Topics: praise, worship, grace, forgiveness
+
+Henry Francis Lyte published "Praise, My Soul, the King of Heaven" in 1834 in The Spirit of the Psalms, a collection of psalm paraphrases he prepared for his own congregation of fishermen and their families at Lower Brixham in Devon.
+
+It is a free paraphrase of Psalm 103. Most writers of his day kept their metrical psalms as close to the original wording as they could; Lyte kept the spirit of the psalm and recast it in his own words. The psalm's heart is grace: the Lord "forgiveth all thine iniquities" and "hath not dealt with us after our sins." Lyte's hymn calls the soul to praise God as one "ransomed, healed, restored, forgiven," every one of them something God has done, not something the worshipper has achieved. God is "slow to chide, and swift to bless," and "father-like he tends and spares us; well our feeble frame he knows."
+
+Lyte's original fourth stanza, "Frail as summer's flower," was marked as optional and is often left out. Set in 1868 to John Goss's tune, the hymn became one of the best-loved in English, sung at the 1947 wedding of Princess Elizabeth and at the coronation of Charles III.
 
 ---
 
