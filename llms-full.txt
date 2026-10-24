@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-09-06. 181 people.
+Generated 2026-10-23. 182 people.
 
 ---
 
@@ -2315,6 +2315,22 @@ Atallah's own testimony is that lifelong church attendance is no substitute for 
 
 ---
 
+## Reginald Heber (1783–1826)
+
+URL: https://livesoffaith.org/person.html?id=reginald-heber
+Wikipedia: https://en.wikipedia.org/wiki/Reginald_Heber
+Nationality: English · Tradition: Anglican · Region: Asia · Era: 19th Century
+Topics: worship, praise, missions, hymn writing, sacrifice
+Hymns: Holy, Holy, Holy! Lord God Almighty, From Greenland's Icy Mountains, Brightest and Best, The Son of God Goes Forth to War, God That Madest Earth and Heaven, By Cool Siloam's Shady Rill
+
+Reginald Heber was born on 21 April 1783 at Malpas, Cheshire, the son of a clergyman. A prize-winning poet at Oxford, he was ordained in 1807 and spent sixteen years as rector of Hodnet in Shropshire. He admired the hymns of John Newton and William Cowper, and became one of the first High Church Anglicans to write his own, at a time when the Church of England still officially frowned on singing anything but metrical psalms.
+
+He wrote 57 hymns, published after his death. "Holy, Holy, Holy! Lord God Almighty," written for Trinity Sunday, paraphrases the unending worship of Revelation 4 and confesses "God in three Persons, blessed Trinity." "Brightest and Best" is still sung at Epiphany. "From Greenland's Icy Mountains" became a rallying hymn for missions, though some of its lines about other peoples are now widely judged patronising.
+
+In 1823 Heber accepted the vast diocese of Calcutta. He travelled thousands of miles across India and Ceylon, ordained the first Indian to receive Anglican orders, and protested the East India Company's "bullying, insolent manner" toward Indians. On 3 April 1826 at Trichinopoly, the day after confirming 42 new communicants, he gave a blessing in Tamil, returned to his lodging and died suddenly, aged 42. His hope was the one his own hymn proclaimed: not his labours, but "the Lamb for sinners slain."
+
+---
+
 ## Richard Wurmbrand (1909–2001)
 
 URL: https://livesoffaith.org/person.html?id=richard-wurmbrand
@@ -2934,7 +2950,7 @@ His faith was not incidental to his political work — it was its source. His li
 
 # Hymn Stories
 
-The documented history behind 78 individual hymns — who wrote them, when, and the Scripture that shaped them.
+The documented history behind 80 individual hymns — who wrote them, when, and the Scripture that shaped them.
 
 ---
 
@@ -3194,6 +3210,22 @@ Crosby wrote more than 8,000 hymns despite total blindness, always crediting her
 
 ---
 
+## From Greenland's Icy Mountains (1819)
+
+URL: https://livesoffaith.org/hymn.html?id=from-greenlands-icy-mountains
+Writer: Reginald Heber (https://livesoffaith.org/person.html?id=reginald-heber)
+Scripture basis: Matthew 28:19-20; Acts 1:8; Revelation 5:6
+Wikipedia: https://en.wikipedia.org/wiki/Reginald_Heber
+Topics: missions, gospel, evangelism
+
+In 1819 a royal letter authorised collections in English churches for the Society for the Propagation of the Gospel. On the Saturday before Whitsunday, Reginald Heber, then rector of Hodnet, was at Wrexham with his father-in-law, Dean William Shipley, who was to preach for the Society the next morning. According to the account given in Julian's Dictionary of Hymnology, the Dean asked Heber to write "something for them to sing in the morning." Heber wrote three verses that evening. When the Dean said they would do, Heber answered that the sense was not complete and added a fourth. The hymn was sung in Wrexham Church the next day.
+
+Its plea is the Great Commission: "Salvation! O salvation! The joyful sound proclaim, till each remotest nation has learnt Messiah's name." It ends looking to the return of "the Lamb for sinners slain, Redeemer, King, Creator." The gospel it sends out is not human merit but Christ's sacrifice.
+
+The hymn was widely sung until the later twentieth century, but its second verse ("every prospect pleases, and only man is vile"; "the heathen in his blindness bows down to wood and stone") is now often judged patronising. Gandhi objected to it publicly in Calcutta in 1925, and many hymnals have dropped it. Heber himself did not stay at home: four years later he sailed for India, and died there in 1826.
+
+---
+
 ## Give Me Jesus (1879)
 
 URL: https://livesoffaith.org/hymn.html?id=give-me-jesus
@@ -3319,6 +3351,22 @@ Dottie Rambo wrote "He Looked Beyond My Fault and Saw My Need" in 1968, taking i
 The hymn states its whole theology in that single title phrase: grace is not extended because a person has become acceptable, but reaches exactly the person who has not. Its verses describe someone who "wandered on in the darkness, not a ray of light to see," found and saved not by any change already made in themselves but simply because "he looked beyond my fault, and saw my need."
 
 Rambo, who wrote more than 2,500 gospel songs across her career and became one of the most recorded gospel songwriters in American history, considered this one of her most personal hymns, describing her own sense of having been rescued not because she deserved it but because God chose to see past what she was to what she needed most -- himself.
+
+---
+
+## Holy, Holy, Holy! Lord God Almighty (c. 1807-1823 (posthumous 1826))
+
+URL: https://livesoffaith.org/hymn.html?id=holy-holy-holy-lord-god-almighty
+Writer: Reginald Heber (https://livesoffaith.org/person.html?id=reginald-heber)
+Scripture basis: Revelation 4:8-11; Isaiah 6:3
+Wikipedia: https://en.wikipedia.org/wiki/Holy,_Holy,_Holy!_Lord_God_Almighty
+Topics: worship, praise, doctrine
+
+Reginald Heber wrote "Holy, Holy, Holy! Lord God Almighty" while rector of Hodnet in Shropshire, sometime between 1807 and 1823, for use on Trinity Sunday. It was first printed in 1826, the year he died in India, and appeared again in his widow's 1827 collection of his hymns, arranged by the church year.
+
+The hymn is a faithful paraphrase of Revelation 4:8-11, where the living creatures cry day and night, "Holy, holy, holy, Lord God Almighty, which was, and is, and is to come," and the elders cast their crowns before the throne. Its opening also echoes Isaiah 6:3. Rather than starting praise, it invites the singer to join a song already going on in heaven. Its theme is the Trinity, "God in three Persons, blessed Trinity," and it confesses that "only thou art holy": no saint or worshipper adds anything to a holiness that belongs to God alone. Every line rhymes with the opening word "holy."
+
+Heber wrote when the Church of England still frowned on hymns other than metrical psalms. Thirty-five years later, John Bacchus Dykes composed the tune "Nicaea" for it in Hymns Ancient and Modern (1861), named after the council that defined the doctrine of the Trinity. Words and tune have rarely been parted since, and the hymn now appears in nearly every hymnal.
 
 ---
 

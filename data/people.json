@@ -14856,5 +14856,109 @@
         "lng": -2.7946
       }
     ]
+  },
+  {
+    "id": "reginald-heber",
+    "name": "Reginald Heber",
+    "born": 1783,
+    "born_approximate": false,
+    "died": 1826,
+    "significant_dates": [
+      {
+        "date": "Apr 21, 1783",
+        "event": "birth",
+        "details": "Born at Malpas, Cheshire, England, son of the rector of Malpas and Hodnet."
+      },
+      {
+        "date": "May 24, 1807",
+        "event": "ordained",
+        "details": "Ordained priest by the Bishop of Oxford; became rector of Hodnet, Shropshire."
+      },
+      {
+        "date": "1819",
+        "event": "published",
+        "details": "Wrote \"From Greenland's Icy Mountains\" for a missionary sermon at Wrexham Church."
+      },
+      {
+        "date": "Oct 10, 1823",
+        "event": "missionary travel",
+        "details": "Arrived in Calcutta as the newly consecrated Bishop of Calcutta."
+      },
+      {
+        "date": "Apr 3, 1826",
+        "event": "death",
+        "details": "Died suddenly at Trichinopoly (Tiruchirappalli), India, aged 42, during a diocesan tour."
+      }
+    ],
+    "nationality": "English",
+    "era": "19th Century",
+    "region": "Asia",
+    "tradition": "Anglican",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "worship",
+      "praise",
+      "missions",
+      "hymn writing",
+      "sacrifice"
+    ],
+    "hymns": [
+      "Holy, Holy, Holy! Lord God Almighty",
+      "From Greenland's Icy Mountains",
+      "Brightest and Best",
+      "The Son of God Goes Forth to War",
+      "God That Madest Earth and Heaven",
+      "By Cool Siloam's Shady Rill"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Reginald_Heber",
+    "hymnary_url": "https://hymnary.org/person/Heber_Reginald",
+    "source_summary": "Reginald Heber (1783–1826) was an English Anglican clergyman, poet and hymn writer. After sixteen years as rector of Hodnet, Shropshire, he was consecrated Bishop of Calcutta in 1823, toured widely across northern India and Ceylon, ordained the first Indian to receive Anglican holy orders, and died suddenly at Trichinopoly in 1826 aged 42. His 57 hymns, published posthumously in 1827, include \"Holy, Holy, Holy! Lord God Almighty\", \"Brightest and Best\" and \"From Greenland's Icy Mountains\".",
+    "adult_story": "Reginald Heber was born on 21 April 1783 at Malpas, Cheshire, the son of a clergyman. A prize-winning poet at Oxford, he was ordained in 1807 and spent sixteen years as rector of Hodnet in Shropshire. He admired the hymns of [[John Newton|john-newton]] and [[William Cowper|william-cowper]], and became one of the first High Church Anglicans to write his own, at a time when the Church of England still officially frowned on singing anything but metrical psalms.\n\nHe wrote 57 hymns, published after his death. \"Holy, Holy, Holy! Lord God Almighty,\" written for Trinity Sunday, paraphrases the unending worship of Revelation 4 and confesses \"God in three Persons, blessed Trinity.\" \"Brightest and Best\" is still sung at Epiphany. \"From Greenland's Icy Mountains\" became a rallying hymn for missions, though some of its lines about other peoples are now widely judged patronising.\n\nIn 1823 Heber accepted the vast diocese of Calcutta. He travelled thousands of miles across India and Ceylon, ordained the first Indian to receive Anglican orders, and protested the East India Company's \"bullying, insolent manner\" toward Indians. On 3 April 1826 at Trichinopoly, the day after confirming 42 new communicants, he gave a blessing in Tamil, returned to his lodging and died suddenly, aged 42. His hope was the one his own hymn proclaimed: not his labours, but \"the Lamb for sinners slain.\"",
+    "family_story": "Reginald Heber was born in England in 1783. He loved writing poems, and as a young pastor in the village of Hodnet he began writing hymns for his church to sing.\n\nHis most famous is \"Holy, Holy, Holy! Lord God Almighty,\" which praises God as Father, Son and Holy Spirit: \"God in three Persons, blessed Trinity.\" He also wrote \"From Greenland's Icy Mountains,\" calling Christians to carry the good news of Jesus, \"the Lamb for sinners slain,\" to every nation.\n\nIn 1823 Reginald sailed to India as a bishop. He travelled thousands of miles to visit churches and train Indian pastors. Just three years later he died suddenly in southern India, aged only 42.",
+    "image": {
+      "file": "reginald-heber.jpg",
+      "prompt_used": "Portrait of Reginald Heber, English Anglican bishop and hymn writer, c. 1822, curly light-brown hair, clean-shaven, white bishop's lawn sleeves with black chimere and white clerical bands, holding a black hat, calm gentle expression, historically accurate to 1820s dress",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Reginald_Heber.jpg — oil portrait by Thomas Phillips (d. 1845), c. 1822, public domain",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "Painted c. 1822 by Thomas Phillips (d. 1845) — public domain on Commons, no caveat."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of Reginald Heber — St John's Church (CSI), Tiruchirappalli, north side of the altar",
+        "address": "St John's Church, Junction, Cantonment, Tiruchirappalli, Tamil Nadu 620001, India",
+        "lat": 10.7949,
+        "lng": 78.6822
+      },
+      {
+        "type": "statue",
+        "name": "Chantrey sculpture of Bishop Heber — St George's Cathedral, Chennai",
+        "address": "St George's Cathedral, Cathedral Road, Chennai, Tamil Nadu 600086, India",
+        "lat": 13.0518,
+        "lng": 80.2525
+      },
+      {
+        "type": "church",
+        "name": "St Luke's Church, Hodnet — Heber's parish 1807–1823, with Chantrey memorial",
+        "address": "St Luke's Church, Hodnet, Market Drayton, Shropshire, England",
+        "lat": 52.8535,
+        "lng": -2.577
+      },
+      {
+        "type": "archive",
+        "name": "Papers of Reginald Heber — Bodleian Archives & Manuscripts, Weston Library, Oxford (Heber Family Papers)",
+        "address": "Broad St, Oxford OX1 3BG, England",
+        "lat": 51.7546,
+        "lng": -1.254,
+        "open_to_public": false
+      }
+    ]
   }
 ]

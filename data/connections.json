@@ -614,5 +614,19 @@
     "label": "taught divinity to",
     "type": "mentorship",
     "mutual": false
+  },
+  {
+    "from": "john-newton",
+    "to": "reginald-heber",
+    "label": "inspired the hymn writing of",
+    "type": "influence",
+    "mutual": false
+  },
+  {
+    "from": "william-cowper",
+    "to": "reginald-heber",
+    "label": "inspired the hymn writing of",
+    "type": "influence",
+    "mutual": false
   }
 ]

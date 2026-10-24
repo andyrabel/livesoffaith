@@ -3237,5 +3237,25 @@
     "answer": "France (at Sedan)",
     "person_id": "andrew-melville",
     "difficulty": 5
+  },
+  {
+    "question": "Which English bishop wrote the hymn \"Holy, Holy, Holy! Lord God Almighty\"?",
+    "answer": "Reginald Heber",
+    "person_id": "reginald-heber",
+    "hymn_id": "holy-holy-holy-lord-god-almighty",
+    "difficulty": 5
+  },
+  {
+    "question": "Reginald Heber died in 1826 while serving as bishop of which Indian city's vast diocese?",
+    "answer": "Calcutta (Kolkata)",
+    "person_id": "reginald-heber",
+    "difficulty": 5
+  },
+  {
+    "question": "Reginald Heber wrote which missionary hymn in a single evening in 1819, for a sermon at Wrexham the next morning?",
+    "answer": "From Greenland's Icy Mountains",
+    "person_id": "reginald-heber",
+    "hymn_id": "from-greenlands-icy-mountains",
+    "difficulty": 5
   }
 ]
