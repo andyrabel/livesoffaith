@@ -3301,5 +3301,23 @@
     "person_id": "henry-francis-lyte",
     "hymn_id": "praise-my-soul-the-king-of-heaven",
     "difficulty": 5
+  },
+  {
+    "question": "To which country did hymn writer James George Deck emigrate, founding its first formal Brethren assembly in 1863?",
+    "answer": "New Zealand",
+    "person_id": "james-george-deck",
+    "difficulty": 5
+  },
+  {
+    "question": "Which hymn by James George Deck asks to be kept \"close to Thy pierced side\"?",
+    "answer": "O Lamb of God, Still Keep Me",
+    "person_id": "james-george-deck",
+    "difficulty": 5
+  },
+  {
+    "question": "In which country did James George Deck serve as an army officer before resigning his commission for conscience' sake?",
+    "answer": "India",
+    "person_id": "james-george-deck",
+    "difficulty": 5
   }
 ]

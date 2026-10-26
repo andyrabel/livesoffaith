@@ -656,5 +656,19 @@
     "label": "founded the Tranquebar mission whose seminary later trained",
     "type": "influence",
     "mutual": false
+  },
+  {
+    "from": "james-george-deck",
+    "to": "robert-cleaver-chapman",
+    "label": "went to Bethesda Chapel in 1851 to seek Brethren reconciliation with",
+    "type": "collaboration",
+    "mutual": true
+  },
+  {
+    "from": "john-nelson-darby",
+    "to": "james-george-deck",
+    "label": "drew to the Exclusive Brethren side, after his 1875 New Zealand visit,",
+    "type": "influence",
+    "mutual": false
   }
 ]

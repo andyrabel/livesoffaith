@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-10-23. 186 people.
+Generated 2026-10-25. 187 people.
 
 ---
 
@@ -1422,6 +1422,22 @@ James Chalmers was born on 4 August 1841 in Ardrishaig, Scotland, the son of a s
 From 1867 Chalmers spent a decade in Rarotonga training island teachers, known there as “Tamate.” In 1877 he moved to New Guinea, where he remained the rest of his life, planting a network of local teachers along its coast, exploring where no missionary had gone before, and publicly opposing the exploitation of its people by traders. Widowed in 1879, he remarried in 1888.
 
 On 8 April 1901, visiting the unreached Goaribari Island with young colleague Oliver Tomkins and twelve native Christian companions, Chalmers went ashore despite evident danger and was clubbed and killed within minutes. He had spent his life urging that no people be left without the gospel; his death testified not to his own courage, but to the grace of the Christ he had crossed the world to proclaim.
+
+---
+
+## James George Deck (1807–1884)
+
+URL: https://livesoffaith.org/person.html?id=james-george-deck
+Wikipedia: https://en.wikipedia.org/wiki/James_George_Deck
+Nationality: English / New Zealander · Tradition: Plymouth Brethren · Region: Oceania · Era: 19th Century
+Topics: hymn writing, worship, grace, conscience, evangelism, reconciliation
+Hymns: O Lamb of God, Still Keep Me, Abba, Father, We Approach Thee, Lord Jesus, Are We One with Thee?, Lamb of God, Our Souls Adore Thee, The Veil Is Rent, Lo! Jesus Stands
+
+James George Deck was born on 1 November 1807 in Bury St Edmunds, Suffolk. Trained as a cadet in Paris, he sailed for India at seventeen as an officer of the 14th Madras Native Infantry. Sent home with cholera in 1826, he went with his sister Clara to hear an evangelical preacher and was converted. He prepared for the Anglican ministry and married his tutor's daughter, Alicia Feild, then returned to India. In 1835, troubled in conscience about whether a Christian should be a soldier, he resigned his commission.
+
+Back in England he was baptised as a believer and joined the early Plymouth Brethren, preaching in Devon and Somerset. He wrote some of the movement's first hymns for the Lord's Supper, including "Abba, Father, We Approach Thee," "Lord Jesus, Are We One with Thee?" and "O Lamb of God, Still Keep Me."
+
+When the Brethren divided in 1848, Deck worked for peace, visiting Bethesda Chapel in Bristol with Robert Cleaver Chapman in 1851. Partly paralysed by a stroke, he emigrated to New Zealand, where his wife soon died. In 1863 he founded the first formal Brethren assembly at Ngātīmoti, near Nelson, and his preaching planted many more. After John Nelson Darby's 1875 visit he reluctantly sided with the Exclusive Brethren, yet refused to shun the Open assemblies. His best-loved hymn rests on Christ, not on himself: "The grace that sought and found me alone can keep me clean." He died at Motueka on 14 August 1884.
 
 ---
 

@@ -15285,5 +15285,84 @@
         "lng": -0.1273
       }
     ]
+  },
+  {
+    "id": "james-george-deck",
+    "name": "James George Deck",
+    "born": 1807,
+    "born_approximate": false,
+    "died": 1884,
+    "significant_dates": [
+      {
+        "date": "Nov 1, 1807",
+        "event": "birth",
+        "details": "Born at Bury St Edmunds, Suffolk, England."
+      },
+      {
+        "date": "1826",
+        "event": "saved",
+        "details": "Converted after hearing an evangelical sermon while home from India with cholera."
+      },
+      {
+        "date": "Apr 22, 1829",
+        "event": "marriage",
+        "details": "Married Alicia Feild, daughter of his tutor Rev. Samuel Feild."
+      },
+      {
+        "date": "1835",
+        "event": "other",
+        "details": "Resigned his Madras Infantry commission for reasons of conscience."
+      },
+      {
+        "date": "Jan 1, 1863",
+        "event": "founded",
+        "details": "Founded the first formal Brethren assembly in New Zealand, at Ngātīmoti, Nelson."
+      },
+      {
+        "date": "Aug 14, 1884",
+        "event": "death",
+        "details": "Died at Motueka, New Zealand, aged 76."
+      }
+    ],
+    "nationality": "English / New Zealander",
+    "era": "19th Century",
+    "region": "Oceania",
+    "tradition": "Plymouth Brethren",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "hymn writing",
+      "worship",
+      "grace",
+      "conscience",
+      "evangelism",
+      "reconciliation"
+    ],
+    "hymns": [
+      "O Lamb of God, Still Keep Me",
+      "Abba, Father, We Approach Thee",
+      "Lord Jesus, Are We One with Thee?",
+      "Lamb of God, Our Souls Adore Thee",
+      "The Veil Is Rent, Lo! Jesus Stands"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/James_George_Deck",
+    "hymnary_url": "https://hymnary.org/person/Deck_JG",
+    "source_summary": "James George Deck (1807–1884) was an English-born East India Company army officer who was converted in 1826, resigned his commission in 1835 for conscience' sake, and became an early Plymouth Brethren evangelist and hymn writer (Hymns for the Poor of the Flock, 1837–38). After a stroke he emigrated to New Zealand, founding the first formal Brethren assembly at Ngātīmoti in 1863; after Darby's 1875 visit he reluctantly sided with the Exclusive Brethren. He died at Motueka in 1884. Sources: Wikipedia; Hymnary.org (Julian); P. J. Lineham, 'The Significance of J. G. Deck 1807–1884', CBRF Journal 107 (1986) for conversion circumstances and the 1851 Bethesda visit with R. C. Chapman.",
+    "adult_story": "James George Deck was born on 1 November 1807 in Bury St Edmunds, Suffolk. Trained as a cadet in Paris, he sailed for India at seventeen as an officer of the 14th Madras Native Infantry. Sent home with cholera in 1826, he went with his sister Clara to hear an evangelical preacher and was converted. He prepared for the Anglican ministry and married his tutor's daughter, Alicia Feild, then returned to India. In 1835, troubled in conscience about whether a Christian should be a soldier, he resigned his commission.\n\nBack in England he was baptised as a believer and joined the early Plymouth Brethren, preaching in Devon and Somerset. He wrote some of the movement's first hymns for the Lord's Supper, including \"Abba, Father, We Approach Thee,\" \"Lord Jesus, Are We One with Thee?\" and \"O Lamb of God, Still Keep Me.\"\n\nWhen the Brethren divided in 1848, Deck worked for peace, visiting Bethesda Chapel in Bristol with [[Robert Cleaver Chapman|robert-cleaver-chapman]] in 1851. Partly paralysed by a stroke, he emigrated to New Zealand, where his wife soon died. In 1863 he founded the first formal Brethren assembly at Ngātīmoti, near Nelson, and his preaching planted many more. After [[John Nelson Darby|john-nelson-darby]]'s 1875 visit he reluctantly sided with the Exclusive Brethren, yet refused to shun the Open assemblies. His best-loved hymn rests on Christ, not on himself: \"The grace that sought and found me alone can keep me clean.\" He died at Motueka on 14 August 1884.",
+    "family_story": "James George Deck was born in England in 1807. At seventeen he went to India as an army officer. When he came home sick, his sister took him to hear a preacher, and James put his trust in Jesus.\n\nLater he gave up being a soldier and became a preacher and hymn writer. His hymn \"O Lamb of God, Still Keep Me\" asks Jesus to keep him close, because only God's grace can keep us safe.\n\nJames moved his large family to New Zealand, where his wife sadly died. He kept preaching, and many new churches began. He spent his life telling people about Jesus.",
+    "image": {
+      "file": "james-george-deck.jpg",
+      "prompt_used": "Portrait of James George Deck, Plymouth Brethren evangelist and hymn writer in colonial New Zealand, 1870s, elderly man with balding head and long full white beard, dark buttoned coat, calm direct gaze, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:James_George_Deck_late_in_life.jpg — photograph 1860s–1884, unknown photographer, public domain",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "19th-century photograph (photographer unknown, before 1884) — public domain on Commons, no caveat. Only 500x655, below the FB size floor unless exempted."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": []
   }
 ]
