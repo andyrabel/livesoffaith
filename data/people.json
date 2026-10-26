@@ -15363,6 +15363,14 @@
       "reviewed_by": "",
       "reviewed_date": ""
     },
-    "memorials": []
+    "memorials": [
+      {
+        "type": "other",
+        "name": "Pioneer Park (old St Thomas's churchyard), Motueka — believed burial place of James George Deck; no council burial record or confirmed headstone",
+        "address": "Pioneer Park, 44 Thorp Street (corner of Fearon Street), Motueka 7120, New Zealand",
+        "lat": -41.1056,
+        "lng": 173.021
+      }
+    ]
   }
 ]
