@@ -670,5 +670,12 @@
     "label": "drew to the Exclusive Brethren side, after his 1875 New Zealand visit,",
     "type": "influence",
     "mutual": false
+  },
+  {
+    "from": "thomas-watson",
+    "to": "john-flavel",
+    "label": "was ejected from his pulpit in the Great Ejection of 1662, as was",
+    "type": "milieu",
+    "mutual": true
   }
 ]

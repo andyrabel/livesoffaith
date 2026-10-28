@@ -15372,5 +15372,101 @@
         "lng": 173.021
       }
     ]
+  },
+  {
+    "id": "john-flavel",
+    "name": "John Flavel",
+    "born": 1627,
+    "born_approximate": true,
+    "died": 1691,
+    "significant_dates": [
+      {
+        "date": "c. 1627",
+        "event": "birth",
+        "details": "Born at Bromsgrove, Worcestershire, England; some sources give c. 1630."
+      },
+      {
+        "date": "Oct 17, 1650",
+        "event": "ordained",
+        "details": "Ordained at Salisbury as assistant minister of Diptford, Devon."
+      },
+      {
+        "date": "1662",
+        "event": "other",
+        "details": "Ejected from his Dartmouth ministry under the Act of Uniformity."
+      },
+      {
+        "date": "1678",
+        "event": "published",
+        "details": "Published Divine Conduct, or the Mystery of Providence."
+      },
+      {
+        "date": "Jun 26, 1691",
+        "event": "death",
+        "details": "Died suddenly at Exeter, Devon; buried at Dartmouth."
+      }
+    ],
+    "nationality": "English",
+    "era": "17th Century",
+    "region": "UK/Ireland",
+    "tradition": "Puritan (Presbyterian / Nonconformist)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "providence",
+      "grace",
+      "preaching",
+      "persecution",
+      "perseverance",
+      "faithfulness"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Flavel",
+    "source_summary": "John Flavel (c. 1627–1691; the DNB gives c. 1630) was an English Puritan Presbyterian minister, son of the Rev. Richard Flavel of Bromsgrove. Educated at University College, Oxford, he was sent to Diptford, Devon, on 27 April 1650 and ordained there as assistant by the Salisbury classis on 17 October 1650. He moved to Dartmouth in 1656, was ejected under the Act of Uniformity in 1662, preached at Slapton after the Five Mile Act, returned under the 1671 indulgence, and in 1687 his congregation built him a meeting-house. He died at Exeter on 26 June 1691 and was buried at Dartmouth. Author of The Fountain of Life Opened (1672), Divine Conduct, or the Mystery of Providence (1678), The Method of Grace (1680), Husbandry Spiritualised and many other works. Sources: Wikipedia; Dictionary of National Biography (1889) via Wikisource. Wikipedia's unsourced claim that he joined Gerrard Winstanley in 1649 is absent from the DNB and was omitted; DNB/Wikipedia disagree on several first-publication years, so only years they agree on are used.",
+    "adult_story": "John Flavel was born around 1627 at Bromsgrove, Worcestershire, the son of a minister. After studying at University College, Oxford, he was sent in 1650 to the Devon parish of Diptford, where he was ordained and served about six years, loved by his people. In 1656 he moved to the seaport of Dartmouth.\n\nFlavel became one of the most widely read Puritan writers. The Fountain of Life Opened (1672) gathers forty-two sermons displaying Christ in his person and saving work; The Method of Grace (1680) sets out how the Holy Spirit applies Christ's redemption to sinners through faith; and Divine Conduct, or the Mystery of Providence (1678) traces God's faithful hand through a believer's life. Husbandry Spiritualised and Navigation Spiritualised drew gospel lessons from the farms and ships around him.\n\nIn 1662 the Act of Uniformity turned him out of his pulpit, along with [[Thomas Watson|thomas-watson]] and nearly two thousand other ministers. He kept preaching privately; when the Five Mile Act drove him from Dartmouth, he settled at Slapton, five miles away, where old parishioners came to hear him twice each Sunday. Later his flock met nightly in his house until, in 1687, they built him a meeting-house. He died suddenly at Exeter on 26 June 1691, having pointed his hearers not to himself but to Christ, whose grace alone saves.",
+    "family_story": "John Flavel was a Puritan pastor in Dartmouth, a busy harbour town in England, more than three hundred years ago.\n\nHe wrote many books about Jesus. Some used farming and sailing to explain the gospel, so farmers and sailors could understand it. Another showed how God wisely and lovingly guides everything that happens to his children.\n\nWhen a new law said John could no longer preach in his church, he did not give up. He moved five miles away, and his people came to hear him every Sunday. Later he met with them each night in his own house. John wanted everyone to know that we are saved by trusting Jesus, not by being good enough.",
+    "image": {
+      "file": "john-flavel.jpg",
+      "prompt_used": "Portrait of John Flavel, English Puritan minister of Dartmouth, 1690s, man of about sixty with shoulder-length wavy hair and black skullcap, white Geneva bands, dark buttoned clerical gown, calm direct gaze, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:Portret_van_John_Flavel,_RP-P-1909-1079.jpg — engraving by Michiel van der Gucht, 'Ætatis suæ 61, Anno Dom 1691', Rijksmuseum, public domain (CC0)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "1691 engraving (Michiel van der Gucht), Rijksmuseum CC0 public-domain dedication on Commons, no caveat. 3642x5590."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "church",
+        "name": "St Saviour's Church, Dartmouth — where Flavel ministered from 1656 until his ejection in 1662",
+        "address": "St Saviour's, Church Close, Dartmouth TQ6 9PY, Devon, England",
+        "lat": 50.3511,
+        "lng": -3.579
+      },
+      {
+        "type": "church",
+        "name": "St Mary's Church, Diptford — Flavel's first parish, 1650–1656",
+        "address": "Church Park Close, Diptford, Totnes TQ9 7PH, Devon, England",
+        "lat": 50.397,
+        "lng": -3.7919
+      },
+      {
+        "type": "plaque",
+        "name": "Flavel Memorial Chapel (Flavel Church) — inscribed brass memorial to John Flavel, originally erected in St Saviour's, moved here in 1895",
+        "address": "Flavel Church, Mayors Avenue / Flavel Place, Dartmouth TQ6 9YY, Devon, England",
+        "lat": 50.3521,
+        "lng": -3.5788
+      },
+      {
+        "type": "plaque",
+        "name": "Millennium plaque marking the site of John Flavel's first meeting house",
+        "address": "The Flavel Arts Centre, Flavel Place, Dartmouth TQ6 9ND, Devon, England",
+        "lat": 50.3521,
+        "lng": -3.5791
+      }
+    ]
   }
 ]

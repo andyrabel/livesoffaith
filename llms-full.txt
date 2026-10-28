@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-10-25. 187 people.
+Generated 2026-10-28. 188 people.
 
 ---
 
@@ -1581,6 +1581,21 @@ John Charles Ryle was born in 1816 into a wealthy banking family and seemed dest
 Ryle took holy orders instead, later calling the bank's failure “the greatest earthly blessing” of his life, because it forced him toward the ministry God had actually intended. He served parishes in Suffolk for nearly forty years, writing plainly and forcefully on personal holiness and the authority of Scripture — his Expository Thoughts on the Gospels and Holiness are still read today. In 1880 he became the first Bishop of Liverpool, a new industrial diocese, where he worked to plant churches among the urban poor.
 
 Ryle never treated his ruin as a tragedy to resent. He treated it as evidence that God's plans for a Christian's usefulness often run directly through the collapse of a person's own plans for themselves — and that grace, not a family fortune or a career, was what had truly carried him. He died in 1900.
+
+---
+
+## John Flavel (c. 1627–1691)
+
+URL: https://livesoffaith.org/person.html?id=john-flavel
+Wikipedia: https://en.wikipedia.org/wiki/John_Flavel
+Nationality: English · Tradition: Puritan (Presbyterian / Nonconformist) · Region: UK/Ireland · Era: 17th Century
+Topics: providence, grace, preaching, persecution, perseverance, faithfulness
+
+John Flavel was born around 1627 at Bromsgrove, Worcestershire, the son of a minister. After studying at University College, Oxford, he was sent in 1650 to the Devon parish of Diptford, where he was ordained and served about six years, loved by his people. In 1656 he moved to the seaport of Dartmouth.
+
+Flavel became one of the most widely read Puritan writers. The Fountain of Life Opened (1672) gathers forty-two sermons displaying Christ in his person and saving work; The Method of Grace (1680) sets out how the Holy Spirit applies Christ's redemption to sinners through faith; and Divine Conduct, or the Mystery of Providence (1678) traces God's faithful hand through a believer's life. Husbandry Spiritualised and Navigation Spiritualised drew gospel lessons from the farms and ships around him.
+
+In 1662 the Act of Uniformity turned him out of his pulpit, along with Thomas Watson and nearly two thousand other ministers. He kept preaching privately; when the Five Mile Act drove him from Dartmouth, he settled at Slapton, five miles away, where old parishioners came to hear him twice each Sunday. Later his flock met nightly in his house until, in 1687, they built him a meeting-house. He died suddenly at Exeter on 26 June 1691, having pointed his hearers not to himself but to Christ, whose grace alone saves.
 
 ---
 

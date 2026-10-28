@@ -3319,5 +3319,17 @@
     "answer": "India",
     "person_id": "james-george-deck",
     "difficulty": 5
+  },
+  {
+    "question": "In which Devon seaport did Puritan John Flavel minister for most of his life?",
+    "answer": "Dartmouth",
+    "person_id": "john-flavel",
+    "difficulty": 5
+  },
+  {
+    "question": "Which 1678 book by John Flavel traces God's faithful hand through a believer's life?",
+    "answer": "The Mystery of Providence (Divine Conduct)",
+    "person_id": "john-flavel",
+    "difficulty": 5
   }
 ]
