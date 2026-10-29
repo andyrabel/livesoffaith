@@ -1074,7 +1074,7 @@ function initQuizPage() {
 }
 
 // ============================================================
-// Books — person page "Books" grid with buy links
+// Books — person page "Books" and "Biographies" grids with buy links
 // ============================================================
 
 const BOOKS_PER_PAGE = 8;
@@ -1126,7 +1126,7 @@ function amazonDomainForVisitor() {
 // ISBN was found for a pre-ISBN-era work.
 function bookBuyUrl(book, author) {
   const domain = amazonDomainForVisitor();
-  const query = book.isbn ? book.isbn.replace(/-/g, '') : `${book.title} ${author}`;
+  const query = book.isbn ? book.isbn.replace(/-/g, '') : `${book.title} ${book.author || author}`;
   return `https://${domain}/s?k=${encodeURIComponent(query)}&i=stripbooks`;
 }
 
@@ -1135,9 +1135,11 @@ function parseBookYear(year) {
   return match ? parseInt(match[0], 10) : 0;
 }
 
-function personBooksSorted(personId) {
+// `kind` is "authored" (books the person wrote — entries with no `kind`
+// field) or "biography" (books about them, by `book.author`).
+function personBooksSorted(personId, kind = 'authored') {
   return allBooks
-    .filter(b => b.person_id === personId)
+    .filter(b => b.person_id === personId && (b.kind || 'authored') === kind)
     .slice()
     .sort((a, b) => parseBookYear(a.year) - parseBookYear(b.year));
 }
@@ -1149,10 +1151,15 @@ function bookCardHtml(book, authorName) {
   const titleAttrs = book.fb_summary
     ? ` tabindex="0" data-tooltip="${escapeHtml(book.fb_summary)}"`
     : '';
+  const metaParts = [book.author ? `by ${book.author}` : '', book.year, book.format].filter(Boolean);
+  const authorizedHtml = book.authorized
+    ? '<span class="book-row-badge">Authorized</span>'
+    : '';
   return `
     <div class="book-row">
       <span class="book-row-title"${titleAttrs}>${escapeHtml(book.title)}</span>
-      <span class="book-row-meta">${escapeHtml(book.year)} &middot; ${escapeHtml(book.format)}</span>
+      ${authorizedHtml}
+      <span class="book-row-meta">${metaParts.map(escapeHtml).join(' &middot; ')}</span>
       ${isbnHtml}
       <a class="btn btn-primary book-row-buy" href="${escapeHtml(bookBuyUrl(book, authorName))}" target="_blank" rel="noopener noreferrer nofollow">Buy</a>
     </div>
@@ -1216,6 +1223,18 @@ function booksSectionHtml(person) {
       <h2 class="person-books-title">&#128214; Books <span class="person-books-note">books they authored &mdash; a representative few, not exhaustive</span></h2>
       <div class="books-grid"></div>
       <div class="books-pagination" role="navigation" aria-label="Books pagination"></div>
+    </div>
+  `;
+}
+
+function biographiesSectionHtml(person) {
+  const books = personBooksSorted(person.id, 'biography');
+  if (!books.length) return '';
+  return `
+    <div class="person-books" id="person-biographies-section">
+      <h2 class="person-books-title">&#128218; Biographies <span class="person-books-note">books about their life, in print from established publishers</span></h2>
+      <div class="books-grid"></div>
+      <div class="books-pagination" role="navigation" aria-label="Biographies pagination"></div>
     </div>
   `;
 }
@@ -1996,6 +2015,7 @@ function initPersonPage() {
   const memorialsHtml = memorialsSectionHtml(person);
   const connectionsHtml = connectionsSectionHtml(person);
   const booksHtml = booksSectionHtml(person);
+  const biographiesHtml = biographiesSectionHtml(person);
 
   content.innerHTML = `
     <div class="person-header">
@@ -2064,6 +2084,7 @@ function initPersonPage() {
     ${timelineHtml}
     ${connectionsHtml}
     ${booksHtml}
+    ${biographiesHtml}
     ${memorialsHtml}
   `;
 
@@ -2101,11 +2122,16 @@ function initPersonPage() {
     });
   });
 
-  // Books grid (initial page) — subsequent pages are rendered in place by
-  // the Prev/Next handlers wired up inside renderBooksPage itself.
+  // Books and Biographies grids (initial page) — subsequent pages are
+  // rendered in place by the Prev/Next handlers wired up inside
+  // renderBooksPage itself.
   const booksSection = content.querySelector('#person-books-section');
   if (booksSection) {
     renderBooksPage(booksSection, personBooksSorted(person.id), person.name, 0);
+  }
+  const biographiesSection = content.querySelector('#person-biographies-section');
+  if (biographiesSection) {
+    renderBooksPage(biographiesSection, personBooksSorted(person.id, 'biography'), person.name, 0);
   }
 
   renderPersonNav(person);

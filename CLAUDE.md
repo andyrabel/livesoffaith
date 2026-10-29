@@ -493,12 +493,22 @@ As a standard part of Step 4 (Update Cross-References) when adding a new person:
 
 ## Books Dataset
 
-`data/books.json` is a flat array of books **written by** people on the site
-(not biographies about them). It powers the person page's "📖 Books" section
-(`booksSectionHtml()` in `js/app.js`), headed "books they authored — a
-representative few, not exhaustive": rows sorted by year, a hover tooltip
-showing `fb_summary`, and a **Buy** button that runs an Amazon search by ISBN
-(or by title + author when `isbn` is empty; see `bookBuyUrl()`).
+`data/books.json` is a flat array of two kinds of book, told apart by the
+optional `kind` field:
+
+- **Authored books** (no `kind` field): books **written by** people on the
+  site. They power the person page's "📖 Books" section
+  (`booksSectionHtml()` in `js/app.js`), headed "books they authored — a
+  representative few, not exhaustive".
+- **Biographies** (`"kind": "biography"`, added 2026-10-28): books **about**
+  a person, by another author. They power a separate "📚 Biographies"
+  section (`biographiesSectionHtml()`), headed "books about their life, in
+  print from established publishers". See Biographies below.
+
+Both sections show rows sorted by year, a hover tooltip showing `fb_summary`
+(when it's non-empty), and a **Buy** button that runs an Amazon search by
+ISBN (or by title + author when `isbn` is empty; see `bookBuyUrl()`, which
+uses the biography's own `author` rather than the person's name).
 
 ```json
 {
@@ -555,6 +565,67 @@ choosing the best-known works over the obscure ones. Many people on the site
 (martyrs, hymn writers known for one hymn, people who left no writings)
 correctly have **no** books, so don't pad: a person with no qualifying book
 simply gets no entry and the section doesn't render.
+
+### Biographies
+
+A biography entry uses the same schema plus three differences:
+
+```json
+{
+  "id": "the-life-of-martyn-lloyd-jones-murray",
+  "kind": "biography",
+  "person_id": "martyn-lloyd-jones",
+  "title": "The Life of Martyn Lloyd-Jones, 1899–1981",
+  "author": "Iain H. Murray",
+  "authorized": true,
+  "year": "2013",
+  "format": "Paperback",
+  "isbn": "978-1-84871-180-8",
+  "edition_note": "Banner of Truth Trust, 2013 edition. One-volume edition of Murray's authorized two-volume biography (1982, 1990).",
+  "source": "https://openlibrary.org/books/OL25425209M",
+  "cover_image_url": "",
+  "cover_image_source": "",
+  "fb_summary": ""
+}
+```
+
+- `kind`: always `"biography"`.
+- `id`: title slug plus the biographer's surname (e.g. `here-i-stand-bainton`),
+  since two biographies of one person often share a short title.
+- `author`: the biographer(s), shown as "by …" on the row. Use the full
+  subtitle in `title`.
+- `authorized`: `true` **only** when the title, subtitle or publisher calls it
+  the authorized biography (e.g. *Andrew Murray: The Authorized Biography*,
+  *Being Elisabeth Elliot: The Authorized Biography*). It shows an
+  "Authorized" badge. Omit the field otherwise. Don't infer it from a family
+  author or privileged access.
+- `year`: the biography's own first publication year, not the subject's dates.
+- `format`: leave `""` if the Open Library record doesn't state the binding.
+  The row then just omits it.
+- `fb_summary`: may be `""` (no tooltip). Only write one from the publisher's
+  description or another source that actually describes the book's contents.
+  Never summarize a book you haven't got a source for.
+
+**Which biographies qualify:**
+- A full-length biography of the person (not a chapter in a collective
+  volume, and not a children's series title).
+- Published by an established publisher: a university press, a trade house,
+  or an established Christian publisher such as Banner of Truth, Crossway,
+  Christian Focus, Eerdmans, Moody or CLC. Print-on-demand reprint houses
+  (Kessinger, Creative Media Partners, Forgotten Books, Read Books, Legare
+  Street, etc.) and self-publishing imprints (CreateSpace, Creation House,
+  etc.) don't count.
+- Still in print. Amazon and Google Books can't be queried from here, so
+  the working test is an Open Library edition from 2000 or later by that
+  publisher. Older ISBNs are acceptable only for well-known backlist titles
+  that the same publisher still sells under the same ISBN (e.g. Banner of
+  Truth's Dallimore *Spurgeon*).
+- The subject's own autobiography or memoir goes under authored books, not
+  here.
+
+Add 1–2 per person, preferring an authorized biography first, then the
+standard scholarly or popular one. Leave a person with none when nothing
+qualifies, which is common for the less well-known people on the site.
 
 ---
 
@@ -764,7 +835,7 @@ no server-side code. All data lives in JSON files. All filtering is client-side 
 │   ├── connections.json        ← relationships between people (see Connections Dataset above)
 │   ├── quiz.json                ← trivia questions (see Quiz Questions above)
 │   ├── places.json              ← museums/libraries/archives not tied to one person
-│   ├── books.json               ← books written by people on the site, rendered on person pages (see Books Dataset above)
+│   ├── books.json               ← books written by people on the site, plus biographies of them, rendered on person pages (see Books Dataset above)
 │   ├── historical_events.json   ← general church-history events shown alongside people on timeline.html
 │   ├── whats-new.json           ← home page "What's New" feed (see What's New Feed above)
 │   ├── pageviews.json           ← GA4 view counts per person/hymn (see _build/PAGEVIEWS.md)
@@ -972,13 +1043,14 @@ Claude Code assists at each step when asked.
 pipeline without being asked separately for each step — source and download a
 reference image, generate the AI portrait (Step 6), research and populate
 `memorials`, research and populate `significant_dates` (see Significant Dates
-Schema above), research and add any books they authored to `data/books.json`
-(see Books Dataset above), update cross-references and the connections
+Schema above), research and add any books they authored and any in-print biographies of
+them to `data/books.json` (see Books Dataset above), update cross-references and the connections
 dataset, then add quiz questions (Step 4, connections before quiz questions —
 see Quiz Questions above) — not just write the JSON skeleton with
 `"image": null` and `"memorials": []`. If no suitable public domain reference
 image can be found, do not stop the pipeline — leave `"image": null` and
 complete every other step (content, memorials, significant_dates, books,
+biographies,
 cross-references, connections, quiz questions, sitemap) anyway. Image sourcing and portrait generation (Steps 2
 and 6) can be revisited later once a reference image turns up.
 
@@ -1015,6 +1087,10 @@ Claude will:
   ISBN verified against Open Library or the publisher, or none at all if they
   left no qualifying written work — see Books Dataset above), and say in the
   hand-off which books were added or why none were
+- **Add biographies** about them to `data/books.json` (`"kind": "biography"`,
+  1–2 in-print entries from established publishers, or none — see Biographies
+  under Books Dataset above), and say in the hand-off which were added or why
+  none qualified
 - **Update `sitemap.xml`** to include the new person's URL (run `python3 _build/generate_sitemap.py`)
 - **Update `llms.txt` and `llms-full.txt`** so AI assistants have the new person's
   content (run `python3 _build/generate_llms_txt.py`)
