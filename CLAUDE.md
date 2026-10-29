@@ -491,6 +491,73 @@ As a standard part of Step 4 (Update Cross-References) when adding a new person:
 
 ---
 
+## Books Dataset
+
+`data/books.json` is a flat array of books **written by** people on the site
+(not biographies about them). It powers the person page's "📖 Books" section
+(`booksSectionHtml()` in `js/app.js`), headed "books they authored — a
+representative few, not exhaustive": rows sorted by year, a hover tooltip
+showing `fb_summary`, and a **Buy** button that runs an Amazon search by ISBN
+(or by title + author when `isbn` is empty; see `bookBuyUrl()`).
+
+```json
+{
+  "id": "the-mystery-of-providence",
+  "person_id": "john-flavel",
+  "title": "The Mystery of Providence",
+  "year": "1678",
+  "format": "Paperback",
+  "isbn": "978-0-85151-104-7",
+  "edition_note": "Modern reprint edition (Banner of Truth, Puritan Paperbacks, 1963); original work published 1678, predates the ISBN system.",
+  "source": "https://openlibrary.org/books/OL8278376M",
+  "cover_image_url": "",
+  "cover_image_source": "",
+  "fb_summary": "..."
+}
+```
+
+- `id`: a unique kebab-case slug of the title. Add a short suffix (e.g.
+  `-lyte`) if the slug already exists in the file.
+- `person_id`: must match an existing `people.json` id. There is one author
+  per entry, so for a co-written book (e.g. *Say and Seal*, by Anna and Susan
+  Warner) use the site person's id and say it was co-written in `fb_summary`.
+- `year`: the work's **original** publication year, even when the edition
+  listed is a modern reprint. Use `"c. 1850"` or a range such as
+  `"1529–1552"` when that's all the sources support. The page sorts on the
+  first 4-digit number.
+- `format`: `"Paperback"` or `"Hardcover"` for the specific edition listed.
+- `isbn`: ISBN-13, hyphenated, for one real in-print or recent edition,
+  confirmed against an Open Library edition record
+  (`https://openlibrary.org/isbn/{isbn}.json`) or the publisher's page. Never
+  guess an ISBN. Leave it `""` when no single edition fits, e.g. a tract sold
+  only in multi-copy packs.
+- `edition_note`: names the publisher/year of the listed edition and, for a
+  reprint, says the original predates the ISBN system. For posthumous
+  compilations of letters or journals, name the editor.
+- `source`: the edition record you verified (prefer an Open Library
+  `/books/OL…M` URL).
+- `cover_image_url` / `cover_image_source`: leave both `""`. Third-party cover
+  images are not published on the site (see Image Requirements; the
+  non-compliant covers were removed 2026-07-19).
+- `fb_summary`: 50–110 words, factual and Christ-pointing, grounded in
+  Wikipedia/approved sources. Same rules as stories: no invented quotes and
+  no claims beyond the sources. Despite the name, it is now used only for the
+  person-page tooltip. The Facebook book-post format was retired (see
+  `_build/fb/CLAUDE.md`).
+
+**Which books qualify:** a work the person actually wrote that is named in
+their Wikipedia article (works/bibliography section or body text) or another
+approved source, *and* that has a buyable modern edition. Posthumous
+editions of their own journals, letters or sermons count. Translations they
+made, and hymnals or songbooks they only edited, don't count unless the
+person is mainly remembered for that collection. Add 1–4 books per person,
+choosing the best-known works over the obscure ones. Many people on the site
+(martyrs, hymn writers known for one hymn, people who left no writings)
+correctly have **no** books, so don't pad: a person with no qualifying book
+simply gets no entry and the section doesn't render.
+
+---
+
 ## Hymn Stories
 
 In addition to person biographies, the site publishes standalone **hymn story**
@@ -697,7 +764,7 @@ no server-side code. All data lives in JSON files. All filtering is client-side 
 │   ├── connections.json        ← relationships between people (see Connections Dataset above)
 │   ├── quiz.json                ← trivia questions (see Quiz Questions above)
 │   ├── places.json              ← museums/libraries/archives not tied to one person
-│   ├── books.json               ← books by/about people on the site, rendered on person pages
+│   ├── books.json               ← books written by people on the site, rendered on person pages (see Books Dataset above)
 │   ├── historical_events.json   ← general church-history events shown alongside people on timeline.html
 │   ├── whats-new.json           ← home page "What's New" feed (see What's New Feed above)
 │   ├── pageviews.json           ← GA4 view counts per person/hymn (see _build/PAGEVIEWS.md)
@@ -905,13 +972,14 @@ Claude Code assists at each step when asked.
 pipeline without being asked separately for each step — source and download a
 reference image, generate the AI portrait (Step 6), research and populate
 `memorials`, research and populate `significant_dates` (see Significant Dates
-Schema above), update cross-references and the connections dataset, then add
-quiz questions (Step 4, connections before quiz questions — see Quiz Questions
-above) — not just write the JSON skeleton with `"image": null` and
-`"memorials": []`. If no suitable public domain reference image can be found,
-do not stop the pipeline — leave `"image": null` and complete every other step
-(content, memorials, significant_dates, cross-references, connections, quiz
-questions, sitemap) anyway. Image sourcing and portrait generation (Steps 2
+Schema above), research and add any books they authored to `data/books.json`
+(see Books Dataset above), update cross-references and the connections
+dataset, then add quiz questions (Step 4, connections before quiz questions —
+see Quiz Questions above) — not just write the JSON skeleton with
+`"image": null` and `"memorials": []`. If no suitable public domain reference
+image can be found, do not stop the pipeline — leave `"image": null` and
+complete every other step (content, memorials, significant_dates, books,
+cross-references, connections, quiz questions, sitemap) anyway. Image sourcing and portrait generation (Steps 2
 and 6) can be revisited later once a reference image turns up.
 
 ### Step 1 — Decide and Vet
@@ -943,6 +1011,10 @@ Claude will:
   Dates Schema above)
 - Add the full JSON entry with `"image": null` and all fields populated
 - Flag the entry if needed and explain why
+- **Add books** they authored to `data/books.json` (1–4 entries, each with an
+  ISBN verified against Open Library or the publisher, or none at all if they
+  left no qualifying written work — see Books Dataset above), and say in the
+  hand-off which books were added or why none were
 - **Update `sitemap.xml`** to include the new person's URL (run `python3 _build/generate_sitemap.py`)
 - **Update `llms.txt` and `llms-full.txt`** so AI assistants have the new person's
   content (run `python3 _build/generate_llms_txt.py`)
@@ -1037,7 +1109,7 @@ This regenerates `sitemap.xml`, `llms.txt`, and `llms-full.txt` from
 
 ### Step 10 — Commit and Push
 ```bash
-git add data/people.json data/quiz.json data/connections.json sitemap.xml llms.txt llms-full.txt images/portraits/[person-id].jpg
+git add data/people.json data/books.json data/quiz.json data/connections.json sitemap.xml llms.txt llms-full.txt images/portraits/[person-id].jpg
 git commit -m "Add [Name]"
 git push
 ```
