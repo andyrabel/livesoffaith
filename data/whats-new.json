@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-02",
+    "label": "Nov 2, 2026",
+    "title": "Quotes",
+    "href": "person.html",
+    "text": "read notable quotes from each person, with sources and a copy button."
+  },
+  {
+    "date": "2026-10-28",
+    "label": "Oct 28, 2026",
+    "title": "Biographies",
+    "href": "person.html",
+    "text": "browse in-print biographies written about each person, right from their profile."
+  },
+  {
     "date": "2026-10-23",
     "label": "Oct 23, 2026",
     "title": "Reginald Heber",
