@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-10-28. 188 people.
+Generated 2026-11-02. 189 people.
 
 ---
 
@@ -2944,6 +2944,21 @@ In 1912 he sailed to Egypt to learn Arabic on his way to China. He contracted ce
 In his Bible, found after his death: No regrets.
 
 Three phrases written across a decade, each at a different moment of cost — the testimony of a life held loosely from the beginning, released further at each step, and given completely at the last. Borden died in a hospital bed in Cairo. The phrase written at the end is what remains.
+
+---
+
+## William Cameron Townsend (1896–1982)
+
+URL: https://livesoffaith.org/person.html?id=william-cameron-townsend
+Wikipedia: https://en.wikipedia.org/wiki/William_Cameron_Townsend
+Nationality: American · Tradition: Interdenominational evangelical · Region: Latin America · Era: 20th Century
+Topics: Scripture, translation, missions, gospel, perseverance
+
+William Cameron Townsend was born in 1896 in Southern California. In 1917 he left Occidental College to sell Spanish Bibles in Guatemala for the Los Angeles Bible House, and two years later joined the Central American Mission. He soon saw a problem: most of the Kaqchikel Maya people around him spoke no Spanish, and many could not read. The Bibles he carried could not speak to them.
+
+Townsend settled among the Kaqchikel, spent years learning their language, and worked with José Chicol on a Kaqchikel New Testament, published in 1931. Convinced that every people needed God's Word in their own tongue, he opened Camp Wycliffe in Arkansas in 1934, named for John Wycliffe, to train young believers in linguistics and translation. From it grew the Summer Institute of Linguistics and Wycliffe Bible Translators, and in 1948 the Jungle Aviation and Radio Service (JAARS), which brought planes and radios to translators in remote places.
+
+Townsend often said that the Bible in a people's own language was the best missionary of all, because it "never got sick, never took a furlough, and never sounded like a foreigner." He trusted that Scripture, well translated and understood, could change hearts and whole communities, because through it people meet Christ and are saved by grace through faith in him. He died at Waxhaw, North Carolina, in 1982, and the work he began continues among language groups around the world.
 
 ---
 

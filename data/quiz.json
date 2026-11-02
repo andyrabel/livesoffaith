@@ -3331,5 +3331,17 @@
     "answer": "The Mystery of Providence (Divine Conduct)",
     "person_id": "john-flavel",
     "difficulty": 5
+  },
+  {
+    "question": "William Cameron Townsend named his Bible translation organization after which 14th-century English Bible translator?",
+    "answer": "John Wycliffe",
+    "person_id": "william-cameron-townsend",
+    "difficulty": 5
+  },
+  {
+    "question": "Into the language of which Maya people of Guatemala did Cameron Townsend translate the New Testament?",
+    "answer": "The Kaqchikel (Cakchiquel)",
+    "person_id": "william-cameron-townsend",
+    "difficulty": 5
   }
 ]

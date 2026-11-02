@@ -15468,5 +15468,86 @@
         "lng": -3.5791
       }
     ]
+  },
+  {
+    "id": "william-cameron-townsend",
+    "name": "William Cameron Townsend",
+    "born": 1896,
+    "died": 1982,
+    "significant_dates": [
+      {
+        "date": "Jul 9, 1896",
+        "event": "birth",
+        "details": "Born in Eastvale, California."
+      },
+      {
+        "date": "Aug 18, 1917",
+        "event": "missionary travel",
+        "details": "Sent to Guatemala by the Los Angeles Bible House to sell Spanish Bibles."
+      },
+      {
+        "date": "1931",
+        "event": "published",
+        "details": "Kaqchikel New Testament published, translated with José Chicol."
+      },
+      {
+        "date": "1934",
+        "event": "founded",
+        "details": "Opened Camp Wycliffe in Arkansas, origin of the Summer Institute of Linguistics."
+      },
+      {
+        "date": "Apr 23, 1982",
+        "event": "death",
+        "details": "Died at Waxhaw, North Carolina, aged 85."
+      }
+    ],
+    "nationality": "American",
+    "era": "20th Century",
+    "region": "Latin America",
+    "tradition": "Interdenominational evangelical",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "Scripture",
+      "translation",
+      "missions",
+      "gospel",
+      "perseverance"
+    ],
+    "hymns": [],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/William_Cameron_Townsend",
+    "source_summary": "William Cameron Townsend (July 9, 1896 – April 23, 1982), born in Eastvale, California, attended Occidental College and left to sell Bibles for the Los Angeles Bible House, which sent him to Guatemala on 18 August 1917 to sell Spanish Bibles near Antigua. He joined the Central American Mission about two years later, settled among the Kaqchikel Maya and over some fourteen years learned the language; with José Chicol he translated the Kaqchikel New Testament, published in 1931 (Wikipedia, Kaqchikel language). In 1933 he moved his work to Mexico; with L. L. Legters he opened Camp Wycliffe in Arkansas in 1934, named for John Wycliffe, to train translators in linguistics. This became the Summer Institute of Linguistics (SIL, 1934) and Wycliffe Bible Translators (USA, officially 1942); he founded JAARS (Jungle Aviation and Radio Service) in 1948. He often said the Bible in a people's own language was the best missionary, because it 'never got sick, never took a furlough, and never sounded like a foreigner'. Married Elvira Malmstrom (1919; she died 1944) and Elaine Mielke (1946). Died at Waxhaw, North Carolina. Sources: Wikipedia articles William Cameron Townsend, SIL Global, JAARS, Kaqchikel language. Critics (e.g. Colby and Dennett's Thy Will Be Done) questioned SIL's presentation as a secular academic body to governments; reviewed and judged not flaggable by the site owner (2026-11-02).",
+    "adult_story": "William Cameron Townsend was born in 1896 in Southern California. In 1917 he left Occidental College to sell Spanish Bibles in Guatemala for the Los Angeles Bible House, and two years later joined the Central American Mission. He soon saw a problem: most of the Kaqchikel Maya people around him spoke no Spanish, and many could not read. The Bibles he carried could not speak to them.\n\nTownsend settled among the Kaqchikel, spent years learning their language, and worked with José Chicol on a Kaqchikel New Testament, published in 1931. Convinced that every people needed God's Word in their own tongue, he opened Camp Wycliffe in Arkansas in 1934, named for [[John Wycliffe|john-wycliffe]], to train young believers in linguistics and translation. From it grew the Summer Institute of Linguistics and Wycliffe Bible Translators, and in 1948 the Jungle Aviation and Radio Service (JAARS), which brought planes and radios to translators in remote places.\n\nTownsend often said that the Bible in a people's own language was the best missionary of all, because it \"never got sick, never took a furlough, and never sounded like a foreigner.\" He trusted that Scripture, well translated and understood, could change hearts and whole communities, because through it people meet Christ and are saved by grace through faith in him. He died at Waxhaw, North Carolina, in 1982, and the work he began continues among language groups around the world.",
+    "family_story": "When Cameron Townsend was twenty-one, he went to Guatemala to sell Spanish Bibles. But many of the Kaqchikel Maya people there did not speak Spanish, so the Bibles could not speak to them.\n\nCameron lived among them and learned their language. Working with a Kaqchikel man named José Chicol, he translated the New Testament. Then he began training young people to do the same for other languages. That work became Wycliffe Bible Translators.\n\nCameron said a Bible in someone's own language is the best missionary, because it never gets sick and never sounds like a foreigner. Through it, people everywhere can read about Jesus and trust him to save them.",
+    "image": {
+      "file": "william-cameron-townsend.jpg",
+      "prompt_used": "Portrait of William Cameron Townsend, American missionary linguist and founder of Wycliffe Bible Translators, 1970s, smooth clean-shaven face, no beard, no stubble, no moustache, elderly man with round full face, wide-brimmed light-coloured hat, wire-rimmed glasses, warm broad smile, checked work shirt, historically accurate",
+      "prompt_image_source": "https://commons.wikimedia.org/wiki/File:William_Cameron_Townsend6.jpg — photograph released by copyright holder Wycliffe USA under CC0 public-domain dedication (Wikimedia VRT ticket 2013030310005101)",
+      "caption": "AI-generated image — no copyright claimed",
+      "redistribution_safe": true,
+      "redistribution_note": "CC0 public-domain dedication by copyright holder Wycliffe USA, confirmed via Wikimedia VRT ticket; no caveat. Small file (300x266)."
+    },
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    },
+    "memorials": [
+      {
+        "type": "gravestone",
+        "name": "Grave of William Cameron and Elaine Townsend — meditation garden, JAARS campus",
+        "address": "Between the Cardenas and Pittman buildings, 6403–6409 Davis Road, Waxhaw, NC 28173, USA",
+        "lat": 34.8641,
+        "lng": -80.7416
+      },
+      {
+        "type": "museum",
+        "name": "The Alphabet Museum at JAARS — museum established by Townsend in 1991 (history of writing systems), with the Cardenas Building telling the story of JAARS",
+        "address": "6409 Davis Road (Pittman Building) and 6403 Davis Road (Cardenas Building), Waxhaw, NC 28173, USA",
+        "lat": 34.8638,
+        "lng": -80.7416,
+        "open_to_public": true
+      }
+    ]
   }
 ]

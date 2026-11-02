@@ -677,5 +677,12 @@
     "label": "was ejected from his pulpit in the Great Ejection of 1662, as was",
     "type": "milieu",
     "mutual": true
+  },
+  {
+    "from": "william-cameron-townsend",
+    "to": "john-wycliffe",
+    "label": "named his Bible-translation training camp after",
+    "type": "influence",
+    "mutual": false
   }
 ]

@@ -4221,5 +4221,48 @@
     "cover_image_url": "",
     "cover_image_source": "",
     "fb_summary": ""
+  },
+  {
+    "id": "wycliffe-in-the-making",
+    "person_id": "william-cameron-townsend",
+    "title": "Wycliffe in the Making: The Memoirs of W. Cameron Townsend, 1920–1933",
+    "year": "1995",
+    "format": "Paperback",
+    "isbn": "978-0-87788-890-1",
+    "edition_note": "Harold Shaw Publishers, 1995. Townsend's memoirs of his Guatemala years, compiled and edited by Hugh Steven.",
+    "source": "https://openlibrary.org/books/OL797159M",
+    "cover_image_url": "",
+    "cover_image_source": "",
+    "fb_summary": "Townsend's own account of his years in Guatemala, edited by Hugh Steven. It covers his arrival in 1917 to sell Spanish Bibles, his discovery that the Kaqchikel Maya around him could not understand them, and the long work of learning their language and translating the New Testament, published in 1931. These are the years that convinced him every people needed God's Word in their own tongue, the conviction behind Camp Wycliffe, the Summer Institute of Linguistics and Wycliffe Bible Translators."
+  },
+  {
+    "id": "uncle-cam-hefley",
+    "kind": "biography",
+    "person_id": "william-cameron-townsend",
+    "title": "Uncle Cam: The Story of William Cameron Townsend, Founder of the Wycliffe Bible Translators and the Summer Institute of Linguistics",
+    "author": "James and Marti Hefley",
+    "year": "1974",
+    "format": "",
+    "isbn": "978-0-938978-44-2",
+    "edition_note": "Wycliffe Bible Translators, 2008 edition. First published by Word Books, 1974.",
+    "source": "https://openlibrary.org/books/OL17073822M",
+    "cover_image_url": "",
+    "cover_image_source": "",
+    "fb_summary": ""
+  },
+  {
+    "id": "a-new-vision-for-missions-svelmoe",
+    "kind": "biography",
+    "person_id": "william-cameron-townsend",
+    "title": "A New Vision for Missions: William Cameron Townsend, the Wycliffe Bible Translators, and the Culture of Early Evangelical Faith Missions, 1917–1945",
+    "author": "William Lawrence Svelmoe",
+    "year": "2008",
+    "format": "",
+    "isbn": "978-0-8173-1593-1",
+    "edition_note": "University of Alabama Press, 2008.",
+    "source": "https://openlibrary.org/books/OL16504579M",
+    "cover_image_url": "",
+    "cover_image_source": "",
+    "fb_summary": ""
   }
 ]
