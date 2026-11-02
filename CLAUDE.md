@@ -840,7 +840,7 @@ no server-side code. All data lives in JSON files. All filtering is client-side 
 │   ├── whats-new.json           ← home page "What's New" feed (see What's New Feed above)
 │   ├── pageviews.json           ← GA4 view counts per person/hymn (see _build/PAGEVIEWS.md)
 │   ├── verses.json              ← Scripture text keyed by reference, used for topic/verse lookups
-│   └── quotes.json              ← standalone quotes by person id (see note below)
+│   └── quotes.json              ← quotes by person id, rendered as the person page's "In Their Own Words" section (see note below)
 └── images/
     ├── portraits/       ← all AI-generated portraits
     ├── icons/           ← PWA app icons (192/512, plus maskable variants)
@@ -848,10 +848,19 @@ no server-side code. All data lives in JSON files. All filtering is client-side 
 ```
 
 `list_people.py` just prints all people sorted by surname — a standalone
-debugging helper, not called by `app.js` or any page. `quotes.json` isn't
-currently fetched by any page (see `generate_whats_new.py`'s "is it live"
-check, which uses exactly this kind of gap to decide what counts as a live
-feature).
+debugging helper, not called by `app.js` or any page.
+
+`quotes.json` (rendered since 2026-11-02 by `quotesSectionHtml()` in
+`js/app.js`, `iconic` before `well_known`, each with a Copy button) holds
+`id`, `person_id`, `quote`, `source`, `source_url`, `confidence`, `renown`
+(`"iconic"`/`"well_known"`) and `topics`. Only add a quote you can trace to
+the person's own writing or a contemporary report via Wikipedia, Wikiquote's
+sourced (not "Disputed"/"Misattributed") section, or a primary text. Popular
+lines often fail this test (e.g. Luther's "Here I stand", Liddell's "I feel
+His pleasure" from *Chariots of Fire*, Borden's "No reserves, no retreats, no
+regrets"), so leave them out. When a famous line is genuine but has a
+wrinkle, say so in `source`, as the Jim Elliot entry does for its Philip
+Henry origin.
 
 ### Progressive Web App (PWA)
 

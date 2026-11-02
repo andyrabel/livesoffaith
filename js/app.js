@@ -13,6 +13,7 @@ const HYMNS_URL = 'data/hymns.json';
 const HISTORICAL_EVENTS_URL = 'data/historical_events.json';
 const CONNECTIONS_URL = 'data/connections.json';
 const BOOKS_URL = 'data/books.json';
+const QUOTES_URL = 'data/quotes.json';
 const WHATS_NEW_URL = 'data/whats-new.json';
 const STORY_PREF_KEY = 'preferred-story-version';
 const QUIZ_DIFFICULTY_KEY = 'preferred-quiz-difficulty';
@@ -29,6 +30,7 @@ let allHymns = [];
 let allHistoricalEvents = [];
 let allConnections = [];
 let allBooks = [];
+let allQuotes = [];
 let allWhatsNew = [];
 
 // Categorical colour per region, fixed order matching the region filter
@@ -1239,6 +1241,36 @@ function biographiesSectionHtml(person) {
   `;
 }
 
+// A person's quotes, iconic ones first, keeping file order within each tier.
+function personQuotes(personId) {
+  const rank = q => (q.renown === 'iconic' ? 0 : 1);
+  return allQuotes
+    .filter(q => q.person_id === personId)
+    .sort((a, b) => rank(a) - rank(b));
+}
+
+function quotesSectionHtml(person) {
+  const quotes = personQuotes(person.id);
+  if (!quotes.length) return '';
+  const items = quotes.map(q => `
+    <figure class="quote-item">
+      <blockquote class="quote-text">&#8220;${escapeHtml(q.quote)}&#8221;</blockquote>
+      <figcaption class="quote-source">
+        ${q.source_url
+          ? `<a href="${escapeHtml(q.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(q.source)}</a>`
+          : escapeHtml(q.source)}
+      </figcaption>
+      <button class="btn btn-copy quote-copy" data-copy-quote="${escapeHtml(q.id)}">Copy</button>
+    </figure>
+  `).join('');
+  return `
+    <div class="person-quotes">
+      <h2 class="person-quotes-title">&#10077; In Their Own Words <span class="person-books-note">a few well-known quotes, each with its source</span></h2>
+      ${items}
+    </div>
+  `;
+}
+
 function memorialsSectionHtml(person) {
   const memorials = person.memorials || [];
   if (!memorials.length) return '';
@@ -1365,6 +1397,17 @@ async function loadBooks() {
   } catch (err) {
     console.error('Failed to load books.json:', err);
     allBooks = [];
+  }
+}
+
+async function loadQuotes() {
+  try {
+    const res = await fetch(QUOTES_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allQuotes = await res.json();
+  } catch (err) {
+    console.error('Failed to load quotes.json:', err);
+    allQuotes = [];
   }
 }
 
@@ -2016,6 +2059,7 @@ function initPersonPage() {
   const connectionsHtml = connectionsSectionHtml(person);
   const booksHtml = booksSectionHtml(person);
   const biographiesHtml = biographiesSectionHtml(person);
+  const quotesHtml = quotesSectionHtml(person);
 
   content.innerHTML = `
     <div class="person-header">
@@ -2081,6 +2125,7 @@ function initPersonPage() {
       </div>
     </div>
 
+    ${quotesHtml}
     ${timelineHtml}
     ${connectionsHtml}
     ${booksHtml}
@@ -2110,6 +2155,15 @@ function initPersonPage() {
       const story = v === 'adult' ? person.adult_story : person.family_story;
       const text = `${person.name} (${formatYears(person)})\n\n${stripLinks(story)}`;
       copyText(text, btn, 'Copied!');
+    });
+  });
+
+  // Copy quote buttons
+  content.querySelectorAll('[data-copy-quote]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const q = allQuotes.find(x => x.id === btn.dataset.copyQuote);
+      if (!q) return;
+      copyText(`\u201C${q.quote}\u201D\n\u2014 ${person.name}, ${q.source}`, btn, 'Copied!');
     });
   });
 
@@ -4828,7 +4882,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns(), loadHistoricalEvents(), loadConnections(), loadBooks(), loadWhatsNew()]);
+  await Promise.all([loadPeople(), loadPageviews(), loadQuiz(), loadVerses(), loadHymns(), loadHistoricalEvents(), loadConnections(), loadBooks(), loadQuotes(), loadWhatsNew()]);
 
   if (document.getElementById('home-digest')) {
     initHomePage();

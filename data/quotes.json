@@ -65,18 +65,6 @@
     ]
   },
   {
-    "id": "john-bunyan-1",
-    "person_id": "john-bunyan",
-    "quote": "So I awoke, and behold it was a dream.",
-    "source": "The Pilgrim's Progress (1678), closing line",
-    "source_url": "https://www.gutenberg.org/files/131/131-h/131-h.htm",
-    "confidence": "high",
-    "renown": "iconic",
-    "topics": [
-      "perseverance"
-    ]
-  },
-  {
     "id": "john-bunyan-2",
     "person_id": "john-bunyan",
     "quote": "He that is down needs fear no fall, he that is low no pride.",
@@ -181,19 +169,6 @@
     ]
   },
   {
-    "id": "cs-lewis-5",
-    "person_id": "cs-lewis",
-    "quote": "It is Christ Himself, not the Bible, who is the true Word of God.",
-    "source": "Letter, 8 November 1952; published in Letters of C. S. Lewis (1966)",
-    "source_url": "https://en.wikiquote.org/wiki/C._S._Lewis",
-    "confidence": "high",
-    "renown": "well_known",
-    "topics": [
-      "doctrine",
-      "scripture"
-    ]
-  },
-  {
     "id": "hudson-taylor-3",
     "person_id": "hudson-taylor",
     "quote": "All God's giants have been weak men, who did great things for God because they reckoned on His being with them.",
@@ -258,19 +233,6 @@
     ]
   },
   {
-    "id": "martin-luther-3",
-    "person_id": "martin-luther",
-    "quote": "Be a sinner and sin boldly, but believe and rejoice in Christ even more boldly, for he is victorious over sin, death, and the world.",
-    "source": "Letter to Philip Melanchthon, 1 August 1521; Luther's Works, Vol. 48, pp. 281-282",
-    "source_url": "https://www.1517.org/articles/sin-boldly",
-    "confidence": "high",
-    "renown": "well_known",
-    "topics": [
-      "grace",
-      "sin and grace"
-    ]
-  },
-  {
     "id": "john-wesley-1",
     "person_id": "john-wesley",
     "quote": "I look on all the world as my parish.",
@@ -332,19 +294,6 @@
     "topics": [
       "stewardship",
       "consecration"
-    ]
-  },
-  {
-    "id": "jonathan-edwards-3",
-    "person_id": "jonathan-edwards",
-    "quote": "The God that holds you over the pit of hell, much as one holds a spider or some loathsome insect over the fire, abhors you, and is dreadfully provoked.",
-    "source": "Sinners in the Hands of an Angry God (1741)",
-    "source_url": "https://en.wikiquote.org/wiki/Jonathan_Edwards",
-    "confidence": "high",
-    "renown": "iconic",
-    "topics": [
-      "repentance",
-      "doctrine"
     ]
   },
   {
@@ -794,19 +743,6 @@
     ]
   },
   {
-    "id": "francis-schaeffer-1",
-    "person_id": "francis-schaeffer",
-    "quote": "The direction in which science will move is set by the philosophic world view of the scientists.",
-    "source": "How Should We Then Live? (1976), Ch. 1",
-    "source_url": "https://en.wikiquote.org/wiki/Francis_Schaeffer",
-    "confidence": "high",
-    "renown": "well_known",
-    "topics": [
-      "apologetics",
-      "reason"
-    ]
-  },
-  {
     "id": "francis-schaeffer-2",
     "person_id": "francis-schaeffer",
     "quote": "If society gives the rights, it can take them away, they're not inalienable.",
@@ -921,19 +857,6 @@
     ]
   },
   {
-    "id": "billy-sunday-2",
-    "person_id": "billy-sunday",
-    "quote": "I have no interest in a God who does not smite.",
-    "source": "Quoted in Billy Sunday Was His Real Name (1955), University of Chicago Press, p. 179",
-    "source_url": "https://en.wikiquote.org/wiki/Billy_Sunday",
-    "confidence": "high",
-    "renown": "well_known",
-    "topics": [
-      "justice",
-      "sovereignty"
-    ]
-  },
-  {
     "id": "rc-sproul-1",
     "person_id": "rc-sproul",
     "quote": "To live coram Deo is to live one's entire life in the presence of God, under the authority of God, to the glory of God.",
@@ -966,7 +889,7 @@
     "source": "Journal entry, quoted in Shadow of the Almighty by Elisabeth Elliot (1958), p. 47",
     "source_url": "https://www.goodreads.com/quotes/12747-wherever-you-are-be-all-there-live-to-the-hilt",
     "confidence": "high",
-    "renown": "iconic",
+    "renown": "well_known",
     "topics": [
       "consecration",
       "commitment"
@@ -1341,32 +1264,6 @@
     ]
   },
   {
-    "id": "george-williams-1",
-    "person_id": "george-williams",
-    "quote": "Our object is the improvement of the spiritual condition of the young men engaged in houses of business, by the formation of Bible classes, family and social prayer meetings, mutual improvement societies, or any other spiritual agency.",
-    "source": "Founding statement of the YMCA, 6 June 1844",
-    "source_url": "https://christianhistoryinstitute.org/dailystory/permalink/george-williams-created-the-ymca-to-give-young-men-clean-and-useful-fun",
-    "confidence": "high",
-    "renown": "well_known",
-    "topics": [
-      "mission",
-      "evangelism"
-    ]
-  },
-  {
-    "id": "jeremiah-lanphier-1",
-    "person_id": "jeremiah-lanphier",
-    "quote": "A Day Prayer Meeting is held every Wednesday from 12 to 1 o'clock in the Consistory building of the North Dutch Church, corner of Fulton and William Streets.",
-    "source": "Handbill announcing the prayer meeting that sparked the 1857 Prayer Revival",
-    "source_url": "https://prayer.tsc.nyc/wp-content/uploads/jeremiah-lanphier-prayer-revival_paul-jehle_092016.pdf",
-    "confidence": "high",
-    "renown": "well_known",
-    "topics": [
-      "prayer",
-      "revival"
-    ]
-  },
-  {
     "id": "kenneth-taylor-1",
     "person_id": "kenneth-taylor",
     "quote": "I had a strong conviction that the ability to write Living Letters was a special gift from God.",
@@ -1416,6 +1313,189 @@
       "doctrine",
       "cross",
       "redemption"
+    ]
+  },
+  {
+    "id": "jim-elliot-2",
+    "person_id": "jim-elliot",
+    "quote": "He is no fool who gives what he cannot keep to gain that which he cannot lose.",
+    "source": "Journal entry while a student at Wheaton College, 1949; published in Shadow of the Almighty by Elisabeth Elliot (1958). His wording echoes a line of the Puritan Philip Henry (1631–1696).",
+    "source_url": "https://en.wikipedia.org/wiki/Jim_Elliot",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "sacrifice",
+      "missions"
+    ]
+  },
+  {
+    "id": "john-wesley-4",
+    "person_id": "john-wesley",
+    "quote": "I felt my heart strangely warmed. I felt I did trust in Christ, Christ alone for salvation, and an assurance was given me that he had taken away my sins, even mine, and saved me from the law of sin and death.",
+    "source": "Journal, 24 May 1738 (his Aldersgate Street conversion)",
+    "source_url": "https://en.wikipedia.org/wiki/Aldersgate_Day",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "conversion",
+      "assurance",
+      "grace"
+    ]
+  },
+  {
+    "id": "martin-luther-4",
+    "person_id": "martin-luther",
+    "quote": "Unless I am convinced by the testimony of the Scriptures or by clear reason, I am bound by the Scriptures I have quoted and my conscience is captive to the Word of God. I cannot and will not recant anything, since it is neither safe nor right to go against conscience. May God help me. Amen.",
+    "source": "Statement at the Diet of Worms, 18 April 1521 (abridged). The famous \"Here I stand, I can do no other\" does not appear in the transcripts or eyewitness accounts and was probably added later.",
+    "source_url": "https://en.wikiquote.org/wiki/Martin_Luther",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "scripture",
+      "courage",
+      "conscience"
+    ]
+  },
+  {
+    "id": "david-livingstone-2",
+    "person_id": "david-livingstone",
+    "quote": "I place no value on anything I have or may possess, except in relation to the kingdom of Christ.",
+    "source": "Private journal",
+    "source_url": "https://en.wikipedia.org/wiki/David_Livingstone",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "missions",
+      "stewardship"
+    ]
+  },
+  {
+    "id": "eric-liddell-1",
+    "person_id": "eric-liddell",
+    "quote": "It's complete surrender.",
+    "source": "Last words at Weihsien internment camp, 21 February 1945, as reported by a fellow missionary; recorded in The Flying Scotsman by Sally Magnusson (1981)",
+    "source_url": "https://en.wikipedia.org/wiki/Eric_Liddell",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "surrender",
+      "faithfulness"
+    ]
+  },
+  {
+    "id": "robert-murray-mcheyne-1",
+    "person_id": "robert-murray-mcheyne",
+    "quote": "Learn much of the Lord Jesus. For every look at yourself, take ten looks at Christ. He is altogether lovely.",
+    "source": "Letter, published in Memoir and Remains of the Rev. Robert Murray M'Cheyne, ed. Andrew A. Bonar (1844)",
+    "source_url": "https://archive.org/details/memoirremainsofr00bona",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "christ",
+      "assurance"
+    ]
+  },
+  {
+    "id": "robert-murray-mcheyne-2",
+    "person_id": "robert-murray-mcheyne",
+    "quote": "There cannot be a secret Christian. Grace is like ointment hid in the hand; it betrayeth itself.",
+    "source": "Quoted in Dictionary of Burning Words of Brilliant Writers, ed. Josiah Hotchkiss Gilbert (1895), p. 155",
+    "source_url": "https://en.wikiquote.org/wiki/Robert_Murray_M'Cheyne",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "witness",
+      "grace"
+    ]
+  },
+  {
+    "id": "martyn-lloyd-jones-1",
+    "person_id": "martyn-lloyd-jones",
+    "quote": "What is preaching? Logic on fire!",
+    "source": "Preaching and Preachers (1971)",
+    "source_url": "https://en.wikipedia.org/wiki/Martyn_Lloyd-Jones",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "preaching"
+    ]
+  },
+  {
+    "id": "william-booth-3",
+    "person_id": "william-booth",
+    "quote": "While women weep, as they do now, I'll fight; while little children go hungry, as they do now, I'll fight; while there remains one dark soul without the light of God, I'll fight — I'll fight to the very end!",
+    "source": "Traditionally linked to his last public address, Royal Albert Hall, 9 May 1912; wording varies between early reports (this version abridged from Booth the Beloved by J. Evan Smith, 1949)",
+    "source_url": "https://en.wikiquote.org/wiki/William_Booth",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "compassion",
+      "perseverance"
+    ]
+  },
+  {
+    "id": "john-flavel-1",
+    "person_id": "john-flavel",
+    "quote": "Sometimes providences, like Hebrew letters, must be read backwards.",
+    "source": "The Mystery of Providence (1678)",
+    "source_url": "https://en.wikiquote.org/wiki/John_Flavel",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "providence",
+      "suffering"
+    ]
+  },
+  {
+    "id": "george-whitefield-1",
+    "person_id": "george-whitefield",
+    "quote": "Lord Jesus, I am weary in Thy work, but not of it.",
+    "source": "Prayer reported shortly before his death, 1770; quoted in Dictionary of Burning Words of Brilliant Writers, ed. Josiah Hotchkiss Gilbert (1895), p. 518",
+    "source_url": "https://en.wikiquote.org/wiki/George_Whitefield",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "perseverance",
+      "preaching"
+    ]
+  },
+  {
+    "id": "gladys-aylward-1",
+    "person_id": "gladys-aylward",
+    "quote": "I wasn't God's first choice for what I've done for China. … I don't know what happened. Perhaps he died. Perhaps he wasn't willing… And God looked down… and saw Gladys Aylward… And God said — \"Well, she's willing!\"",
+    "source": "Quoted in World Shapers: A Treasury of Quotes from Great Missionaries (Shaw, 1991), pp. 6–7",
+    "source_url": "https://en.wikiquote.org/wiki/Gladys_Aylward",
+    "confidence": "high",
+    "renown": "iconic",
+    "topics": [
+      "missions",
+      "obedience"
+    ]
+  },
+  {
+    "id": "ct-studd-2",
+    "person_id": "ct-studd",
+    "quote": "Real Christians revel in desperate ventures for Christ, expecting from God great things and attempting the same with exhilaration.",
+    "source": "The Chocolate Soldier (1912)",
+    "source_url": "https://www.gutenberg.org/ebooks/22331",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "missions",
+      "courage"
+    ]
+  },
+  {
+    "id": "amy-carmichael-4",
+    "person_id": "amy-carmichael",
+    "quote": "Give me the love that leads the way, the faith that nothing can dismay, the hope no disappointments tire, the passion that will burn like fire; let me not sink to be a clod: make me Thy fuel, Flame of God.",
+    "source": "Poem \"Flame of God\"; in The Collected Poems of Amy Carmichael",
+    "source_url": "https://en.wikiquote.org/wiki/Amy_Carmichael",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "consecration",
+      "prayer"
     ]
   }
 ]
