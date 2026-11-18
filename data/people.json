@@ -15549,5 +15549,71 @@
         "open_to_public": true
       }
     ]
+  },
+  {
+    "id": "lu-xiaomin",
+    "name": "Lu Xiaomin 吕小敏",
+    "born": 1970,
+    "born_approximate": false,
+    "died": null,
+    "significant_dates": [
+      {
+        "date": "1970",
+        "event": "birth",
+        "details": "Born to a Hui peasant family in Fangcheng, Nanyang, Henan Province, China."
+      },
+      {
+        "date": "1989",
+        "event": "saved",
+        "details": "Trusted Christ aged nineteen, the night her aunt first took her to church."
+      },
+      {
+        "date": "1990",
+        "event": "published",
+        "details": "Wrote her first hymn, \"Bring Your Joy,\" beginning the Canaan Hymns."
+      },
+      {
+        "date": "1990",
+        "event": "other",
+        "details": "Joined the Fangcheng Fellowship house-church network as a lay evangelist."
+      },
+      {
+        "date": "Sep 1992",
+        "event": "other",
+        "details": "Arrested in Fangcheng and detained for 67 days; wrote fourteen more hymns while held."
+      }
+    ],
+    "nationality": "Chinese",
+    "era": "20th Century",
+    "region": "Asia",
+    "tradition": "Chinese house church (Fangcheng Fellowship)",
+    "flagged": false,
+    "footnote": "",
+    "topics": [
+      "hymn writing",
+      "worship",
+      "prayer",
+      "conversion",
+      "persecution",
+      "grace"
+    ],
+    "hymns": [
+      "Bring Your Joy",
+      "Five O'Clock in the Morning in China",
+      "Lord, May You Hold Our Hands",
+      "Lord, Have Mercy on China",
+      "There Really Is a God Who Loves You"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lu_Xiaomin",
+    "source_summary": "Lu Xiaomin (Lü Xiaomin, \"Sister Ruth\", b. 1970) is a Chinese house-church believer from Fangcheng, Henan, of Hui peasant background, who has written the Canaan Hymns (迦南诗选) since 1990: 1,810 as of July 2017 (Wikipedia) and more than 2,200 by 2025 (Christianity Today). Leaving school through illness, she worked as a farmer and taught herself characters from a dictionary. Introduced to the faith by an aunt, she trusted Christ at nineteen (1989), joined the Fangcheng Fellowship as a lay evangelist in 1990, and wrote her first hymn, \"Bring Your Joy,\" after a rural revival meeting. With no musical training, she composes songs from Bible verses that come to her in prayer; they spread by cassette and itinerant preachers to become the de facto hymnal of China's house churches, also sung in Three-Self and diaspora churches. Chinese Canadian composer An-lun Huang produced formal scores in 2002. She was detained at least twice, including 67 days from September 1992. Sources: English Wikipedia (Lu Xiaomin; Canaan Hymns), ChinaSource, and Christianity Today (X. Yang, \"The Chinese Christian Behind 2,000 Hymns,\" Dec 11, 2025). Her spiritual roots are described as Pentecostal and in the local churches movement, and she has testified to healing after prayer; the site owner reviewed these and decided not to flag her (2026-11-18).",
+    "adult_story": "Lu Xiaomin was born in 1970 to a peasant family of the Hui minority in Fangcheng, Henan Province, China. Chronic illness forced her out of school in her early teens, and she worked on the land, teaching herself Chinese characters from a dictionary while minding sheep. In 1990 she became a lay evangelist with the Fangcheng Fellowship, one of China's largest house-church networks. Arrested in 1992, she wrote fourteen more hymns during 67 days in detention.\n\nShe has no musical training, yet since 1990 she has written more than 2,000 Canaan Hymns. The first, \"Bring Your Joy,\" came to her during a sleepless night after a rural revival meeting. Spread by cassette tapes and itinerant preachers, they became the unofficial hymnal of the house churches. Her best-known hymn, \"Five O'Clock in the Morning in China,\" pictures believers rising before dawn to pray, a habit she still keeps.\n\nAs a girl she would sit in the fields gazing at the sky, the birds, and the trees, sure they were the work of a Creator whose name she did not know. When her aunt spoke to her about God, Xiaomin realised He was the One she had been seeking. She hurried to her aunt's house, asked to be taken to church at once, and that night, at nineteen, trusted Christ. Her hymns still point to that grace: God makes Himself known, and saves all who come to Him through faith in His Son.",
+    "family_story": "As a girl, Lu Xiaomin often sat in the fields of central China, looking at the sky, the birds, and the trees. She felt sure Someone had made them all, but she did not know His name. When her aunt told her about God, Xiaomin ran to her house and asked to be taken to church right away. That night, at nineteen, she put her trust in Jesus.\n\nXiaomin never studied music, yet she has written more than 2,000 songs, called the Canaan Hymns, sung by Christians all over China. In 1992 the police held her for 67 days, and still she kept writing. Her hymns point people to Jesus, who saves everyone who trusts Him.",
+    "image": null,
+    "memorials": [],
+    "review": {
+      "human_reviewed": false,
+      "reviewed_by": "",
+      "reviewed_date": ""
+    }
   }
 ]

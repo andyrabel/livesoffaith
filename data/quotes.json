@@ -1497,5 +1497,18 @@
       "consecration",
       "prayer"
     ]
+  },
+  {
+    "id": "lu-xiaomin-1",
+    "person_id": "lu-xiaomin",
+    "quote": "I don't really understand music theory, but I know the Spirit gives the song, and I just write it down when I receive it. I am a grassroot, a grassroot filled with the Holy Spirit.",
+    "source": "Interview in X. Yang, \"The Chinese Christian Behind 2,000 Hymns,\" Christianity Today, December 11, 2025",
+    "source_url": "https://www.christianitytoday.com/2025/12/lu-xiaomin-canaan-hymns-china-church-worship-songs/",
+    "confidence": "high",
+    "renown": "well_known",
+    "topics": [
+      "hymn writing",
+      "worship"
+    ]
   }
 ]

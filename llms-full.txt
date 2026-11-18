@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-11-02. 189 people.
+Generated 2026-11-18. 190 people.
 
 ---
 
@@ -2032,6 +2032,22 @@ Louis Zamperini was born in 1917 in Olean, New York, and grew up to become a cha
 Zamperini returned home from the war outwardly a hero but inwardly consumed by nightmares, rage, and alcoholism. In October 1949 he attended Billy Graham's Los Angeles crusade. Graham's preaching on the cross moved him to surrender his life to Christ, and that night his nightmares stopped for good. In 1952 he founded Victory Boys Camp to mentor troubled youth, and spent the rest of his life speaking about the faith and forgiveness that had remade him.
 
 In 1998, at eighty years old, Zamperini returned to Japan hoping to personally forgive his former captors, including Watanabe, who refused to meet him. He forgave him anyway. Zamperini was clear that this forgiveness was not something he had willed into being through sheer determination — it was the same grace he had received at the foot of the cross, now flowing outward to men who had shown him none.
+
+---
+
+## Lu Xiaomin 吕小敏 (b. 1970)
+
+URL: https://livesoffaith.org/person.html?id=lu-xiaomin
+Wikipedia: https://en.wikipedia.org/wiki/Lu_Xiaomin
+Nationality: Chinese · Tradition: Chinese house church (Fangcheng Fellowship) · Region: Asia · Era: 20th Century
+Topics: hymn writing, worship, prayer, conversion, persecution, grace
+Hymns: Bring Your Joy, Five O'Clock in the Morning in China, Lord, May You Hold Our Hands, Lord, Have Mercy on China, There Really Is a God Who Loves You
+
+Lu Xiaomin was born in 1970 to a peasant family of the Hui minority in Fangcheng, Henan Province, China. Chronic illness forced her out of school in her early teens, and she worked on the land, teaching herself Chinese characters from a dictionary while minding sheep. In 1990 she became a lay evangelist with the Fangcheng Fellowship, one of China's largest house-church networks. Arrested in 1992, she wrote fourteen more hymns during 67 days in detention.
+
+She has no musical training, yet since 1990 she has written more than 2,000 Canaan Hymns. The first, "Bring Your Joy," came to her during a sleepless night after a rural revival meeting. Spread by cassette tapes and itinerant preachers, they became the unofficial hymnal of the house churches. Her best-known hymn, "Five O'Clock in the Morning in China," pictures believers rising before dawn to pray, a habit she still keeps.
+
+As a girl she would sit in the fields gazing at the sky, the birds, and the trees, sure they were the work of a Creator whose name she did not know. When her aunt spoke to her about God, Xiaomin realised He was the One she had been seeking. She hurried to her aunt's house, asked to be taken to church at once, and that night, at nineteen, trusted Christ. Her hymns still point to that grace: God makes Himself known, and saves all who come to Him through faith in His Son.
 
 ---
 

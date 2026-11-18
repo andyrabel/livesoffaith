@@ -3343,5 +3343,17 @@
     "answer": "The Kaqchikel (Cakchiquel)",
     "person_id": "william-cameron-townsend",
     "difficulty": 5
+  },
+  {
+    "question": "What is the name of the collection of more than 2,000 hymns written by Chinese house-church believer Lu Xiaomin?",
+    "answer": "The Canaan Hymns",
+    "person_id": "lu-xiaomin",
+    "difficulty": 5
+  },
+  {
+    "question": "Lu Xiaomin's best-known hymn is a dawn prayer for her nation. What is it called?",
+    "answer": "Five O'Clock in the Morning in China",
+    "person_id": "lu-xiaomin",
+    "difficulty": 5
   }
 ]
