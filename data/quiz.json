@@ -3355,5 +3355,17 @@
     "answer": "Five O'Clock in the Morning in China",
     "person_id": "lu-xiaomin",
     "difficulty": 5
+  },
+  {
+    "question": "In which Lebanese port city was missionary Bonnie Witherall serving at a prenatal clinic when she was killed in 2002?",
+    "answer": "Sidon",
+    "person_id": "bonnie-witherall",
+    "difficulty": 5
+  },
+  {
+    "question": "Which Chicago Bible college did Bonnie Witherall attend before serving as a missionary in Lebanon?",
+    "answer": "Moody Bible Institute",
+    "person_id": "bonnie-witherall",
+    "difficulty": 5
   }
 ]

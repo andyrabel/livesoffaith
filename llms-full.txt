@@ -2,7 +2,7 @@
 
 > Complete plain-text biographies for every person on livesoffaith.org, for AI assistants and search tools that cannot execute the JavaScript that renders these pages in a browser. Canonical, interactive versions of each page (with portraits, timelines, memorials, and copy-to-clipboard tools) are linked below. All content is Christ-centred and grace-focused — see the summary in llms.txt for full editorial scope and exclusions.
 
-Generated 2026-11-18. 190 people.
+Generated 2026-11-21. 191 people.
 
 ---
 
@@ -385,6 +385,21 @@ Bilquis Sheikh was born into a prominent Muslim family near Rawalpindi in Punjab
 Through contact with missionaries David and Synnøve Mitchell, and after a period of prayer, searching, and dreams she took as confirmation from God, Sheikh committed her life to Christ on 24 December 1966. In the culture she belonged to, the baptism of a Muslim convert was treated as a decisive and public act, and when news of her conversion spread, her own family shunned her as a traitor. She received threats, and her home was eventually burned.
 
 Sheikh fled Pakistan for the United States in 1972, where she spent years speaking in churches and at Billy Graham Crusades about what she had found. Her 1978 memoir, I Dared to Call Him Father, told the story of a woman who had kept every religious rule she knew and still felt distant from God — until she discovered she could simply call him Father, not because she had earned it, but because Christ had made a way for her to be received as a daughter.
+
+---
+
+## Bonnie Witherall (c. 1971–2002)
+
+URL: https://livesoffaith.org/person.html?id=bonnie-witherall
+Wikipedia: https://www.christianitytoday.com/2003/01/stranger-in-strange-land-34/
+Nationality: American · Tradition: Interdenominational evangelical · Region: Asia · Era: 21st Century
+Topics: martyrdom, missions, sacrifice, forgiveness, compassion
+
+Bonnie Penner Witherall was an American Christian who studied at Moody Bible Institute in Chicago; during her college years, her sister recalled, she worked with AIDS patients in the city. With her British husband Gary she went to Lebanon with Operation Mobilisation and the Christian and Missionary Alliance, settling in the southern port city of Sidon.
+
+There she volunteered as a nurse's assistant at an evangelical clinic in the Unity Center, giving pre- and post-natal care to poor women, many of them Palestinian refugees from the nearby Ain al-Hilweh camp. A month before her death she wrote: "My burden and my question is how will these women and men ever hear about Jesus unless they are told." Her words echo Paul in Romans 10: sinners are saved not by religion or effort but by calling on the name of the Lord, and faith comes by hearing the word of Christ. In another letter she described the Christian life as "being prepared to be a living sacrifice daily."
+
+On 21 November 2002, as she was opening the clinic in the morning, a gunman shot her three times. She was thirty-one. Reports at the time could establish neither who killed her nor why. Gary publicly forgave the killer — "a costly forgiveness," he called it — reflecting the undeserved forgiveness Christ won for sinners at the cross.
 
 ---
 

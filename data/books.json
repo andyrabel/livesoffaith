@@ -4264,5 +4264,20 @@
     "cover_image_url": "",
     "cover_image_source": "",
     "fb_summary": ""
+  },
+  {
+    "id": "total-abandon-witherall",
+    "kind": "biography",
+    "person_id": "bonnie-witherall",
+    "title": "Total Abandon",
+    "author": "Gary Witherall with Elizabeth Cody Newenhuyse",
+    "year": "2005",
+    "format": "Paperback",
+    "isbn": "978-0-8423-8899-3",
+    "edition_note": "Tyndale House Publishers, 2005. Her husband Gary's account of their life and ministry in Lebanon and her death.",
+    "source": "https://openlibrary.org/books/OL8239491M",
+    "cover_image_url": "",
+    "cover_image_source": "",
+    "fb_summary": ""
   }
 ]
